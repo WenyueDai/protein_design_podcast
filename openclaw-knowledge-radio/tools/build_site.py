@@ -822,7 +822,7 @@ function _renderMissedList(papers) {{
   var list = document.getElementById('missed-list');
   if (!list) return;
   if (!papers || !papers.length) {{ list.innerHTML = ''; return; }}
-  var visible = papers.slice(-3).reverse();
+  var visible = papers.slice(-10).reverse();
   var html = '';
   for (var i = 0; i < visible.length; i++) {{
     var p = visible[i];
