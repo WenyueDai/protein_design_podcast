@@ -2,7 +2,7 @@
 
 A fully automated daily podcast for protein designers. Every morning at **05:00 UTC**, a GitHub Actions workflow wakes up on GitHub's servers, runs the entire pipeline without any computer needing to be on, and publishes a fresh ~60-minute episode to GitHub Pages.
 
-**Live site:** [wenyuedai.github.io/openclaw_podcast](https://wenyuedai.github.io/openclaw_podcast)
+**Live site:** [wenyuedai.github.io/protein_design_podcast](https://wenyuedai.github.io/protein_design_podcast)
 **Paper collection (Notion):** [all past digests](https://clear-squid-8e3.notion.site/3155f58ea8c280258959fba00c0149ab?v=3155f58ea8c2803c8c0d000c76d1bfba)
 **Deep dive notes (Notion):** [owner's expert annotations](https://clear-squid-8e3.notion.site/3165f58ea8c280498f72c770028aec0d?v=3165f58ea8c28020983c000cec9807e6)
 
@@ -267,7 +267,7 @@ The `PUT /contents/...` endpoint is GitHub's way of creating or updating a singl
            • GitHub Release (MP3 file)
            • Notion Paper Collection (text digest)
 
-Morning    Open wenyuedai.github.io/openclaw_podcast
+Morning    Open wenyuedai.github.io/protein_design_podcast
            Listen to podcast (e.g. during a 1-hour run)
            Click [N] on any paper to jump directly to it in the audio
 
@@ -345,7 +345,7 @@ docs/                             ← GitHub Pages site (auto-generated, never e
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/WenyueDai/openclaw_podcast.git
+git clone https://github.com/WenyueDai/protein_design_podcast.git
 cd openclaw_podcast/openclaw-knowledge-radio
 pip install -r requirements.txt
 sudo apt install ffmpeg        # Linux

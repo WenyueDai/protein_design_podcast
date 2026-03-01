@@ -316,7 +316,7 @@ podcast:
 
 publish:
   enabled: true
-  github_release_repo: "WenyueDai/openclaw_podcast"
+  github_release_repo: "WenyueDai/protein_design_podcast"
   cleanup_intermediate: true
 
 llm:
