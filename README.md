@@ -27,7 +27,7 @@ Fetches 42 RSS/Atom feeds simultaneously, grouped into:
 Each item gets a `bucket` tag: `protein`, `journal`, `ai_bio`, `news`, or `daily`.
 
 **1b. PubMed search** (`src/collectors/pubmed.py`)
-Runs ~18 keyword queries against the PubMed E-utilities API (e.g. "protein design deep learning", "de novo enzyme design", "protein fitness landscape"). Returns articles published in the last 2 days. If you have saved feedback, additional terms are dynamically extracted from titles of papers you liked.
+Runs ~18 keyword queries against the PubMed E-utilities API (e.g. "protein design deep learning", "de novo enzyme design", "protein fitness landscape"). Returns articles published in the last 2 days.
 
 **1c. Deduplication**
 Every item URL is checked against `state/seen_ids.json`, which persists across days. Items seen in previous runs are dropped. New items are added to seen_ids at the end of the run, so the podcast never repeats content. Runner-up articles that don't make the episode cap are intentionally kept unseen so they remain available for quieter days.
@@ -43,18 +43,19 @@ Items whose title, source, or URL contain any term from `excluded_terms` in `con
 Up to 8 articles are fetched and analyzed in parallel using a `ThreadPoolExecutor`. For each article, `newspaper4k` + `BeautifulSoup` extract the full text from the paper's webpage. A fast LLM (OpenRouter `stepfun/step-3.5-flash:free`) then reads the text and returns a structured analysis: core claim, novelty, and relevance score.
 
 **2b. Ranking** (`src/processing/rank.py`)
-Items are sorted by an 8-level priority key (lower = better):
+Items are sorted by a 9-level priority key (lower = better):
 
-| Priority | Factor |
-|----------|--------|
-| 0 | User feedback — papers from liked sources/titles get a boost |
-| 1 | Absolute author sources — researcher feeds (Baker, Ovchinnikov…) and blogs with `author` tag always come first |
-| 2 | Absolute title keywords — landmark model names in the title (AlphaFold, RoseTTAFold, ESMFold, RFdiffusion, ProteinMPNN, OpenFold, OmegaFold, Chai-1, Boltz, "structure prediction") get the same tier as author feeds |
-| 3 | Topic boost keywords — "antibody design", "enzyme design", "diffusion model", "protein language model", etc. |
-| 4 | Journal quality — Nature Biotech/Chem Bio/Structural > PNAS > Nature main > arXiv > others |
-| 5 | Research bucket — protein/journal/ai_bio before news |
-| 6 | Fulltext available — papers where full text was successfully extracted rank higher |
-| 7 | Extracted text length — longer text as a final tie-breaker |
+| Priority | Factor | Rationale |
+|----------|--------|-----------|
+| 0 | **Absolute author sources** — researcher feeds (Baker, Ovchinnikov…) and blogs with `author` tag | Curated, highest trust |
+| 1 | **Absolute title keywords** — AlphaFold, RoseTTAFold, ESMFold, RFdiffusion, ProteinMPNN, OpenFold, OmegaFold, Chai-1, Boltz, "structure prediction" | Landmark papers regardless of source |
+| 2 | **Missed paper keywords** — topics extracted from owner-submitted missed papers (`boosted_topics.json`) | Ground truth: papers actively sought out that the pipeline failed to collect |
+| 3 | **Config topic keywords** — "antibody design", "enzyme design", "diffusion model", "protein language model", etc. | Broad topic steering |
+| 4 | **Journal quality** — Nature Biotech/Chem Bio/Structural > PNAS > Nature main > arXiv > others | Source credibility |
+| 5 | **Research bucket** — protein/journal/ai_bio before news | Domain relevance |
+| 6 | **Feedback from likes** — papers from sources/titles the owner previously selected | Lighter weight: avoids selection-bias feedback loop |
+| 7 | **Fulltext available** — papers where full text was successfully extracted | Content quality |
+| 8 | **Extracted text length** | Final tie-breaker |
 
 Top 52 items are selected for the episode (38 max from the `protein` bucket). Per-source and per-bucket caps apply.
 
@@ -63,7 +64,7 @@ Top 52 items are selected for the episode (38 max from the `protein` bucket). Pe
 ### Phase 3 — Script Generation
 
 **3a. LLM script writing** (`src/processing/script_llm.py`)
-The ranked items are sent in batches to the main LLM (`arcee-ai/trinity-large-preview:free` via OpenRouter). For each paper, the LLM writes two things:
+The ranked items are sent in batches to the main LLM (`arcee-ai/trinity-large-preview:free` via OpenRouter). For each paper, the LLM writes:
 - A **deep-dive segment** (~250–300 words): background, methodology, findings, significance
 - A **roundup blurb** (~100 words): quick summary for papers that didn't make the deep-dive
 
@@ -138,7 +139,7 @@ The "Submit a missed paper" section at the bottom of the page is for the owner's
 2. Calls `GET /contents/state/missed_papers.json` to check for duplicate titles
 3. Appends the entry and calls `PUT` to commit it directly to GitHub
 
-This commit **immediately triggers** the `process_missed.yml` workflow (see Phase 7), so diagnosis and a Notion stub appear within ~2 minutes. The 10 most recent submissions are shown on the page with a collapsible "Show all" link.
+This commit **immediately triggers** the `process_missed.yml` workflow (see Phase 7), so diagnosis and a Notion stub appear within ~2 minutes. The 3 most recent submissions are shown on the page with a collapsible "Show all" link.
 
 **6c. Saving feedback** (owner only)
 Checking paper checkboxes and clicking "Save feedback" triggers JavaScript that:
@@ -147,7 +148,7 @@ Checking paper checkboxes and clicking "Save feedback" triggers JavaScript that:
 3. Merges your new selections into the existing data
 4. Calls `PUT` to commit the change
 
-The next day's pipeline reads `feedback.json` and uses it to re-rank papers.
+The next day's pipeline reads `feedback.json` and uses it to apply a soft ranking boost (tier 6, below missed paper keywords and journal quality).
 
 **6d. Writing "My Take" notes** (owner only)
 Clicking ✏️ next to a paper opens an inline textarea. Saving calls the same GitHub API pattern as feedback, but writes to `state/paper_notes.json` with `{note, title, source}` per paper URL. This commit to `paper_notes.json` **automatically triggers** the `sync_notes.yml` GitHub Actions workflow (see Phase 8).
@@ -166,7 +167,7 @@ Whenever the owner submits a missed paper, the **`process_missed.yml`** workflow
    | `source_not_in_rss` | The URL's domain is not in any configured RSS feed |
    | `low_ranking` | The source domain is in RSS feeds but the paper was cut below the episode cap or wasn't in the recent 24h window |
 
-2. **Extract keywords** (for `low_ranking` and `source_not_in_rss`): calls OpenRouter LLM to extract 3–5 topic phrases from the title. These are merged (case-insensitive dedup) into `state/boosted_topics.json`. The next daily run's ranker uses these keywords to boost similar papers.
+2. **Extract keywords** (for `low_ranking` and `source_not_in_rss`): calls OpenRouter LLM to extract 3–5 topic phrases from the title. These are merged (case-insensitive dedup) into `state/boosted_topics.json`. The next daily run's ranker loads these as **tier-2 priority** — above config topic keywords and above feedback from likes.
 
 3. **Discover RSS feed** (for `source_not_in_rss`): probes common feed paths (`/feed`, `/rss`, `/feed.xml`, etc.) on the paper's domain, and looks for `<link rel="alternate">` tags on the article page. If a valid feed is found, it is saved to `state/extra_rss_sources.json` and merged into the RSS collection on the next daily run.
 
@@ -271,16 +272,18 @@ Morning    Open wenyuedai.github.io/openclaw_podcast
            Click [N] on any paper to jump directly to it in the audio
 
 After run  For interesting papers:
-           • Check the ☑ checkbox → "Save feedback" → boosts similar papers tomorrow
+           • Check the ☑ checkbox → "Save feedback" → soft boost for similar papers tomorrow
            • Click ✏️ → type a quick expert note → Save
                  ↓
              paper_notes.json updated in GitHub repo
                  ↓ (sync_notes.yml triggers automatically, ~1 min)
              Notion deep-dive stub created with your note + paper link
 
-Anytime    Submit a paper the pipeline missed via the "Submit a missed paper" form
+Anytime    Found a paper the pipeline missed? Submit it via "Submit a missed paper"
                  ↓ (~2 minutes)
-             Diagnosis badge appears, Notion stub created, keywords boosted
+             Diagnosis badge appears, Notion stub created
+             Keywords extracted → boosted_topics.json updated
+             Next run: similar papers rise to tier-2 priority
 
 Later      Open Notion Deep Dive database
            Find the stub page → expand with your full analysis
@@ -302,7 +305,7 @@ openclaw-knowledge-radio/         ← Python pipeline package
 │   │   └── daily_knowledge.py    ← (disabled) Wikipedia daily facts
 │   ├── processing/
 │   │   ├── article_analysis.py   ← parallel LLM article analysis
-│   │   ├── rank.py               ← 8-level ranking + feedback + absolute title keywords
+│   │   ├── rank.py               ← 9-level ranking (see Phase 2b)
 │   │   └── script_llm.py         ← podcast script generation
 │   └── outputs/
 │       ├── tts_edge.py           ← Edge TTS → MP3 per segment
@@ -316,12 +319,12 @@ openclaw-knowledge-radio/         ← Python pipeline package
 ├── state/
 │   ├── seen_ids.json             ← URLs seen in previous runs (dedup)
 │   ├── release_index.json        ← date → GitHub Release audio URL
-│   ├── feedback.json             ← owner's paper selections (ranking signal)
+│   ├── feedback.json             ← owner's paper selections (soft ranking signal)
 │   ├── paper_notes.json          ← owner's expert notes per paper
 │   ├── notion_created.json       ← tracks which notes have been synced to Notion
 │   ├── missed_papers.json        ← owner-submitted missed papers (with diagnoses)
-│   ├── boosted_topics.json       ← keywords extracted from missed papers (merged into ranker)
-│   └── extra_rss_sources.json    ← RSS feeds discovered from missed paper URLs (merged at runtime)
+│   ├── boosted_topics.json       ← keywords from missed papers (tier-2 ranking priority)
+│   └── extra_rss_sources.json    ← RSS feeds discovered from missed paper URLs
 └── output/YYYY-MM-DD/            ← per-episode data (kept 30 days)
     ├── podcast_YYYY-MM-DD.mp3    ← final audio
     ├── podcast_script_*_llm.txt  ← LLM-generated script
@@ -387,7 +390,7 @@ Go to `Settings → Secrets and variables → Actions` and add:
 | `SLACK_WEBHOOK_URL` | Slack incoming webhook (optional, for run notifications) |
 | `NOTION_TOKEN` | Notion integration token for the **Paper Collection** database |
 | `NOTION_DATABASE_ID` | Paper Collection database ID |
-| `NOTION_API_KEY` | Notion integration token for the **Deep Dive Notes** database (same or different integration) |
+| `NOTION_API_KEY` | Notion integration token for the **Deep Dive Notes** database |
 
 ### 5. Browser setup (for owner interactive features)
 
@@ -405,11 +408,11 @@ This is stored only in your browser's `localStorage`. It enables the feedback ch
 |---------|-------------|
 | `limits` | `max_items_total` (52), `max_items_protein` (38), `source_caps` (per-journal caps) |
 | `excluded_terms` | Keywords that filter out off-topic items (cell biology, neurogenesis, etc.) |
-| `rss_sources` | 42 feeds with `name`, `url`, `bucket`, `tags`; sources tagged `author` get absolute priority |
+| `rss_sources` | 42 feeds with `name`, `url`, `bucket`, `tags`; sources tagged `author` get tier-0 absolute priority |
 | `pubmed` | `search_terms` (18 queries), `lookback_days`, `max_results_per_term` |
 | `podcast` | `voice`, `voice_rate`, `target_minutes` |
 | `llm` | `model` (script), `analysis_model` (per-article analysis), `provider` |
-| `ranking` | `absolute_title_keywords` (landmark model names), `absolute_source_substrings`, `source_priority_rules`, `topic_boost_keywords` |
+| `ranking` | `absolute_title_keywords` (tier-1 landmark model names), `absolute_source_substrings`, `source_priority_rules`, `topic_boost_keywords` (tier-3) |
 
 ---
 
@@ -418,13 +421,14 @@ This is stored only in your browser's `localStorage`. It enables the feedback ch
 Every GitHub Actions run does `git checkout main` as its first step, so it always runs the **latest committed code**.
 
 - ✅ 42 RSS sources covering protein design, structural biology, AI/ML, key researchers, and curated blogs
-- ✅ 8-level ranking: feedback → absolute authors → absolute title keywords → topic boost → journal quality → bucket → fulltext → length
-- ✅ Absolute title keywords: AlphaFold, RoseTTAFold, ESMFold, RFdiffusion, ProteinMPNN, OpenFold, OmegaFold, Chai-1, Boltz, "structure prediction" always make the episode
+- ✅ 9-level ranking: absolute authors → absolute title keywords → missed paper keywords → config topics → journal quality → bucket → feedback (lighter) → fulltext → length
+- ✅ Absolute author priority: researcher arXiv feeds and curated blogs (tagged `author`) always make the episode first
+- ✅ Absolute title keywords: AlphaFold, RoseTTAFold, ESMFold, RFdiffusion, ProteinMPNN, OpenFold, OmegaFold, Chai-1, Boltz, "structure prediction" get tier-1 priority regardless of source
+- ✅ Missed paper keyword boost: topics from owner-submitted missed papers go into `boosted_topics.json` at tier-2 — above config topic keywords and feedback
+- ✅ Feedback (likes) at tier-6: still useful as a soft signal, but demoted to avoid selection-bias feedback loops
 - ✅ Timestamp fix: clicking `[N]` lands 0.5s before transition tones
 - ✅ Source caps: Nature main / NSMB / PNAS / Structure capped at 3 items each
-- ✅ Feedback active: paper selections boost similar papers in future rankings
 - ✅ "My Take" notes: ✏️ button on each paper, saves to GitHub + triggers Notion stub creation (labelled "Daily Note")
 - ✅ Missed paper form: owner submits papers the pipeline missed; immediate diagnosis + Notion stub (labelled "Missed Paper") via `process_missed.yml`
-- ✅ Keyword boosting: keywords extracted from missed papers are merged into `boosted_topics.json` and used in future rankings
 - ✅ RSS discovery: `source_not_in_rss` papers trigger a feed probe; discovered feeds saved to `extra_rss_sources.json`
 - ✅ `daily_knowledge` disabled: no Wikipedia filler
