@@ -28,5 +28,14 @@
     ],
     "rss_feed_found": "",
     "notion_page_id": "3165f58e-a8c2-81c9-af65-fdbb39a665ee"
+  },
+  {
+    "id": "1772388304354",
+    "title": "Adversarial Sequence Mutations in AlphaFold and ESMFold Reveal Nonphysical Structural Invariance, Confidence Failures, and Concerns for Protein Design",
+    "url": null,
+    "date_submitted": "2026-03-01",
+    "processed": false,
+    "diagnosis": null,
+    "keywords_added": []
   }
 ]
