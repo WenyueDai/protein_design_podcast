@@ -832,6 +832,13 @@ function _missedItemHtml(p) {{
     + '</div>';
 }}
 
+function _toggleMissedMore(btn, extra) {{
+  var m = document.getElementById('missed-more');
+  var expanded = m.style.display !== 'none';
+  m.style.display = expanded ? 'none' : '';
+  btn.textContent = expanded ? 'Show all (' + extra + ' more)' : 'Show less';
+}}
+
 function _renderMissedList(papers) {{
   var list = document.getElementById('missed-list');
   if (!list) return;
@@ -840,15 +847,11 @@ function _renderMissedList(papers) {{
   var html = '';
   for (var i = 0; i < Math.min(3, all.length); i++) html += _missedItemHtml(all[i]);
   if (all.length > 3) {{
+    var extra = all.length - 3;
     html += '<div id="missed-more" style="display:none">';
     for (var i = 3; i < all.length; i++) html += _missedItemHtml(all[i]);
     html += '</div>';
-    html += '<button class="missed-toggle" onclick="'
-      + 'var m=document.getElementById(\'missed-more\');'
-      + 'var b=this;'
-      + 'if(m.style.display===\'none\'){{m.style.display=\'\';b.textContent=\'Show less\';}}'
-      + 'else{{m.style.display=\'none\';b.textContent=\'Show all (' + (all.length - 3) + ' more)\';}}'
-      + '">Show all (' + (all.length - 3) + ' more)</button>';
+    html += '<button class="missed-toggle" onclick="_toggleMissedMore(this,' + extra + ')">Show all (' + extra + ' more)</button>';
   }}
   list.innerHTML = html;
 }}
