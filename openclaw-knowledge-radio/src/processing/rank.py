@@ -210,20 +210,42 @@ def _journal_quality_priority(it: Dict[str, Any], cfg: Dict[str, Any]) -> int:
 _BOOST_FILE = Path(__file__).resolve().parent.parent.parent / "state" / "boosted_topics.json"
 
 
+def _missed_paper_keyword_priority(it: Dict[str, Any]) -> int:
+    """
+    ABSOLUTE TOP TIER (tier 0).
+    0 if the item matches any keyword extracted from user-submitted missed papers
+    (state/boosted_topics.json). These represent ground-truth relevance — papers
+    the user actively sought out that the pipeline failed to collect.
+    1 otherwise.
+    """
+    try:
+        missed_kws = json.loads(_BOOST_FILE.read_text(encoding="utf-8")) if _BOOST_FILE.exists() else []
+    except Exception:
+        missed_kws = []
+    if not missed_kws:
+        return 1
+    hay = " ".join([
+        (it.get("title") or ""),
+        (it.get("one_liner") or ""),
+        (it.get("snippet") or ""),
+        (it.get("source") or ""),
+    ]).lower()
+    for kw in (k.lower() for k in missed_kws):
+        if kw in hay:
+            return 0
+    return 1
+
+
 def _topic_keyword_priority(it: Dict[str, Any], cfg: Dict[str, Any]) -> int:
     """
-    0 if the item title/snippet matches a topic_boost_keyword, 1 otherwise.
+    0 if the item title/snippet matches a topic_boost_keyword from config.yaml, 1 otherwise.
     This makes on-topic items float above off-topic items within the same tier.
-    Keywords are merged from config.yaml and state/boosted_topics.json.
+    Only uses config.yaml keywords — missed paper keywords are handled separately at tier 0.
     """
     cfg_kws = (cfg.get("ranking") or {}).get("topic_boost_keywords") or []
-    try:
-        extra_kws = json.loads(_BOOST_FILE.read_text(encoding="utf-8")) if _BOOST_FILE.exists() else []
-    except Exception:
-        extra_kws = []
-    all_boost_kws = set(k.lower() for k in (cfg_kws + extra_kws))
-    if not all_boost_kws:
+    if not cfg_kws:
         return 0  # no config = no penalty
+    all_boost_kws = set(k.lower() for k in cfg_kws)
     hay = " ".join([
         (it.get("title") or ""),
         (it.get("one_liner") or ""),
@@ -259,14 +281,15 @@ def rank_and_limit(items: List[Dict[str, Any]], cfg: Dict[str, Any]) -> List[Dic
     Input/Output compatible with your current pipeline.
 
     New ranking policy (lower is better):
-    0) Feedback boost (liked sources / keywords)
-    1) ABSOLUTE: key researchers / author feeds (tag 'author' or Google Scholar, etc.)
-    2) ABSOLUTE: landmark paper titles (AlphaFold, RoseTTAFold, etc.)
-    3) On-topic keywords (topic_boost_keywords)
+    0) ABSOLUTE: key researchers / author feeds (tag 'author' or Google Scholar, etc.)
+    1) ABSOLUTE: landmark paper titles (AlphaFold, RoseTTAFold, etc.)
+    2) Missed paper keywords (topics extracted from user-submitted missed papers)
+    3) On-topic keywords from config (topic_boost_keywords)
     4) Journal/source quality (Nature family, PNAS, etc.)
     5) Bucket steering (protein/journal/ai_bio before news)
-    6) Fulltext as a small tie-breaker
-    7) Longer extracted text as tie-breaker
+    6) Feedback boost (liked sources / keywords) — lighter weight, avoids selection bias
+    7) Fulltext as a small tie-breaker
+    8) Longer extracted text as tie-breaker
     """
     # Limits (keep identical keys / defaults)
     lim = cfg.get("limits", {}) if isinstance(cfg, dict) else {}
@@ -286,14 +309,15 @@ def rank_and_limit(items: List[Dict[str, Any]], cfg: Dict[str, Any]) -> List[Dic
         extracted_chars = int(it.get("extracted_chars", 0) or 0)
         has_fulltext = 1 if _has_fulltext(it, FULLTEXT_THRESHOLD) else 0
         return (
-            _feedback_priority(it, liked_urls, liked_sources, liked_keywords),  # 0) feedback boost
-            _absolute_author_priority(it, cfg),      # 1) absolute researchers / author feeds
-            _absolute_title_priority(it, cfg),       # 2) landmark paper titles (AlphaFold etc.)
-            _topic_keyword_priority(it, cfg),        # 3) on-topic keywords
+            _absolute_author_priority(it, cfg),      # 0) ABSOLUTE: researchers / author feeds
+            _absolute_title_priority(it, cfg),       # 1) ABSOLUTE: landmark titles (AlphaFold etc.)
+            _missed_paper_keyword_priority(it),      # 2) missed paper keywords (user ground truth)
+            _topic_keyword_priority(it, cfg),        # 3) config topic keywords
             _journal_quality_priority(it, cfg),      # 4) journal quality
             _bucket_priority(it),                    # 5) research buckets
-            -has_fulltext,                           # 6) fulltext bonus
-            -extracted_chars,                        # 7) longer text tie-break
+            _feedback_priority(it, liked_urls, liked_sources, liked_keywords),  # 6) feedback (lighter)
+            -has_fulltext,                           # 7) fulltext bonus
+            -extracted_chars,                        # 8) longer text tie-break
         )
 
     ranked = sorted(items, key=rank_key)
