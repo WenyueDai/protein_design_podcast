@@ -468,7 +468,7 @@ audio {{ width:100%; margin:4px 0 6px; }}
       </div>
     </div>
     <details class="owner-tools">
-      <summary>&#9881;&#65039; Owner tools</summary>
+      <summary>&#9881;&#65039; Owner tools &mdash; add missing paper</summary>
       <div class="missed-section">
         <h3>&#128231; Submit a missed paper</h3>
         <p>Log a paper the pipeline missed — triggers an automatic diagnosis and boosts similar papers in future rankings.</p>
