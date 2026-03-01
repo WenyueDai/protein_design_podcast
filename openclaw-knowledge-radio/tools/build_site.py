@@ -496,7 +496,6 @@ audio {{ width:100%; margin:4px 0 6px; }}
         </details>
       </div>
     </details>
-    <p class="tip-row">&#128161; Click <strong>[N]</strong> next to any paper to jump the player to that segment &nbsp;·&nbsp; Green border = owner note</p>
     {body}
     <div class="feedback-bar">
       <strong>Your selections:</strong>
