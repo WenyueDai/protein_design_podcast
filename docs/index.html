@@ -136,8 +136,7 @@ audio { width:100%; margin:4px 0 6px; }
 .neko-eye-l,.neko-eye-r { transform-box:fill-box; transform-origin:center; }
 .neko-bowl,.neko-legs,.neko-zzz { display:none; }
 #ghibli-cat.eating .neko-bowl { display:block; }
-#ghibli-cat.eating .neko-head-group { animation:neko-eat-head 2.6s ease-in-out infinite; }
-.neko-head-group { transform-box:fill-box; transform-origin:50% 0%; }
+#ghibli-cat.eating svg { animation:neko-eat-float 2.6s ease-in-out infinite; }
 #ghibli-cat.eating .neko-eye-l,#ghibli-cat.eating .neko-eye-r { animation:neko-eat-eyes 2.6s ease-in-out infinite; }
 #ghibli-cat.eating .neko-tail { animation:neko-eat-tail 3.2s ease-in-out infinite; }
 #ghibli-cat.eating .neko-steam-1 { animation:neko-steam 2.6s ease-in 0s infinite; }
@@ -162,7 +161,7 @@ audio { width:100%; margin:4px 0 6px; }
 #ghibli-cat.idle .neko-body-group { animation:neko-breathe 3.5s ease-in-out infinite; }
 #ghibli-cat.idle .neko-tail,#ghibli-cat.sitting .neko-tail { animation:neko-tail-idle 3s ease-in-out infinite; }
 #ghibli-cat.face-left { transform:scaleX(-1); }
-@keyframes neko-eat-head { 0%,10%,90%,100% { transform:translateY(0); } 30%,70% { transform:translateY(34px); } 50% { transform:translateY(36px); } }
+@keyframes neko-eat-float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-7px); } }
 @keyframes neko-eat-eyes { 0%,18%,82%,100% { transform:scaleY(1); } 30%,66% { transform:scaleY(0.1); } }
 @keyframes neko-eat-tail { 0%,100% { transform:rotate(-8deg); } 50% { transform:rotate(26deg); } }
 @keyframes neko-steam { 0% { opacity:0; transform:translateY(0); } 18% { opacity:0.6; } 100% { opacity:0; transform:translateY(-22px); } }
