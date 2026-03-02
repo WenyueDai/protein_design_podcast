@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/openclaw_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 19:52:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 06:42:18 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-03-02</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-02/podcast_2026-03-02.mp3</guid>
+      <pubDate>Mon, 02 Mar 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-02/podcast_2026-03-02.mp3" length="47949957" type="audio/mpeg" />
+      <description>Researchers have developed a diverse database and machine learning model to narrow the generalization gap in RNA structure prediction. | Voltage-gated sodium channels are essential for electrical signaling in nerve and muscle cells, making them prime targets for treating conditions like epilepsy and chronic pain. | A new review in Protein Expression and Purification explores the diverse host systems used to produce recombinant antibody reagents for immunological assays.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Researchers have developed a diverse database and machine learning model to narrow the generalization gap in RNA structure prediction. | Voltage-gated sodium channels are essential for electrical signaling in nerve and muscle cells, making them prime targets for treating conditions like epilepsy and chronic pain. | A new review in Protein Expression and Purification explores the diverse host systems used to produce recombinant antibody reagents for immunological assays.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-03-01</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/openclaw_podcast/releases/download/episode-2026-03-01/podcast_2026-03-01.mp3</guid>
       <pubDate>Sun, 01 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/openclaw_podcast/releases/download/episode-2026-03-01/podcast_2026-03-01.mp3" length="32983533" type="audio/mpeg" />
-      <description>Coral reefs are often celebrated for their colorful fish and intricate structures, but beneath the surface lies an even more complex world: the microbial communities living inside and around corals. | The research team collected coral fragments and seawater samples from 99 reefs across 32 islands in the Pacific Ocean. | By combining this new data with publicly available coral and sponge microbiome datasets, the researchers built what they call the Reef Microbiome Database, or RMD.</description>
+      <enclosure url="https://github.com/WenyueDai/openclaw_podcast/releases/download/episode-2026-03-01/podcast_2026-03-01.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Coral reefs are often celebrated for their colorful fish and intricate structures, but beneath the surface lies an even more complex world: the microbial communities living inside and around corals. | The research team collected coral fragments and seawater samples from 99 reefs across 32 islands in the Pacific Ocean. | By combining this new data with publicly available coral and sponge microbiome datasets, the researchers built what they call the Reef Microbiome Database, or RMD.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>

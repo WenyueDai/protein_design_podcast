@@ -1,0 +1,474 @@
+{
+  "timestamps": [
+    0.0,
+    51.02,
+    102.57,
+    157.51,
+    210.13,
+    264.12,
+    365.2,
+    406.7,
+    452.63,
+    503.73,
+    554.81,
+    602.3,
+    649.62,
+    698.42,
+    745.43,
+    895.65,
+    1070.97,
+    1244.38,
+    1379.02,
+    1545.44,
+    1691.89,
+    1818.31,
+    1964.11,
+    2096.24,
+    2224.26,
+    2369.3,
+    2438.43,
+    2573.95,
+    2722.87,
+    2892.66,
+    3035.34,
+    3171.22,
+    3446.29,
+    3593.67,
+    3755.01,
+    3888.84,
+    4024.68,
+    4167.94,
+    4302.53,
+    4446.21,
+    4585.29,
+    4725.36,
+    4886.24,
+    5051.46,
+    5206.59,
+    5396.85,
+    5537.15,
+    5715.06,
+    5861.64,
+    6032.8,
+    6184.03,
+    6317.37
+  ],
+  "items": [
+    {
+      "title": "Diverse database and machine learning model to narrow the generalization gap in RNA structure prediction.",
+      "url": "https://doi.org/10.1126/sciadv.adz4967",
+      "source": "PubMed — Science advances",
+      "one_liner": "Understanding macromolecular structures of proteins and nucleic acids is critical for discerning their functions and biological roles. Advanced techniques-crystallography, nuclear magnetic resonance, and cryo-electron microscopy-have facilitated the determination of more than 180,000 protein structures, all cataloged in the Protein Data Bank. This compreh...",
+      "segment": 0,
+      "timestamp": 0.0
+    },
+    {
+      "title": "Exploring voltage-gated sodium channel conformations and protein-protein interactions using AlphaFold2.",
+      "url": "https://doi.org/10.1085/jgp.202413705",
+      "source": "PubMed — The Journal of general physiology",
+      "one_liner": "Voltage-gated sodium (NaV) channels are vital regulators of electrical activity in excitable cells. Given their importance in physiology, NaV channels are key therapeutic targets for treating numerous conditions, yet developing subtype-selective drugs remains challenging due to the high sequence and structural conservation among NaV subtypes. Recent advan...",
+      "segment": 1,
+      "timestamp": 51.02
+    },
+    {
+      "title": "A kaleidoscope of hosts: Expression systems of recombinant antibody reagents for immunological assays.",
+      "url": "https://doi.org/10.1016/j.pep.2025.106857",
+      "source": "PubMed — Protein expression and purification",
+      "one_liner": "Monoclonal antibodies (mAbs) have been shown to be highly promising reagents used in immunological analysis of various diseases and other chronic conditions due to their specific targeting, potency, and stability. Advances in protein engineering and immunology have led to the development of recombinant monoclonal antibodies at a staggering pace. Full-leng...",
+      "segment": 2,
+      "timestamp": 102.57
+    },
+    {
+      "title": "How do AI ensemble pipelines treat disorder? A head-to-head comparison on α-synuclein.",
+      "url": "https://doi.org/10.1080/07391102.2026.2630328",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "Intrinsically disordered proteins (IDPs) play central roles in signalling, regulation, and disease, yet they remain a severe challenge for current artificial intelligence models of protein structure. Most methods were trained on ordered, single structure data and optimize objectives that implicitly favour compact, well-folded conformations. IDPs, by contr...",
+      "segment": 3,
+      "timestamp": 157.51
+    },
+    {
+      "title": "Profile of David Baker, Demis Hassabis, and John Jumper: 2024 Nobel laureates in chemistry.",
+      "url": "https://doi.org/10.1073/pnas.2422539123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "The 2024 Nobel Prize in Chemistry recognized revolutionary computational success in predicting protein structures from amino acid sequences and for designing amino acid sequences that fold into desired protein structures. The ultimate accomplishment emerged principally from two labs, applying distinct approaches, culminating four decades of effort by the ...",
+      "segment": 4,
+      "timestamp": 210.13
+    },
+    {
+      "title": "The squeal of peeling tape, explained",
+      "url": "https://www.nature.com/articles/d41586-026-00516-w",
+      "source": "Nature (main journal)",
+      "one_liner": "Nature, Published online: 02 March 2026; doi:10.1038/d41586-026-00516-w Weak shock waves triggered by micro-cracks in the adhesive layer of tape cause it to screech when being unspooled from its roll.",
+      "segment": 5,
+      "timestamp": 264.12
+    },
+    {
+      "title": "Structures of λ-like phage A8 tail tip bound to OmpC provide insight into receptor recognition.",
+      "url": "https://doi.org/10.1016/j.str.2026.02.002",
+      "source": "PubMed — Structure (London, England : 1993)",
+      "one_liner": "Bacteriophage infection begins with the specific recognition of bacterial surface receptors by tail tip proteins, a decisive event that determines host specificity and triggers genome delivery. However, the structural principles underlying this process remain poorly understood. Here, we determined high-resolution cryo-electron microscopy (cryo-EM) structu...",
+      "segment": 6,
+      "timestamp": 365.2
+    },
+    {
+      "title": "Immunoinformatics-based design of a multi-epitope vaccine for Marburg virus.",
+      "url": "https://doi.org/10.1080/07391102.2024.2446673",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "Marburg viruses (MARV) are negative-stranded RNA viruses belonging to filoviridae family. This virus causes severe haemorrhagic fever in humans and non-human primates, with a high fatality rate. Currently, there are no vaccines or drugs have been approved to induce productive immunity or control viral infection. As a result, vaccination against this virus...",
+      "segment": 7,
+      "timestamp": 406.7
+    },
+    {
+      "title": "Virtual screening and molecular fingerprinting for",
+      "url": "https://doi.org/10.1080/07391102.2024.2446668",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "The CC chemokine receptor 5 (CCR5) is the principal entry receptor for HIV1 (macrophage tropic) as observed in the early stages of viral replication during attachment to the host cell. The coreceptor switch is one of the possible mechanisms for viral resistance. Hence, molecules designed to bind and inhibit CCR5 or CXCR4 would be effective in HIV (human i...",
+      "segment": 8,
+      "timestamp": 452.63
+    },
+    {
+      "title": "Network-based allosteric analysis of galectin-7: Key residues dictate functional communication and stability.",
+      "url": "https://doi.org/10.1002/pro.70502",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Allosteric modulation enables precise control of protein activity but remains difficult to harness for selective inhibitor design. Traditional high-throughput screening for allosteric modulators is still costly and time-consuming, underscoring the need for predictive computational approaches. Here, we combined network and shortest-path analyses to predict...",
+      "segment": 9,
+      "timestamp": 503.73
+    },
+    {
+      "title": "Role of associated water in stabilizing human γ-D crystallin under shape-dependent macromolecular crowding.",
+      "url": "https://doi.org/10.1002/pro.70507",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "The cytoplasm of a cell is inherently crowded with diverse biological macromolecules of different sizes, shapes, and compositions. These macromolecular crowders strongly influence the thermodynamics and kinetics of essential biological processes, including protein folding, association, and enzymatic activity. Therefore, in our earlier study, we examined P...",
+      "segment": 10,
+      "timestamp": 554.81
+    },
+    {
+      "title": "Intermediate heterogeneity modulates coupling between chain compaction and structure formation during protein folding.",
+      "url": "https://doi.org/10.1002/pro.70512",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Polypeptide chains undergo both compaction and structure formation during folding, but the extent to which these processes are mechanistically coupled remains unclear. Although initial chain collapse can precede structure formation, the two processes invariably appear coupled at later stages of folding. This raises the question of whether the fraction of ...",
+      "segment": 11,
+      "timestamp": 602.3
+    },
+    {
+      "title": "The endoplasmic reticulum in mitochondrial protein targeting: A neuronal perspective on organelle crosstalk.",
+      "url": "https://doi.org/10.1002/pro.70506",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Neurons depend on tightly regulated spatial proteostasis to maintain function across their extended morphology. The endoplasmic reticulum (ER), traditionally known for its function in protein synthesis, folding, and trafficking, has long been recognized as a central platform for directing proteins to organelles of the secretory and endocytic pathways. In ...",
+      "segment": 12,
+      "timestamp": 649.62
+    },
+    {
+      "title": "Phosphorylation disrupts the interaction between the intrinsically disordered region of the oncogenic NDRG1 and lipid vesicles.",
+      "url": "https://doi.org/10.1002/pro.70510",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "NDRG1 is a multifunctional regulatory human protein implicated in crucial cellular processes and acting as a central hub of a cancer-related interactome. In lung cancer, increased NDRG1 expression is associated with resistance to chemotherapy and is linked to the cellular response to nickel, a known tumor driver in air pollution. Although NDRG1 has been e...",
+      "segment": 13,
+      "timestamp": 698.42
+    },
+    {
+      "title": "A model of tuberculosis progression using CompuCell3D",
+      "url": "https://arxiv.org/abs/2602.24258",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2602.24258v1 Announce Type: new \nAbstract: Tuberculosis (TB) is an airborne disease caused by the bacterium Mycobacterium tuberculosis (M. tb). Prior to the COVID-19 pandemic, TB was the leading cause of death from an infectious agent globally. However, most people exposed to M. tb do not develop active TB and go on to display symptoms. Instead, in ...",
+      "segment": 14,
+      "timestamp": 745.43
+    },
+    {
+      "title": "Representing local protein environments with atomistic foundation models",
+      "url": "https://arxiv.org/abs/2505.23354",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2505.23354v3 Announce Type: replace \nAbstract: The local structure of a protein strongly impacts its function and interactions with other molecules. Therefore, a concise, informative representation of a local protein environment is essential for modeling and designing proteins and biomolecular interactions. However, these environments' extensive str...",
+      "segment": 15,
+      "timestamp": 895.65
+    },
+    {
+      "title": "MDIntrinsicDimension: Dimensionality-Based Analysis of Collective Motions in Macromolecules from Molecular Dynamics Trajectories",
+      "url": "https://arxiv.org/abs/2511.13550",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2511.13550v2 Announce Type: replace \nAbstract: Molecular dynamics (MD) simulations provide atomistic insights into the structure, dynamics, and function of biomolecules by generating time-resolved, high-dimensional trajectories. Analyzing such data benefits from estimating the minimal number of variables required to describe the explored conformatio...",
+      "segment": 16,
+      "timestamp": 1070.97
+    },
+    {
+      "title": "CAMEL: An ECG Language Model for Forecasting Cardiac Events",
+      "url": "https://arxiv.org/abs/2602.15677",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2602.15677v2 Announce Type: replace-cross \nAbstract: Electrocardiograms (ECG) are electrical recordings of the heart that are critical for diagnosing cardiovascular conditions. ECG language models (ELMs) have recently emerged as a promising framework for ECG classification accompanied by report generation. However, current models cannot forecast fut...",
+      "segment": 17,
+      "timestamp": 1244.38
+    },
+    {
+      "title": "Global Interpretability via Automated Preprocessing: A Framework Inspired by Psychiatric Questionnaires",
+      "url": "https://arxiv.org/abs/2602.23459",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2602.23459v1 Announce Type: cross \nAbstract: Psychiatric questionnaires are highly context sensitive and often only weakly predict subsequent symptom severity, which makes the prognostic relationship difficult to learn. Although flexible nonlinear models can improve predictive accuracy, their limited interpretability can erode clinical trust. In fie...",
+      "segment": 18,
+      "timestamp": 1379.02
+    },
+    {
+      "title": "BeeNet: Reconstructing Flower Shapes from Electric Fields using Deep Learning",
+      "url": "https://arxiv.org/abs/2508.11724",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2508.11724v2 Announce Type: replace \nAbstract: Pollinating insects can obtain information from electric fields arising from flowers. The density and usefulness of electric information remain unknown. Here, we show that electric information can be used to reconstruct geometrical features of the field source. We develop an algorithm that infers the sh...",
+      "segment": 19,
+      "timestamp": 1545.44
+    },
+    {
+      "title": "Tumor cell-intrinsic PD-1 in malignant ascites drives ovarian cancer progression via MAPK/ERK signaling.",
+      "url": "https://doi.org/10.1038/s41388-026-03693-0",
+      "source": "PubMed — Oncogene",
+      "one_liner": "Programmed cell death protein 1 (PD-1), an immune checkpoint primarily expressed on T cells, plays a critical role in mediating tumor immune evasion. However, the role of PD-1 in non-immune cells remains poorly understood. Here, we report tumor cell-intrinsic PD-1 expression in malignant ascites from ovarian cancer patients. Using murine ovarian cancer mo...",
+      "segment": 20,
+      "timestamp": 1691.89
+    },
+    {
+      "title": "Cryogenic performance evaluation of commercial SP4T microelectromechanical switch for quantum computing applications.",
+      "url": "https://doi.org/10.1038/s41378-026-01178-4",
+      "source": "PubMed — Microsystems & nanoengineering",
+      "one_liner": "Superconducting quantum computers have emerged as a leading platform for next-generation computing, offering exceptional scalability and unprecedented computational speeds. However, scaling these systems to millions of qubits for practical applications poses substantial challenges, particularly due to interconnect bottlenecks. To address this challenge, e...",
+      "segment": 21,
+      "timestamp": 1818.31
+    },
+    {
+      "title": "Molecular imaging of aortic fibroblast activation protein through",
+      "url": "https://doi.org/10.1007/s00259-025-07671-8",
+      "source": "PubMed — European journal of nuclear medicine and molecular imaging",
+      "one_liner": "PURPOSE: Aortic dilation represents an early pathological manifestation of aortic aneurysm formation. Due to the nonlinear nature of aortic expansion, relying solely on imaging-based diameter measurements is insufficient to fully assess the severity of pathological progression and the risk of rupture. METHODS: This was a cross-sectional study including 50...",
+      "segment": 22,
+      "timestamp": 1964.11
+    },
+    {
+      "title": "Disposable non-enzymatic impedimetric biosensor using Mn-doped ZnS-chitosan nanocomposite for tetracycline detection.",
+      "url": "https://doi.org/10.1371/journal.pone.0344103",
+      "source": "PubMed — PloS one",
+      "one_liner": "Monitoring antibiotic residues in aquaculture water is critical for food safety, environmental protection, and antimicrobial stewardship. Here, we present a proof-of-concept disposable, non-enzymatic impedimetric biosensor for the rapid and selective detection of tetracycline. The sensor employs interdigitated electrodes functionalized with a manganese-do...",
+      "segment": 23,
+      "timestamp": 2096.24
+    },
+    {
+      "title": "Evaluation of non-canonical p53 functions in DNA replication and recombination for variant classification.",
+      "url": "https://doi.org/10.1038/s41419-026-08463-0",
+      "source": "PubMed — Cell death & disease",
+      "one_liner": "Pathogenic germline TP53 variants predispose to diverse Li-Fraumeni syndrome (LFS) phenotypes and a broad cancer spectrum, whereby carriers of hypomorphic variants cluster in a cohort with attenuated disease onset and an overrepresentation of breast cancer (BC). Recently, functional assays have gained importance among the criteria used to predict the path...",
+      "segment": 24,
+      "timestamp": 2224.26
+    },
+    {
+      "title": "Ecological environment quality trends and influencing factors in the Gansu-Qinghai contiguous region of the Upper Yellow River.",
+      "url": "https://doi.org/10.1007/s10661-026-15087-6",
+      "source": "PubMed — Environmental monitoring and assessment",
+      "one_liner": "The Gansu-Qinghai contiguous region of the upper Yellow River occupies a strategic position in China's ecological security framework. However, comprehensive long-term assessment of ecological quality changes and their mechanisms in this ecologically fragile zone remains limited. Systematically evaluating ecological quality dynamics is necessary for suppor...",
+      "segment": 25,
+      "timestamp": 2369.3
+    },
+    {
+      "title": "Proteomic and in silico characterization of stress-responsive proteins in the prawn penaeus indsicus under sublethal copper toxicity.",
+      "url": "https://doi.org/10.1007/s10534-026-00798-7",
+      "source": "PubMed — Biometals : an international journal on the role of metal ions in biology, biochemistry, and medicine",
+      "one_liner": "Copper contamination is a major challenge in brackishwater aquaculture, yet the molecular timeline of sublethal metal stress in penaeid prawns remains poorly understood. To address this, we applied time-resolved differential proteomics and in silico analyses to identify copper-responsive proteins in post-larval Penaeus indicus. Larvae were exposed to 0.16...",
+      "segment": 26,
+      "timestamp": 2438.43
+    },
+    {
+      "title": "KCTD1 stabilizes c-Myc to upregulate PD-L1 and suppress anti-tumor immunity in hepatocellular carcinoma.",
+      "url": "https://doi.org/10.1038/s41420-026-02975-6",
+      "source": "PubMed — Cell death discovery",
+      "one_liner": "Hepatocellular carcinoma (HCC) is the predominant histologic subtype of primary liver cancer and accounts for approximately 90% of cases worldwide. Although immune checkpoint blockade (ICB) therapies targeting the PD-1/PD-L1 axis have demonstrated clinical promise in advanced HCC, therapeutic responses remain heterogeneous, underscoring the need to elucid...",
+      "segment": 27,
+      "timestamp": 2573.95
+    },
+    {
+      "title": "Reproducible and Efficient Phenotyping for Cell Therapy Manufacturing Using the Accellix Automated Flow Cytometer Platform.",
+      "url": "https://doi.org/10.5731/pdajpst.2025-000035.1",
+      "source": "PubMed — PDA journal of pharmaceutical science and technology",
+      "one_liner": "Measuring cellular quality attributes of cell therapy products is crucial because it ensures their safety, purity, potency, identity, and stability. These attributes help determine whether the therapy is effective and consistent across batches. Since cell therapy products are biologically complex, assessing their quality helps maintain lot-to-lot consiste...",
+      "segment": 28,
+      "timestamp": 2722.87
+    },
+    {
+      "title": "Common and rare variant contributions to discontinuation of stimulant treatment in ADHD.",
+      "url": "https://doi.org/10.1038/s41398-026-03925-7",
+      "source": "PubMed — Translational psychiatry",
+      "one_liner": "Stimulants are the first-line pharmacological treatment for ADHD and generally effective, yet 35-61% of individuals discontinue treatment within a year. We investigated the contribution of common and rare genetic variants to early stimulant discontinuation using data from 18,362 individuals with ADHD (31% female) initiating stimulants in iPSYCH, a Danish ...",
+      "segment": 29,
+      "timestamp": 2892.66
+    },
+    {
+      "title": "Data storage and retrieval with unnatural proteins expressed via E. coli.",
+      "url": "https://doi.org/10.1038/s41467-026-70061-7",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Data storage using proteins offers high capacity and stability, enabling utilization of protein techniques for data storage and retrieval. However, expressing unnatural proteins with random sequences for data storage and sequencing them for accurate data retrieval remain challenging. In this study, by encoding digital data into amino acid sequences and in...",
+      "segment": 30,
+      "timestamp": 3035.34
+    },
+    {
+      "title": "Graph-based transformer to predict the octanol-water partition coefficient.",
+      "url": "https://doi.org/10.1186/s13321-026-01160-2",
+      "source": "PubMed — Journal of cheminformatics",
+      "one_liner": "Lipophilicity is a fundamental physicochemical property that significantly influences various aspects of drug behavior, such as solubility, permeability, metabolism, distribution, protein binding, and excretion. Consequently, accurate prediction of this property is critical for the successful discovery and development of new drug candidates. The classical...",
+      "segment": 31,
+      "timestamp": 3171.22
+    },
+    {
+      "title": "Vogt-Koyanagi-Harada-like uveitis with severe hyalitis during treatment by anti-programmed death 1 antibody for lung cancer: a case report.",
+      "url": "https://doi.org/10.1186/s13256-026-05893-4",
+      "source": "PubMed — Journal of medical case reports",
+      "one_liner": "BACKGROUND: Vogt-Koyanagi-Harada-like uveitis that presents with severe hyalitis has rarely been reported during anti-programmed death 1 therapy. CASE PRESENTATION: A 70-year-old Chinese man presented with bilateral visual disturbances and vomiting after four cycles of serplulimab, an anti-programmed death 1 antibody, for metastatic lung carcinoma. His be...",
+      "segment": 32,
+      "timestamp": 3446.29
+    },
+    {
+      "title": "Laser-induced graphene: from precursor chemistry to process control and throughput-resolution-performance trade-offs.",
+      "url": "https://doi.org/10.1039/d5nr04319k",
+      "source": "PubMed — Nanoscale",
+      "one_liner": "Laser-induced graphene (LIG) has matured from a laboratory curiosity into a versatile platform for fabricating porous, conductive carbon architectures directly on flexible polymers and bio-derived substrates. While prior reviews have catalogued devices and applications, a unifying framework connecting the precursor molecular structure, laser process param...",
+      "segment": 33,
+      "timestamp": 3593.67
+    },
+    {
+      "title": "Rapid and efficient in situ digestion of proteins by SoniCoat for MALDI mass spectrometry imaging.",
+      "url": "https://doi.org/10.1007/s00216-025-06308-x",
+      "source": "PubMed — Analytical and bioanalytical chemistry",
+      "one_liner": "Visualizing the spatial distribution of proteins in biological tissue sections is fundamental to proteomic analysis, as they provide intuitive and comprehensive information for understanding their function. Matrix-assisted laser desorption/ionization mass spectrometry imaging (MALDI MSI) is a powerful tool for characterizing the spatial distribution of bi...",
+      "segment": 34,
+      "timestamp": 3755.01
+    },
+    {
+      "title": "[",
+      "url": "https://doi.org/10.1007/s00259-025-07613-4",
+      "source": "PubMed — European journal of nuclear medicine and molecular imaging",
+      "one_liner": "PURPOSE: This study evaluates the prognostic value of early response assessment using the Response Evaluation Criteria in PSMA imaging (RECIP 1.0) applied to 24-hour post-therapy SPECT/CT at the second cycle of lutetium-177 ( METHODS: This analysis included 136 metastatic castration-resistant prostate cancer (mCRPC) patients treated with ≥ 2 cycles of [ R...",
+      "segment": 35,
+      "timestamp": 3888.84
+    },
+    {
+      "title": "High-throughput antimicrobial efficacy tests on a 384PillarPlate.",
+      "url": "https://doi.org/10.1007/s11274-026-04805-4",
+      "source": "PubMed — World journal of microbiology & biotechnology",
+      "one_liner": "Preservatives, including antimicrobial compounds, are routinely added to home and personal care products such as dishwashing detergents to prevent microbial contamination during repeated consumer use. Traditional antimicrobial efficacy testing (T-AET) relies on colony counting methods, where microbial cocktails are inoculated into preservative-containing ...",
+      "segment": 36,
+      "timestamp": 4024.68
+    },
+    {
+      "title": "Physical echo state network based on the nonlinearity and dynamic response of ambipolar heterostructure transistors.",
+      "url": "https://doi.org/10.1038/s41467-026-70171-2",
+      "source": "PubMed — Nature communications",
+      "one_liner": "In the field of neuromorphic computing, time-series prediction poses a significant challenge to recurrent neural network architectures, often requiring task-specific customization that limits the development of general-purpose computing platforms. In this work, we implement a physical echo-state network (ESN) using ambipolar organic-inorganic heterostruct...",
+      "segment": 37,
+      "timestamp": 4167.94
+    },
+    {
+      "title": "SALIENT: Frequency-Aware Paired Diffusion for Controllable Long-Tail CT Detection",
+      "url": "https://arxiv.org/abs/2602.23447",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2602.23447v1 Announce Type: cross \nAbstract: Detection of rare lesions in whole-body CT is fundamentally limited by extreme class imbalance and low target-to-volume ratios, producing precision collapse despite high AUROC. Synthetic augmentation with diffusion models offers promise, yet pixel-space diffusion is computationally expensive, and existing...",
+      "segment": 38,
+      "timestamp": 4302.53
+    },
+    {
+      "title": "Selective Denoising Diffusion Model for Time Series Anomaly Detection",
+      "url": "https://arxiv.org/abs/2602.23662",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2602.23662v1 Announce Type: new \nAbstract: Time series anomaly detection (TSAD) has been an important area of research for decades, with reconstruction-based methods, mostly based on generative models, gaining popularity and demonstrating success. Diffusion models have recently attracted attention due to their advanced generative capabilities. Exist...",
+      "segment": 39,
+      "timestamp": 4446.21
+    },
+    {
+      "title": "CMT-Benchmark: A Benchmark for Condensed Matter Theory Built by Expert Researchers",
+      "url": "https://arxiv.org/abs/2510.05228",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2510.05228v2 Announce Type: replace \nAbstract: Large language models (LLMs) have shown remarkable progress in coding and math problem-solving, but evaluation on advanced research-level problems in hard sciences remains scarce. To fill this gap, we present CMT-Benchmark, a dataset of 50 problems covering condensed matter theory (CMT) at the level of ...",
+      "segment": 40,
+      "timestamp": 4585.29
+    },
+    {
+      "title": "SpatiaLab: Can Vision-Language Models Perform Spatial Reasoning in the Wild?",
+      "url": "https://arxiv.org/abs/2602.03916",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2602.03916v2 Announce Type: replace-cross \nAbstract: Spatial reasoning is a fundamental aspect of human cognition, yet it remains a major challenge for contemporary vision-language models (VLMs). Prior work largely relied on synthetic or LLM-generated environments with limited task designs and puzzle-like setups, failing to capture the real-world co...",
+      "segment": 41,
+      "timestamp": 4725.36
+    },
+    {
+      "title": "Enhancing Continual Learning for Software Vulnerability Prediction: Addressing Catastrophic Forgetting via Hybrid-Confidence-Aware Selective Replay for Temporal LLM Fine-Tuning",
+      "url": "https://arxiv.org/abs/2602.23834",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2602.23834v1 Announce Type: cross \nAbstract: Recent work applies Large Language Models (LLMs) to source-code vulnerability detection, but most evaluations still rely on random train-test splits that ignore time and overestimate real-world performance. In practice, detectors are deployed on evolving code bases and must recognise future vulnerabilitie...",
+      "segment": 42,
+      "timestamp": 4886.24
+    },
+    {
+      "title": "Permutation-Invariant Representation Learning for Robust and Privacy-Preserving Feature Selection",
+      "url": "https://arxiv.org/abs/2510.05535",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2510.05535v3 Announce Type: replace \nAbstract: Feature selection eliminates redundancy among features to improve downstream task performance while reducing computational overhead. Existing methods often struggle to capture intricate feature interactions and adapt across diverse application scenarios. Recent advances employ generative intelligence to...",
+      "segment": 43,
+      "timestamp": 5051.46
+    },
+    {
+      "title": "Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling",
+      "url": "https://arxiv.org/abs/2503.04398",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2503.04398v5 Announce Type: replace \nAbstract: Prevailing LLM serving engines employ expert parallelism (EP) to implement multi-device inference of massive MoE models. However, the efficiency of expert parallel inference is largely bounded by inter-device communication, as EP embraces expensive all-to-all collectives to route tokens to the remote ex...",
+      "segment": 44,
+      "timestamp": 5206.59
+    },
+    {
+      "title": "NuBench: An Open Benchmark for Deep Learning-Based Event Reconstruction in Neutrino Telescopes",
+      "url": "https://arxiv.org/abs/2511.13111",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2511.13111v3 Announce Type: replace-cross \nAbstract: Neutrino telescopes are large-scale detectors designed to observe Cherenkov radiation produced from neutrino interactions in water or ice. They exist to identify extraterrestrial neutrino sources and to probe fundamental questions pertaining to the elusive neutrino itself. A central challenge comm...",
+      "segment": 45,
+      "timestamp": 5396.85
+    },
+    {
+      "title": "Stationary Kernels and Gaussian Processes on Lie Groups and their Homogeneous Spaces I: the compact case",
+      "url": "https://arxiv.org/abs/2208.14960",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2208.14960v5 Announce Type: replace-cross \nAbstract: Gaussian processes are arguably the most important class of spatiotemporal models within machine learning. They encode prior information about the modeled function and can be used for exact or approximate Bayesian learning. In many applications, particularly in physical sciences and engineering, b...",
+      "segment": 46,
+      "timestamp": 5537.15
+    },
+    {
+      "title": "Continuous Optimization for Feature Selection with Permutation-Invariant Embedding and Policy-Guided Search",
+      "url": "https://arxiv.org/abs/2505.11601",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2505.11601v3 Announce Type: replace \nAbstract: Feature selection removes redundant features to enhanc performance and computational efficiency in downstream tasks. Existing works often struggle to capture complex feature interactions and adapt to diverse scenarios. Recent advances in this domain have incorporated generative intelligence to address t...",
+      "segment": 47,
+      "timestamp": 5715.06
+    },
+    {
+      "title": "When Does Multimodal Learning Help in Healthcare? A Benchmark on EHR and Chest X-Ray Fusion",
+      "url": "https://arxiv.org/abs/2602.23614",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2602.23614v1 Announce Type: new \nAbstract: Machine learning holds promise for advancing clinical decision support, yet it remains unclear when multimodal learning truly helps in practice, particularly under modality missingness and fairness constraints. In this work, we conduct a systematic benchmark of multimodal fusion between Electronic Health Re...",
+      "segment": 48,
+      "timestamp": 5861.64
+    },
+    {
+      "title": "MoDora: Tree-Based Semi-Structured Document Analysis System",
+      "url": "https://arxiv.org/abs/2602.23061",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2602.23061v2 Announce Type: replace-cross \nAbstract: Semi-structured documents integrate diverse interleaved data elements (e.g., tables, charts, hierarchical paragraphs) arranged in various and often irregular layouts. These documents are widely observed across domains and account for a large portion of real-world data. However, existing methods st...",
+      "segment": 49,
+      "timestamp": 6032.8
+    },
+    {
+      "title": "Learning Mixtures of Linear Dynamical Systems via Hybrid Tensor-EM Method",
+      "url": "https://arxiv.org/abs/2510.06091",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2510.06091v2 Announce Type: replace \nAbstract: Mixtures of linear dynamical systems (MoLDS) provide a path to model time-series data that exhibit diverse temporal dynamics across trajectories. However, its application remains challenging in complex and noisy settings, limiting its effectiveness for neural data analysis. Tensor-based moment methods c...",
+      "segment": 50,
+      "timestamp": 6184.03
+    },
+    {
+      "title": "Geometric Autoencoder Priors for Bayesian Inversion: Learn First Observe Later",
+      "url": "https://arxiv.org/abs/2509.19929",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2509.19929v3 Announce Type: replace-cross \nAbstract: Uncertainty Quantification (UQ) is paramount for inference in engineering. A common inference task is to recover full-field information of physical systems from a small number of noisy observations, a usually highly ill-posed problem. Sharing information from multiple distinct yet related physical...",
+      "segment": 51,
+      "timestamp": 6317.37
+    }
+  ]
+}
