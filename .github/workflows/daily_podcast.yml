@@ -2,8 +2,8 @@ name: Daily Podcast
 
 on:
   schedule:
-    # Runs at 05:00 UTC every day (= 5am London winter / 1pm Beijing+8)
-    - cron: "0 5 * * *"
+    # Runs at 03:00 UTC every day (= 3am London winter / 11am Beijing+8)
+    - cron: "0 3 * * *"
   workflow_dispatch:   # allows manual trigger from GitHub Actions tab
 
 jobs:
