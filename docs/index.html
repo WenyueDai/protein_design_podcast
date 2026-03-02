@@ -117,10 +117,14 @@ audio { width:100%; margin:4px 0 6px; }
 .diag-guide dt { padding-top:1px; }
 .diag-guide dd { margin:0; color:var(--text); }
 .diag-guide code { font-size:.8rem; background:var(--bg2); padding:1px 5px; border-radius:4px; }
-.today-summary { display:flex; flex-wrap:wrap; gap:4px 10px; align-items:center; font-size:.83rem; color:var(--text); background:var(--card); border:1px solid var(--line); border-radius:10px; padding:8px 14px; margin-bottom:14px; }
+.today-summary { font-size:.83rem; color:var(--text); background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px 14px; margin-bottom:14px; display:flex; flex-direction:column; gap:5px; }
+.ts-row { display:flex; flex-wrap:wrap; gap:4px 10px; align-items:center; }
 .ts-date { font-weight:600; color:var(--accent); }
 .ts-sep { color:var(--line); }
 .ts-dim { color:var(--muted); }
+.ts-label { font-weight:600; color:var(--text); margin-right:4px; white-space:nowrap; }
+.ts-researcher { color:#2d6a4f; }
+.ts-blog { color:#6d4c41; }
 .owner-feedback { margin-top:12px; padding:10px 12px; background:var(--bg2); border:1px solid var(--line); border-radius:10px; font-size:.88rem; }
 .owner-feedback button { padding:4px 12px; border:1px solid var(--accent); border-radius:6px; background:var(--accent); color:#fff; cursor:pointer; font-size:.85rem; margin-right:8px; }
 .owner-feedback button.sec { background:transparent; color:var(--accent); }
@@ -142,7 +146,7 @@ audio { width:100%; margin:4px 0 6px; }
         <a href="https://clear-squid-8e3.notion.site/3165f58ea8c280498f72c770028aec0d?v=3165f58ea8c28020983c000cec9807e6" target="_blank">Deep Dive Notes</a>
       </div>
     </div>
-    <div class="today-summary"><span class="ts-date">&#128197; 2026-03-02</span><span class="ts-sep">·</span><span><strong>52</strong> papers in today&rsquo;s episode</span><span class="ts-sep">·</span><span class="ts-dim">arXiv cs.LG (AI/ML) (14) · Protein science : a publication of … (5) · arXiv q-bio.QM (4)</span></div>
+    <div class="today-summary"><div class="ts-row"><span class="ts-date">&#128197; 2026-03-02</span><span class="ts-sep">·</span><span><strong>52</strong> papers in today&rsquo;s episode</span></div><div class="ts-row ts-dim">&#128300; No tracked researcher papers today</div><div class="ts-row ts-dim">&#128221; No blog updates today</div></div>
     <details class="owner-tools">
       <summary>&#9881;&#65039; Owner tools &mdash; add missing paper</summary>
       <div class="missed-section">

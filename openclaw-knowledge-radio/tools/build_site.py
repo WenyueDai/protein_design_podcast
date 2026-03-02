@@ -6,6 +6,10 @@ import random
 from pathlib import Path
 from datetime import datetime, timezone
 import html
+try:
+    import yaml as _yaml
+except ImportError:
+    _yaml = None
 
 # Derive paths relative to this file so the script works on any machine.
 # Override any of these with environment variables if needed.
@@ -202,6 +206,34 @@ def generate_cover_svg(seed_text: str):
 </svg>"""
 
 
+def _load_author_sources() -> tuple[set, set]:
+    """
+    Load config.yaml and return (researcher_sources, blog_sources).
+    - researcher_sources: author-tagged feeds that are arXiv author queries
+    - blog_sources: author-tagged feeds that are blogs/substacks
+    Both are sets of source name strings matching episode_items.json 'source' field.
+    """
+    cfg_file = _PACKAGE_DIR / "config.yaml"
+    if not cfg_file.exists() or _yaml is None:
+        return set(), set()
+    try:
+        cfg = _yaml.safe_load(cfg_file.read_text(encoding="utf-8"))
+        rss = cfg.get("rss_sources") or []
+        researchers, blogs = set(), set()
+        for s in rss:
+            tags = s.get("tags") or []
+            if "author" not in tags:
+                continue
+            name = s.get("name", "")
+            if "(arXiv)" in name or "arXiv" in name:
+                researchers.add(name)
+            else:
+                blogs.add(name)
+        return researchers, blogs
+    except Exception:
+        return set(), set()
+
+
 def _build_today_summary(episodes) -> str:
     """Build a compact stats bar from the most recent episode, baked at build time."""
     if not episodes:
@@ -212,25 +244,59 @@ def _build_today_summary(episodes) -> str:
         return ""
     date = ep["date"]
     total = len(items)
-    # Top 3 sources, with long names trimmed
+
+    researcher_sources, blog_sources = _load_author_sources()
+
+    # Priority-0: papers from tracked researcher feeds
     from collections import Counter
-    def _short_src(s):
-        s = s or "Unknown"
-        # Strip "PubMed — " prefix
-        if s.startswith("PubMed"):
-            s = s.split("—")[-1].strip() if "—" in s else "PubMed"
-        return s[:35] + "…" if len(s) > 35 else s
-    source_counts = Counter(_short_src(it.get("source")) for it in items)
-    top_sources = " · ".join(f"{src} ({n})" for src, n in source_counts.most_common(3))
-    return (
-        f'<div class="today-summary">'
-        f'<span class="ts-date">&#128197; {date}</span>'
-        f'<span class="ts-sep">·</span>'
-        f'<span><strong>{total}</strong> papers in today&rsquo;s episode</span>'
-        f'<span class="ts-sep">·</span>'
-        f'<span class="ts-dim">{html.escape(top_sources)}</span>'
-        f'</div>'
-    )
+    researcher_items = [it for it in items if it.get("source") in researcher_sources]
+    researcher_by_src = Counter(it.get("source") for it in researcher_items)
+
+    # Blog posts from tracked blogs
+    blog_items = [it for it in items if it.get("source") in blog_sources]
+
+    # Build rows
+    rows = [f'<div class="ts-row"><span class="ts-date">&#128197; {date}</span>'
+            f'<span class="ts-sep">·</span>'
+            f'<span><strong>{total}</strong> papers in today&rsquo;s episode</span></div>']
+
+    if researcher_items:
+        # Show each researcher with a count, trim long names
+        def _short(s):
+            s = (s or "").replace(" (arXiv)", "").replace("(arXiv)", "")
+            return s[:30] + "…" if len(s) > 30 else s
+        parts = " · ".join(
+            f"{_short(src)}{' ×' + str(n) if n > 1 else ''}"
+            for src, n in researcher_by_src.most_common()
+        )
+        rows.append(
+            f'<div class="ts-row">'
+            f'<span class="ts-label ts-researcher">&#128300; Tracked researchers</span>'
+            f'<span class="ts-dim">{html.escape(parts)}</span>'
+            f'</div>'
+        )
+    else:
+        rows.append(
+            f'<div class="ts-row ts-dim">&#128300; No tracked researcher papers today</div>'
+        )
+
+    if blog_items:
+        blog_names = " · ".join(
+            html.escape(it.get("source") or "")
+            for it in blog_items
+        )
+        rows.append(
+            f'<div class="ts-row">'
+            f'<span class="ts-label ts-blog">&#128221; Blog updates</span>'
+            f'<span class="ts-dim">{blog_names}</span>'
+            f'</div>'
+        )
+    else:
+        rows.append(
+            f'<div class="ts-row ts-dim">&#128221; No blog updates today</div>'
+        )
+
+    return f'<div class="today-summary">{"".join(rows)}</div>'
 
 
 def render_index(episodes, all_episodes=None):
@@ -477,10 +543,14 @@ audio {{ width:100%; margin:4px 0 6px; }}
 .diag-guide dt {{ padding-top:1px; }}
 .diag-guide dd {{ margin:0; color:var(--text); }}
 .diag-guide code {{ font-size:.8rem; background:var(--bg2); padding:1px 5px; border-radius:4px; }}
-.today-summary {{ display:flex; flex-wrap:wrap; gap:4px 10px; align-items:center; font-size:.83rem; color:var(--text); background:var(--card); border:1px solid var(--line); border-radius:10px; padding:8px 14px; margin-bottom:14px; }}
+.today-summary {{ font-size:.83rem; color:var(--text); background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px 14px; margin-bottom:14px; display:flex; flex-direction:column; gap:5px; }}
+.ts-row {{ display:flex; flex-wrap:wrap; gap:4px 10px; align-items:center; }}
 .ts-date {{ font-weight:600; color:var(--accent); }}
 .ts-sep {{ color:var(--line); }}
 .ts-dim {{ color:var(--muted); }}
+.ts-label {{ font-weight:600; color:var(--text); margin-right:4px; white-space:nowrap; }}
+.ts-researcher {{ color:#2d6a4f; }}
+.ts-blog {{ color:#6d4c41; }}
 .owner-feedback {{ margin-top:12px; padding:10px 12px; background:var(--bg2); border:1px solid var(--line); border-radius:10px; font-size:.88rem; }}
 .owner-feedback button {{ padding:4px 12px; border:1px solid var(--accent); border-radius:6px; background:var(--accent); color:#fff; cursor:pointer; font-size:.85rem; margin-right:8px; }}
 .owner-feedback button.sec {{ background:transparent; color:var(--accent); }}
