@@ -64,8 +64,14 @@
     "title": "Pairing Large-Scale Binding Affinity Measurements with Antibody-Antigen Structures",
     "url": null,
     "date_submitted": "2026-03-02",
-    "processed": false,
-    "diagnosis": null,
-    "keywords_added": []
+    "processed": true,
+    "diagnosis": "low_ranking",
+    "keywords_added": [
+      "binding affinity",
+      "antibody-antigen",
+      "large-scale measurements"
+    ],
+    "rss_feed_found": "",
+    "notion_page_id": "3175f58e-a8c2-8109-bb1f-d8f8d1f6f7de"
   }
 ]

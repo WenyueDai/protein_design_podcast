@@ -10,5 +10,8 @@
   "alphafold esmfold",
   "structure prediction",
   "confidence scores",
-  "binding analysis"
+  "binding analysis",
+  "binding affinity",
+  "antibody-antigen",
+  "large-scale measurements"
 ]
