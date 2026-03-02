@@ -49,8 +49,14 @@
     "title": "Overconfident: What Structure Prediction Confidence Scores Tell Us About Binding",
     "url": null,
     "date_submitted": "2026-03-02",
-    "processed": false,
-    "diagnosis": null,
-    "keywords_added": []
+    "processed": true,
+    "diagnosis": "low_ranking",
+    "keywords_added": [
+      "structure prediction",
+      "confidence scores",
+      "binding analysis"
+    ],
+    "rss_feed_found": "",
+    "notion_page_id": "3175f58e-a8c2-8156-b4e6-c3dc118352ca"
   }
 ]
