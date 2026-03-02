@@ -1119,18 +1119,38 @@ loadMissedPapers();
 <!-- ── Ghibli wandering cat ── -->
 <div id="ghibli-cat" class="sleeping">
 <svg viewBox="0 0 100 100" width="88" height="88" xmlns="http://www.w3.org/2000/svg" style="overflow:visible">
+<defs>
+  <!-- Turbulence displacement filter: makes silhouette edges fluffy/furry -->
+  <filter id="neko-fur" x="-30%" y="-30%" width="160%" height="160%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85 0.9" numOctaves="3" seed="4" result="noise"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="3.5" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</defs>
 <g class="neko-body-group">
+  <!-- Fur halo: enlarged silhouette rendered with displacement filter = fuzzy fur edges -->
+  <g filter="url(#neko-fur)">
+    <circle cx="50" cy="38" r="28" fill="#d4d0c8"/>
+    <ellipse cx="50" cy="72" rx="25" ry="21" fill="#d4d0c8"/>
+    <polygon points="25,25 17,5 42,18" fill="#d4d0c8"/>
+    <polygon points="66,23 74,4 76,19" fill="#d4d0c8"/>
+  </g>
   <!-- Tail -->
   <path class="neko-tail" d="M62,80 C76,72 82,56 77,42 C73,31 63,35 65,44 C67,53 74,50 70,39" stroke="#c0bece" stroke-width="7" fill="none" stroke-linecap="round"/>
   <path d="M71,40 C69,35 65,34 65,40" stroke="#e8e6f8" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <!-- Body — narrower than before -->
+  <!-- Body -->
   <ellipse cx="50" cy="72" rx="21" ry="17" fill="#d4d0c8"/>
   <ellipse cx="50" cy="68" rx="9" ry="4" fill="#b8b4a8" opacity="0.4"/>
   <!-- Belly (warm cream) -->
   <ellipse cx="50" cy="76" rx="14" ry="10" fill="#f0ede4"/>
-  <!-- Back legs — wider spread, longer -->
-  <rect class="neko-leg neko-leg-bl" x="19" y="83" width="11" height="23" rx="5.5" fill="#c0bcb4"/>
-  <rect class="neko-leg neko-leg-br" x="69" y="83" width="11" height="23" rx="5.5" fill="#c0bcb4"/>
+  <!-- Chest fur marks -->
+  <path d="M44,69 Q46,64 43,60" stroke="#bab6a8" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+  <path d="M50,67 Q52,62 50,58" stroke="#bab6a8" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+  <path d="M56,69 Q54,64 57,60" stroke="#bab6a8" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+  <path d="M47,75 Q49,71 46,68" stroke="#c8c4b6" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+  <path d="M53,75 Q51,71 54,68" stroke="#c8c4b6" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+  <!-- Back legs -->
+  <rect class="neko-leg neko-leg-bl" x="28" y="83" width="11" height="23" rx="5.5" fill="#c0bcb4"/>
+  <rect class="neko-leg neko-leg-br" x="60" y="83" width="11" height="23" rx="5.5" fill="#c0bcb4"/>
   <!-- Head -->
   <circle cx="50" cy="38" r="25" fill="#d4d0c8"/>
   <!-- Ear left -->
@@ -1172,14 +1192,14 @@ loadMissedPapers();
   <line x1="44" y1="49" x2="17" y2="53.5" stroke="#d8d4c4" stroke-width="1"/>
   <line x1="56" y1="47" x2="83" y2="43.5" stroke="#d8d4c4" stroke-width="1"/>
   <line x1="56" y1="49" x2="83" y2="53.5" stroke="#d8d4c4" stroke-width="1"/>
-  <!-- Front legs — wider spread, longer -->
-  <rect class="neko-leg neko-leg-fl" x="24" y="83" width="11" height="23" rx="5.5" fill="#c0bcb4"/>
-  <rect class="neko-leg neko-leg-fr" x="64" y="83" width="11" height="23" rx="5.5" fill="#c0bcb4"/>
+  <!-- Front legs -->
+  <rect class="neko-leg neko-leg-fl" x="30" y="83" width="11" height="23" rx="5.5" fill="#c0bcb4"/>
+  <rect class="neko-leg neko-leg-fr" x="58" y="83" width="11" height="23" rx="5.5" fill="#c0bcb4"/>
   <!-- Paws -->
-  <ellipse cx="24.5" cy="107" rx="7" ry="3" fill="#cec8be"/>
-  <ellipse cx="74.5" cy="107" rx="7" ry="3" fill="#cec8be"/>
-  <ellipse cx="29.5" cy="107" rx="7" ry="3" fill="#cec8be"/>
-  <ellipse cx="69.5" cy="107" rx="7" ry="3" fill="#cec8be"/>
+  <ellipse cx="33.5" cy="107" rx="7" ry="3" fill="#cec8be"/>
+  <ellipse cx="65.5" cy="107" rx="7" ry="3" fill="#cec8be"/>
+  <ellipse cx="35.5" cy="107" rx="7" ry="3" fill="#cec8be"/>
+  <ellipse cx="63.5" cy="107" rx="7" ry="3" fill="#cec8be"/>
   <!-- Floating z's (visible only when sleeping) -->
   <text class="neko-zzz neko-zzz1" x="67" y="23" font-size="10" fill="#9898cc" font-family="Georgia,serif" font-style="italic" opacity="0">z</text>
   <text class="neko-zzz neko-zzz2" x="74" y="14" font-size="8"  fill="#9898cc" font-family="Georgia,serif" font-style="italic" opacity="0">z</text>
