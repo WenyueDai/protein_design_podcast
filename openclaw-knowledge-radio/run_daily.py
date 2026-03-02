@@ -239,6 +239,25 @@ def main() -> int:
     ensure_dir(out_dir)
     ensure_dir(state_dir)
 
+    # Idempotency guard: if today's episode is already published, do nothing.
+    # release_index.json is committed by the first successful run, so a second
+    # GitHub Actions run will check it out and exit here before touching anything.
+    _force = os.environ.get("FORCE_REPUBLISH", "").strip().lower() in ("1", "true", "yes")
+    if not _force:
+        _release_index = state_dir / "release_index.json"
+        try:
+            _idx = json.loads(_release_index.read_text(encoding="utf-8")) if _release_index.exists() else {}
+        except Exception:
+            _idx = {}
+        _items_done = (out_dir / "episode_items.json").exists()
+        if today in _idx and _items_done:
+            print(
+                f"[run_daily] Episode {today} already published (release_index.json). "
+                "Skipping. Set FORCE_REPUBLISH=true to override.",
+                flush=True,
+            )
+            return 0
+
     seen = SeenStore(state_dir / "seen_ids.json")
 
     lookback_hours = int(os.environ.get("LOOKBACK_HOURS") or cfg.get("lookback_hours", 48))
