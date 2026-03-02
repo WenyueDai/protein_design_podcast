@@ -78,13 +78,38 @@ def upload_episode(
         f"https://uploads.github.com/repos/{repo}/releases/{release_id}/assets"
     )
 
-    # Existing assets — delete them so we always upload the latest version
+    # Check existing assets
     assets_r = requests.get(
         f"{api_base}/releases/{release_id}/assets", headers=hdrs, timeout=30
     )
-    existing_ids: dict[str, int] = {}  # name -> asset id
-    for asset in assets_r.json() if assets_r.ok else []:
-        existing_ids[asset["name"]] = asset["id"]
+    existing_assets: list = assets_r.json() if assets_r.ok else []
+    existing_ids: dict[str, int] = {a["name"]: a["id"] for a in existing_assets}
+
+    # If MP3 already exists and FORCE_REPUBLISH is not set, preserve original episode
+    force = os.environ.get("FORCE_REPUBLISH", "").strip().lower() in ("1", "true", "yes")
+    if not force:
+        for asset in existing_assets:
+            if asset["name"].endswith(".mp3"):
+                existing_mp3_url: str = asset["browser_download_url"]
+                print(
+                    f"[publish] MP3 already uploaded ({asset['name']}), "
+                    "skipping re-upload (set FORCE_REPUBLISH=true to override)",
+                    flush=True,
+                )
+                index_file = state_dir / "release_index.json"
+                index: dict = {}
+                if index_file.exists():
+                    try:
+                        index = json.loads(index_file.read_text(encoding="utf-8"))
+                    except Exception:
+                        pass
+                if index.get(date) != existing_mp3_url:
+                    index[date] = existing_mp3_url
+                    index_file.write_text(
+                        json.dumps(index, indent=2, sort_keys=True), encoding="utf-8"
+                    )
+                    print("[publish] Updated release_index.json", flush=True)
+                return existing_mp3_url
 
     # --- Upload MP3 + script (replace if already present) ---
     mp3_url: Optional[str] = None
