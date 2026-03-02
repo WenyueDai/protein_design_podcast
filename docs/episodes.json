@@ -3,12 +3,12 @@
     "date": "2026-03-02",
     "title": "Daily Podcast 2026-03-02",
     "audio": "https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-02/podcast_2026-03-02.mp3",
-    "script": "podcast_script_2026-03-02_llm.txt"
+    "script": null
   },
   {
     "date": "2026-03-01",
     "title": "Daily Podcast 2026-03-01",
     "audio": "https://github.com/WenyueDai/openclaw_podcast/releases/download/episode-2026-03-01/podcast_2026-03-01.mp3",
-    "script": "podcast_script_2026-03-01_llm.txt"
+    "script": null
   }
 ]

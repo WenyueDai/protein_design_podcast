@@ -49,8 +49,14 @@
     "title": "Mapping targetable sites on the human surfaceome for the design of novel binders",
     "url": null,
     "date_submitted": "2026-03-02",
-    "processed": false,
-    "diagnosis": null,
-    "keywords_added": []
+    "processed": true,
+    "diagnosis": "low_ranking",
+    "keywords_added": [
+      "targetable sites",
+      "human surfaceome",
+      "novel binders"
+    ],
+    "rss_feed_found": "",
+    "notion_page_id": "3175f58e-a8c2-8138-8aa1-fea278c0e79f"
   }
 ]
