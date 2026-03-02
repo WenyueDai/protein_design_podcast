@@ -5,9 +5,12 @@ from datetime import datetime
 from typing import Any, Dict, List, Optional
 
 import feedparser
+import requests as _requests
 from dateutil import parser as dtparser
 
 from src.utils.timeutils import cutoff_datetime
+
+_FETCH_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; feedbot/1.0; +https://github.com)"}
 
 
 def _parse_dt(dt_str: str) -> Optional[datetime]:
@@ -22,9 +25,15 @@ def _fetch_source(
     cutoff: datetime,
     upper: datetime,
 ) -> List[Dict[str, Any]]:
-    """Fetch and parse one RSS source. Returns items within the time window."""
+    """Fetch and parse one RSS source. Returns items within the time window.
+
+    Uses requests for HTTP fetching so that arXiv API URLs (which redirect
+    http→https and require a proper User-Agent) are handled correctly.
+    feedparser is used only for parsing the already-fetched content.
+    """
     try:
-        feed = feedparser.parse(src["url"])
+        resp = _requests.get(src["url"], timeout=30, headers=_FETCH_HEADERS)
+        feed = feedparser.parse(resp.content)
     except Exception:
         return []
 

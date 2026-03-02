@@ -554,6 +554,36 @@ audio {{ width:100%; margin:4px 0 6px; }}
 .owner-feedback {{ margin-top:12px; padding:10px 12px; background:var(--bg2); border:1px solid var(--line); border-radius:10px; font-size:.88rem; }}
 .owner-feedback button {{ padding:4px 12px; border:1px solid var(--accent); border-radius:6px; background:var(--accent); color:#fff; cursor:pointer; font-size:.85rem; margin-right:8px; }}
 .owner-feedback button.sec {{ background:transparent; color:var(--accent); }}
+/* ── Ghibli wandering cat ── */
+#ghibli-cat {{ position:fixed; z-index:55; pointer-events:none; user-select:none; width:100px; height:100px; }}
+#ghibli-cat svg {{ overflow:visible; }}
+.neko-leg {{ transform-box:fill-box; transform-origin:top center; }}
+.neko-tail {{ transform-box:fill-box; transform-origin:0% 100%; }}
+.neko-eye-l,.neko-eye-r {{ transform-box:fill-box; transform-origin:center; animation:neko-blink 4.5s ease-in-out infinite; }}
+.neko-eye-r {{ animation-delay:.08s; }}
+.neko-mouth-yawn {{ display:none; }}
+@keyframes neko-walk-a {{ 0%,100% {{ transform:rotate(-22deg); }} 50% {{ transform:rotate(22deg); }} }}
+@keyframes neko-walk-b {{ 0%,100% {{ transform:rotate(22deg); }} 50% {{ transform:rotate(-22deg); }} }}
+@keyframes neko-bob {{ 0%,50%,100% {{ transform:translateY(0); }} 25%,75% {{ transform:translateY(-3px); }} }}
+@keyframes neko-tail-walk {{ 0%,100% {{ transform:rotate(-14deg); }} 50% {{ transform:rotate(14deg); }} }}
+@keyframes neko-tail-sit  {{ 0%,100% {{ transform:rotate(8deg);  }} 50% {{ transform:rotate(36deg); }} }}
+@keyframes neko-tail-idle {{ 0%,100% {{ transform:rotate(-5deg); }} 50% {{ transform:rotate(10deg); }} }}
+@keyframes neko-blink {{ 0%,88%,100% {{ transform:scaleY(1); }} 91%,94% {{ transform:scaleY(.08); }} }}
+@keyframes neko-breathe {{ 0%,100% {{ transform:translateY(0) scaleY(1); }} 50% {{ transform:translateY(1px) scaleY(1.03); }} }}
+#ghibli-cat.walking .neko-leg-fl,#ghibli-cat.walking .neko-leg-br {{ animation:neko-walk-a .44s ease-in-out infinite; }}
+#ghibli-cat.walking .neko-leg-fr,#ghibli-cat.walking .neko-leg-bl {{ animation:neko-walk-b .44s ease-in-out infinite; }}
+#ghibli-cat.walking .neko-body-group {{ animation:neko-bob .44s ease-in-out infinite; }}
+#ghibli-cat.walking .neko-tail {{ animation:neko-tail-walk .44s ease-in-out infinite; }}
+#ghibli-cat.sitting .neko-tail {{ animation:neko-tail-sit 2.2s ease-in-out infinite; }}
+#ghibli-cat.idle    .neko-tail,#ghibli-cat.yawning .neko-tail {{ animation:neko-tail-idle 3s ease-in-out infinite; }}
+#ghibli-cat.idle .neko-body-group {{ animation:neko-breathe 3.5s ease-in-out infinite; }}
+#ghibli-cat.sitting .neko-leg {{ animation:none !important; transform:rotate(0deg); }}
+#ghibli-cat.sitting .neko-leg-fl {{ transform:rotate(-5deg); }}
+#ghibli-cat.sitting .neko-leg-fr {{ transform:rotate(5deg); }}
+#ghibli-cat.yawning .neko-mouth-normal {{ display:none; }}
+#ghibli-cat.yawning .neko-mouth-yawn   {{ display:block; }}
+#ghibli-cat.yawning .neko-eye-l,#ghibli-cat.yawning .neko-eye-r {{ animation:none; transform:scaleY(.12); }}
+#ghibli-cat.face-left {{ transform:scaleX(-1); }}
 </style>
 </head>
 <body>
@@ -1072,6 +1102,110 @@ async function submitMissedPaper() {{
 }}
 
 loadMissedPapers();
+</script>
+
+<!-- ── Ghibli wandering cat ── -->
+<div id="ghibli-cat" class="idle">
+<svg viewBox="0 0 100 100" width="100" height="100" xmlns="http://www.w3.org/2000/svg" style="overflow:visible">
+<g class="neko-body-group">
+  <!-- Tail (drawn first = behind everything) -->
+  <path class="neko-tail" d="M63,80 C77,72 84,56 79,42 C75,31 65,35 67,44 C69,53 76,50 72,39" stroke="#b4b2cc" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M73,40 C71,35 67,34 67,40" stroke="#dcdaf0" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Body -->
+  <ellipse cx="50" cy="72" rx="28" ry="18" fill="#cac9e0"/>
+  <ellipse cx="50" cy="68" rx="10" ry="5" fill="#b8b6d2" opacity="0.45"/>
+  <!-- Belly -->
+  <ellipse cx="50" cy="77" rx="17" ry="11" fill="#eae9f8"/>
+  <!-- Back legs -->
+  <rect class="neko-leg neko-leg-bl" x="27" y="84" width="12" height="18" rx="6" fill="#b4b2cc"/>
+  <rect class="neko-leg neko-leg-br" x="60" y="84" width="12" height="18" rx="6" fill="#b4b2cc"/>
+  <!-- Head (large round, classic Ghibli) -->
+  <circle cx="50" cy="38" r="27" fill="#cac9e0"/>
+  <!-- Ear left -->
+  <polygon points="26,22 18,5 38,18" fill="#cac9e0"/>
+  <polygon points="27,21 22,9 35,18" fill="#ffb8cc"/>
+  <!-- Ear right -->
+  <polygon points="66,20 74,4 76,18" fill="#cac9e0"/>
+  <polygon points="65,20 71,9 74,19" fill="#ffb8cc"/>
+  <!-- Forehead tabby stripes -->
+  <path d="M37,19 Q50,16 63,19" stroke="#b4b2d0" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M34,24 Q50,21 66,24" stroke="#b4b2d0" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- Eyes (sclera) -->
+  <ellipse class="neko-eye-l" cx="37" cy="37" rx="8" ry="9.5" fill="#1e1c42"/>
+  <ellipse class="neko-eye-r" cx="63" cy="37" rx="8" ry="9.5" fill="#1e1c42"/>
+  <!-- Iris -->
+  <ellipse cx="37" cy="38" rx="5.5" ry="6.5" fill="#5e6ae0"/>
+  <ellipse cx="63" cy="38" rx="5.5" ry="6.5" fill="#5e6ae0"/>
+  <!-- Ghibli eye shine (two per eye) -->
+  <circle cx="40" cy="33.5" r="3" fill="white"/>
+  <circle cx="66" cy="33.5" r="3" fill="white"/>
+  <circle cx="35" cy="41" r="1.5" fill="white" opacity="0.45"/>
+  <circle cx="61" cy="41" r="1.5" fill="white" opacity="0.45"/>
+  <!-- Nose -->
+  <ellipse cx="50" cy="47" rx="4" ry="2.8" fill="#f4a0c0"/>
+  <!-- Philtrum -->
+  <line x1="50" y1="50" x2="50" y2="52" stroke="#d08098" stroke-width="1.4"/>
+  <!-- Mouth normal -->
+  <path class="neko-mouth-normal" d="M45,52 Q50,57 55,52" stroke="#d08098" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Mouth yawn -->
+  <ellipse class="neko-mouth-yawn" cx="50" cy="55" rx="10" ry="8" fill="#b03060"/>
+  <ellipse class="neko-mouth-yawn" cx="50" cy="56" rx="7" ry="5.5" fill="#ff80aa"/>
+  <!-- Whiskers -->
+  <line x1="44" y1="47" x2="13" y2="43" stroke="#d4d2ee" stroke-width="1.1"/>
+  <line x1="44" y1="49" x2="13" y2="55" stroke="#d4d2ee" stroke-width="1.1"/>
+  <line x1="56" y1="47" x2="87" y2="43" stroke="#d4d2ee" stroke-width="1.1"/>
+  <line x1="56" y1="49" x2="87" y2="55" stroke="#d4d2ee" stroke-width="1.1"/>
+  <!-- Front legs -->
+  <rect class="neko-leg neko-leg-fl" x="29" y="84" width="12" height="18" rx="6" fill="#b4b2cc"/>
+  <rect class="neko-leg neko-leg-fr" x="58" y="84" width="12" height="18" rx="6" fill="#b4b2cc"/>
+  <!-- Paws -->
+  <ellipse cx="35" cy="103" rx="7.5" ry="3.5" fill="#c6c4dc"/>
+  <ellipse cx="64" cy="103" rx="7.5" ry="3.5" fill="#c6c4dc"/>
+  <ellipse cx="33" cy="103" rx="7.5" ry="3.5" fill="#c6c4dc"/>
+  <ellipse cx="66" cy="103" rx="7.5" ry="3.5" fill="#c6c4dc"/>
+</g>
+</svg>
+</div>
+<script>
+(function() {{
+  var cat = document.getElementById('ghibli-cat');
+  if (!cat) return;
+  var x, y, tx, ty, state, stateTimer, facingLeft, speed = 1.15;
+  function vw() {{ return Math.max(80, window.innerWidth  - 120); }}
+  function vh() {{ return Math.max(80, window.innerHeight - 120); }}
+  function cls() {{ cat.className = state + (facingLeft ? ' face-left' : ''); }}
+  function newTarget() {{ tx = 50 + Math.random()*(vw()-50); ty = 30 + Math.random()*(vh()-50); }}
+  function rest() {{
+    var r = Math.random();
+    if      (r < .44) {{ state='sitting'; stateTimer=180+Math.floor(Math.random()*220); }}
+    else if (r < .62) {{ state='yawning'; stateTimer=90; }}
+    else              {{ state='idle';    stateTimer=60+Math.floor(Math.random()*100); }}
+    cls();
+  }}
+  function tick() {{
+    if (state === 'walking') {{
+      var dx=tx-x, dy=ty-y, d=Math.sqrt(dx*dx+dy*dy);
+      if (d < 3) {{
+        rest();
+      }} else {{
+        x += dx/d*speed; y += dy/d*speed;
+        var wl = dx < 0;
+        if (wl !== facingLeft) {{ facingLeft=wl; cls(); }}
+      }}
+    }} else {{
+      if (--stateTimer <= 0) {{
+        if (Math.random() < .28) {{ rest(); }}
+        else {{ newTarget(); state='walking'; facingLeft=tx<x; cls(); }}
+      }}
+    }}
+    cat.style.left = Math.round(x)+'px';
+    cat.style.top  = Math.round(y)+'px';
+    requestAnimationFrame(tick);
+  }}
+  x=60+Math.random()*(vw()-80); y=40+Math.random()*(vh()-60);
+  newTarget(); state='idle'; stateTimer=50; facingLeft=false; cls();
+  requestAnimationFrame(tick);
+}})();
 </script>
 </body>
 </html>

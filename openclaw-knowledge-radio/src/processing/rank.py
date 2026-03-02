@@ -5,24 +5,42 @@ from typing import Any, Dict, List, Set
 
 def _load_feedback(cfg: Dict[str, Any]) -> tuple:
     """
-    Load state/feedback.json.
-    Returns (liked_urls: set, liked_sources: Dict[str,int], liked_keyword_counts: Dict[str,int]).
-    liked_keyword_counts maps word → how many liked titles contained it.
+    Load state/feedback.json with exponential time-decay.
+    Returns (liked_urls: set, liked_sources: Dict[str,float], liked_keyword_counts: Dict[str,float]).
+    liked_keyword_counts maps word → decay-weighted sum of liked titles containing it.
     Supports both old format (list of URL strings) and new format (list of {url,source,title} objects).
+
+    Half-life: configurable via ranking.feedback_halflife_days (default 14 days).
+    Weight per entry = 0.5 ** (days_ago / halflife_days).
+    Recent clicks count fully; clicks from 14 days ago count 50%; 28 days ago → 25%.
+    This lets your interests drift naturally — stop clicking a topic and it fades out.
     """
     import re as _re
+    from datetime import date as _date
     _STOP = {"the","a","an","and","or","of","in","for","to","is","are","with","from",
              "by","on","at","this","that","based","using","via","de","novo","new"}
     state_dir = Path(__file__).resolve().parent.parent.parent / "state"
     fb_file = state_dir / "feedback.json"
     if not fb_file.exists():
         return set(), {}, {}
+
+    r = (cfg.get("ranking") or {}) if isinstance(cfg, dict) else {}
+    halflife_days = float(r.get("feedback_halflife_days", 14) or 14)
+    today = _date.today()
+
     try:
         data = json.loads(fb_file.read_text(encoding="utf-8"))
         liked_urls: set = set()
-        liked_sources: Dict[str, int] = {}
-        word_counts: Dict[str, int] = {}
-        for entries in data.values():
+        liked_sources: Dict[str, float] = {}
+        word_counts: Dict[str, float] = {}
+        for date_key, entries in data.items():
+            # Compute decay weight for this date's entries
+            try:
+                entry_date = _date.fromisoformat(date_key)
+                days_ago = max((today - entry_date).days, 0)
+                weight = 0.5 ** (days_ago / halflife_days)
+            except (ValueError, TypeError):
+                weight = 1.0  # unknown date key → no decay
             for entry in (entries or []):
                 if isinstance(entry, str):
                     liked_urls.add(entry)
@@ -33,28 +51,28 @@ def _load_feedback(cfg: Dict[str, Any]) -> tuple:
                     if url:
                         liked_urls.add(url)
                     if src:
-                        liked_sources[src] = liked_sources.get(src, 0) + 1
+                        liked_sources[src] = liked_sources.get(src, 0.0) + weight
                     # Extract meaningful title words (length >= 5, not stop words)
                     for w in _re.findall(r"[a-zA-Z]{5,}", title.lower()):
                         if w not in _STOP:
-                            word_counts[w] = word_counts.get(w, 0) + 1
+                            word_counts[w] = word_counts.get(w, 0.0) + weight
         return liked_urls, liked_sources, word_counts
     except Exception:
         return set(), {}, {}
 
 
 def _feedback_score(it: Dict[str, Any], liked_urls: set,
-                    liked_sources: Dict[str, int],
-                    liked_keyword_counts: Dict[str, int]) -> int:
+                    liked_sources: Dict[str, float],
+                    liked_keyword_counts: Dict[str, float]) -> float:
     """
-    Graded feedback score.  Lower is better (more negative = stronger boost).
+    Graded feedback score with time-decay.  Lower is better (more negative = stronger boost).
 
-    Source signal  — each time you liked a paper from this source adds -1,
-                     capped at -5.  Repeated clicks on a source compound.
-    Keyword signal — each matching keyword contributes -1 per time it appeared
-                     in a liked title, capped at -3 per keyword, -5 total.
+    Source signal  — decay-weighted click count for this source, capped at -5.
+    Keyword signal — each matching keyword contributes its decay-weighted count,
+                     capped at -3 per keyword, -5 total.
 
     Range: -10 (very strong match) … 0 (no feedback overlap).
+    Weights are floats after time-decay, so scores are continuous.
 
     Sits at tier 4, before journal quality, so the more you click a
     source/topic the more it rises regardless of which journal published it.
@@ -303,10 +321,10 @@ def rank_and_limit(items: List[Dict[str, Any]], cfg: Dict[str, Any]) -> List[Dic
     1) ABSOLUTE: tracked blog/substack sources (tag 'author', non-arXiv)
     2) ABSOLUTE: landmark paper titles (AlphaFold, RoseTTAFold, etc.)
     3) Missed paper keywords (topics extracted from user-submitted missed papers)
-    4) On-topic keywords from config (topic_boost_keywords)
-    5) Journal/source quality (Nature family, PNAS, etc.)
-    6) Bucket steering (protein/journal/ai_bio before news)
-    7) Feedback boost (liked sources / keywords) — lighter weight, avoids selection bias
+    4) Graded feedback score (time-decayed; liked sources/keywords compound over time)
+    5) On-topic keywords from config (topic_boost_keywords)
+    6) Journal/source quality (Nature family, PNAS, etc.)
+    7) Bucket steering (protein/journal/ai_bio before news)
     8) Fulltext as a small tie-breaker
     9) Longer extracted text as tie-breaker
     """
@@ -319,15 +337,15 @@ def rank_and_limit(items: List[Dict[str, Any]], cfg: Dict[str, Any]) -> List[Dic
     # Fulltext threshold (keep compatibility)
     FULLTEXT_THRESHOLD = int((cfg.get("fulltext_threshold") if isinstance(cfg, dict) else None) or 1200)
 
-    # Load user feedback — boosts papers from liked sources/topics
-    liked_urls, liked_sources, liked_keywords = _load_feedback(cfg)
+    # Load user feedback — boosts papers from liked sources/topics (time-decayed)
+    liked_urls, liked_sources, liked_keyword_counts = _load_feedback(cfg)
     if liked_sources or liked_keyword_counts:
         top_sources = sorted(liked_sources.items(), key=lambda x: -x[1])[:3]
         top_kws = sorted(liked_keyword_counts.items(), key=lambda x: -x[1])[:5]
-        print(f"[rank] Feedback: {len(liked_sources)} source(s) "
-              f"({', '.join(f'{s}×{n}' for s,n in top_sources)}), "
+        print(f"[rank] Feedback (decay-weighted): {len(liked_sources)} source(s) "
+              f"({', '.join(f'{s}×{n:.1f}' for s,n in top_sources)}), "
               f"{len(liked_keyword_counts)} keyword(s) "
-              f"({', '.join(f'{k}×{n}' for k,n in top_kws)})", flush=True)
+              f"({', '.join(f'{k}×{n:.1f}' for k,n in top_kws)})", flush=True)
 
     def rank_key(it: Dict[str, Any]):
         extracted_chars = int(it.get("extracted_chars", 0) or 0)

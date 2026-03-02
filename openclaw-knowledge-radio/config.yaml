@@ -11,7 +11,6 @@ limits:
   max_items_protein: 38
   max_items_daily_knowledge: 5
   source_caps:
-    "Nature News": 3
     "Endpoints News": 2
     "Nature (main journal)": 3
     "Nature Structural & Molecular Biology": 3
@@ -67,11 +66,6 @@ rss_sources:
     tags: ["antibody-design", "nature", "topic"]
     bucket: "protein"
 
-  - name: "Nature - Enzyme Design"
-    url: "https://www.nature.com/subjects/enzyme-design.rss"
-    tags: ["enzyme-design", "nature", "topic"]
-    bucket: "protein"
-
   - name: "Nature Structural & Molecular Biology"
     url: "https://www.nature.com/nsmb.rss"
     tags: ["structural-biology", "protein", "journal"]
@@ -97,13 +91,8 @@ rss_sources:
     tags: ["protein"]
     bucket: "protein"
 
-  - name: "Protein Engineering Design and Selection"
-    url: "https://academic.oup.com/rss/site_5286/43985.xml"
-    tags: ["protein-engineering", "journal"]
-    bucket: "protein"
-
   - name: "Structure"
-    url: "https://www.cell.com/structure/rss"
+    url: "https://www.cell.com/structure/inpress.rss"
     tags: ["structural-biology", "protein", "journal"]
     bucket: "protein"
 
@@ -130,11 +119,6 @@ rss_sources:
     bucket: "ai_bio"
 
   # ── Industry & news (capped) ───────────────────────────────────────────────
-  - name: "Nature News"
-    url: "https://www.nature.com/nature/articles?type=news&format=rss"
-    tags: ["science-news"]
-    bucket: "news"
-
   - name: "Endpoints News"
     url: "https://endpts.com/feed/"
     tags: ["biotech", "industry"]
@@ -146,88 +130,65 @@ rss_sources:
     bucket: "daily"
 
   # ── Key researchers — protein / antibody / enzyme design ──────────────────
-  - name: "David Baker (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"David+J.+Baker\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
-    tags: ["protein-design", "author"]
-    bucket: "protein"
-
+  # Note: URLs use HTTPS and are fetched via requests (not feedparser's built-in
+  # fetcher) to avoid arXiv API 400 errors on HTTP→HTTPS redirects.
   - name: "Sergey Ovchinnikov (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Sergey+Ovchinnikov\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Sergey+Ovchinnikov%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["protein-design", "author"]
-    bucket: "protein"
-
-  - name: "Alexander Rives (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Alexander+Rives\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
-    tags: ["protein-LLM", "esm", "author"]
     bucket: "protein"
 
   - name: "Brian Hie (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Brian+Hie\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Brian+Hie%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["protein-LLM", "evolution", "author"]
     bucket: "protein"
 
   - name: "Charlotte Deane (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Charlotte+M.+Deane\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Charlotte+M.+Deane%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["antibody-design", "author"]
     bucket: "protein"
 
   - name: "Jeffrey Gray (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Jeffrey+J.+Gray\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Jeffrey+J.+Gray%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["antibody-design", "rosetta", "author"]
     bucket: "protein"
 
-  - name: "Tanja Kortemme (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Tanja+Kortemme\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
-    tags: ["protein-design", "author"]
-    bucket: "protein"
-
-  - name: "Po-Ssu Huang (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Po-Ssu+Huang\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
-    tags: ["protein-design", "author"]
-    bucket: "protein"
-
   - name: "Noelia Ferruz (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Noelia+Ferruz\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Noelia+Ferruz%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["protein-LLM", "enzyme-design", "author"]
     bucket: "protein"
 
   - name: "Debora Marks (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Debora+Marks\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Debora+Marks%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["protein-evolution", "fitness-landscape", "author"]
     bucket: "protein"
 
   - name: "Kevin Yang (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Kevin+K.+Yang\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Kevin+K.+Yang%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["protein-engineering", "directed-evolution", "author"]
     bucket: "protein"
 
   - name: "Yaron Lipman (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Yaron+Lipman\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Yaron+Lipman%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["diffusion", "protein-design", "author"]
     bucket: "protein"
 
-  - name: "Chloe Hsu (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Chloe+Hsu\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
-    tags: ["protein-fitness", "protein-LLM", "author"]
-    bucket: "protein"
-
   - name: "Jure Leskovec (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Jure+Leskovec\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Jure+Leskovec%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["graph-learning", "bio-ml", "author"]
     bucket: "ai_bio"
 
   - name: "Regina Barzilay (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Regina+Barzilay\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Regina+Barzilay%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["ai-biomed", "author"]
     bucket: "ai_bio"
 
   - name: "Bonnie Berger (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Bonnie+Berger\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Bonnie+Berger%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["computational-biology", "author"]
     bucket: "ai_bio"
 
   - name: "Tommi Jaakkola (arXiv)"
-    url: "http://export.arxiv.org/api/query?search_query=au:\"Tommi+Jaakkola\"&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Tommi+Jaakkola%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["machine-learning", "bio-ml", "author"]
     bucket: "ai_bio"
 
@@ -246,11 +207,6 @@ rss_sources:
     url: "https://www.asimov.press/feed"
     tags: ["biology", "science-writing", "substack", "author"]
     bucket: "ai_bio"
-
-  - name: "Mohammed AlQuraishi (blog)"
-    url: "https://moalquraishi.wordpress.com/feed/"
-    tags: ["protein-structure", "protein-LLM", "author"]
-    bucket: "protein"
 
   - name: "BLOPIG (Oxford Protein Informatics Group)"
     url: "https://www.blopig.com/blog/feed/"
@@ -344,18 +300,18 @@ ranking:
     - "structure prediction"
 
   absolute_source_substrings:
-    - "david baker"
     - "sergey ovchinnikov"
-    - "alexander rives"
     - "charlotte deane"
     - "jeffrey gray"
-    - "tanja kortemme"
+    - "noelia ferruz"
+    - "debora marks"
+    - "kevin yang"
+    - "yaron lipman"
 
   source_priority_rules:
     - {contains: "nature biotechnology", priority: 1}
     - {contains: "nature chemical biology", priority: 1}
     - {contains: "nature structural", priority: 1}
-    - {contains: "protein engineering design", priority: 1}
     - {contains: "structure", priority: 2}
     - {contains: "pnas", priority: 2}
     - {contains: "nature (main journal)", priority: 2}
