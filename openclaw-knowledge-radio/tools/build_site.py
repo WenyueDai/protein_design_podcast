@@ -562,7 +562,7 @@ audio {{ width:100%; margin:4px 0 6px; }}
 .neko-eye-l,.neko-eye-r {{ transform-box:fill-box; transform-origin:center; }}
 .neko-bowl,.neko-legs,.neko-zzz {{ display:none; }}
 #ghibli-cat.eating .neko-bowl {{ display:block; }}
-#ghibli-cat.eating svg {{ animation:neko-eat-float 2.6s ease-in-out infinite; }}
+#ghibli-cat.eating .neko-body-group,#ghibli-cat.eating .neko-head-group {{ animation:neko-eat-float 2.6s ease-in-out infinite; }}
 #ghibli-cat.eating .neko-eye-l,#ghibli-cat.eating .neko-eye-r {{ animation:neko-eat-eyes 2.6s ease-in-out infinite; }}
 #ghibli-cat.eating .neko-tail {{ animation:neko-eat-tail 3.2s ease-in-out infinite; }}
 #ghibli-cat.eating .neko-steam-1 {{ animation:neko-steam 2.6s ease-in 0s infinite; }}
@@ -1133,29 +1133,6 @@ loadMissedPapers();
     <ellipse cx="50" cy="88" rx="23" ry="6.5"/>
   </clipPath>
 </defs>
-<!-- Bowl (visible only when eating) -->
-<g class="neko-bowl">
-  <path class="neko-steam-1" d="M37,82 Q35,74 37,67 Q39,60 37,53" stroke="#d8d4e8" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0"/>
-  <path class="neko-steam-2" d="M50,80 Q48,72 50,64 Q52,57 50,50" stroke="#d8d4e8" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0"/>
-  <path class="neko-steam-3" d="M63,82 Q65,74 63,66 Q61,59 63,52" stroke="#d8d4e8" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0"/>
-  <path d="M27,88 Q24,106 50,110 Q76,106 73,88" fill="#ede5d4" stroke="#c8c0ae" stroke-width="1.2"/>
-  <ellipse cx="50" cy="88" rx="23" ry="6.5" fill="#c08820"/>
-  <g clip-path="url(#bowl-clip)">
-    <path d="M29,88 Q35,83 41,88 Q47,93 53,88 Q59,83 65,88 Q69,92 71,88" stroke="#f8f080" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-    <path d="M27,91 Q34,86 40,91 Q47,96 53,91 Q59,86 65,91 Q69,94 73,91" stroke="#f8f080" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <circle cx="41" cy="87" r="4.5" fill="#fff4f4" stroke="#f898a0" stroke-width="0.8"/>
-    <circle cx="41" cy="87" r="2" fill="#f87080"/>
-    <ellipse cx="61" cy="86" rx="5" ry="4" fill="#fffce8" stroke="#d4a840" stroke-width="0.6"/>
-    <circle cx="61" cy="86" r="2.5" fill="#f0c030"/>
-    <rect x="46" y="82" width="5" height="9" rx="1" fill="#1a2e1a" opacity="0.9"/>
-  </g>
-  <ellipse cx="50" cy="88" rx="23" ry="6.5" fill="none" stroke="#b8b0a0" stroke-width="1.8"/>
-  <ellipse cx="50" cy="87" rx="21" ry="5" fill="none" stroke="#f0ece0" stroke-width="1" opacity="0.5"/>
-  <line x1="63" y1="74" x2="76" y2="98" stroke="#c09040" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="68" y1="72" x2="80" y2="96" stroke="#b07030" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Noodle strand slurped up toward descending face -->
-  <path class="neko-noodle" d="M49,82 Q45,73 49,64 Q53,56 50,48" stroke="#f0e870" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0"/>
-</g>
 <!-- Body: fur halo, torso, tail, legs/paws — stays put during eating -->
 <g class="neko-body-group">
   <g filter="url(#neko-fur)">
@@ -1220,6 +1197,28 @@ loadMissedPapers();
   <text class="neko-zzz neko-zzz1" x="67" y="22" font-size="10" fill="#9898cc" font-family="Georgia,serif" font-style="italic" opacity="0">z</text>
   <text class="neko-zzz neko-zzz2" x="74" y="14" font-size="8"   fill="#9898cc" font-family="Georgia,serif" font-style="italic" opacity="0">z</text>
   <text class="neko-zzz neko-zzz3" x="79" y="7"  font-size="6.5" fill="#9898cc" font-family="Georgia,serif" font-style="italic" opacity="0">z</text>
+</g>
+<!-- Bowl: drawn last so it renders in front of the cat -->
+<g class="neko-bowl">
+  <path class="neko-steam-1" d="M37,82 Q35,74 37,67 Q39,60 37,53" stroke="#d8d4e8" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0"/>
+  <path class="neko-steam-2" d="M50,80 Q48,72 50,64 Q52,57 50,50" stroke="#d8d4e8" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0"/>
+  <path class="neko-steam-3" d="M63,82 Q65,74 63,66 Q61,59 63,52" stroke="#d8d4e8" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0"/>
+  <path d="M27,88 Q24,106 50,110 Q76,106 73,88" fill="#ede5d4" stroke="#c8c0ae" stroke-width="1.2"/>
+  <ellipse cx="50" cy="88" rx="23" ry="6.5" fill="#c08820"/>
+  <g clip-path="url(#bowl-clip)">
+    <path d="M29,88 Q35,83 41,88 Q47,93 53,88 Q59,83 65,88 Q69,92 71,88" stroke="#f8f080" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <path d="M27,91 Q34,86 40,91 Q47,96 53,91 Q59,86 65,91 Q69,94 73,91" stroke="#f8f080" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="41" cy="87" r="4.5" fill="#fff4f4" stroke="#f898a0" stroke-width="0.8"/>
+    <circle cx="41" cy="87" r="2" fill="#f87080"/>
+    <ellipse cx="61" cy="86" rx="5" ry="4" fill="#fffce8" stroke="#d4a840" stroke-width="0.6"/>
+    <circle cx="61" cy="86" r="2.5" fill="#f0c030"/>
+    <rect x="46" y="82" width="5" height="9" rx="1" fill="#1a2e1a" opacity="0.9"/>
+  </g>
+  <ellipse cx="50" cy="88" rx="23" ry="6.5" fill="none" stroke="#b8b0a0" stroke-width="1.8"/>
+  <ellipse cx="50" cy="87" rx="21" ry="5" fill="none" stroke="#f0ece0" stroke-width="1" opacity="0.5"/>
+  <line x1="63" y1="74" x2="76" y2="98" stroke="#c09040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="68" y1="72" x2="80" y2="96" stroke="#b07030" stroke-width="2.5" stroke-linecap="round"/>
+  <path class="neko-noodle" d="M49,82 Q45,73 49,64 Q53,56 50,48" stroke="#f0e870" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0"/>
 </g>
 </svg>
 </div>
