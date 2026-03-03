@@ -192,6 +192,254 @@ rss_sources:
     tags: ["machine-learning", "bio-ml", "author"]
     bucket: "ai_bio"
 
+  # ── 🇺🇸 US — MIT ────────────────────────────────────────────────────────────
+  - name: "Tess Smidt (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Tess+Smidt%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["equivariant-nn", "protein-design", "author"]
+    bucket: "protein"
+
+  - name: "Alexandre Rives (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Alexander+Rives%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-LLM", "author"]
+    bucket: "protein"
+
+  - name: "Amy Keating (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Amy+E.+Keating%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "protein-interaction", "author"]
+    bucket: "protein"
+
+  - name: "Yilun Du (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Yilun+Du%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["diffusion", "generative-model", "author"]
+    bucket: "ai_bio"
+
+  # ── 🇺🇸 US — Harvard ─────────────────────────────────────────────────────────
+  - name: "Marinka Zitnik (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Marinka+Zitnik%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["graph-ml", "bio-ml", "author"]
+    bucket: "ai_bio"
+
+  - name: "Nicholas Polizzi (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Nicholas+F.+Polizzi%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "author"]
+    bucket: "protein"
+
+  # ── 🇺🇸 US — Stanford ────────────────────────────────────────────────────────
+  - name: "Possu Huang (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Possu+Huang%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "author"]
+    bucket: "protein"
+
+  - name: "Rhiju Das (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Rhiju+Das%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["rna-design", "protein-design", "author"]
+    bucket: "protein"
+
+  - name: "Brian Trippe (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Brian+L.+Trippe%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["diffusion", "protein-design", "author"]
+    bucket: "protein"
+
+  - name: "Ron Dror (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Ron+O.+Dror%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["molecular-simulation", "protein-design", "author"]
+    bucket: "protein"
+
+  - name: "James Zou (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22James+Zou%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["ml-biology", "author"]
+    bucket: "ai_bio"
+
+  # ── 🇺🇸 US — University of Washington ────────────────────────────────────────
+  - name: "David Baker (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22David+Baker%22+AND+%28protein+OR+design%29&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "author"]
+    bucket: "protein"
+
+  - name: "Frank DiMaio (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Frank+DiMaio%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "structure-determination", "author"]
+    bucket: "protein"
+
+  - name: "Gaurav Bhardwaj (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Gaurav+Bhardwaj%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "author"]
+    bucket: "protein"
+
+  - name: "Neil King (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Neil+P.+King%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "nanotechnology", "author"]
+    bucket: "protein"
+
+  # ── 🇺🇸 US — UCSF ────────────────────────────────────────────────────────────
+  - name: "Tanja Kortemme (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Tanja+Kortemme%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "author"]
+    bucket: "protein"
+
+  - name: "William DeGrado (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22William+F.+DeGrado%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "author"]
+    bucket: "protein"
+
+  # ── 🇺🇸 US — UC Berkeley ──────────────────────────────────────────────────────
+  - name: "Jennifer Listgarten (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Jennifer+Listgarten%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["ml-biology", "protein-engineering", "author"]
+    bucket: "protein"
+
+  - name: "Yun Song (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Yun+S.+Song%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["computational-biology", "author"]
+    bucket: "ai_bio"
+
+  # ── 🇺🇸 US — Caltech ─────────────────────────────────────────────────────────
+  - name: "Frances Arnold (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Frances+H.+Arnold%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["directed-evolution", "enzyme-design", "author"]
+    bucket: "protein"
+
+  - name: "Yisong Yue (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Yisong+Yue%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["machine-learning", "bio-ml", "author"]
+    bucket: "ai_bio"
+
+  # ── 🇺🇸 US — University of Chicago ───────────────────────────────────────────
+  - name: "Rama Ranganathan (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Rama+Ranganathan%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-evolution", "fitness-landscape", "author"]
+    bucket: "protein"
+
+  - name: "Andrew Ferguson (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Andrew+L.+Ferguson%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "ml-biology", "author"]
+    bucket: "protein"
+
+  # ── 🇺🇸 US — Princeton / Duke / Columbia / NYU / Northwestern ────────────────
+  - name: "Ellen Zhong (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Ellen+D.+Zhong%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["cryo-em", "protein-structure", "author"]
+    bucket: "protein"
+
+  - name: "Alexander Tong (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Alexander+Tong%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["flow-matching", "generative-model", "author"]
+    bucket: "protein"
+
+  - name: "Mohammed AlQuraishi (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Mohammed+AlQuraishi%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-structure", "protein-design", "author"]
+    bucket: "protein"
+
+  - name: "Kyunghyun Cho (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Kyunghyun+Cho%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["machine-learning", "bio-ml", "author"]
+    bucket: "ai_bio"
+
+  - name: "Andrew Gordon Wilson (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Andrew+Gordon+Wilson%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["bayesian-ml", "author"]
+    bucket: "ai_bio"
+
+  - name: "Gabriel Rocklin (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Gabriel+J.+Rocklin%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-stability", "protein-design", "author"]
+    bucket: "protein"
+
+  - name: "Wengong Jin (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Wengong+Jin%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["molecular-design", "graph-ml", "author"]
+    bucket: "ai_bio"
+
+  - name: "Brian Kuhlman (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Brian+Kuhlman%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "author"]
+    bucket: "protein"
+
+  - name: "Pranam Chatterjee (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Pranam+Chatterjee%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-editing", "protein-design", "author"]
+    bucket: "protein"
+
+  # ── 🇨🇭 Switzerland — ETH / EPFL ─────────────────────────────────────────────
+  - name: "Donald Hilvert (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Donald+Hilvert%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["enzyme-design", "author"]
+    bucket: "protein"
+
+  - name: "Bruno Correia (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Bruno+E.+Correia%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "vaccine-design", "author"]
+    bucket: "protein"
+
+  - name: "Anne-Florence Bitbol (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Anne-Florence+Bitbol%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-evolution", "coevolution", "author"]
+    bucket: "protein"
+
+  # ── 🇨🇦 Canada ────────────────────────────────────────────────────────────────
+  - name: "Jian Tang (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Jian+Tang%22+AND+%28protein+OR+molecule+OR+drug%29&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["molecular-design", "graph-ml", "author"]
+    bucket: "ai_bio"
+
+  - name: "Philip Kim (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Philip+M.+Kim%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "author"]
+    bucket: "protein"
+
+  # ── 🇬🇧 UK ────────────────────────────────────────────────────────────────────
+  - name: "Michael Bronstein (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Michael+M.+Bronstein%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["geometric-dl", "bio-ml", "author"]
+    bucket: "ai_bio"
+
+  - name: "Yarin Gal (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Yarin+Gal%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["bayesian-ml", "uncertainty", "author"]
+    bucket: "ai_bio"
+
+  # ── 🇩🇪 Germany ───────────────────────────────────────────────────────────────
+  - name: "Frank Noe (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Frank+No%C3%A9%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["ml-molecular", "diffusion", "author"]
+    bucket: "protein"
+
+  # ── 🇮🇱 Israel ────────────────────────────────────────────────────────────────
+  - name: "Sarel Fleishman (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Sarel+J.+Fleishman%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-design", "author"]
+    bucket: "protein"
+
+  # ── 🇰🇷 South Korea ───────────────────────────────────────────────────────────
+  - name: "Minkyung Baek (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Minkyung+Baek%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-structure", "rosettafold", "author"]
+    bucket: "protein"
+
+  - name: "Martin Steinegger (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Martin+Steinegger%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-structure", "sequence-analysis", "author"]
+    bucket: "protein"
+
+  # ── 🇩🇰 Denmark ───────────────────────────────────────────────────────────────
+  - name: "Kresten Lindorff-Larsen (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Kresten+Lindorff-Larsen%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-dynamics", "protein-design", "author"]
+    bucket: "protein"
+
+  # ── 🇸🇪 Sweden ────────────────────────────────────────────────────────────────
+  - name: "Patrick Bryant (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Patrick+Bryant%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-structure", "protein-design", "author"]
+    bucket: "protein"
+
+  # ── 🇸🇬 Singapore ─────────────────────────────────────────────────────────────
+  - name: "Yang Zhang (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Yang+Zhang%22+AND+%28protein+structure+OR+threading%29&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    tags: ["protein-structure", "author"]
+    bucket: "protein"
+
   # ── Blogs & Substacks ──────────────────────────────────────────────────────
   - name: "A-Alpha Bio (To Affinity And Beyond)"
     url: "https://aalphabio.substack.com/feed"
@@ -323,6 +571,7 @@ ranking:
     - "structure prediction"
 
   absolute_source_substrings:
+    # Original
     - "sergey ovchinnikov"
     - "charlotte deane"
     - "jeffrey gray"
@@ -330,6 +579,28 @@ ranking:
     - "debora marks"
     - "kevin yang"
     - "yaron lipman"
+    # 🇺🇸 US — top priority
+    - "david baker"
+    - "tanja kortemme"
+    - "william degrado"
+    - "brian hie"
+    - "brian trippe"
+    - "alexander tong"
+    - "mohammed alquraishi"
+    - "ellen zhong"
+    - "possu huang"
+    - "gabriel rocklin"
+    - "tess smidt"
+    - "alexandre rives"
+    - "jennifer listgarten"
+    - "rama ranganathan"
+    - "gaurav bhardwaj"
+    - "frank dimaio"
+    - "pranam chatterjee"
+    # 🇨🇭 Switzerland — top priority
+    - "bruno correia"
+    - "anne-florence bitbol"
+    - "donald hilvert"
 
   source_priority_rules:
     - {contains: "nature biotechnology", priority: 1}
