@@ -645,7 +645,7 @@ audio {{ width:100%; margin:4px 0 6px; }}
     </div>
     <section class="visitor-message">
       <h3>&#128172; Leave a message</h3>
-      <p>Visitors can submit a note directly from the page. The form saves a draft in this browser so the message is not lost if the page reloads.</p>
+      <p>Please feel free to leave a note, share a thought, or say hello.</p>
       <div class="visitor-form">
         <input type="text" id="visitor-name" placeholder="Your name (optional)">
         <textarea id="visitor-message" placeholder="Write your message here..."></textarea>
