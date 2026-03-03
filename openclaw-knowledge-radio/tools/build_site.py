@@ -560,12 +560,14 @@ audio {{ width:100%; margin:4px 0 6px; }}
 .owner-feedback button {{ padding:4px 12px; border:1px solid var(--accent); border-radius:6px; background:var(--accent); color:#fff; cursor:pointer; font-size:.85rem; margin-right:8px; }}
 .owner-feedback button.sec {{ background:transparent; color:var(--accent); }}
 .visitor-message {{ background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px 18px; margin-bottom:14px; }}
-.visitor-message h3 {{ margin:0 0 6px; font-size:1rem; color:var(--accent); }}
+.visitor-message h3 {{ margin:0 0 6px; font-size:.95rem; color:var(--accent); }}
 .visitor-message p {{ margin:0 0 10px; font-size:.86rem; color:var(--muted); line-height:1.55; }}
-.visitor-form {{ display:flex; flex-direction:column; gap:8px; }}
+.visitor-form {{ display:flex; flex-direction:column; gap:8px; font-size:.86rem; line-height:1.5; }}
 .visitor-form input,
 .visitor-form textarea {{ width:100%; padding:8px 10px; border:1px solid var(--line); border-radius:8px; font:inherit; background:var(--bg2); color:var(--text); }}
 .visitor-form textarea {{ min-height:100px; resize:vertical; }}
+.visitor-form input::placeholder,
+.visitor-form textarea::placeholder {{ color:var(--muted); opacity:1; }}
 .visitor-actions {{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; }}
 .visitor-actions button {{ padding:7px 14px; border:1px solid var(--accent); border-radius:7px; cursor:pointer; font-size:.85rem; }}
 .visitor-actions .primary {{ background:var(--accent); color:#fff; }}
