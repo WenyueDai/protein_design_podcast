@@ -381,8 +381,8 @@ def render_index(episodes, all_episodes=None):
         cards.append(f"""
 <section class='card'>
   <h2>{html.escape(ep['title'])}</h2>
-  <p class='meta'>Published: {html.escape(ep['date'])} {s_link}</p>
-  <audio id="audio-{html.escape(ep['date'])}" controls preload="none"><source src="{html.escape(ep['audio_url'])}" type="audio/mpeg"></audio>
+  {f"<p class='meta'>{s_link}</p>" if s_link else ""}
+  <audio id="audio-{html.escape(ep['date'])}" controls preload="metadata"><source src="{html.escape(ep['audio_url'])}" type="audio/mpeg"></audio>
   <p class='speed-row'>Speed:
     <button onclick="setRate(1)">1x</button>
     <button onclick="setRate(1.2)">1.2x</button>
@@ -436,12 +436,26 @@ def render_index(episodes, all_episodes=None):
 <meta name='viewport' content='width=device-width,initial-scale=1'>
 <title>{html.escape(PODCAST_TITLE)}</title>
 <style>
-:root {{ --bg:#eef7ef; --bg2:#f7f4e9; --card:#fffdf6; --text:#2d3d33; --muted:#6d7f71; --accent:#4f8f6a; --line:#dbe7d9; }}
+:root {{ --bg:#eef7ef; --bg2:#f7f4e9; --card:#fffdf6; --text:#2d3d33; --muted:#6d7f71; --accent:#4f8f6a; --line:#dbe7d9; --body-size:0.95rem; --body-line:1.6; }}
 * {{ box-sizing:border-box; }}
-body {{ margin:0; font-family:"Hiragino Sans","Noto Sans JP",Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:linear-gradient(160deg,var(--bg),var(--bg2)); color:var(--text); }}
-.layout {{ display:flex; gap:20px; max-width:1200px; margin:0 auto; padding:28px 16px 40px; }}
+body {{ margin:0; font-family:"Hiragino Sans","Noto Sans JP",Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:linear-gradient(160deg,var(--bg),var(--bg2)); color:var(--text); font-size:var(--body-size); line-height:var(--body-line); }}
+.layout {{ display:flex; gap:24px; max-width:1320px; margin:0 auto; padding:28px 16px 40px; align-items:flex-start; }}
 .main-col {{ flex:1; min-width:0; }}
-.sidebar {{ width:220px; flex-shrink:0; transition:width .25s,opacity .25s; overflow:hidden; }}
+.hero {{ display:grid; grid-template-columns:minmax(0,1.45fr) minmax(260px,.9fr); gap:16px; margin-bottom:18px; }}
+.hero-panel {{ background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px 20px; box-shadow:0 10px 24px rgba(79,143,106,.10); }}
+.hero-panel h1 {{ margin:0 0 8px; letter-spacing:.2px; font-size:clamp(1.8rem,3.2vw,2.5rem); line-height:1.05; }}
+.hero-kicker {{ margin:0 0 12px; font-size:.94rem; color:var(--muted); line-height:1.6; max-width:58ch; }}
+.hero-note {{ margin:0; font-size:.85rem; color:var(--muted); line-height:1.55; }}
+.hero-links {{ display:flex; flex-direction:column; gap:12px; }}
+.quick-links {{ display:flex; flex-wrap:wrap; gap:8px; }}
+.quick-links a {{ display:inline-flex; align-items:center; padding:7px 10px; border-radius:10px; background:var(--bg2); border:1px solid var(--line); font-size:.82rem; font-weight:600; }}
+.content-grid {{ display:grid; grid-template-columns:minmax(0,1fr) 320px; gap:18px; align-items:start; }}
+.content-main {{ min-width:0; }}
+.section-head {{ display:flex; justify-content:space-between; align-items:flex-end; gap:12px; margin:0 0 10px; padding:0 2px; }}
+.section-head h2 {{ margin:0; font-size:1rem; color:var(--accent); letter-spacing:.02em; }}
+.section-head p {{ margin:0; color:var(--muted); font-size:.84rem; }}
+.utility-rail {{ display:flex; flex-direction:column; gap:14px; position:sticky; top:18px; }}
+.sidebar {{ width:220px; flex-shrink:0; transition:width .25s,opacity .25s; overflow:hidden; position:sticky; top:18px; }}
 .sidebar.collapsed {{ width:0; opacity:0; pointer-events:none; }}
 .sidebar h3 {{ margin:0 0 10px; font-size:.95rem; color:var(--accent); display:flex; justify-content:space-between; align-items:center; }}
 .month-group {{ margin-bottom:6px; border:1px solid var(--line); border-radius:8px; overflow:hidden; }}
@@ -453,12 +467,6 @@ body {{ margin:0; font-family:"Hiragino Sans","Noto Sans JP",Inter,system-ui,-ap
 .month-group li {{ margin:4px 0; font-size:.82rem; display:flex; align-items:center; gap:4px; }}
 .new-badge {{ color:var(--accent); font-size:.7rem; }}
 .archive-toggle {{ position:fixed; right:16px; top:50%; transform:translateY(-50%); z-index:50; background:var(--accent); color:#fff; border:none; border-radius:50%; width:38px; height:38px; font-size:1rem; cursor:pointer; box-shadow:0 2px 8px rgba(0,0,0,.2); display:flex; align-items:center; justify-content:center; }}
-h1 {{ margin:0 0 6px; letter-spacing:.3px; }}
-.sub {{ color:var(--muted); margin-bottom:8px; font-size:.92rem; }}
-.about {{ background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px 18px; margin-bottom:12px; font-size:.88rem; line-height:1.65; color:var(--text); }}
-.about p {{ margin:0 0 8px; }}
-.about p:last-child {{ margin:0; }}
-.about-footer {{ margin-top:10px; padding-top:8px; border-top:1px solid var(--line); font-size:.83rem; color:var(--muted); display:flex; flex-wrap:wrap; gap:6px 12px; align-items:center; }}
 .tip-row {{ font-size:.83rem; color:var(--muted); margin:0 0 14px; padding:0 2px; }}
 .feature-badge {{ flex-shrink:0; font-size:.72rem; font-weight:700; padding:2px 8px; border-radius:10px; margin-top:2px; white-space:nowrap; }}
 .feature-badge.open  {{ background:#d4edda; color:#155724; }}
@@ -573,6 +581,29 @@ audio {{ width:100%; margin:4px 0 6px; }}
 .visitor-actions .primary {{ background:var(--accent); color:#fff; }}
 .visitor-actions .secondary {{ background:transparent; color:var(--accent); }}
 #visitor-status {{ font-size:.84rem; color:var(--muted); }}
+.layout :is(h2, h3, p, li, a, label, span, button, input, textarea, summary, dt, dd) {{ font-family:inherit; font-size:var(--body-size); line-height:var(--body-line); }}
+.hero-panel h1 {{ font-size:clamp(1.8rem,3.2vw,2.5rem); line-height:1.05; }}
+@media (max-width: 1080px) {{
+  .layout {{ flex-direction:column; max-width:1080px; }}
+  .sidebar {{ width:100%; position:static; }}
+  .sidebar.collapsed {{ width:100%; opacity:1; pointer-events:auto; display:none; }}
+  .hero,
+  .content-grid {{ grid-template-columns:1fr; }}
+  .utility-rail {{ position:static; }}
+  .archive-toggle {{ top:auto; bottom:16px; transform:none; }}
+}}
+@media (max-width: 720px) {{
+  .layout {{ padding:18px 12px 28px; gap:16px; }}
+  .hero-panel,
+  .card,
+  .visitor-message,
+  .missed-section,
+  .today-summary {{ padding-left:14px; padding-right:14px; }}
+  .item-row {{ align-items:flex-start; }}
+  .summary,
+  .my-take {{ margin-left:34px; }}
+  .section-head {{ flex-direction:column; align-items:flex-start; }}
+}}
 /* ── Cat — eats, walks, reads, sleeps ── */
 #ghibli-cat {{ position:fixed; z-index:55; pointer-events:none; user-select:none; width:100px; height:105px; }}
 #neko-front-svg {{ position:absolute; top:0; left:0; overflow:visible; }}
@@ -633,69 +664,82 @@ audio {{ width:100%; margin:4px 0 6px; }}
 <button class="archive-toggle" onclick="toggleArchive()" title="Toggle archive">📚</button>
 <div class="layout">
   <div class="main-col">
-    <h1>Protein Design Podcast</h1>
-    <div class="about">
-      <p>A daily automated digest of new papers on <strong>protein design, antibody engineering, and enzyme design</strong>. A pipeline runs every morning, ranks new papers from 42 sources, and narrates them into a ~60-minute episode.</p>
-      <p style="color:var(--muted); font-size:.85rem; margin-bottom:0;">&#9432; Built on free resources only — audio quality is limited. Use it to spot papers worth reading, not as a substitute for reading them.</p>
-      <div class="about-footer">
-        <span>&#128218; Browse older episodes in the archive sidebar</span>
-        <span>&nbsp;·&nbsp;</span>
-        <a href="https://clear-squid-8e3.notion.site/3155f58ea8c280258959fba00c0149ab?v=3155f58ea8c2803c8c0d000c76d1bfba" target="_blank">Paper Collection</a>
-        <span>&nbsp;·&nbsp;</span>
-        <a href="https://clear-squid-8e3.notion.site/3165f58ea8c280498f72c770028aec0d?v=3165f58ea8c28020983c000cec9807e6" target="_blank">Deep Dive Notes</a>
+    <section class="hero">
+      <div class="hero-panel">
+        <h1>Protein Design Podcast</h1>
+        <p class="hero-kicker">A daily automated digest of new papers on <strong>protein design, antibody engineering, and enzyme design</strong>. The pipeline runs every morning, ranks new papers from 42 sources, and narrates them into a roughly hour-long episode.</p>
+        <p class="hero-note">&#9432; Built on free resources only, so the audio is best used for triage: find papers worth reading, then read the originals.</p>
       </div>
-    </div>
-    <section class="visitor-message">
-      <h3>&#128172; Leave a message</h3>
-      <p>Please feel free to leave a note, share a thought, or say hello.</p>
-      <div class="visitor-form">
-        <input type="text" id="visitor-name" placeholder="Your name (optional)">
-        <textarea id="visitor-message" placeholder="Write your message here..."></textarea>
-        <div class="visitor-actions">
-          <button class="primary" onclick="sendVisitorMessage()">Send message</button>
-          <button class="secondary" onclick="saveVisitorDraft()">Save draft</button>
-          <span id="visitor-status"></span>
+      <div class="hero-panel hero-links">
+        <section class="visitor-message">
+          <h3>&#128172; Leave a message</h3>
+          <div class="visitor-form">
+            <textarea id="visitor-message" placeholder="Leave a note, share a thought, or say hello..."></textarea>
+            <div class="visitor-actions">
+              <button class="primary" onclick="sendVisitorMessage()">Send message</button>
+              <button class="secondary" onclick="saveVisitorDraft()">Save draft</button>
+              <span id="visitor-status"></span>
+            </div>
+          </div>
+        </section>
+        <div>
+          <div class="section-head">
+            <h2>Reference collections</h2>
+          </div>
+          <div class="quick-links">
+            <a href="https://clear-squid-8e3.notion.site/3155f58ea8c280258959fba00c0149ab?v=3155f58ea8c2803c8c0d000c76d1bfba" target="_blank">Paper Collection</a>
+            <a href="https://clear-squid-8e3.notion.site/3165f58ea8c280498f72c770028aec0d?v=3165f58ea8c28020983c000cec9807e6" target="_blank">Deep Dive Notes</a>
+          </div>
         </div>
+        {today_summary}
       </div>
     </section>
-    {today_summary}
-    <details class="owner-tools">
-      <summary>&#9881;&#65039; Owner tools &mdash; add missing paper</summary>
-      <div class="missed-section">
-        <h3>&#128231; Submit a missed paper</h3>
-        <p>Log a paper the pipeline missed — triggers an automatic diagnosis and boosts similar papers in future rankings.</p>
-        <div class="missed-form">
-          <input type="text" id="missed-title" placeholder="Paper title (required)">
-          <input type="text" id="missed-url" placeholder="URL (optional)">
-          <button onclick="submitMissedPaper()">Submit</button>
-          <span id="missed-status"></span>
+    <div class="content-grid">
+      <div class="content-main">
+        <div class="section-head">
+          <p>&#128218; Older releases move to the archive</p>
         </div>
-        <div id="missed-list"></div>
-        <details class="diag-guide">
-          <summary>&#128270; Diagnosis guide</summary>
-          <dl>
-            <dt><span class="diag-badge diag-collected">already collected</span></dt>
-            <dd>Already in a previous episode — check the archive.</dd>
-            <dt><span class="diag-badge diag-excluded">excluded term</span></dt>
-            <dd>Title matched a term in <code>excluded_terms</code> (e.g. &ldquo;mouse&rdquo;). Narrow the filter in <code>config.yaml</code> if too aggressive.</dd>
-            <dt><span class="diag-badge diag-source">source not in RSS</span></dt>
-            <dd>Domain not in any RSS feed — pipeline can&rsquo;t see it. Add to <code>rss_sources</code> or check <code>extra_rss_sources.json</code> for auto-discovered feeds.</dd>
-            <dt><span class="diag-badge diag-ranking">low ranking</span></dt>
-            <dd>In RSS but cut below the episode cap. Add keywords to <code>absolute_title_keywords</code> or increase <code>max_items_total</code>.</dd>
-            <dt><span class="diag-badge diag-pending">pending</span></dt>
-            <dd>Workflow hasn&rsquo;t run yet — diagnosis appears within ~2 minutes.</dd>
-          </dl>
-        </details>
-        <div class="owner-feedback">
-          <strong>Feedback:</strong>
-          <span id="sel-count">0 checked</span> &nbsp;
-          <button onclick="saveFeedback()">Save to GitHub</button>
-          <button class="sec" onclick="openSettings()">&#9881; Settings</button>
-          <span id="fb-status"></span>
-        </div>
+        {body}
       </div>
-    </details>
-    {body}
+      <aside class="utility-rail">
+        <details class="owner-tools">
+          <summary>&#9881;&#65039; Owner tools &mdash; add missing paper</summary>
+          <div class="missed-section">
+            <h3>&#128231; Submit a missed paper</h3>
+            <p>Log a paper the pipeline missed — triggers an automatic diagnosis and boosts similar papers in future rankings.</p>
+            <div class="missed-form">
+              <input type="text" id="missed-title" placeholder="Paper title (required)">
+              <input type="text" id="missed-url" placeholder="URL (optional)">
+              <button onclick="submitMissedPaper()">Submit</button>
+              <span id="missed-status"></span>
+            </div>
+            <div id="missed-list"></div>
+            <details class="diag-guide">
+              <summary>&#128270; Diagnosis guide</summary>
+              <dl>
+                <dt><span class="diag-badge diag-collected">already collected</span></dt>
+                <dd>Already in a previous episode — check the archive.</dd>
+                <dt><span class="diag-badge diag-excluded">excluded term</span></dt>
+                <dd>Title matched a term in <code>excluded_terms</code> (e.g. &ldquo;mouse&rdquo;). Narrow the filter in <code>config.yaml</code> if too aggressive.</dd>
+                <dt><span class="diag-badge diag-source">source not in RSS</span></dt>
+                <dd>Domain not in any RSS feed — pipeline can&rsquo;t see it. Add to <code>rss_sources</code> or check <code>extra_rss_sources.json</code> for auto-discovered feeds.</dd>
+                <dt><span class="diag-badge diag-ranking">low ranking</span></dt>
+                <dd>In RSS but cut below the episode cap. Add keywords to <code>absolute_title_keywords</code> or increase <code>max_items_total</code>.</dd>
+                <dt><span class="diag-badge diag-pending">pending</span></dt>
+                <dd>Workflow hasn&rsquo;t run yet — diagnosis appears within ~2 minutes.</dd>
+              </dl>
+            </details>
+            <div class="owner-feedback">
+              <strong>Feedback:</strong>
+              <span id="sel-count">0 checked</span> &nbsp;
+              <button onclick="saveFeedback()">Save to GitHub</button>
+              <button class="sec" onclick="openSettings()">&#9881; Settings</button>
+              <span id="fb-status"></span>
+            </div>
+          </div>
+        </details>
+      </aside>
+    </div>
   </div>
   {sidebar_html}
 </div>
@@ -764,21 +808,18 @@ function loadVisitorDraft() {{
     var raw = localStorage.getItem(_visitorDraftKey());
     if (!raw) return;
     var data = JSON.parse(raw);
-    document.getElementById('visitor-name').value = data.name || '';
-    document.getElementById('visitor-message').value = data.message || '';
+    document.getElementById('visitor-message').value = (typeof data === 'string' ? data : (data.message || ''));
   }} catch (e) {{}}
 }}
 
 function saveVisitorDraft() {{
-  var name = (document.getElementById('visitor-name').value || '').trim();
   var message = (document.getElementById('visitor-message').value || '').trim();
-  localStorage.setItem(_visitorDraftKey(), JSON.stringify({{ name: name, message: message }}));
+  localStorage.setItem(_visitorDraftKey(), JSON.stringify(message));
   _setVisitorStatus(message ? 'Draft saved on this device.' : 'Draft cleared.');
 }}
 
 function sendVisitorMessage() {{
   var endpoint = {json.dumps(VISITOR_MESSAGE_ENDPOINT)};
-  var name = (document.getElementById('visitor-name').value || '').trim();
   var message = (document.getElementById('visitor-message').value || '').trim();
   if (!message) {{
     _setVisitorStatus('Please write a message first.');
@@ -791,7 +832,6 @@ function sendVisitorMessage() {{
   saveVisitorDraft();
   _setVisitorStatus('Sending...');
   var payload = {{
-    name: name || null,
     message: message,
     submitted_at: new Date().toISOString(),
     site: window.location.href,
@@ -804,7 +844,6 @@ function sendVisitorMessage() {{
     body: JSON.stringify(payload)
   }}).then(function(res) {{
     if (!res.ok) throw new Error('Request failed (' + res.status + ')');
-    document.getElementById('visitor-name').value = '';
     document.getElementById('visitor-message').value = '';
     localStorage.removeItem(_visitorDraftKey());
     _setVisitorStatus('Message sent. Thank you.');
@@ -1515,8 +1554,8 @@ def main():
 
     episodes = discover_episodes()
 
-    # Web page shows only the 3 most recent episodes; RSS feed keeps all
-    WEB_EPISODES = 3
+    # Web page shows only the newest episode; RSS feed keeps all
+    WEB_EPISODES = 1
     web_episodes = episodes[:WEB_EPISODES]
 
     # generate a random-ish cover each day (seeded by latest episode date)
