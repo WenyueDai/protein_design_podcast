@@ -145,8 +145,14 @@
     "title": "AbEpiTope-1.0: Improved antibody target prediction by use of AlphaFold and inverse folding",
     "url": null,
     "date_submitted": "2026-03-03",
-    "processed": false,
-    "diagnosis": null,
-    "keywords_added": []
+    "processed": true,
+    "diagnosis": "low_ranking",
+    "keywords_added": [
+      "antibody target prediction",
+      "alphafold",
+      "inverse folding"
+    ],
+    "rss_feed_found": "",
+    "notion_page_id": "3185f58e-a8c2-811f-8214-c75591ba5051"
   }
 ]
