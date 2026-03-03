@@ -1,0 +1,366 @@
+{
+  "timestamps": [
+    0.0,
+    45.54,
+    93.37,
+    144.39,
+    203.11,
+    258.38,
+    315.28,
+    437.42,
+    585.51,
+    731.59,
+    1819.19,
+    1958.3,
+    2094.28,
+    2222.44,
+    2374.23,
+    2500.51,
+    2658.07,
+    2708.08,
+    2757.74,
+    2807.72,
+    2853.41,
+    2908.59,
+    2970.91,
+    3021.4,
+    3070.64,
+    3110.16,
+    3168.03,
+    3221.73,
+    3287.27,
+    3343.34,
+    3392.3,
+    3446.96,
+    3500.33,
+    3551.19,
+    3604.91,
+    3657.7,
+    3703.62,
+    3759.74,
+    3811.31,
+    3949.67
+  ],
+  "items": [
+    {
+      "title": "Hotspot Interactions between Two Fab Molecules in Molecular Dynamics Simulations Improve Predictive Models of Aggregation Kinetics.",
+      "url": "https://doi.org/10.1021/acs.molpharmaceut.5c01464",
+      "source": "PubMed — Molecular pharmaceutics",
+      "one_liner": "Protein-protein interactions (PPIs) are fundamental to numerous biological processes, and the identification of interaction hotspots is essential for understanding the mechanisms of protein aggregation and informing protein engineering efforts. Although various algorithms have been developed to predict hotspot regions for protein-protein interactions, lit...",
+      "segment": 0,
+      "timestamp": 0.0
+    },
+    {
+      "title": "Master of Metals2: a graph neural network based architecture for the prediction of zinc binding sites in protein structures.",
+      "url": "https://doi.org/10.1093/bib/bbag078",
+      "source": "PubMed — Briefings in bioinformatics",
+      "one_liner": "Zinc ions play essential structural and catalytic roles in a wide range of proteins. Accurate prediction of their binding sites is crucial for structural and functional annotation. We present MoM2, a web-accessible tool for predicting zinc-binding sites in protein 3D structures. MoM2 employs a graph neural network trained exclusively on spatial features s...",
+      "segment": 1,
+      "timestamp": 45.54
+    },
+    {
+      "title": "Cellular circadian period and its deviation associate with Alzheimer's pathology and brain aging in cognitively impaired older adults.",
+      "url": "https://doi.org/10.1073/pnas.2527236123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Circadian rhythm disruption is recognized as a feature of aging and neurodegenerative disease, yet whether intrinsic cellular circadian properties relate to underlying processes in humans remains unknown. We measured intrinsic circadian period and its deviation from 24 h (Δ-period) using ex vivo bioluminescence in dermal fibroblasts from 135 older adults ...",
+      "segment": 2,
+      "timestamp": 93.37
+    },
+    {
+      "title": "Reactive oxygen species-resistant ultrastable super-resolution DNA framework dots.",
+      "url": "https://doi.org/10.1073/pnas.2514438123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Nanoconfinement as observed in natural (e.g. green fluorescent protein, GFP) or artificial (metal-organic or covalent organic frameworks) systems effectively modulates chemical and physical properties of encapsulated molecules for various photonic, electronic, or catalytic applications. Inspired by GFP's barrel-like peptide scaffold, which stabilizes the ...",
+      "segment": 3,
+      "timestamp": 144.39
+    },
+    {
+      "title": "Coupling of functionality to trafficking of KCNQ2/3 potassium channels at the axon initial segment.",
+      "url": "https://doi.org/10.1073/pnas.2527749123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "KCNQ2/3, a major voltage-gated potassium channel at the axon initial segment (AIS), plays a crucial role in controlling neuronal excitability. While the functionality of KCNQ2/3 is regulated by conformational changes from voltage sensing, the AIS localization of KCNQ2/3 is regulated by ankyrinG (ankG). However, the potential coupling between the mechanism...",
+      "segment": 4,
+      "timestamp": 203.11
+    },
+    {
+      "title": "Dynamic reprogramming of the tumor immune network via multicycle checkpoint degradation for cancer immunotherapy.",
+      "url": "https://doi.org/10.1073/pnas.2525047123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "The efficacy of immune checkpoint blockade is often limited by intrinsic immunosuppressive networks within the tumor immune microenvironment (TIME). Despite progress in cancer treatment, current extracellular targeted protein degradation approaches often overlook the multicellular distribution and crosstalk of immune checkpoints. Here we reported a Recept...",
+      "segment": 5,
+      "timestamp": 258.38
+    },
+    {
+      "title": "Cheminformatics-driven discovery of natural isoquinoline alkaloid inhibitors of Beta-secretase I for Alzheimer's management.",
+      "url": "https://doi.org/10.1371/journal.pone.0343717",
+      "source": "PubMed — PloS one",
+      "one_liner": "Alzheimer's disease (AD) is characterized by the gradual deterioration of cognitive functions, speech impairment, and memory loss. It can potentially be treated by targeting the beta-site amyloid precursor protein cleavage enzyme 1 (BACE1), which plays a key role in amyloid plaque formation, neurofibrillary tangles, and hyperphosphorylated tau protein. Cu...",
+      "segment": 6,
+      "timestamp": 315.28
+    },
+    {
+      "title": "Expression of recombinant human glutamylating TTLLs in human cells leads to differential tubulin glutamylation patterns, with only TTLL6 disrupting microtubule dynamics.",
+      "url": "https://doi.org/10.1371/journal.pone.0339922",
+      "source": "PubMed — PloS one",
+      "one_liner": "Polyglutamylation, a post-translational modification (PTM) catalyzed by a subset of Tubulin Tyrosine Ligase-Like (TTLL) family enzymes, regulates microtubule dynamics through its influence on interactions with microtubule-associated, motor, and severing proteins, and has recently also been implicated in genetic and neurodegenerative diseases. In this stud...",
+      "segment": 7,
+      "timestamp": 437.42
+    },
+    {
+      "title": "HIV-1 Vpr is targeted for degradation by autophagy.",
+      "url": "https://doi.org/10.1371/journal.ppat.1014020",
+      "source": "PubMed — PLoS pathogens",
+      "one_liner": "Autophagy is part of the innate immune arsenal to fight viruses, including HIV-1. We previously reported that HIV-1 Gag is targeted for autophagy-mediated degradation. Here, we identify HIV-1 Vpr, an important virulence factor, as an autophagy target in HIV-1 NL4-3, a lab adapted molecular clone. Notably, Vpr proteins from a collection of transmitted/foun...",
+      "segment": 8,
+      "timestamp": 585.51
+    },
+    {
+      "title": "Proximity labelling identifies proteins associated with HSV-2 pUL21 at early and late times after infection.",
+      "url": "https://doi.org/10.1371/journal.ppat.1014027",
+      "source": "PubMed — PLoS pathogens",
+      "one_liner": "pUL21 is a conserved and multifunctional alphaherpesvirus tegument protein that is critical for both early and late stages in the herpes simplex virus type 2 (HSV-2) replication cycle; however, how pUL21 participates in these activities is poorly understood. To help elucidate the role of pUL21 in these various activities, we used a proximity-dependent bio...",
+      "segment": 9,
+      "timestamp": 731.59
+    },
+    {
+      "title": "Molecular characterization following expression analysis of sugar transporters in passion fruit to explore their roles in fruit development and abiotic stress tolerance.",
+      "url": "https://doi.org/10.1007/s13205-026-04707-0",
+      "source": "PubMed — 3 Biotech",
+      "one_liner": "UNLABELLED: The genome-wide analysis identified 55 PeSTs ( SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s13205-026-04707-0.",
+      "segment": 10,
+      "timestamp": 1819.19
+    },
+    {
+      "title": "Diversity and evolutionary dynamics of universal stress proteins in the Liquorilactobacillus genus.",
+      "url": "https://doi.org/10.1007/s11274-026-04821-4",
+      "source": "PubMed — World journal of microbiology & biotechnology",
+      "one_liner": "UNLABELLED: The genus SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s11274-026-04821-4.",
+      "segment": 11,
+      "timestamp": 1958.3
+    },
+    {
+      "title": "First whole-genome detection of dengue virus in urban Aedes aegypti from Southern Brazil.",
+      "url": "https://doi.org/10.1371/journal.pntd.0014050",
+      "source": "PubMed — PLoS neglected tropical diseases",
+      "one_liner": "Dengue virus (DENV) is a major global health threat whose expansion into temperate regions has been facilitated by climate change and vector adaptation. Despite recurrent epidemics in Brazil, genomic surveillance in mosquito vectors remains limited, particularly in southern regions, constraining our understanding of local transmission dynamics and viral e...",
+      "segment": 12,
+      "timestamp": 2094.28
+    },
+    {
+      "title": "The sialyltransferase ST3GAL1 mediates MUCL1 sialylation to exacerbate breast cancer progression.",
+      "url": "https://doi.org/10.1007/s13577-026-01359-3",
+      "source": "PubMed — Human cell",
+      "one_liner": "Breast cancer is highly heterogeneous and involves complex molecular mechanisms, posing significant therapeutic challenges. Glycosylation modifications, particularly sialylation, play a critical role in tumor progression. The sialyltransferase ST3GAL1 is highly expressed in breast cancer, yet its functional interaction with MUCL1 and underlying mechanisms...",
+      "segment": 13,
+      "timestamp": 2222.44
+    },
+    {
+      "title": "Peripheral blood lymphocyte and eosinophil dynamics with chemotherapy and pembrolizumab in cervical cancer.",
+      "url": "https://doi.org/10.1007/s10147-026-02960-0",
+      "source": "PubMed — International journal of clinical oncology",
+      "one_liner": "BACKGROUND: Cervical cancer poses a significant global health burden, particularly in its metastatic and recurrent forms, for which treatment options are limited. Although immune checkpoint inhibitors (ICIs) such as pembrolizumab have improved outcomes, predictive markers for efficacy are still undefined. This retrospective study investigated changes in p...",
+      "segment": 14,
+      "timestamp": 2374.23
+    },
+    {
+      "title": "[Polypharmacy in patients with neuropsychiatric symptoms].",
+      "url": "https://doi.org/10.1007/s00108-025-02049-2",
+      "source": "PubMed — Innere Medizin (Heidelberg, Germany)",
+      "one_liner": "Dementia, delirium, and depression are the main geriatric psychiatric syndromes, and their prevalence is increasing significantly due to demographic aging. At the same time, multimorbidity and polypharmacy lead to increased interaction rates and a higher frequency of side effects, as well as reduced adherence. In Germany, the number of dementia cases is p...",
+      "segment": 15,
+      "timestamp": 2500.51
+    },
+    {
+      "title": "Influences of dietary guanidinoacetic acid supplementation on performance and proteins involved in milk fat and protein synthesis in dairy cows.",
+      "url": "https://doi.org/10.1016/j.aninu.2025.07.008",
+      "source": "PubMed — Animal nutrition (Zhongguo xu mu shou yi xue hui)",
+      "one_liner": "Guanidinoacetic acid (GAA) increases milk production in dairy cows by promoting milk fatty acid (FA) and protein synthesis; however, its mechanism is unclear. It was hypothesized that provision of rumen-protected GAA (RPGAA) would increase milk production, and milk fat and protein synthesis, while revealing the underlying mechanisms. Forty-four multiparou...",
+      "segment": 16,
+      "timestamp": 2658.07
+    },
+    {
+      "title": "MetaChrome: an open-source, user-friendly tool for automated metaphase chromosome analysis.",
+      "url": "https://doi.org/10.1016/j.ymeth.2025.12.013",
+      "source": "PubMed — Methods (San Diego, Calif.)",
+      "one_liner": "DNA Fluorescence In Situ Hybridization (DNA FISH) is an essential technique to study chromosome biology and genetics, enabling precise visualization of specific genomic loci to study structural abnormalities, gene mapping, and chromosomal rearrangements. High-Throughput Imaging (HTI) can automate the analysis of DNA FISH chromosome images, but the accurat...",
+      "segment": 17,
+      "timestamp": 2708.08
+    },
+    {
+      "title": "Structure-activity relationships in catalytic amyloids.",
+      "url": "https://doi.org/10.1016/j.jinorgbio.2025.113193",
+      "source": "PubMed — Journal of inorganic biochemistry",
+      "one_liner": "Short peptide-based assemblies combined with metal ions are simple yet effective platforms for catalysis. This study investigates the catalytic properties of de novo amyloid forming peptides, how their catalytic properties change with a range of hydrolysis substrates and the relationship between catalysis and structural characteristics. We have shown that...",
+      "segment": 18,
+      "timestamp": 2757.74
+    },
+    {
+      "title": "Molecular modelling assisted identification of novel Benzoxazole derivatives as hit molecules targeting Mycobacterial Membrane Protein Large 3 (MmpL3).",
+      "url": "https://doi.org/10.1016/j.compbiomed.2026.111521",
+      "source": "PubMed — Computers in biology and medicine",
+      "one_liner": "MmpL3 protein plays a vital role in cell wall synthesis in Mycobacterium. Novel benzoxazole carboxamide derivatives were designed to inhibit cell wall formation by targeting the MmpL3 and combat tuberculosis. Fourteen benzoxazole carboxamide derivatives (BXZ-I to BXZ-XIV) were synthesised, and their structures were confirmed using both experimental and co...",
+      "segment": 19,
+      "timestamp": 2807.72
+    },
+    {
+      "title": "Decoding polyphenol-protein interactions with deep learning: From molecular mechanisms to food applications.",
+      "url": "https://doi.org/10.1016/j.biotechadv.2026.108803",
+      "source": "PubMed — Biotechnology advances",
+      "one_liner": "Polyphenols and proteins are essential biomolecules that influence food functionality and, by extension, human health. Their interactions-hereafter referred to as PhPIs (Polyphenol-Protein Interactions)- affect key processes such as nutrient bioavailability, antioxidant activity, and therapeutic efficacy. However, these interactions remain challenging due...",
+      "segment": 20,
+      "timestamp": 2853.41
+    },
+    {
+      "title": "Construction of the chiral 24R-OH squalamine intermediate by an engineered ketoreductase from Rhodococcus sp.",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.109515",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "The 24R-OH construction remains a bottleneck in squalamine synthesis. In this study, a ketoreductase from Rhodococcus sp. was screened out, which could catalyze the conversion of 7α-hydroxy-5α-cholestan-3, 24-dione to the key intermediate (7α, 24R)-dihydroxy-5α-cholestan-3-one (24R-OH). A mechanism-driven computational design strategy was employed, and re...",
+      "segment": 21,
+      "timestamp": 2908.59
+    },
+    {
+      "title": "Mechanisms of resistance to antibody-drug conjugates in breast cancer.",
+      "url": "https://doi.org/10.1016/j.drup.2026.101353",
+      "source": "PubMed — Drug resistance updates : reviews and commentaries in antimicrobial and anticancer chemotherapy",
+      "one_liner": "Antibody-drug conjugate (ADC) is a drug modality where a payload is conjugated to an antibody for its targeted delivery to the cancer cells. In breast cancer, the treatment landscape has changed remarkably in the past decade by the introduction of several effective ADCs in the clinic. However, intrinsic (de novo) or acquired resistance to these treatments...",
+      "segment": 22,
+      "timestamp": 2970.91
+    },
+    {
+      "title": "Combined in silico and in vitro cytotoxic profiling of novel quinazoline derivatives targeting anaplastic lymphoma kinase for lung cancer therapy.",
+      "url": "https://doi.org/10.1016/j.bioorg.2025.109450",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "Lung cancer is one of the most common cancers globally, and targeting specific molecular pathways, such as the anaplastic lymphoma kinase (ALK), has shown great potential in developing effective treatments. From the X-ray crystal structure analysis of ALK, its binding interactions have highlighted the critical role of the pyrimidine moiety in ALK inhibiti...",
+      "segment": 23,
+      "timestamp": 3021.4
+    },
+    {
+      "title": "In-silico design of a therapeutic multi-epitope peptide candidate vaccine against rheumatoid arthritis.",
+      "url": "https://doi.org/10.1016/j.humimm.2025.111654",
+      "source": "PubMed — Human immunology",
+      "one_liner": "Rheumatoid arthritis (RA) is a systemic autoimmune disease primarily affecting the joints, resulting in inflammation, swelling, and pain, ultimately impacting patients' quality of life and causing premature death. TNF-α, regulated by the NF-κB transcription factor, is a key cytokine implicated in tissue destruction and disease progression. Both TNF-α and ...",
+      "segment": 24,
+      "timestamp": 3070.64
+    },
+    {
+      "title": "Osteoarthritic chondrocytes exert higher contractile forces and exhibit enhanced protrusive activity when cultured in 3D degradable hydrogels.",
+      "url": "https://doi.org/10.1016/j.actbio.2026.01.001",
+      "source": "PubMed — Acta biomaterialia",
+      "one_liner": "Osteoarthritis (OA) induces phenotypic changes in chondrocytes as well as alterations in matrix composition and mechanics. Yet, its impact on active cell-generated forces, a key indicator of cell-matrix interaction, remains poorly characterized. In this study, we systematically compared the force generation capacity and associated proteins of interest bet...",
+      "segment": 25,
+      "timestamp": 3110.16
+    },
+    {
+      "title": "Computational studies of target-specific radiopharmaceuticals for theranostics.",
+      "url": "https://doi.org/10.1016/j.jmgm.2025.109264",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "Radiopharmaceuticals are key tools in nuclear medicine, enabling both diagnostic imaging and targeted therapy for conditions such as cancer and neurological disorders. The integration of computational techniques in the drug-discovery process, such as molecular docking and molecular dynamics simulations, contributes to the development of this class of comp...",
+      "segment": 26,
+      "timestamp": 3168.03
+    },
+    {
+      "title": "Expanding the chemical and therapeutic landscape of 5H-Indeno[1,2-b]pyridin-5-one derivatives: Novel anticancer activity, EGFR inhibition, and modulation of HIF-VEGF and PI3K/AKT/mTOR pathways supported by computational insights.",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.109476",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "A novel series of eleven 5H-indeno[1,2-b]pyridin-5-one derivatives (1-11) was rationally designed and synthesized to explore their anticancer potential. The compounds were screened for cytotoxicity against PC-3, HePG-2, and MCF-7 cancer cell lines, and the normal WI-38 line using the MTT assay. Among them, compounds 5 and 7 exhibited the strongest cytotox...",
+      "segment": 27,
+      "timestamp": 3221.73
+    },
+    {
+      "title": "Deciphering gain-of-function from loss-of-function variants with AlphaMissense: A case study with the mechanosensitive PIEZO1 ion channel protein.",
+      "url": "https://doi.org/10.1016/j.bbrep.2026.102480",
+      "source": "PubMed — Biochemistry and biophysics reports",
+      "one_liner": "Pathogenic missense mutations are commonly found in protein-coding regions of DNA, and often alter protein function. In the past decade, enormous experimental efforts have been undertaken through the development of functional assays, mutagenesis screenings, and computational prediction algorithms to characterize these variants. Indeed, most efforts have b...",
+      "segment": 28,
+      "timestamp": 3287.27
+    },
+    {
+      "title": "The ubiquitin-like domain of TANK-binding kinase 1 mediates its binding and antagonism by snakehead vesiculovirus (SHVV) phosphoprotein to facilitate virus replication.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.150962",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "The snakehead vesiculovirus (SHVV) is an emerging and highly pathogenic rhabdovirus that infects a variety of economically important fish species, posing a serious threat to the sustainable development of aquaculture. The phosphoprotein (P) of rhabdoviruses is known to facilitate viral replication and host immune evasion, although the precise mechanisms r...",
+      "segment": 29,
+      "timestamp": 3343.34
+    },
+    {
+      "title": "Transformer-based classification and interpretability of NR3C1 expression patterns in OSCC: Metabolic adaptation insights.",
+      "url": "https://doi.org/10.1016/j.jobcr.2026.101427",
+      "source": "PubMed — Journal of oral biology and craniofacial research",
+      "one_liner": "INTRODUCTION: Oral squamous cell carcinoma (OSCC) involves several oncogenic proteins for survival. Protein sequence classification is a fundamental challenge in computational biology, complicated by the complex, non-linear relationships within sequences. Recent advances in transformer-based language models have yielded promising results on biological seq...",
+      "segment": 30,
+      "timestamp": 3392.3
+    },
+    {
+      "title": "Comprehensive analysis of the deleterious nonsynonymous, non-coding SNPs and cancer variants of human aldo-keto reductase type 1 (AKR1C1) protein and their probable association with disease risk and progression: a computational study.",
+      "url": "https://doi.org/10.1016/j.bbrep.2026.102502",
+      "source": "PubMed — Biochemistry and biophysics reports",
+      "one_liner": "Aldo-keto reductase family 1 member C1 (AKR1C1) is a key enzyme involved in steroid hormone and xenobiotic metabolism and has been implicated in hormone-dependent cancers, chemoresistance, and inflammatory disorders. Genetic variation in AKR1C1 may influence enzyme structure and regulatory properties. In this study, we conducted a comprehensive in silico ...",
+      "segment": 31,
+      "timestamp": 3446.96
+    },
+    {
+      "title": "Autosomal Recessive Bestrophinopathy-Phenotypic Variability, Natural History, and Genotype-Phenotype Correlations.",
+      "url": "https://doi.org/10.1016/j.ajo.2025.12.012",
+      "source": "PubMed — American journal of ophthalmology",
+      "one_liner": "OBJECTIVE: To describe the clinical characteristics, natural history, and genotype-phenotype correlations of autosomal recessive bestrophinopathy (ARB). DESIGN: Retrospective cohort study including data collected for clinical practice. PARTICIPANTS: Thirty-four consecutive patients (68 eyes) affected by ARB who had a molecularly confirmed diagnosis follow...",
+      "segment": 32,
+      "timestamp": 3500.33
+    },
+    {
+      "title": "Behavioral and Prefrontal Circuit Deficits in a Newly Developed",
+      "url": "https://doi.org/10.1016/j.bpsgos.2025.100666",
+      "source": "PubMed — Biological psychiatry global open science",
+      "one_liner": "BACKGROUND: SET binding protein 1 ( METHODS: We used open field, 3-chamber, and Y-maze behavioral tests to measure activity, social interest, and spatial learning, respectively. We used whole-cell current clamp recordings from medial prefrontal cortex (mPFC) layer-5 extratelencephalic projection neurons in ex vivo slices to measure cell intrinsic and spik...",
+      "segment": 33,
+      "timestamp": 3551.19
+    },
+    {
+      "title": "CADD-engineered peptide protacs efficiently target PCSK9 for hypercholesterolemia in vivo.",
+      "url": "https://doi.org/10.1016/j.metabol.2025.156485",
+      "source": "PubMed — Metabolism: clinical and experimental",
+      "one_liner": "BACKGROUND: Proprotein convertase subtilisin/kexin type 9 (PCSK9) promotes the degradation of low-density lipoprotein receptors (LDLR), leading to elevated plasma LDL cholesterol (LDL-C) and increased risk of hypercholesterolemia. Current therapeutic approaches, such as monoclonal antibodies and gene-editing tools, face significant challenges including hi...",
+      "segment": 34,
+      "timestamp": 3604.91
+    },
+    {
+      "title": "Real-world effectiveness and safety of ofatumumab in relapsing multiple sclerosis: A multicenter cohort study.",
+      "url": "https://doi.org/10.1016/j.msard.2026.106994",
+      "source": "PubMed — Multiple sclerosis and related disorders",
+      "one_liner": "AIM: To evaluate the real-world effectiveness, safety, and tolerability of ofatumumab in people with relapsing multiple sclerosis (pwMS) in Croatia. METHODS: We conducted a retrospective observational study in eight Croatian hospitals (March 2022-March 2025). Clinical, MRI, and laboratory data were collected before treatment initiation and every six month...",
+      "segment": 35,
+      "timestamp": 3657.7
+    },
+    {
+      "title": "Sequential active learning for medium optimization in mAb production.",
+      "url": "https://doi.org/10.1016/j.jbiosc.2025.12.002",
+      "source": "PubMed — Journal of bioscience and bioengineering",
+      "one_liner": "Monoclonal antibodies (mAbs) are key therapeutics for diseases like cancer and autoimmunity. The production of mAbs relies on cell culture, in which the culture medium for high productivity and activity is essential. Despite the traditional manual and advanced computational methodologies for medium optimization, it remains challenging to incorporate biolo...",
+      "segment": 36,
+      "timestamp": 3703.62
+    },
+    {
+      "title": "Self-crosslinkable protein hydrogel stamps for rapid and wash-free immunostaining in cells and tissues.",
+      "url": "https://doi.org/10.1016/j.actbio.2026.01.036",
+      "source": "PubMed — Acta biomaterialia",
+      "one_liner": "Immunostaining is essential for cancer biomarker detection, such as HER2 and EGFR, but conventional methods often require prolonged incubation and multiple washing steps. Here, we developed self-crosslinkable protein hydrogel (SPH) stamps for simple, rapid, and reusable immunostaining of cells and tissues. Mixing SpyTag-fused lumazine synthase protein nan...",
+      "segment": 37,
+      "timestamp": 3759.74
+    },
+    {
+      "title": "The Legibility Problem",
+      "url": "https://www.asimov.press/p/legibility-problem",
+      "source": "Asimov Press",
+      "one_liner": "What happens in a world where AIs make scientific discoveries that humans cannot understand?",
+      "segment": 38,
+      "timestamp": 3811.31
+    },
+    {
+      "title": "Neurotechnology? For Cancer? (Ben Woodington & Elise Jenkins)",
+      "url": "https://www.owlposting.com/p/neurotechnology-for-cancer-ben-woodington",
+      "source": "Owl Posting (Abhishaike Mahajan)",
+      "one_liner": "1 hour and 33 minutes listening time",
+      "segment": 39,
+      "timestamp": 3949.67
+    }
+  ]
+}
