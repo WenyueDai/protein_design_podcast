@@ -304,7 +304,7 @@ audio { width:100%; margin:0; }
             <a href="https://clear-squid-8e3.notion.site/3165f58ea8c280498f72c770028aec0d?v=3165f58ea8c28020983c000cec9807e6" target="_blank">Deep Dive Notes</a>
           </div>
         </div>
-        <div class="today-summary"><div class="ts-row"><span class="ts-date">&#128197; 2026-03-03</span><span class="ts-sep">·</span><span><strong>40</strong> papers in today&rsquo;s episode</span></div><div class="ts-row ts-dim">&#128300; No tracked researcher papers today</div><div class="ts-row ts-dim">&#128221; No blog updates today</div></div>
+        <div class="today-summary"><div class="ts-row"><span class="ts-date">&#128197; 2026-03-03</span><span class="ts-sep">·</span><span><strong>40</strong> papers in today&rsquo;s episode</span></div><div class="ts-row ts-dim">&#128300; No tracked researcher papers today</div><div class="ts-row"><span class="ts-label ts-blog">&#128221; Blog updates</span><span class="ts-dim">Asimov Press · Owl Posting (Abhishaike Mahajan)</span></div></div>
       </div>
       <section class="visitor-message hero-panel">
         <h3>&#128172; Leave a message</h3>
@@ -418,7 +418,7 @@ function saveVisitorDraft() {
 }
 
 function sendVisitorMessage() {
-  var endpoint = "";
+  var endpoint = "https://visitor-message-worker.wenyuedai.workers.dev";
   var message = (document.getElementById('visitor-message').value || '').trim();
   if (!message) {
     _setVisitorStatus('Please write a message first.');
