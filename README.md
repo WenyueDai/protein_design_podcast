@@ -1,6 +1,6 @@
 # protein_design_podcast
 
-A fully automated daily podcast for protein designers. Every morning at **05:00 UTC**, a GitHub Actions workflow wakes up on GitHub's servers, runs the entire pipeline without any computer needing to be on, and publishes a fresh ~60-minute episode to GitHub Pages.
+A fully automated daily podcast for protein designers. Every morning at **03:00 UTC**, a GitHub Actions workflow wakes up on GitHub's servers, runs the entire pipeline without any computer needing to be on, and publishes a fresh episode to GitHub Pages.
 
 **Live site:** [wenyuedai.github.io/protein_design_podcast](https://wenyuedai.github.io/protein_design_podcast)
 **Paper collection (Notion):** [all past digests](https://clear-squid-8e3.notion.site/3155f58ea8c280258959fba00c0149ab?v=3155f58ea8c2803c8c0d000c76d1bfba)
@@ -10,24 +10,35 @@ A fully automated daily podcast for protein designers. Every morning at **05:00 
 
 ## Full End-to-End Workflow
 
-### Phase 1 — Paper Collection (05:00 UTC)
+### Phase 1 — Paper Collection (03:00 UTC)
 
 GitHub Actions checks out the latest `main` branch and runs `python run_daily.py`.
 
+An **idempotency guard** at the start of `run_daily.py` checks `state/release_index.json`: if today's date already has an entry, the run exits immediately without repeating work.
+
 **1a. RSS feeds** (`src/collectors/rss.py`)
-Fetches 42 RSS/Atom feeds simultaneously, grouped into:
+Fetches 79 RSS/Atom feeds simultaneously, grouped into:
 
 - **Core protein/structural biology** — Nature (protein design, engineering, antibodies, enzyme design, structural & molecular biology, methods, main journal), arXiv q-bio.BM and q-bio.QM, Protein Science, Protein Engineering Design and Selection, Structure (Cell Press)
 - **Top journals** — Nature Biotechnology, Nature Chemical Biology, PNAS
 - **AI/ML** — arXiv cs.LG
 - **News** — Nature News, Endpoints News, Quanta Magazine
-- **Key researchers (absolute priority)** — arXiv author feeds for David Baker, Sergey Ovchinnikov, Alexander Rives, Brian Hie, Charlotte Deane, Jeffrey Gray, Tanja Kortemme, Po-Ssu Huang, Noelia Ferruz, Debora Marks, Kevin Yang, Yaron Lipman, Chloe Hsu, Jure Leskovec, Regina Barzilay, Bonnie Berger, Tommi Jaakkola
-- **Blogs (absolute priority)** — A-Alpha Bio, Owl Posting, Asimov Press, Mohammed AlQuraishi's blog, BLOPIG (Oxford Protein Informatics Group), In the Pipeline (Derek Lowe)
+- **Key researchers (absolute priority, tier 0)** — arXiv author feeds for ~50 researchers including David Baker, Sergey Ovchinnikov, Alexander Rives, Brian Hie, Charlotte Deane, Jeffrey Gray, Tanja Kortemme, Po-Ssu Huang, Noelia Ferruz, Debora Marks, Kevin Yang, Yaron Lipman, Chloe Hsu, Jure Leskovec, Regina Barzilay, Bonnie Berger, Tommi Jaakkola, and many others across the US, Switzerland, Canada, UK, Germany, Israel, Korea, and Denmark
+- **Blogs (absolute priority, tier 1)** — A-Alpha Bio, Owl Posting, Asimov Press, Mohammed AlQuraishi's blog, BLOPIG (Oxford Protein Informatics Group), In the Pipeline (Derek Lowe)
 
 Each item gets a `bucket` tag: `protein`, `journal`, `ai_bio`, `news`, or `daily`.
 
 **1b. PubMed search** (`src/collectors/pubmed.py`)
-Runs ~18 keyword queries against the PubMed E-utilities API (e.g. "protein design deep learning", "de novo enzyme design", "protein fitness landscape"). Returns articles published in the last 2 days.
+Runs 35 keyword queries against the PubMed E-utilities API, organized by protein design category:
+- **Structure prediction / review** — "protein design deep learning", "protein engineering review", "peptide design"
+- **Computational design** — "de novo protein design", "de novo enzyme design", "computational protein design"
+- **Diffusion / generative models** — "diffusion model protein", "backbone design protein", "flow matching protein design", "score-based protein design", "protein hallucination"
+- **Sequence design (inverse folding)** — "inverse protein folding", "protein sequence design neural network"
+- **Fitness / directed evolution** — "protein fitness landscape", "protein directed evolution machine learning"
+- **Language models** — "protein language model", "representation learning protein", "mutation effect prediction"
+- **Function-specific** — "antibody design deep learning", "enzyme design machine learning", "binder design protein", "protein-protein interaction design", and others
+
+Returns articles published in the last 2 days.
 
 **1c. Deduplication**
 Every item URL is checked against `state/seen_ids.json`, which persists across days. Items seen in previous runs are dropped. New items are added to seen_ids at the end of the run, so the podcast never repeats content. Runner-up articles that don't make the episode cap are intentionally kept unseen so they remain available for quieter days.
@@ -43,22 +54,22 @@ Items whose title, source, or URL contain any term from `excluded_terms` in `con
 Up to 8 articles are fetched and analyzed in parallel using a `ThreadPoolExecutor`. For each article, `newspaper4k` + `BeautifulSoup` extract the full text from the paper's webpage. A fast LLM (OpenRouter `stepfun/step-3.5-flash:free`) then reads the text and returns a structured analysis: core claim, novelty, and relevance score.
 
 **2b. Ranking** (`src/processing/rank.py`)
-Items are sorted by a 9-level priority key (lower = better):
+Items are sorted by a 10-level priority key (lower = better):
 
-| Priority | Factor | Rationale |
-|----------|--------|-----------|
-| 0 | **Researcher arXiv feeds** — Baker, Ovchinnikov, Rives, Deane, Gray… (`author` tag + arXiv source) | Curated, highest trust — new papers from tracked researchers |
+| Tier | Factor | Rationale |
+|------|--------|-----------|
+| 0 | **Researcher arXiv feeds** — Baker, Ovchinnikov, Rives, Deane, Gray… (`author` tag + arXiv source, or Google Scholar) | Curated, highest trust — new papers from tracked researchers always appear first |
 | 1 | **Blog/substack sources** — A-Alpha Bio, Owl Posting, Asimov Press, BLOPIG, AlQuraishi, In the Pipeline (`author` tag, non-arXiv) | High-quality curated writing, just below new research |
-| 2 | **Absolute title keywords** — AlphaFold, RoseTTAFold, ESMFold, RFdiffusion, ProteinMPNN, OpenFold, OmegaFold, Chai-1, Boltz, "structure prediction" | Landmark papers regardless of source |
+| 2 | **Absolute title keywords** — AlphaFold, RoseTTAFold, ESMFold, RFdiffusion, ProteinMPNN, LigandMPNN, OpenFold, OmegaFold, Chai-1, Boltz, EvoDiff, Chroma, "structure prediction" | Landmark papers regardless of source |
 | 3 | **Missed paper keywords** — topics extracted from owner-submitted missed papers (`boosted_topics.json`) | Ground truth: papers actively sought out that the pipeline failed to collect |
-| 4 | **Config topic keywords** — "antibody design", "enzyme design", "diffusion model", "protein language model", etc. | Broad topic steering |
-| 5 | **Journal quality** — Nature Biotech/Chem Bio/Structural > PNAS > Nature main > arXiv > others | Source credibility |
-| 6 | **Research bucket** — protein/journal/ai_bio before news | Domain relevance |
-| 7 | **Feedback from likes** — papers from sources/titles the owner previously selected | Lighter weight: avoids selection-bias feedback loop |
+| 4 | **Graded feedback score** (time-decayed) — liked sources/keywords compound over time (range −10…0) | Personalized boost; frequency-weighted with 14-day half-life so interests drift naturally |
+| 5 | **Config topic keywords** — "antibody design", "enzyme design", "diffusion model", "protein language model", "inverse folding", "backbone design", etc. (39 keywords) | Broad topic steering from `config.yaml` |
+| 6 | **Journal quality** — Nature Biotech/Chem Bio > PNAS > Nature main > arXiv > other journals > news | Source credibility |
+| 7 | **Research bucket** — protein/journal/ai_bio before news | Domain relevance |
 | 8 | **Fulltext available** — papers where full text was successfully extracted | Content quality |
 | 9 | **Extracted text length** | Final tie-breaker |
 
-Top 52 items are selected for the episode (38 max from the `protein` bucket). Per-source and per-bucket caps apply.
+Tier-0 (researcher feeds) and tier-1 (blogs) items are **hoisted to the front** before any bucket quota is applied, so they are never buried behind the protein-bucket flood. Remaining items then have bucket quotas applied: up to 38 `protein`, 2 `daily`. Total episode cap: 40 items.
 
 ---
 
@@ -87,7 +98,7 @@ All segment MP3s are concatenated by ffmpeg with a short transition sound betwee
 ```
 [1.0s silence] → [ding C6, 0.12s] → [gap 0.06s] → [ding E6, 0.12s] → [1.0s silence]
 ```
-The entire output is sped up by `atempo=1.2` (20% faster playback). Final file: `output/DATE/podcast_DATE.mp3` (~60–70 minutes).
+The entire output is sped up by `atempo=1.2` (20% faster playback). Final file: `output/DATE/podcast_DATE.mp3`.
 
 **4c. Timestamp calculation**
 For each segment, the raw cumulative position is measured using `mutagen` (frame-accurate for VBR MP3). Timestamps are stored in `output/DATE/episode_items.json` so clicking a paper on the website seeks the audio player to exactly 0.5 seconds before the transition tones for that paper.
@@ -98,11 +109,10 @@ For each segment, the raw cumulative position is measured using `mutagen` (frame
 
 **5a. GitHub Release** (`src/outputs/github_publish.py`)
 The pipeline calls the **GitHub REST API** to:
-1. Delete any existing release for today's date
-2. Create a new GitHub Release tagged `episode-DATE`
-3. Upload `podcast_DATE.mp3` as a release asset
+1. Create a new GitHub Release tagged `episode-DATE`
+2. Upload `podcast_DATE.mp3` as a release asset
 
-The MP3 is served directly from GitHub's CDN via the release asset URL. This avoids storing large audio files in the git repository itself.
+The MP3 is served directly from GitHub's CDN via the release asset URL. If a release already exists for today, the MP3 upload is skipped (set `FORCE_REPUBLISH=true` to override).
 
 **5b. GitHub Pages site rebuild** (`tools/build_site.py`)
 `build_site.py` is called to regenerate the `docs/` folder:
@@ -111,6 +121,8 @@ The MP3 is served directly from GitHub's CDN via the release asset URL. This avo
 - Reads `state/paper_notes.json` to bake any owner notes into the HTML
 - Reads `state/missed_papers.json` to bake submitted missed papers into the HTML
 - Writes `docs/index.html` (the main site), `docs/feed.xml` (RSS podcast feed), `docs/cover.svg`
+
+The site features a Ghibli-style animated cat that walks, eats, reads, and sleeps depending on its state. Audio uses `<source type="audio/mpeg">` for iOS Safari compatibility (GitHub's CDN serves `Content-Type: application/octet-stream` which Safari refuses to play inline without an explicit MIME type hint).
 
 **5c. Notion digest** (`src/outputs/notion_publish.py`)
 Creates a new page in the Paper Collection Notion database summarizing today's episode: list of all papers with titles, sources, and one-line summaries.
@@ -149,7 +161,7 @@ Checking paper checkboxes and clicking "Save feedback" triggers JavaScript that:
 3. Merges your new selections into the existing data
 4. Calls `PUT` to commit the change
 
-The next day's pipeline reads `feedback.json` and uses it to apply a soft ranking boost (tier 6, below missed paper keywords and journal quality).
+The next day's pipeline reads `feedback.json` and uses it to apply a **time-decayed ranking boost** (tier 4): source clicks and title keywords each contribute a frequency-weighted score with a 14-day half-life. Clicking the same source repeatedly compounds the boost; older clicks fade out naturally as interests drift.
 
 **6d. Writing "My Take" notes** (owner only)
 Clicking ✏️ next to a paper opens an inline textarea. Saving calls the same GitHub API pattern as feedback, but writes to `state/paper_notes.json` with `{note, title, source}` per paper URL. This commit to `paper_notes.json` **automatically triggers** the `sync_notes.yml` GitHub Actions workflow (see Phase 8).
@@ -168,7 +180,7 @@ Whenever the owner submits a missed paper, the **`process_missed.yml`** workflow
    | `source_not_in_rss` | The URL's domain is not in any configured RSS feed |
    | `low_ranking` | The source domain is in RSS feeds but the paper was cut below the episode cap or wasn't in the recent 24h window |
 
-2. **Extract keywords** (for `low_ranking` and `source_not_in_rss`): calls OpenRouter LLM to extract 3–5 topic phrases from the title. These are merged (case-insensitive dedup) into `state/boosted_topics.json`. The next daily run's ranker loads these as **tier-2 priority** — above config topic keywords and above feedback from likes.
+2. **Extract keywords** (for `low_ranking` and `source_not_in_rss`): calls OpenRouter LLM to extract 3–5 topic phrases from the title. These are merged (case-insensitive dedup) into `state/boosted_topics.json`. The next daily run's ranker loads these as **tier-3 priority** — above feedback and config topic keywords.
 
 3. **Discover RSS feed** (for `source_not_in_rss`): probes common feed paths (`/feed`, `/rss`, `/feed.xml`, etc.) on the paper's domain, and looks for `<link rel="alternate">` tags on the article page. If a valid feed is found, it is saved to `state/extra_rss_sources.json` and merged into the RSS collection on the next daily run.
 
@@ -206,7 +218,8 @@ For this project:
 
 ```
 .github/workflows/
-├── daily_podcast.yml    ← runs at 05:00 UTC daily (cron schedule)
+├── daily_podcast.yml    ← runs at 03:00 UTC daily (cron only — no manual dispatch
+│                           to prevent accidental reruns)
 │                           includes: main pipeline + process_missed_papers.py
 ├── sync_notes.yml       ← runs whenever paper_notes.json is pushed (owner notes → Notion)
 └── process_missed.yml   ← runs whenever missed_papers.json is pushed (immediate diagnosis)
@@ -221,7 +234,7 @@ Each workflow run gets a **brand-new virtual machine**. It:
 ```
 GitHub's servers
    ┌──────────────────────────────────────────┐
-   │  Ubuntu VM (fresh each day at 05:00 UTC)  │
+   │  Ubuntu VM (fresh each day at 03:00 UTC)  │
    │  1. git checkout main                     │
    │  2. pip install -r requirements.txt       │
    │  3. apt install ffmpeg                    │
@@ -241,7 +254,7 @@ The GitHub REST API (`api.github.com`) allows any program — including browser 
 **From the pipeline (Python):**
 ```
 GitHub API (authenticated with GH_PAT secret)
-├── Create/delete releases  →  POST/DELETE /repos/.../releases
+├── Create releases         →  POST /repos/.../releases
 ├── Upload audio assets     →  POST /repos/.../releases/{id}/assets
 └── (site rebuild is done by pushing to docs/ via git, not the API)
 ```
@@ -261,7 +274,7 @@ The `PUT /contents/...` endpoint is GitHub's way of creating or updating a singl
 ## Daily Workflow (for the owner)
 
 ```
-05:00 UTC  GitHub Actions runs automatically
+03:00 UTC  GitHub Actions runs automatically
               ↓
            New episode published to:
            • GitHub Pages (audio player + paper list)
@@ -273,7 +286,7 @@ Morning    Open wenyuedai.github.io/protein_design_podcast
            Click [N] on any paper to jump directly to it in the audio
 
 After run  For interesting papers:
-           • Check the ☑ checkbox → "Save feedback" → soft boost for similar papers tomorrow
+           • Check the ☑ checkbox → "Save feedback" → time-decayed boost for similar papers
            • Click ✏️ → type a quick expert note → Save
                  ↓
              paper_notes.json updated in GitHub repo
@@ -284,7 +297,7 @@ Anytime    Found a paper the pipeline missed? Submit it via "Submit a missed pap
                  ↓ (~2 minutes)
              Diagnosis badge appears, Notion stub created
              Keywords extracted → boosted_topics.json updated
-             Next run: similar papers rise to tier-2 priority
+             Next run: similar papers rise to tier-3 priority
 
 Later      Open Notion Deep Dive database
            Find the stub page → expand with your full analysis
@@ -296,35 +309,35 @@ Later      Open Notion Deep Dive database
 
 ```
 openclaw-knowledge-radio/         ← Python pipeline package
-├── run_daily.py                  ← main entry point
+├── run_daily.py                  ← main entry point (idempotency guard: skips if today already published)
 ├── config.yaml                   ← all settings (sources, limits, LLM, TTS)
 ├── requirements.txt
 ├── src/
 │   ├── collectors/
-│   │   ├── rss.py                ← RSS/Atom feed fetcher (42 sources)
-│   │   ├── pubmed.py             ← PubMed E-utilities search
+│   │   ├── rss.py                ← RSS/Atom feed fetcher (79 sources)
+│   │   ├── pubmed.py             ← PubMed E-utilities search (35 queries)
 │   │   └── daily_knowledge.py    ← (disabled) Wikipedia daily facts
 │   ├── processing/
 │   │   ├── article_analysis.py   ← parallel LLM article analysis
-│   │   ├── rank.py               ← 9-level ranking (see Phase 2b)
+│   │   ├── rank.py               ← 10-tier ranking (see Phase 2b)
 │   │   └── script_llm.py         ← podcast script generation
 │   └── outputs/
 │       ├── tts_edge.py           ← Edge TTS → MP3 per segment
 │       ├── audio.py              ← ffmpeg concat + atempo + transitions
-│       ├── github_publish.py     ← GitHub Releases + GitHub Pages push
+│       ├── github_publish.py     ← GitHub Releases upload (skips if MP3 already exists)
 │       └── notion_publish.py     ← Notion paper collection digest
 ├── tools/
-│   ├── build_site.py             ← generates docs/ (HTML + RSS feed)
+│   ├── build_site.py             ← generates docs/ (HTML + RSS feed + animated cat)
 │   ├── sync_notion_notes.py      ← syncs owner notes → Notion deep-dive stubs
 │   └── process_missed_papers.py  ← diagnoses missed papers + extracts boost keywords
 ├── state/
 │   ├── seen_ids.json             ← URLs seen in previous runs (dedup)
 │   ├── release_index.json        ← date → GitHub Release audio URL
-│   ├── feedback.json             ← owner's paper selections (soft ranking signal)
+│   ├── feedback.json             ← owner's paper selections (time-decayed ranking signal)
 │   ├── paper_notes.json          ← owner's expert notes per paper
 │   ├── notion_created.json       ← tracks which notes have been synced to Notion
 │   ├── missed_papers.json        ← owner-submitted missed papers (with diagnoses)
-│   ├── boosted_topics.json       ← keywords from missed papers (tier-2 ranking priority)
+│   ├── boosted_topics.json       ← keywords from missed papers (tier-3 ranking priority)
 │   └── extra_rss_sources.json    ← RSS feeds discovered from missed paper URLs
 └── output/YYYY-MM-DD/            ← per-episode data (kept 30 days)
     ├── podcast_YYYY-MM-DD.mp3    ← final audio
@@ -334,7 +347,7 @@ openclaw-knowledge-radio/         ← Python pipeline package
 
 docs/                             ← GitHub Pages site (auto-generated, never edit manually)
 .github/workflows/
-├── daily_podcast.yml             ← cron: 05:00 UTC daily
+├── daily_podcast.yml             ← cron: 03:00 UTC daily (no workflow_dispatch)
 ├── sync_notes.yml                ← on push to state/paper_notes.json
 └── process_missed.yml            ← on push to state/missed_papers.json
 ```
@@ -347,7 +360,7 @@ docs/                             ← GitHub Pages site (auto-generated, never e
 
 ```bash
 git clone https://github.com/WenyueDai/protein_design_podcast.git
-cd openclaw_podcast/openclaw-knowledge-radio
+cd protein_design_podcast/openclaw-knowledge-radio
 pip install -r requirements.txt
 sudo apt install ffmpeg        # Linux
 # brew install ffmpeg          # macOS
@@ -378,6 +391,7 @@ Optional flags:
 REGEN_FROM_CACHE=true python run_daily.py    # reuse today's cached items (skip re-fetch)
 DEBUG=true python run_daily.py               # skip seen-URL dedup
 RUN_DATE=2026-02-20 python run_daily.py      # generate for a specific past date
+FORCE_REPUBLISH=true python run_daily.py     # re-upload MP3 even if release already exists
 ```
 
 ### 4. GitHub Actions secrets
@@ -397,7 +411,7 @@ Go to `Settings → Secrets and variables → Actions` and add:
 
 On the GitHub Pages site, click **⚙ Settings** and enter:
 - Your GitHub personal access token (`repo` scope)
-- Your repo (`WenyueDai/openclaw_podcast`)
+- Your repo (`WenyueDai/protein_design_podcast`)
 
 This is stored only in your browser's `localStorage`. It enables the feedback checkboxes, ✏️ note buttons, and the missed paper submission form.
 
@@ -407,13 +421,13 @@ This is stored only in your browser's `localStorage`. It enables the feedback ch
 
 | Section | Key settings |
 |---------|-------------|
-| `limits` | `max_items_total` (52), `max_items_protein` (38), `source_caps` (per-journal caps) |
+| `limits` | `max_items_total` (40), `max_items_protein` (38), `source_caps` (per-journal caps) |
 | `excluded_terms` | Keywords that filter out off-topic items (cell biology, neurogenesis, etc.) |
-| `rss_sources` | 42 feeds with `name`, `url`, `bucket`, `tags`; sources tagged `author` get tier-0 absolute priority |
-| `pubmed` | `search_terms` (18 queries), `lookback_days`, `max_results_per_term` |
+| `rss_sources` | 79 feeds with `name`, `url`, `bucket`, `tags`; sources tagged `author` get tier-0 or tier-1 absolute priority |
+| `pubmed` | `search_terms` (35 queries across 7 protein design categories), `lookback_days`, `max_results_per_term` |
 | `podcast` | `voice`, `voice_rate`, `target_minutes` |
-| `llm` | `model` (script), `analysis_model` (per-article analysis), `provider` |
-| `ranking` | `absolute_title_keywords` (tier-1 landmark model names), `absolute_source_substrings`, `source_priority_rules`, `topic_boost_keywords` (tier-3) |
+| `llm` | `model` (script: `trinity-large-preview`), `analysis_model` (per-article: `step-3.5-flash`), `provider` |
+| `ranking` | `absolute_title_keywords` (13 landmark model names/tools), `absolute_source_substrings` (researcher name matching), `source_priority_rules`, `topic_boost_keywords` (39 topic keywords) |
 
 ---
 
@@ -421,15 +435,18 @@ This is stored only in your browser's `localStorage`. It enables the feedback ch
 
 Every GitHub Actions run does `git checkout main` as its first step, so it always runs the **latest committed code**.
 
-- ✅ 42 RSS sources covering protein design, structural biology, AI/ML, key researchers, and curated blogs
-- ✅ 10-level ranking: researcher feeds → blogs → absolute title keywords → missed paper keywords → config topics → journal quality → bucket → feedback (lighter) → fulltext → length
-- ✅ Absolute author priority: researcher arXiv feeds and curated blogs (tagged `author`) always make the episode first
-- ✅ Absolute title keywords: AlphaFold, RoseTTAFold, ESMFold, RFdiffusion, ProteinMPNN, OpenFold, OmegaFold, Chai-1, Boltz, "structure prediction" get tier-1 priority regardless of source
-- ✅ Missed paper keyword boost: topics from owner-submitted missed papers go into `boosted_topics.json` at tier-2 — above config topic keywords and feedback
-- ✅ Feedback (likes) at tier-6: still useful as a soft signal, but demoted to avoid selection-bias feedback loops
-- ✅ Timestamp fix: clicking `[N]` lands 0.5s before transition tones
-- ✅ Source caps: Nature main / NSMB / PNAS / Structure capped at 3 items each
-- ✅ "My Take" notes: ✏️ button on each paper, saves to GitHub + triggers Notion stub creation (labelled "Daily Note")
-- ✅ Missed paper form: owner submits papers the pipeline missed; immediate diagnosis + Notion stub (labelled "Missed Paper") via `process_missed.yml`
-- ✅ RSS discovery: `source_not_in_rss` papers trigger a feed probe; discovered feeds saved to `extra_rss_sources.json`
-- ✅ `daily_knowledge` disabled: no Wikipedia filler
+- 79 RSS sources: protein design, structural biology, AI/ML, ~50 tracked researcher arXiv feeds, and curated blogs
+- 10-tier ranking: researcher feeds → blogs → landmark titles → missed paper keywords → time-decayed feedback → config topics → journal quality → bucket → fulltext → length
+- Tier-0/1 hoisting: researcher feeds and blogs are always shown before any bucket quota is applied
+- Absolute title keywords: AlphaFold, RoseTTAFold, ESMFold, RFdiffusion, ProteinMPNN, LigandMPNN, OpenFold, OmegaFold, Chai-1, Boltz, EvoDiff, Chroma, "structure prediction" get tier-2 priority regardless of source
+- Missed paper keyword boost: topics from owner-submitted missed papers go into `boosted_topics.json` at tier-3
+- Time-decayed feedback at tier-4: 14-day half-life; liked sources/keywords compound over repeated days without selection-bias lock-in
+- 35 PubMed queries covering all 7 protein design taxonomy categories including inverse folding and backbone design
+- Idempotency guard: pipeline exits immediately if today's episode is already published
+- iOS Safari audio compatibility: `<source type="audio/mpeg">` ensures playback on iPhone/Safari
+- Timestamp seeking: clicking `[N]` lands 0.5s before transition tones
+- Source caps: Nature main / NSMB / PNAS / Structure capped at 3 items each
+- "My Take" notes: ✏️ button on each paper, saves to GitHub + triggers Notion stub creation
+- Missed paper form: immediate diagnosis + Notion stub via `process_missed.yml`
+- RSS discovery: `source_not_in_rss` papers trigger a feed probe; discovered feeds saved to `extra_rss_sources.json`
+- `daily_knowledge` disabled: no Wikipedia filler
