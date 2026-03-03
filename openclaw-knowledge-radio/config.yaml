@@ -220,13 +220,13 @@ rss_sources:
     bucket: "ai_bio"
 
   - name: "Nicholas Polizzi (arXiv)"
-    url: "https://export.arxiv.org/api/query?search_query=au:%22Nicholas+F.+Polizzi%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Nicholas+Polizzi%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["protein-design", "author"]
     bucket: "protein"
 
   # ── 🇺🇸 US — Stanford ────────────────────────────────────────────────────────
-  - name: "Possu Huang (arXiv)"
-    url: "https://export.arxiv.org/api/query?search_query=au:%22Possu+Huang%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
+  - name: "Po-Ssu Huang (arXiv)"
+    url: "https://export.arxiv.org/api/query?search_query=au:%22Po-Ssu+Huang%22&sortBy=submittedDate&sortOrder=descending&max_results=10"
     tags: ["protein-design", "author"]
     bucket: "protein"
 
@@ -588,7 +588,7 @@ ranking:
     - "alexander tong"
     - "mohammed alquraishi"
     - "ellen zhong"
-    - "possu huang"
+    - "po-ssu huang"
     - "gabriel rocklin"
     - "tess smidt"
     - "alexandre rives"
