@@ -23,7 +23,8 @@ from __future__ import annotations
 import re
 import time
 from datetime import date, timedelta
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
+from urllib.parse import urlencode
 
 import requests
 
@@ -67,8 +68,17 @@ def _matches_author(authors_norm: str, patterns: List[str]) -> bool:
     return any(pat in authors_norm for pat in patterns)
 
 
-def _fetch_page(start: str, end: str, cursor: int, session: requests.Session) -> dict:
+def _fetch_page(
+    start: str,
+    end: str,
+    cursor: int,
+    session: requests.Session,
+    *,
+    category: Optional[str] = None,
+) -> dict:
     url = f"{_API_BASE}/{start}/{end}/{cursor}/json"
+    if category:
+        url += "?" + urlencode({"category": category})
     last_err = None
     for attempt in range(1, _MAX_RETRIES + 1):
         try:
@@ -81,6 +91,55 @@ def _fetch_page(start: str, end: str, cursor: int, session: requests.Session) ->
                 break
             time.sleep(1.5 * attempt)
     raise last_err
+
+
+def fetch_recent_biorxiv_papers(
+    *,
+    lookback_days: int,
+    category: Optional[str] = None,
+    session: Optional[requests.Session] = None,
+) -> List[dict]:
+    """Fetch recent bioRxiv papers day-by-day with pagination and retries."""
+    today = date.today()
+    own_session = session is None
+    sess = session or requests.Session()
+    sess.headers.setdefault("User-Agent", "protein-design-podcast/1.0 (academic research)")
+
+    all_papers: List[dict] = []
+    try:
+        for day_offset in range(lookback_days):
+            day_start = today - timedelta(days=day_offset + 1)
+            day_end = today - timedelta(days=day_offset)
+            cursor = 0
+            total = None
+
+            while True:
+                data = _fetch_page(
+                    day_start.isoformat(),
+                    day_end.isoformat(),
+                    cursor,
+                    sess,
+                    category=category,
+                )
+
+                papers = data.get("collection") or []
+                if total is None:
+                    try:
+                        total = int(data["messages"][0]["total"])
+                    except Exception:
+                        total = 0
+
+                all_papers.extend(papers)
+                cursor += len(papers)
+
+                if not papers or len(papers) < _PAGE_SIZE or cursor >= total:
+                    break
+                time.sleep(0.3)  # be polite to the API
+    finally:
+        if own_session:
+            sess.close()
+
+    return all_papers
 
 
 def collect_biorxiv_author_items(cfg: Dict[str, Any]) -> List[Dict[str, Any]]:
@@ -116,41 +175,11 @@ def collect_biorxiv_author_items(cfg: Dict[str, Any]) -> List[Dict[str, Any]]:
 
     print(f"[biorxiv_authors] Fetching papers {start} → {end} for {len(author_lookup)} authors", flush=True)
 
-    session = requests.Session()
-    session.headers["User-Agent"] = "protein-design-podcast/1.0 (academic research)"
-
-    # Fetch day by day with explicit date ranges; this is more reliable than one large window.
-    all_papers: List[dict] = []
-    for day_offset in range(lookback_days):
-        day_start = today - timedelta(days=day_offset + 1)
-        day_end = today - timedelta(days=day_offset)
-        cursor = 0
-        total = None
-
-        while True:
-            try:
-                data = _fetch_page(day_start.isoformat(), day_end.isoformat(), cursor, session)
-            except Exception as e:
-                print(
-                    f"[biorxiv_authors] API error for {day_start.isoformat()} → "
-                    f"{day_end.isoformat()} at cursor {cursor}: {e}",
-                    flush=True,
-                )
-                break
-
-            papers = data.get("collection") or []
-            if total is None:
-                try:
-                    total = int(data["messages"][0]["total"])
-                except Exception:
-                    total = 0
-
-            all_papers.extend(papers)
-            cursor += len(papers)
-
-            if not papers or len(papers) < _PAGE_SIZE or cursor >= total:
-                break
-            time.sleep(0.3)  # be polite to the API
+    try:
+        all_papers = fetch_recent_biorxiv_papers(lookback_days=lookback_days)
+    except Exception as e:
+        print(f"[biorxiv_authors] API error: {e}", flush=True)
+        return []
 
     print(f"[biorxiv_authors] Fetched {len(all_papers)} total papers from bioRxiv", flush=True)
 

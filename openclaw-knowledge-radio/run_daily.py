@@ -17,6 +17,7 @@ from src.collectors.daily_knowledge import collect_daily_knowledge_items
 from src.collectors.wiki_context import collect_wiki_context_items
 from src.collectors.pubmed import collect_pubmed_items
 from src.collectors.biorxiv_authors import collect_biorxiv_author_items
+from src.collectors.biorxiv_keywords import collect_biorxiv_keyword_items
 from src.processing.rank import rank_and_limit
 from src.processing.script_llm import build_podcast_script_llm_chunked, build_podcast_script_llm_chunked_with_map, TRANSITION_MARKER
 from src.outputs.tts_edge import tts_segment_to_mp3, last_tts_backend
@@ -297,6 +298,8 @@ def main() -> int:
             if dynamic_terms:
                 print(f"[pubmed] Adding {len(dynamic_terms)} dynamic term(s) from feedback: {dynamic_terms}", flush=True)
             items.extend(collect_pubmed_items(cfg, lookback_hours=lookback_hours, extra_terms=dynamic_terms))
+            if cfg.get("biorxiv_keywords", {}).get("enabled", False):
+                items.extend(collect_biorxiv_keyword_items(cfg, lookback_hours=lookback_hours, extra_terms=dynamic_terms))
         if cfg.get("biorxiv_authors", {}).get("enabled", True):
             items.extend(collect_biorxiv_author_items(cfg))
         if cfg.get("daily_knowledge", {}).get("enabled", True):

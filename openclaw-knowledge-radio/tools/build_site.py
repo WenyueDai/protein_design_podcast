@@ -412,6 +412,7 @@ def render_index(episodes, all_episodes=None):
   <div class='player-box'>
     <audio id="audio-{html.escape(ep['date'])}" controls preload="metadata"><source src="{html.escape(ep['audio_url'])}" type="audio/mpeg"></audio>
     <p class='speed-row'><span>Speed</span>
+      <button onclick="setRate(0.8)">0.8x</button>
       <button onclick="setRate(1)">1x</button>
       <button onclick="setRate(1.2)">1.2x</button>
       <button onclick="setRate(1.5)">1.5x</button>

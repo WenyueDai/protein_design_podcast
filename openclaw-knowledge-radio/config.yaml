@@ -517,6 +517,12 @@ pubmed:
     - "enzyme engineering directed evolution"
     - "de novo enzyme design"
 
+biorxiv_keywords:
+  enabled: true
+  lookback_days: 2
+  bucket: "protein"
+  tags: ["biorxiv", "preprint", "biology"]
+
 daily_knowledge:
   enabled: false
 
