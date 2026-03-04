@@ -125,6 +125,11 @@
       "note": "DD",
       "title": "Could statistical potential models achieve comparable or better performance than deep learning models?",
       "source": "PubMed — Briefings in bioinformatics"
+    },
+    "https://doi.org/10.1016/j.pep.2025.106877": {
+      "note": "DD",
+      "title": "Expression and production of recombinant SARS-CoV-2 RBD protein in E. coli system: comparison of performance, functional",
+      "source": "PubMed — Protein expression and purification"
     }
   }
 }
