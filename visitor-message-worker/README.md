@@ -1,10 +1,12 @@
 # Visitor Message Worker
 
-This Cloudflare Worker accepts website contact-form submissions and writes each one into a Notion database.
+This Cloudflare Worker accepts website contact-form submissions, writes each one into a Notion database, and can also track daily visits / unique visitors.
 
 Flow:
 
 `website form -> Cloudflare Worker -> Notion database`
+
+`website page load -> Cloudflare Worker /visit -> Cloudflare KV`
 
 ## Why this setup
 
@@ -62,6 +64,22 @@ Optional variables in `wrangler.toml`:
 - `ALLOWED_ORIGIN`: the only browser origin allowed to submit
 - `NOTION_TITLE_PROPERTY`: the title property name in your Notion database
 
+For visit tracking, add a KV namespace binding named `VISIT_STATS`.
+Example `wrangler.toml` snippet:
+
+```toml
+[[kv_namespaces]]
+binding = "VISIT_STATS"
+id = "<your-production-kv-id>"
+preview_id = "<your-preview-kv-id>"
+```
+
+Optional secret for protecting stats reads:
+
+```bash
+npx wrangler secret put STATS_TOKEN
+```
+
 Deploy:
 
 ```bash
@@ -87,4 +105,46 @@ That bakes the Worker URL into the static site form.
 
 - Do not put `NOTION_TOKEN` in the website code.
 - Keep `ALLOWED_ORIGIN` limited to your real site origin.
-- This Worker only accepts `POST` and `OPTIONS`.
+- This Worker accepts:
+  - `POST /` for visitor messages
+  - `POST /visit` for visit tracking
+  - `GET /visit-stats` for the public lifetime visitor count
+  - `GET /stats?days=7&token=...` for owner stats reads
+
+## Visit tracking
+
+If `VISIT_STATS` is configured and the site is built with `VISITOR_MESSAGE_ENDPOINT`,
+the page will send one `POST /visit` per browser per day using an anonymous ID stored
+in `localStorage`.
+
+This gives you approximate:
+
+- daily total visits
+- daily unique visitors (unique browsers/devices)
+- lifetime unique visitors since tracking was enabled
+
+To read the owner stats:
+
+```bash
+curl "https://visitor-message-worker.<your-subdomain>.workers.dev/stats?days=7&token=<your-stats-token>"
+```
+
+Response shape:
+
+```json
+{
+  "ok": true,
+  "lifetime_unique": 143,
+  "days": [
+    { "day": "2026-03-04", "total": 12, "unique": 9 }
+  ]
+}
+```
+
+To read only the public lifetime total:
+
+```bash
+curl "https://visitor-message-worker.<your-subdomain>.workers.dev/visit-stats"
+```
+
+These are browser-level unique visitors, not perfect person-level identity.

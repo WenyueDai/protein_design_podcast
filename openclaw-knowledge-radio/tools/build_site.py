@@ -639,6 +639,8 @@ audio {{ width:100%; margin:0; }}
 .visitor-actions .primary {{ background:var(--accent); color:#fff; }}
 .visitor-actions .secondary {{ background:transparent; color:var(--accent); }}
 #visitor-status {{ font-size:.84rem; color:var(--muted); }}
+.site-metrics {{ margin:22px auto 10px; width:min(100%, 52rem); text-align:center; font-size:.82rem; color:var(--muted); }}
+.site-metrics strong {{ color:var(--text); font-weight:600; }}
 .layout :is(h2, h3, p, li, a, label, span, button, input, textarea, summary, dt, dd) {{ font-family:inherit; font-size:var(--body-size); line-height:var(--body-line); }}
 .hero-panel h1 {{ font-size:clamp(1.8rem,3.2vw,2.5rem); line-height:1.05; }}
 @media (max-width: 1080px) {{
@@ -815,9 +817,12 @@ audio {{ width:100%; margin:0; }}
         {body}
       </div>
     </div>
-  </div>
+</div>
   {sidebar_html}
 </div>
+<footer class="site-metrics" id="site-metrics" hidden>
+  <span id="lifetime-visitor-count"></span>
+</footer>
 
 <!-- Settings modal -->
 <div class="modal-bg" id="settings-modal">
@@ -1039,6 +1044,92 @@ function bindOwnerAlertEditor() {{
   input.addEventListener('blur', queueOwnerAlertSave);
 }}
 
+// ── Visit tracking ────────────────────────────────────────────────────────
+function _visitEndpoint() {{
+  var base = {json.dumps(VISITOR_MESSAGE_ENDPOINT)};
+  if (!base) return '';
+  return base.replace(/\/+$/, '') + '/visit';
+}}
+
+function _visitStatsEndpoint() {{
+  var base = {json.dumps(VISITOR_MESSAGE_ENDPOINT)};
+  if (!base) return '';
+  return base.replace(/\/+$/, '') + '/visit-stats';
+}}
+
+function _setLifetimeVisitorCount(value) {{
+  var footer = document.getElementById('site-metrics');
+  var label = document.getElementById('lifetime-visitor-count');
+  if (!footer || !label) return;
+  if (!Number.isFinite(value) || value < 0) {{
+    footer.hidden = true;
+    return;
+  }}
+  label.innerHTML = '<strong>' + value.toLocaleString() + '</strong> unique visitors since launch';
+  footer.hidden = false;
+}}
+
+function _visitDayKey() {{
+  return 'visit_tracked_' + new Date().toISOString().slice(0, 10);
+}}
+
+function _visitorAnonId() {{
+  var key = 'visitor_anon_id';
+  var existing = localStorage.getItem(key);
+  if (existing) return existing;
+  var created = 'v_' + Math.random().toString(36).slice(2) + Date.now().toString(36);
+  localStorage.setItem(key, created);
+  return created;
+}}
+
+function trackDailyVisit() {{
+  var endpoint = _visitEndpoint();
+  if (!endpoint) return;
+  var dayKey = _visitDayKey();
+  if (localStorage.getItem(dayKey)) return;
+
+  var payload = {{
+    visitor_id: _visitorAnonId(),
+    day: new Date().toISOString().slice(0, 10),
+    page: window.location.href,
+    page_title: document.title,
+  }};
+
+  fetch(endpoint, {{
+    method: 'POST',
+    headers: {{ 'Content-Type': 'application/json' }},
+    body: JSON.stringify(payload)
+  }}).then(function(res) {{
+    if (!res.ok) throw new Error('Visit tracking failed');
+    return res.json();
+  }}).then(function(data) {{
+    localStorage.setItem(dayKey, '1');
+    var lifetime = data && Number(data.lifetime_unique);
+    if (Number.isFinite(lifetime)) {{
+      localStorage.setItem('lifetime_unique_visitors', String(lifetime));
+      _setLifetimeVisitorCount(lifetime);
+    }}
+  }}).catch(function() {{}});
+}}
+
+function loadLifetimeVisitorCount() {{
+  var cached = Number(localStorage.getItem('lifetime_unique_visitors'));
+  if (Number.isFinite(cached) && cached >= 0) {{
+    _setLifetimeVisitorCount(cached);
+  }}
+  var endpoint = _visitStatsEndpoint();
+  if (!endpoint) return;
+  fetch(endpoint).then(function(res) {{
+    if (!res.ok) throw new Error('Visit stats unavailable');
+    return res.json();
+  }}).then(function(data) {{
+    var lifetime = data && Number(data.lifetime_unique);
+    if (!Number.isFinite(lifetime) || lifetime < 0) return;
+    localStorage.setItem('lifetime_unique_visitors', String(lifetime));
+    _setLifetimeVisitorCount(lifetime);
+  }}).catch(function() {{}});
+}}
+
 // ── Visitor message form ───────────────────────────────────────────────────
 function _visitorDraftKey() {{ return 'visitor_message_draft'; }}
 
@@ -1217,6 +1308,8 @@ _updateOwnerUI();
 bindOwnerAlertEditor();
 loadOwnerAlert();
 loadVisitorDraft();
+trackDailyVisit();
+loadLifetimeVisitorCount();
 
 // ── My Take notes ─────────────────────────────────────────────────────────
 function renderNoteHtml(text) {{
