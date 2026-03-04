@@ -449,7 +449,7 @@ def render_index(episodes, all_episodes=None):
 html, body {{ max-width:100%; overflow-x:hidden; }}
 body {{ margin:0; font-family:"Hiragino Sans","Noto Sans JP",Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:linear-gradient(160deg,var(--bg),var(--bg2)); color:var(--text); font-size:var(--body-size); line-height:var(--body-line); }}
 .layout {{ display:flex; gap:24px; max-width:1320px; margin:0 auto; padding:28px 16px 40px; align-items:flex-start; }}
-.main-col {{ flex:1; min-width:0; }}
+.main-col {{ flex:1; min-width:0; width:100%; }}
 .hero {{ display:flex; flex-direction:column; gap:16px; margin-bottom:16px; }}
 .hero-panel {{ background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px 20px; box-shadow:0 10px 24px rgba(79,143,106,.10); width:min(100%, 52rem); }}
 .hero-panel h1 {{ margin:0 0 8px; letter-spacing:.2px; font-size:clamp(1.8rem,3.2vw,2.5rem); line-height:1.05; }}
@@ -457,7 +457,7 @@ body {{ margin:0; font-family:"Hiragino Sans","Noto Sans JP",Inter,system-ui,-ap
 .intro-stack {{ display:flex; flex-direction:column; gap:8px; align-items:flex-start; width:100%; }}
 .hero-line {{ display:flex; align-items:flex-start; gap:8px; color:var(--muted); width:100%; }}
 .hero-icon {{ width:1.25rem; flex-shrink:0; text-align:center; line-height:1.55; }}
-.hero-note {{ margin:0; font-size:.85rem; color:var(--muted); line-height:1.55; flex:1; min-width:0; width:100%; overflow-wrap:anywhere; }}
+.hero-note {{ margin:0; font-size:.85rem; color:var(--muted); line-height:1.55; flex:1 1 auto; min-width:0; max-width:100%; overflow-wrap:anywhere; }}
 .hero-links {{ display:flex; flex-direction:column; gap:12px; }}
 .quick-links {{ display:flex; flex-wrap:wrap; gap:8px; }}
 .quick-links a {{ display:inline-flex; align-items:center; padding:7px 10px; border-radius:10px; background:var(--bg2); border:1px solid var(--line); font-size:.82rem; font-weight:600; }}
@@ -467,7 +467,6 @@ body {{ margin:0; font-family:"Hiragino Sans","Noto Sans JP",Inter,system-ui,-ap
 .section-head h2 {{ margin:0; font-size:1rem; color:var(--accent); letter-spacing:.02em; }}
 .section-head p {{ margin:0; color:var(--muted); font-size:.84rem; }}
 .sidebar {{ width:200px; flex-shrink:0; transition:width .25s,opacity .25s; overflow:hidden; position:sticky; top:18px; opacity:.88; }}
-.sidebar.collapsed {{ width:0; opacity:0; pointer-events:none; }}
 .sidebar h3 {{ margin:0 0 8px; font-size:.82rem; color:var(--muted); display:flex; justify-content:space-between; align-items:center; letter-spacing:.02em; }}
 .month-group {{ margin-bottom:5px; border:1px solid rgba(219,231,217,.8); border-radius:8px; overflow:hidden; background:rgba(255,253,246,.75); }}
 .month-group summary {{ padding:5px 9px; font-size:.8rem; font-weight:600; color:var(--muted); cursor:pointer; list-style:none; display:flex; justify-content:space-between; align-items:center; background:rgba(247,244,233,.75); }}
@@ -479,7 +478,6 @@ body {{ margin:0; font-family:"Hiragino Sans","Noto Sans JP",Inter,system-ui,-ap
 .month-group a {{ color:var(--muted); }}
 .month-group a:hover {{ color:var(--accent); }}
 .new-badge {{ color:var(--accent); font-size:.62rem; }}
-.archive-toggle {{ position:fixed; right:16px; top:50%; transform:translateY(-50%); z-index:50; background:var(--accent); color:#fff; border:none; border-radius:50%; width:38px; height:38px; font-size:1rem; cursor:pointer; box-shadow:0 2px 8px rgba(0,0,0,.2); display:flex; align-items:center; justify-content:center; }}
 .tip-row {{ font-size:.83rem; color:var(--muted); margin:0 0 14px; padding:0 2px; }}
 .feature-badge {{ flex-shrink:0; font-size:.72rem; font-weight:700; padding:2px 8px; border-radius:10px; margin-top:2px; white-space:nowrap; }}
 .feature-badge.open  {{ background:#d4edda; color:#155724; }}
@@ -604,10 +602,8 @@ audio {{ width:100%; margin:0; }}
 .layout :is(h2, h3, p, li, a, label, span, button, input, textarea, summary, dt, dd) {{ font-family:inherit; font-size:var(--body-size); line-height:var(--body-line); }}
 .hero-panel h1 {{ font-size:clamp(1.8rem,3.2vw,2.5rem); line-height:1.05; }}
 @media (max-width: 1080px) {{
-  .layout {{ flex-direction:column; max-width:1080px; }}
+  .layout {{ flex-direction:column; align-items:stretch; max-width:1080px; }}
   .sidebar {{ width:100%; position:static; max-width:none; }}
-  .sidebar.collapsed {{ width:100%; opacity:1; pointer-events:auto; display:none; }}
-  .archive-toggle {{ top:auto; bottom:16px; transform:none; }}
 }}
 @media (max-width: 720px) {{
   .layout {{ padding:18px 12px 28px; gap:16px; }}
@@ -684,7 +680,6 @@ audio {{ width:100%; margin:0; }}
 </style>
 </head>
 <body>
-<button class="archive-toggle" onclick="toggleArchive()" title="Toggle archive">📚</button>
 <div class="layout">
   <div class="main-col">
     <section class="hero">
@@ -967,21 +962,6 @@ async function saveFeedback() {{
     }}
   }} catch(e) {{ setStatus('Error: ' + e.message); }}
 }}
-
-// ── Archive toggle ────────────────────────────────────────────────────────
-function toggleArchive() {{
-  const panel = document.getElementById('archive-panel');
-  const btn = document.querySelector('.archive-toggle');
-  const collapsed = panel.classList.toggle('collapsed');
-  btn.textContent = collapsed ? '📚' : '✕';
-  localStorage.setItem('archive_open', collapsed ? '0' : '1');
-}}
-// Start collapsed by default; open if user had it open previously
-(function() {{
-  const panel = document.getElementById('archive-panel');
-  const open = localStorage.getItem('archive_open');
-  if (open !== '1') panel.classList.add('collapsed');
-}})();
 
 // ── Click [N] to seek audio to that paper's segment ──────────────────────
 function seekTo(numEl, event) {{
