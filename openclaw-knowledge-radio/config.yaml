@@ -456,6 +456,11 @@ rss_sources:
     tags: ["biology", "science-writing", "substack", "author"]
     bucket: "ai_bio"
 
+  - name: "Levitate Bio Blog"
+    url: "https://levitate.bio/resources/blog/"
+    tags: ["protein-design", "biotech", "blog", "author"]
+    bucket: "protein"
+
   - name: "BLOPIG (Oxford Protein Informatics Group)"
     url: "https://www.blopig.com/blog/feed/"
     tags: ["protein-design", "antibody-design", "structural-biology", "author"]
