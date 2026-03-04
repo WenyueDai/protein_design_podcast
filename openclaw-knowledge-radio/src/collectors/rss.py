@@ -31,14 +31,47 @@ def _fetch_source(
     http→https and require a proper User-Agent) are handled correctly.
     feedparser is used only for parsing the already-fetched content.
     """
+    source_name = src.get("name", "?")
+    source_url = src.get("url", "")
+    is_arxiv = "arxiv" in source_name.lower() or "arxiv" in source_url.lower()
+
     try:
-        resp = _requests.get(src["url"], timeout=30, headers=_FETCH_HEADERS)
+        resp = _requests.get(source_url, timeout=30, headers=_FETCH_HEADERS)
+        resp.raise_for_status()
         feed = feedparser.parse(resp.content)
-    except Exception:
+    except _requests.RequestException as exc:
+        print(
+            f"[rss] Warning: HTTP fetch failed for {source_name}: "
+            f"{exc.__class__.__name__}: {exc}",
+            flush=True,
+        )
+        return []
+    except Exception as exc:
+        print(
+            f"[rss] Warning: parse failed for {source_name}: "
+            f"{exc.__class__.__name__}: {exc}",
+            flush=True,
+        )
         return []
 
+    if getattr(feed, "bozo", 0):
+        bozo_exc = getattr(feed, "bozo_exception", None)
+        print(
+            f"[rss] Warning: malformed feed for {source_name}: "
+            f"{bozo_exc or 'unknown parse error'}",
+            flush=True,
+        )
+
+    entries = getattr(feed, "entries", []) or []
+    if is_arxiv and not entries:
+        print(
+            f"[rss] Warning: {source_name} returned 0 feed entries "
+            f"(HTTP {resp.status_code})",
+            flush=True,
+        )
+
     items: List[Dict[str, Any]] = []
-    for e in getattr(feed, "entries", []) or []:
+    for e in entries:
         title = (getattr(e, "title", "") or "").strip()
         url = (getattr(e, "link", "") or "").strip()
 

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
@@ -262,6 +263,7 @@ def main() -> int:
     seen = SeenStore(state_dir / "seen_ids.json")
 
     lookback_hours = int(os.environ.get("LOOKBACK_HOURS") or cfg.get("lookback_hours", 48))
+    raw_collected_items: List[Dict[str, Any]] = []
 
     # 1) Collect (or regenerate from cached seed)
     seed_file = data_dir / "items.jsonl"
@@ -275,6 +277,7 @@ def main() -> int:
                 new_items.append(json.loads(line))
             except Exception:
                 continue
+        raw_collected_items = list(new_items)
     else:
         items: List[Dict[str, Any]] = []
         _rss_sources = list(cfg["rss_sources"])
@@ -306,6 +309,7 @@ def main() -> int:
                     max_items=int(cfg.get("wiki_context", {}).get("max_items", 4)),
                 )
             )
+        raw_collected_items = list(items)
 
         # 2) Dedup across days + topical filtering
         excluded_terms = list(cfg.get("excluded_terms", [
@@ -539,6 +543,8 @@ def main() -> int:
                 )
             push_site(repo_dir, repo_dir.parent, today)
 
+    source_counts = Counter((it.get("source") or "").strip() or "(unknown)" for it in raw_collected_items)
+    source_type_counts = Counter((it.get("source_type") or "unknown").strip() or "unknown" for it in raw_collected_items)
     status = {
         "date": today,
         "time": iso_now_local(tz),
@@ -546,6 +552,8 @@ def main() -> int:
         "n_items_used": len(ranked),
         "lookback_hours": lookback_hours,
         "run_anchor": run_anchor.isoformat(timespec="seconds"),
+        "collected_by_source_type": dict(source_type_counts.most_common()),
+        "collected_by_source": dict(source_counts.most_common()),
         "output_dir": str(out_dir),
     }
     (out_dir / "status.json").write_text(json.dumps(status, indent=2), encoding="utf-8")
