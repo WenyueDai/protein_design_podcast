@@ -130,5 +130,13 @@
   "2026-03-05|https://www.biorxiv.org/content/10.64898/2026.03.02.709004": {
     "page_id": "31a5f58e-a8c2-819e-8189-fa2ce6ff0cd0",
     "note": "DD"
+  },
+  "2026-03-05|https://doi.org/10.1021/acs.biochem.5c00782": {
+    "page_id": "31a5f58e-a8c2-814c-97d0-d344c9894919",
+    "note": "DD"
+  },
+  "2026-03-05|https://www.biorxiv.org/content/10.64898/2026.03.02.708607": {
+    "page_id": "31a5f58e-a8c2-8189-a116-c202a2b67f14",
+    "note": "DD"
   }
 }
