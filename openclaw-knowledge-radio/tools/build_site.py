@@ -809,7 +809,7 @@ audio {{ width:100%; margin:0; }}
       <section class="visitor-message hero-panel">
         <h3>&#128172; Leave a message</h3>
         <div class="visitor-form">
-          <textarea id="visitor-message" placeholder="Leave a note, share a thought, or say hello..."></textarea>
+          <textarea id="visitor-message" placeholder="Leave a note, share a thought, or say hello. The message will directly send to site owner. Please add an email in your message if you want to receive reply."></textarea>
           <div class="visitor-actions">
             <button class="primary" onclick="sendVisitorMessage()">Send message</button>
             <button class="secondary" onclick="saveVisitorDraft()">Save draft</button>
