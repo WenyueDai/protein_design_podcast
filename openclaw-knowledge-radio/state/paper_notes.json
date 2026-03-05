@@ -177,6 +177,11 @@
       "note": "DD",
       "title": "The Power of Protein Dynamics in Binding and Allostery.",
       "source": "PubMed — Biochemistry"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.02.708607": {
+      "note": "DD",
+      "title": "On improving experimental binding affinity predictions with synthetic data",
+      "source": "bioRxiv — molecular biology"
     }
   }
 }
