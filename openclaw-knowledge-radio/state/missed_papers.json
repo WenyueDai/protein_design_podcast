@@ -160,8 +160,14 @@
     "title": "Validation and analysis of 12,000 AI-driven CAR-T designs in the Bits to Binders competition",
     "url": null,
     "date_submitted": "2026-03-05",
-    "processed": false,
-    "diagnosis": null,
-    "keywords_added": []
+    "processed": true,
+    "diagnosis": "low_ranking",
+    "keywords_added": [
+      "car-t design",
+      "ai-driven design",
+      "bits to binders"
+    ],
+    "rss_feed_found": "",
+    "notion_page_id": "31a5f58e-a8c2-8123-b9c5-ca7fbc65b8aa"
   }
 ]
