@@ -162,6 +162,11 @@
       "note": "DD",
       "title": "Bias in the AlphaFold3 prediction of ligand-induced domain motion in enzymes.",
       "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.02.708997": {
+      "note": "DD",
+      "title": "Pinc: a simple probabilistic AlphaFold interaction score",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
