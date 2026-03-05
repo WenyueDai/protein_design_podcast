@@ -212,6 +212,11 @@
       "note": "DD",
       "title": "Deep learning-guided evolutionary optimization for protein design",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1038/s41551-026-01630-w": {
+      "note": "DD",
+      "title": "Uncovering evolutionarily remote and highly potent antimicrobial peptides with protein language models.",
+      "source": "PubMed — Nature biomedical engineering"
     }
   }
 }
