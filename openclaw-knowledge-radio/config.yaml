@@ -538,7 +538,7 @@ podcast:
   enabled: true
   target_minutes: 60
   voice: "en-GB-RyanNeural"
-  voice_rate: "0%"
+  voice_rate: "+0%"
   tts_chunk_chars: 2800
   chunking:
     fulltext_threshold_chars: 2500

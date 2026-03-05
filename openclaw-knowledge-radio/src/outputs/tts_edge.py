@@ -2,6 +2,7 @@
 
 import asyncio
 import os
+import re
 import subprocess
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
@@ -48,6 +49,17 @@ def _voice_candidates(primary: str) -> List[str]:
     ]
     out = [primary] + [v for v in common if v != primary]
     return out
+
+
+def _normalize_edge_rate(rate: str) -> str:
+    """
+    edge-tts expects signed percent strings (e.g. +0%, +20%, -10%).
+    Accept legacy "0%" / "20%" and normalize to signed form.
+    """
+    s = (rate or "").strip()
+    if re.fullmatch(r"[+-]?\d+%", s):
+        return s if s.startswith(("+", "-")) else f"+{s}"
+    return s or "+0%"
 
 
 def configured_tts_backend() -> str:
@@ -111,6 +123,7 @@ def _save_with_kokoro_api(text: str, out_path: Path) -> bool:
 
 async def _save_one(text: str, voice: str, rate: str, out_path: Path) -> str:
     global _LAST_TTS_ERROR_SUMMARY
+    edge_rate = _normalize_edge_rate(rate)
     # Primary: Kokoro (if PREFER_KOKORO=true and server is running)
     if PREFER_KOKORO:
         if _save_with_kokoro_api(text, out_path):
@@ -123,7 +136,7 @@ async def _save_one(text: str, voice: str, rate: str, out_path: Path) -> str:
         for attempt in range(1, 4):
             edge_attempts += 1
             try:
-                communicate = edge_tts.Communicate(text, v, rate=rate)
+                communicate = edge_tts.Communicate(text, v, rate=edge_rate)
                 await asyncio.wait_for(communicate.save(str(out_path)), timeout=25)
                 return "edge"
             except Exception as e:
