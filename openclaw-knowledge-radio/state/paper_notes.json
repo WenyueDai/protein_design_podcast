@@ -223,5 +223,12 @@
       "title": "Elucidation of the Effects of Electrostatic Interactions on Protein Structures at Buried Solid/Liquid Interfaces: A Comb",
       "source": "PubMed — Analytical chemistry"
     }
+  },
+  "2026-03-06": {
+    "https://www.biorxiv.org/content/10.64898/2026.02.19.706878": {
+      "note": "DD",
+      "title": "Confidence Without Verification: Screening pLDDT Unreliability in AlphaFold2 Fold-Switching Predictions",
+      "source": "bioRxiv — bioinformatics"
+    }
   }
 }
