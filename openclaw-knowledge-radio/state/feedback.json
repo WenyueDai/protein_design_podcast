@@ -626,5 +626,32 @@
       "source": "bioRxiv — molecular biology",
       "title": "On improving experimental binding affinity predictions with synthetic data"
     }
+  ],
+  "2026-03-06": [
+    {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.19.706878",
+      "source": "bioRxiv — bioinformatics",
+      "title": "Confidence Without Verification: Screening pLDDT Unreliability in AlphaFold2 Fold-Switching Predictions"
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.03.708462",
+      "source": "bioRxiv — immunology",
+      "title": "RePaRank: An Efficient Architecture for Antibody-Antigen Interface Prediction by Proximity Ranking"
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.03.709280",
+      "source": "bioRxiv — bioinformatics",
+      "title": "Evolutionary profile enhancement improves protein function annotation for remote homologs"
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709205",
+      "source": "bioRxiv — bioinformatics",
+      "title": "Ligand-guided Sequence-structure Co-design of De Novo Functional Enzymes"
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.03.707476",
+      "source": "bioRxiv — molecular biology",
+      "title": "Explainable Physicochemical Determinants of Protein Ligand Binding via Non-Covalent Interactions"
+    }
   ]
 }
