@@ -1,0 +1,366 @@
+{
+  "timestamps": [
+    0.0,
+    50.54,
+    89.63,
+    141.73,
+    193.21,
+    245.14,
+    302.5,
+    359.52,
+    423.4,
+    473.77,
+    523.88,
+    568.73,
+    619.82,
+    663.04,
+    724.48,
+    889.96,
+    1060.45,
+    1128.51,
+    1176.1,
+    1302.98,
+    1456.05,
+    1577.2,
+    1722.27,
+    1864.56,
+    1993.66,
+    2154.6,
+    2324.78,
+    2451.56,
+    2567.38,
+    2710.25,
+    2839.03,
+    2986.03,
+    3103.84,
+    3235.55,
+    3359.48,
+    3534.17,
+    3660.53,
+    3753.72,
+    3862.22,
+    3986.77
+  ],
+  "items": [
+    {
+      "title": "Confidence Without Verification: Screening pLDDT Unreliability in AlphaFold2 Fold-Switching Predictions",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.19.706878",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "AlphaFold2 (AF2) has transformed structural biology, yet its confidence metrics, particularly the predicted Local Distance Difference Test (pLDDT) and predicted Template Modelling score (pTM), systematically fail for fold-switching proteins, which adopt two or more distinct conformations from a single amino acid sequence. Multiple groups have called for a...",
+      "segment": 0,
+      "timestamp": 0.0
+    },
+    {
+      "title": "Bridging structure and function: artificial intelligence-based modelling of kidney proteins.",
+      "url": "https://doi.org/10.1038/s41581-026-01060-6",
+      "source": "PubMed — Nature reviews. Nephrology",
+      "one_liner": "The ability to predict the three-dimensional structure of a protein from its amino acid sequence has potential to provide insights into its function, and in the context of disease, its pathogenic mechanisms and potential drug targets. Artificial intelligence (AI)-driven algorithms, particularly AlphaFold and RoseTTAFold, have revolutionized the field of p...",
+      "segment": 1,
+      "timestamp": 50.54
+    },
+    {
+      "title": "RePaRank: An Efficient Architecture for Antibody-Antigen Interface Prediction by Proximity Ranking",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.03.708462",
+      "source": "bioRxiv — immunology",
+      "one_liner": "The prediction of protein-protein interactions is central to structural biology, yet leading models are often computationally expensive, creating an accessibility gap for many high-throughput applications. Furthermore, common evaluation metrics such as binary contact prediction can be unreliable. In this work, we address both challenges. We introduce RePa...",
+      "segment": 2,
+      "timestamp": 89.63
+    },
+    {
+      "title": "Nested birth-death processes are competitive with parameter-heavy neural networks as time-dependent models of protein evolution",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.02.702952",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Most statistical phylogenetics analyses use relatively simple continuous-time finite-state Markov models of point substitution to describe molecular evolution, often keeping sequence length fixed, ignoring insertions and deletions (indels) entirely, and making little (if any) allowance for variations in selection pressure due to interactions between amino...",
+      "segment": 3,
+      "timestamp": 141.73
+    },
+    {
+      "title": "Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709176",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Predicting cellular responses to perturbations is crucial for therapeutic discovery, yet experimental screening is severely constrained by the combinatorial vastness of biological space. While computational simulations offer a scalable alternative, current models are limited by the incomplete latent representation, mainly relying on highly variable genes ...",
+      "segment": 4,
+      "timestamp": 193.21
+    },
+    {
+      "title": "PAMG-AT: A Physiological Attention Multi-Graph Model with Adaptive Topology for Stress Detection using Wearable Devices",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709179",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Stress detection with wearable physiological sensors is vital in digital health and affective computing. Conventional machine learning techniques usually examine physiological signals separately, missing the intricate inter-signal connections involved in the human stress response. While deep neural networks offer high accuracy, they function as black boxe...",
+      "segment": 5,
+      "timestamp": 245.14
+    },
+    {
+      "title": "Sample-specific haplotype-resolved protein isoform characterization via long-read RNA-seq-based proteogenomics",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.21.689818",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein isoform inference from bottom-up mass spectrometry (MS) relies on database search strategies that assume the reference protein database accurately reflects the full repertoire of genetic and transcriptomic states present in the sample being analyzed. Long-read RNA sequencing (lrRNA-seq) now enables simultaneous recovery of complete transcript stru...",
+      "segment": 6,
+      "timestamp": 302.5
+    },
+    {
+      "title": "Evolutionary profile enhancement improves protein function annotation for remote homologs",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.03.709280",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Accurate annotation of protein function is essential for understanding biological processes, yet this remains challenging for proteins lacking characterized homologs or belonging to underrepresented functional classes. Although machine learning approaches have become the gold standard for automated function prediction, they often perform poorly on out-of-...",
+      "segment": 7,
+      "timestamp": 359.52
+    },
+    {
+      "title": "Ligand-guided Sequence-structure Co-design of De Novo Functional Enzymes",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709205",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Proteins underpin essential biological functions across all kingdoms of life. The capacity to design novel proteins with tailored activities holds transformative potential for biotechnology, medicine, and sustainability. However, since protein functions, particularly enzymatic activities, depend on precise interactions with small-molecule ligands, accurat...",
+      "segment": 8,
+      "timestamp": 423.4
+    },
+    {
+      "title": "Explainable Physicochemical Determinants of Protein Ligand Binding via Non-Covalent Interactions",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.03.707476",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Protein-ligand binding (PLB) underlies a broad range of biological and chemical processes, including enzymatic catalysis, metabolic regulation, molecular recognition, and therapeutic modulation. These processes are governed by structured constellations of non-covalent interactions-such as hydrogen bonding, electrostatic interactions, hydrophobic contacts,...",
+      "segment": 9,
+      "timestamp": 473.77
+    },
+    {
+      "title": "Pseudouridine selects RNAs for extracellular transport",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.28.685156",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "RNAs move through the extracellular space to transmit information between cells, including mammalian neurons, yet how specific RNAs are channeled into these extracellular routes is unknown. Using genome-wide CRISPR screening, proteomics, and high-sensitivity transcriptomics in a neuronal model system, we identify domesticated retroviral proteins and RNA-m...",
+      "segment": 10,
+      "timestamp": 523.88
+    },
+    {
+      "title": "Mechanism of circZNF827-mediated transcriptional repression during neuronal differentiation",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.17.706266",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Circular RNAs (circRNAs) originate from backsplicing of numerous genes in animals, but the functions of most circRNAs remain elusive. We previously demonstrated that circZNF827 forms a complex with hnRNPL/K and its host gene-encoded protein ZNF827 that acts in the nucleus to transcriptionally repress the nerve growth factor receptor (NGFR/p75NTR) gene dur...",
+      "segment": 11,
+      "timestamp": 568.73
+    },
+    {
+      "title": "Anaplasma phagocytophilum Subversion of Host Hepcidin-Ferroportin Iron Nutritional Immunity",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709072",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Obligatory intracellular bacterium Anaplasma phagocytophilum (Aph) causes an emerging infectious disease called human granulocytic anaplasmosis. Within host cells, Aph proliferates in a membrane-bound vacuole (Aph-vacuole), to which all required nutrients must be routed, including essential iron. Here, using a fluorescent labile iron-binding dye, we found...",
+      "segment": 12,
+      "timestamp": 619.82
+    },
+    {
+      "title": "The mycobacterial selenocysteine machinery: presence and expression",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.03.709296",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "The Mycobacterium genus includes more than 190 species that occupies diverse ecological niches. Some are nonpathogenic and environmental, whereas others cause severe diseases both in humans and animals, e.g. tuberculosis (TB) and leprosy. SelenoCysteine (SeC) is present in all three domains of life. Here we report the presence of the SeC-machinery (selA, ...",
+      "segment": 13,
+      "timestamp": 663.04
+    },
+    {
+      "title": "Cryo-SWAN: the Multi-Scale Wavelet-decomposition-inspired Autoencoder Network for molecular density representation of molecular volumes",
+      "url": "https://arxiv.org/abs/2603.03342",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2603.03342v1 Announce Type: cross \nAbstract: Learning robust representations of 3D shapes from voxelized data is essential for advancing AI methods in biomedical imaging. However, most contemporary 3D computer vision approaches operate on point clouds, meshes, or octrees, while volumetric density maps, the native format of structural biology and cry...",
+      "segment": 14,
+      "timestamp": 724.48
+    },
+    {
+      "title": "In vitro binding energies capture Klf4 occupancy across the human genome",
+      "url": "https://arxiv.org/abs/2601.16151",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2601.16151v2 Announce Type: replace-cross \nAbstract: Transcription factors (TFs) regulate gene expression by binding to specific genomic loci determined by DNA sequence. Their sequence specificity is commonly summarized by a consensus binding motif. However, eukaryotic genomes contain billions of low-affinity DNA sequences to which TFs associate wit...",
+      "segment": 15,
+      "timestamp": 889.96
+    },
+    {
+      "title": "Phosphatidylinositol 4,5-bisphosphate mediates Arl4D self-interaction to promote Pak1 signaling.",
+      "url": "https://doi.org/10.1073/pnas.2533102123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Self-association by small GTPases on membrane is critical for their signaling output and cellular function. However, a mechanistic understanding of how membrane components regulate this process remains incompletely understood. Here, we show that phosphatidylinositol 4,5-bisphosphate [PI(4,5)P",
+      "segment": 16,
+      "timestamp": 1060.45
+    },
+    {
+      "title": "Screening and epitope characterization of Nidogen-2-specific nanobodies.",
+      "url": "https://doi.org/10.1002/2211-5463.70219",
+      "source": "PubMed — FEBS open bio",
+      "one_liner": "NID2 is a key component of the BM and plays an important role in ECM organization and tumor-associated microenvironmental remodeling. In this study, full-length recombinant NID2 was used as an antigen to immunize camels, and a nanobody phage display library was constructed from peripheral blood lymphocytes. Using phage display-based screening, nanobodies ...",
+      "segment": 17,
+      "timestamp": 1128.51
+    },
+    {
+      "title": "Dose-Dependent Cardiac Complexity Changes in Children Following Prenatal Glucocorticoid Exposure: Complementary Evidence from Multiscale Entropy Analysis and ECG Foundation Models",
+      "url": "https://arxiv.org/abs/2603.04074",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2603.04074v1 Announce Type: new \nAbstract: \\noindent\\textbf{Background} Prenatal glucocorticoid exposure alters cardiac development, but whether persistent cardiac effects in childhood follow a dose-response relationship remains unknown. We recently showed that ECG foundation models detect robust cardiac differences between steroid-exposed and contr...",
+      "segment": 18,
+      "timestamp": 1176.1
+    },
+    {
+      "title": "Revisiting the Role of Foundation Models in Cell-Level Histopathological Image Analysis under Small-Patch Constraints -- Effects of Training Data Scale and Blur Perturbations on CNNs and Vision Transformers",
+      "url": "https://arxiv.org/abs/2603.04081",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2603.04081v1 Announce Type: cross \nAbstract: Background and objective: Cell-level pathological image analysis requires working with extremely small image patches (40x40 pixels), far below standard ImageNet resolutions. It remains unclear whether modern deep learning architectures and foundation models can learn robust and scalable representations un...",
+      "segment": 19,
+      "timestamp": 1302.98
+    },
+    {
+      "title": "Tracking Feral Horses in Aerial Video Using Oriented Bounding Boxes",
+      "url": "https://arxiv.org/abs/2603.03604",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2603.03604v1 Announce Type: cross \nAbstract: The social structures of group-living animals such as feral horses are diverse and remain insufficiently understood, even within a single species. To investigate group dynamics, aerial videos are often utilized to track individuals and analyze their movement trajectories, which are essential for evaluatin...",
+      "segment": 20,
+      "timestamp": 1456.05
+    },
+    {
+      "title": "Modeling and Analysis of Fish Interaction Networks under Projected Visual Stimuli",
+      "url": "https://arxiv.org/abs/2603.01682",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2603.01682v2 Announce Type: replace-cross \nAbstract: This paper addresses the estimation of a dynamic interaction network, a network of influence among individuals, under projected visual stimuli to quantify the influences of inter-individual interactions and external stimuli on collective behavior. Building upon our previously proposed network esti...",
+      "segment": 21,
+      "timestamp": 1577.2
+    },
+    {
+      "title": "Automated Measurement of Geniohyoid Muscle Thickness During Speech Using Deep Learning and Ultrasound",
+      "url": "https://arxiv.org/abs/2603.03350",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2603.03350v1 Announce Type: new \nAbstract: Manual measurement of muscle morphology from ultrasound during speech is time-consuming and limits large-scale studies. We present SMMA, a fully automated framework that combines deep-learning segmentation with skeleton-based thickness quantification to analyze geniohyoid (GH) muscle dynamics. Validation de...",
+      "segment": 22,
+      "timestamp": 1722.27
+    },
+    {
+      "title": "Functional connectivity-based classification and subtyping of major depression for precision mental health: An ensemble graph neural network approach.",
+      "url": "https://doi.org/10.1371/journal.pdig.0001261",
+      "source": "PubMed — PLOS digital health",
+      "one_liner": "Major depressive disorder (MDD) remains clinically diagnosed based on subjective symptoms rather than objective neurobiological markers, which limits diagnostic accuracy and the ability to tailor treatment. We present an ensemble hybrid framework that integrates graph neural networks (GNN) with unsupervised clustering to classify and subtype MDD using res...",
+      "segment": 23,
+      "timestamp": 1864.56
+    },
+    {
+      "title": "Phase I/II clinical trial of a melanoma vaccine targeting shared non-mutated antigens and a shared mutated BRAF neoantigen with an agonistic CD40 antibody (CDX-1140) plus TLR3 agonist (poly-ICLC).",
+      "url": "https://doi.org/10.1136/jitc-2025-013613",
+      "source": "PubMed — Journal for immunotherapy of cancer",
+      "one_liner": "BACKGROUND: For patients with high-risk melanoma who are unresponsive or intolerant to immune checkpoint inhibitors, cancer vaccines may provide benefit with a favorable toxicity profile. CD4 METHODS: Adults with high-risk melanoma arising from cutaneous, mucosal, or ocular primary sites who were rendered clinically free of disease after definitive treatm...",
+      "segment": 24,
+      "timestamp": 1993.66
+    },
+    {
+      "title": "Genome modelling and design across all domains of life with Evo 2.",
+      "url": "https://doi.org/10.1038/s41586-026-10176-5",
+      "source": "PubMed — Nature",
+      "one_liner": "All of life encodes information with DNA. Although tools for genome sequencing, synthesis and editing have transformed biological research, we still lack sufficient understanding of the immense complexity encoded by genomes to predict the effects of many classes of genomic changes or to intelligently compose new biological systems. Artificial intelligence...",
+      "segment": 25,
+      "timestamp": 2154.6
+    },
+    {
+      "title": "Time-resolved urinary proteomics reveals heme-associated oxidative stress responses in neonatal hypoxic-ischaemic encephalopathy.",
+      "url": "https://doi.org/10.1186/s40348-026-00222-7",
+      "source": "PubMed — Molecular and cellular pediatrics",
+      "one_liner": "BACKGROUND: Neonatal hypoxic-ischemic encephalopathy (HIE) triggers systemic oxidative stress and redox imbalance, contributing to multi-organ injury. Urine is a noninvasive matrix for longitudinal profiling of molecular responses, yet time-resolved proteomic studies in HIE are limited. METHODS: We performed longitudinal SWATH-MS proteomic profiling of ur...",
+      "segment": 26,
+      "timestamp": 2324.78
+    },
+    {
+      "title": "Panzootic H5 influenza viruses acquired resistance to human head interface antibodies.",
+      "url": "https://doi.org/10.1371/journal.ppat.1014005",
+      "source": "PubMed — PLoS pathogens",
+      "one_liner": "Antibodies to the influenza hemagglutinin protein (HA) confer the strongest protection against infection. Immunity elicited by endemic, seasonal, human viruses is correlated with diminished disease severity and death caused by antigenically novel viruses. Antibodies to the HA head interface are broadly protective and abundant in human serologic and memory...",
+      "segment": 27,
+      "timestamp": 2451.56
+    },
+    {
+      "title": "Review on bioactive compounds of medicinal plants with antiviral properties against Newcastle disease virus (NDV).",
+      "url": "https://doi.org/10.1007/s00705-026-06533-4",
+      "source": "PubMed — Archives of virology",
+      "one_liner": "Newcastle disease virus (NDV) continues to cause major economic losses in poultry globally, especially in resource-limited settings. Although vaccination is the primary control strategy, its effectiveness is often compromised by viral mutations and short-lived immunity. This has prompted growing interest in medicinal plants as alternative or complementary...",
+      "segment": 28,
+      "timestamp": 2567.38
+    },
+    {
+      "title": "Phage Henu15-resistant mutant derives fitness trade-offs in Morganella morganii.",
+      "url": "https://doi.org/10.1186/s13568-026-02032-6",
+      "source": "PubMed — AMB Express",
+      "one_liner": "The rapid emergence of multidrug-resistant strains of Morganella necessitates new therapeutic approaches, such as phage therapy. Phages are considered a promising adjunct to antibiotics. However, the rapid emergence of phage-resistant bacterial mutants poses a significant challenge in clinical practice. Nevertheless, this phenomenon is often accompanied b...",
+      "segment": 29,
+      "timestamp": 2710.25
+    },
+    {
+      "title": "Predicting pyrazinamide resistance in Mycobacterium tuberculosis using a graph convolutional network.",
+      "url": "https://doi.org/10.1186/s12866-026-04876-1",
+      "source": "PubMed — BMC microbiology",
+      "one_liner": "",
+      "segment": 30,
+      "timestamp": 2839.03
+    },
+    {
+      "title": "Enhancing vibriosis vaccination in fish: genetically modified Nannochloropsis sp. as an oral vaccine carrier.",
+      "url": "https://doi.org/10.1007/s11274-026-04843-y",
+      "source": "PubMed — World journal of microbiology & biotechnology",
+      "one_liner": "Vibriosis, caused by Vibrio species, threatens marine aquaculture worldwide. Traditional vaccination methods are labor-intensive, expensive, and stressful for fish. This study investigates genetically modified Nannochloropsis sp. as a novel oral vaccine carrier against vibriosis. Using homologous recombination, nitrate reductase gene was targeted to integ...",
+      "segment": 31,
+      "timestamp": 2986.03
+    },
+    {
+      "title": "Therapeutic efficacy of Curcuma longa leaf extract in experimental models of arthritis.",
+      "url": "https://doi.org/10.1007/s10787-026-02142-4",
+      "source": "PubMed — Inflammopharmacology",
+      "one_liner": "Arthritis is a chronic inflammatory disorder that affects millions worldwide, leading to persistent joint pain, stiffness, swelling, and impaired mobility. Although conventional therapies are effective in symptom management, their long-term use is often limited by adverse effects and poor adherence. This study investigated the anti-arthritic potential of ...",
+      "segment": 32,
+      "timestamp": 3103.84
+    },
+    {
+      "title": "Intracellular complement Factor H promotes tumor progression through modulation of cell cycle and actin cytoskeleton.",
+      "url": "https://doi.org/10.1038/s42003-026-09807-4",
+      "source": "PubMed — Communications biology",
+      "one_liner": "Overexpression of complement genes in the tumor microenvironment, including Factor H (FH), is a strong predictor of poor prognosis in multiple cancers. Its canonical functions in the bloodborne complement cascade, though, cannot explain this prognostic impact. Here, we demonstrate that FH operates within the intracellular space in fibroblasts and tumor ce...",
+      "segment": 33,
+      "timestamp": 3235.55
+    },
+    {
+      "title": "PAR-1 in Alzheimer's Disease: Pathophysiological Insights and Mechanistic Perspectives.",
+      "url": "https://doi.org/10.1007/s11596-026-00175-y",
+      "source": "PubMed — Current medical science",
+      "one_liner": "The G protein-coupled receptor (GPCR) known as protease-activated receptor-1 (PAR-1) is triggered by thrombin and plays a multifaceted role in the onset and progression of Alzheimer's disease (AD). AD is an irreversible neurodegenerative disease characterized by amyloid-β (Aβ) accumulation, neuroinflammation, tau hyperphosphorylation, and synaptic dysfunc...",
+      "segment": 34,
+      "timestamp": 3359.48
+    },
+    {
+      "title": "Multi-epitope vaccine against nucleoprotein and envelopment polyprotein of Batai orthobunyavirus using molecular docking and molecular dynamics studies.",
+      "url": "https://doi.org/10.1038/s41598-026-41964-8",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Batai orthobunyavirus (BATV) is a mosquito-borne orthobunyavirus that affects both humans and animals, and currently no licensed vaccine is available. The aim of this study was to design a multi-epitope vaccine candidate against BATV using a computational vaccinology pipeline. Predicted B-cell and T-cell epitopes from the nucleoprotein and envelopment pol...",
+      "segment": 35,
+      "timestamp": 3534.17
+    },
+    {
+      "title": "Genome-wide analyses of Mycobacterium tuberculosis complex isolates reveal insights into circulating lineages and drug resistance mutations in The Gambia.",
+      "url": "https://doi.org/10.1038/s41598-026-42003-2",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Tuberculosis (TB), caused by the Mycobacterium tuberculosis complex (MTBC), remains a pressing global health challenge, with a high burden in West Africa, including The Gambia. Understanding the genetic diversity of circulating MTBC strains is essential for improving diagnosis, surveillance and treatment strategies. In this study, we characterise the popu...",
+      "segment": 36,
+      "timestamp": 3660.53
+    },
+    {
+      "title": "Novel universal domain-centric method for protein classification.",
+      "url": "https://doi.org/10.1038/s41598-026-41142-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Human protein kinases constitute a large superfamily of about 500 genes, historically classified into subfamilies based on phylogenetic relationship. However, many kinases remain unclassified. Phylogeny is typically based on multiple sequence alignments, and neglects the physico-chemical properties of residues at each position of the sequence. By incorpor...",
+      "segment": 37,
+      "timestamp": 3753.72
+    },
+    {
+      "title": "Inference-Time Toxicity Mitigation in Protein Language Models",
+      "url": "https://arxiv.org/abs/2603.04045",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2603.04045v1 Announce Type: new \nAbstract: Protein language models (PLMs) are becoming practical tools for de novo protein design, yet their dual-use potential raises safety concerns. We show that domain adaptation to specific taxonomic groups can elicit toxic protein generation, even when toxicity is not the training objective. To address this, we ...",
+      "segment": 38,
+      "timestamp": 3862.22
+    },
+    {
+      "title": "CNFP: Optimizing Cloud-Native Network Function Placement with Diffusion Models on the Cloud Continuum",
+      "url": "https://arxiv.org/abs/2511.01343",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2511.01343v2 Announce Type: replace \nAbstract: The placement of Cloud-Native Network Functions across the Cloud-Continuum represents a core challenge in the orchestration of current 5G and future 6G networks. The process entails the implementation of interdependent computing tasks, which are structured as Service Function Chains, over distributed cl...",
+      "segment": 39,
+      "timestamp": 3986.77
+    }
+  ]
+}

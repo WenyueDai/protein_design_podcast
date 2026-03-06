@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 18:29:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 04:50:17 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -18,6 +18,17 @@
     <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     <itunes:explicit>false</itunes:explicit>
     
+    <item>
+      <title>Daily Podcast 2026-03-06</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-06/podcast_2026-03-06.mp3</guid>
+      <pubDate>Fri, 06 Mar 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-06/podcast_2026-03-06.mp3" length="30781269" type="audio/mpeg" />
+      <description>AlphaFold2&#x27;s confidence scores, particularly pLDDT and pTM, are unreliable for predicting fold-switching proteins, according to a new bioRxiv preprint. | The available text does not provide details on the core claim, method, key evidence, why it matters, limitations, or terms from the source article. | Researchers have introduced RePaRank, a new computational architecture designed to efficiently predict antibody-antigen interfaces.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>AlphaFold2&#x27;s confidence scores, particularly pLDDT and pTM, are unreliable for predicting fold-switching proteins, according to a new bioRxiv preprint. | The available text does not provide details on the core claim, method, key evidence, why it matters, limitations, or terms from the source article. | Researchers have introduced RePaRank, a new computational architecture designed to efficiently predict antibody-antigen interfaces.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
     <item>
       <title>Daily Podcast 2026-03-05</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-05/podcast_2026-03-05.mp3</guid>
