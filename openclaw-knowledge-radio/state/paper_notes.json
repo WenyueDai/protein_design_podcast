@@ -244,6 +244,11 @@
       "note": "DD",
       "title": "Ligand-guided Sequence-structure Co-design of De Novo Functional Enzymes",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.03.707476": {
+      "note": "DD",
+      "title": "Explainable Physicochemical Determinants of Protein Ligand Binding via Non-Covalent Interactions",
+      "source": "bioRxiv — molecular biology"
     }
   }
 }
