@@ -261,6 +261,11 @@
       "note": "DD",
       "title": "A framework for testing structural hypotheses of protein dynamics against experimental HDX-MS data",
       "source": "Charlotte Deane (bioRxiv)"
+    },
+    "https://arxiv.org/abs/2603.04480": {
+      "note": "DD",
+      "title": "AbAffinity: A Large Language Model for Predicting Antibody Binding Affinity against SARS-CoV-2",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
