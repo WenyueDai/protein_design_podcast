@@ -272,5 +272,12 @@
       "title": "Minimal Amino Acid Alphabet for Protein Design",
       "source": "bioRxiv — bioinformatics"
     }
+  },
+  "2026-03-08": {
+    "https://doi.org/10.1186/s12951-026-04225-4": {
+      "note": "DD",
+      "title": "Bioinformatic and computational biophysics tools for nanopore engineering: a review from standard approaches to machine ",
+      "source": "PubMed — Journal of nanobiotechnology"
+    }
   }
 }
