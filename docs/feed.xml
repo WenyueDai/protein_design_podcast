@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Mar 2026 04:39:51 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 04:58:37 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-03-08</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-08/podcast_2026-03-08.mp3</guid>
+      <pubDate>Sun, 08 Mar 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-08/podcast_2026-03-08.mp3" length="36318309" type="audio/mpeg" />
+      <description>In 2025, researchers announced they had solved a 700-year-old mystery: the identity of a murdered medieval nobleman whose skeleton was discovered in 1926 near the Hungarian-Romanian border. | The biological profile was striking. | The trauma analysis revealed 23 cut marks distributed across the skeleton in a pattern suggesting multiple attackers striking from different directions.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>In 2025, researchers announced they had solved a 700-year-old mystery: the identity of a murdered medieval nobleman whose skeleton was discovered in 1926 near the Hungarian-Romanian border. | The biological profile was striking. | The trauma analysis revealed 23 cut marks distributed across the skeleton in a pattern suggesting multiple attackers striking from different directions.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-03-07</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-07/podcast_2026-03-07.mp3</guid>
       <pubDate>Sat, 07 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-07/podcast_2026-03-07.mp3" length="22779813" type="audio/mpeg" />
-      <description>Charlotte Deane&#x27;s team at Oxford has introduced ValDX, a new validation framework for extracting structural ensembles from HDX-MS data. | In a recent post on In the Pipeline, Derek Lowe discusses the concept of &quot;Dupeless Reeducation&quot; in drug discovery. | EpiExpr is a new deep learning framework from bioRxiv that predicts gene expression using epigenetic data.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-07/podcast_2026-03-07.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Charlotte Deane&#x27;s team at Oxford has introduced ValDX, a new validation framework for extracting structural ensembles from HDX-MS data. | In a recent post on In the Pipeline, Derek Lowe discusses the concept of &quot;Dupeless Reeducation&quot; in drug discovery. | EpiExpr is a new deep learning framework from bioRxiv that predicts gene expression using epigenetic data.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>

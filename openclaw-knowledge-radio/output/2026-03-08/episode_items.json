@@ -1,0 +1,366 @@
+{
+  "timestamps": [
+    0.0,
+    160.56,
+    289.74,
+    430.26,
+    486.37,
+    642.2,
+    736.94,
+    787.34,
+    839.9,
+    889.24,
+    999.92,
+    1119.46,
+    1256.28,
+    1389.19,
+    1508.1,
+    1652.0,
+    1772.48,
+    1923.46,
+    2065.34,
+    2185.92,
+    2324.61,
+    2442.08,
+    2618.48,
+    2738.5,
+    2884.82,
+    3053.78,
+    3139.43,
+    3281.41,
+    3467.24,
+    3590.16,
+    3721.58,
+    3866.04,
+    4007.78,
+    4136.24,
+    4295.84,
+    4403.38,
+    4522.92,
+    4653.96,
+    4690.7,
+    4812.92
+  ],
+  "items": [
+    {
+      "title": "Dead Reckoning",
+      "url": "https://www.asimov.press/p/dead-reckoning",
+      "source": "Asimov Press",
+      "one_liner": "Bioarchaeologists recently identified a murdered medieval royal. Now, they are trying to shed light on other ancient deaths.",
+      "segment": 0,
+      "timestamp": 0.0
+    },
+    {
+      "title": "A Modular Framework for Automated Segmentation and Analysis of AFM Imaging of Chromatin Organization",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.708946",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Chromatin organization underlies essential genome functions, but its nanoscale organization remains challenging to capture and quantify with precision. Atomic force microscopy (AFM) offers direct structural readouts of DNA and chromatin, yet translating these rich images into reproducible biological metrics has been limited by the lack of standardized, sc...",
+      "segment": 1,
+      "timestamp": 160.56
+    },
+    {
+      "title": "A Translocation within the Ogataea Species Complex Alters Local Subtelomeric Chromatin while Maintaining Overall Genome Organization",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.05.709876",
+      "source": "bioRxiv — genomics",
+      "one_liner": "Eukaryotic genomic DNA is packaged in the nucleus as chromatin - a DNA-protein aggregate regulating genome function, including transcription. Chromatin is classified as either active euchromatin or silent heterochromatin, with each marked by distinct histone post-translational modifications (PTMs). Chromatin composition also mediates genome organization, ...",
+      "segment": 2,
+      "timestamp": 289.74
+    },
+    {
+      "title": "Bind, catalyze, and quantify: a modern protein and enzyme engineering toolbox of genetically encoded non-canonical amino acids.",
+      "url": "https://doi.org/10.1093/protein/gzag007",
+      "source": "PubMed — Protein engineering, design & selection : PEDS",
+      "one_liner": "Non-canonical amino acids (ncAAs) are versatile molecular building blocks that can enhance nearly every aspect of protein engineering, from improving binding affinity to enabling precise quantitative analyses. This review highlights advances from 2020-2025 that demonstrate how expanding the amino acid repertoire unlocks new functionalities. We examine how...",
+      "segment": 3,
+      "timestamp": 430.26
+    },
+    {
+      "title": "Protein Language Modeling and Evolutionary Analysis Reveal an N-terminal Determinant of Functional Divergence in Cytochrome P450s from Sophora. tonkinensis",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.710024",
+      "source": "bioRxiv — plant biology",
+      "one_liner": "The N-terminal signal sequences of plant cytochrome P450 enzymes are recognized as critical determinants for subcellular localization and functional diversification, yet their evolutionary drivers and mechanisms remain largely unresolved. In this study, the evolutionary trajectories of these signals were systematically decoded through the integration of t...",
+      "segment": 4,
+      "timestamp": 486.37
+    },
+    {
+      "title": "A Data-Analysis Pipeline for High-Throughput Systematic Evolution of Ligands by Exponential Enrichment (HT-SELEX) in the Characterization of Telomeric Proteins",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.710105",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Telomeres are nucleoprotein structures at the ends of eukaryotic chromosomes that safeguard them from triggering inappropriate DNA damage signaling. POT1, a member of the mammalian shelterin complex, binds single-stranded (ss) telomeric DNA and blocks the activation of the ATR kinase-mediated DNA damage response at telomeres. Yet until recently, it was po...",
+      "segment": 5,
+      "timestamp": 642.2
+    },
+    {
+      "title": "SR2P: an efficient stacking method to predict protein abundance from gene expression in spatial transcriptomics data",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.04.709692",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Spatial transcriptomics data are largely available with RNA expression alone, limiting the detection of cell states defined by surface protein abundance. The lack of multi-omics spatial data limits the ability to identify immune cells and their signaling in the tumor microenvironment, as most solid tumors are immunologically poor and exhibit protein-RNA a...",
+      "segment": 6,
+      "timestamp": 736.94
+    },
+    {
+      "title": "Multi-Target In Silico Investigation of Withaferin A as a Potential Antiviral Inhibitor Against Key Marburg Virus Proteins",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.710011",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Marburg virus (MARV) is a highly pathogenic filovirus that causes hemorrhagic fever with a high mortality rate, with very limited treatment options. The urgent need for targeted antiviral agents emphasizes the importance of structure-based drug discovery approaches. The present study aimed to evaluate the antiviral potential of Withaferin A (PubChem CID-2...",
+      "segment": 7,
+      "timestamp": 787.34
+    },
+    {
+      "title": "Identifying genes associated with phenotypes using machine and deep learning",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.05.709665",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Identifying disease-associated genes enables the development of precision medicine and the understanding of biological processes. Genome-wide association studies (GWAS), gene expression data, biological pathway analysis, and protein network analysis are among the techniques used to identify causal genes. We propose a machine-learning (ML) and deep-learnin...",
+      "segment": 8,
+      "timestamp": 839.9
+    },
+    {
+      "title": "Analysis of genes co-evolved with Igf2bp RNA-Binding Proteins provides insights into post-transcriptional regulatory networks",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.05.709831",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "The Insulin-like growth factor 2 mRNA-binding protein (Igf2bp) family comprises three paralogous RNA-binding proteins - Igf2bp1, Igf2bp2, and Igf2bp3 - that are highly conserved across chordates. Originally identified through diverse experimental screens probing intracellular RNA localization, RNA stability, and translational control, Igf2bps were initial...",
+      "segment": 9,
+      "timestamp": 889.24
+    },
+    {
+      "title": "A proteome-wide dependency map of protein interaction motifs.",
+      "url": "https://doi.org/10.1038/s41594-026-01762-2",
+      "source": "PubMed — Nature structural & molecular biology",
+      "one_liner": "Short linear motifs (SLiMs) are the most ubiquitous protein interaction motifs within unstructured regions of the human proteome, yet their contribution to cellular homeostasis remains poorly understood. Here, to systematically assess SLiM function, we applied base editing to mutate all reported and a set of computationally predicted SLiMs defined by SLiM...",
+      "segment": 10,
+      "timestamp": 999.92
+    },
+    {
+      "title": "Protein Nanocages as Versatile Vectors for Nucleic Acid Delivery: Main Systems and Their Loading Mechanisms.",
+      "url": "https://doi.org/10.1007/s12033-026-01564-3",
+      "source": "PubMed — Molecular biotechnology",
+      "one_liner": "The rapid advancement of nucleic acid-based technologies, such as mRNA vaccines and CRISPR-based gene editing, has transformed modern medicine. Yet, their full therapeutic potential remains constrained by the need for precise cargo loading and efficient delivery. This limitation has inspired the development of novel vector systems capable of both protecti...",
+      "segment": 11,
+      "timestamp": 1119.46
+    },
+    {
+      "title": "Morphological determinants of glycosylation efficiency in Golgi cisternae.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1013993",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "The Golgi apparatus has an intricate spatial structure characterized by flattened membrane-bound compartments, known as cisternae. Cisternae house integral membrane enzymes that catalyse glycosylation, the addition of polymeric sugars to protein cargo, which is important for the trafficking and function of the products. The unusual and specific shape of G...",
+      "segment": 12,
+      "timestamp": 1256.28
+    },
+    {
+      "title": "Fabrication of a 3D nano-bienzyme cascade reactor based on a Dps protein scaffold for chiral amine synthesis.",
+      "url": "https://doi.org/10.1186/s40643-026-01022-7",
+      "source": "PubMed — Bioresources and bioprocessing",
+      "one_liner": "Based on the self-assembling properties of the SpyCatcher/SpyTag system and the structural advantages of Dps protein, this study successfully constructed a three-dimensional nano-enzyme cascade reactor (3DNECR) through the covalent self-assembly of SpyTag-ADH and SpyCatcher-Dps-ATA117 fusion proteins. The 3DNECR exhibited significantly enhanced catalytic ...",
+      "segment": 13,
+      "timestamp": 1389.19
+    },
+    {
+      "title": "Prostate‑specific membrane antigen: Molecular functions and emerging roles as a therapeutic target (Review).",
+      "url": "https://doi.org/10.3892/mmr.2026.13832",
+      "source": "PubMed — Molecular medicine reports",
+      "one_liner": "The present review focuses on the molecular functions of prostate‑specific membrane antigen (PSMA) as a biologically active protein. Its clinical use as a positron emission tomography imaging marker or radioligand therapy target is beyond the scope of the current review. The role of PSMA (also known as folate hydrolase 1/glutamate carboxypeptidase II/N‑ac...",
+      "segment": 14,
+      "timestamp": 1508.1
+    },
+    {
+      "title": "Bioinformatic and computational biophysics tools for nanopore engineering: a review from standard approaches to machine learning advancements.",
+      "url": "https://doi.org/10.1186/s12951-026-04225-4",
+      "source": "PubMed — Journal of nanobiotechnology",
+      "one_liner": "Nanopores are key components in several emerging technologies. Nanopore sensors allow the observation of single molecules from the signature they leave in the ionic current flowing through the pore, while nanoporous membranes provide a potentially customizable platform to achieve unprecedented ion selectivity performance. In parallel to the improvements i...",
+      "segment": 15,
+      "timestamp": 1652.0
+    },
+    {
+      "title": "Lactoferrin as a Non-Hormonal Therapeutic Candidate for Endometriosis: Mechanisms and Future Directions.",
+      "url": "https://doi.org/10.1007/s43032-026-02059-x",
+      "source": "PubMed — Reproductive sciences (Thousand Oaks, Calif.)",
+      "one_liner": "The pathogenesis and progression of endometriosis may involve a complex combination of multiple factors, including chronic inflammation and oxidative stress. Hormonal therapy, the current standard for pharmacotherapy in endometriosis, causes various issues, such as restricting pregnancy during treatment and a high risk of recurrence after treatment discon...",
+      "segment": 16,
+      "timestamp": 1772.48
+    },
+    {
+      "title": "Tudor domain-containing protein 9-targeting siRNA nanoparticles alleviate Pseudomonas aeruginosa lung injury in preclinical models by promoting neutrophil cuproptosis.",
+      "url": "https://doi.org/10.1038/s41467-026-70349-8",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Pseudomonas aeruginosa pneumonia poses a significant therapeutic challenge. Nanoparticles serve as an effective tool for nucleic acid delivery to efficiently alleviate pneumonia. This study develops a hyaluronic acid (HA)-coated peptide nanoparticle system for targeted delivery of small interfering RNA (siRNA) against Tudor domain-containing protein 9 (TD...",
+      "segment": 17,
+      "timestamp": 1923.46
+    },
+    {
+      "title": "Randomized controlled trial of medical assistant-coached behavioral intervention for chronic pain.",
+      "url": "https://doi.org/10.1136/rapm-2025-107389",
+      "source": "PubMed — Regional anesthesia and pain medicine",
+      "one_liner": "BACKGROUND: Chronic spinal pain with widespread symptoms often responds poorly to peripherally focused treatments. Cognitive-behavioral therapy (CBT) can help but typically yields modest effects. This trial evaluated whether adding resilience-enhancing activities to medical assistant-coached CBT (PRISM-CBT) improves outcomes. METHODS: Adults with spinal p...",
+      "segment": 18,
+      "timestamp": 2065.34
+    },
+    {
+      "title": "Thermostability engineering of microbial transglutaminase using artificial intelligence and investigation of its underlying mechanisms.",
+      "url": "https://doi.org/10.1186/s40643-026-01024-5",
+      "source": "PubMed — Bioresources and bioprocessing",
+      "one_liner": "The application of artificial intelligence in enzyme molecular evolution has emerged as a research hotspot. However, applying machine learning to enzyme molecular modification still presents many challenges. In particular, accelerating the integration of machine learning and rational design is one of the important development trends in the field of protei...",
+      "segment": 19,
+      "timestamp": 2185.92
+    },
+    {
+      "title": "Meningococcal quadrivalent ACYW-TT conjugated vaccine at 6-23 months: phase III study (US/Puerto Rico).",
+      "url": "https://doi.org/10.1038/s41390-026-04833-8",
+      "source": "PubMed — Pediatric research",
+      "one_liner": "BACKGROUND: A quadrivalent meningococcal tetanus toxoid-conjugate vaccine, MenACYW-TT, was developed to provide broad protection against invasive meningococcal disease across all age groups. We evaluated the immunogenicity and safety of MenACYW-TT as a two-dose series (1 + 1 schedule) co-administered with routine pediatric vaccines to infants from 6 month...",
+      "segment": 20,
+      "timestamp": 2324.61
+    },
+    {
+      "title": "Traffic and functional polarization of macrophages in the areas of programmed interdigital cell death in the embryonic chick.",
+      "url": "https://doi.org/10.1007/s10495-026-02303-4",
+      "source": "PubMed — Apoptosis : an international journal on programmed cell death",
+      "one_liner": "In this study, we show that during digit development, the embryonic limb contains an abundant and widespread population of \"resident macrophages\" that precede the onset of interdigital cell death responsible for the separation of digit primordia. The use of cultures of interdigital mesoderm at different remodeling stages, and GFP+ transgenic embryos in wh...",
+      "segment": 21,
+      "timestamp": 2442.08
+    },
+    {
+      "title": "A phase II study of atezolizumab in combination with stereotactic radiation for patients with triple-negative breast cancer and brain metastasis.",
+      "url": "https://doi.org/10.1007/s10549-026-07932-6",
+      "source": "PubMed — Breast cancer research and treatment",
+      "one_liner": "PURPOSE: Triple-negative breast cancer (TNBC) patients with brain metastases have a poor prognosis and limited treatment options. Preclinical and clinical evidence suggests that radiotherapy may act synergistically with immune checkpoint inhibitors. METHODS: We conducted an open-label, single-arm, phase II study of atezolizumab plus stereotactic radiosurg...",
+      "segment": 22,
+      "timestamp": 2618.48
+    },
+    {
+      "title": "Metrnl in health and disease: tissue-specific actions and signaling networks.",
+      "url": "https://doi.org/10.1007/s10495-026-02312-3",
+      "source": "PubMed — Apoptosis : an international journal on programmed cell death",
+      "one_liner": "Emerging as a novel secreted protein, Meteorin-like (Metrnl) exhibits substantial sequence homology with Meteorin (Metrn). Although Metrnl was initially identified in the context of adipose tissue and metabolic regulation, accumulating evidence has demonstrated its widespread expression across multiple tissues, including the nervous system, barrier tissue...",
+      "segment": 23,
+      "timestamp": 2738.5
+    },
+    {
+      "title": "Application of untargeted plasma metabolomics and machine learning to construct a diagnostic model for hypertrophic cardiomyopathy: a case-control study.",
+      "url": "https://doi.org/10.1007/s11306-026-02412-w",
+      "source": "PubMed — Metabolomics : Official journal of the Metabolomic Society",
+      "one_liner": "BACKGROUND: Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiovascular disease. Recent metabolomics studies have revealed pathogenic mechanisms and provided new perspectives for diagnosis. AIM: This study aimed to analyze plasma metabolic alterations and construct a preliminary diagnostic model for HCM based on untargeted metabolomics a...",
+      "segment": 24,
+      "timestamp": 2884.82
+    },
+    {
+      "title": "The prognostic impact of myeloid co-mutation burden in TP53-mutated AML/MDS after allogeneic stem cell transplantation: a multicenter retrospective analysis.",
+      "url": "https://doi.org/10.1007/s00277-026-06895-4",
+      "source": "PubMed — Annals of hematology",
+      "one_liner": "TP53 mutations are associated with poor prognosis in acute myeloid leukemia (AML) and myelodysplastic syndromes (MDS). Allogeneic hematopoietic stem cell transplantation (allo-HSCT) offers a potential cure, but outcomes are suboptimal and risk stratification remains challenging. This multi-center, retrospective study analyzed 66 patients with TP53-mutated...",
+      "segment": 25,
+      "timestamp": 3053.78
+    },
+    {
+      "title": "Design-driven optimization of low-cost reagent formulations for reproducible and high-yielding cell-free gene expression.",
+      "url": "https://doi.org/10.1038/s41467-026-69605-8",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Access to recombinant proteins is vital in basic science and biotechnology research. Cell-free gene expression systems provide one approach to address this need, but widespread utilization remains limited by the cost, complexity, and inconsistency of current platforms. To address these limitations, we carry out a multi-dimensional definitive screening des...",
+      "segment": 26,
+      "timestamp": 3139.43
+    },
+    {
+      "title": "HLA-E as an Emerging Checkpoint and Biomarker in Personalized Cancer Immunotherapy.",
+      "url": "https://doi.org/10.1007/s11596-026-00171-2",
+      "source": "PubMed — Current medical science",
+      "one_liner": "Human leukocyte antigen (HLA) molecules play a predominant role in cancer immunotherapy by harnessing the immune system's capacity to differentiate between healthy and malignant cells. Most human cell types express HLA class I molecules, which interact with T-cell receptors (TCRs) to activate T cells and initiate adaptive immunological responses. The effi...",
+      "segment": 27,
+      "timestamp": 3281.41
+    },
+    {
+      "title": "Structural determinants of voltage sensitivity in hyperpolarization-activated ion channels and their persistence in the evolutionary scale.",
+      "url": "https://doi.org/10.1007/s00424-026-03153-4",
+      "source": "PubMed — Pflugers Archiv : European journal of physiology",
+      "one_liner": "HCN channels have a reverse electromechanical coupling mechanism, where hyperpolarized membrane potentials facilitate pore opening through an inward displacement of the S4 segment of the voltage-sensing domain (VSD). This voltage dependence is finely regulated by the binding of cAMP to an intracellular domain (CNBD). Of the four widely studied isoforms of...",
+      "segment": 28,
+      "timestamp": 3467.24
+    },
+    {
+      "title": "Protein/linker dynamics facilitates the structural adaptation of the orange carotenoid protein in cyanobacterial photoprotection: a neutron scattering study.",
+      "url": "https://doi.org/10.1007/s11120-026-01204-6",
+      "source": "PubMed — Photosynthesis research",
+      "one_liner": "",
+      "segment": 29,
+      "timestamp": 3590.16
+    },
+    {
+      "title": "Elucidating the pharmacological mechanism of Yangming-Kaixin-Yizhi formula in inhibiting neuronal ferroptosis via Nrf2 in Alzheimer's disease: a study combining network pharmacology, transcriptomics, and experimental validation.",
+      "url": "https://doi.org/10.1007/s11011-026-01814-y",
+      "source": "PubMed — Metabolic brain disease",
+      "one_liner": "Ferroptosis is considered to be an important pathological driver of Alzheimer's disease (AD), and inhibiting neuronal ferroptosis shows a significant AD improvement effect. Yangming-Kaixin-Yizhi formula (YKY), a traditional Chinese medicine (TCM) formula, has been used for the treatment of forgetfulness for hundreds of years, but its mechanisms remain unc...",
+      "segment": 30,
+      "timestamp": 3721.58
+    },
+    {
+      "title": "Metabolic-dysfunction-associated steatohepatitis impairs cochlear integrity and delays auditory recovery after noise trauma.",
+      "url": "https://doi.org/10.1186/s12964-026-02760-z",
+      "source": "PubMed — Cell communication and signaling : CCS",
+      "one_liner": "People with metabolic liver disease are known to have a higher risk of hearing problems, but it has not been clear why. In this study, we discovered a biological link between metabolic dysfunction–associated steatohepatitis (MASH) and increased vulnerability of the inner ear to noise. Using a mouse model fed a methionine–choline–deficient (MCD) diet, we f...",
+      "segment": 31,
+      "timestamp": 3866.04
+    },
+    {
+      "title": "AMR-GNN: a multi-representation graph neural network framework to enable genomic antimicrobial resistance prediction.",
+      "url": "https://doi.org/10.1038/s41467-026-69934-8",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Whole-genome sequencing (WGS) data are an invaluable resource for understanding antimicrobial resistance (AMR) mechanisms. However, WGS data are high-dimensional and the lack of standardized genomic representations is a key barrier to AMR phenotype prediction. To fully explore these high-resolution data, we propose AMR-GNN, a graph deep learning-based fra...",
+      "segment": 32,
+      "timestamp": 4007.78
+    },
+    {
+      "title": "Thymbra spicata extracts against soilborne fungi: linking chemical composition, antifungal activity, and molecular docking insights.",
+      "url": "https://doi.org/10.1038/s41598-026-43418-7",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "In this study, the antifungal activities of essential oil, supercritical carbon dioxide (SC-CO₂) extract, methanol extract, and SC-CO₂+ethanol extract obtained from Thymbra spicata L. were evaluated in vitro against the soilborne fungal pathogens Sclerotinia sclerotiorum, Macrophomina sp., Rhizoctonia solani, and Fusarium oxysporum, which cause substantia...",
+      "segment": 33,
+      "timestamp": 4136.24
+    },
+    {
+      "title": "The network pharmacology prediction and experiment validation of Astragalus membranaceus for alleviating silicosis fibrosis via decreasing MMP9 and EGFR expression.",
+      "url": "https://doi.org/10.1038/s41598-026-42544-6",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "To investigate the molecular mechanism of Astragalus membranaceus (AM) in alleviating silicosis fibrosis using bioinformatics and in vitro experiments. Active ingredients of AM and their corresponding targets were retrieved from the TCMSP and SwissTargetPrediction databases. These ingredients were screened based on oral bioavailability (OB ≥ 30%), drug-li...",
+      "segment": 34,
+      "timestamp": 4295.84
+    },
+    {
+      "title": "Physico-Chemical Properties of Silk Sericin Extracted by Hydrothermal Treatment.",
+      "url": "https://doi.org/10.1007/s10930-026-10323-x",
+      "source": "PubMed — The protein journal",
+      "one_liner": "In this work, studies were conducted to achieve the complete extraction of sericin from natural silk cocoons at temperatures of 100 °C and 110 °C for durations ranging 2-24 h without the use of chemical reagents. As a result, sericin samples with molecular weight changing 20-240 kDa were obtained. During the thermal and sublimation drying of the isolated ...",
+      "segment": 35,
+      "timestamp": 4403.38
+    },
+    {
+      "title": "A stable two-component cationic liposome platform for mRNA delivery induces CD8",
+      "url": "https://doi.org/10.1186/s12951-026-04234-3",
+      "source": "PubMed — Journal of nanobiotechnology",
+      "one_liner": "The mRNA-LNP-based SARS-CoV-2 vaccines were a breakthrough for the technology; however, their production requires specialized equipment, and the complex formulation involving four distinct lipid classes imposes stringent requirements on both characterization and quality control. We tested a cationic adjuvant formulation containing a simple two-component l...",
+      "segment": 36,
+      "timestamp": 4522.92
+    },
+    {
+      "title": "Biochemical Characterization of the Staphylococcal Endolysin MV-L with Enhanced Activity Under Optimized Conditions and Effective Removal of MRSA from Surfaces and Biofilms.",
+      "url": "https://doi.org/10.1007/s10930-026-10325-9",
+      "source": "PubMed — The protein journal",
+      "one_liner": "Methicillin-resistant Staphylococcus aureus (MRSA) remains a major cause of difficult-to-treat infections, largely due to its multidrug resistance and capacity to form persistent biofilms on medical and industrial surfaces. Bacteriophage-derived endolysins have emerged as promising antibacterial agents, but many still require detailed biochemical characte...",
+      "segment": 37,
+      "timestamp": 4653.96
+    },
+    {
+      "title": "Superenhancer-driven SMC4 promotes myeloma growth by epigenetically enhancing IFI16-dependent STING signaling.",
+      "url": "https://doi.org/10.1007/s10495-026-02304-3",
+      "source": "PubMed — Apoptosis : an international journal on programmed cell death",
+      "one_liner": "Multiple myeloma (MM) is a complex hematological malignancy characterized by the uncontrolled proliferation of plasma cells in the bone marrow. Emerging evidence suggests that the aberrant activation of specific gene regulatory elements known as SE plays a crucial role in driving oncogenic gene expression programs in cancer. In this study, we investigated...",
+      "segment": 38,
+      "timestamp": 4690.7
+    },
+    {
+      "title": "UniQure’s dispute with FDA; Zealand’s obesity readout; China takes on world’s most expensive medicines; and more",
+      "url": "https://endpoints.news/uniqures-dispute-with-fda-zealands-obesity-readout-china-takes-on-worlds-most-expensive-medicines-and-more/",
+      "source": "Endpoints News",
+      "one_liner": "Welcome back to Endpoints Weekly. It was a busy week, so let’s dive in. Endpoints’ Max Gelman covered uniQure’s dispute with the FDA over its experimental gene therapy for Huntington’s disease, which has raised broader ...",
+      "segment": 39,
+      "timestamp": 4812.92
+    }
+  ]
+}
