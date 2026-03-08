@@ -474,14 +474,14 @@ def render_index(episodes, all_episodes=None):
 <meta name='viewport' content='width=device-width,initial-scale=1'>
 <title>{html.escape(PODCAST_TITLE)}</title>
 <style>
-:root {{ --bg:#eef7ef; --bg2:#f7f4e9; --card:#fffdf6; --text:#2d3d33; --muted:#6d7f71; --accent:#4f8f6a; --line:#dbe7d9; --body-size:0.95rem; --body-line:1.6; }}
+:root {{ --bg:#1e1e1e; --bg2:#252526; --card:#2d2d2d; --text:#d4d4d4; --muted:#858585; --accent:#4ec9b0; --line:#3e3e42; --body-size:0.95rem; --body-line:1.6; }}
 * {{ box-sizing:border-box; }}
 html, body {{ max-width:100%; overflow-x:hidden; }}
 body {{ margin:0; font-family:"Hiragino Sans","Noto Sans JP",Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:linear-gradient(160deg,var(--bg),var(--bg2)); color:var(--text); font-size:var(--body-size); line-height:var(--body-line); }}
 .layout {{ display:flex; gap:24px; max-width:1320px; margin:0 auto; padding:28px 16px 40px; align-items:flex-start; }}
 .main-col {{ flex:1; min-width:0; width:100%; }}
 .hero {{ display:flex; flex-direction:column; gap:16px; margin-bottom:16px; }}
-.hero-panel {{ background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px 20px; box-shadow:0 10px 24px rgba(79,143,106,.10); width:min(100%, 52rem); }}
+.hero-panel {{ background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px 20px; box-shadow:0 10px 24px rgba(0,0,0,.4); width:min(100%, 52rem); }}
 .hero-panel h1 {{ margin:0 0 8px; letter-spacing:.2px; font-size:clamp(1.8rem,3.2vw,2.5rem); line-height:1.05; }}
 .hero-kicker {{ margin:0 0 12px; font-size:.94rem; color:var(--muted); line-height:1.6; width:100%; }}
 .intro-stack {{ display:flex; flex-direction:column; gap:8px; align-items:flex-start; width:100%; }}
@@ -498,10 +498,10 @@ body {{ margin:0; font-family:"Hiragino Sans","Noto Sans JP",Inter,system-ui,-ap
 .section-head p {{ margin:0; color:var(--muted); font-size:.84rem; }}
 .sidebar {{ width:200px; flex-shrink:0; transition:width .25s,opacity .25s; overflow:hidden; position:sticky; top:18px; opacity:.88; }}
 .sidebar h3 {{ margin:0 0 8px; font-size:.82rem; color:var(--muted); display:flex; justify-content:space-between; align-items:center; letter-spacing:.02em; }}
-.month-group {{ margin-bottom:5px; border:1px solid rgba(219,231,217,.8); border-radius:8px; overflow:hidden; background:rgba(255,253,246,.75); }}
-.month-group summary {{ padding:5px 9px; font-size:.8rem; font-weight:600; color:var(--muted); cursor:pointer; list-style:none; display:flex; justify-content:space-between; align-items:center; background:rgba(247,244,233,.75); }}
+.month-group {{ margin-bottom:5px; border:1px solid rgba(62,62,66,.8); border-radius:8px; overflow:hidden; background:rgba(37,37,38,.75); }}
+.month-group summary {{ padding:5px 9px; font-size:.8rem; font-weight:600; color:var(--muted); cursor:pointer; list-style:none; display:flex; justify-content:space-between; align-items:center; background:rgba(30,30,30,.75); }}
 .month-group summary::-webkit-details-marker {{ display:none; }}
-.month-group[open] summary {{ border-bottom:1px solid rgba(219,231,217,.8); }}
+.month-group[open] summary {{ border-bottom:1px solid rgba(62,62,66,.8); }}
 .ep-count {{ font-weight:400; color:var(--muted); font-size:.78rem; }}
 .month-group ul {{ margin:0; padding:5px 9px; list-style:none; background:transparent; }}
 .month-group li {{ margin:3px 0; font-size:.78rem; display:flex; align-items:center; gap:4px; }}
@@ -510,14 +510,14 @@ body {{ margin:0; font-family:"Hiragino Sans","Noto Sans JP",Inter,system-ui,-ap
 .new-badge {{ color:var(--accent); font-size:.62rem; }}
 .tip-row {{ font-size:.83rem; color:var(--muted); margin:0 0 14px; padding:0 2px; }}
 .feature-badge {{ flex-shrink:0; font-size:.72rem; font-weight:700; padding:2px 8px; border-radius:10px; margin-top:2px; white-space:nowrap; }}
-.feature-badge.open  {{ background:#d4edda; color:#155724; }}
-.feature-badge.owner {{ background:#fff3cd; color:#856404; }}
-.feature-badge.tip   {{ background:#cce5ff; color:#004085; }}
+.feature-badge.open  {{ background:#1a3329; color:#4ec9b0; }}
+.feature-badge.owner {{ background:#3d3226; color:#ce9178; }}
+.feature-badge.tip   {{ background:#1a2e3d; color:#569cd6; }}
 .owner-tools {{ margin:0; width:100%; }}
 .owner-tools > summary {{ font-size:.83rem; color:var(--muted); cursor:pointer; padding:0; list-style:none; display:flex; align-items:flex-start; gap:8px; width:100%; }}
 .owner-tools > summary::-webkit-details-marker {{ display:none; }}
 .owner-tools > summary span:last-child {{ flex:1; min-width:0; overflow-wrap:anywhere; }}
-.card {{ background:var(--card); border:1px solid var(--line); border-radius:18px; padding:16px; margin:14px 0; box-shadow:0 10px 22px rgba(79,143,106,.12); width:min(100%, 52rem); }}
+.card {{ background:var(--card); border:1px solid var(--line); border-radius:18px; padding:16px; margin:14px 0; box-shadow:0 10px 22px rgba(0,0,0,.4); width:min(100%, 52rem); }}
 h2 {{ margin:0; font-size:1.1rem; }}
 .card-head {{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin-bottom:10px; }}
 .meta {{ color:var(--muted); margin:0; font-size:.88rem; white-space:nowrap; }}
@@ -527,14 +527,14 @@ audio {{ width:100%; margin:0; }}
 .player-box {{ background:var(--bg2); border:1px solid var(--line); border-radius:14px; padding:10px 12px; margin-bottom:12px; width:100%; }}
 .speed-row {{ margin:6px 0 0; font-size:.78rem; color:var(--muted); display:flex; flex-wrap:wrap; align-items:center; gap:5px; }}
 .speed-row span {{ margin-right:1px; opacity:.85; }}
-.speed-row button {{ font-size:.76rem; padding:2px 8px; border:1px solid rgba(219,231,217,.95); border-radius:999px; background:transparent; color:var(--muted); cursor:pointer; }}
+.speed-row button {{ font-size:.76rem; padding:2px 8px; border:1px solid rgba(62,62,66,.95); border-radius:999px; background:transparent; color:var(--muted); cursor:pointer; }}
 .speed-row button:hover {{ color:var(--accent); border-color:var(--accent); }}
-.abstract h3 {{ margin:0 0 8px; font-size:.95rem; color:#4c6f5a; }}
+.abstract h3 {{ margin:0 0 8px; font-size:.95rem; color:#4ec9b0; }}
 .abstract ul {{ margin:0; padding-left:0; list-style:none; }}
 .abstract li {{ margin:0; line-height:1.45; padding:6px 8px; border-radius:8px; transition:background .15s,border-left .15s; border-left:3px solid transparent; }}
 .abstract li + li {{ margin-top:4px; }}
-.abstract li:hover {{ background:rgba(79,143,106,.07); }}
-.abstract li.playing {{ background:rgba(79,143,106,.15); border-left:3px solid var(--accent); }}
+.abstract li:hover {{ background:rgba(78,201,176,.07); }}
+.abstract li.playing {{ background:rgba(78,201,176,.15); border-left:3px solid var(--accent); }}
 .item-row {{ display:flex; align-items:flex-start; gap:8px; }}
 .cb-wrap {{ display:flex; align-items:flex-start; gap:6px; cursor:pointer; flex:1; min-width:0; }}
 .item-main {{ display:flex; flex-direction:column; gap:3px; min-width:0; flex:1; }}
@@ -545,14 +545,14 @@ audio {{ width:100%; margin:0; }}
 .num {{ color:var(--muted); font-size:.72rem; font-weight:600; min-width:24px; flex-shrink:0; opacity:.75; padding-top:2px; }}
 .num.seekable {{ color:var(--muted); cursor:pointer; }}
 .num.seekable:hover {{ text-decoration:underline; }}
-.src {{ display:inline-flex; align-items:center; width:max-content; max-width:100%; color:var(--muted); font-size:.75rem; padding:1px 8px; border-radius:999px; background:rgba(79,143,106,.08); }}
+.src {{ display:inline-flex; align-items:center; width:max-content; max-width:100%; color:var(--muted); font-size:.75rem; padding:1px 8px; border-radius:999px; background:rgba(78,201,176,.08); }}
 .summary {{ color:var(--muted); font-size:.87rem; margin-left:38px; display:block; margin-top:3px; overflow-wrap:anywhere; }}
 .tip {{ font-size:.75rem; font-weight:400; color:var(--muted); }}
 .owner-mode .owner-feedback {{ display:block; }}
 #fb-status {{ color:var(--muted); font-size:.82rem; }}
 .modal-bg {{ display:none; position:fixed; inset:0; background:rgba(0,0,0,.4); z-index:100; align-items:center; justify-content:center; }}
 .modal-bg.open {{ display:flex; }}
-.modal {{ background:#fff; border-radius:14px; padding:22px; max-width:420px; width:90%; }}
+.modal {{ background:#2d2d2d; border-radius:14px; padding:22px; max-width:420px; width:90%; }}
 .modal h3 {{ margin:0 0 10px; }}
 .modal input {{ width:100%; padding:7px 10px; border:1px solid var(--line); border-radius:7px; font-size:.9rem; margin-bottom:10px; }}
 .modal p {{ font-size:.82rem; color:var(--muted); margin:0 0 12px; }}
@@ -562,8 +562,8 @@ audio {{ width:100%; margin:0; }}
 .modal .cancel {{ background:transparent; color:var(--accent); }}
 /* ── My Take notes ── */
 .my-take {{ margin:3px 0 0 38px; }}
-.my-take-display {{ display:flex; align-items:flex-start; gap:6px; background:rgba(79,143,106,.10); border-left:3px solid var(--accent); border-radius:0 6px 6px 0; padding:5px 9px; }}
-.my-take-text {{ font-size:.86rem; color:#2d4a38; flex:1; white-space:pre-wrap; word-break:break-word; }}
+.my-take-display {{ display:flex; align-items:flex-start; gap:6px; background:rgba(78,201,176,.10); border-left:3px solid var(--accent); border-radius:0 6px 6px 0; padding:5px 9px; }}
+.my-take-text {{ font-size:.86rem; color:#d4d4d4; flex:1; white-space:pre-wrap; word-break:break-word; }}
 .my-take-text a {{ color:var(--accent); }}
 .note-edit-btn {{ background:none; border:none; cursor:pointer; font-size:.8rem; color:var(--muted); padding:0 2px; flex-shrink:0; opacity:.55; }}
 .note-edit-btn:hover {{ opacity:1; }}
@@ -584,18 +584,18 @@ audio {{ width:100%; margin:0; }}
 .missed-form input {{ flex:1; min-width:180px; padding:6px 10px; border:1px solid var(--line); border-radius:7px; font-size:.88rem; background:var(--card); color:var(--text); }}
 .missed-form button {{ padding:6px 14px; background:var(--accent); color:#fff; border:1px solid var(--accent); border-radius:7px; cursor:pointer; font-size:.85rem; }}
 #missed-status {{ font-size:.85rem; width:100%; }}
-#missed-status.ok  {{ color:#22863a; }}
-#missed-status.err {{ color:#d73a49; font-weight:500; }}
+#missed-status.ok  {{ color:#4ec9b0; }}
+#missed-status.err {{ color:#f48771; font-weight:500; }}
 .missed-item {{ display:flex; align-items:flex-start; gap:8px; padding:7px 4px; border-bottom:1px solid var(--line); font-size:.86rem; }}
 .missed-item:last-child {{ border-bottom:none; }}
 .missed-item-title {{ flex:1; color:var(--text); }}
 .missed-item-title a {{ color:var(--accent); }}
 .diag-badge {{ font-size:.73rem; padding:2px 7px; border-radius:10px; font-weight:600; white-space:nowrap; flex-shrink:0; }}
-.diag-collected {{ background:#d4edda; color:#155724; }}
-.diag-excluded  {{ background:#fff3cd; color:#856404; }}
-.diag-source    {{ background:#cce5ff; color:#004085; }}
-.diag-ranking   {{ background:#f8d7da; color:#721c24; }}
-.diag-pending   {{ background:#e2e3e5; color:#383d41; }}
+.diag-collected {{ background:#1a3329; color:#4ec9b0; }}
+.diag-excluded  {{ background:#3d3226; color:#ce9178; }}
+.diag-source    {{ background:#1a2e3d; color:#569cd6; }}
+.diag-ranking   {{ background:#3d1a1a; color:#f48771; }}
+.diag-pending   {{ background:#2d2d2d; color:#858585; }}
 .missed-kws {{ font-size:.75rem; color:var(--muted); margin-top:2px; }}
 .missed-toggle {{ margin-top:8px; background:none; border:1px solid var(--line); border-radius:7px; padding:4px 12px; font-size:.8rem; color:var(--accent); cursor:pointer; }}
 .diag-guide {{ margin-top:12px; font-size:.83rem; color:var(--muted); }}
@@ -610,27 +610,27 @@ audio {{ width:100%; margin:0; }}
 .ts-sep {{ color:var(--line); }}
 .ts-dim {{ color:var(--muted); }}
 .ts-label {{ font-weight:600; color:var(--text); margin-right:4px; white-space:nowrap; }}
-.ts-researcher {{ color:#2d6a4f; }}
-.ts-blog {{ color:#6d4c41; }}
+.ts-researcher {{ color:#4ec9b0; }}
+.ts-blog {{ color:#ce9178; }}
 .owner-feedback {{ margin-top:12px; padding:10px 12px; background:var(--bg2); border:1px solid var(--line); border-radius:10px; font-size:.88rem; }}
 .owner-feedback button {{ padding:4px 12px; border:1px solid var(--accent); border-radius:6px; background:var(--accent); color:#fff; cursor:pointer; font-size:.85rem; margin-right:8px; }}
 .owner-feedback button.sec {{ background:transparent; color:var(--accent); }}
 .site-alert {{ display:block; margin-bottom:0; width:min(100%, 52rem); background:transparent; border:none; box-shadow:none; padding:0; }}
 .site-alert + .visitor-message {{ margin-top:-6px; }}
-.site-alert-flag {{ display:none; padding:10px 12px; border:1px solid #f0c36d; border-radius:10px; background:#fff8e1; color:#7a4b00; font-size:.88rem; line-height:1.55; }}
+.site-alert-flag {{ display:none; padding:10px 12px; border:1px solid #3e3e42; border-radius:10px; background:#252526; color:#d4d4d4; font-size:.88rem; line-height:1.55; }}
 .site-alert.has-alert .site-alert-flag {{ display:block; }}
 .owner-mode .site-alert-flag {{ display:none !important; }}
-.site-alert-title {{ font-weight:700; color:#9a5a00; margin-right:6px; }}
-.site-alert-meta {{ display:block; margin-top:4px; font-size:.88rem; color:#8d6b2b; font-family:inherit; line-height:1.55; }}
+.site-alert-title {{ font-weight:700; color:#ce9178; margin-right:6px; }}
+.site-alert-meta {{ display:block; margin-top:4px; font-size:.88rem; color:#858585; font-family:inherit; line-height:1.55; }}
 .site-alert-editor {{ display:block; margin-top:0; }}
 .site-alert.has-alert .site-alert-editor {{ margin-top:12px; }}
 .site-alert.visitor-view .site-alert-editor {{ display:none; }}
 .owner-mode .site-alert.has-alert .site-alert-editor {{ margin-top:0; }}
-.site-alert-editor textarea {{ width:100%; min-height:56px; padding:10px 12px; border:1px solid #f0c36d; border-radius:10px; font:inherit; background:#fff8e1; color:#7a4b00; resize:vertical; box-sizing:border-box; }}
+.site-alert-editor textarea {{ width:100%; min-height:56px; padding:10px 12px; border:1px solid #3e3e42; border-radius:10px; font:inherit; background:#1e1e1e; color:#d4d4d4; resize:vertical; box-sizing:border-box; }}
 .site-alert-editor-row {{ margin-top:0; height:0; display:flex; justify-content:flex-end; align-items:center; font-size:.8rem; color:var(--muted); }}
 #owner-alert-status {{ font-size:.8rem; color:var(--muted); opacity:0; transform:translateY(2px); transition:opacity .18s ease; }}
 #owner-alert-status.active {{ opacity:1; }}
-#owner-alert-status.err {{ color:#d73a49; opacity:1; }}
+#owner-alert-status.err {{ color:#f48771; opacity:1; }}
 .visitor-message {{ background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px 18px; margin-bottom:0; width:min(100%, 52rem); }}
 .visitor-message h3 {{ margin:0 0 6px; font-size:.95rem; color:var(--accent); }}
 .visitor-message p {{ margin:0 0 10px; font-size:.86rem; color:var(--muted); line-height:1.55; }}
@@ -645,8 +645,8 @@ audio {{ width:100%; margin:0; }}
 .visitor-actions .primary {{ background:var(--accent); color:#fff; }}
 .visitor-actions .secondary {{ background:transparent; color:var(--accent); }}
 #visitor-status {{ font-size:.84rem; color:var(--muted); }}
-.site-metrics {{ position:sticky; bottom:0; left:0; right:0; z-index:30; margin:24px 0 0; padding:10px 16px calc(10px + env(safe-area-inset-bottom, 0px)); text-align:center; font-size:.84rem; color:#6b4e16; background:rgba(255, 248, 225, 0.96); border-top:1px solid #f0c36d; box-shadow:0 -4px 14px rgba(122, 75, 0, 0.08); backdrop-filter:saturate(130%) blur(3px); }}
-.site-metrics strong {{ color:#7a4b00; font-weight:700; }}
+.site-metrics {{ position:sticky; bottom:0; left:0; right:0; z-index:30; margin:24px 0 0; padding:10px 16px calc(10px + env(safe-area-inset-bottom, 0px)); text-align:center; font-size:.84rem; color:#858585; background:rgba(30,30,30,0.96); border-top:1px solid #3e3e42; box-shadow:0 -4px 14px rgba(0,0,0,0.3); backdrop-filter:saturate(130%) blur(3px); }}
+.site-metrics strong {{ color:#d4d4d4; font-weight:700; }}
 .layout :is(h2, h3, p, li, a, label, span, button, input, textarea, summary, dt, dd) {{ font-family:inherit; font-size:var(--body-size); line-height:var(--body-line); }}
 .hero-panel h1 {{ font-size:clamp(1.8rem,3.2vw,2.5rem); line-height:1.05; }}
 @media (max-width: 1080px) {{
@@ -1622,126 +1622,126 @@ loadMissedPapers();
 </defs>
 <!-- Bowl (shown only when eating, drawn first so cat is in front) -->
 <g class="neko-bowl">
-  <path class="neko-steam-1" d="M37,91 Q35,83 37,76 Q39,69 37,62" stroke="#d8d4e8" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0"/>
-  <path class="neko-steam-2" d="M50,89 Q48,81 50,73 Q52,66 50,59" stroke="#d8d4e8" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0"/>
-  <path class="neko-steam-3" d="M63,91 Q65,83 63,75 Q61,68 63,61" stroke="#d8d4e8" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0"/>
-  <path d="M29,97 Q26,112 50,116 Q74,112 71,97" fill="#ede5d4" stroke="#c8c0ae" stroke-width="1.2"/>
-  <ellipse cx="50" cy="97" rx="21" ry="5.5" fill="#c08820"/>
+  <path class="neko-steam-1" d="M37,91 Q35,83 37,76 Q39,69 37,62" stroke="#4ec9b0" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0"/>
+  <path class="neko-steam-2" d="M50,89 Q48,81 50,73 Q52,66 50,59" stroke="#4ec9b0" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0"/>
+  <path class="neko-steam-3" d="M63,91 Q65,83 63,75 Q61,68 63,61" stroke="#4ec9b0" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0"/>
+  <path d="M29,97 Q26,112 50,116 Q74,112 71,97" fill="#2d2d2d" stroke="#3e3e42" stroke-width="1.2"/>
+  <ellipse cx="50" cy="97" rx="21" ry="5.5" fill="#4ec9b0"/>
   <g clip-path="url(#bowl-clip-f)">
-    <path d="M30,97 Q37,92 44,97 Q51,102 58,97 Q64,92 70,97" stroke="#f8f080" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M30,97 Q37,92 44,97 Q51,102 58,97 Q64,92 70,97" stroke="#4ec9b0" stroke-width="2.2" fill="none" stroke-linecap="round"/>
     <circle cx="40" cy="96" r="3.5" fill="#fff4f4" stroke="#f898a0" stroke-width="0.8"/>
     <circle cx="40" cy="96" r="1.5" fill="#f87080"/>
     <ellipse cx="60" cy="95" rx="4" ry="3" fill="#fffce8" stroke="#d4a840" stroke-width="0.6"/>
-    <rect x="46" y="91" width="4" height="8" rx="1" fill="#1a2e1a" opacity="0.9"/>
+    <rect x="46" y="91" width="4" height="8" rx="1" fill="#1a3a30" opacity="0.9"/>
   </g>
-  <ellipse cx="50" cy="97" rx="21" ry="5.5" fill="none" stroke="#b8b0a0" stroke-width="1.6"/>
-  <line x1="58" y1="83" x2="68" y2="107" stroke="#c09040" stroke-width="2" stroke-linecap="round"/>
-  <line x1="62" y1="81" x2="71" y2="105" stroke="#b07030" stroke-width="2" stroke-linecap="round"/>
-  <path class="neko-noodle" d="M50,91 Q48,83 50,75 Q52,68 50,61" stroke="#f0e870" stroke-width="2.2" fill="none" stroke-linecap="round" opacity="0"/>
+  <ellipse cx="50" cy="97" rx="21" ry="5.5" fill="none" stroke="#3e3e42" stroke-width="1.6"/>
+  <line x1="58" y1="83" x2="68" y2="107" stroke="#858585" stroke-width="2" stroke-linecap="round"/>
+  <line x1="62" y1="81" x2="71" y2="105" stroke="#858585" stroke-width="2" stroke-linecap="round"/>
+  <path class="neko-noodle" d="M50,91 Q48,83 50,75 Q52,68 50,61" stroke="#4ec9b0" stroke-width="2.2" fill="none" stroke-linecap="round" opacity="0"/>
 </g>
 <!-- Fur halo -->
 <g filter="url(#neko-fur-f)">
-  <circle cx="50" cy="34" r="28" fill="#f5f2ee"/>
-  <ellipse cx="50" cy="64" rx="24" ry="18" fill="#f5f2ee"/>
-  <polygon points="21,22 37,12 19,1" fill="#f5f2ee"/>
-  <polygon points="79,22 63,12 81,1" fill="#f5f2ee"/>
+  <circle cx="50" cy="34" r="28" fill="#3c3c3c"/>
+  <ellipse cx="50" cy="64" rx="24" ry="18" fill="#3c3c3c"/>
+  <polygon points="21,22 37,12 19,1" fill="#3c3c3c"/>
+  <polygon points="79,22 63,12 81,1" fill="#3c3c3c"/>
 </g>
 <!-- Tail -->
-<path class="neko-tail" style="transform-origin:0% 100%" d="M63,72 C78,64 84,46 79,32 C75,21 65,25 67,35 C69,45 76,41 72,29" stroke="#e0d8d8" stroke-width="6.5" fill="none" stroke-linecap="round"/>
-<path d="M73,30 C71,24 67,23 67,30" stroke="#fff4f8" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path class="neko-tail" style="transform-origin:0% 100%" d="M63,72 C78,64 84,46 79,32 C75,21 65,25 67,35 C69,45 76,41 72,29" stroke="#555555" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+<path d="M73,30 C71,24 67,23 67,30" stroke="#6a6a6a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
 <!-- Body group -->
 <g class="neko-body-group">
-  <ellipse cx="50" cy="64" rx="20" ry="16" fill="#f5f2ee"/>
-  <ellipse cx="50" cy="71" rx="14" ry="9" fill="#fff6f8"/>
-  <path d="M44,62 Q46,56 43,51" stroke="#d4cfcc" stroke-width="1.2" fill="none" stroke-linecap="round"/>
-  <path d="M50,60 Q52,54 50,49" stroke="#d4cfcc" stroke-width="1.2" fill="none" stroke-linecap="round"/>
-  <path d="M56,62 Q54,56 57,51" stroke="#d4cfcc" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <ellipse cx="50" cy="64" rx="20" ry="16" fill="#3c3c3c"/>
+  <ellipse cx="50" cy="71" rx="14" ry="9" fill="#4a4a4a"/>
+  <path d="M44,62 Q46,56 43,51" stroke="#2a2a2a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M50,60 Q52,54 50,49" stroke="#2a2a2a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M56,62 Q54,56 57,51" stroke="#2a2a2a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
   <!-- Legs (shown during walking) — leg + small paw -->
   <g class="neko-legs">
     <g class="neko-leg-l">
-      <rect x="29" y="77" width="12" height="13" rx="5" fill="#ede6e4"/>
-      <ellipse cx="35" cy="91" rx="6.5" ry="4" fill="#ede6e4"/>
+      <rect x="29" y="77" width="12" height="13" rx="5" fill="#383838"/>
+      <ellipse cx="35" cy="91" rx="6.5" ry="4" fill="#383838"/>
     </g>
     <g class="neko-leg-r">
-      <rect x="59" y="77" width="12" height="13" rx="5" fill="#ede6e4"/>
-      <ellipse cx="65" cy="91" rx="6.5" ry="4" fill="#ede6e4"/>
+      <rect x="59" y="77" width="12" height="13" rx="5" fill="#383838"/>
+      <ellipse cx="65" cy="91" rx="6.5" ry="4" fill="#383838"/>
     </g>
   </g>
   <!-- Paws (hidden during walking) — main pad + 3 toes -->
   <g class="neko-paws">
-    <ellipse cx="34" cy="86" rx="10" ry="5" fill="#ede6e4"/>
-    <circle cx="28" cy="80" r="3.5" fill="#ede6e4"/>
-    <circle cx="34" cy="78" r="3.5" fill="#ede6e4"/>
-    <circle cx="40" cy="80" r="3.5" fill="#ede6e4"/>
-    <ellipse cx="66" cy="86" rx="10" ry="5" fill="#ede6e4"/>
-    <circle cx="60" cy="80" r="3.5" fill="#ede6e4"/>
-    <circle cx="66" cy="78" r="3.5" fill="#ede6e4"/>
-    <circle cx="72" cy="80" r="3.5" fill="#ede6e4"/>
+    <ellipse cx="34" cy="86" rx="10" ry="5" fill="#383838"/>
+    <circle cx="28" cy="80" r="3.5" fill="#383838"/>
+    <circle cx="34" cy="78" r="3.5" fill="#383838"/>
+    <circle cx="40" cy="80" r="3.5" fill="#383838"/>
+    <ellipse cx="66" cy="86" rx="10" ry="5" fill="#383838"/>
+    <circle cx="60" cy="80" r="3.5" fill="#383838"/>
+    <circle cx="66" cy="78" r="3.5" fill="#383838"/>
+    <circle cx="72" cy="80" r="3.5" fill="#383838"/>
   </g>
 </g>
 <!-- Book (reading state) -->
 <g class="neko-book">
   <!-- Left page -->
-  <path d="M16,90 Q33,87 50,90 L50,112 Q33,110 16,112 Z" fill="#fffef5" stroke="#c8c0a8" stroke-width="1.2"/>
+  <path d="M16,90 Q33,87 50,90 L50,112 Q33,110 16,112 Z" fill="#d4d4d4" stroke="#858585" stroke-width="1.2"/>
   <!-- Right page -->
-  <path d="M50,90 Q67,87 84,90 L84,112 Q67,110 50,112 Z" fill="#fffef5" stroke="#c8c0a8" stroke-width="1.2"/>
+  <path d="M50,90 Q67,87 84,90 L84,112 Q67,110 50,112 Z" fill="#d4d4d4" stroke="#858585" stroke-width="1.2"/>
   <!-- Spine -->
-  <path d="M48,89 Q50,87 52,89 L52,112 Q50,113 48,112 Z" fill="#5a4020"/>
+  <path d="M48,89 Q50,87 52,89 L52,112 Q50,113 48,112 Z" fill="#4ec9b0"/>
   <!-- Top arc crease -->
-  <path d="M16,90 Q50,85 84,90" stroke="#b0a890" stroke-width="1.2" fill="none"/>
+  <path d="M16,90 Q50,85 84,90" stroke="#6a6a6a" stroke-width="1.2" fill="none"/>
   <!-- Left page text lines -->
-  <line x1="20" y1="96"  x2="46" y2="95"  stroke="#c0bba8" stroke-width="0.8"/>
-  <line x1="20" y1="100" x2="46" y2="99"  stroke="#c0bba8" stroke-width="0.8"/>
-  <line x1="20" y1="104" x2="42" y2="103" stroke="#c0bba8" stroke-width="0.8"/>
-  <line x1="20" y1="108" x2="46" y2="107" stroke="#c0bba8" stroke-width="0.8"/>
+  <line x1="20" y1="96"  x2="46" y2="95"  stroke="#569cd6" stroke-width="0.8"/>
+  <line x1="20" y1="100" x2="46" y2="99"  stroke="#569cd6" stroke-width="0.8"/>
+  <line x1="20" y1="104" x2="42" y2="103" stroke="#569cd6" stroke-width="0.8"/>
+  <line x1="20" y1="108" x2="46" y2="107" stroke="#569cd6" stroke-width="0.8"/>
   <!-- Right page text lines -->
-  <line x1="54" y1="96"  x2="80" y2="95"  stroke="#c0bba8" stroke-width="0.8"/>
-  <line x1="54" y1="100" x2="80" y2="99"  stroke="#c0bba8" stroke-width="0.8"/>
-  <line x1="54" y1="104" x2="78" y2="103" stroke="#c0bba8" stroke-width="0.8"/>
-  <line x1="54" y1="108" x2="80" y2="107" stroke="#c0bba8" stroke-width="0.8"/>
+  <line x1="54" y1="96"  x2="80" y2="95"  stroke="#569cd6" stroke-width="0.8"/>
+  <line x1="54" y1="100" x2="80" y2="99"  stroke="#569cd6" stroke-width="0.8"/>
+  <line x1="54" y1="104" x2="78" y2="103" stroke="#569cd6" stroke-width="0.8"/>
+  <line x1="54" y1="108" x2="80" y2="107" stroke="#569cd6" stroke-width="0.8"/>
 </g>
 <!-- Head group -->
 <g class="neko-head-group">
-  <circle cx="50" cy="34" r="22" fill="#f5f2ee"/>
+  <circle cx="50" cy="34" r="22" fill="#3c3c3c"/>
   <!-- Left ear -->
-  <polygon points="22,21 37,13 21,2"  fill="#f5f2ee"/>
-  <polygon points="25,20 36,15 25,8"  fill="#f8c0cc"/>
+  <polygon points="22,21 37,13 21,2"  fill="#3c3c3c"/>
+  <polygon points="25,20 36,15 25,8"  fill="#6e3a4e"/>
   <!-- Right ear -->
-  <polygon points="78,21 63,13 79,2"  fill="#f5f2ee"/>
-  <polygon points="75,20 64,15 75,8"  fill="#f8c0cc"/>
+  <polygon points="78,21 63,13 79,2"  fill="#3c3c3c"/>
+  <polygon points="75,20 64,15 75,8"  fill="#6e3a4e"/>
   <!-- Left eye -->
   <g class="neko-eye-l">
-    <ellipse cx="38" cy="30" rx="7.5" ry="8.5" fill="#1e2a40"/>
-    <ellipse cx="38" cy="31" rx="6"   ry="7"   fill="#3a8acc"/>
-    <ellipse cx="38" cy="31" rx="1.8" ry="6"   fill="#080c18"/>
+    <ellipse cx="38" cy="30" rx="7.5" ry="8.5" fill="#121820"/>
+    <ellipse cx="38" cy="31" rx="6"   ry="7"   fill="#4ec9b0"/>
+    <ellipse cx="38" cy="31" rx="1.8" ry="6"   fill="#040608"/>
     <circle  cx="42" cy="25" r="4.5"  fill="white"/>
     <circle  cx="34.5" cy="36" r="2"  fill="white" opacity="0.55"/>
   </g>
   <!-- Right eye -->
   <g class="neko-eye-r">
-    <ellipse cx="62" cy="30" rx="7.5" ry="8.5" fill="#1e2a40"/>
-    <ellipse cx="62" cy="31" rx="6"   ry="7"   fill="#3a8acc"/>
-    <ellipse cx="62" cy="31" rx="1.8" ry="6"   fill="#080c18"/>
+    <ellipse cx="62" cy="30" rx="7.5" ry="8.5" fill="#121820"/>
+    <ellipse cx="62" cy="31" rx="6"   ry="7"   fill="#4ec9b0"/>
+    <ellipse cx="62" cy="31" rx="1.8" ry="6"   fill="#040608"/>
     <circle  cx="66" cy="25" r="4.5"  fill="white"/>
     <circle  cx="58.5" cy="36" r="2"  fill="white" opacity="0.55"/>
   </g>
   <!-- Blush -->
-  <ellipse cx="26" cy="40" rx="9" ry="5.5" fill="#ffb0c0" opacity="0.28"/>
-  <ellipse cx="74" cy="40" rx="9" ry="5.5" fill="#ffb0c0" opacity="0.28"/>
+  <ellipse cx="26" cy="40" rx="9" ry="5.5" fill="#4ec9b0" opacity="0.15"/>
+  <ellipse cx="74" cy="40" rx="9" ry="5.5" fill="#4ec9b0" opacity="0.15"/>
   <!-- Nose -->
-  <path d="M47.5,39 Q50,42.5 52.5,39 Q50,37 47.5,39" fill="#f0a0b8" stroke="#e090a8" stroke-width="0.4"/>
-  <line x1="50" y1="42.5" x2="50" y2="44" stroke="#d090a8" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M47.5,39 Q50,42.5 52.5,39 Q50,37 47.5,39" fill="#ce9178" stroke="#b07060" stroke-width="0.4"/>
+  <line x1="50" y1="42.5" x2="50" y2="44" stroke="#9a6050" stroke-width="0.9" stroke-linecap="round"/>
   <!-- Mouth ω -->
-  <path d="M44,44.5 Q47,48.5 50,45.5 Q53,48.5 56,44.5" stroke="#c07888" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M44,44.5 Q47,48.5 50,45.5 Q53,48.5 56,44.5" stroke="#9a5848" stroke-width="1.5" fill="none" stroke-linecap="round"/>
   <!-- Whiskers -->
-  <line x1="43" y1="40" x2="18" y2="37" stroke="#d8d4c4" stroke-width="1"/>
-  <line x1="43" y1="43" x2="18" y2="48" stroke="#d8d4c4" stroke-width="1"/>
-  <line x1="57" y1="40" x2="82" y2="37" stroke="#d8d4c4" stroke-width="1"/>
-  <line x1="57" y1="43" x2="82" y2="48" stroke="#d8d4c4" stroke-width="1"/>
+  <line x1="43" y1="40" x2="18" y2="37" stroke="#606060" stroke-width="1"/>
+  <line x1="43" y1="43" x2="18" y2="48" stroke="#606060" stroke-width="1"/>
+  <line x1="57" y1="40" x2="82" y2="37" stroke="#606060" stroke-width="1"/>
+  <line x1="57" y1="43" x2="82" y2="48" stroke="#606060" stroke-width="1"/>
   <!-- ZZZ -->
-  <text class="neko-zzz neko-zzz1" x="67" y="19" font-size="10" fill="#9898cc" font-family="Georgia,serif" font-style="italic" opacity="0">z</text>
-  <text class="neko-zzz neko-zzz2" x="73" y="11" font-size="8"  fill="#9898cc" font-family="Georgia,serif" font-style="italic" opacity="0">z</text>
-  <text class="neko-zzz neko-zzz3" x="78" y="5"  font-size="6.5" fill="#9898cc" font-family="Georgia,serif" font-style="italic" opacity="0">z</text>
+  <text class="neko-zzz neko-zzz1" x="67" y="19" font-size="10" fill="#4ec9b0" font-family="Georgia,serif" font-style="italic" opacity="0">z</text>
+  <text class="neko-zzz neko-zzz2" x="73" y="11" font-size="8"  fill="#4ec9b0" font-family="Georgia,serif" font-style="italic" opacity="0">z</text>
+  <text class="neko-zzz neko-zzz3" x="78" y="5"  font-size="6.5" fill="#4ec9b0" font-family="Georgia,serif" font-style="italic" opacity="0">z</text>
 </g>
 </svg>
 
