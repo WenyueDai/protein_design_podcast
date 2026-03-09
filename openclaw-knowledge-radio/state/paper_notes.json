@@ -279,5 +279,12 @@
       "title": "Bioinformatic and computational biophysics tools for nanopore engineering: a review from standard approaches to machine ",
       "source": "PubMed — Journal of nanobiotechnology"
     }
+  },
+  "2026-03-09": {
+    "https://www.biorxiv.org/content/10.64898/2026.03.06.710001": {
+      "note": "DD",
+      "title": "What comes after de novo? Automated lead optimization of proteins with CRADLE-1",
+      "source": "bioRxiv — bioengineering"
+    }
   }
 }
