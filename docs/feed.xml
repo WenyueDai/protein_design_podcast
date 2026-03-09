@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 04:58:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 05:15:30 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-03-09</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-09/podcast_2026-03-09.mp3</guid>
+      <pubDate>Mon, 09 Mar 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-09/podcast_2026-03-09.mp3" length="29441973" type="audio/mpeg" />
+      <description>Bioengineers have unveiled CRADLE-1, an automated framework designed to streamline the notoriously slow and costly lead optimization phase of drug discovery. | A new preprint from bioRxiv introduces CLASP, a unified framework for learning protein representations by integrating three key data modalities: amino acid sequences, 3D structures, and curated biological descriptions. | Researchers have developed a new method called Inverse Protocol Prediction that can deduce the experimental conditions used to grow a cell spheroid just by analyzing a single bright-field microscope image.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Bioengineers have unveiled CRADLE-1, an automated framework designed to streamline the notoriously slow and costly lead optimization phase of drug discovery. | A new preprint from bioRxiv introduces CLASP, a unified framework for learning protein representations by integrating three key data modalities: amino acid sequences, 3D structures, and curated biological descriptions. | Researchers have developed a new method called Inverse Protocol Prediction that can deduce the experimental conditions used to grow a cell spheroid just by analyzing a single bright-field microscope image.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-03-08</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-08/podcast_2026-03-08.mp3</guid>
       <pubDate>Sun, 08 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-08/podcast_2026-03-08.mp3" length="36318309" type="audio/mpeg" />
-      <description>In 2025, researchers announced they had solved a 700-year-old mystery: the identity of a murdered medieval nobleman whose skeleton was discovered in 1926 near the Hungarian-Romanian border. | The biological profile was striking. | The trauma analysis revealed 23 cut marks distributed across the skeleton in a pattern suggesting multiple attackers striking from different directions.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-08/podcast_2026-03-08.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>In 2025, researchers announced they had solved a 700-year-old mystery: the identity of a murdered medieval nobleman whose skeleton was discovered in 1926 near the Hungarian-Romanian border. | The biological profile was striking. | The trauma analysis revealed 23 cut marks distributed across the skeleton in a pattern suggesting multiple attackers striking from different directions.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>

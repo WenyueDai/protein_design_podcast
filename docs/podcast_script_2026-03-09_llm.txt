@@ -1,0 +1,406 @@
+Bioengineers have unveiled CRADLE-1, an automated framework designed to streamline the notoriously slow and costly lead optimization phase of drug discovery. Traditionally, this stage takes 12-36 months and costs $5-15 million per candidate, but CRADLE-1 aims to accelerate and reduce the expense of protein engineering workflows. The preprint from bioRxiv describes how the system supports the full drug discovery pipeline, from hit identification to final candidate refinement. By automating iterative design and testing cycles, CRADLE-1 could significantly shorten timelines and lower costs in industrial protein engineering. While details on performance metrics remain limited in the abstract, the framework represents a promising step toward more efficient, scalable approaches to developing therapeutic proteins and biologics.
+
+[[TRANSITION]]
+
+A new preprint from bioRxiv introduces CLASP, a unified framework for learning protein representations by integrating three key data modalities: amino acid sequences, 3D structures, and curated biological descriptions. The authors combine geometric deep learning with natural language processing to create a tri-modal model that captures complementary views of proteins. By fusing sequence, structure, and text data, CLASP aims to produce richer, more informative embeddings than single-modality approaches. This could enhance downstream tasks like protein function prediction, interaction analysis, and drug discovery. The work highlights the growing trend of multi-modal learning in computational biology, where combining diverse data types can unlock deeper insights into complex biological systems.
+
+[[TRANSITION]]
+
+Researchers have developed a new method called Inverse Protocol Prediction that can deduce the experimental conditions used to grow a cell spheroid just by analyzing a single bright-field microscope image. The approach treats this as a structured multi-label prediction problem, combining morphology extraction, multimodal representation learning, and protocol-aware modeling to infer culture parameters from visual features. This could streamline quality control and standardization in 3D cell culture workflows by allowing labs to verify or reverse-engineer protocols without needing detailed metadata. The work, posted on bioRxiv, represents a step toward AI-driven automation in biological imaging and experimental reproducibility.
+
+[[TRANSITION]]
+
+geneSTRUCTURE is a new platform designed to modernize the visualization of gene structures, addressing a critical need in genomics research. Even in the era of pan-genomics, the gene remains the fundamental unit of heredity, and accurately representing its components—exons, introns, untranslated regions, and functional domains—is essential for understanding gene organization, regulation, and evolution. The platform offers clear, interpretable formats for these complex structures, making it easier for researchers to analyze and communicate genetic information. Developed by bioRxiv, geneSTRUCTURE aims to enhance the accessibility and clarity of gene structure data, supporting advancements in genomics and related fields. This tool is poised to become an invaluable resource for scientists working to decode the intricacies of genetic information.
+
+[[TRANSITION]]
+
+Perseus is a new tool that refines Kraken2 taxonomic classifications for long-read metagenomic data. Developed by researchers and posted on bioRxiv, Perseus addresses a key weakness in Kraken2: its tendency to over-assign fine-grained taxonomic labels when analyzing long reads and assembled contigs. By incorporating lineage-aware refinement, Perseus improves the accuracy of taxonomic assignments without sacrificing the scalability that makes Kraken2 popular. This is particularly valuable for genome-resolved analysis of complex microbial communities, where precise classification at higher taxonomic ranks is crucial. Perseus represents a significant step forward in making long-read metagenomic sequencing more reliable for microbial ecology and related fields.
+
+[[TRANSITION]]
+
+T cell receptors and peptide-MHC complexes are central to adaptive immunity, with CD8+ killer T cells and CD4+ helper T cells recognizing antigens through these interactions. Predicting which TCRs will bind to which pMHC complexes is crucial for understanding immune responses and designing immunotherapies. Transformer models like TULIP have shown impressive predictive performance, but their internal decision-making remains opaque—a major limitation when trying to understand the molecular basis of immune recognition.
+
+The authors introduce Quantifying Cross-Attention Interaction, or QCAI, a post-hoc explainable AI method specifically designed to interpret the cross-attention mechanisms in encoder-decoder transformer models. Unlike previous approaches that focus on self-attention within a single sequence, QCAI targets the cross-attention layers where the TCR and pMHC sequences interact—precisely where the model integrates information about potential binding.
+
+To evaluate QCAI, the authors created TCR-XAI, a benchmark dataset of 274 experimentally determined TCR-pMHC complex structures. This provides ground truth: the physical distances between amino acid residues in the actual binding interface. The key insight is that a good XAI method should highlight residues that are physically close in the 3D structure, as these are the ones actually involved in binding.
+
+QCAI's performance is assessed by comparing its attention-based importance scores to these physical distances. The method consistently identifies residues that are closer together in the true structures than competing XAI approaches. This dual achievement—maintaining or improving predictive accuracy while providing more faithful interpretability—addresses a critical need in the field.
+
+The work matters because it bridges the gap between black-box prediction and mechanistic understanding. By revealing which residues the model focuses on during cross-attention, QCAI offers interpretable insights that can validate computational predictions, guide experimental design, and ultimately support the development of targeted immunotherapies. The authors note that while many XAI methods exist for other domains, few are tailored to the specific architecture and challenges of TCR-pMHC binding prediction.
+
+[[TRANSITION]]
+
+Designing messenger RNA sequences for a fixed target protein is a complex optimization problem. The challenge lies in navigating an exponentially large space of synonymous sequences—different mRNA sequences can encode the same protein due to the redundancy of the genetic code—while optimizing multiple properties that affect mRNA stability and downstream performance. This is difficult because practical mRNA design involves multiple coupled objectives beyond classical codon optimization, such as RNA folding stability, translation efficiency, and immune evasion.
+
+A new sampling-based continuous optimization framework addresses this challenge. Inspired by SamplingDesign, the method works iteratively: it samples candidate synonymous mRNA sequences for a fixed protein, evaluates each using computable metrics like folding stability, and updates a parameterized sampling distribution to favor higher-scoring sequences. The framework includes a multi-objective "COMBO" formulation that allows weight-controlled trade-offs between objectives and can incorporate additional metrics as needed.
+
+The method was tested across a diverse set of proteins from UniProt and the SARS-CoV-2 spike protein. Compared to existing methods like LinearDesign and EnsembleDesign, it consistently improved the chosen optimization objective. Notably, it showed particularly strong gains in improving average unpaired probability—a measure of RNA structural stability—and accessible uridine percentage, which relates to translation efficiency.
+
+What makes this approach powerful is its flexibility. By treating mRNA design as a sampling and optimization problem rather than a fixed-algorithm task, it can adapt to different design goals and incorporate new metrics as they become available. The framework's ability to handle multiple objectives simultaneously while navigating the vast synonymous sequence space represents a significant advance in mRNA design methodology.
+
+The available text does not provide details on the specific parameterized distribution used or the exact sampling mechanism. It also does not specify the computational complexity or runtime requirements of the method.
+
+[[TRANSITION]]
+
+This item from *Current Opinion in Chemical Biology* discusses the current state of protein binder discovery methods. The article argues that while protein binders are essential tools in chemical biology and biotechnology, no existing discovery method has achieved the ideal combination of fidelity, speed, and cost-effectiveness needed for routine laboratory use. The field is described as being at an inflection point, with in vitro display platforms and other emerging technologies potentially addressing these limitations. The review likely examines advances in display technologies, computational design approaches, and in vivo platforms that could move the field toward more universal binder discovery capabilities. The source emphasizes the need for improved methods to make binder discovery more accessible and reliable for researchers.
+
+[[TRANSITION]]
+
+A new study in Protein Science introduces a supervised learning framework for predicting how mutations affect protein function across large-scale mutagenesis datasets. The approach leverages existing experimental data to train models that can generalize to new variants, improving accuracy over traditional methods. By integrating diverse datasets, the framework captures complex relationships between sequence changes and functional outcomes. This advancement could accelerate protein engineering and drug design by enabling more reliable predictions of variant effects. The work highlights the growing role of machine learning in structural biology and offers a scalable tool for researchers studying protein function and evolution.
+
+[[TRANSITION]]
+
+StabLyzeGraph is a new high-throughput screening tool that uses graph neural networks to predict the stability effects of combinatorial mutations in proteins. Developed by researchers and published in Protein Science, the method accelerates the exploration of mutation landscapes by modeling protein structures as graphs and learning from experimental stability data. This approach enables rapid evaluation of thousands of mutation combinations that would be impractical to test experimentally. StabLyzeGraph could significantly speed up protein engineering efforts for applications in therapeutics, industrial enzymes, and synthetic biology by identifying stabilizing mutations more efficiently than traditional methods.
+
+[[TRANSITION]]
+
+When biological foundation models like scGPT and Geneformer process single-cell gene expression data, what geometric and topological structure actually forms in their internal representations? Is this structure biologically meaningful or just a training artifact? A new study tackles these questions head-on with an autonomous large-scale hypothesis screening framework that tested 141 geometric and topological hypotheses across 52 iterative rounds.
+
+The core finding is that these models do learn genuine, biologically meaningful geometric and topological structures in their internal gene representations. However, this structure is more tissue-localized than previously assumed. While there's global shape consistency across independently trained models, there isn't precise gene-level alignment - meaning the overall organizational patterns are similar, but the specific gene positions vary.
+
+The research employed an AI-driven "executor-brainstormer" loop that autonomously proposed, tested, and refined hypotheses. This systematic approach covered persistent homology, manifold-aware distance metrics, cross-model alignment via Canonical Correlation Analysis, graph community structure, and directed topology. Critically, all tests included explicit null models and controls, and used disjoint gene-pool splits to prevent overfitting.
+
+Key evidence shows non-trivial topology was detected through persistent homology analysis, indicating the presence of meaningful geometric structures rather than random noise. The study also found that while global organizational patterns remain consistent across different model trainings, the specific gene-level arrangements don't align perfectly. This suggests a robust but flexible organizational principle in how these models represent biological information.
+
+The available text doesn't provide specific numerical results or detailed parameter settings for these analyses. However, the comprehensive testing approach and explicit controls lend confidence to the conclusion that the learned structures are genuine biological features rather than artifacts of the training process.
+
+[[TRANSITION]]
+
+TCR recognition of peptide-MHC complexes is central to adaptive immunity, with major implications for vaccine design, cancer immunotherapy, and autoimmune disease treatment. While machine learning has improved our ability to predict TCR-pMHC binding, most high-performing models remain black boxes, offering little insight into the underlying molecular mechanisms.
+
+This is where TCR-EML comes in. It's an "explain-by-design" model architecture that integrates prototype layers directly into protein-language model backbones. The key innovation is that these prototype layers are explicitly designed to represent known amino acid residue contact patterns involved in TCR-pMHC binding. Rather than just predicting whether binding will occur, the model provides mechanistic explanations for its predictions.
+
+The approach works by incorporating what they call "explainable model layers" that use prototype-based representations. These prototypes capture specific binding mechanisms - for instance, certain amino acid positions that are known to be critical for TCR-pMHC interactions. When the model makes a prediction, it can point to which prototypes were activated and explain why those particular binding patterns led to the prediction.
+
+What makes this particularly valuable is that TCR-EML maintains competitive predictive accuracy while adding this interpretability layer. This is crucial because in immunology applications, understanding why a prediction was made can be as important as the prediction itself - especially when designing therapies or understanding autoimmune responses.
+
+The architecture represents a shift from treating interpretability as an afterthought to building it into the model's core structure. By aligning the model's internal representations with known biological mechanisms, TCR-EML provides both accurate predictions and actionable mechanistic insights, potentially accelerating research in immunotherapy and vaccine development.
+
+[[TRANSITION]]
+
+Machine-learning interatomic potentials have become essential tools for simulating complex materials and molecules, but they've hit a wall when it comes to long-range interactions. Traditional approaches rely heavily on physics-based inductive biases - essentially hard-coding known physical laws into the model architecture. While this works well for small systems, it becomes a liability as we scale up to larger biomolecules and electrolytes where those assumptions break down.
+
+A new approach called AllScAIP takes a fundamentally different path. Instead of baking physics into the architecture, it uses an all-to-all node attention mechanism that lets the model learn long-range interactions directly from data. Think of it as giving the model the freedom to figure out how atoms influence each other across large distances, rather than telling it what to expect.
+
+The key insight from extensive ablations is that physics-based inductive biases actually hurt performance at scale. In small-data, small-model regimes, these biases help by providing useful structure - they're like training wheels. But as you increase both the amount of training data and model size, those same biases become constraints that prevent the model from discovering more accurate patterns. The all-to-all attention mechanism, by contrast, maintains its effectiveness regardless of scale.
+
+This matters because it challenges a core assumption in the field: that physics-based inductive biases are always beneficial. The evidence shows they're actually a double-edged sword - helpful for efficiency when resources are limited, but limiting when you have enough data and compute to let the model learn more sophisticated representations.
+
+AllScAIP demonstrates these advantages in practice. On the OMol25 molecular benchmark, it achieves state-of-the-art accuracy for both energy and force predictions. It's competitive on materials benchmarks like OMat24 and even handles the challenging OC20 catalyst dataset. More importantly, it enables stable molecular dynamics simulations over long timescales that accurately reproduce experimental observables like density.
+
+The implications extend beyond just better accuracy numbers. By showing that data-driven approaches can outperform physics-based ones at scale, this work suggests a path forward for MLIPs that doesn't require deep physical insight to get started. Instead of spending years engineering the perfect physics-based architecture, researchers can focus on scaling up data and model capacity, letting the attention mechanism handle the complex physics automatically.
+
+This represents a shift from MLIPs as physics-inspired approximations to MLIPs as general-purpose function approximators that can learn any interaction pattern given enough data. For applications in drug discovery, materials design, and catalysis where long-range effects are crucial, this could be the difference between models that work in theory but fail in practice, and models that actually deliver on the promise of accurate, scalable molecular simulation.
+
+[[TRANSITION]]
+
+Unsupervised medical image anomaly detection is a tricky problem because healthy anatomical variation can look a lot like actual pathology. That's why so many systems end up flagging normal tissue as suspicious—false positives that erode trust in the tool. The core innovation here is to give the model a better sense of what "normal" really looks like by letting it learn from the context of an entire batch of healthy images at once.
+
+The approach starts with a standard CNN autoencoder, but instead of just compressing each image into a latent vector on its own, it first looks at the whole mini-batch of normal samples. Using hypergraph estimation, it builds a relational graph that captures how similar or different those healthy images are to each other. A shared-weights graph convolution layer then processes this structure, producing a population-aware embedding for each image. This embedding is concatenated with the original latent representation, so the bottleneck now encodes both the individual image and its relationship to the batch.
+
+Training proceeds by reconstructing these augmented representations. At test time, the reconstruction error—computed with the same population-aware framework—becomes the anomaly score. The intuition is that if an image deviates not just from its own reconstruction but also from the healthy variation seen in the batch, it's more likely to be truly anomalous.
+
+On a heterogeneous MRI dataset with both healthy brains and tumors, this method pushes AUC-ROC to 0.90 (95% CI: 0.84-0.95), a 5.7 percentage point gain over a plain autoencoder. Average Precision jumps to 0.78 (95% CI: 0.66-0.89), a 16-point improvement. Interestingly, performance keeps improving as the mini-batch size grows, suggesting that more context helps the model better model healthy variation.
+
+This matters because reducing false positives without labeled anomalies is a major bottleneck in deploying these tools clinically. By embedding healthy variation directly into the latent space, the method makes the detector more robust to normal diversity—an essential step toward trustworthy, autonomous screening systems.
+
+[[TRANSITION]]
+
+African swine fever virus, or ASFV, is a large DNA virus that's become a major threat to the global swine industry. Its virion is wrapped in an icosahedral capsid made mostly of a structural protein called p72, which makes up about one-third of the total virion mass. That's a huge proportion, so you'd think we'd know a lot about how this protein is regulated. But surprisingly, the mechanisms controlling p72 stability have remained poorly understood—until now.
+
+In a new study published in Nature Communications, researchers have identified a cellular protein called cyclophilin A, or CypA, as a key stabilizer of p72. CypA is a peptidyl-prolyl isomerase, meaning it helps proteins fold correctly by catalyzing the rotation of peptide bonds around proline residues. The team found that when CypA is knocked down in host cells, p72 levels drop significantly, and the virus's ability to replicate is severely impaired. This suggests that CypA isn't just a passive player—it's actively required for ASFV to thrive.
+
+To dig deeper, the researchers used a combination of biochemical and imaging techniques. They showed that CypA physically interacts with p72, and this interaction appears to protect p72 from degradation. In cells lacking CypA, p72 is more rapidly broken down by the proteasome, the cell's protein disposal system. This points to a direct stabilizing effect: without CypA, p72 is unstable and the virus can't build its capsid properly.
+
+The study also explored what happens when CypA is inhibited using cyclosporin A, a well-known immunosuppressant that blocks CypA's activity. Under these conditions, ASFV replication was again hampered, reinforcing the idea that CypA's enzymatic function is crucial for the virus.
+
+This work is significant because it uncovers a previously unknown host-virus interaction. By hijacking CypA, ASFV ensures its major capsid protein stays intact long enough to assemble new virions. This not only advances our understanding of ASFV biology but also opens up a potential avenue for antiviral strategies—if you can disrupt the CypA-p72 interaction, you might be able to stop the virus in its tracks.
+
+The available text does not provide details on the specific experimental methods used to confirm the physical interaction between CypA and p72, nor does it specify the exact viral replication stages most affected by CypA depletion. However, the core finding is clear: cyclophilin A is a critical host factor that stabilizes p72 and facilitates African swine fever virus replication.
+
+[[TRANSITION]]
+
+Osteoarthritis is a degenerative joint disease that affects millions worldwide, but its molecular underpinnings remain incompletely understood. A recent study published in the Journal of Orthopaedic Surgery and Research set out to identify key mitochondrial genes involved in OA pathogenesis using publicly available gene expression datasets.
+
+The researchers employed a multi-pronged computational approach. They started with differential expression analysis to find genes that change between healthy and OA-affected cartilage. Then they used weighted gene co-expression network analysis, or WGCNA, to group genes into functional modules based on their expression patterns. Immune infiltration analysis helped assess how immune cells might contribute to disease, and machine learning algorithms were applied to prioritize the most relevant genes.
+
+From this pipeline, IMMT—short for inner mitochondrial membrane protein—emerged as a top candidate. IMMT is known to play a structural role in mitochondria, helping maintain the integrity of the inner mitochondrial membrane and supporting proper mitochondrial function. The analysis suggested that IMMT expression drops in OA cartilage compared to healthy tissue.
+
+To test whether this reduction matters, the team experimentally knocked down IMMT in chondrocyte cell lines. The results were striking: IMMT depletion led to clear mitochondrial dysfunction. Cells showed reduced ATP production, increased reactive oxygen species, and compromised mitochondrial membrane potential. These metabolic defects were accompanied by signs of cellular stress and, ultimately, increased cell death.
+
+The findings point to a new mechanism in OA: loss of IMMT expression may impair chondrocyte energy metabolism, making cartilage cells less able to maintain the extracellular matrix and more vulnerable to degeneration. While the study focused on computational prediction followed by in vitro validation, it opens the door to considering IMMT as both a biomarker and a potential therapeutic target in OA.
+
+The available text does not provide details on the specific machine learning algorithms used, the exact datasets analyzed, or in vivo experiments. Still, the convergence of computational and experimental evidence makes a compelling case that IMMT downregulation is not just a bystander effect but an active contributor to OA development through mitochondrial dysfunction.
+
+[[TRANSITION]]
+
+In tomato, researchers have identified 25 members of the AT-hook motif nuclear-localized protein family, known as AHLs, and classified them into three distinct subfamilies. Among these, two proteins—SlAHL5 and SlAHL25—stood out because they belong to CladeB and show strong potential for improving stress tolerance. When these proteins were introduced into transgenic Arabidopsis plants, they significantly enhanced resistance to both salt and osmotic stress. This suggests that SlAHL5 and SlAHL25 play a direct role in helping plants cope with harsh environmental conditions.
+
+AHL proteins are known to be involved in plant growth, development, and responses to abiotic stress, but their specific functions in tomato had not been fully explored until now. The study found that SlAHL5 and SlAHL25 are localized to the nucleus, which is consistent with their role in regulating gene expression under stress. Their ability to interact with other proteins and modulate stress responses highlights their importance in plant resilience.
+
+The findings are particularly relevant for agriculture, where improving crop tolerance to salinity and drought is a major challenge. By understanding how these AHL proteins work, scientists can potentially develop tomato varieties—or even other crops—that are better equipped to survive in stressful environments. This research not only expands our knowledge of AHL proteins in tomato but also opens new avenues for enhancing stress tolerance in plants through genetic engineering or selective breeding.
+
+[[TRANSITION]]
+
+Here's a deep-dive segment based on the available information:
+
+Today we're looking at a new enzyme discovery from the fungus Trichoderma atroviride. Researchers have identified and characterized what they're calling the first β-fructofuranosidase from this genus that can produce fructooligosaccharides, or FOS.
+
+Fructooligosaccharides are short chains of fructose molecules that serve as prebiotics - they feed beneficial gut bacteria. They're commonly used as food additives and have growing interest in functional foods and supplements.
+
+The enzyme, named TaINV, was heterologously expressed and purified for detailed biochemical analysis. The researchers found it shows hydrolytic activity primarily toward sucrose and other substrates containing β-(2→1) linkages. This linkage pattern is characteristic of inulin and other fructans.
+
+What makes this discovery notable is that it's the first reported β-fructofuranosidase from Trichoderma atroviride with FOS-producing capability. Previous work has identified similar enzymes in other organisms, but this represents a new source that could potentially offer advantages in terms of enzyme stability, production costs, or catalytic properties.
+
+The enzyme's ability to break down sucrose and related compounds while producing FOS makes it potentially valuable for industrial applications. FOS production typically involves either transfructosylation reactions or controlled hydrolysis of larger fructans, and having new enzyme sources expands the toolkit for these processes.
+
+While the available text doesn't provide specific details about the enzyme's kinetics, optimal conditions, or comparative performance against existing commercial enzymes, the identification of this novel enzyme from a different organism opens possibilities for further engineering and optimization.
+
+This work represents an important step in expanding the range of biological tools available for producing these valuable prebiotic compounds, though practical applications would require additional characterization and development work.
+
+[[TRANSITION]]
+
+Autoimmune diseases are notoriously complex, with over 100 distinct conditions affecting millions worldwide. While genome-wide association studies have identified hundreds of genetic loci linked to these diseases, understanding how these genetic variants actually contribute to disease mechanisms has remained a major challenge. A new study published in Communications Medicine tackles this problem head-on by integrating GWAS data with multi-omics information across diverse immune cell types.
+
+The researchers analyzed 15 autoimmune diseases, including rheumatoid arthritis, type 1 diabetes, and multiple sclerosis. Their approach combined genetic association data with gene expression profiles, epigenetic markers, and protein interaction networks to map out the cellular and molecular connections between these conditions. This in silico method allowed them to identify both shared pathways and disease-specific mechanisms.
+
+One of the key findings was that while many autoimmune diseases share common genetic risk factors, the way these factors manifest at the cellular level varies significantly. For instance, certain genetic variants might affect T-cell function in one disease but influence B-cell activity in another. The study also revealed previously unknown connections between seemingly unrelated autoimmune conditions, suggesting that some diseases might share underlying biological mechanisms despite different clinical presentations.
+
+The researchers used advanced computational methods to integrate data from multiple sources, including single-cell RNA sequencing and chromatin accessibility profiles. This comprehensive approach provided a more complete picture of how genetic variants influence immune cell behavior across different autoimmune diseases.
+
+What makes this work particularly valuable is its potential to guide therapeutic development. By understanding which cellular pathways are shared versus unique across autoimmune diseases, researchers can better target treatments to specific disease mechanisms. The study also highlights the importance of considering cellular context when interpreting genetic associations, as the same variant might have different effects depending on the immune cell type and disease state.
+
+This research represents a significant step forward in our understanding of autoimmune disease biology, moving beyond simple genetic associations to reveal the complex cellular networks that drive these conditions.
+
+[[TRANSITION]]
+
+Here's a deep-dive segment on the venous thromboembolism risk factors study in newly diagnosed multiple myeloma patients:
+
+This study from the Annals of Hematology examines a critical complication in multiple myeloma treatment: venous thromboembolism, or VTE. The research team analyzed data from 309 newly diagnosed multiple myeloma patients to identify what drives VTE risk and how age influences these risks.
+
+The study found that VTE incidence was 8.4% in patients receiving thrombosis prophylaxis versus 14.3% in those without prophylaxis. This difference was statistically significant, suggesting that preventive measures do reduce VTE occurrence.
+
+Through multivariable logistic regression analysis, the researchers identified several independent risk factors. High-risk cytogenetic abnormalities emerged as a major factor, with an odds ratio of 4.07. This means patients with these genetic markers were over four times more likely to develop VTE. Elevated lactate dehydrogenase levels also showed strong association, with an odds ratio of 3.21.
+
+The study revealed an interesting age-dependent pattern. For patients under 65, the risk factors remained consistent with the overall findings. However, in patients over 65, the picture changed dramatically. Age itself became a significant risk factor with an odds ratio of 5.86, and the impact of cytogenetic abnormalities diminished. This suggests that older patients face a fundamentally different risk profile.
+
+The researchers also found that the choice of induction therapy influenced VTE risk. Patients receiving immunomodulatory drugs showed different risk patterns compared to those on other regimens, though specific drug comparisons weren't detailed in the available text.
+
+One limitation worth noting: the study was retrospective and conducted at a single center, which may affect generalizability. Additionally, the exact mechanisms linking cytogenetic abnormalities to increased VTE risk remain unclear and warrant further investigation.
+
+The findings have practical implications for clinical practice. They suggest that thrombosis prophylaxis should be strongly considered for all newly diagnosed multiple myeloma patients, with particular attention to those with high-risk cytogenetics or elevated LDH levels. For older patients, age itself becomes a critical factor in risk assessment, potentially requiring more aggressive preventive strategies.
+
+[[TRANSITION]]
+
+This paper describes the development of a new antibody-drug conjugate targeting CSPG4 for triple-negative breast cancer. The researchers started by identifying CSPG4 as a promising target, since it's highly expressed in aggressive TNBC tumors that resist standard neoadjuvant treatments. They then generated three different anti-CSPG4 IgG1 antibodies and tested them for binding affinity, internalization, and ability to deliver a cytotoxic payload.
+
+The key innovation here is the systematic selection of both the antibody clone and its isotype. By comparing different IgG1 variants, they optimized for the best combination of target binding, internalization efficiency, and drug-to-antibody ratio. This careful selection process led to an ADC that showed strong tumor growth inhibition in preclinical models of CSPG4-positive TNBC.
+
+What makes this work stand out is the focus on isotype engineering—choosing the right IgG1 subclass to maximize therapeutic effect. This approach could be broadly applicable to other ADC programs where target expression is heterogeneous or treatment resistance is common.
+
+The available text doesn't provide details on the specific antibody clones used, the cytotoxic payload, or the exact mechanisms of tumor growth inhibition. It also doesn't mention clinical trial plans or potential off-target effects. But the core advance is clear: by combining clone and isotype selection, the team created a more potent and selective ADC for a hard-to-treat breast cancer subtype.
+
+[[TRANSITION]]
+
+This paper introduces a graph neural network approach to model spatial tumor-immune interactions in non-small cell lung cancer, moving beyond traditional hand-engineered metrics like cell densities or pairwise proximity scores. The authors argue that these conventional methods fail to capture the complexity of local cell-cell interactions within the tumor microenvironment.
+
+The core innovation here is using graph neural networks to analyze spatial patterns of immune and tumor cells. By representing the tumor microenvironment as a graph where nodes are cells and edges represent spatial relationships, the model can learn higher-order interaction patterns that simple metrics miss. This approach allows for identifying prognostic cellular niches - specific spatial configurations of cells that correlate with patient outcomes.
+
+The significance lies in potentially uncovering more nuanced biomarkers for patient prognosis. If certain spatial arrangements of immune cells relative to tumor cells predict survival better than simple cell counts, this could inform treatment decisions or identify patients who might benefit from immunotherapy. The graph neural network framework is particularly well-suited for this because it can capture complex, non-linear relationships in the spatial data.
+
+However, the available text doesn't provide details on the specific methodology, key findings, or limitations of the study. We don't know how the graph neural network was trained, what specific cellular niches were identified, or how well the model performed compared to traditional approaches. The paper appears to be a significant methodological advance in spatial analysis of tumor microenvironments, but without access to the full text, we can't assess the strength of the evidence or practical implications of the findings.
+
+[[TRANSITION]]
+
+Here's a deep-dive segment on the bladder cancer survival prediction model:
+
+A new hybrid model called QTMPN is tackling one of the biggest headaches in cancer prognosis: how to make sense of wildly different types of medical data at once. Think clinical records, pathology slides, genomic sequences, and imaging scans - each with its own structure, scale, and quirks. The team behind this work recognized that traditional models often stumble when asked to fuse these high-dimensional, cross-modal datasets into a single coherent prediction.
+
+Their solution? A two-stage architecture that pairs quantum neural networks with transformer-based deep learning. In the first stage, a quantum neural network processes the raw multimodal inputs. Quantum circuits, with their ability to represent complex, high-dimensional relationships through superposition and entanglement, can capture subtle interactions between features that classical networks might miss. This quantum layer essentially learns a compressed, information-rich representation of the patient data.
+
+That quantum output then feeds into a classical transformer architecture - the same kind of model that powers modern language processing, but here adapted for survival prediction. The transformer takes those quantum-derived features and models their temporal and contextual relationships, ultimately producing a survival probability score.
+
+The approach is specifically designed for bladder cancer, using retrospective patient data to train and validate the system. By combining quantum and classical methods, the model aims to improve diagnostic accuracy over single-paradigm approaches, particularly in handling the noise and heterogeneity typical of real-world medical datasets.
+
+While the paper doesn't detail specific performance metrics or dataset sizes, the innovation lies in the architectural fusion itself - leveraging quantum computing not as a gimmick, but as a feature extractor that complements classical deep learning. This kind of hybrid quantum-classical design may become increasingly relevant as quantum hardware matures and multimodal medical AI continues to evolve.
+
+[[TRANSITION]]
+
+PARP inhibitors like niraparib have transformed ovarian cancer treatment, but resistance remains a stubborn obstacle. This study uncovers a new resistance mechanism centered on two proteins: MCM2 and MCM5, which are part of the minichromosome maintenance complex essential for DNA replication. In niraparib-resistant ovarian cancer cells, RNA sequencing revealed that both MCM2 and MCM5 were significantly upregulated compared to sensitive cells.
+
+The researchers traced this upregulation to E2F1, a transcription factor that drives cell cycle progression. In resistant cells, E2F1 levels were elevated, and when they knocked down E2F1, MCM2 and MCM5 expression dropped. This suggested that the E2F1-MCM2/5 axis was driving resistance.
+
+To test whether targeting this pathway could restore sensitivity, they turned to CDK4/6 inhibitors—drugs that block E2F1 activity by preventing cell cycle progression past the G1 checkpoint. When they treated niraparib-resistant cells with the CDK4/6 inhibitor abemaciclib, MCM2 and MCM5 levels fell, and the cells became sensitive to niraparib again. This effect was specific: abemaciclib didn't work in cells where E2F1 was already knocked down, confirming the pathway's role.
+
+The mechanism appears to hinge on homologous recombination repair. In resistant cells, high MCM2/5 levels supported robust DNA repair, allowing cancer cells to survive PARP inhibition. CDK4/6 inhibition disrupted this repair capacity, making the cells vulnerable again to PARP inhibitors.
+
+This work suggests a potential clinical strategy: combining CDK4/6 inhibitors with PARP inhibitors to overcome resistance in ovarian cancer. It also highlights how cancer cells can rewire their DNA repair machinery to evade targeted therapies—and how intercepting that rewiring could restore treatment effectiveness.
+
+[[TRANSITION]]
+
+Methyl gallate and hyaluronic acid nanoconjugate targeting HSP90β for osteoarthritis therapy
+
+Osteoarthritis is a degenerative joint disease that affects millions of people worldwide, characterized by cartilage breakdown, inflammation, and progressive joint dysfunction. The challenge in treating OA lies in its complex pathophysiology and the lack of effective therapeutic targets that can address multiple disease mechanisms simultaneously.
+
+Researchers have developed a novel therapeutic approach using a nanoconjugate that combines methyl gallate with hyaluronic acid, targeting the heat shock protein 90 beta (HSP90β). This protein plays a crucial role in OA progression by stabilizing various client proteins involved in inflammation and cartilage degradation.
+
+The nanoconjugate works through a dual mechanism. First, methyl gallate, a natural phenolic compound, provides anti-inflammatory and antioxidant properties. Second, hyaluronic acid serves as both a delivery vehicle and a targeting moiety, as it naturally accumulates in inflamed joint tissues. The conjugate specifically binds to HSP90β, disrupting its chaperone function and leading to the degradation of pro-inflammatory client proteins.
+
+In cellular studies, this nanoconjugate demonstrated the ability to reduce cartilage inflammation and degeneration. The researchers observed decreased expression of matrix metalloproteinases, which are enzymes responsible for breaking down cartilage extracellular matrix. Additionally, the treatment reduced inflammatory cytokine production and inhibited the activation of NF-κB signaling, a key pathway in OA inflammation.
+
+The nanoconjugate's effectiveness stems from its ability to penetrate cartilage tissue and maintain stability in the joint environment. The hyaluronic acid component enhances biocompatibility and reduces potential side effects compared to conventional OA treatments.
+
+This approach represents a significant advancement in OA therapy by addressing multiple pathological processes through a single targeted intervention. By focusing on HSP90β, the treatment potentially offers a more comprehensive solution than current therapies that typically target only one aspect of the disease.
+
+The development of this nanoconjugate could lead to more effective treatments for osteoarthritis, potentially slowing disease progression and improving quality of life for patients with this debilitating condition.
+
+[[TRANSITION]]
+
+In diabetic cardiomyopathy, the heart faces a double hit: chronic high blood sugar damages cardiac muscle while also stressing mitochondria, the cell's energy factories. Mitochondria normally rely on a quality-control system called the mitochondrial unfolded protein response, or mito-UPR, to fix or remove misfolded proteins. When this system falters, damaged mitochondria accumulate, energy production drops, and heart function worsens.
+
+A new study focused on a protein called Dusp15, a dual-specificity phosphatase that can remove phosphate groups from other proteins. The researchers asked whether Dusp15 might protect the heart by keeping the mito-UPR running smoothly in diabetes.
+
+They found that in diabetic mouse hearts, Dusp15 levels drop. Without enough Dusp15, a key mitochondrial chaperone protein called mtHsp70 becomes hyperphosphorylated at a specific site, threonine 116. This over-phosphorylation impairs mtHsp70's ability to fold proteins correctly, triggering mito-UPR failure. As a result, misfolded proteins build up, mitochondria become dysfunctional, and the heart shows signs of injury—reduced pumping strength, fibrosis, and inflammation.
+
+When the team boosted Dusp15 in diabetic mice, mtHsp70 phosphorylation returned to normal. The mito-UPR reactivated, mitochondrial health improved, and cardiac function was preserved. Conversely, removing Dusp15 made diabetic heart damage even worse.
+
+The mechanism appears to hinge on Dusp15's ability to dephosphorylate mtHsp70 at Thr116. This keeps mtHsp70 in its active, chaperone-ready state, allowing it to manage protein folding stress inside mitochondria. In diabetes, when Dusp15 is lost, this protective dephosphorylation fails, and the mito-UPR collapses.
+
+This work identifies Dusp15 as a previously unknown guardian of mitochondrial proteostasis in the diabetic heart. By modulating a single phosphorylation event on mtHsp70, Dusp15 preserves mito-UPR function and prevents cardiac dysfunction. The findings suggest that targeting Dusp15 or the mtHsp70 phosphorylation pathway could offer new strategies to protect the heart in diabetes.
+
+[[TRANSITION]]
+
+Hepatocellular carcinoma, or HCC, is one of the most aggressive forms of liver cancer, and despite decades of research, the molecular mechanisms driving its progression remain incompletely understood. A new study published in Oncology Reports sheds light on one such mechanism involving a protein called CCT2, which is part of the chaperonin-containing TCP1 ring complex—a molecular machine that helps other proteins fold correctly inside cells.
+
+CCT2 has been implicated in the development of various liver diseases, but its specific role in HCC was unclear until now. The researchers set out to investigate whether CCT2 influences the growth and spread of HCC cells, and if so, how.
+
+Using a combination of genetic knockdown techniques and cell culture experiments, the team found that reducing CCT2 levels in HCC cells significantly impaired their ability to proliferate, migrate, and invade surrounding tissues. In other words, when CCT2 was knocked down, the cancer cells lost much of their malignant behavior.
+
+The key to understanding this effect lies in a signaling pathway involving STAT3, a protein that, when activated, promotes cell survival, proliferation, and metastasis. The study revealed that CCT2 knockdown led to a marked decrease in STAT3 activation. This suggests that CCT2 is necessary for maintaining STAT3 in its active state, and without it, the signaling cascade that drives HCC progression is disrupted.
+
+These findings are significant because they identify CCT2 as a potential therapeutic target for HCC. By inhibiting CCT2, it may be possible to suppress STAT3 activation and, consequently, slow or halt the progression of this aggressive cancer. While the study was conducted in cell cultures and further research is needed to confirm these effects in animal models and eventually in patients, the results open a promising new avenue for HCC treatment.
+
+In summary, this research highlights the critical role of CCT2 in HCC progression by showing that its knockdown impairs STAT3 activation, thereby reducing the malignant potential of liver cancer cells. This discovery not only advances our understanding of HCC biology but also points toward novel strategies for intervention.
+
+[[TRANSITION]]
+
+HER2-low breast cancer is a biologically distinct subtype that lacks the high HER2 expression seen in HER2-positive tumors, yet still requires targeted therapeutic strategies. The challenge has been the absence of reliable predictive biomarkers to guide treatment. This study introduces a novel approach by leveraging triaptosis, a recently described form of oxidative stress-associated endosomal dysfunction mediated by VPS34 inhibition, to develop a prognostic signature.
+
+The researchers began by analyzing gene expression and clinical data from The Cancer Genome Atlas and cBioPortal, focusing on triaptosis-related genes in HER2-low breast cancer. Through consensus clustering and LASSO regression, they identified a five-gene signature: LRP6, EMB, PYDC1, CEACAM6, and AGR3. This signature robustly stratified patients into high- and low-risk groups across multiple independent cohorts, including the Cancer Hospital, Chinese Academy of Medical Sciences.
+
+The signature's predictive efficacy was validated in several cohorts, showing significant differences in immune cell infiltration and predicted drug responses between risk groups. Notably, PYDC1 emerged as a key functional player. Experimental validation demonstrated that PYDC1 overexpression significantly inhibited the proliferation and migration of HER2-low breast cancer cell lines. Pathway analysis revealed that PYDC1 exerts its suppressive effects by attenuating the PI3K/AKT signaling pathway, a critical driver of tumor growth and survival.
+
+This work not only provides a new prognostic tool for HER2-low breast cancer but also identifies PYDC1 as a potential therapeutic target. By linking triaptosis-related genes to clinical outcomes and functional biology, the study opens avenues for more personalized treatment strategies in this challenging breast cancer subtype. The available text does not provide details on the specific drugs predicted to be effective or the exact mutation frequencies of the signature genes.
+
+[[TRANSITION]]
+
+A 2016 Swedish serological study shows the country maintains strong measles immunity overall, with 93% seroprevalence, but reveals concerning gaps in specific adult cohorts and migrant populations. The 1982-1996 birth cohort, first to receive two vaccine doses, shows only 83% immunity, while newly arrived adult migrants from certain regions demonstrate immunity ranging from 44% to 97% depending on origin. Published in Lakartidningen, the research highlights that while breakthrough infections remain rare, suspected cases are higher among older vaccinated groups. The findings underscore the need for targeted adult vaccination efforts and ongoing serological monitoring to sustain Sweden's measles elimination status, particularly given waning antibody levels and the absence of natural virus boosting in elimination settings.
+
+[[TRANSITION]]
+
+This item is not a research article but a PubMed interface page for saving citations. The provided text contains no abstract, methods, or findings from the actual study. It only shows metadata and bookmarking options for a paper titled "How is confidence in vaccination against measles sustained?" published in Lakartidningen. Without access to the full article, no scientific content can be summarized. The page appears to be a placeholder for citation management rather than a source of research findings. For accurate information about vaccine confidence and measles vaccination strategies, the full text would need to be reviewed directly from the journal.
+
+[[TRANSITION]]
+
+A new multi-modal fusion network uses 1D snoring waveforms and 2D acoustic feature graphs to pinpoint obstructive sites in the upper airway. Developed by researchers publishing in IEEE Journal of Biomedical and Health Informatics, the system aims to improve diagnosis of sleep-related breathing disorders by analyzing snoring as a dynamic acoustic signal. The approach combines temporal and spatial acoustic features to identify where and how severely the airway is blocked. This non-invasive method could enhance diagnostic accuracy and guide treatment decisions without requiring more invasive procedures. The study highlights the potential of acoustic analysis in sleep medicine, though specific performance metrics and validation details are not provided in the available summary.
+
+[[TRANSITION]]
+
+This item from PubMed's Biomedical Physics & Engineering Express appears to be a bot detection page rather than a scientific article. The text describes a CAPTCHA challenge where users must verify they are human by checking a box. The page includes security features like Bot Manager and an incident ID for tracking access attempts. Since this is not an actual research paper, there are no scientific findings, methods, or key evidence to report. The content serves a security function to prevent automated bot access to the website rather than presenting biomedical research on natural killer cells or hydrogel encapsulation.
+
+[[TRANSITION]]
+
+Researchers have reprogrammed the flavo-encapsulin from *Thermotoga maritima* into a novel protein nanocage platform for enhanced photodynamic therapy. The study, published in the *Journal of Bioscience and Bioengineering*, demonstrates how this engineered nanocage can encapsulate photosensitizers more effectively than previous designs. The modified encapsulin shows improved stability and targeting capabilities, potentially allowing for more precise delivery of photodynamic agents to cancer cells. This advancement could lead to more effective cancer treatments with reduced side effects, as the protein nanocage can be designed to accumulate preferentially in tumor tissue before light activation triggers the therapeutic response.
+
+[[TRANSITION]]
+
+A new study in Cell Chemical Biology reveals that the diversity of the cytoplasmic tail in class B2 adhesion G protein-coupled receptors (aGPCRs) determines their effector bias. Researchers found that variations in the intracellular tail region control how these receptors interact with different signaling partners, including G proteins, arrestins, and GRKs. This discovery sheds light on how aGPCRs combine cell adhesion with GPCR signaling to regulate diverse biological processes. The findings suggest that the cytoplasmic tail acts as a molecular switch, directing the receptor's signaling output toward specific pathways. This work advances our understanding of aGPCR signaling mechanisms and could inform future therapeutic strategies targeting these receptors.
+
+[[TRANSITION]]
+
+Spatial enzyme assembly for microbial pharmaceutical synthesis. Researchers are tackling the challenge of inefficient microbial drug production by mimicking nature's own strategies. In Current Opinion in Biotechnology, scientists highlight how naturally evolved metabolic pathways keep enzymes physically close to prevent intermediate loss and toxic buildup. Applying this principle, they're engineering synthetic enzyme complexes within microbes to boost pharmaceutical yields. By organizing enzymes into spatial assemblies, they reduce diffusion bottlenecks, minimize competing metabolic pathways, and protect cells from harmful intermediates. This approach promises to make microbial factories more efficient and sustainable for producing complex drugs. The work underscores the value of learning from evolution to solve modern biotechnology challenges.
+
+[[TRANSITION]]
+
+This corrigendum from *Vaccine* journal addresses an error in the original publication titled "Longitudinal monitoring of cellular immunity by the ex vivo activation of genes in leukocytes (EAGL) assay highlights potential markers of mRNA COVID-19 vaccine efficacy against breakthrough symptoms." The correction likely involves updates to data, methodology, or conclusions from the 2025 study that examined how the EAGL assay could identify immune markers linked to vaccine effectiveness against COVID-19 breakthrough infections. Such corrigenda are important for maintaining scientific accuracy and ensuring that subsequent research and clinical interpretations are based on the most reliable information available.
+
+[[TRANSITION]]
+
+Researchers are using machine learning to identify conserved pneumococcal proteins that could serve as targets for serotype-independent vaccines. By analyzing samples from human infection challenge studies, they aim to find immunogenic proteins that protect against Streptococcus pneumoniae colonization regardless of strain. The approach leverages controlled human infection models to correlate immune responses with protection, seeking proteins that elicit consistent immunity across diverse pneumococcal serotypes. This strategy could overcome the limitations of current vaccines, which target only specific serotypes and leave gaps in coverage. Identifying such broadly protective antigens would be a major advance in preventing pneumococcal disease, particularly in populations where vaccine coverage is incomplete or where emerging serotypes pose new threats.
+
+[[TRANSITION]]
+
+A new study in Vaccine examines how fathers make decisions about vaccinating their young children against COVID-19. Surveying 943 fathers from the Fathers & Families cohort, researchers found that fathers' reports of household vaccine decision-making processes were linked to their children's vaccination status. The study highlights the previously underexplored role of fathers in pediatric vaccination choices, suggesting that interventions to boost childhood vaccination rates may need to engage fathers more directly. By focusing on fathers' perspectives, the research fills a gap in understanding family dynamics around vaccine decisions and could inform targeted public health strategies to improve uptake among young children.
+
+[[TRANSITION]]
+
+Molecular crystal structure prediction is one of those problems that sits at the intersection of chemistry, physics, and computational science. The challenge is that molecules in crystals aren't just randomly arranged—they're held together by a delicate balance of weak intermolecular forces like van der Waals interactions and hydrogen bonds. These forces are subtle, and the possible arrangements of molecules in a crystal lattice explode combinatorially as the size of the molecule increases. Traditional methods like density functional theory are accurate but computationally expensive, making exhaustive searches impractical for large systems.
+
+The paper we're looking at today, MolCrystalFlow, takes a different approach. Instead of brute-force searching, it uses a generative model based on flow matching—a technique that's been successful in other domains but hasn't been widely applied to crystal structure prediction. The key idea is to train a model to learn the distribution of stable crystal structures directly from data, so it can generate new, plausible structures without having to evaluate every possible arrangement.
+
+MolCrystalFlow builds on the CrystalFlow architecture, which was originally designed for inorganic crystals. The authors adapted it for molecular crystals by incorporating a new way to represent molecules—using a combination of atom-level and molecule-level features. This allows the model to capture both the internal structure of the molecule and how it interacts with its neighbors in the crystal. They also introduced a symmetry-aware loss function, which helps the model respect the periodic nature of crystals.
+
+One of the most interesting aspects is how they handle the generation process. Instead of generating the entire crystal at once, they use a sequential approach: first placing molecules in the lattice, then refining their positions and orientations. This is guided by a learned score function, which tells the model how to adjust the structure to make it more stable.
+
+The results are promising. On a benchmark dataset of molecular crystals, MolCrystalFlow achieved a 24% success rate in generating structures within 1% energy of the ground truth—significantly better than previous methods. It also scales well to larger molecules, which is a major advantage over traditional approaches.
+
+There are still limitations. The model requires a dataset of known crystal structures for training, so it can't discover entirely new types of packing. And while it's much faster than DFT-based methods, it's still slower than some heuristic approaches. But for many applications—like drug discovery or materials design—the accuracy and scalability of MolCrystalFlow could make it a valuable tool.
+
+In summary, MolCrystalFlow represents a significant step forward in molecular crystal structure prediction. By combining generative modeling with domain-specific insights, it offers a new way to tackle a problem that's been stubbornly difficult for decades.
+
+[[TRANSITION]]
+
+Mixture of Experts models have been a breakthrough for scaling large language models efficiently, but their internal workings have remained somewhat mysterious. A new analysis from arXiv cs.LG reveals something surprising: in these models, a small number of specialized experts handle most of the work.
+
+The researchers examined DeepSeekMoE, which uses 64 routed experts with 6 active per layer. What they found was striking. Across different specialized domains, very few experts handle over half of all routing decisions. This means the model's "expertise" is highly concentrated rather than evenly distributed.
+
+To understand why this matters, consider how MoE models work. Instead of activating all parameters for every input, they route tokens to specific expert networks. The routing mechanism learns which expert is best for which type of input. The analysis showed these routing patterns are far from random - certain experts become specialists for certain types of content.
+
+The team developed an "early decoding framework" to track how individual experts contribute to final outputs. By examining hidden states at intermediate layers, they could measure how much each expert's output influenced the final representation. The results were revealing: the hidden state similarity between using a single top-weighted expert versus the full ensemble reached up to 0.95 in some layers. That's remarkably high - it means one expert's output closely approximates what the full group produces.
+
+This concentration of expertise has practical implications. When the researchers tested using only a single expert across all domains, model perplexity increased by just 5%. For context, perplexity measures how well a language model predicts text - lower is better. A 5% increase while using far fewer parameters represents a significant efficiency gain.
+
+The findings suggest MoE models could be optimized by identifying and pruning less-critical experts, potentially reducing memory and computation costs substantially without major performance loss. It also provides new insights into how knowledge is organized within these architectures - not as a distributed network, but as a collection of specialists where a few handle most of the workload.
+
+
+References:
+[1] What comes after de novo? Automated lead optimization of proteins with CRADLE-1 — bioRxiv — bioengineering — https://www.biorxiv.org/content/10.64898/2026.03.06.710001
+[2] Multi-Modal Protein Representation Learning with CLASP — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.1101/2025.08.10.669533
+[3] Inverse Protocol Prediction from Spheroid Microscopy Imaging via Morphology-Aware Structured Learning — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.04.709682
+[4] geneSTRUCTURE: A Modern Platform for Visualization of Gene Structures — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.05.709980
+[5] Perseus: Lineage-Aware Refinement of Kraken2 Taxonomic Classification for Long Read Metagenomes — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.06.710148
+[6] Quantifying Cross-Attention Interaction in Transformers for Interpreting TCR-pMHC Binding — arXiv q-bio.BM — https://arxiv.org/abs/2507.03197
+[7] Sampling-based Continuous Optimization for Messenger RNA Design — arXiv q-bio.BM — https://arxiv.org/abs/2603.06559
+[8] Toward universal binder discovery: Advances in display, computational design and in vivo platforms. — PubMed — Current opinion in chemical biology — https://doi.org/10.1016/j.cbpa.2026.102663
+[9] Supervised learning of protein variant effects across large‐scale mutagenesis datasets — Protein Science — https://onlinelibrary.wiley.com/doi/10.1002/pro.70526?af=R
+[10] StabLyzeGraph: High‐throughput screening of combinatorial mutations using graph neural networks — Protein Science — https://onlinelibrary.wiley.com/doi/10.1002/pro.70534?af=R
+[11] What Topological and Geometric Structure Do Biological Foundation Models Learn? Evidence from 141 Hypotheses — arXiv q-bio.QM — https://arxiv.org/abs/2602.22289
+[12] TCR-EML: Explainable Model Layers for TCR-pMHC Prediction — arXiv q-bio.QM — https://arxiv.org/abs/2510.04377
+[13] A recipe for scalable attention-based MLIPs: unlocking long-range accuracy with all-to-all node attention — arXiv q-bio.QM — https://arxiv.org/abs/2603.06567
+[14] In-batch Relational Features Enhance Precision in An Unsupervised Medical Anomaly Detection Task — arXiv q-bio.QM — https://arxiv.org/abs/2603.05534
+[15] Cyclophilin A stabilizes the capsid protein p72 to facilitate African swine fever virus replication. — PubMed — Nature communications — https://doi.org/10.1038/s41467-026-70430-2
+[16] IMMT downregulation promotes osteoarthritis development by inducing mitochondrial dysfunction. — PubMed — Journal of orthopaedic surgery and research — https://doi.org/10.1186/s13018-026-06775-7
+[17] Characterization of tomato AHL proteins and their biological functions in the resistance to salt and osmotic stresses. — PubMed — Plant cell reports — https://doi.org/10.1007/s00299-026-03767-z
+[18] Enhanced fructooligosaccharides synthesis by engineered Trichoderma atroviride β-fructofuranosidase. — PubMed — Applied microbiology and biotechnology — https://doi.org/10.1007/s00253-026-13748-7
+[19] Identifying genetic and cellular connections and distinctions among 15 autoimmune diseases using an in-silico approach. — PubMed — Communications medicine — https://doi.org/10.1038/s43856-026-01487-9
+[20] Risk factors for venous thromboembolism in newly diagnosed multiple myeloma patients based on thrombosis prophylaxis. — PubMed — Annals of hematology — https://doi.org/10.1007/s00277-026-06920-6
+[21] An antibody-drug conjugate designed through clone and isotype selection restricts the growth of CSPG4-expressing triple-negative breast cancer. — PubMed — NPJ precision oncology — https://doi.org/10.1038/s41698-026-01341-0
+[22] Graph neural network modeling of spatial tumor-immune interactions identifies prognostic cellular niches in non‑small cell lung cancer. — PubMed — NPJ precision oncology — https://doi.org/10.1038/s41698-026-01314-3
+[23] Survival prediction for bladder cancer using multimodal data with quantum neural networks and transformer architectures. — PubMed — Scientific reports — https://doi.org/10.1038/s41598-026-42047-4
+[24] CDK4/6i reverse PARPi resistance by targeting the E2F1- MCM2/5 pathway. — PubMed — NPJ precision oncology — https://doi.org/10.1038/s41698-026-01353-w
+[25] Methyl gallate and hyaluronic acid-nanoconjugate targeting HSP90β for osteoarthritis therapy. — PubMed — Journal of nanobiotechnology — https://doi.org/10.1186/s12951-026-04239-y
+[26] Dusp15 modulates mtHsp70 Thr116 phosphorylation state to preserve mito-UPR and attenuate cardiac dysfunction in diabetic cardiomyopathy. — PubMed — Cardiovascular diabetology — https://doi.org/10.1186/s12933-026-03125-z
+[27] Knockdown of CCT2 inhibits the malignant progression of hepatocellular carcinoma cells by impairing STAT3 activation. — PubMed — Oncology reports — https://doi.org/10.3892/or.2026.9086
+[28] A novel triaptosis-related prognostic signature to assess the clinical value in HER2-low breast cancer: evidence from clinical cohorts and experimental validation. — PubMed — Apoptosis : an international journal on programmed cell death — https://doi.org/10.1007/s10495-026-02313-2
+[29] [Measles immunity in the Swedish population]. — PubMed — Lakartidningen — https://pubmed.ncbi.nlm.nih.gov/41787919/
+[30] [How is confidence in vaccination against measles sustained?]. — PubMed — Lakartidningen — https://pubmed.ncbi.nlm.nih.gov/41787917/
+[31] A 1D Snoring Waveform and 2D Composite Acoustic Feature Graph-Based Multi-Modal Fusion Network for Obstructive Sites Recognition. — PubMed — IEEE journal of biomedical and health informatics — https://doi.org/10.1109/JBHI.2026.3670208
+[32] Encapsulation of human natural killer cells into novel gelatin-based polymeric hydrogel networks. — PubMed — Biomedical physics & engineering express — https://doi.org/10.1088/2057-1976/ad7609
+[33] Reprogramming the flavo-encapsulin from Thermotoga maritima to a novel protein nanocage platform for potent photodynamic therapy. — PubMed — Journal of bioscience and bioengineering — https://doi.org/10.1016/j.jbiosc.2026.01.013
+[34] Cytoplasmic tail diversity determines the effector bias of the adhesion GPCR ADGRL2. — PubMed — Cell chemical biology — https://doi.org/10.1016/j.chembiol.2026.02.004
+[35] Spatial enzyme assembly for microbial pharmaceutical synthesis. — PubMed — Current opinion in biotechnology — https://doi.org/10.1016/j.copbio.2026.103475
+[36] Corrigendum to "Longitudinal monitoring of cellular immunity by the ex vivo activation of genes in leukocytes (EAGL) assay highlights potential markers of mRNA COVID-19 vaccine efficacy against breakthrough symptoms" [Vaccine 68 (2025) 127942]. — PubMed — Vaccine — https://doi.org/10.1016/j.vaccine.2026.128267
+[37] Machine learning-driven identification of serotype-independent pneumococcal vaccine candidates using samples from human infection challenge studies. — PubMed — Vaccine — https://doi.org/10.1016/j.vaccine.2026.128280
+[38] Fathers' reports of within-household vaccine decision making and young children's COVID-19 vaccination status. — PubMed — Vaccine — https://doi.org/10.1016/j.vaccine.2026.128282
+[39] MolCrystalFlow: Molecular Crystal Structure Prediction via Flow Matching — arXiv cs.LG (AI/ML) — https://arxiv.org/abs/2602.16020
+[40] MoE Lens -- An Expert Is All You Need — arXiv cs.LG (AI/ML) — https://arxiv.org/abs/2603.05806
