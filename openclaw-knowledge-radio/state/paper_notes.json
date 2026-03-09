@@ -290,6 +290,11 @@
       "note": "DD",
       "title": "Multi-Modal Protein Representation Learning with CLASP",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://doi.org/10.1016/j.cbpa.2026.102663": {
+      "note": "DD",
+      "title": "Toward universal binder discovery: Advances in display, computational design and in vivo platforms.",
+      "source": "PubMed — Current opinion in chemical biology"
     }
   }
 }
