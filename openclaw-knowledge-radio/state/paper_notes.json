@@ -285,6 +285,11 @@
       "note": "DD",
       "title": "What comes after de novo? Automated lead optimization of proteins with CRADLE-1",
       "source": "bioRxiv — bioengineering"
+    },
+    "https://www.biorxiv.org/content/10.1101/2025.08.10.669533": {
+      "note": "DD",
+      "title": "Multi-Modal Protein Representation Learning with CLASP",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
