@@ -317,6 +317,11 @@
       "note": "DD",
       "title": "RadDiff: Retrieval-Augmented Denoising Diffusion for Protein Inverse Folding",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1080/19420862.2026.2630438": {
+      "note": "DD",
+      "title": "NAStructuralDB : structural database to facilitate computational studies of molecular modeling and recognition of protei",
+      "source": "PubMed — mAbs"
     }
   }
 }
