@@ -302,6 +302,11 @@
       "note": "DD",
       "title": "Why Are Viral Capsids Icosahedral?",
       "source": "Asimov Press"
+    },
+    "https://doi.org/10.1146/annurev-biochem-051424-071952": {
+      "note": "DD",
+      "title": "Unexpected Applications of AlphaFold in Molecular Sciences.",
+      "source": "PubMed — Annual review of biochemistry"
     }
   }
 }
