@@ -1,0 +1,310 @@
+UniQure is in a unique situation, according to Derek Lowe's In the Pipeline blog. The biotech company, known for its gene therapy work, is navigating a complex landscape of clinical trials and regulatory challenges. Lowe highlights how UniQure's approach to treating rare diseases through gene therapy sets it apart in the pharmaceutical industry. The company's focus on developing one-time treatments for genetic disorders presents both opportunities and obstacles. Lowe notes that UniQure's progress in this field could have significant implications for the future of gene therapy and rare disease treatment. The blog post provides insight into the company's current status and the broader context of gene therapy development in the biotech sector.
+
+[[TRANSITION]]
+
+Researchers at ACS Applied Materials & Interfaces have developed a novel materials-based platform to investigate how macrophages clear DNA within phagosomes. Using engineered microparticles with DNA coatings created through microcontact printing, they discovered that proteolysis is a critical prerequisite for chromatin clearance. The study reveals that DNA degradation inside phagosomes depends on prior protein breakdown, providing new insights into the molecular mechanisms of DNA processing in immune cells. This platform offers a powerful tool for understanding how defective DNA clearance contributes to inflammation, potentially opening new therapeutic avenues for inflammatory diseases where phagosomal DNA processing goes awry.
+
+[[TRANSITION]]
+
+A new transfer learning framework from bioRxiv improves B-cell epitope prediction by fine-tuning protein language models with phylogeny-informed adaptation. The approach uses ESM models as feature embedders, then adapts them hierarchically based on evolutionary relatedness among pathogens. This method addresses a key limitation of generalist predictors—biased performance on under-represented or emerging pathogens—by coupling broad pretraining with targeted fine-tuning. The phylogeny-aware adaptation enables efficient knowledge transfer to data-scarce targets while maintaining strong performance across diverse pathogen sets. Compared to existing state-of-the-art epitope prediction methods, this framework consistently delivers improved predictive accuracy. The work demonstrates how incorporating evolutionary context into machine learning models can enhance their generalization and effectiveness for critical biomedical applications like epitope mapping.
+
+[[TRANSITION]]
+
+Researchers have used AlphaFold3 to predict the 3D structures of GPCR-G protein signaling complexes, creating a comprehensive atlas that could accelerate drug discovery. This computational approach addresses a major gap in our understanding of GPCR signaling, as experimental mapping has only revealed the coupling specificity for a fraction of these important drug targets. The atlas provides structural insights into how hundreds of GPCRs interact with G proteins, information that was previously unknown for many receptors. By revealing these molecular interactions, the work could help researchers design more selective GPCR-targeting therapies with fewer side effects. This computational mapping represents a significant advance in structural biology and pharmacology, potentially transforming how we approach GPCR drug development.
+
+[[TRANSITION]]
+
+A new preprint from bioRxiv introduces InversePep, a diffusion-driven structure-based inverse folding method for designing functional peptides. Unlike traditional approaches that rely on evolutionary or local sequence optimization, InversePep directly generates peptide sequences from target structural and biochemical properties. This is particularly valuable for peptides, which are short, highly flexible, and challenging for conventional design tools. By leveraging diffusion models, the method can explore a broader sequence space and better accommodate the unique constraints of peptide design. The approach aims to accelerate the discovery of peptides with tailored functions for applications in protein engineering and therapeutics. This preprint is currently under review and not yet peer-reviewed.
+
+[[TRANSITION]]
+
+Researchers have developed SCL2205, a new protein sequence-based spatial modelling dataset designed to advance protein language model capabilities. The dataset addresses a key bottleneck in computational biology: the lack of high-quality reference data for protein sub-cellular localisation prediction. By providing carefully curated protein sequences with spatial information, SCL2205 enables more effective training of deep learning models for genome annotation tasks. The work highlights how improved input preparation strategies can unlock the potential of protein language models, which have been underutilised due to data limitations. This resource represents a significant step forward for the field, offering researchers a standardised benchmark to develop and evaluate next-generation protein prediction tools. The dataset is now available for the broader scientific community.
+
+[[TRANSITION]]
+
+Protein language models are widely used to predict how mutations affect protein fitness, but their performance varies dramatically across datasets. A new study from bioRxiv evaluated supervised transfer learning on 41 viral and 33 cellular deep-mutational-scanning datasets using embeddings from multiple protein language models. The researchers found that intrinsic dataset features—such as the number of mutations tested, the diversity of sequences, and the experimental conditions—are the primary drivers of prediction accuracy. Surprisingly, the choice of protein language model mattered less than these dataset characteristics. This insight suggests that improving prediction performance requires better experimental design and data collection rather than simply switching models. The findings could help researchers better understand and optimize protein fitness predictions in both viral and cellular contexts.
+
+[[TRANSITION]]
+
+Equine arteritis virus, or EAV, is a positive-stranded RNA virus belonging to the Arteriviridae family. Its GP5/M dimer forms the principal component of the viral envelope, mediating virus budding and serving as a key target for neutralizing antibodies. Researchers used AlphaFold3 to predict the 3D structure of the EAV GP5/M dimer and compared it to its homolog in porcine reproductive and respiratory syndrome virus, or PRRSV.
+
+The AlphaFold3 model revealed that the EAV GP5/M dimer adopts a compact, intertwined architecture. The GP5 glycoprotein contains an N-terminal ectodomain, a transmembrane domain, and a short cytoplasmic tail. The M protein, a small transmembrane protein, associates with GP5 through hydrophobic interactions. Together, they form a stable heterodimer that anchors into the viral envelope.
+
+Structural comparison with PRRSV showed high conservation in the overall fold but notable differences in surface-exposed loops. These variable regions correspond to known neutralization epitopes, suggesting they play a role in immune evasion. The EAV GP5/M dimer structure also revealed a potential glycosylation site cluster on the ectodomain, which could shield neutralizing epitopes from antibody recognition.
+
+The model provides a structural basis for understanding how EAV evades host immunity. By mapping known neutralizing epitopes onto the 3D structure, researchers identified which regions are accessible versus shielded. This has implications for vaccine design—targeting conserved, functionally critical regions of the dimer could improve cross-protection against different EAV strains.
+
+The available text does not provide details on experimental validation of the AlphaFold3 model, such as cryo-EM or biochemical assays. It also does not specify whether the model captures dynamic conformational changes during virus entry or budding. However, the structural insights offer a foundation for future studies on EAV pathogenesis and immune targeting.
+
+[[TRANSITION]]
+
+Researchers have engineered a highly thermostable version of T7 RNA polymerase, a key enzyme in biotechnology, using computational protein design. The wild-type enzyme typically loses function at just 43-44°C, limiting its use in many applications. While some stabilized variants exist, the most stable commercial form has an undisclosed proprietary sequence. In this study, scientists applied structure-based computational methods to redesign the enzyme, significantly boosting its thermal stability. This breakthrough could expand T7 RNAP's utility in industrial and research settings where high temperatures are required. The work, published in *Protein Engineering, Design & Selection*, demonstrates how computational approaches can overcome natural limitations in enzyme stability, opening new possibilities for engineered proteins in biotechnology.
+
+[[TRANSITION]]
+
+The available text does not provide details on the core claim, method, key evidence, significance, limitations, or specific terms for this article. The provided input consists only of a list of article citations and references, not the full text of a single article to analyze. Without the actual article text, it is not possible to extract or summarize the specific advances in computational prediction of RNA-small molecule binding affinity that the article discusses. To provide an accurate deep-dive segment, the full text of the article would be needed to understand the novel computational approaches, validation methods, key findings, and implications for drug discovery or RNA-targeted therapeutics. The citations listed appear to be related works in the field, but without the main article text, no substantive analysis can be performed on the specific advances claimed in this publication.
+
+[[TRANSITION]]
+
+Researchers have developed a low-cost method to measure protein-ligand binding affinity using hyperpolarized nuclear magnetic resonance spectroscopy at just 0.85 millitesla. The technique, called SABRE hyperpolarization, dramatically enhances signal strength without requiring expensive high-field magnets. This approach could make detailed protein-ligand interaction studies more accessible to laboratories with limited resources. The method was reported in Analytical Chemistry by researchers who demonstrated its effectiveness in characterizing binding affinities at ultra-low magnetic fields.
+
+[[TRANSITION]]
+
+Researchers have used structure prediction and molecular dynamics simulations to probe the elusive 3D structure and ion-binding mechanism of NBCn2, also known as SLC4A10. This integral membrane protein functions as an electroneutral Na⁺:HCO₃⁻ cotransporter, but its precise architecture and transport mechanism have remained unknown. The study, posted on bioRxiv, sheds light on how NBCn2 binds and transports these ions across the plasma membrane. By modeling the protein's structure and simulating ion interactions, the team uncovered key mechanistic insights into NBCn2's function. This computational approach offers a promising path to understanding this important transporter, which plays a role in pH regulation and bicarbonate homeostasis in various tissues.
+
+[[TRANSITION]]
+
+DIA-NN EasyFilter workflow streamlines proteomics analysis by offering a fast, user-friendly way to assess and visualize DIA-NN proteomics results. Developed for liquid chromatography-tandem mass spectrometry (LC-MS/MS) data-independent acquisition (DIA) workflows, this tool addresses the growing need for accessible, high-quality protein characterization in biological and clinical research. DIA-NN EasyFilter enables researchers to quickly evaluate data quality, filter results, and generate clear visualizations without deep computational expertise. By simplifying the critical assessment step, it supports more efficient decision-making in proteomics studies. The workflow is particularly valuable for One Health approaches, where rapid and reliable protein analysis is essential. This tool enhances the usability of DIA-NN, making advanced proteomics more accessible to a broader research community.
+
+[[TRANSITION]]
+
+Single-cell RNA sequencing has flooded the field with massive datasets, but most machine learning models still treat gene expression profiles like plain text—ignoring the rich web of molecular interactions that actually govern cellular behavior. GREmLN changes that by embedding gene regulatory and protein-protein interaction networks directly into the attention mechanism of a transformer-like model.
+
+The key innovation is using graph signal processing to encode the structure of these biological networks as part of the model's internal representations. Instead of treating genes as an unordered bag of features, GREmLN leverages the known dependencies—like transcription factors regulating downstream targets or proteins forming complexes—to inform how attention weights are computed. This means the model can capture non-local, potentially causal relationships between genes during training.
+
+The authors benchmark GREmLN on three tasks where it outperforms state-of-the-art baselines: cell type annotation, graph structure understanding, and reverse perturbation prediction. In the last case, the model predicts how knocking down a gene will ripple through the transcriptome—a critical capability for understanding disease mechanisms and designing interventions. Because the graph structure is baked into the architecture, GREmLN also trains faster and needs fewer parameters than comparable models, thanks to these inductive biases.
+
+This matters because standard transformers, while powerful, assume sequential or positional data. Gene expression profiles have no natural order, so positional encodings add little value and can even confuse the model. By contrast, GREmLN's graph-aware attention aligns with the actual biology, leading to more interpretable and effective representations.
+
+The available text does not provide details on specific datasets used, exact performance metrics, or any limitations or failure modes of the approach. Still, the integration of molecular interaction graphs into a foundation model for transcriptomics represents a significant step toward building AI systems that truly understand cellular biology rather than just pattern-matching expression data.
+
+[[TRANSITION]]
+
+Subgraph isomorphism is a fundamental combinatorial problem that involves finding one or more occurrences of a pattern graph within a target graph. It arises in a wide range of application domains, including biology, chemistry, social network analysis, and pattern recognition. Although subgraph isomorphism is NP-complete in the general case, many exact algorithms have been developed to solve it efficiently in practice.
+
+The authors of this paper present FASTiso, a novel algorithm for subgraph isomorphism that is designed to be fast and efficient for graphs of any size and density. FASTiso is based on a search state tree data structure that allows for efficient pruning of the search space. The algorithm uses a combination of techniques, including vertex ordering, candidate filtering, and early termination, to reduce the number of isomorphism checks that need to be performed.
+
+One of the key innovations of FASTiso is its use of a search state tree, which is a data structure that represents the current state of the search for a subgraph isomorphism. The search state tree is constructed incrementally as the algorithm explores the target graph, and it allows for efficient backtracking and pruning of the search space. By using a search state tree, FASTiso can avoid redundant isomorphism checks and quickly eliminate branches of the search tree that cannot lead to a valid solution.
+
+The authors evaluate the performance of FASTiso on a variety of benchmark datasets, including graphs from biological networks, social networks, and synthetic graphs. They compare the performance of FASTiso to several state-of-the-art algorithms for subgraph isomorphism, including VF2, LAD, and GraphQL. The results show that FASTiso outperforms these algorithms in terms of both runtime and memory usage, particularly for large and dense graphs.
+
+One of the key advantages of FASTiso is its ability to handle graphs of any size and density. Many existing algorithms for subgraph isomorphism are designed for specific types of graphs, such as sparse graphs or graphs with certain structural properties. In contrast, FASTiso is designed to be general-purpose and can handle a wide range of graph types. This makes it a valuable tool for researchers and practitioners who need to solve subgraph isomorphism problems in diverse application domains.
+
+The authors also provide a detailed analysis of the time and space complexity of FASTiso. They show that the algorithm has a worst-case time complexity of O(n^k), where n is the number of vertices in the target graph and k is the number of vertices in the pattern graph. However, they demonstrate that the average-case time complexity is much lower in practice, thanks to the efficient pruning techniques used by the algorithm. The space complexity of FASTiso is O(n + m), where m is the number of edges in the target graph.
+
+In conclusion, FASTiso is a novel and efficient algorithm for subgraph isomorphism that is designed to be fast and scalable for graphs of any size and density. By using a search state tree data structure and a combination of pruning techniques, FASTiso can quickly find subgraph isomorphisms in large and complex graphs. The authors' evaluation on benchmark datasets shows that FASTiso outperforms existing algorithms in terms of both runtime and memory usage, making it a valuable tool for researchers and practitioners in a wide range of application domains.
+
+[[TRANSITION]]
+
+Researchers have developed a new method to measure amorphous motion in 3D fluorescence microscopy images using optical flow techniques. The approach addresses a longstanding challenge in biology: extracting quantitative information from the complex, often amorphous movements visible in living systems under the microscope. Traditional segmentation methods struggle with these irregular structures, but optical flow can track motion patterns even when objects lack clear boundaries. This technique could significantly enhance our ability to analyze cellular dynamics, protein interactions, and other biological processes that involve subtle or complex movements. The preprint from bioRxiv demonstrates how this method can reveal biologically meaningful information that was previously difficult to quantify from microscopy data.
+
+[[TRANSITION]]
+
+A new bioRxiv preprint explores whether titin, the largest human protein, could serve as a forensic marker for estimating postmortem interval. Researchers conducted an in silico analysis of titin's immunoglobulin-like, fibronectin type III, and protein kinase domains to examine postmortem degradation patterns at the domain level—a novel approach since titin has never been studied this way for forensic applications. The study addresses a major challenge in forensic science: the lack of reliable molecular markers for PMI estimation. By analyzing how titin's structural domains break down after death, the researchers aim to develop more accurate methods for determining time since death. This computational approach could potentially lead to better forensic tools if validated through experimental studies.
+
+[[TRANSITION]]
+
+Neurotox is a new deep learning framework that can predict neurotoxicity directly from protein sequences, bypassing the need for structural data. Developed by researchers at bioRxiv, the tool identifies conserved sequence patterns across venomous species that drive neurotoxic effects. This breakthrough suggests neurotoxicity is encoded in the primary sequence itself, not just in higher-order structures. The framework could accelerate venom research and drug discovery by enabling rapid screening of novel toxins. By focusing on sequence-level features, Neurotox opens new avenues for understanding how venomous animals evolve similar neurotoxic mechanisms independently. This work represents a significant advance in computational toxinology, potentially transforming how we study and harness venom-derived compounds for therapeutic applications.
+
+[[TRANSITION]]
+
+Researchers have developed a new computational method to accurately count the number of strands in bacterial outer membrane beta-barrel proteins. These barrel-shaped structures are essential for transport, signaling, and antibiotic resistance in bacteria, with their strand count directly affecting pore size and function. Traditional counting methods struggle with incomplete or broken strands, leading to errors. The new approach uses advanced pattern recognition to handle these irregularities, improving accuracy. This advancement could help better understand bacterial membrane proteins and aid in designing targeted antibiotics or other therapeutics. The work was posted on bioRxiv as a preprint in the bioinformatics category.
+
+[[TRANSITION]]
+
+FAMUS is a new few-shot learning framework designed to improve large-scale protein annotation in genomic and metagenomic studies. Developed by researchers and posted on bioRxiv, the tool addresses a key limitation of current annotation methods, which rely on single most-similar sequences and struggle with underrepresented genes. FAMUS leverages few-shot learning to make more confident function assignments even when data is sparse. This approach could significantly enhance the accuracy of gene function prediction across diverse and poorly characterized protein families. The preprint highlights its potential to improve downstream biological insights from genomic datasets.
+
+[[TRANSITION]]
+
+A new tool called Owl is making it easier to detect microsatellite instability in long-read sequencing data, a key biomarker for mismatch repair deficiency and immunotherapy response. Most current methods rely on short-read sequencing and small marker panels, which limits genome-wide and motif-specific analysis. Owl fills this gap by enabling comprehensive MSI detection in long-read data, offering a more complete view of instability patterns. Developed by researchers and posted on bioRxiv, the tool could improve biomarker discovery and patient stratification for immunotherapy. This advancement is especially valuable as long-read sequencing becomes more common, providing deeper insights into genomic instability across the entire genome.
+
+[[TRANSITION]]
+
+Researchers have uncovered a molecular mechanism linking Fragile X syndrome to excessive neuronal protein synthesis. The study reveals that FMRP, the protein missing in Fragile X, normally regulates the translation of DGKκ mRNA through m⁶A modifications. Without FMRP, this regulation fails, leading to overproduction of DGKκ protein and contributing to the syndrome's core symptoms. This discovery provides crucial insight into how FMRP loss disrupts specific cellular processes, potentially opening new therapeutic avenues for treating Fragile X syndrome and related autism spectrum disorders. The findings highlight the importance of RNA modifications in neurological function and disease.
+
+[[TRANSITION]]
+
+A new preprint from bioRxiv explores how eukaryotic DNA replication origins have evolved, revealing a striking divergence between yeast and other eukaryotes. In S. cerevisiae, origins are highly DNA sequence-specific and recognized by the Origin Recognition Complex (ORC). However, most other eukaryotes have lost key features in ORC subunits that contribute to DNA sequence-specific recognition. This suggests that while yeast rely on precise DNA sequences to initiate replication, other eukaryotes have shifted to a more flexible system. The study highlights the evolutionary adaptation of replication machinery to accommodate the large size and complexity of eukaryotic chromosomes, offering insights into how different organisms manage the critical process of DNA replication.
+
+[[TRANSITION]]
+
+Ischemic stroke is a major cause of death and disability worldwide, and while reactive oxygen species, or ROS, are known to play a critical role in the damage that occurs after a stroke, the specific genes and pathways involved have remained unclear. To address this, researchers turned to systems biology, integrating two large microarray datasets from patients with ischemic stroke to map out the transcriptional networks linked to ROS dysregulation.
+
+By combining data from these two independent cohorts, GSE58294 and GSE16561, the team was able to identify a set of genes whose expression patterns were closely tied to ROS activity in the context of stroke. This integrative approach allowed them to move beyond single-gene studies and instead uncover broader patterns and interactions within the cellular response to ischemic injury.
+
+One of the key findings was the identification of a gene signature associated with ROS that could potentially serve as a biomarker for stroke severity or outcome. This signature not only highlighted genes directly involved in oxidative stress but also pointed to unexpected players in the process. Among these, CLEC4E, a C-type lectin receptor, emerged as a gene with a previously underappreciated role in stroke pathophysiology.
+
+CLEC4E is known for its involvement in immune responses, but its connection to ROS and ischemic stroke was not well established. The analysis suggested that CLEC4E may have immunomodulatory functions in the context of stroke, possibly influencing how the immune system responds to brain injury and how that response contributes to either damage or repair.
+
+The significance of these findings lies in both the identification of new biomarkers and the suggestion of novel therapeutic targets. By linking ROS-associated gene expression to immune regulation via CLEC4E, the study opens up new avenues for understanding how oxidative stress and inflammation interact after stroke. This could ultimately lead to more precise ways to predict stroke outcomes or to develop treatments that target these pathways.
+
+While the study provides a strong foundation, it also highlights the need for further experimental validation of these gene signatures and their functional roles in stroke. Nonetheless, this systems biology approach demonstrates the power of integrating large-scale datasets to reveal complex biological networks that single studies might miss.
+
+[[TRANSITION]]
+
+Researchers are advancing parasite detection by combining short- and long-read shotgun metagenomics to identify soil-transmitted helminths in faecal samples. This approach allows simultaneous detection of helminths and microbes without prior knowledge of what's present, offering a powerful tool for public health in endemic areas. The study, posted on bioRxiv, highlights the need for validation against known infection intensities to ensure accuracy. By leveraging both sequencing technologies, the method aims to improve diagnostic reliability and broaden pathogen surveillance. This innovation could transform helminth detection, enabling more precise monitoring and control of infections in resource-limited settings.
+
+[[TRANSITION]]
+
+Researchers have identified PfGBP-130 as the key parasite protein on Plasmodium falciparum-infected red blood cells that binds to the host integrin LFA-1, enabling Natural Killer cells to recognize and kill infected cells. Using an LFA-1 αI-domain fusion protein, the team detected stage-specific binding to iRBCs and employed LC-MS/MS to pinpoint PfGBP-130 as the interacting ligand. Functional assays confirmed that recombinant PfGBP-130 binds NK cells and THP-1 monocytes in an LFA-1-dependent manner, triggering NK cell activation, degranulation, and contact-dependent killing of iRBCs. Neutralizing antibodies against PfGBP-130 reduced these NK cell responses, underscoring its role in parasite control. This discovery, reported in a bioRxiv preprint, reveals a critical molecular mechanism in early immunity against malaria.
+
+[[TRANSITION]]
+
+Researchers have isolated 84 human monoclonal antibodies from SFTS survivors that target the SFTSV glycoproteins Gn and Gc. The study, published on bioRxiv, reveals that Gn-specific antibodies show significantly broader and more potent neutralization activity compared to Gc-specific antibodies. These antibodies were mapped to four distinct neutralizing epitope groups on the Gn head domain, providing crucial insights for therapeutic development. The findings are particularly significant given that SFTSV is a lethal bunyavirus with no approved treatments or vaccines currently available. This work represents a major step toward developing effective countermeasures against this emerging infectious disease.
+
+[[TRANSITION]]
+
+A massive single-cell study has mapped the immune landscape of lupus, analyzing over 2 million blood cells from 346 donors. Researchers identified 123 distinct immune cell states and uncovered previously unknown cellular and molecular drivers of disease. The work, posted on bioRxiv, offers the most detailed immune profile of systemic lupus erythematosus to date, revealing how specific cell types and their molecular signatures contribute to disease pathology. These findings could help pinpoint new therapeutic targets and improve understanding of lupus's complex origins.
+
+[[TRANSITION]]
+
+A new study in bioRxiv explores a gonococcal outer membrane vesicle vaccine candidate as a potential tool against drug-resistant Neisseria gonorrhoeae. The research focuses on preclinical immune response characterization, aiming to address the urgent need for a gonorrhea vaccine. Notably, the meningococcal OMV vaccine 4CMenB has shown some cross-protection against gonorrhea, but no licensed gonococcal vaccine exists. This work evaluates whether gonococcal OMVs can elicit protective immunity, potentially offering a targeted approach to prevent infection and its reproductive health complications. The findings could inform future vaccine development strategies against this challenging pathogen.
+
+[[TRANSITION]]
+
+A new preprint from bioRxiv reveals how socioeconomic status shapes immune diversity at the protein level. Researchers developed a high-dimensional flow cytometry approach to profile 331 cell surface proteins across 33 immune cell subsets in a Senegalese cohort stratified by SES. The study uncovered distinct immune signatures linked to socioeconomic factors, highlighting how social determinants influence immune function beyond genetics or environment alone. This cell surface proteomic atlas offers an unprecedented view of immune variation tied to socioeconomic status, providing a foundation for understanding health disparities and guiding targeted interventions. The findings underscore the need to consider socioeconomic context in immunological research and public health strategies.
+
+[[TRANSITION]]
+
+A new study from bioRxiv suggests that recycling of antibodies via the FcRn receptor may drive atherosclerotic plaque vulnerability. Researchers found that immune complexes containing antibodies against LDL and its apolipoprotein B component accumulate in plaques and could actively promote destabilization. Using immunohistochemistry on carotid endarterectomy specimens, they observed that apoB-specific IgG immune complexes are enriched in vulnerable plaques. The findings point to a potential mechanism where FcRn-mediated antibody recycling sustains local inflammation and plaque instability. This work highlights a novel link between antibody recycling pathways and cardiovascular disease progression, suggesting that targeting FcRn or these immune complexes might offer new therapeutic avenues for preventing plaque rupture and related cardiovascular events.
+
+[[TRANSITION]]
+
+Researchers have developed a promising new SARS-CoV-2 vaccine platform that could block both infection and transmission of emerging variants like XBB.1.5. The "single-cycle" vaccine, described in a bioRxiv preprint, is designed to be rapidly adaptable to new variants while requiring only one dose for high patient compliance. Unlike current commercial vaccines that primarily reduce severe disease but don't fully prevent transmission, this platform aims to address that critical gap. The vaccine uses a novel approach that could potentially stop the virus from spreading between people, which would be a major advancement in pandemic control. While still in preprint stage and not yet peer-reviewed, the findings suggest this could be a next-generation solution for respiratory virus outbreaks.
+
+[[TRANSITION]]
+
+New research from bioRxiv reveals that vitamin A plays a crucial role in shaping intestinal innate immunity by regulating antimicrobial defenses. While vitamin A's importance in adaptive immunity is well-established, this study uncovers its previously unclear function in innate immunity. The research focuses on REG3 family lectins, antimicrobial proteins that form a chemical barrier protecting the intestinal epithelium from microbial invasion. These proteins are induced by the microbiota, but the study demonstrates how nutritional signals from vitamin A intersect with microbial cues to control their expression. This finding highlights a novel mechanism by which dietary vitamin A influences the gut's chemical barrier system, potentially offering new insights into maintaining intestinal homeostasis and preventing microbial invasion through nutritional interventions.
+
+[[TRANSITION]]
+
+Molecular fingerprints are strong models for peptide function prediction
+
+A new study from arXiv challenges a widely held assumption in computational biology: that predicting peptide properties requires modeling long-range molecular interactions. Researchers tested whether simple, domain-specific molecular fingerprints could match or outperform complex graph neural networks and transformer-based models that are explicitly designed to capture these long-range dependencies.
+
+The team used LightGBM gradient boosting models trained on three types of count-based molecular fingerprints: ECFP, Topological Torsion, and RDKit fingerprints. These fingerprints encode only short-range molecular features, capturing local chemical environments rather than full sequence or structural context. They evaluated performance across 132 peptide function prediction datasets, including the LRGB benchmark suite and five other established peptide benchmarks.
+
+The results were striking. Models using these simple fingerprints achieved state-of-the-art accuracy on all 132 datasets, outperforming both GNN and transformer-based approaches. Control experiments reinforced the finding: even when peptide sequences were shuffled, breaking any sequential information, the models maintained robust performance. This suggests that the local molecular features encoded in the fingerprints are sufficient for accurate prediction, without needing to model long-range dependencies or preserve sequence order.
+
+Why does this matter? It overturns the assumption that complex architectures are necessary for peptide property prediction. Instead, lightweight, interpretable fingerprint-based models can deliver superior results with far less computational cost. This could lower barriers for researchers and improve model interpretability in peptide science.
+
+The study does not report specific limitations, but it's worth noting that the findings are based on the tested datasets and fingerprint types. The available text does not provide details on whether these results generalize to all peptide prediction tasks or how the models perform with extremely large or diverse peptide libraries.
+
+In summary, this work shows that for peptide function prediction, sometimes simpler is better. Domain-specific molecular fingerprints, despite encoding only short-range features, are strong enough to outperform complex deep learning models designed to capture long-range interactions.
+
+[[TRANSITION]]
+
+Let's talk about a new way to compare protein surfaces that could change how we understand molecular interactions. The key insight here is that protein surfaces aren't just about shape or chemistry alone - they're about how these two aspects work together to determine function.
+
+The problem with existing methods is that they typically treat geometry and chemistry separately. You might have one approach that focuses purely on the 3D shape of a protein surface, or another that maps chemical properties like electrostatic potential or hydrophobicity. But proteins don't work that way in nature. Their surfaces are integrated systems where shape and chemistry are coupled.
+
+Enter IFACE - Intrinsic Field-Aligned Coupled Embedding. This framework creates point-to-point correspondences between protein surfaces by probabilistically aligning their intrinsic geometry with their chemical fields. Think of it as finding matching points on two different protein surfaces that have similar shape and similar chemical properties at those locations.
+
+The result is a unified distance metric that captures both geometric and chemical discrepancies simultaneously. This joint geometric-chemical distance tells you how similar two protein surfaces are when you consider both their shape and their chemical properties together.
+
+The evidence shows this approach works better than traditional methods. When comparing proteins that are actually the same molecule in different conformations, IFACE correctly identifies them as similar despite geometric differences. Traditional fold-based measures often get confused by these conformational changes.
+
+The cytochrome P450 family test case is particularly telling. These proteins have complex surface topologies, but IFACE successfully organized them coherently and identified their conserved catalytic pockets - the buried regions where the chemistry actually happens.
+
+This matters because protein function is executed at the molecular surface. If you want to understand how proteins interact, how they bind drugs, or how they catalyze reactions, you need to compare surfaces in a way that captures both their shape and their chemistry. IFACE provides that unified framework.
+
+The available text does not provide details on specific limitations or uncertainties with the method. However, the approach represents a significant advance in how we can mathematically formalize the comparison of protein interaction surfaces, which could have broad implications for protein function annotation and drug discovery.
+
+[[TRANSITION]]
+
+Ankylosing spondylitis is a chronic inflammatory disease that can lead to abnormal bone formation in the spine, causing vertebrae to fuse together and severely limiting mobility. While inflammation has long been the focus of AS research, the mechanisms driving pathological bone formation have remained unclear.
+
+In a recent study from the Balkan Medical Journal, researchers investigated a circular RNA called circ_0004496 and its potential role in this abnormal bone growth. Circular RNAs are a type of non-coding RNA that form closed loops rather than the linear structures of typical messenger RNAs. They've emerged as important regulators of gene expression, but their specific functions in AS were largely unknown.
+
+The researchers had previously found that both circ_0004496 and a protein called ACTG1 were elevated in ossified tissues from AS patients. ACTG1 is involved in cytoskeletal organization and cell motility, but its connection to bone formation in AS wasn't established.
+
+In this follow-up work, the team discovered that circ_0004496 acts as a molecular sponge for miR-145, a microRNA that normally helps regulate ACTG1 expression. By binding to miR-145, circ_0004496 effectively removes this brake on ACTG1 production. With more ACTG1 available, cells in the affected tissues showed enhanced osteogenic differentiation - the process by which cells become bone-forming osteoblasts.
+
+The researchers demonstrated this regulatory axis using both in vitro cell culture experiments and in vivo models. When they knocked down circ_0004496, ACTG1 levels dropped, miR-145 activity increased, and osteogenic differentiation decreased. Conversely, overexpressing circ_0004496 had the opposite effect.
+
+This finding is significant because it identifies a specific molecular pathway that drives pathological bone formation in AS, rather than just the inflammatory aspects of the disease. Understanding this circ_0004496/miR-145/ACTG1 axis could open new therapeutic avenues - potentially allowing doctors to target the bone formation process directly rather than just managing inflammation.
+
+The study also highlights how circular RNAs, once considered mere byproducts of gene expression, can serve as crucial regulators in disease processes. For AS patients, this research represents a step toward more targeted treatments that could prevent or slow the progression of spinal fusion.
+
+[[TRANSITION]]
+
+Cancer cells fundamentally rewire their metabolism to fuel rapid growth and survival. This metabolic reprogramming is now recognized as a core hallmark of cancer, including in hepatocellular carcinoma. The key shift is that cancer cells dramatically increase glucose uptake and shift toward glycolysis even in the presence of oxygen—a phenomenon known as the Warburg effect. This isn't just inefficient energy production; it's a strategic choice that generates biosynthetic precursors for rapid cell division.
+
+Beyond glucose, cancer cells also boost glutamine consumption. Glutamine serves multiple roles: it replenishes the TCA cycle intermediates that are siphoned off for biosynthesis, provides nitrogen for nucleotide and amino acid synthesis, and supports redox balance through glutathione production. The pentose phosphate pathway becomes highly active to generate both ribose-5-phosphate for nucleotide synthesis and NADPH for lipid synthesis and antioxidant defense.
+
+Lipid metabolism undergoes its own transformation. Cancer cells upregulate de novo lipogenesis to build membranes for daughter cells. This requires acetyl-CoA, NADPH, and ATP—resources that are increasingly available due to the metabolic rewiring. Fatty acid synthase and other lipogenic enzymes are often overexpressed in tumors.
+
+Amino acid metabolism also shifts. Cancer cells frequently increase uptake of specific amino acids like serine, glycine, and glutamine. These aren't just protein building blocks; they feed into one-carbon metabolism for nucleotide synthesis and methylation reactions critical for gene expression.
+
+The metabolic crosstalk between these pathways creates vulnerabilities. For example, blocking glycolysis with drugs like 2-deoxyglucose can starve cancer cells of both energy and biosynthetic precursors. Targeting glutaminase to limit glutamine metabolism has shown promise in preclinical models. Inhibitors of fatty acid synthase are in clinical trials. Even the altered redox state from increased NADPH production can be exploited with pro-oxidant therapies.
+
+The available text does not provide details on specific therapeutic outcomes or clinical trial results. However, the strategic direction is clear: understanding and targeting these metabolic dependencies offers a way to selectively attack cancer cells while sparing normal tissue. The challenge is that tumors can adapt, often switching to alternative metabolic pathways when one is blocked. This metabolic plasticity means combination approaches targeting multiple pathways simultaneously may be necessary for durable responses.
+
+[[TRANSITION]]
+
+Giardia lamblia, also known as Giardia intestinalis or Giardia duodenalis, is a protozoan parasite that causes giardiasis, a diarrheal disease with significant global health impact, particularly among young children in resource-constrained and unhygienic settings. Current diagnostic methods for giardiasis primarily rely on light microscopy of stool samples, which is labor-intensive, requires skilled personnel, and often lacks sensitivity, especially in low-parasite-load cases.
+
+A new study published in PLOS Neglected Tropical Diseases introduces a novel diagnostic approach using functionally-derivatized nanobodies—small, single-domain antibodies derived from camelid heavy-chain antibodies. These nanobodies are engineered to specifically bind to Giardia lamblia cyst surface antigens, offering a potential leap in diagnostic accuracy and ease of use.
+
+The innovation lies in the functionalization of these nanobodies. By attaching fluorescent or enzymatic tags, the nanobodies can be used in rapid, sensitive detection assays, such as lateral flow devices or immunofluorescence microscopy. This approach bypasses the need for complex microscopy training and can be adapted for point-of-care testing, which is crucial in low-resource settings.
+
+The study demonstrates that these nanobodies exhibit high specificity and affinity for Giardia cysts, significantly improving detection rates compared to traditional microscopy. The derivatization process allows for multiplexing, meaning multiple targets can be detected simultaneously, enhancing diagnostic robustness.
+
+This technology addresses a critical gap in giardiasis diagnostics by offering a tool that is both sensitive and accessible. It has the potential to improve early detection, reduce transmission, and support better disease management in endemic regions. The use of nanobodies also opens avenues for similar diagnostic tools for other parasitic infections, leveraging their stability, ease of production, and adaptability.
+
+While the study provides promising proof-of-concept data, further validation in field settings and scalability assessments are needed before widespread implementation. Nonetheless, this work represents a significant step forward in the fight against giardiasis and other neglected tropical diseases.
+
+[[TRANSITION]]
+
+Oral preexposure prophylaxis, or PrEP, is a highly effective HIV prevention strategy when taken consistently, but it offers no protection against bacterial sexually transmitted infections. That's a critical distinction, because while PrEP reduces HIV risk by up to 99% with perfect adherence, it leaves users vulnerable to infections like gonorrhea, chlamydia, and syphilis.
+
+A recent prospective observational cohort study in Africa examined this very issue, tracking women who initiated PrEP to understand how its use might influence the risk of both HIV and bacterial STIs. The study's design was particularly valuable because it followed participants over time, capturing real-world patterns of PrEP adherence and sexual health outcomes.
+
+What the researchers found aligns with earlier concerns: PrEP users experienced high rates of bacterial STIs. This isn't entirely surprising—since PrEP is an antiretroviral medication, not an antimicrobial or barrier method, it doesn't disrupt the transmission of bacteria. In fact, some evidence suggests that the behavioral dynamics around PrEP use may contribute to increased STI risk. When people feel protected against HIV, they might be less likely to use condoms or other protective measures, potentially exposing themselves to other pathogens.
+
+The study also reinforced that PrEP's protective effect against HIV is strongly tied to adherence. Inconsistent use dramatically reduces its efficacy, which is why ongoing monitoring and support are essential in PrEP programs. But even with perfect adherence, the lack of cross-protection against bacterial STIs means that comprehensive sexual health care—including regular STI screening and treatment—remains vital for PrEP users.
+
+This research underscores a key public health message: PrEP is a powerful tool against HIV, but it's not a catch-all solution. Women using PrEP need access to integrated services that address the full spectrum of sexual health risks, ensuring they're protected not just from HIV, but from all sexually transmitted infections.
+
+[[TRANSITION]]
+
+The Gaussian-Multinoulli Restricted Boltzmann Machine, or GM-RBM, is a new generative energy-based model that extends the classic Gaussian-Bernoulli RBM by replacing its binary hidden units with q-state categorical units. This change is inspired by the Potts model from statistical physics, where each hidden unit can now take on q distinct states rather than just on or off. The motivation is to capture richer, discrete, structured representations—something standard continuous latent models often struggle with, especially in tasks like associative memory and symbolic reasoning.
+
+The energy function and conditional distributions for the GM-RBM are derived analogously to the GB-RBM, but with the multinomial hidden units. This means the visible (Gaussian) units' activations depend on a weighted sum of the categorical hidden states. Learning is done via contrastive divergence, but with two practical tweaks: temperature annealing during Gibbs sampling to help the Markov chain mix better, and an intra-slot diversity constraint to prevent all q states of a hidden unit from collapsing into one.
+
+The authors evaluate the GM-RBM on associative memory and structured reasoning tasks, comparing it to a GB-RBM with the same number of possible hidden states—what they call a "capacity-matched" setup. In these fair comparisons, the GM-RBM performs competitively or even better, suggesting that the richer latent state space pays off for discrete inference tasks. The model is also noted for being simple and scalable within the tractable RBM framework.
+
+The available text does not provide details on the specific datasets, exact performance numbers, or the full derivation of the learning rules. It also does not mention any ablation studies or comparisons to other discrete latent models beyond the GB-RBM baseline.
+
+
+References:
+[1] A Unique Situation for UniQure — In the Pipeline (Derek Lowe) — https://www.science.org/content/blog-post/unique-situation-uniqure
+[2] Engineered Microparticles Suggest Proteolysis as a Critical Prerequisite for Chromatin Clearance in Macrophage Phagosomes. — PubMed — ACS applied materials & interfaces — https://doi.org/10.1021/acsami.5c25569
+[3] Phylogeny-informed transfer learning with protein language models for epitope prediction — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.1101/2025.04.17.649425
+[4] Computed atlas of the human GPCR-G protein signaling complexes — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.07.710286
+[5] InversePep: Diffusion-Driven Structure-Based Inverse Folding for Functional Peptides — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.06.710241
+[6] Developing SCL2205 : A Protein Sequence-based Spatial Modelling Dataset for the Protein Language Model Frontier — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.08.710388
+[7] Intrinsic dataset features drive mutational effect prediction by protein language models — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.08.710389
+[8] Computational modelling of the equine arteritis virus GP5/M Dimer: Implications for immune evasion and virulence. — PubMed — PloS one — https://doi.org/10.1371/journal.pone.0344287
+[9] Computational redesign of a thermostable T7 RNA polymerase. — PubMed — Protein engineering, design & selection : PEDS — https://doi.org/10.1093/protein/gzag008
+[10] Advances in computational prediction of RNA-small molecule binding affinity. — PubMed — Journal of computer-aided molecular design — https://doi.org/10.1007/s10822-026-00781-x
+[11] Label-Free Measurement of Ligand Interactions Using SABRE Hyperpolarization at Low Magnetic Fields. — PubMed — Analytical chemistry — https://doi.org/10.1021/acs.analchem.5c07983
+[12] Mechanistic Insights into Na+-dependent HCO3- Transport by NBCn2 (SLC4A10) — bioRxiv — biophysics — https://www.biorxiv.org/content/10.64898/2026.03.09.710040
+[13] DIA-NN EasyFilter workflow for the fast and user-friendly critical assessment and visualization of DIA-NN proteomics analysis outcome — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.07.710308
+[14] GREmLN: A Cellular Graph Structure Aware Transcriptomics Foundation Model — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.1101/2025.07.03.663009
+[15] FASTiso: Fast Algorithm on Search state Tree for subgraph ISOmorphism in graphs of any size and density — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.1101/2025.02.28.640915
+[16] Measuring Amorphous Motion: Application of Optical Flow to Three-Dimensional Fluorescence Microscopy Images — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.06.710169
+[17] In silico analysis of the human titin protein (Immunoglobulin-like, fibronectin type III, and Protein kinase domains) as a potential forensic marker for postmortem interval (PMI) estimation — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.06.710245
+[18] Neurotox: Deep learning decodes conserved hallmarks of neurotoxicity across venomous species — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.07.710323
+[19] Counting strands in outer membrane beta-barrels — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.07.710327
+[20] FAMUS: A Few-Shot Learning Framework for Large-Scale Protein Annotation — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.08.710366
+[21] Hunting for microsatellite instability in long-read data with Owl — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.03.08.708905
+[22] m⁶A-dependent FMRP control of DGKκ translation underlies core Fragile X phenotypes — bioRxiv — molecular biology — https://www.biorxiv.org/content/10.64898/2026.01.20.700356
+[23] Evolution of Origin Sequence and Recognition for Licensing of Eukaryotic DNA Replication — bioRxiv — molecular biology — https://www.biorxiv.org/content/10.64898/2026.03.10.710760
+[24] Systems biology analysis uncovers a ROS-associated gene signature and immunomodulatory role of CLEC4E in ischemic stroke. — PubMed — PloS one — https://doi.org/10.1371/journal.pone.0344443
+[25] Hunting for Helminths: short- and long-read shotgun metagenomics for parasite detection in faecal samples — bioRxiv — molecular biology — https://www.biorxiv.org/content/10.64898/2026.03.09.710549
+[26] LFA-1 Interaction with GBP-130 on Plasmodium falciparum-infected Red Blood Cells mediates NK Cell Activation and Parasite Control — bioRxiv — immunology — https://www.biorxiv.org/content/10.1101/2025.08.20.671208
+[27] Human monoclonal antibodies that target the SFTSV glycoprotein Gn head from four neutralizing epitope groups — bioRxiv — immunology — https://www.biorxiv.org/content/10.1101/2025.11.26.690690
+[28] Deep immune profiling pinpoints cellular and molecular drivers of lupus immunopathology — bioRxiv — immunology — https://www.biorxiv.org/content/10.64898/2025.12.08.693110
+[29] Preclinical characterization of immune responses induced by a candidate gonococcal native Outer Membrane Vesicle vaccine — bioRxiv — immunology — https://www.biorxiv.org/content/10.64898/2026.03.09.710637
+[30] A cell surface proteomic atlas reveals socioeconomic status associated immune diversity — bioRxiv — immunology — https://www.biorxiv.org/content/10.64898/2026.03.07.707513
+[31] Antibody recycling via FcRn drives atherosclerotic plaque vulnerability — bioRxiv — immunology — https://www.biorxiv.org/content/10.64898/2026.03.08.710352
+[32] One and Done: A safe, adaptable single-cycle SARS-CoV-2 vaccine platform blocks XBB.1.5 infection and transmission — bioRxiv — immunology — https://www.biorxiv.org/content/10.64898/2026.03.09.709481
+[33] Epithelial sensing of vitamin A shapes intestinal antimicrobial defense — bioRxiv — immunology — https://www.biorxiv.org/content/10.64898/2026.03.08.710399
+[34] Molecular Fingerprints Are Strong Models for Peptide Function Prediction — arXiv q-bio.BM — https://arxiv.org/abs/2501.17901
+[35] Joint Geometric-Chemical Distance for Protein Surfaces — arXiv q-bio.BM — https://arxiv.org/abs/2603.09860
+[36] Overexpression of Circ_0004496 is Associated with Pathological Bone Formation in Ankylosing Spondylitis via the miR-145/ACTG1 Axis. — PubMed — Balkan medical journal — https://doi.org/10.4274/balkanmedj.galenos.2026.2025-12-249
+[37] Metabolic reprogramming in cancer: dysregulation of glucose, lipid, and amino acid pathways and therapeutic opportunities. — PubMed — Molecular biomedicine — https://doi.org/10.1186/s43556-026-00427-2
+[38] Functionally-derivatized Nanoantibodies as novel tools for Giardia lamblia cyst detection. — PubMed — PLoS neglected tropical diseases — https://doi.org/10.1371/journal.pntd.0013844
+[39] Oral preexposure prophylaxis use and the risk of bacterial sexually transmitted infections and HIV among African women: A prospective observational cohort study. — PubMed — PLoS medicine — https://doi.org/10.1371/journal.pmed.1004962
+[40] The Gaussian-Multinoulli Restricted Boltzmann Machine: A Potts Model Extension of the GRBM — arXiv cs.LG (AI/ML) — https://arxiv.org/abs/2505.11635

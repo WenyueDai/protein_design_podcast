@@ -1,0 +1,366 @@
+{
+  "timestamps": [
+    0.0,
+    44.71,
+    92.3,
+    150.71,
+    204.27,
+    254.79,
+    311.28,
+    368.9,
+    502.72,
+    560.87,
+    617.07,
+    654.63,
+    707.52,
+    768.62,
+    901.65,
+    1112.53,
+    1162.66,
+    1213.97,
+    1269.19,
+    1316.13,
+    1359.52,
+    1408.55,
+    1455.94,
+    1507.9,
+    1658.09,
+    1703.68,
+    1766.39,
+    1813.91,
+    1853.98,
+    1898.88,
+    1951.34,
+    2007.55,
+    2057.49,
+    2112.2,
+    2260.04,
+    2410.71,
+    2577.6,
+    2746.77,
+    2887.19,
+    3013.36
+  ],
+  "items": [
+    {
+      "title": "A Unique Situation for UniQure",
+      "url": "https://www.science.org/content/blog-post/unique-situation-uniqure",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": 0,
+      "timestamp": 0.0
+    },
+    {
+      "title": "Engineered Microparticles Suggest Proteolysis as a Critical Prerequisite for Chromatin Clearance in Macrophage Phagosomes.",
+      "url": "https://doi.org/10.1021/acsami.5c25569",
+      "source": "PubMed — ACS applied materials & interfaces",
+      "one_liner": "Defective clearance of phagocytosed DNA contributes to inflammation, yet the molecular factors governing DNA degradation within phagosomes remain unclear. Here, we present a materials-based platform using engineered microparticles to dissect how DNA is processed inside macrophage phagosomes. Using microcontact printing, we fabricated two classes of DNA-co...",
+      "segment": 1,
+      "timestamp": 44.71
+    },
+    {
+      "title": "Phylogeny-informed transfer learning with protein language models for epitope prediction",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.04.17.649425",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Generalist linear B-cell epitope predictors are typically trained on large, heterogeneous datasets, which can lead to biased representations and degraded performance for under-represented or emerging pathogens. We present a transfer learning framework leveraging the ESM family of protein language models (PLMs) as sequence feature embedders, adapting them ...",
+      "segment": 2,
+      "timestamp": 92.3
+    },
+    {
+      "title": "Computed atlas of the human GPCR-G protein signaling complexes",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.07.710286",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Experimental mapping of G protein-coupled receptors (GPCR)-G protein signaling coupling has illuminated hundreds of receptors, yet the coupling specificity of a large fraction of this large receptor family remains unknown, thereby preventing the development of new GPCR-targeting therapies. Here, we used AlphaFold3 (AF3) to predict the 3D structures of the...",
+      "segment": 3,
+      "timestamp": 150.71
+    },
+    {
+      "title": "InversePep: Diffusion-Driven Structure-Based Inverse Folding for Functional Peptides",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.710241",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Designing functional peptides with specific structural and biochemical properties is critical for applications in protein engineering and therapeutic discovery. However, most peptide design approaches rely on evolutionary or local sequence optimization methods, which are limited when adapting to peptides' shorter length, high conformational flexibility, a...",
+      "segment": 4,
+      "timestamp": 204.27
+    },
+    {
+      "title": "Developing SCL2205 : A Protein Sequence-based Spatial Modelling Dataset for the Protein Language Model Frontier",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.08.710388",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Deep learning (DL) has advanced computational genome annotation tasks such as protein sub-cellular localisation (SCL) prediction. Nonetheless, its potential remains underutilised, primarily because of the limited availability of high-quality reference data and suboptimal input preparation strategies. In this study, we develop and analyse a high-quality da...",
+      "segment": 5,
+      "timestamp": 254.79
+    },
+    {
+      "title": "Intrinsic dataset features drive mutational effect prediction by protein language models",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.08.710389",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein language models (pLMs) are commonly used for predicting protein fitness landscapes, but their wide range of performance across datasets remains poorly understood. We evaluated supervised transfer learning on 41 viral and 33 cellular deep-mutational-scanning (DMS) datasets using embeddings from multiple pLMs. We observed consistently lower predicti...",
+      "segment": 6,
+      "timestamp": 311.28
+    },
+    {
+      "title": "Computational modelling of the equine arteritis virus GP5/M Dimer: Implications for immune evasion and virulence.",
+      "url": "https://doi.org/10.1371/journal.pone.0344287",
+      "source": "PubMed — PloS one",
+      "one_liner": "Equine arteritis virus (EAV) is a positive-stranded RNA virus of the Arteriviridae family. Its GP5/M dimer, the principal component of the viral envelope, mediates virus budding and serves as a key target for neutralizing antibodies. Using AlphaFold3, we predicted the 3D structure of the EAV GP5/M dimer and compared it to its homolog in porcine reproducti...",
+      "segment": 7,
+      "timestamp": 368.9
+    },
+    {
+      "title": "Computational redesign of a thermostable T7 RNA polymerase.",
+      "url": "https://doi.org/10.1093/protein/gzag008",
+      "source": "PubMed — Protein engineering, design & selection : PEDS",
+      "one_liner": "T7 RNA polymerase (T7 RNAP) is a foundational enzyme for biotechnology, but its utility for many potential applications is limited by low thermal stability of 43-44°C. While stabilized variants exist, the most stable commercial version has a proprietary sequence. In this work we developed a highly stable T7 RNAP using structure-based computational design....",
+      "segment": 8,
+      "timestamp": 502.72
+    },
+    {
+      "title": "Advances in computational prediction of RNA-small molecule binding affinity.",
+      "url": "https://doi.org/10.1007/s10822-026-00781-x",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "",
+      "segment": 9,
+      "timestamp": 560.87
+    },
+    {
+      "title": "Label-Free Measurement of Ligand Interactions Using SABRE Hyperpolarization at Low Magnetic Fields.",
+      "url": "https://doi.org/10.1021/acs.analchem.5c07983",
+      "source": "PubMed — Analytical chemistry",
+      "one_liner": "The protein-ligand binding affinity is evaluated using low-cost, low-field nuclear magnetic resonance (NMR) spectroscopy at 0.85 mT. Strong signals are achieved through the hyperpolarization of",
+      "segment": 10,
+      "timestamp": 617.07
+    },
+    {
+      "title": "Mechanistic Insights into Na+-dependent HCO3- Transport by NBCn2 (SLC4A10)",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.09.710040",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "The 3D structure and mechanism of action are unknown for the integral plasma membrane transport protein Solute Carrier 4A10, which has been characterized functionally as an electroneutral Na+:HCO3- cotransporter. We used structure prediction and molecular dynamics simulations to study the binding of the transported ions to the Solute Carrier 4A10 protein ...",
+      "segment": 11,
+      "timestamp": 654.63
+    },
+    {
+      "title": "DIA-NN EasyFilter workflow for the fast and user-friendly critical assessment and visualization of DIA-NN proteomics analysis outcome",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.07.710308",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Liquid chromatography-tandem mass spectrometry (LC-MS/MS) based proteomics, particularly data-independent acquisition (DIA), has become widely adopted across in One Health approaches for biological and clinical research for quantitative protein characterization. Among the many computational tools available, DIA-NN has demonstrated superior performance; ho...",
+      "segment": 12,
+      "timestamp": 707.52
+    },
+    {
+      "title": "GREmLN: A Cellular Graph Structure Aware Transcriptomics Foundation Model",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.03.663009",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The ever-increasing availability of large-scale single-cell profiles presents an opportunity to develop foundation models to capture cell properties and behavior. However, standard language models such as transformers benefits from sequentially structured data with well defined absolute or relative positional relationships, while single cell RNA data have...",
+      "segment": 13,
+      "timestamp": 768.62
+    },
+    {
+      "title": "FASTiso: Fast Algorithm on Search state Tree for subgraph ISOmorphism in graphs of any size and density",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.02.28.640915",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Subgraph isomorphism is a fundamental combinatorial problem that involves finding one or more occurrences of a pattern graph within a target graph. It arises in a wide range of application domains, including biology, chemistry, social network analysis, and pattern recognition. Although subgraph isomorphism is NP-complete in the general case, many exact al...",
+      "segment": 14,
+      "timestamp": 901.65
+    },
+    {
+      "title": "Measuring Amorphous Motion: Application of Optical Flow to Three-Dimensional Fluorescence Microscopy Images",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.710169",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Motion is an essential component of any living system. It is rich with information, but it is often challenging to quantitatively extract biologically informative results from the motion apparent in microscopy images. This challenge is exacerbated by the wide variety in biological movement, which often takes the form of difficult-to-segment amorphous stru...",
+      "segment": 15,
+      "timestamp": 1112.53
+    },
+    {
+      "title": "In silico analysis of the human titin protein (Immunoglobulin-like, fibronectin type III, and Protein kinase domains) as a potential forensic marker for postmortem interval (PMI) estimation",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.710245",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Abstract: Due to the limited availability of reliable and well-validated molecular markers, the determination of postmortem interval (PMI) is still a major obstacle for forensic investigators to resolve a case. The largest human protein, known as titin, has never undergone at domain level examination of postmortem degradation patterns. This study focused ...",
+      "segment": 16,
+      "timestamp": 1162.66
+    },
+    {
+      "title": "Neurotox: Deep learning decodes conserved hallmarks of neurotoxicity across venomous species",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.07.710323",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Neurotoxic proteins drive the most pathophysiological effects of animal envenomation, yet it remains unclear whether neurotoxicity is encoded directly within the protein sequence or emerges from higher-order structure binding and interactions with their target receptor. To address this, we developed Neurotox, a sequence-based deep learning framework train...",
+      "segment": 17,
+      "timestamp": 1213.97
+    },
+    {
+      "title": "Counting strands in outer membrane beta-barrels",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.07.710327",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Beta-barrel structures are critical components of bacterial outer membranes, where they facilitate transport, cell signaling, antibiotic resistance, and structural integrity. A key feature of beta-barrels is their strand count, which influences pore diameter, binding site locations, and functional properties. However, because of breaks in strands and the ...",
+      "segment": 18,
+      "timestamp": 1269.19
+    },
+    {
+      "title": "FAMUS: A Few-Shot Learning Framework for Large-Scale Protein Annotation",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.08.710366",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Predicting gene function is a pivotal and challenging step in genomic and metagenomic data analysis. Current automatic annotation tools typically rely on the single most similar sequence from the query database. The sparsity of data per annotation makes it challenging to confidently assign gene function for underrepresented genes. Here, we present a contr...",
+      "segment": 19,
+      "timestamp": 1316.13
+    },
+    {
+      "title": "Hunting for microsatellite instability in long-read data with Owl",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.08.708905",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Microsatellite instability (MSI) is a key biomarker of mismatch repair deficiency and response to immunotherapy, yet most existing genomic detection methods are optimized for short-read sequencing and rely on small panels of homopolymer markers, limiting the ability to characterize genome-wide and motif-specific patterns of instability. Here we present Ow...",
+      "segment": 20,
+      "timestamp": 1359.52
+    },
+    {
+      "title": "m⁶A-dependent FMRP control of DGKκ translation underlies core Fragile X phenotypes",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.20.700356",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Fragile X syndrome (FXS), a leading inherited cause of intellectual developmental disorder and autism, results from loss of the RNA-binding protein FMRP. Loss of FMRP causes excessive neuronal protein synthesis contributing to widespread functional disturbances, yet the mechanisms linking FMRP to specific mRNA targets remain unclear. We show that FMRP pro...",
+      "segment": 21,
+      "timestamp": 1408.55
+    },
+    {
+      "title": "Evolution of Origin Sequence and Recognition for Licensing of Eukaryotic DNA Replication",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710760",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "The large size of eukaryotic chromosomes necessitates that the initiation of DNA replication occurs at numerous origins of DNA replication. In S. cerevisiae, origins are highly DNA sequence-specific and are recognized by the Origin Recognition Complex (ORC). In contrast, most eukaryotes have lost features in ORC subunits that contribute to DNA sequence-sp...",
+      "segment": 22,
+      "timestamp": 1455.94
+    },
+    {
+      "title": "Systems biology analysis uncovers a ROS-associated gene signature and immunomodulatory role of CLEC4E in ischemic stroke.",
+      "url": "https://doi.org/10.1371/journal.pone.0344443",
+      "source": "PubMed — PloS one",
+      "one_liner": "BACKGROUND: Reactive oxygen species (ROS) are critically implicated in ischemic stroke (IS), yet the transcriptional networks and predictive biomarkers underlying ROS dysregulation remain incompletely understood. METHODS: We integrated two independent microarray cohorts (GSE58294 and GSE16561) to comprehensively analyze ROS-related pathways in IS. Single-...",
+      "segment": 23,
+      "timestamp": 1507.9
+    },
+    {
+      "title": "Hunting for Helminths: short- and long-read shotgun metagenomics for parasite detection in faecal samples",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.09.710549",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Soil-transmitted helminths (STHs) pose significant challenges to public health in endemic areas, necessitating reliable methods for their detection. Shotgun metagenomics enables simultaneous detection of STHs and microbes in a sample without prior knowledge of what is present. However, validation of shotgun metagenomics with known infection intensity or a...",
+      "segment": 24,
+      "timestamp": 1658.09
+    },
+    {
+      "title": "LFA-1 Interaction with GBP-130 on Plasmodium falciparum-infected Red Blood Cells mediates NK Cell Activation and Parasite Control",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.08.20.671208",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Natural Killer (NK) cells contribute to early immunity against Plasmodium falciparum by recognizing and eliminating infected red blood cells (iRBCs), a process mediated in part by the integrin LFA-1. However, the cognate parasite ligand for LFA-1 has remained unknown. Here, we identify Glycophorin Binding Protein-130 (PfGBP-130) as a surface-expressed lig...",
+      "segment": 25,
+      "timestamp": 1703.68
+    },
+    {
+      "title": "Human monoclonal antibodies that target the SFTSV glycoprotein Gn head from four neutralizing epitope groups",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690690",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Severe fever with thrombocytopenia syndrome virus (SFTSV) is a lethal bunyavirus lacking approved countermeasures. From SFTS survivors, we isolate 84 human monoclonal antibodies (mAbs) against the viral glycoproteins Gn and Gc. Gn-specific mAbs demonstrate superior neutralization breadth and potency compared to the restricted neutralizing activity observe...",
+      "segment": 26,
+      "timestamp": 1766.39
+    },
+    {
+      "title": "Deep immune profiling pinpoints cellular and molecular drivers of lupus immunopathology",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.08.693110",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Systemic lupus erythematosus (SLE) is a complex autoimmune disease with an unknown etiology. To pinpoint new disease-relevant cell states and their molecular profiles, we performed an in-depth investigation of multimodal single-cell datasets comprising ~2.1 million peripheral blood mononuclear cells from 346 donors. By resolving 123 fine-grained cell stat...",
+      "segment": 27,
+      "timestamp": 1813.91
+    },
+    {
+      "title": "Preclinical characterization of immune responses induced by a candidate gonococcal native Outer Membrane Vesicle vaccine",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.09.710637",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Background\n\nNeisseria gonorrhoeae poses significant public health challenges due to multidrug-resistant gonorrhoeic and severe reproductive health complications of untreated infection. No vaccine is licensed to prevent gonorrhea. However, the meningococcal outer membrane vesicle (OMV)-containing vaccine, 4CMenB, provides moderate cross-protection against ...",
+      "segment": 28,
+      "timestamp": 1853.98
+    },
+    {
+      "title": "A cell surface proteomic atlas reveals socioeconomic status associated immune diversity",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.07.707513",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Socioeconomic status (SES) is a potent determinant of immune variation, yet unbiased approaches to holistically map the effect of SES on the immune system are lacking. We developed a high-dimensional flow cytometry-based profiling approach to analyse 331 cell surface proteins across 33 immune cell subsets within an SES-stratified Senegalese cohort, alongs...",
+      "segment": 29,
+      "timestamp": 1898.88
+    },
+    {
+      "title": "Antibody recycling via FcRn drives atherosclerotic plaque vulnerability",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.08.710352",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Atherosclerotic plaques accumulate low-density lipoprotein (LDL) together with antibodies targeting LDL and its apolipoprotein B (apoB) component. Given the association between IgG and plaque vulnerability, we hypothesized that apoB-specific immune complexes actively promote plaque destabilization. Using immunohistochemistry in carotid endarterectomy spec...",
+      "segment": 30,
+      "timestamp": 1951.34
+    },
+    {
+      "title": "One and Done: A safe, adaptable single-cycle SARS-CoV-2 vaccine platform blocks XBB.1.5 infection and transmission",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.09.709481",
+      "source": "bioRxiv — immunology",
+      "one_liner": "A next-generation SARS-CoV-2 vaccine must address the currently inadequate prevention of virus transmission, particularly against emerging variants of concern, a challenge that none of the licensed commercial vaccines fully meet. Effective control of respiratory pandemics necessitates vaccines that 1) can be rapidly adapted, 2) have high patient complianc...",
+      "segment": 31,
+      "timestamp": 2007.55
+    },
+    {
+      "title": "Epithelial sensing of vitamin A shapes intestinal antimicrobial defense",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.08.710399",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Vitamin A is a central regulator of intestinal adaptive immunity, but its role in innate immunity is less defined. Antimicrobial proteins form a chemical barrier that protects the intestinal epithelium from microbial invasion. Among these, REG3 family lectins are induced by the microbiota, yet how nutritional cues intersect with microbial signals to contr...",
+      "segment": 32,
+      "timestamp": 2057.49
+    },
+    {
+      "title": "Molecular Fingerprints Are Strong Models for Peptide Function Prediction",
+      "url": "https://arxiv.org/abs/2501.17901",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2501.17901v3 Announce Type: replace \nAbstract: Understanding peptide properties is often assumed to require modeling long-range molecular interactions, motivating the use of complex graph neural networks and pretrained transformers. Yet, whether such long-range dependencies are essential remains unclear. We investigate if simple, domain-specific mol...",
+      "segment": 33,
+      "timestamp": 2112.2
+    },
+    {
+      "title": "Joint Geometric-Chemical Distance for Protein Surfaces",
+      "url": "https://arxiv.org/abs/2603.09860",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2603.09860v1 Announce Type: new \nAbstract: Protein function is executed at the molecular surface, where shape and chemistry act together to govern interaction. Yet most comparison methods treat these aspects separately, privileging either global fold or local descriptors and missing their coupled organization. Here we introduce IFACE (Intrinsic Fiel...",
+      "segment": 34,
+      "timestamp": 2260.04
+    },
+    {
+      "title": "Overexpression of Circ_0004496 is Associated with Pathological Bone Formation in Ankylosing Spondylitis via the miR-145/ACTG1 Axis.",
+      "url": "https://doi.org/10.4274/balkanmedj.galenos.2026.2025-12-249",
+      "source": "PubMed — Balkan medical journal",
+      "one_liner": "BACKGROUND: The functional role of circular ribonucleic acids in ankylosing spondylitis (AS) remains poorly understood. In our previous study, circ_0004496 and actin gamma 1 (ACTG1) were found to be upregulated in ossified tissues from patients with AS. AIMS: This study investigated the regulatory role of circ_0004496 in pathological bone formation throug...",
+      "segment": 35,
+      "timestamp": 2410.71
+    },
+    {
+      "title": "Metabolic reprogramming in cancer: dysregulation of glucose, lipid, and amino acid pathways and therapeutic opportunities.",
+      "url": "https://doi.org/10.1186/s43556-026-00427-2",
+      "source": "PubMed — Molecular biomedicine",
+      "one_liner": "Metabolic reprogramming is a hallmark of cancer, including hepatocellular carcinoma (HCC). Cancer cells exhibit enhanced glucose and glutamine uptake, increased glycolysis, pentose phosphate pathway activity, de novo lipogenesis, and altered amino acid metabolism. However, the metabolic crosstalk underlying cancer progression and the strategic directions ...",
+      "segment": 36,
+      "timestamp": 2577.6
+    },
+    {
+      "title": "Functionally-derivatized Nanoantibodies as novel tools for Giardia lamblia cyst detection.",
+      "url": "https://doi.org/10.1371/journal.pntd.0013844",
+      "source": "PubMed — PLoS neglected tropical diseases",
+      "one_liner": "Giardia lamblia (syn. intestinalis, duodenalis) is the causative agent of Giardiasis, a diarrheal disease of global medical importance, especially problematic in young children living in unhygienic, resource-constrained settings. Diagnostics of potential Giardia infections are generally done through classic light-microscopy stool examination. This is ofte...",
+      "segment": 37,
+      "timestamp": 2746.77
+    },
+    {
+      "title": "Oral preexposure prophylaxis use and the risk of bacterial sexually transmitted infections and HIV among African women: A prospective observational cohort study.",
+      "url": "https://doi.org/10.1371/journal.pmed.1004962",
+      "source": "PubMed — PLoS medicine",
+      "one_liner": "BACKGROUND: Oral preexposure prophylaxis (PrEP) effectively reduces HIV incidence when used with sufficient adherence, but does not protect against bacterial sexually transmitted infections (STIs). Several studies have documented high rates of bacterial STIs among individuals initiating and using PrEP. We evaluated the association between PrEP use and the...",
+      "segment": 38,
+      "timestamp": 2887.19
+    },
+    {
+      "title": "The Gaussian-Multinoulli Restricted Boltzmann Machine: A Potts Model Extension of the GRBM",
+      "url": "https://arxiv.org/abs/2505.11635",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2505.11635v2 Announce Type: replace \nAbstract: Many real-world tasks, from associative memory to symbolic reasoning, benefit from discrete, structured representations that standard continuous latent models can struggle to express. We introduce the Gaussian-Multinoulli Restricted Boltzmann Machine (GM-RBM), a generative energy-based model that extend...",
+      "segment": 39,
+      "timestamp": 3013.36
+    }
+  ]
+}
