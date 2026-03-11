@@ -323,5 +323,12 @@
       "title": "NAStructuralDB : structural database to facilitate computational studies of molecular modeling and recognition of protei",
       "source": "PubMed — mAbs"
     }
+  },
+  "2026-03-11": {
+    "https://www.biorxiv.org/content/10.64898/2026.03.08.710389": {
+      "note": "DD",
+      "title": "Intrinsic dataset features drive mutational effect prediction by protein language models",
+      "source": "bioRxiv — bioinformatics"
+    }
   }
 }
