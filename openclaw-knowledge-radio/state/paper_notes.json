@@ -330,5 +330,12 @@
       "title": "Intrinsic dataset features drive mutational effect prediction by protein language models",
       "source": "bioRxiv — bioinformatics"
     }
+  },
+  "2026-03-12": {
+    "https://www.asimov.press/p/antibody-design": {
+      "note": "DD",
+      "title": "How to Design Antibodies",
+      "source": "Asimov Press"
+    }
   }
 }
