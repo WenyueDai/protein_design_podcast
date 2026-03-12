@@ -336,6 +336,11 @@
       "note": "DD",
       "title": "How to Design Antibodies",
       "source": "Asimov Press"
+    },
+    "https://arxiv.org/abs/2603.10302": {
+      "note": "DD",
+      "title": "How to make the most of your masked language model for protein engineering",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
