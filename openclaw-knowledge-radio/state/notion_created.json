@@ -254,5 +254,9 @@
   "2026-03-12|https://arxiv.org/abs/2603.10302": {
     "page_id": "3215f58e-a8c2-8175-9ff6-d130845111aa",
     "note": "DD"
+  },
+  "2026-03-12|https://doi.org/10.1093/bioinformatics/btag109": {
+    "page_id": "3215f58e-a8c2-812b-b290-c0196fb22f1e",
+    "note": "DD"
   }
 }
