@@ -341,6 +341,11 @@
       "note": "DD",
       "title": "How to make the most of your masked language model for protein engineering",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1093/bioinformatics/btag109": {
+      "note": "DD",
+      "title": "Predicting Antibody-Antigen Affinity with a Dual-Level Representation Model.",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
     }
   }
 }
