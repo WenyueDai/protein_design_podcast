@@ -373,6 +373,11 @@
       "note": "DD",
       "title": "AlphaFind v2: Similarity Search in AlphaFold DB and TED Domains across Structural Contexts",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://doi.org/10.1038/s41592-026-03011-2": {
+      "note": "DD",
+      "title": "AF2BIND: predicting small-molecule binding sites using the pair representation of AlphaFold2.",
+      "source": "PubMed — Nature methods"
     }
   }
 }
