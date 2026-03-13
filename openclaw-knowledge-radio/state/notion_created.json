@@ -278,5 +278,13 @@
   "2026-03-13|https://www.biorxiv.org/content/10.64898/2026.03.10.710735": {
     "page_id": "3225f58e-a8c2-81dd-a015-fdc017984800",
     "note": "DD"
+  },
+  "2026-03-13|https://doi.org/10.1038/s41592-026-03011-2": {
+    "page_id": "3225f58e-a8c2-8110-baa9-c1e7c26b8c6a",
+    "note": "DD"
+  },
+  "2026-03-13|https://arxiv.org/abs/2511.07024": {
+    "page_id": "3225f58e-a8c2-81e8-bb26-ef3107af5702",
+    "note": "DD"
   }
 }
