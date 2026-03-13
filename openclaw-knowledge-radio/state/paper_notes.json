@@ -383,6 +383,11 @@
       "note": "DD",
       "title": "The role of topology on protein thermal stability",
       "source": "arXiv q-bio.BM"
+    },
+    "https://doi.org/10.1126/science.adv7953": {
+      "note": "DD",
+      "title": "Computational design of conformation-biasing mutations to alter protein functions.",
+      "source": "PubMed — Science (New York, N.Y.)"
     }
   }
 }
