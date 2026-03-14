@@ -425,6 +425,11 @@
       "note": "DD",
       "title": "Learning the All-Atom Equilibrium Distribution of Biomolecular Interactions at Scale",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://www.biorxiv.org/content/10.1101/2025.11.24.690085": {
+      "note": "DD",
+      "title": "Per-residue optimisation of protein structures: Rapid alternative to optimisation with constrained alpha carbons",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
