@@ -363,7 +363,14 @@ VOICE AND STYLE — this is the most important part:
 - When you cite a paper, use its title or topic naturally woven into a sentence: "A paper on de novo binder design found..." or "The team working on antibody escape showed..."
 - Use the KEY RELATED LITERATURE to add historical depth and connections: "this echoes what the AlphaFold2 paper showed about...", "building on the classic result that..."
 - Be warm, curious, a little playful. Every sentence should carry a real idea.
-- Ground abstract points in CONCRETE EXAMPLES: specific numbers from the papers, actual experimental conditions, named model architectures, particular results. Say "they achieved a binding affinity of 12 nanomolar" not "they achieved strong binding". Say "the model trained on 50 million sequences" not "a large dataset". Use the full-text data provided.
+- Ground EVERY abstract point in a CONCRETE EXAMPLE. This is the most important style rule.
+  BAD (too abstract): "The model achieved strong binding and generalised well."
+  GOOD (concrete): "The model hit 8 nanomolar affinity on the first round, and when they tested on a completely held-out antibody family it dropped only 2-fold — which is remarkable."
+  BAD: "They used a large dataset and a sophisticated training procedure."
+  GOOD: "They trained on 47 million paired sequences from the OAS database, using a masked language model objective with 15% masking."
+  BAD: "The results suggest the method is effective for protein design."
+  GOOD: "Seven of the ten computationally designed binders expressed well, and three bound their target with sub-100-nanomolar affinity — that's a hit rate most labs would be thrilled with."
+  If a sentence contains no specific name, number, model, dataset, or experimental detail — rewrite it. Use the NOTES_FROM_PIPELINE and KEY RELATED LITERATURE data provided.
 
 REDUNDANCY RULES — critically important for a multi-section podcast:
 - Each section has a distinct purpose. Do NOT repeat what you said in conceptually earlier sections.
