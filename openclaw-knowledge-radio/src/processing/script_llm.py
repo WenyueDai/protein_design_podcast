@@ -133,12 +133,30 @@ def _format_item_block(it: Dict[str, Any]) -> str:
         lines.append(f"RSS_SNIPPET: {_clip(snippet, 420)}")
     lines.append(f"EXTRACTED_CHARS: {extracted_chars}")
     lines.append(f"HAS_FULLTEXT: {has_fulltext}")
+    s2_tldr = (it.get("s2_tldr") or "").strip()
+    if s2_tldr:
+        lines.append(f"S2_TLDR: {s2_tldr}")
+
     notes = _analysis_text(it)
     if notes:
         lines.append("NOTES_FROM_PIPELINE:")
-        lines.append(_clip(notes, 4000))  # keep prompts bounded
+        lines.append(_clip(notes, 40_000))  # large cap — may now contain full PDF text
     else:
         lines.append("NOTES_FROM_PIPELINE: (none)")
+
+    # Inject Semantic Scholar related literature if available
+    top_refs: List[Dict] = it.get("s2_top_refs") or []
+    if top_refs:
+        lines.append("KEY RELATED LITERATURE (papers this work cites, by citation count):")
+        for ref in top_refs:
+            ref_title = ref.get("title") or ""
+            ref_year = ref.get("year") or ""
+            ref_cites = ref.get("citationCount") or 0
+            ref_abstract = ref.get("abstract") or ""
+            lines.append(f"  [{ref_cites} citations, {ref_year}] {ref_title}")
+            if ref_abstract:
+                lines.append(f"    Abstract: {ref_abstract}")
+
     return "\n".join(lines)
 
 
@@ -337,25 +355,26 @@ def build_podcast_script_llm_chunked_with_map(
 # Deep synthesis prompt (11-section intelligence briefing, per-section calls)
 # =========================
 
-SYSTEM_SYNTHESIS_STYLE = """You are an expert scientific podcast host creating a daily intelligence briefing for a computational protein designer.
+SYSTEM_SYNTHESIS_STYLE = """You are an expert scientific podcast host creating a daily intelligence briefing for a computational protein designer. Today's episode does a deep dive on 5 carefully selected papers.
 
 VOICE AND STYLE — this is the most important part:
 - Speak naturally, as if you are a brilliant scientist friend thinking aloud over coffee. Pure flowing spoken English — no labels, no structured list items read aloud, no headers spoken as words.
-- Do NOT say things like "Old belief colon" or "Paper nine." Do NOT structure your speech as a visible list. Instead, weave ideas together in natural paragraphs that flow one into the next.
+- Do NOT say things like "Old belief colon" or "Paper one." Do NOT structure your speech as a visible list. Instead, weave ideas together in natural paragraphs that flow one into the next.
 - When you cite a paper, say its title or topic naturally woven into your sentence: "A fascinating paper on antibody escape..." or "The team working on de novo binders found..."
+- Use the KEY RELATED LITERATURE provided for each paper to add depth and historical context — "this connects to the work on X from 2021..." or "similar to what the RFdiffusion team found, this group observed..."
 - Be warm, curious, a little playful. Intellectually generous. Every sentence should carry a real idea.
 - Synthesise across papers — compare them, find tensions, draw connections — rather than describing them one by one.
 
 HARD RULES:
 - Plain text only. No markdown, no asterisks, no dashes at line starts, no colons followed by structured items.
-- Do NOT invent methods, results, numbers, or author intent beyond what the papers provide.
+- Do NOT invent methods, results, numbers, or author intent beyond what is provided in the paper data.
 - If information is genuinely missing, say it naturally: "The paper doesn't tell us exactly how they handled..."
 - TTS-friendly — this will be read aloud by a text-to-speech system.
 - Go straight into the ideas. No catchphrases, no "Welcome back", no "In this section we will cover".
 
 LENGTH:
-- This is a single section of a long-form podcast. Write at least 500 words. Be intellectually thorough.
-- Depth over breadth — explore fewer ideas fully rather than listing many ideas shallowly.
+- This is a single section of a long-form podcast. Write at least 600 words. Be intellectually thorough.
+- Depth over breadth — explore ideas fully. Use the related literature to add context and connections.
 """
 
 # (section_title, section_instruction) — one entry per section

@@ -498,6 +498,15 @@ def main() -> int:
         featured_items = ranked
         background_items = []
 
+    # 5a) For synthesis mode: use S2 to fetch full text for featured papers via openAccessPdf
+    if synthesis_mode and _s2_api_key and not REGEN_FROM_CACHE:
+        try:
+            from src.collectors.semantic_scholar import enrich_featured_fulltext
+            print(f"[s2] Fetching full text for {len(featured_items)} featured papers…", flush=True)
+            enrich_featured_fulltext(featured_items, api_key=_s2_api_key)
+        except Exception as _s2_ft_err:
+            print(f"[s2] Warning: full-text enrichment failed — {_s2_ft_err}", flush=True)
+
     script_path = out_dir / f"podcast_script_{today}_llm.txt"
     if REGEN_FROM_CACHE and script_path.exists():
         print("[cache] Reusing existing LLM script", flush=True)

@@ -107,13 +107,13 @@ def fetch_references(paper_id: str, api_key: str) -> List[Dict]:
     """
     Fetch up to 100 references for a paper.
     Returns a list of cited-paper dicts with keys:
-      paperId, title, year, authors, citationCount, externalIds
+      paperId, title, year, authors, citationCount, externalIds, abstract
     """
     time.sleep(_DELAY)
     data = _get(
         f"/paper/{paper_id}/references",
         {
-            "fields": "paperId,title,year,authors,citationCount,externalIds",
+            "fields": "paperId,title,year,authors,citationCount,externalIds,abstract",
             "limit": 100,
         },
         api_key,
@@ -126,6 +126,26 @@ def fetch_references(paper_id: str, api_key: str) -> List[Dict]:
         if cited.get("paperId"):
             refs.append(cited)
     return refs
+
+
+def top_refs_for_synthesis(refs: List[Dict], top_n: int = 8) -> List[Dict]:
+    """
+    Pick the top N most-cited references to inject as related literature context
+    in the synthesis prompt.  Returns a trimmed list of dicts:
+      {title, year, citationCount, abstract}
+    """
+    sorted_refs = sorted(refs, key=lambda r: -(r.get("citationCount") or 0))
+    out = []
+    for ref in sorted_refs[:top_n]:
+        abstract = (ref.get("abstract") or "").strip()
+        out.append({
+            "title": ref.get("title") or "",
+            "year": ref.get("year"),
+            "citationCount": ref.get("citationCount") or 0,
+            # Truncate abstract so it doesn't explode the prompt
+            "abstract": abstract[:600] + ("…" if len(abstract) > 600 else ""),
+        })
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -285,6 +305,83 @@ def find_missed_surfaces(
 
 
 # ---------------------------------------------------------------------------
+# Full-text extraction for featured papers via S2 openAccessPdf
+# ---------------------------------------------------------------------------
+
+def _extract_pdf_text(pdf_url: str, max_chars: int = 30_000) -> str:
+    """Download a PDF and extract its text. Returns '' on any failure."""
+    try:
+        import io
+        from pdfminer.high_level import extract_text as pdf_extract
+        headers = {"User-Agent": "openclaw-knowledge-radio/1.0 (research bot)"}
+        resp = requests.get(pdf_url, headers=headers, timeout=60, stream=True)
+        if resp.status_code != 200:
+            return ""
+        raw = resp.content
+        text = pdf_extract(io.BytesIO(raw))
+        text = (text or "").strip()
+        return text[:max_chars]
+    except Exception:
+        return ""
+
+
+def enrich_featured_fulltext(
+    featured_items: List[Dict[str, Any]],
+    api_key: str,
+    max_chars: int = 30_000,
+) -> None:
+    """
+    For each featured paper that has an s2_paper_id but no fulltext yet:
+      1. Fetch paper details from S2 (openAccessPdf, tldr, abstract).
+      2. If openAccessPdf.url is available, download the PDF and extract full text.
+      3. Store s2_tldr, s2_abstract, and update analysis/has_fulltext on the item.
+
+    Mutates items in-place. Called AFTER final ranking selects the featured set.
+    """
+    for item in featured_items:
+        paper_id = item.get("s2_paper_id")
+        if not paper_id:
+            continue
+
+        time.sleep(_DELAY)
+        data = _get(
+            f"/paper/{paper_id}",
+            {"fields": "abstract,tldr,openAccessPdf"},
+            api_key,
+        )
+        if not data:
+            continue
+
+        # Store S2 abstract and TLDR
+        s2_abstract = (data.get("abstract") or "").strip()
+        tldr_obj = data.get("tldr") or {}
+        s2_tldr = (tldr_obj.get("text") or "").strip()
+        if s2_abstract:
+            item["s2_abstract"] = s2_abstract
+        if s2_tldr:
+            item["s2_tldr"] = s2_tldr
+
+        # Try full-text extraction if we don't already have it
+        if not item.get("has_fulltext") and int(item.get("extracted_chars", 0)) < 2500:
+            pdf_info = data.get("openAccessPdf") or {}
+            pdf_url = (pdf_info.get("url") or "").strip()
+            if pdf_url:
+                print(f"[s2] Extracting full text from PDF: {pdf_url[:80]}", flush=True)
+                text = _extract_pdf_text(pdf_url, max_chars=max_chars)
+                if len(text) > 500:
+                    item["analysis"] = text
+                    item["extracted_chars"] = len(text)
+                    item["has_fulltext"] = True
+                    print(
+                        f"[s2] Full text extracted: {len(text):,} chars for "
+                        f"\"{(item.get('title') or '')[:60]}\"",
+                        flush=True,
+                    )
+                else:
+                    print(f"[s2] PDF extraction yielded too little text ({len(text)} chars)", flush=True)
+
+
+# ---------------------------------------------------------------------------
 # Main entry point — called from run_daily.py
 # ---------------------------------------------------------------------------
 
@@ -329,8 +426,11 @@ def enrich_with_s2(
         refs = fetch_references(paper_id, api_key)
         item["s2_reference_score"] = score_references(refs, cfg)
         item["s2_paper_id"] = paper_id
-
+        # Store top cited refs on the item so the synthesis LLM has related literature context
         if refs:
+            s2_cfg = cfg.get("semantic_scholar") or {}
+            top_n = int(s2_cfg.get("top_refs_per_paper", 8))
+            item["s2_top_refs"] = top_refs_for_synthesis(refs, top_n=top_n)
             papers_with_refs.append((title, refs))
             all_refs.extend(refs)
 

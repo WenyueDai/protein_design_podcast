@@ -541,8 +541,8 @@ podcast:
   voice_rate: "+0%"
   tts_chunk_chars: 2800
   synthesis_mode: true           # Deep synthesis of top papers instead of per-paper summaries
-  featured_count: 12             # Number of top papers fed into the synthesis; rest shown greyed-out
-  synthesis_section_max_tokens: 1400  # Token budget per section (~700-900 words, ~5 min narration)
+  featured_count: 5              # Number of top papers for deep dive; rest shown greyed-out
+  synthesis_section_max_tokens: 2000  # Token budget per section (~1000-1300 words, ~7 min narration)
   chunking:
     fulltext_threshold_chars: 2500
     tierA_max: 999
@@ -664,6 +664,7 @@ semantic_scholar:
   # If the variable is absent or empty, all S2 enrichment is silently skipped.
   enrich_top_n: 60          # How many top-ranked candidates to enrich before final cut
   missed_min_citations: 5   # Min citation count for a reference to be surfaced as missed
+  top_refs_per_paper: 8     # Top cited references to inject as related literature in synthesis
 
 publish:
   enabled: true

@@ -10,3 +10,4 @@ newspaper4k
 beautifulsoup4
 lxml
 mutagen
+pdfminer.six
