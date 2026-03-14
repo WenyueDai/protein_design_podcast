@@ -409,5 +409,12 @@
       "title": "Topological Enhancement of Protein Kinetic Stability",
       "source": "arXiv q-bio.BM"
     }
+  },
+  "2026-03-14": {
+    "https://www.biorxiv.org/content/10.64898/2026.03.11.711144": {
+      "note": "DD",
+      "title": "Do AI Models for Protein Structure Prediction Get Electrostatics Right?",
+      "source": "bioRxiv — biophysics"
+    }
   }
 }
