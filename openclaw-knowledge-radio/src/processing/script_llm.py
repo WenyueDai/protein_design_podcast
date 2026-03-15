@@ -385,8 +385,8 @@ HARD RULES:
 - Go straight into the ideas. No catchphrases, no "Welcome back", no "In this section we will cover".
 
 LENGTH:
-- This is a single section of a long-form podcast. Write at least 600 words.
-- Depth over breadth — use specific examples and concrete numbers from the data provided.
+- Write 280–380 words per section — tight, no filler, no redundancy with other sections.
+- Every sentence must carry new information. Cut any sentence that restates something already said.
 """
 
 # (section_title, section_instruction) — one entry per section
@@ -508,8 +508,8 @@ def build_podcast_script_llm_synthesis(
     temperature = float(cfg["llm"].get("temperature", 0.25))
 
     podcast_cfg = cfg.get("podcast") or {}
-    # Per-section token budget — default 1400 (~700-900 words, ~5 min narration)
-    section_max_tokens = int(podcast_cfg.get("synthesis_section_max_tokens", 1400))
+    # Per-section token budget — 700 tokens ≈ 350 words ≈ ~2.5 min narration (11 sections ≈ 30 min)
+    section_max_tokens = int(podcast_cfg.get("synthesis_section_max_tokens", 700))
 
     # Build shared paper context block (reused across all section calls)
     blocks: List[str] = []
@@ -547,7 +547,7 @@ def build_podcast_script_llm_synthesis(
             + f"You are now writing SECTION {idx}/11: {title}\n\n"
             + instruction
             + (f"\n\n{prior_note}" if prior_note else "")
-            + "\n\nUse concrete examples and specific numbers from the paper data. Do not invent details. Write at least 600 words."
+            + "\n\nUse concrete examples and specific numbers from the paper data. Do not invent details. Write 280–380 words — dense and specific, zero filler."
         )
         print(f"[synthesis] Generating section {idx}/11: {title} ...", flush=True)
         seg = _chat_complete(
