@@ -690,5 +690,37 @@
       "source": "PubMed — Nature communications",
       "title": "CF2H: a cell-free two-hybrid platform for rapid protein binder screening."
     }
+  ],
+  "2026-03-15": [
+    {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711149",
+      "source": "bioRxiv — bioinformatics",
+      "title": "ProteinMCP: An Agentic AI Framework for Autonomous Protein Engineering"
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.1101/2025.04.30.651414",
+      "source": "bioRxiv — bioinformatics",
+      "title": "Limits of deep-learning-based RNA prediction methods"
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.03.663068",
+      "source": "bioRxiv — bioinformatics",
+      "title": "An AI/ML-modeled structural atlas of the human protein interactome with functional and cancer-focused networks"
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711222",
+      "source": "bioRxiv — bioinformatics",
+      "title": "ACENet: a graph neural network for predicting enzyme pHmin using structure and sequence insights"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-026-69170-0",
+      "source": "PubMed — Nature communications",
+      "title": "Impact of solvent forces and broken symmetry on the assembly of designed proteins at a liquid-solid interface."
+    },
+    {
+      "url": "https://doi.org/10.1093/bioinformatics/btag121",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "title": "ET-Pfam: Ensemble transfer learning for protein family prediction."
+    }
   ]
 }
