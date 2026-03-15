@@ -158,8 +158,18 @@ def _is_blog_feed(it: Dict[str, Any]) -> bool:
 
 
 def _absolute_author_priority(it: Dict[str, Any], cfg: Dict[str, Any]) -> int:
-    """Tier 0: tracked researcher arXiv feeds only. Lower is better."""
-    return 0 if _is_researcher_feed(it, cfg) else 1
+    """
+    Tier 0a (0): absolute top authors — guaranteed top-5 deep-dive.
+    Tier 0b (1): other tracked researcher arXiv/bioRxiv feeds — hoisted above journals.
+    Tier 2: everything else.
+    """
+    r = (cfg.get("ranking") or {}) if isinstance(cfg, dict) else {}
+    top_subs = r.get("absolute_top_author_substrings") or []
+    src = _norm(it.get("source") or "")
+    for sub in top_subs:
+        if sub and _norm(sub) in src:
+            return 0
+    return 1 if _is_researcher_feed(it, cfg) else 2
 
 
 def _absolute_blog_priority(it: Dict[str, Any]) -> int:
@@ -317,7 +327,8 @@ def rank_and_limit(items: List[Dict[str, Any]], cfg: Dict[str, Any]) -> List[Dic
     Input/Output compatible with your current pipeline.
 
     New ranking policy (lower is better):
-    0) ABSOLUTE: tracked researcher arXiv feeds (tag 'author' + arXiv source)
+    0a) ABSOLUTE: absolute_top_author_substrings — guaranteed top-5 deep-dive
+    0b) ABSOLUTE: other tracked researcher arXiv/bioRxiv feeds
     1) ABSOLUTE: tracked blog/substack sources (tag 'author', non-arXiv)
     2) ABSOLUTE: landmark paper titles (AlphaFold, RoseTTAFold, etc.)
     3) Missed paper keywords (topics extracted from user-submitted missed papers)

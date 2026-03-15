@@ -689,7 +689,6 @@ def main() -> int:
                 upload_episode(
                     today,
                     final_mp3,
-                    script_path_clean,
                     repo=release_repo,
                     state_dir=state_dir,
                 )

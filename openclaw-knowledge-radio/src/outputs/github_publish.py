@@ -34,12 +34,11 @@ def _headers(token: str) -> dict:
 def upload_episode(
     date: str,
     mp3_path: Path,
-    script_path: Path,
     *,
     repo: str,
     state_dir: Path,
 ) -> Optional[str]:
-    """Upload MP3 + clean script to a GitHub Release.
+    """Upload MP3 to a GitHub Release.
 
     Returns the MP3 browser download URL, or None if skipped/failed.
     Updates state/release_index.json so build_site.py can embed the URL.
@@ -111,9 +110,9 @@ def upload_episode(
                     print("[publish] Updated release_index.json", flush=True)
                 return existing_mp3_url
 
-    # --- Upload MP3 + script (replace if already present) ---
+    # --- Upload MP3 (replace if already present) ---
     mp3_url: Optional[str] = None
-    for fpath in [mp3_path, script_path]:
+    for fpath in [mp3_path]:
         if not fpath or not fpath.exists():
             continue
         if fpath.name in existing_ids:

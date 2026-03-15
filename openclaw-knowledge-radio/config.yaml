@@ -760,6 +760,20 @@ ranking:
     - "Chroma"
     - "structure prediction"
 
+  absolute_top_author_substrings:
+    # Guaranteed top-5 deep-dive whenever collected
+    - "david baker"
+    - "william degrado"
+    - "bruno correia"
+    - "po-ssu huang"
+    - "brian kuhlman"
+    - "martin steinegger"
+    - "charlotte deane"
+    - "jeffrey gray"
+    - "sergey ovchinnikov"
+    - "brian hie"
+    - "minkyung baek"
+
   absolute_source_substrings:
     # Original
     - "sergey ovchinnikov"
