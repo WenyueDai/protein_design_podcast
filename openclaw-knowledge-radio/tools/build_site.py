@@ -327,9 +327,13 @@ def _build_today_summary(episodes) -> str:
 
     researcher_sources, blog_sources = _load_author_sources()
 
-    # Priority-0: papers from tracked researcher feeds
+    # Priority-0: papers from tracked researcher feeds (RSS, S2, bioRxiv author collectors)
     from collections import Counter
-    researcher_items = [it for it in items if it.get("source") in researcher_sources]
+    researcher_items = [
+        it for it in items
+        if it.get("source") in researcher_sources
+        or "author" in (it.get("tags") or [])
+    ]
     researcher_by_src = Counter(it.get("source") for it in researcher_items)
 
     # Blog posts from tracked blogs
