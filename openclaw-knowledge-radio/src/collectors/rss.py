@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import Any, Dict, List, Optional
@@ -11,6 +12,9 @@ from dateutil import parser as dtparser
 from src.utils.timeutils import cutoff_datetime
 
 _FETCH_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; feedbot/1.0; +https://github.com)"}
+# arXiv allows ~3 req/sec; use 2 workers + 0.4s delay to stay well under the limit
+_ARXIV_MAX_WORKERS = 2
+_ARXIV_DELAY = 0.4  # seconds between arXiv requests
 
 
 def _parse_dt(dt_str: str) -> Optional[datetime]:
@@ -124,13 +128,30 @@ def collect_rss_items(
     cutoff = cutoff_datetime(tz, lookback_hours, now_dt=upper)
     out: List[Dict[str, Any]] = []
 
-    with ThreadPoolExecutor(max_workers=max_workers) as pool:
-        futures = {pool.submit(_fetch_source, src, cutoff, upper): src for src in sources}
-        for fut in as_completed(futures):
-            try:
-                out.extend(fut.result())
-            except Exception as exc:
-                src = futures[fut]
-                print(f"[rss] Warning: failed to fetch {src.get('name','?')}: {exc}", flush=True)
+    # Split arXiv feeds (rate-limited) from others to avoid 429s.
+    arxiv_sources = [s for s in sources if "arxiv" in (s.get("url") or "").lower()]
+    other_sources = [s for s in sources if s not in arxiv_sources]
+
+    def _submit_batch(batch, workers):
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = {pool.submit(_fetch_source, src, cutoff, upper): src for src in batch}
+            for fut in as_completed(futures):
+                try:
+                    out.extend(fut.result())
+                except Exception as exc:
+                    src = futures[fut]
+                    print(f"[rss] Warning: failed to fetch {src.get('name','?')}: {exc}", flush=True)
+
+    # Fetch non-arXiv feeds in parallel
+    if other_sources:
+        _submit_batch(other_sources, max_workers)
+
+    # Fetch arXiv feeds with low concurrency + delay to respect rate limits
+    if arxiv_sources:
+        for i in range(0, len(arxiv_sources), _ARXIV_MAX_WORKERS):
+            batch = arxiv_sources[i:i + _ARXIV_MAX_WORKERS]
+            _submit_batch(batch, _ARXIV_MAX_WORKERS)
+            if i + _ARXIV_MAX_WORKERS < len(arxiv_sources):
+                time.sleep(_ARXIV_DELAY)
 
     return out
