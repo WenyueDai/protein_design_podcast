@@ -326,5 +326,17 @@
   "2026-03-15|https://www.biorxiv.org/content/10.64898/2026.03.11.711149": {
     "page_id": "3245f58e-a8c2-81fe-8ef2-ebbd63e2a164",
     "note": "DD"
+  },
+  "2026-03-15|https://www.biorxiv.org/content/10.1101/2025.04.30.651414": {
+    "page_id": "3245f58e-a8c2-815f-b083-d9c567362a9f",
+    "note": "DD"
+  },
+  "2026-03-15|https://www.biorxiv.org/content/10.64898/2026.03.11.711222": {
+    "page_id": "3245f58e-a8c2-818e-b442-f85b6711ec09",
+    "note": "DD"
+  },
+  "2026-03-15|https://doi.org/10.1038/s41467-026-69170-0": {
+    "page_id": "3245f58e-a8c2-81c0-9084-e3758ce41c5e",
+    "note": "DD"
   }
 }
