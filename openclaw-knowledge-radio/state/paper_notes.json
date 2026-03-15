@@ -447,6 +447,11 @@
       "note": "DD",
       "title": "ACENet: a graph neural network for predicting enzyme pHmin using structure and sequence insights",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://doi.org/10.1038/s41467-026-69170-0": {
+      "note": "DD",
+      "title": "Impact of solvent forces and broken symmetry on the assembly of designed proteins at a liquid-solid interface.",
+      "source": "PubMed — Nature communications"
     }
   }
 }
