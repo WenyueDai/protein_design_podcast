@@ -16,7 +16,7 @@
     {
       "title": "Novel hapten design and highly sensitive monoclonal antibody-based immunochromatographic assay for benzo[a]pyrene in edible oil.",
       "url": "https://doi.org/10.1016/j.foodchem.2026.147935",
-      "source": "PubMed — Food chemistry",
+      "source": "PubMed \u2014 Food chemistry",
       "one_liner": "Benzo[a]pyrene (B[a]P) is a teratogenic, carcinogenic, and mutagenic compound. A major obstacle to B[a]P detection in edible oils is its high lipophilicity. Therefore, developing a rapid and precise technique for the detection of B[a]P in edible oils is necessary. Herein, a sensitive anti-B[a]P monoclonal antibody (mAb) was produced with a novel hapten us...",
       "segment": -1,
       "timestamp": -1,
@@ -25,7 +25,7 @@
     {
       "title": "ProteinMCP: An Agentic AI Framework for Autonomous Protein Engineering",
       "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711149",
-      "source": "bioRxiv — bioinformatics",
+      "source": "bioRxiv \u2014 bioinformatics",
       "one_liner": "Computational protein design is often constrained by slow, complex, inaccessible, and highly sophiscated and expert-dependent workflows that hinder its transferrability and generalization power for broader applications. We present ProteinMCP, an agentic AI framework designed to accelerate and democratize protein engineering. ProteinMCP automates end-to-en...",
       "segment": -1,
       "timestamp": -1,
@@ -34,7 +34,7 @@
     {
       "title": "Limits of deep-learning-based RNA prediction methods",
       "url": "https://www.biorxiv.org/content/10.1101/2025.04.30.651414",
-      "source": "bioRxiv — bioinformatics",
+      "source": "bioRxiv \u2014 bioinformatics",
       "one_liner": "In recent years, tremendous advances have been made in predicting protein structures and protein-protein interactions. However, progress in predicting RNA structure, either alone or in complex with other macromolecules, has been less prominent, though some recent developments have been reported. It remains unclear whether the improved prediction accuracy ...",
       "segment": -1,
       "timestamp": -1,
@@ -43,7 +43,7 @@
     {
       "title": "Charting the evolving landscape of kinase hinge-binding chemotypes beyond flatland: a systematic analysis and opportunities for sp",
       "url": "https://doi.org/10.1016/j.ejmech.2026.118595",
-      "source": "PubMed — European journal of medicinal chemistry",
+      "source": "PubMed \u2014 European journal of medicinal chemistry",
       "one_liner": "ATP-competitive kinase inhibitors represent one of the most successful modalities in targeted therapy, yet their discovery has historically relied on a narrow repertoire of hinge-binding motifs. Here, we report a large-scale structural analysis of 4370 kinase-ligand complexes spanning 289 human protein kinases, providing the most comprehensive publicly av...",
       "segment": -1,
       "timestamp": -1,
@@ -52,7 +52,7 @@
     {
       "title": "Nutraceutical and functional potential of the Apis mellifera L. royal pupae proteome",
       "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.709969",
-      "source": "bioRxiv — bioinformatics",
+      "source": "bioRxiv \u2014 bioinformatics",
       "one_liner": "The objective of this research was to characterize the proteome of the Apis mellifera royal pupae to evaluate its potential as a nutraceutical and functional food. Six pupal instars (E1 to E6) were analyzed using liquid chromatography, mass spectrometry, and bioinformatics techniques to determine their properties and biological functions. The results show...",
       "segment": -1,
       "timestamp": -1,
@@ -61,7 +61,7 @@
     {
       "title": "An AI/ML-modeled structural atlas of the human protein interactome with functional and cancer-focused networks",
       "url": "https://www.biorxiv.org/content/10.1101/2025.07.03.663068",
-      "source": "bioRxiv — bioinformatics",
+      "source": "bioRxiv \u2014 bioinformatics",
       "one_liner": "In humans, protein-protein interactions mediate numerous biological processes and are central to both normal physiology and disease. While extensive research efforts have aimed to characterize the human protein interactome, atom-scale structural coverage is limited and remains challenging to resolve through experimental methodology alone. Boltz-2, a recen...",
       "segment": -1,
       "timestamp": -1,
@@ -70,7 +70,7 @@
     {
       "title": "ACENet: a graph neural network for predicting enzyme pHmin using structure and sequence insights",
       "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711222",
-      "source": "bioRxiv — bioinformatics",
+      "source": "bioRxiv \u2014 bioinformatics",
       "one_liner": "The acid activity of enzymes, characterized by the minimum pH at which enzymes remain active (pHmin), is crucial for industrial applications in acidic environments. However, the rational design of acid-active enzymes remains challenging due to limited understanding of sequence-structure-activity relationships under acidic conditions. Here, we propose ACEN...",
       "segment": -1,
       "timestamp": -1,
@@ -79,7 +79,7 @@
     {
       "title": "Impact of solvent forces and broken symmetry on the assembly of designed proteins at a liquid-solid interface.",
       "url": "https://doi.org/10.1038/s41467-026-69170-0",
-      "source": "PubMed — Nature communications",
+      "source": "PubMed \u2014 Nature communications",
       "one_liner": "The era of protein design has enabled the creation of hybrid protein-inorganic interfaces, leading to both surface-directed self-assembly of de novo protein architectures and protein-directed formation of inorganic materials. However, the resulting patterns of protein assembly are often unexpected, implying that essential interactions are not accounted fo...",
       "segment": -1,
       "timestamp": -1,
@@ -88,7 +88,7 @@
     {
       "title": "A genus-wide interaction atlas across NS4B orthologues identifies a conserved role for UFMylation in orthoflavivirus replication.",
       "url": "https://doi.org/10.1038/s41467-026-70437-9",
-      "source": "PubMed — Nature communications",
+      "source": "PubMed \u2014 Nature communications",
       "one_liner": "Orthoflavivirus infections represent an increasing public health burden, with several members of the genus emerging or re-emerging globally. Several pre-clinical studies identified the non-structural protein 4B (NS4B), as the most promising target for the development of potent direct-acting antivirals. However, its functional roles in viral replication ar...",
       "segment": -1,
       "timestamp": -1,
@@ -97,7 +97,7 @@
     {
       "title": "Expression of four mitochondrial tRNAs from only two loci",
       "url": "https://www.biorxiv.org/content/10.1101/2025.11.12.688142",
-      "source": "bioRxiv — molecular biology",
+      "source": "bioRxiv \u2014 molecular biology",
       "one_liner": "Transfer RNAs (tRNAs) are among the few genes retained in animal mitochondrial genomes after more than a billion years of gene loss. These ancient bacterial vestiges are often structurally aberrant and less stable than their bacterial or cytosolic tRNA counterparts. In some lineages, mitochondrial tRNAs (mt-tRNAs) have become so truncated that the loss of...",
       "segment": -1,
       "timestamp": -1,
@@ -106,7 +106,7 @@
     {
       "title": "ET-Pfam: Ensemble transfer learning for protein family prediction.",
       "url": "https://doi.org/10.1093/bioinformatics/btag121",
-      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "source": "PubMed \u2014 Bioinformatics (Oxford, England)",
       "one_liner": "MOTIVATION: Due to the rapid growth of sequence generation, which has surpassed the expert curators ability to manually review and annotate them, the computational annotation of proteins remains a significant challenge in bioinformatics nowadays. The Pfam database contains a large collection of proteins that are annotated with domain families through prof...",
       "segment": -1,
       "timestamp": -1,
@@ -115,7 +115,7 @@
     {
       "title": "A conserved, immune-regulated peritrophin promotes Vibrio cholerae colonization of the arthropod intestine.",
       "url": "https://doi.org/10.1038/s41467-026-70629-3",
-      "source": "PubMed — Nature communications",
+      "source": "PubMed \u2014 Nature communications",
       "one_liner": "Vibrio cholerae is a human diarrheal pathogen and an estuarine organism that associates with both terrestrial and aquatic arthropods. Using the model terrestrial arthropod Drosophila melanogaster, we previously showed that V. cholerae adheres to the arthropod intestine and activates the enteroendocrine cell innate immune response to augment expression of ...",
       "segment": -1,
       "timestamp": -1,
@@ -124,7 +124,7 @@
     {
       "title": "MAVS Safeguards Mitochondrial Integrity to Drive a Potent Intrinsic Antiviral Program",
       "url": "https://www.biorxiv.org/content/10.1101/2025.04.28.651145",
-      "source": "bioRxiv — immunology",
+      "source": "bioRxiv \u2014 immunology",
       "one_liner": "Intrinsic antiviral defenses can restrict infection independent of paracrine interferon (IFN) signaling. While mitochondrial homeostasis is essential for immunity, its direct role in viral restriction remains incompletely understood. Here, we identify mitochondrial antiviral signaling protein (MAVS) as a central effector of a potent IFN-independent antivi...",
       "segment": -1,
       "timestamp": -1,
@@ -133,7 +133,7 @@
     {
       "title": "Lab in an aerogel kit: Fe-G@SA-based aerogel sensor with high-performance peroxidase activity for chlorpyrifos pesticide detection.",
       "url": "https://doi.org/10.1016/j.bios.2025.118360",
-      "source": "PubMed — Biosensors & bioelectronics",
+      "source": "PubMed \u2014 Biosensors & bioelectronics",
       "one_liner": "The extensive application of organophosphorus pesticides, coupled with their potential hazards to both food safety and human health, underscores the urgent need for reliable and sensitive point-of-care (POC) platforms for pesticide monitoring. Herein, we employ a DNA-guided strategy to synthesize Fe-based nanozymes (Fe-DNA). DNA sequence design enabled pr...",
       "segment": -1,
       "timestamp": -1,
@@ -142,7 +142,7 @@
     {
       "title": "Paneth cell SIRT1 deficiency increases intestinal stress resistance by modulating the gut microbiota.",
       "url": "https://doi.org/10.1038/s44319-026-00726-3",
-      "source": "PubMed — EMBO reports",
+      "source": "PubMed \u2014 EMBO reports",
       "one_liner": "Paneth cells, intestine-originated innate immune-like cells, are important for maintenance of the intestinal stem cell niche, gut microbiota, and gastrointestinal barrier. Dysfunctional Paneth cells under pathological conditions are a site of origin for intestinal inflammation. However, mechanisms underlying stress-induced Paneth cell dysregulation remain...",
       "segment": -1,
       "timestamp": -1,
@@ -151,7 +151,7 @@
     {
       "title": "Total flavonoids of Rhizoma drynariae targets NRF2-mediated anti-ferroptosis in osteoblasts to promote induced membrane osteogenesis.",
       "url": "https://doi.org/10.1186/s13020-026-01347-7",
-      "source": "PubMed — Chinese medicine",
+      "source": "PubMed \u2014 Chinese medicine",
       "one_liner": "BACKGROUND: Induced membrane technique (IMT), a novel approach for reconstructing critical-size bone defect, encounters the challenge of lengthy mineralization time after bone grafting. Total flavonoids of Rhizoma drynariae (TFRD), the extracts from dried rhizome of Drynaria roosii Nakaike, is widely used in the treatment of orthopedic diseases. PURPOSE: ...",
       "segment": -1,
       "timestamp": -1,
@@ -160,7 +160,7 @@
     {
       "title": "AMBRA1 activation alleviates zearalenone-induced swine testicular cell ferroptosis by facilitating mitophagy.",
       "url": "https://doi.org/10.1186/s40104-026-01359-1",
-      "source": "PubMed — Journal of animal science and biotechnology",
+      "source": "PubMed \u2014 Journal of animal science and biotechnology",
       "one_liner": "BACKGROUND: Mycotoxin contamination poses a major challenge to public health and has garnered increasing attention across the world in recent decades. Zearalenone (ZEA), as one of the most prevalent contaminants, induces reproductive toxicity and then poses potential threats to animal health. Autophagy/beclin-1 regulator 1 (AMBRA1) is a protein critical f...",
       "segment": -1,
       "timestamp": -1,
@@ -169,16 +169,16 @@
     {
       "title": "Human herpesvirus evasion of humoral immunity and implications for vaccine development.",
       "url": "https://doi.org/10.1038/s41579-026-01295-x",
-      "source": "PubMed — Nature reviews. Microbiology",
-      "one_liner": "Herpesviruses are highly species-specific, having co-evolved with their respective hosts over millennia. This evolutionary relationship has led to the development of highly specialized immune evasion strategies, enabling these viruses to establish lifelong infections. Periods of immunosuppression can lead to severe disease, such as graft rejection, cancer...",
+      "source": "PubMed \u2014 Nature reviews. Microbiology",
+      "one_liner": "Herpesviruses are highly species-specific, having co-evolved with their respective hosts over millennia. This evolutionary relationship has led to the development of highly specialized immune evasion strategies, enabling these viruses to establish lifelong infections. Periods of immunosuppression\u00a0can lead to severe disease, such as graft rejection, cancer...",
       "segment": -1,
       "timestamp": -1,
       "featured": false
     },
     {
-      "title": "The Effect of Pharmaceutical Excipients on Protein Chemical Degradation Through Deamidation and Isomerization.",
+      "title": "The Effect of Pharmaceutical Excipients on\u00a0Protein\u00a0Chemical Degradation Through Deamidation and Isomerization.",
       "url": "https://doi.org/10.1007/s11095-026-04040-4",
-      "source": "PubMed — Pharmaceutical research",
+      "source": "PubMed \u2014 Pharmaceutical research",
       "one_liner": "INTRODUCTION: Therapeutic proteins are crucial in the treatment of a wide range of diseases. However, the proteins are sensitive to chemical degradation reactions, particularly deamidation and isomerization, which can compromise efficacy and safety. Formulation excipients, such as sugars and non-ionic surfactants, are commonly used to enhance stability, y...",
       "segment": -1,
       "timestamp": -1,
@@ -187,179 +187,8 @@
     {
       "title": "New benzimidazole-alkanesulfonate conjugates as cholinesterase inhibitors with in vitro and in silico validation.",
       "url": "https://doi.org/10.1038/s41598-026-39534-z",
-      "source": "PubMed — Scientific reports",
+      "source": "PubMed \u2014 Scientific reports",
       "one_liner": "Alzheimer's disease, the leading cause of dementia, is strongly associated with impaired cholinergic neurotransmission due to excessive acetylcholine degradation by acetylcholinesterase (AChE) and butyrylcholinesterase (BChE). Because current medications provide only symptomatic relief without modifying disease progression, there is an urgent need for mor...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "A potential association of SLC2A9 variant rs7442295 with uric acid at baseline and in interaction with iloperidone.",
-      "url": "https://doi.org/10.1038/s41397-026-00402-8",
-      "source": "PubMed — The pharmacogenomics journal",
-      "one_liner": "Circulating levels of uric acid are influenced by a complex mix of intrinsic and environmental factors, including genetics, diet, and drugs. We analyzed levels of uric acid in a recent phase 3 clinical trial of patients with bipolar mania treated with 24 mg/day of the antipsychotic iloperidone or placebo. Initial results revealed that iloperidone treatmen...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Building a gene editing lexicon: a model for rare and inherited disorders.",
-      "url": "https://doi.org/10.1038/s41434-026-00596-3",
-      "source": "PubMed — Gene therapy",
-      "one_liner": "As more advanced cell and gene therapies, including gene editing technologies, progress through drug development, there is increased emphasis on the importance of stakeholders, including people living with disease, caregivers, and healthcare professionals, to communicate using clear, accurate, and consistent language. Lexicons explaining advanced gene the...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Machine learning-based proteogenomic data modeling identifies circulating plasma biomarkers for early detection of lung cancer.",
-      "url": "https://doi.org/10.1038/s43856-026-01500-1",
-      "source": "PubMed — Communications medicine",
-      "one_liner": "BACKGROUND: Genetic aberrations are among the critical driving factors of lung cancer. Importantly, the impact of genetic variations on proteomic dysregulations with the goal of characterizing potential diagnostic biomarkers at the population-level requires additional investigation. Modeling such proteogenomic interactions is crucial in understanding earl...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Assessment of Mycobacterium tuberculosis dodecin scaffold as a multimerization platform on the immunogenicity of HPV L2 antigens.",
-      "url": "https://doi.org/10.1038/s41598-026-42678-7",
-      "source": "PubMed — Scientific reports",
-      "one_liner": "Human papillomavirus infection, the primary cause of cervical cancer (the fourth most common cancer in women), is preventable through prophylactic HPV vaccines. As an alternative to current HPV vaccines, all based on a cocktail of L1 virus-like particles (VLPs) from multiple HPV types, the L2 capsid protein offers cross-protection via a conserved epitope ...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Effect of fertilizer on biochemical composition, and antioxidant properties of white‑fleshed sweet potato (Ipomoea batatas L.) flour.",
-      "url": "https://doi.org/10.1186/s13065-026-01771-8",
-      "source": "PubMed — BMC chemistry",
-      "one_liner": "This study evaluated the impact of different fertilizer treatments on the proximate composition and antioxidant properties of flour from two white-fleshed sweet potato varieties (PCS and LCCS). The tubers were cultivated in the Sayo district of the Kellem Wollega Zone, Ethiopia. A two-factor experimental design with three blocks was employed, incorporatin...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "DPP9 inhibition boosts antitumor immunity by disrupting BRISC-mediated PD-L1 expression in clear cell renal cell carcinoma.",
-      "url": "https://doi.org/10.1038/s41418-026-01704-x",
-      "source": "PubMed — Cell death and differentiation",
-      "one_liner": "Programmed cell death protein 1 (PD-1) and its ligand programmed cell death ligand-1 (PD-L1) are key mediators of immune checkpoint blockade therapy in clear cell renal cell carcinoma (RCC). However, immune evasion and primary resistance often limit their efficacy, highlighting the need for improved strategies. Here, we identified dipeptidyl peptidase 9 (...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Daily briefing: Vaccine-carrying mosquitoes could inoculate bats against rabies.",
-      "url": "https://doi.org/10.1038/d41586-026-00825-0",
-      "source": "PubMed — Nature",
-      "one_liner": "Engineered Aedes aegypti mosquitoes can deliver vaccine antigens to bats in a laboratory setting, potentially offering a novel method to prevent viral spillover from bats to humans.\nMETHOD / APPROACH: Mosquitoes were fed blood containing a vaccine antigen for either rabies or Nipah virus.",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Biochemical, molecular, and in silico insights into the effects of cyphenothrin on Culex quinquefasciatus mosquitoes.",
-      "url": "https://doi.org/10.1186/s13071-026-07352-x",
-      "source": "PubMed — Parasites & vectors",
-      "one_liner": "BACKGROUND: Cyphenothrin, a type II synthetic pyrethroid, is widely recommended by the World Health Organization (WHO) for control programs for mosquitoes such as Culex quinquefasciatus. This cosmopolitan mosquito species plays a pivotal role in transmitting several neglected tropical diseases, including lymphatic filariasis, West Nile virus, Japanese enc...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "6-mercaptopurine and tofacitinib alter microbial protein expression but not composition in fecal microbiota incubations from Crohn's disease patients.",
-      "url": "https://doi.org/10.1186/s12915-026-02569-9",
-      "source": "PubMed — BMC biology",
-      "one_liner": "BACKGROUND: Crohn's disease (CD) is a chronic, relapsing-remitting gastrointestinal inflammatory condition with a multifactorial etiology. At present, drug therapy is the most important treatment option. However, a substantial number of CD patients experience side effects and/or nonresponse to medical drugs. In part, this might be attributed to the intera...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Timing of the fourth dose of RTS,S/AS01 malaria vaccine in perennial settings: a modelling study.",
-      "url": "https://doi.org/10.1186/s12936-026-05848-6",
-      "source": "PubMed — Malaria journal",
-      "one_liner": "BACKGROUND: The recommendation of the RTS,S/AS01 malaria vaccine for use in children in moderate to high transmission areas by the WHO in 2021 provided another crucial tool in reducing malaria morbidity and mortality. As countries introduce the RTS,S/AS01 vaccine, there is an interest in exploring vaccination schedules that align with existing routine hea...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "PKMζ-KIBRA interactions, molecular turnover, and memory.",
-      "url": "https://doi.org/10.1186/s13041-026-01284-4",
-      "source": "PubMed — Molecular brain",
-      "one_liner": "How can the molecules that strengthen synaptic connections maintain memory in the face of molecular turnover? Our previous work showed that persistent interaction between the postsynaptic scaffolding protein, KIBRA, and the autonomously active PKC isoform, PKMζ, is crucial for maintaining synaptic long-term potentiation (LTP) and memory lasting at least a...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "MSCMF-DTB: a multi-scale cross-modal fusion framework for drug-target binding prediction.",
-      "url": "https://doi.org/10.1038/s41598-026-44048-9",
-      "source": "PubMed — Scientific reports",
-      "one_liner": "Predicting drug-target binding remains a central challenge in computational drug discovery, particularly due to the need for models that jointly capture molecular topology, chemical substructures, and protein sequence dependencies. We propose MSCMF-DTB, an end-to-end deep learning framework supporting both drug-target interaction (DTI) classification and ...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Developing a general research framework for long COVID using causal modelling.",
-      "url": "https://doi.org/10.1038/s43856-026-01488-8",
-      "source": "PubMed — Communications medicine",
-      "one_liner": "BACKGROUND: Long COVID is an infection-associated chronic condition with uncertain evolution, leading to ambiguity in case definitions and various hypotheses about its pathophysiology. Despite this diversity, causal models may offer a unified understanding of post-acute COVID-19 mechanisms. This study aimed to examine whether dynamic Bayesian networks cou...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Evaluation of vaccine immunity against tetanus, hepatitis B, measles, mumps, rubella and varicella, in migrant adolescents aged 13 to 18 years arriving in Geneva in 2023.",
-      "url": "https://doi.org/10.1007/s00431-026-06843-4",
-      "source": "PubMed — European journal of pediatrics",
-      "one_liner": "The recent surge in unaccompanied minor asylum seekers (UMAS) arriving in Switzerland presents significant public health challenges, particularly regarding immunization. Many of these adolescents lack vaccination documentation, requiring catch-up vaccination strategies. This study aimed to evaluate immunity against tetanus, hepatitis B, measles, mumps, ru...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Analysis of herpes zoster cases in multiple sclerosis patients treated with disease-modifying drugs: insights from the EudraVigilance database.",
-      "url": "https://doi.org/10.5603/pjnns.107154",
-      "source": "PubMed — Neurologia i neurochirurgia polska",
-      "one_liner": "INTRODUCTION: Multiple sclerosis (MS) itself and disease modifying treatment (DMT) used in MS are risk factors of adverse herpes zoster (HZ) infection development. During HZ infection complications might develop, e.g. postherpetic neuralgia or optic neuritis, decreasing patients' quality of life. Data concerning HZ development in MS patients is limited. T...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Vaccine effectiveness during an influenza B outbreak in a deployed military setting.",
-      "url": "https://doi.org/10.1136/military-2025-003212",
-      "source": "PubMed — BMJ military health",
-      "one_liner": "INTRODUCTION: Military deployments remain high-risk for acquisition and transmission of influenza-like illnesses. Outbreaks are associated with significant morbidity and reduced operational effectiveness. The impact of seasonal influenza vaccination uptake on vaccine effectiveness (VE) in this setting remains unclear. METHODS: VE was explored in a deploye...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Comparison of Multi-band Intermuscular Coherence Complex Network Metrics between Stroke Survivors and Healthy Adults before and after Speed Control.",
-      "url": "https://doi.org/10.1109/TNSRE.2026.3673737",
-      "source": "PubMed — IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society",
-      "one_liner": "OBJECTIVE: This study aimed to identify robust neuromuscular biomarkers for post-stroke gait impairment by comparing intermuscular coherence (IMC) networks between stroke survivors and healthy adults while controlling for walking speed effects. METHODS: We analyzed surface electromyography (sEMG) from 14 muscles in 39 stroke survivors and 34 healthy adult...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Sub-band Embedding Based EEG Spatio-Temporal Activity Representation for Emotion Recognition.",
-      "url": "https://doi.org/10.1109/JBHI.2026.3673733",
-      "source": "PubMed — IEEE journal of biomedical and health informatics",
-      "one_liner": "EEG-based emotion recognition is a crucial task with significant implications for mental health monitoring, affective computing, and clinical decision support. While Graph Neural Networks (GNNs) have shown promise in modeling the complex spatio-temporal dynamics of EEG signals, existing methods fall short by only considering pairwise spatial dependencies ...",
-      "segment": -1,
-      "timestamp": -1,
-      "featured": false
-    },
-    {
-      "title": "Roche’s breast cancer failure; BioNTech co-founders to depart; Eli Lilly’s quest to stay on top; and more",
-      "url": "https://endpoints.news/roches-breast-cancer-failure-biontech-co-founders-to-depart-eli-lillys-quest-to-stay-on-top-and-more/",
-      "source": "Endpoints News",
-      "one_liner": "Welcome back to Endpoints Weekly! We have a few deep dives in today’s issue, including a look at how Eli Lilly is shaping its future and a piece on how GLP-1 compounders have changed the ...",
       "segment": -1,
       "timestamp": -1,
       "featured": false
