@@ -559,6 +559,7 @@ biorxiv_authors:
     # ── Baker lab / UW Seattle ───────────────────────────────────────────────
     - name: "David Baker"
       match: "Baker, D"
+      allowed_categories: ["biochemistry", "bioinformatics", "biophysics", "synthetic-biology", "molecular-biology", "systems-biology"]
     - name: "Frank DiMaio"
       match: "DiMaio, F"
     - name: "Gaurav Bhardwaj"
@@ -586,10 +587,12 @@ biorxiv_authors:
     # ── Stanford ─────────────────────────────────────────────────────────────
     - name: "Po-Ssu Huang"
       match: "Huang, P"
+      allowed_categories: ["biochemistry", "bioinformatics", "biophysics", "synthetic-biology", "molecular-biology"]
     - name: "Ron Dror"
       match: "Dror, R"
     - name: "Rhiju Das"
       match: "Das, R"
+      allowed_categories: ["biochemistry", "bioinformatics", "biophysics", "molecular-biology", "synthetic-biology", "genomics"]
     # ── MIT / Barzilay / Jaakkola / Berger ───────────────────────────────────
     - name: "Regina Barzilay"
       match: "Barzilay, R"
@@ -627,6 +630,7 @@ biorxiv_authors:
     # ── Johns Hopkins / Gray ─────────────────────────────────────────────────
     - name: "Jeffrey Gray"
       match: "Gray, J"
+      allowed_categories: ["biochemistry", "bioinformatics", "biophysics", "molecular-biology", "synthetic-biology"]
     # ── Northwestern / Rocklin ───────────────────────────────────────────────
     - name: "Gabriel Rocklin"
       match: "Rocklin, G"
@@ -637,6 +641,7 @@ biorxiv_authors:
     # ── Berkeley / Song ──────────────────────────────────────────────────────
     - name: "Yun Song"
       match: "Song, Y"
+      allowed_categories: ["genomics", "bioinformatics", "evolutionary-biology", "systems-biology", "genetics"]
     # ── Toronto / Philip Kim ─────────────────────────────────────────────────
     - name: "Philip Kim"
       match: "Kim, P"

@@ -161,14 +161,16 @@ def collect_biorxiv_author_items(cfg: Dict[str, Any]) -> List[Dict[str, Any]]:
     start = (today - timedelta(days=lookback_days)).isoformat()
     end = today.isoformat()
 
-    # Build lookup: name → normalized author patterns + institution filter.
+    # Build lookup: name → normalized author patterns + institution filter + topic keywords + allowed categories.
     author_lookup: List[tuple] = []
     for a in authors_cfg:
         name = (a.get("name") or "").strip()
         match = (a.get("match") or "").strip()
         institution = _norm_text((a.get("institution") or "").strip())
+        topic_kws = [_norm_text(k) for k in (a.get("topic_keywords") or []) if k]
+        allowed_cats = [c.lower().strip() for c in (a.get("allowed_categories") or []) if c]
         if name and match:
-            author_lookup.append((name, _author_patterns(name, match), institution))
+            author_lookup.append((name, _author_patterns(name, match), institution, topic_kws, allowed_cats))
 
     if not author_lookup:
         return []
@@ -187,18 +189,34 @@ def collect_biorxiv_author_items(cfg: Dict[str, Any]) -> List[Dict[str, Any]]:
     items: List[Dict[str, Any]] = []
     matched_names: Dict[str, int] = {}
     inst_rejects: Dict[str, int] = {}
+    topic_rejects: Dict[str, int] = {}
 
     for paper in all_papers:
         authors_str = paper.get("authors", "")
         authors_norm = _norm_text(authors_str)
         institution = _norm_text(paper.get("author_corresponding_institution") or "")
 
-        for (name, patterns, inst_filter) in author_lookup:
+        for (name, patterns, inst_filter, topic_kws, allowed_cats) in author_lookup:
             if not _matches_author(authors_norm, patterns):
                 continue
             if inst_filter and inst_filter not in institution:
                 inst_rejects[name] = inst_rejects.get(name, 0) + 1
                 continue
+
+            # Category filter — if allowed_categories is set, paper must be in one of them.
+            if allowed_cats:
+                paper_cat = (paper.get("category") or "").lower().strip()
+                if paper_cat not in allowed_cats:
+                    topic_rejects[name] = topic_rejects.get(name, 0) + 1
+                    continue
+
+            # Topic keyword filter — if topic_keywords set, at least one must appear
+            # in title+abstract (secondary check for same-name disambiguation).
+            if topic_kws:
+                title_abs = _norm_text((paper.get("title") or "") + " " + (paper.get("abstract") or ""))
+                if not any(kw in title_abs for kw in topic_kws):
+                    topic_rejects[name] = topic_rejects.get(name, 0) + 1
+                    continue
 
             doi = paper.get("doi", "")
             url = f"https://www.biorxiv.org/content/{doi}" if doi else ""
@@ -229,5 +247,7 @@ def collect_biorxiv_author_items(cfg: Dict[str, Any]) -> List[Dict[str, Any]]:
         print(f"[biorxiv_authors] No matches this window (normal on quiet days)", flush=True)
     if inst_rejects:
         print(f"[biorxiv_authors] Institution-filter rejects: {inst_rejects}", flush=True)
+    if topic_rejects:
+        print(f"[biorxiv_authors] Topic-filter rejects: {topic_rejects}", flush=True)
 
     return items
