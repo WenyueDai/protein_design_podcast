@@ -721,6 +721,21 @@
       "url": "https://doi.org/10.1093/bioinformatics/btag121",
       "source": "PubMed — Bioinformatics (Oxford, England)",
       "title": "ET-Pfam: Ensemble transfer learning for protein family prediction."
+    },
+    {
+      "url": "https://www.semanticscholar.org/paper/58151ecf5afbcfce9210a16d4ec78fda3a0f34e6",
+      "source": "David Baker (S2)",
+      "title": "Impact of solvent forces and broken symmetry on the assembly of designed proteins at a liquid-solid interface."
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710931",
+      "source": "bioRxiv — bioinformatics",
+      "title": "Multimodal spatial alignment and morphology mapping with MOSAICField"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-026-70553-6",
+      "source": "Nature - Antibodies",
+      "title": "Mining antibody functionality via AI-guided structural landscape profiling"
     }
   ]
 }
