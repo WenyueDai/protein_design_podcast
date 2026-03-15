@@ -750,6 +750,12 @@ audio {{ width:100%; margin:0; }}
 .visitor-collapse > summary {{ font-size:.85rem; color:var(--muted); cursor:pointer; padding:10px 14px; list-style:none; }}
 .visitor-collapse > summary::-webkit-details-marker {{ display:none; }}
 .visitor-collapse[open] .visitor-message {{ border:none; border-radius:0; margin:0; }}
+.bottom-tools {{ background:var(--card); border:1px solid var(--line); border-radius:14px; margin-top:12px; width:min(100%,52rem); overflow:hidden; }}
+.bottom-tools > summary {{ font-size:.85rem; color:var(--muted); cursor:pointer; padding:10px 14px; list-style:none; display:flex; align-items:center; gap:6px; }}
+.bottom-tools > summary::-webkit-details-marker {{ display:none; }}
+.bottom-tools > summary:hover {{ color:var(--text); }}
+.bottom-tools[open] > summary {{ border-bottom:1px solid var(--line); }}
+.bottom-tools .missed-section {{ border-radius:0; border:none; margin:0; }}
 .site-metrics {{ position:sticky; bottom:0; left:0; right:0; z-index:30; margin:24px 0 0; padding:10px 16px calc(10px + env(safe-area-inset-bottom, 0px)); text-align:center; font-size:.84rem; color:#858585; background:rgba(30,30,30,0.96); border-top:1px solid #3e3e42; box-shadow:0 -4px 14px rgba(0,0,0,0.3); backdrop-filter:saturate(130%) blur(3px); }}
 .site-metrics strong {{ color:#d4d4d4; font-weight:700; }}
 .layout :is(h2, h3, p, li, a, label, span, button, input, textarea, summary, dt, dd) {{ font-family:inherit; font-size:var(--body-size); line-height:var(--body-line); }}
@@ -850,45 +856,6 @@ audio {{ width:100%; margin:0; }}
           </div>
         </div>
         {today_summary}
-        <details class="owner-tools">
-          <summary>
-            <span class="hero-icon">&#9881;&#65039;</span>
-            <span>Owner tools &mdash; add missing paper</span>
-          </summary>
-          <div class="missed-section">
-            <h3>&#128231; Submit a missed paper</h3>
-            <p>Log a paper the pipeline missed — triggers an automatic diagnosis and boosts similar papers in future rankings.</p>
-            <div class="missed-form">
-              <input type="text" id="missed-title" placeholder="Paper title (required)">
-              <input type="text" id="missed-url" placeholder="URL (optional)">
-              <button onclick="submitMissedPaper()">Submit</button>
-              <span id="missed-status"></span>
-            </div>
-            <div id="missed-list"></div>
-            <details class="diag-guide">
-              <summary>&#128270; Diagnosis guide</summary>
-              <dl>
-                <dt><span class="diag-badge diag-collected">already collected</span></dt>
-                <dd>Already in a previous episode — check the archive.</dd>
-                <dt><span class="diag-badge diag-excluded">excluded term</span></dt>
-                <dd>Title matched a term in <code>excluded_terms</code> (e.g. &ldquo;mouse&rdquo;). Narrow the filter in <code>config.yaml</code> if too aggressive.</dd>
-                <dt><span class="diag-badge diag-source">source not in RSS</span></dt>
-                <dd>Domain not in any RSS feed — pipeline can&rsquo;t see it. Add to <code>rss_sources</code> or check <code>extra_rss_sources.json</code> for auto-discovered feeds.</dd>
-                <dt><span class="diag-badge diag-ranking">low ranking</span></dt>
-                <dd>In RSS but cut below the episode cap. Add keywords to <code>absolute_title_keywords</code> or increase <code>max_items_total</code>.</dd>
-                <dt><span class="diag-badge diag-pending">pending</span></dt>
-                <dd>Workflow hasn&rsquo;t run yet — diagnosis appears within ~2 minutes.</dd>
-              </dl>
-            </details>
-            <div class="owner-feedback">
-              <strong>Feedback:</strong>
-              <span id="sel-count">0 checked</span> &nbsp;
-              <button onclick="saveFeedback()">Save to GitHub</button>
-              <button class="sec" onclick="openSettings()">&#9881; Settings</button>
-              <span id="fb-status"></span>
-            </div>
-          </div>
-        </details>
       </div>
     </section>
     <div class="content-grid">
@@ -905,6 +872,42 @@ audio {{ width:100%; margin:0; }}
         </div>
       </div>
     </section>
+    <details class="bottom-tools">
+      <summary>&#9881;&#65039; Owner tools</summary>
+      <div class="missed-section">
+        <h3>&#128231; Submit a missed paper</h3>
+        <p>Log a paper the pipeline missed — triggers an automatic diagnosis and boosts similar papers in future rankings.</p>
+        <div class="missed-form">
+          <input type="text" id="missed-title" placeholder="Paper title (required)">
+          <input type="text" id="missed-url" placeholder="URL (optional)">
+          <button onclick="submitMissedPaper()">Submit</button>
+          <span id="missed-status"></span>
+        </div>
+        <div id="missed-list"></div>
+        <details class="diag-guide">
+          <summary>&#128270; Diagnosis guide</summary>
+          <dl>
+            <dt><span class="diag-badge diag-collected">already collected</span></dt>
+            <dd>Already in a previous episode — check the archive.</dd>
+            <dt><span class="diag-badge diag-excluded">excluded term</span></dt>
+            <dd>Title matched a term in <code>excluded_terms</code> (e.g. &ldquo;mouse&rdquo;). Narrow the filter in <code>config.yaml</code> if too aggressive.</dd>
+            <dt><span class="diag-badge diag-source">source not in RSS</span></dt>
+            <dd>Domain not in any RSS feed — pipeline can&rsquo;t see it. Add to <code>rss_sources</code> or check <code>extra_rss_sources.json</code> for auto-discovered feeds.</dd>
+            <dt><span class="diag-badge diag-ranking">low ranking</span></dt>
+            <dd>In RSS but cut below the episode cap. Add keywords to <code>absolute_title_keywords</code> or increase <code>max_items_total</code>.</dd>
+            <dt><span class="diag-badge diag-pending">pending</span></dt>
+            <dd>Workflow hasn&rsquo;t run yet — diagnosis appears within ~2 minutes.</dd>
+          </dl>
+        </details>
+        <div class="owner-feedback">
+          <strong>Feedback:</strong>
+          <span id="sel-count">0 checked</span> &nbsp;
+          <button onclick="saveFeedback()">Save to GitHub</button>
+          <button class="sec" onclick="openSettings()">&#9881; Settings</button>
+          <span id="fb-status"></span>
+        </div>
+      </div>
+    </details>
     <details class="visitor-collapse">
       <summary>&#128172; Leave a message</summary>
       <section class="visitor-message">
