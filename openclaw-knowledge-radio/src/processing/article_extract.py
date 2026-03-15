@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from typing import Optional
+
 from newspaper import Article
 import requests
 from bs4 import BeautifulSoup
@@ -47,7 +49,34 @@ def _extract_with_bs4(url: str) -> str:
     return best.strip()
 
 
-def extract_article_text(url: str) -> str:
+def _extract_pdf_via_s2(paper_id: str, api_key: str) -> str:
+    """
+    Resolve the open-access PDF URL from Semantic Scholar and extract its text.
+    Returns '' on any failure.
+    """
+    try:
+        from src.collectors.semantic_scholar import get_open_access_pdf_url
+        from src.collectors.semantic_scholar import _extract_pdf_text as _s2_extract_pdf
+        pdf_url = get_open_access_pdf_url(paper_id, api_key)
+        if not pdf_url:
+            return ""
+        print(f"[article_extract] S2 PDF fallback: {pdf_url[:80]}", flush=True)
+        return _s2_extract_pdf(pdf_url)
+    except Exception:
+        return ""
+
+
+def extract_article_text(
+    url: str,
+    s2_paper_id: Optional[str] = None,
+    s2_api_key: Optional[str] = None,
+) -> str:
+    """
+    Extract article text from a URL.
+
+    Falls back to Semantic Scholar open-access PDF if the primary extraction
+    yields fewer than 500 characters and s2_paper_id + s2_api_key are provided.
+    """
     # 1) newspaper first (often cleaner)
     try:
         txt = _extract_with_newspaper(url)
@@ -59,6 +88,15 @@ def extract_article_text(url: str) -> str:
     # 2) bs4 fallback for paywall-ish / structured pages
     try:
         txt = _extract_with_bs4(url)
-        return txt
+        if len(txt) >= 500:
+            return txt
     except Exception:
-        return ""
+        txt = ""
+
+    # 3) S2 open-access PDF fallback (for arXiv/DOI papers with poor web extraction)
+    if len(txt) < 500 and s2_paper_id and s2_api_key:
+        s2_text = _extract_pdf_via_s2(s2_paper_id, s2_api_key)
+        if len(s2_text) > len(txt):
+            return s2_text
+
+    return txt

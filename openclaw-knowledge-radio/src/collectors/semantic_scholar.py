@@ -50,6 +50,27 @@ def _get(path: str, params: Dict, api_key: str) -> Optional[Dict]:
 
 
 # ---------------------------------------------------------------------------
+# Open-access PDF URL lookup
+# ---------------------------------------------------------------------------
+
+def get_open_access_pdf_url(paper_id: str, api_key: str) -> Optional[str]:
+    """
+    Fetch the open-access PDF URL for a paper from Semantic Scholar.
+
+    Calls GET /graph/v1/paper/{paper_id}?fields=openAccessPdf and returns
+    data["openAccessPdf"]["url"] if present, else None.
+    Sleeps _DELAY between calls to respect the rate limit.
+    """
+    time.sleep(_DELAY)
+    data = _get(f"/paper/{paper_id}", {"fields": "openAccessPdf"}, api_key)
+    if not data:
+        return None
+    pdf_info = data.get("openAccessPdf") or {}
+    url = (pdf_info.get("url") or "").strip()
+    return url if url else None
+
+
+# ---------------------------------------------------------------------------
 # Paper ID resolution
 # ---------------------------------------------------------------------------
 

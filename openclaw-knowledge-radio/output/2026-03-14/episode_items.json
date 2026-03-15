@@ -1,366 +1,377 @@
 {
   "timestamps": [
     0.0,
-    49.0,
-    96.33,
-    193.12,
-    313.33,
-    373.71,
-    426.14,
-    559.53,
-    611.25,
-    754.76,
-    911.55,
-    1029.82,
-    1155.55,
-    1204.63,
-    1363.38,
-    1515.4,
-    1572.2,
-    1623.99,
-    1663.82,
-    1798.2,
-    1928.82,
-    2140.93,
-    2266.66,
-    2317.47,
-    2364.43,
-    2423.3,
-    2477.7,
-    2537.2,
-    2596.98,
-    2650.88,
-    2767.2,
-    2902.17,
-    3065.06,
-    3229.02,
-    3350.6,
-    3465.68,
-    3628.49,
-    3753.81,
-    3875.01,
-    3994.96
+    333.5,
+    613.41,
+    870.01,
+    1171.26,
+    1507.61,
+    1799.4,
+    1877.85,
+    2149.36,
+    2445.71,
+    2763.87
   ],
   "items": [
     {
-      "title": "Nitrogen, Ammonia, and the Strait of Hormuz",
-      "url": "https://www.science.org/content/blog-post/nitrogen-ammonia-and-strait-hormuz",
-      "source": "In the Pipeline (Derek Lowe)",
-      "one_liner": "",
-      "segment": 0,
-      "timestamp": 0.0
+      "title": "Constrained Diffusion as a Paradigm for Evolution",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710948",
+      "source": "Bonnie Berger (bioRxiv)",
+      "one_liner": "One of the most basic questions in computational biology is to describe the mechanisms driving evolutionary dynamics. Here, we newly view evolution through the lens of a diffusion process that is constrained by the physical, biological, and environmental viability of organisms at a given time. Building on analogies from statistical mechanics and information theory, we introduce DiffEvol, a framewo",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": true
     },
     {
-      "title": "Correction to “Guiding AlphaFold predictions with experimental knowledge to inform dynamics and interactions with VAIRO”",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70513?af=R",
-      "source": "Protein Science",
-      "one_liner": "Protein Science, Volume 35, Issue 4, April 2026.",
-      "segment": 1,
-      "timestamp": 49.0
+      "title": "AlphaFind v2: Similarity Search in AlphaFold DB and TED Domains across Structural Contexts",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710735",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The availability of large-scale protein structure collections enables structure-based analysis of their function and evolution beyond what is possible from sequence alone. However, applying three-dimensional structure comparison at scale remains computationally demanding and limits practical exploration of large experimental and predicted collections. Thi...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": true
     },
     {
       "title": "Do AI Models for Protein Structure Prediction Get Electrostatics Right?",
       "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711144",
       "source": "bioRxiv — biophysics",
       "one_liner": "A variant of the U1A protein containing four substitutions to ionizable residues was generated serendipitously due to a miscommunication. Biophysical measurements show that this variant has at least twice as much helical structure as the wild-type U1A and is trimeric in solution, in contrast to the monomeric wild type. In sharp contrast, structures predic...",
-      "segment": 2,
-      "timestamp": 96.33
+      "segment": -1,
+      "timestamp": -1,
+      "featured": true
     },
     {
-      "title": "BioPipelines: Accessible Computational Protein and Ligand Design for Chemical Biologists",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711024",
-      "source": "bioRxiv — bioinformatics",
-      "one_liner": "Deep learning methods for protein structure generation, sequence design, and structure and property prediction have created unprecedented opportunities for protein engineering and drug discovery. However, using these tools often requires navigating incompatible software environments, diverse input/output formats, and high-performance computing infrastruct...",
-      "segment": 3,
-      "timestamp": 193.12
+      "title": "3D chromatin compartment of round spermatids encodes the spatiotemporal program of histone-to-protamine exchange in spermiogenesis",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710708",
+      "source": "bioRxiv — genomics",
+      "one_liner": "Sperm formation requires a radical chromatin reorganization, where nucleosomes are replaced by transition proteins (TNPs) and subsequently by protamines (PRM1 and PRM2). Although essential for fertility, the regulatory logic governing this exchange is unknown, but its presumed to be stochastic and unregulated. Using endogenously tagged PRM mouse models an...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": true
     },
     {
       "title": "Learning the All-Atom Equilibrium Distribution of Biomolecular Interactions at Scale",
       "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710952",
       "source": "bioRxiv — bioinformatics",
       "one_liner": "Biomolecular functions are governed by dynamic conformational ensembles rather than static structures. While models like AlphaFold have revolutionized static structure prediction, accurately capturing the equilibrium distribution of all-atom biomolecular interactions remains a significant challenge due to the high computational cost of molecular dynamics ...",
-      "segment": 4,
-      "timestamp": 313.33
+      "segment": -1,
+      "timestamp": -1,
+      "featured": true
+    },
+    {
+      "title": "BioPipelines: Accessible Computational Protein and Ligand Design for Chemical Biologists",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711024",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Deep learning methods for protein structure generation, sequence design, and structure and property prediction have created unprecedented opportunities for protein engineering and drug discovery. However, using these tools often requires navigating incompatible software environments, diverse input/output formats, and high-performance computing infrastruct...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "ProteinMCP: An Agentic AI Framework for Autonomous Protein Engineering",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711149",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Computational protein design is often constrained by slow, complex, inaccessible, and highly sophiscated and expert-dependent workflows that hinder its transferrability and generalization power for broader applications. We present ProteinMCP, an agentic AI framework designed to accelerate and democratize protein engineering. ProteinMCP automates end-to-en...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "Limits of deep-learning-based RNA prediction methods",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.04.30.651414",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "In recent years, tremendous advances have been made in predicting protein structures and protein-protein interactions. However, progress in predicting RNA structure, either alone or in complex with other macromolecules, has been less prominent, though some recent developments have been reported. It remains unclear whether the improved prediction accuracy ...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
       "title": "Per-residue optimisation of protein structures: Rapid alternative to optimisation with constrained alpha carbons",
       "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690085",
       "source": "bioRxiv — bioinformatics",
       "one_liner": "In recent years, the number of known protein structures has increased significantly. Predictive algorithms and experimental methods provide the positions of protein residues relative to each other with high accuracy. However, the local quality of the protein structure, including bond lengths, angles, and positions of individual atoms, often lacks the same...",
-      "segment": 5,
-      "timestamp": 373.71
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "Observation of redistribution for local conformational dynamics in cross-reactive antibody design.",
+      "url": "https://doi.org/10.1093/jb/mvag018",
+      "source": "PubMed — Journal of biochemistry",
+      "one_liner": "Antibody engineering is often achieved through laborious mutagenesis and screening. However, the physicochemical basis of cross-reactivity-enhancing mutations remains unclear. We computationally redesigned the severe acute respiratory syndrome coronavirus (SARS-CoV)-1 neutralizing antibody m396 to recognize the SARS-CoV-2 receptor-binding domain (RBD) and...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "MoCETSE: A mixture-of-convolutional experts and transformer-based model for predicting Gram-negative bacterial secreted effectors.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1013397",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Identifying effector proteins of secretion systems in Gram-negative bacteria is crucial for deciphering their pathogenic mechanisms and guiding the development of antimicrobial strategies. Extracting evolutionary and sequence features using pre-trained protein language models (PLMs) has emerged as an effective approach to improve the performance of effect...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "Computational design of conformation-biasing mutations to alter protein functions.",
+      "url": "https://doi.org/10.1126/science.adv7953",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "Conformational biasing (CB) is a rapid and streamlined computational method that uses contrastive scoring by inverse folding models to predict protein variants biased toward desired conformational states. We successfully validated CB across seven diverse datasets, identifying variants of K-Ras, the severe acute respiratory syndrome coronavirus 2 (SARS-CoV...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
       "title": "Protein Diffusion Models as Statistical Potentials",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693073",
       "source": "bioRxiv — biophysics",
       "one_liner": "Machine learning has driven rapid progress in protein structure prediction and design, but key challenges remain such as predicting protein structures when evolutionary information is unavailable, modeling full conformational landscapes, and capturing the thermodynamics of mutations and conformational changes. To address these problems we developed Protei...",
-      "segment": 6,
-      "timestamp": 426.14
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "What comes after de novo? Automated lead optimization of proteins with CRADLE-1",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.710001",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Lead optimization remains the longest and most expensive step in pre-clinical drug discovery, typically consuming 12-36 months whilst costing $5M-$15M per candidate. We introduce  cradle-1, an automated framework for protein engineering. While cradle-1 supports the full process of drug discovery and industrial protein engineering pipelines, including hit ...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "De novo design of functional nucleic acids of aptamers.",
+      "url": "https://doi.org/10.1038/s43588-026-00965-3",
+      "source": "PubMed — Nature computational science",
+      "one_liner": "Functional nucleic acids (FNAs) are essential elements for designing advanced molecular tools, yet their de novo design faces challenges due to the vast sequence space and inefficiency of experimental screening methods. Nucleic acid large language models (NA-LLMs) offer new opportunities for FNA design, but their generative capability remains underexplore...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
       "title": "De novo design of Ras isoform selective binders.",
       "url": "https://doi.org/10.1016/j.chembiol.2026.02.008",
       "source": "PubMed — Cell chemical biology",
       "one_liner": "The four major isoforms encoded by RAS proto-oncogenes are differentially associated with cancer, but there are few isoform-specific binding reagents becasue the sequence differences are confined to their disordered C termini. To overcome this limitation, we use deep learning-based methods to design Ras isoform-specific binders (RIBs) for all major Ras is...",
-      "segment": 7,
-      "timestamp": 559.53
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
       "title": "Multiscale conformational sampling of multidomain fusion proteins by a physics informed diffusion model",
       "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711061",
       "source": "bioRxiv — bioinformatics",
       "one_liner": "Multidomain fusion proteins, such as bispecific antibodies, rely on highly flexible linker regions for their therapeutic efficacy. Characterizing these vast conformational ensembles is crucial for rational drug design; however, while all-atom molecular dynamics (MD) is the traditional gold standard, its immense computational cost makes simulating large-sc...",
-      "segment": 8,
-      "timestamp": 611.25
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
-      "title": "Facilitating genome annotation using ANNEXA and long-read RNA sequencing",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.04.16.648718",
+      "title": "Cyclic peptides space: The methodology of sequence selection to cover the comprehensive physical properties",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710724",
       "source": "bioRxiv — bioinformatics",
-      "one_liner": "With the advent of complete genome assemblies, genome annotation has become essential for the functional interpretation of genomic data. Long-read RNA sequencing (LR-RNAseq) technologies have significantly improved transcriptome annotation by enabling full-length transcript reconstruction for both coding and non-coding RNAs. However, challenges such as tr...",
-      "segment": 9,
-      "timestamp": 754.76
+      "one_liner": "Cyclic peptides have emerged as a pivotal modality for next-generation therapeutics, due to their superior biocompatibility, high selectivity, and structural stability. While AI-driven peptide design has advanced rapidly, conventional optimization algorithms are often constrained by initialization biases, which impede the efficient exploration of the vast...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "DEX: a consensus-based amino acid exchangeability measure for improved codon substitution modelling",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.09.710665",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Physicochemically similar amino acids undergo more frequent substitutions compared to dissimilar amino acid pairs. Despite their clear potential, amino acid similarity matrices remain underused in molecular evolution, partially due to the high number of proposed amino acid distance measures and the lack of agreement on which are most accurate. In this stu...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "DiaReport: Reproducible Workflow for Differential Expression Analysis and Interactive Reporting in DIA-based Proteomics",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.707945",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "SummaryData-independent acquisition (DIA) has become the preferred data acquisition method for mass spectrometry-based proteomics, yet, reproducible workflows for differential expression (DE) analysis and reporting results remain limited. We present DiaReport, an R package that performs precursor- and protein-level DE analysis from DIA-NN output using MSq...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
       "title": "Evidence of off-target probe binding affecting 10x Genomics Xenium gene panels compromise accuracy of spatial transcriptomic profiling",
       "url": "https://www.biorxiv.org/content/10.1101/2025.03.31.646342",
       "source": "bioRxiv — bioinformatics",
       "one_liner": "The accuracy of spatial gene expression profiles generated by probe-based in situ spatially-resolved transcriptomic technologies depends on the specificity with which probes bind to their intended target gene. Off-target binding, defined as a probe binding to something other than the target gene, can distort a gene's true expression profile, making probe ...",
-      "segment": 10,
-      "timestamp": 911.55
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
-      "title": "SpliceSelectNet: A Hierarchical Transformer-Based Deep Learning Model for Splice Site Prediction",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.02.17.638749",
+      "title": "Facilitating genome annotation using ANNEXA and long-read RNA sequencing",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.04.16.648718",
       "source": "bioRxiv — bioinformatics",
-      "one_liner": "Accurate RNA splicing is essential for gene expression and protein function, yet the mechanisms governing splice site recognition remain incompletely understood. Aberrant splicing caused by mutations can lead to severe diseases, including cancer and genetic disorders, underscoring the need for accurate computational tools to predict splice sites and detec...",
-      "segment": 11,
-      "timestamp": 1029.82
+      "one_liner": "With the advent of complete genome assemblies, genome annotation has become essential for the functional interpretation of genomic data. Long-read RNA sequencing (LR-RNAseq) technologies have significantly improved transcriptome annotation by enabling full-length transcript reconstruction for both coding and non-coding RNAs. However, challenges such as tr...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
       "title": "Improving Local Ancestry Inference through Neural Networks",
       "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711082",
       "source": "bioRxiv — bioinformatics",
       "one_liner": "Motivation: Local Ancestry Inference (LAI) allows us to study evolutionary processes in admixed populations, uncover ancestry-specific disease risk factors, and to better understand the demographic history of these populations. Many methods for LAI exist, however, these methods usually focus on cases of intercontinental admixture. In this work, we evaluat...",
-      "segment": 12,
-      "timestamp": 1155.55
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "SpliceSelectNet: A Hierarchical Transformer-Based Deep Learning Model for Splice Site Prediction",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.02.17.638749",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Accurate RNA splicing is essential for gene expression and protein function, yet the mechanisms governing splice site recognition remain incompletely understood. Aberrant splicing caused by mutations can lead to severe diseases, including cancer and genetic disorders, underscoring the need for accurate computational tools to predict splice sites and detec...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "Directional Variant Tension (Tv): A Causal Framework for Quantifying Substitution Asymmetry",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710752",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Amino acid substitutions are often directionally asymmetric due to underlying biophysical constraints and diverse evolutionary pressures. We introduce Tv (variant tension), a kernel regression-based metric that quantifies this directional asymmetry directly from aligned multiple sequence alignments (MSAs). Tv leverages empirical amino acid frequencies and...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "GCN-Mamba: Graph Convolutional Network with Mamba for Antibacterial Synergy Prediction",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710738",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The escalating crisis of antimicrobial resistance necessitates novel therapeutic strategies, among which drug combination therapy shows great promise by enhancing efficacy and reducing toxicity. However, identifying effective synergistic pairs from the vast combinatorial space remains experimentally challenging and resource-intensive. To address this, we ...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "Evaluating transformer-based models for structural characterization of orphan proteins",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.709490",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "MotivationTransformer-based models (TBMs) are state-of-the-art deep learning architectures that predict protein structural features with high accuracy. Despite methodological differences, they all rely on large protein sequence datasets structured by homology, as homologous proteins typically share similar structures. However, 5-30% of eukaryotic proteome...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "Joint Geometric--Chemical Distance for Protein Surfaces",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710722",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein function is executed at the molecular surface, where shape and chemistry act together to govern interaction. Yet most comparison methods treat these aspects separately, privileging either global fold or local descriptors and missing their coupled organization. Here we introduce IFACE (Intrinsic Field--Aligned Coupled Embedding), a correspondence-b...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
       "title": "GMC-DMA: GNN-Mamba Co-Contrastive Optimization for Disease-Metabolite Association Prediction.",
       "url": "https://doi.org/10.1007/s12539-026-00819-6",
       "source": "PubMed — Interdisciplinary sciences, computational life sciences",
       "one_liner": "As a product of cellular metabolic activity, the level change of metabolites is closely related to the occurrence and development of diseases, so the prediction of metabolite-disease association is a key issue in biomedical research. Traditional methods face the challenges of insufficient long-range dependency modeling and poor interpretability. To addres...",
-      "segment": 13,
-      "timestamp": 1204.63
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
       "title": "Top brass in China reaffirm goal to be world leaders in tech, AI",
       "url": "https://www.nature.com/articles/d41586-026-00814-3",
       "source": "Nature (main journal)",
       "one_liner": "Nature, Published online: 14 March 2026; doi:10.1038/d41586-026-00814-3 The new five-year plan calls for more original scientific research to facilitate the country's bid for self-reliance.",
-      "segment": 14,
-      "timestamp": 1363.38
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
-      "title": "Conservation of extended sequence and structure in the branchpoint-to-3' splice site region upstream of neural microexons",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.699960",
+      "title": "Impact of solvent forces and broken symmetry on the assembly of designed proteins at a liquid-solid interface.",
+      "url": "https://doi.org/10.1038/s41467-026-69170-0",
+      "source": "PubMed — Nature communications",
+      "one_liner": "The era of protein design has enabled the creation of hybrid protein-inorganic interfaces, leading to both surface-directed self-assembly of de novo protein architectures and protein-directed formation of inorganic materials. However, the resulting patterns of protein assembly are often unexpected, implying that essential interactions are not accounted fo...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "A genus-wide interaction atlas across NS4B orthologues identifies a conserved role for UFMylation in orthoflavivirus replication.",
+      "url": "https://doi.org/10.1038/s41467-026-70437-9",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Orthoflavivirus infections represent an increasing public health burden, with several members of the genus emerging or re-emerging globally. Several pre-clinical studies identified the non-structural protein 4B (NS4B), as the most promising target for the development of potent direct-acting antivirals. However, its functional roles in viral replication ar...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "Design of miniprotein inhibitors targeting complement C9 to block membrane attack complex assembly.",
+      "url": "https://doi.org/10.1038/s41467-026-70667-x",
+      "source": "PubMed — Nature communications",
+      "one_liner": "The abnormal formation of the membrane attack complex (MAC) is intrinsically linked to a range of acute and chronic immune diseases. The insertion of complement C9 into the membrane is the final step and kinetic bottleneck of MAC formation. However, research on blocking the MAC formation of C9 is currently limited. Given its broad, flat, and polar functio...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
+    },
+    {
+      "title": "Di-codon organization links tRNA modifications to cancer cell proteome composition",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710911",
       "source": "bioRxiv — molecular biology",
-      "one_liner": "Microexons are short exons that are highly conserved in vertebrates and are essential for neurodevelopment. Their small size poses a challenge for regulatory protein binding and exon-definition splice site recognition, which typically relies on standard length exons. Here, we determine the sequence and RNA structural features of neural microexons in human...",
-      "segment": 15,
-      "timestamp": 1515.4
+      "one_liner": "Hormone-signalling modulates levels of tRNA-modifying enzymes, including ELP3, in cancer cells. Here we show that ELP3 is required to sustain proliferation in prostate cancer cells. Intriguingly, although ELP3 modifies tRNA at the U34-position, the ELP3-sensitive proteome was poorly explained by frequencies of codons requiring U34-modified tRNA for decodi...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
       "title": "The spike tip protein of bacteriophage T4",
       "url": "https://www.biorxiv.org/content/10.1101/2025.08.28.672839",
       "source": "bioRxiv — molecular biology",
       "one_liner": "Contractile injection systems (CISs) - bacteriophage tails, tailocins, and bacterial type VI secretion systems - penetrate the envelope of the target cell by employing a contractile sheath-rigid tube mechanism. The membrane-attacking end of the tube carries a spike-shaped complex that ends with a spike tip. In bacteriophage P2, the spike and spike tip pro...",
-      "segment": 16,
-      "timestamp": 1572.2
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
-      "title": "The archaeal roots of eukaryotic life.",
-      "url": "https://doi.org/10.1073/pnas.2516062123",
-      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
-      "one_liner": "Resolving the biological and geological events that led to the origin of eukaryotes is an ongoing challenge in biology. A major step in the evolution of complex cellular life was the merger between an ancestral host cell and a bacterium (that became the mitochondrion) some two billion years ago. Recently, metagenomics has enabled the reconstruction of a b...",
-      "segment": 17,
-      "timestamp": 1623.99
+      "title": "Modulation of the internal dynamics of the Homer1 EVH1 domain by putative autism-associated mutations",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.17.694870",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "The EVH1 domain of the Homer1 scaffold protein interacts with the proline-rich region of Shank3, forming a key network within the postsynaptic density. Two mutations in EVH1, M65I and S97L, were suggested to be associated with autism spectrum disorder. Combining experimental and computational investigations, we show here that neither the overall structure...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
-      "title": "Phytochemical profiling of Vitex negundo seeds via UHPLC-QTOF-MS/MS analyses with antimicrobial evaluation and in silico targeting of DNA Gyrase B and Secreted Aspartic Proteinase 2 (SAP2).",
-      "url": "https://doi.org/10.1371/journal.pone.0343965",
-      "source": "PubMed — PloS one",
-      "one_liner": "The present study reports the metabolic profiling and antimicrobial evaluation of Vitex negundo seed extract. UHPLC-QTOF-MS/MS analysis identified seventeen bioactive phytoconstituents, correlated with the observed antimicrobial and antifungal activities. Among them, isoorientin (-7.3 kcal mol ⁻ ¹), quercetin (-7.8 kcal mol ⁻ ¹), and orientin (-7.4 kcal m...",
-      "segment": 18,
-      "timestamp": 1663.82
+      "title": "Conservation of extended sequence and structure in the branchpoint-to-3' splice site region upstream of neural microexons",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.699960",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Microexons are short exons that are highly conserved in vertebrates and are essential for neurodevelopment. Their small size poses a challenge for regulatory protein binding and exon-definition splice site recognition, which typically relies on standard length exons. Here, we determine the sequence and RNA structural features of neural microexons in human...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
-      "title": "Elucidating the mechanistic association of xylene inducing non-small cell lung cancer through network toxicology and molecular docking analysis.",
-      "url": "https://doi.org/10.1371/journal.pone.0341548",
-      "source": "PubMed — PloS one",
-      "one_liner": "Xylene is a common industrial solvent that includes three isomers: o-xylene, m-xylene, and p-xylene. Long-term exposure to low doses of xylene in the environment has been linked to a higher risk of lung cancer. However, the molecular mechanisms behind this link are still not fully understood. In this study, we used a combination of network toxicology and ...",
-      "segment": 19,
-      "timestamp": 1798.2
+      "title": "Coiled-coil homo-oligomerization and disaggregase Hsp104 act in parallel to stabilize orphan septins",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.09.710472",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "In most eukaryotes multiple septin family proteins co-assemble with strict subunit stoichiometry into hetero-oligomers that polymerize into cytoskeletal filaments. In the absence of native septin partners, purified septins aggregate in vitro, and \"orphan\" septins are found in pathological aggregates associated with neurodegenerative diseases. Conserved cy...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
-      "title": "Development of a BM7G((TKO/hCD46/hCD55/hTHBD/hEPCR) Donor Pig with Endogenous Promoter-Driven Transgenes for Xenotransplantation",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710833",
-      "source": "bioRxiv — immunology",
-      "one_liner": "Xenotransplantation offers a potential solution to the organ shortage crisis. Multi-gene modification of pigs, such as knockout of three carbohydrate antigen-related genes and expression of immunoprotective proteins, can significantly improve xenograft survival. However, existing strategies face challenges: transposon-based transgenesis may lead to unstab...",
-      "segment": 20,
-      "timestamp": 1928.82
+      "title": "Molecular mechanism of coilin interaction with core snRNPs",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710772",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Cajal bodies (CBs) are nuclear membrane-less organelles that accumulate various short non-coding RNAs and facilitate their biogenesis. They also function in quality control during the assembly of small nuclear ribonucleoprotein particles (snRNPs), sequestering immature or defective complexes. In this paper, we show that coilin, the key scaffolding protein...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     },
     {
-      "title": "Spike Antibody Fc Drives Protection from SARS-CoV-2 Challenge in Macaques",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.13.711527",
-      "source": "bioRxiv — immunology",
-      "one_liner": "A definitive correlate of protection (CoP) for SARS-CoV-2 has yet to be formally established. Previously, using data from a series of non-human primate vaccine challenge studies, we reported that neutralising antibodies (NAbs) are the strongest candidate for clinical protection against COVID-19 and that spike binding antibody is the strongest candidate Co...",
-      "segment": 21,
-      "timestamp": 2140.93
-    },
-    {
-      "title": "Sustained Delivery of a Shingles Subunit Vaccine Overcomes Age-Related Declines in Humoral and Cellular Immunity Relative to Shingrix",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711122",
-      "source": "bioRxiv — immunology",
-      "one_liner": "The global aging population faces heightened vulnerability to infectious diseases due to immunosenescence, which diminishes the potency, durability, and breadth of vaccine-induced immunity. While the leading shingles vaccine, Shingrix, provides protection against herpes zoster virus for adults aged 50 and older, it is often associated with severe local an...",
-      "segment": 22,
-      "timestamp": 2266.66
-    },
-    {
-      "title": "Weaker neuroligin 2-neurexin β1 interaction tethers membranes and recruits gephyrin at membrane junctions through clustering.",
-      "url": "https://doi.org/10.1126/sciadv.ads9732",
-      "source": "PubMed — Science advances",
-      "one_liner": "Single-pass transmembrane proteins neuroligin (NL) and neurexin (NRX) constitute a pair of synaptic adhesion molecules that are essential for the formation of functional synapses. Binding affinities vary by ~1000-fold between combinations of NL and NRX subtypes, which contribute to chemical and spatial specificities. Among major NL-NRX subtypes, NL2 and N...",
-      "segment": 23,
-      "timestamp": 2317.47
-    },
-    {
-      "title": "Disrupting USP14-mediated PARP1 dynamics reinstates MIC-A/B-driven antigen-independent CD8",
-      "url": "https://doi.org/10.1126/sciadv.aeb3800",
-      "source": "PubMed — Science advances",
-      "one_liner": "Antigen loss is a major mechanism of resistance to immunotherapy. MIC-A/B are stress-inducible ligands expressed by tumor cells that activate NKG2D on cytotoxic immune cells and mediate NKG2D-dependent tumor cell killing, yet the mechanisms underlying their reduced expression in glioma remain unclear. Using single-cell RNA sequencing and spatial transcrip...",
-      "segment": 24,
-      "timestamp": 2364.43
-    },
-    {
-      "title": "Deep coverage and extended sequence reads obtained with a single archaeal protease expedite de novo protein sequencing by mass spectrometry.",
-      "url": "https://doi.org/10.1016/j.cels.2026.101536",
-      "source": "PubMed — Cell systems",
-      "one_liner": "The ability to sequence proteins without reliance on a genomic template defines a critical frontier in proteomics. This approach, known as de novo protein sequencing, is essential for applications in antibody sequencing, microbiome proteomics, and antigen discovery, which require accurate reconstruction of target sequences. To advance this field, we here ...",
-      "segment": 25,
-      "timestamp": 2423.3
-    },
-    {
-      "title": "MAESD: A Unified Multi-Agent Evolutionary Framework for Protein Sequence Design.",
-      "url": "https://doi.org/10.1021/acs.jcim.5c02580",
-      "source": "PubMed — Journal of chemical information and modeling",
-      "one_liner": "Traditional computational protein design heavily relies on expert-level biological inputs to define structural and functional constraints, posing significant barriers in terms of technical implementation and workflow construction. To address this gap, we capitalize on recent advancements in large language models (LLMs)─which excel at complex reasoning in ...",
-      "segment": 26,
-      "timestamp": 2477.7
-    },
-    {
-      "title": "An essential dynamics-based elastic network model to unravel the conformational dynamics of DNA, RNA, and protein-nucleic acid complexes",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.710985",
-      "source": "bioRxiv — biophysics",
-      "one_liner": "The flexibility of DNA and RNA is known to play a central role in numerous biological processes, including chromatin organization and gene regulation. While a wide range of computational approaches have been developed to investigate the conformational dynamics and flexibility of proteins, analogous methods for nucleic acids remain comparatively underexplo...",
-      "segment": 27,
-      "timestamp": 2537.2
-    },
-    {
-      "title": "In silico peptide self‐assembly reveals the importance of N‐terminal motifs and the inhibition mechanism of the mutation L38M in α‐synuclein fibrillation",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70530?af=R",
-      "source": "Protein Science",
-      "one_liner": "Protein Science, Volume 35, Issue 4, April 2026.",
-      "segment": 28,
-      "timestamp": 2596.98
-    },
-    {
-      "title": "The Performance of Artificial Intelligence in Classifying Molecular Markers in Adult-Type Gliomas Using Histopathological Images: Systematic Review.",
-      "url": "https://doi.org/10.2196/78377",
-      "source": "PubMed — Journal of medical Internet research",
-      "one_liner": "BACKGROUND: Adult-type gliomas are among the most prevalent and lethal primary central nervous system tumors, where prompt and accurate diagnosis is essential for maximizing survival prospects. Molecular classification, particularly the detection of isocitrate dehydrogenase (IDH) mutations and 1p/19q codeletions, has become crucial for accurate diagnosis ...",
-      "segment": 29,
-      "timestamp": 2650.88
-    },
-    {
-      "title": "Effectiveness of Inactivated COVID-19 Vaccination Against COVID-19-Related Hospitalization and Severe Outcomes in Adults ≥80 Years During Omicron Circulation in Beijing, China: Retrospective Cohort Study.",
-      "url": "https://doi.org/10.2196/82915",
-      "source": "PubMed — JMIR public health and surveillance",
-      "one_liner": "BACKGROUND: A large wave of COVID-19 caused by SARS-CoV-2 Omicron subvariants began in Beijing in early December 2022. OBJECTIVE: This study aimed to evaluate the COVID-19 vaccine effectiveness (VE) in mitigating the risk of COVID-19-related hospitalization during the epidemic. METHODS: We conducted a retrospective cohort study linking regional health car...",
-      "segment": 30,
-      "timestamp": 2767.2
-    },
-    {
-      "title": "Free energy perturbations in enzyme kinetic models reveal cryptic epistasis.",
-      "url": "https://doi.org/10.1371/journal.pcbi.1013493",
-      "source": "PubMed — PLoS computational biology",
-      "one_liner": "Epistasis-the context-dependence of mutational effects-is a key driver of protein evolution, influencing adaptive pathways and functional diversity. While specific epistasis arises from direct physical interactions between mutations, non-specific epistasis emerges when a non-linear mapping links a protein's biophysical properties to its function. Enzyme k...",
-      "segment": 31,
-      "timestamp": 2902.17
-    },
-    {
-      "title": "DNA origami vaccine nanoparticles improve humoral and cellular immune responses to infectious diseases.",
-      "url": "https://doi.org/10.1038/s41551-026-01614-w",
-      "source": "PubMed — Nature biomedical engineering",
-      "one_liner": "Current SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccines have shown robust induction of neutralizing antibodies and CD4",
-      "segment": 32,
-      "timestamp": 3065.06
-    },
-    {
-      "title": "Evaluation of mixed response in tumor size and survival in patients with rare cancers treated with dual checkpoint inhibitor therapy (DART SWOG S1609).",
-      "url": "https://doi.org/10.1136/jitc-2025-013260",
-      "source": "PubMed — Journal for immunotherapy of cancer",
-      "one_liner": "BACKGROUND: Mixed response, where different lesions within the same patient show discordant responses to treatment, remains poorly understood. To better understand the complex effects of mixed response on patient survival, we devised three different definitions of mixed response. This retrospective analysis provides the first evaluation of the association...",
-      "segment": 33,
-      "timestamp": 3229.02
-    },
-    {
-      "title": "EffectorFisher: association of disease phenotype with pangenomic protein-isoform profiles for improved prediction of fungal pathogenicity effectors.",
-      "url": "https://doi.org/10.1038/s41598-026-43646-x",
-      "source": "PubMed — Scientific reports",
-      "one_liner": "Plant-pathogenic fungi cause crop disease via a range of secreted effector proteins that interact with specific receptors of host plant cells. Effector identification can enable the diagnosis of disease outcomes and enable selection or breeding of disease-resistant crop cultivars. Bioinformatic methods have been developed to predict proteins with 'effecto...",
-      "segment": 34,
-      "timestamp": 3350.6
-    },
-    {
-      "title": "Determinants of untimely receipt and non-receipt of routine childhood immunisation in Ebonyi state based on the Adapted Omale INDEPT FORCIS Framework and recommendations for policy and practice: a qualitative study.",
-      "url": "https://doi.org/10.1136/bmjopen-2025-105991",
-      "source": "PubMed — BMJ open",
-      "one_liner": "OBJECTIVES: The significant morbidity and mortalities from, and the recurrent outbreaks of, the vaccine-preventable infectious diseases (VPDs) of childhood could be due not only to non-receipt of recommended vaccinations but also to untimely receipt, which impairs the validity of immunisation coverage and protection against VPDs. This study explored the d...",
-      "segment": 35,
-      "timestamp": 3465.68
-    },
-    {
-      "title": "Interim Estimates of 2025-26 Seasonal Influenza Vaccine Effectiveness - California, October 2025-January 2026.",
-      "url": "https://doi.org/10.15585/mmwr.mm7509a3",
-      "source": "PubMed — MMWR. Morbidity and mortality weekly report",
-      "one_liner": "Interim estimates of state-level influenza vaccine effectiveness (VE) can help guide timely local public health actions for prevention and treatment of influenza. Linked influenza vaccination and public health influenza surveillance data from California allowed estimation of interim influenza VE by comparing the odds of seasonal influenza vaccination amon...",
-      "segment": 36,
-      "timestamp": 3628.49
-    },
-    {
-      "title": "Interim Estimates of 2025-26 Seasonal Influenza Vaccine Effectiveness - United States, September 2025-February 2026.",
-      "url": "https://doi.org/10.15585/mmwr.mm7509a2",
-      "source": "PubMed — MMWR. Morbidity and mortality weekly report",
-      "one_liner": "In the United States, annual influenza vaccination has been recommended for all persons aged ≥6 months, including during the 2025-26 season. Interim influenza vaccine effectiveness (VE) estimates were calculated for patients with acute respiratory illness-associated outpatient visits and hospitalizations from three U.S. respiratory virus VE networks durin...",
-      "segment": 37,
-      "timestamp": 3753.81
-    },
-    {
-      "title": "CTFacTomo: Reconstructing 3D spatial structures of RNA tomography transcriptomes by collapsed tensor factorization.",
-      "url": "https://doi.org/10.1371/journal.pcbi.1013457",
-      "source": "PubMed — PLoS computational biology",
-      "one_liner": "Cells are organized to form three-dimensional structures of complex tissues. To map the complete 3D organization of a tissue, technologies based on tissue microdissections provide deep bulk RNA sequencing of orthographically arranged cryosections of a tissue, such that the full 3D spatial structure could be inferred from deeply sequenced transcriptomes in...",
-      "segment": 38,
-      "timestamp": 3875.01
-    },
-    {
-      "title": "De novo molecular structure elucidation from mass spectra via flow matching",
-      "url": "https://arxiv.org/abs/2602.19912",
+      "title": "EvoFlows: Evolutionary Edit-Based Flow-Matching for Protein Engineering",
+      "url": "https://arxiv.org/abs/2603.11703",
       "source": "arXiv cs.LG (AI/ML)",
-      "one_liner": "arXiv:2602.19912v2 Announce Type: replace \nAbstract: Mass spectrometry is a powerful and widely used tool for identifying molecular structures due to its sensitivity and ability to profile complex samples. However, translating spectra into full molecular structures is a difficult, under-defined inverse problem. Overcoming this problem is crucial for enabl...",
-      "segment": 39,
-      "timestamp": 3994.96
+      "one_liner": "arXiv:2603.11703v1 Announce Type: new \nAbstract: We introduce EvoFlows, a variable-length sequence-to-sequence protein modeling approach uniquely suited to protein engineering. Unlike autoregressive and masked language models, EvoFlows perform a limited, controllable number of insertions, deletions, and substitutions on a template protein sequence. In oth...",
+      "segment": -1,
+      "timestamp": -1,
+      "featured": false
     }
   ]
 }

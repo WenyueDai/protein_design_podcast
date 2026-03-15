@@ -307,16 +307,21 @@ def main() -> int:
         )
     else:
         items: List[Dict[str, Any]] = []
-        _rss_sources = list(cfg["rss_sources"])
+        _rss_sources = [s for s in cfg["rss_sources"] if s.get("enabled", True)]
         _extra_rss_file = state_dir / "extra_rss_sources.json"
         if _extra_rss_file.exists():
             try:
                 _extra = json.loads(_extra_rss_file.read_text(encoding="utf-8"))
                 if _extra:
-                    print(f"[rss] Merging {len(_extra)} extra source(s) from extra_rss_sources.json", flush=True)
-                    _rss_sources = _rss_sources + _extra
+                    _extra_enabled = [s for s in _extra if s.get("enabled", True)]
+                    if _extra_enabled:
+                        print(f"[rss] Merging {len(_extra_enabled)} extra source(s) from extra_rss_sources.json", flush=True)
+                    _rss_sources = _rss_sources + _extra_enabled
             except Exception:
                 pass
+        _rss_disabled = sum(1 for s in cfg["rss_sources"] if not s.get("enabled", True))
+        if _rss_disabled:
+            print(f"[rss] Skipping {_rss_disabled} disabled source(s) (enabled: false)", flush=True)
         rss_items = collect_rss_items(_rss_sources, tz=tz, lookback_hours=lookback_hours, now_ref=run_anchor)
         collector_counts["rss"] = len(rss_items)
         items.extend(rss_items)
@@ -405,9 +410,28 @@ def main() -> int:
         max_workers = int(cfg.get("fetch_workers", 8))
         analysis_model = cfg.get("llm", {}).get("analysis_model") or cfg.get("llm", {}).get("model")
 
+        _fetch_s2_api_key = os.environ.get("S2_API_KEY", "").strip()
+
         def _fetch_and_analyze(it: Dict[str, Any]) -> Dict[str, Any]:
             url = (it.get("url") or "").strip()
+            title = (it.get("title") or "").strip()
             body = extract_article_text(url)
+            # S2 PDF fallback: if primary extraction is thin and we have an S2 API
+            # key, resolve the paper ID and attempt to fetch the open-access PDF.
+            if len(body) < 500 and _fetch_s2_api_key:
+                try:
+                    from src.collectors.semantic_scholar import resolve_paper_id, get_open_access_pdf_url
+                    from src.collectors.semantic_scholar import _extract_pdf_text as _s2_extract_pdf
+                    paper_id = resolve_paper_id(url, title, _fetch_s2_api_key)
+                    if paper_id:
+                        pdf_url = get_open_access_pdf_url(paper_id, _fetch_s2_api_key)
+                        if pdf_url:
+                            s2_text = _s2_extract_pdf(pdf_url)
+                            if len(s2_text) > len(body):
+                                body = s2_text
+                                it["s2_paper_id"] = paper_id
+                except Exception:
+                    pass
             it["extracted_chars"] = len(body or "")
             it["has_fulltext"] = bool(body and len(body) > 1500)
             it["analysis"] = analyze_article(url, body, model=analysis_model)
