@@ -457,6 +457,11 @@
       "note": "DD",
       "title": "ET-Pfam: Ensemble transfer learning for protein family prediction.",
       "source": "PubMed — Bioinformatics (Oxford, England)"
+    },
+    "https://www.nature.com/articles/s41467-026-70553-6": {
+      "note": "DD",
+      "title": "Mining antibody functionality via AI-guided structural landscape profiling",
+      "source": "Nature - Antibodies"
     }
   }
 }
