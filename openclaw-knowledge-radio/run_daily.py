@@ -543,8 +543,27 @@ def main() -> int:
             # Fetch S2 recommendations based on featured paper IDs
             featured_paper_ids = [it["s2_paper_id"] for it in featured_items if it.get("s2_paper_id")]
             if featured_paper_ids:
-                print(f"[s2] Fetching recommendations for {len(featured_paper_ids)} featured papers…", flush=True)
-                _s2_recommendations = fetch_recommendations(featured_paper_ids, api_key=_s2_api_key)
+                # Load disliked paper S2 IDs for negative examples in recommendations
+                _disliked_ids: list = []
+                _disliked_file = state_dir / "disliked.json"
+                if _disliked_file.exists():
+                    try:
+                        import re as _re2
+                        _disliked_data = json.loads(_disliked_file.read_text(encoding="utf-8"))
+                        for _entries in _disliked_data.values():
+                            for _e in (_entries or []):
+                                _url = (_e.get("url") or "") if isinstance(_e, dict) else str(_e)
+                                # Fast path: S2 URL contains paper ID directly
+                                _m = _re2.search(r"semanticscholar\.org/paper/([a-f0-9]{40})", _url)
+                                if _m:
+                                    _disliked_ids.append(_m.group(1))
+                    except Exception:
+                        pass
+                print(f"[s2] Fetching recommendations for {len(featured_paper_ids)} featured papers"
+                      f" ({len(_disliked_ids)} negative examples)…", flush=True)
+                _s2_recommendations = fetch_recommendations(
+                    featured_paper_ids, api_key=_s2_api_key, negative_ids=_disliked_ids
+                )
                 print(f"[s2] Got {len(_s2_recommendations)} recommendations.", flush=True)
         except Exception as _s2_ft_err:
             print(f"[s2] Warning: full-text enrichment failed — {_s2_ft_err}", flush=True)

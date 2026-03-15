@@ -349,11 +349,15 @@ def fetch_recommendations(
     paper_ids: List[str],
     api_key: str,
     limit: int = 10,
+    negative_ids: Optional[List[str]] = None,
 ) -> List[Dict]:
     """
     Call the S2 Recommendations API with today's featured papers as positive
-    examples.  Returns up to `limit` related papers S2 thinks are similar but
-    that the pipeline didn't collect today.
+    examples and optionally disliked papers as negative examples.
+
+    negative_ids: S2 paper IDs from state/disliked.json — papers marked
+      "not interested" on the site, used to steer recommendations away from
+      unrelated topics.
 
     API: POST https://api.semanticscholar.org/recommendations/v1/papers/
     """
@@ -368,9 +372,10 @@ def fetch_recommendations(
         "fields": "paperId,title,authors,year,abstract,externalIds,citationCount",
         "limit": limit,
     }
-    # TODO: pass disliked paper IDs as negativePaperIds once a "not interested"
-    # button is added to the site and writes to state/disliked.json
-    body = {"positivePaperIds": paper_ids, "negativePaperIds": []}
+    body = {
+        "positivePaperIds": paper_ids,
+        "negativePaperIds": (negative_ids or [])[:50],  # API cap
+    }
 
     try:
         time.sleep(_DELAY)

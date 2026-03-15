@@ -469,6 +469,12 @@ def render_index(episodes, all_episodes=None):
                     f'{source_part}'
                     f'</span>'
                     f'</label>'
+                    f'<input type="checkbox" class="dislike-cb"'
+                    f' data-url="{html.escape(raw_url)}"'
+                    f' data-date="{date}"'
+                    f' data-source="{html.escape(raw_source)}"'
+                    f' data-title="{html.escape(raw_title[:120])}"'
+                    f' title="Not interested — hide from recommendations">'
                     f'</div>'
                     f'{summary_part}{note_part}</li>'
                 )
@@ -638,6 +644,8 @@ audio {{ width:100%; margin:0; }}
 .item-title a {{ color:inherit; }}
 .star-cb {{ accent-color:var(--accent); width:14px; height:14px; flex-shrink:0; cursor:pointer; display:none; }}
 .owner-mode .star-cb {{ display:inline-block; }}
+.dislike-cb {{ accent-color:#e06c75; width:14px; height:14px; flex-shrink:0; cursor:pointer; display:none; margin-left:2px; }}
+.owner-mode .dislike-cb {{ display:inline-block; }}
 .num {{ color:var(--muted); font-size:.72rem; font-weight:600; min-width:24px; flex-shrink:0; opacity:.75; padding-top:2px; }}
 .num.seekable {{ color:var(--muted); cursor:pointer; }}
 .num.seekable:hover {{ text-decoration:underline; }}
@@ -901,8 +909,9 @@ audio {{ width:100%; margin:0; }}
         </details>
         <div class="owner-feedback">
           <strong>Feedback:</strong>
-          <span id="sel-count">0 checked</span> &nbsp;
-          <button onclick="saveFeedback()">Save to GitHub</button>
+          <span id="sel-count">0 liked &middot; 0 skipped</span> &nbsp;
+          <button onclick="saveFeedback()">&#9733; Save liked</button>
+          <button class="sec" onclick="saveDisliked()">&#10007; Save not interested</button>
           <button class="sec" onclick="openSettings()">&#9881; Settings</button>
           <span id="fb-status"></span>
         </div>
@@ -946,12 +955,16 @@ audio {{ width:100%; margin:0; }}
 <script>
 // ── Restore checkbox states from localStorage ──────────────────────────────
 function storageKey(date) {{ return 'feedback_' + date; }}
+function dislikeKey(date) {{ return 'dislike_' + date; }}
 
 function loadCheckboxes() {{
   document.querySelectorAll('.star-cb').forEach(cb => {{
-    const date = cb.dataset.date, url = cb.dataset.url;
-    const saved = JSON.parse(localStorage.getItem(storageKey(date)) || '[]');
-    if (saved.includes(url)) cb.checked = true;
+    const saved = JSON.parse(localStorage.getItem(storageKey(cb.dataset.date)) || '[]');
+    if (saved.includes(cb.dataset.url)) cb.checked = true;
+  }});
+  document.querySelectorAll('.dislike-cb').forEach(cb => {{
+    const saved = JSON.parse(localStorage.getItem(dislikeKey(cb.dataset.date)) || '[]');
+    if (saved.includes(cb.dataset.url)) cb.checked = true;
   }});
   updateCount();
 }}
@@ -965,15 +978,24 @@ function saveCheckboxes() {{
   for (const [date, urls] of Object.entries(byDate)) {{
     localStorage.setItem(storageKey(date), JSON.stringify(urls));
   }}
+  const dByDate = {{}};
+  document.querySelectorAll('.dislike-cb').forEach(cb => {{
+    if (!dByDate[cb.dataset.date]) dByDate[cb.dataset.date] = [];
+    if (cb.checked) dByDate[cb.dataset.date].push(cb.dataset.url);
+  }});
+  for (const [date, urls] of Object.entries(dByDate)) {{
+    localStorage.setItem(dislikeKey(date), JSON.stringify(urls));
+  }}
   updateCount();
 }}
 
 function updateCount() {{
-  const n = document.querySelectorAll('.star-cb:checked').length;
-  document.getElementById('sel-count').textContent = n + ' checked';
+  const liked = document.querySelectorAll('.star-cb:checked').length;
+  const skipped = document.querySelectorAll('.dislike-cb:checked').length;
+  document.getElementById('sel-count').textContent = liked + ' liked \u00b7 ' + skipped + ' skipped';
 }}
 
-document.querySelectorAll('.star-cb').forEach(cb => {{
+document.querySelectorAll('.star-cb, .dislike-cb').forEach(cb => {{
   cb.addEventListener('change', saveCheckboxes);
 }});
 
@@ -1385,6 +1407,60 @@ async function saveFeedback() {{
     }});
     if (put.ok) {{
       setStatus('✓ Saved! Ranking will improve from tomorrow.');
+    }} else {{
+      const err = await put.json();
+      setStatus('Error: ' + (err.message || put.status));
+    }}
+  }} catch(e) {{ setStatus('Error: ' + e.message); }}
+}}
+
+// ── Save "not interested" to GitHub (feeds S2 Recommendations negative examples) ──
+async function saveDisliked() {{
+  const token = localStorage.getItem('gh_token') || '';
+  const repo  = localStorage.getItem('gh_repo')  || '{html.escape("WenyueDai/protein_design_podcast")}';
+  if (!token) {{ openSettings(); return; }}
+
+  const selections = {{}};
+  document.querySelectorAll('.dislike-cb:checked').forEach(cb => {{
+    if (!selections[cb.dataset.date]) selections[cb.dataset.date] = [];
+    selections[cb.dataset.date].push({{
+      url: cb.dataset.url,
+      source: cb.dataset.source || '',
+      title: cb.dataset.title || '',
+    }});
+  }});
+  if (!Object.keys(selections).length) {{ setStatus('No papers marked as not interested.'); return; }}
+
+  setStatus('Saving…');
+  const path = 'openclaw-knowledge-radio/state/disliked.json';
+  const apiBase = 'https://api.github.com/repos/' + repo;
+  const headers = {{
+    'Authorization': 'Bearer ' + token,
+    'Accept': 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28',
+    'Content-Type': 'application/json',
+  }};
+
+  try {{
+    let existing = {{}}, sha = null;
+    const get = await fetch(apiBase + '/contents/' + path, {{headers}});
+    if (get.ok) {{
+      const meta = await get.json();
+      sha = meta.sha;
+      existing = JSON.parse(decodeURIComponent(escape(atob(meta.content.replace(/\\n/g,'')))));
+    }}
+    for (const [date, entries] of Object.entries(selections)) {{
+      const prev = existing[date] || [];
+      existing[date] = [...new Set([...prev, ...entries])];
+    }}
+    const body = {{ message: 'Update disliked ' + new Date().toISOString().slice(0,10),
+                    content: btoa(unescape(encodeURIComponent(JSON.stringify(existing, null, 2)))) }};
+    if (sha) body.sha = sha;
+    const put = await fetch(apiBase + '/contents/' + path, {{
+      method: 'PUT', headers, body: JSON.stringify(body)
+    }});
+    if (put.ok) {{
+      setStatus('✓ Saved. Recommendations will improve from tomorrow.');
     }} else {{
       const err = await put.json();
       setStatus('Error: ' + (err.message || put.status));
