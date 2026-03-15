@@ -442,6 +442,11 @@
       "note": "DD",
       "title": "Limits of deep-learning-based RNA prediction methods",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.11.711222": {
+      "note": "DD",
+      "title": "ACENet: a graph neural network for predicting enzyme pHmin using structure and sequence insights",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
