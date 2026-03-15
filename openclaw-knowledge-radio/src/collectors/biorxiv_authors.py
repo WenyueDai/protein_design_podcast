@@ -204,9 +204,11 @@ def collect_biorxiv_author_items(cfg: Dict[str, Any]) -> List[Dict[str, Any]]:
                 continue
 
             # Category filter — if allowed_categories is set, paper must be in one of them.
+            # Normalize hyphens/underscores so "molecular-biology" matches "molecular biology".
             if allowed_cats:
-                paper_cat = (paper.get("category") or "").lower().strip()
-                if paper_cat not in allowed_cats:
+                paper_cat = (paper.get("category") or "").lower().strip().replace("-", " ").replace("_", " ")
+                allowed_cats_norm = [c.replace("-", " ").replace("_", " ") for c in allowed_cats]
+                if paper_cat not in allowed_cats_norm:
                     topic_rejects[name] = topic_rejects.get(name, 0) + 1
                     continue
 

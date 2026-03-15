@@ -630,7 +630,7 @@ biorxiv_authors:
     # ── Johns Hopkins / Gray ─────────────────────────────────────────────────
     - name: "Jeffrey Gray"
       match: "Gray, J"
-      allowed_categories: ["biochemistry", "bioinformatics", "biophysics", "molecular-biology", "synthetic-biology"]
+      allowed_categories: ["biochemistry", "bioinformatics", "biophysics", "synthetic-biology"]
     # ── Northwestern / Rocklin ───────────────────────────────────────────────
     - name: "Gabriel Rocklin"
       match: "Rocklin, G"
