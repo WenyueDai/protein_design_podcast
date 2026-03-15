@@ -437,7 +437,7 @@ def render_index(episodes, all_episodes=None):
                     f'<span class="note-status"></span>'
                     f'</div></div></div>'
                 )
-                is_featured = it.get("featured", True)
+                is_featured = it.get("highlighted", it.get("featured", True))
                 li_cls = "" if is_featured else ' class="not-featured"'
                 rows.append(
                     f'<li{li_cls} data-url="{html.escape(raw_url)}" data-date="{date}"'
