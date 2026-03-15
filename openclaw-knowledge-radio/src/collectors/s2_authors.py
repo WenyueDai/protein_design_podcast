@@ -25,6 +25,19 @@ S2_BASE = "https://api.semanticscholar.org/graph/v1"
 _DELAY = 0.2    # ~5 req/s with API key; conservative to avoid 429s
 _PAPER_FIELDS = "title,abstract,year,publicationDate,externalIds,url"
 
+# At least one of these must appear in title+abstract for a paper to be kept.
+# Catches off-topic papers from researchers who publish across multiple fields.
+_RELEVANCE_KEYWORDS = {
+    "protein", "peptide", "enzyme", "antibody", "antigen", "nanobody",
+    "amino acid", "residue", "fold", "folding", "structure", "binding",
+    "ligand", "receptor", "drug", "therapeutic", "sequence", "mutation",
+    "design", "generative", "diffusion", "language model", "transformer",
+    "rna", "dna", "nucleic", "genomic", "molecular", "biomolecular",
+    "alphafold", "rosetta", "coevolution", "contact map", "force field",
+    "molecular dynamics", "md simulation", "free energy", "docking",
+    "scaffold", "backbone", "side chain", "active site", "allosteric",
+}
+
 
 def _get(path: str, params: Dict, api_key: str) -> Optional[Dict]:
     headers = {"x-api-key": api_key} if api_key else {}
@@ -102,6 +115,12 @@ def _fetch_author_papers(
         title = (paper.get("title") or "").strip()
         abstract = (paper.get("abstract") or "").strip()
         if not title:
+            continue
+
+        # Relevance filter: skip papers with no biology/ML keywords in title+abstract.
+        text_lower = (title + " " + abstract).lower()
+        if not any(kw in text_lower for kw in _RELEVANCE_KEYWORDS):
+            print(f"[s2_authors] Skipping off-topic paper by {author_name}: {title[:60]}", flush=True)
             continue
 
         results.append({
