@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Mar 2026 09:08:27 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 10:24:27 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -22,10 +22,10 @@
       <title>Daily Podcast 2026-03-15</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-15/podcast_2026-03-15.mp3</guid>
       <pubDate>Sun, 15 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-15/podcast_2026-03-15.mp3" length="13854693" type="audio/mpeg" />
-      <description>Today&#x27;s papers reveal a striking tension in computational protein design: we&#x27;re getting better at predicting static structures, but still struggling to capture the dynamic, electrostatic realities that govern function. | The democratization of protein engineering is accelerating through two complementary frameworks. | On the antibody front, a novel hapten design for benzo[a]pyrene detection in edible oils demonstrates how chemical biology challenges drive innovation in protein engineering.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-15/podcast_2026-03-15.mp3" length="12363573" type="audio/mpeg" />
+      <description>Today&#x27;s papers reveal a fascinating tension between what we can predict and what we can actually engineer in protein design. | First, the electrostatics paper on U1A protein variants shows something surprising: when researchers accidentally created a variant with four ionizable substitutions, the protein became trimeric instead of monomeric and gained twice as much helical structure. | The AF2BIND paper tackles another blind spot: small molecule binding site prediction.</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today&#x27;s papers reveal a striking tension in computational protein design: we&#x27;re getting better at predicting static structures, but still struggling to capture the dynamic, electrostatic realities that govern function. | The democratization of protein engineering is accelerating through two complementary frameworks. | On the antibody front, a novel hapten design for benzo[a]pyrene detection in edible oils demonstrates how chemical biology challenges drive innovation in protein engineering.</itunes:summary>
+      <itunes:summary>Today&#x27;s papers reveal a fascinating tension between what we can predict and what we can actually engineer in protein design. | First, the electrostatics paper on U1A protein variants shows something surprising: when researchers accidentally created a variant with four ionizable substitutions, the protein became trimeric instead of monomeric and gained twice as much helical structure. | The AF2BIND paper tackles another blind spot: small molecule binding site prediction.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
