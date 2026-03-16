@@ -468,5 +468,12 @@
       "title": "Impact of solvent forces and broken symmetry on the assembly of designed proteins at a liquid-solid interface.",
       "source": "David Baker (S2)"
     }
+  },
+  "2026-03-16": {
+    "https://arxiv.org/abs/2603.12293": {
+      "note": "DD",
+      "title": "Multi-objective Genetic Programming with Multi-view Multi-level Feature for Enhanced Protein Secondary Structure Predict",
+      "source": "arXiv cs.LG (AI/ML)"
+    }
   }
 }
