@@ -250,8 +250,14 @@
     "title": "Off-target reactivity in clinical monoclonal antibodies",
     "url": null,
     "date_submitted": "2026-03-17",
-    "processed": false,
-    "diagnosis": null,
-    "keywords_added": []
+    "processed": true,
+    "diagnosis": "low_ranking",
+    "keywords_added": [
+      "monoclonal antibodies",
+      "off-target reactivity",
+      "clinical applications"
+    ],
+    "rss_feed_found": "",
+    "notion_page_id": "3265f58e-a8c2-81a0-af34-e0fd193728d4"
   }
 ]
