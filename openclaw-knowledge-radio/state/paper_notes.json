@@ -486,6 +486,11 @@
       "note": "DD",
       "title": "Deep Learning Revolutionizes Protein Research: Advances in Structure Prediction, Functional Annotation, and Engineered D",
       "source": "PubMed — Journal of biotechnology"
+    },
+    "https://arxiv.org/abs/2510.11750": {
+      "note": "DD",
+      "title": "PRISM: Enhancing Protein Inverse Folding through Fine-Grained Retrieval on Structure-Sequence Multimodal Representations",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
