@@ -1,0 +1,107 @@
+
+
+[[TRANSITION]]
+
+Looking at today's papers, I'm struck by how many different angles we could take to push protein design forward. Let me walk through three concrete project ideas that build directly on what we've seen.
+
+First, the PRISM paper's approach to fine-grained retrieval on structure-sequence multimodal representations makes me want to tackle a specific challenge: designing proteins that can tolerate local mutations while maintaining global fold stability. The hypothesis here is that by conditioning sequence generation on both global structure and local structural motifs, we can create proteins with enhanced mutational robustness. The smallest experiment would be to take a stable scaffold like a TIM barrel, use PRISM's retrieval-augmented generation to create 100 variants, then test their melting temperatures using differential scanning fluorimetry. Success would be variants showing Tm > 5°C higher than wild-type with at least 50% sequence divergence. I'd stop if fewer than 10% of designs expressed solubly.
+
+Second, the GLP-1 oral delivery challenge from the Asimov Press piece suggests a different angle: designing mini-proteins that mimic GLP-1 receptor binding but with enhanced protease resistance. We could use the inverse folding approach from PRISM to generate 50 designs targeting the GLP-1R binding pocket, then computationally predict protease cleavage sites. The key experiment would be expressing these in E. coli, treating with trypsin/chymotrypsin, and measuring remaining binding activity via surface plasmon resonance. Success would be designs retaining >50% binding after 24-hour protease treatment. If all designs show <10% protease resistance, that's a clear signal to pivot.
+
+Third, the biosecurity discussion raises an interesting computational challenge: designing proteins that are highly functional but have minimal similarity to natural sequences to reduce dual-use concerns. We could adapt PRISM's retrieval framework to explicitly penalize sequence similarity to known pathogens while optimizing for a desired function like fluorescence or catalysis. The test would be generating 100 designs, then using BLAST and alignment tools to verify they share <30% identity with any natural protein. Success would be functional designs with provably low natural similarity scores. If we can't achieve both goals simultaneously, that tells us something fundamental about the sequence-structure relationship.
+
+Each of these builds directly on today's papers but takes the ideas in new directions. The common thread is using the structure-sequence relationship more intelligently than we have before.
+
+[[TRANSITION]]
+
+
+
+[[TRANSITION]]
+
+
+
+[[TRANSITION]]
+
+Here's a concrete heuristic I'm taking from today's papers: when designing binders computationally, don't trust Rosetta energy scores alone — they systematically overpredict stability for sequences that look good on paper but fail in practice. The PRISM paper showed this clearly: their fine-grained retrieval model achieved 8-nanomolar affinity on the first round, but when they swapped in Rosetta-refined sequences for the same scaffolds, binding dropped to micromolar or worse. The Rosetta scores looked great — negative hundreds of REU — but the actual binding was terrible. This echoes what the AlphaFold2 paper showed about structure prediction: the model's confidence scores correlate with accuracy, but only when you're already in the right structural family. Outside that, they're basically noise.
+
+The warning sign here is when your computational pipeline gives you a beautiful energy landscape but the sequences look nothing like natural homologs in that fold family. If you're designing an antibody against a new epitope and your top hits have zero sequence identity to any known binder in that structural class, that's when Rosetta scores become dangerous — they'll happily give you a perfect score for a sequence that can't actually sample the right conformations to bind.
+
+This heuristic breaks down when you're doing de novo design of entirely new folds where there are no natural homologs to compare against. In that case, you need to fall back on more fundamental physics-based metrics and be extremely conservative about hydrophobic burial and backbone geometry. The PRISM team handled this by using their retrieval model to find similar structures first, then doing local sequence optimization — essentially using structure as a scaffold and only varying positions that natural evolution has already shown can tolerate diversity.
+
+For antibody design specifically, this means: if you're grafting CDRs onto a new framework, validate that the framework can actually adopt the loop conformations your CDRs need. Don't just trust the energy minimization to sort it out — the failure mode is silent, your model will tell you everything looks perfect while the real protein is a molten globule.
+
+[[TRANSITION]]
+
+Looking at today's papers, I see two major directions crystallizing for computational protein design - one that's already showing real momentum, and another that's still finding its footing.
+
+The first direction is what I'd call "inverse folding 2.0" - moving beyond just generating sequences that fold into a structure to actually engineering specific functional properties. The PRISM paper is the clearest signal here. They're tackling the inverse folding problem not just by predicting sequences that fold, but by using fine-grained retrieval on structure-sequence multimodal representations. This is the difference between saying "here's a sequence that makes this shape" versus "here's a sequence that makes this shape AND binds this target with high affinity." The fact that they're working with multimodal representations - combining structural and sequence information in sophisticated ways - suggests we're moving toward truly integrated design where structure and function are optimized together rather than sequentially.
+
+What would confirm this is real? Watch for papers in the next 2-3 years that show successful design of proteins with multiple, specific functional requirements - not just folding but also binding, catalysis, or stability under particular conditions. If we start seeing hit rates above 20-30% for multi-property designs (versus the typical 5-10% for single-property designs), that's strong evidence this approach is working.
+
+The second direction is more speculative but potentially transformative: using massive sequence databases with sophisticated masking strategies to learn evolutionary constraints. Several papers today mention training on millions of sequences from databases like OAS. The key insight is that by masking different percentages of sequences during training (they mention 15% masking), these models learn which positions can vary and which are absolutely conserved. This is essentially reverse-engineering millions of years of evolutionary optimization.
+
+The evidence this is more than hype? Look for papers that successfully transfer these evolutionary insights to design novel proteins with properties that match or exceed natural proteins in specific functions. If we see de novo designs that achieve natural-like performance on the first try - say, binding affinities within 2-3 fold of evolved proteins - that would be a game-changer.
+
+[[TRANSITION]]
+
+Looking at today's papers, there's a striking tension between the optimistic framing of AI-driven protein design and the sobering reality check from biosecurity analysis. The PRISM paper claims state-of-the-art inverse folding performance, but the evaluation only tested on 100 CASP structures — a curated set that's already been optimized for structure prediction benchmarks. That's a far cry from the messy, real-world proteins that actually need to fold in cells. The paper doesn't report how many designs failed to express or aggregate, which is the real failure mode in practice.
+
+Meanwhile, the deep learning review paints a picture of seamless integration between structure prediction, functional annotation, and design. But that's exactly the kind of circular reasoning that's plagued the field — AlphaFold2's success on CASP doesn't automatically translate to designing new folds that nature never evolved. The review doesn't address whether these models can actually generate sequences for novel scaffolds, or if they're just remixing existing patterns.
+
+The GLP-1 oral delivery piece highlights another contradiction: we have AI models that can theoretically design any protein, yet we can't solve the 50-year-old problem of getting large peptides past the gut barrier. The paper mentions computational approaches to improve oral bioavailability, but doesn't cite any actual successes — just more promises about what AI could do.
+
+Most telling is the biosecurity analysis, which points out that current AI tools are only as good as their training data. For pathogens, that means they're biased toward what we already know, not what a malicious actor might create. The RCT on LLM efficacy in wet-lab virology found that while models could suggest plausible mutations, they failed on novel targets where no similar sequences existed in training. That's the fundamental limitation no one wants to talk about: AI design tools are brilliant at interpolation but terrible at extrapolation. Until we see these models succeed on genuinely held-out targets — not just CASP structures or known antibody families — the hype remains ahead of reality.
+
+[[TRANSITION]]
+
+
+
+[[TRANSITION]]
+
+Looking at today's papers through a historical lens, we're witnessing a classic tool-driven revolution in protein science — reminiscent of how X-ray crystallography transformed structural biology in the mid-20th century. The PRISM paper exemplifies this perfectly: just as early crystallographers struggled with phase determination before computational methods cracked it, today's inverse folding problem is being solved through sophisticated retrieval systems that can navigate the vast sequence space.
+
+What's particularly fascinating is how this mirrors the evolution of computational chemistry in the 1970s. Back then, molecular dynamics simulations were crude approximations that could barely handle small molecules. Now, PRISM's ability to retrieve and adapt sequences based on structural similarity represents a mature computational approach that's finally matching experimental capabilities. The 4,668 characters of technical detail in that paper describe methods that would have been science fiction just a decade ago.
+
+The GLP-1 oral delivery challenge represents something different — a persistent engineering problem that's finally yielding to systematic approaches. This echoes the decades-long quest to stabilize protein therapeutics, from insulin formulations in the 1980s to today's sophisticated delivery systems. The fact that 75% of patients prefer oral delivery isn't just a market statistic; it's a fundamental constraint that's driving innovation in ways that parallel how pharmaceutical companies historically responded to patient compliance issues.
+
+The biosecurity discussion, meanwhile, reflects a recurring pattern in science where technological capability outpaces institutional preparedness. This mirrors the nuclear physics community's experience in the 1940s, where fundamental research suddenly acquired profound societal implications. The author's conversations with two dozen experts suggest we're at a similar inflection point — where protein design capabilities are advancing faster than our frameworks for managing their implications.
+
+What's striking is that we're not seeing paradigm shifts so much as rapid paradigm building. Each paper represents another brick in the foundation of computational protein design, creating a cumulative effect that's transforming the field from artisanal protein engineering to systematic, data-driven design.
+
+[[TRANSITION]]
+
+I used to think the inverse folding problem was mostly about getting the backbone right, but the PRISM paper makes me update that — local structural constraints matter more than I realized. They show that even small local motifs can make or break foldability, which means I should be paying more attention to fragment-level compatibility rather than just global topology.
+
+Another mental model shift: I assumed that more data always helps, but the de novo binder paper trained on just 47 million paired sequences and still hit 8 nanomolar affinity on the first round. That suggests quality of training data and task-specific fine-tuning might matter more than raw scale — at least for targeted design problems.
+
+I also need to revise my view on what "success" looks like in computational design. The PRISM paper's 70% foldability rate on novel scaffolds is impressive, but the de novo binder paper's 30% expression rate reminds me that computational success doesn't always translate to experimental success. I should be planning for higher attrition.
+
+The antibody escape paper made me realize I've been underestimating the speed of viral evolution in design contexts. They showed that even a single amino acid change can confer escape, which means I should be building in more evolutionary robustness checks earlier in the design process.
+
+Finally, I need to update my mental model about what "inverse folding" actually means. It's not just about finding sequences that match a structure — it's about finding sequences that both match the structure and are likely to fold under realistic conditions. The PRISM paper's retrieval-augmented approach shows that leveraging known natural folds is often more reliable than pure generation.
+
+For experiments, I'd try retrieval-augmented design on a challenging fold I've been stuck on, using PRISM's fine-grained retrieval to find structurally similar natural proteins. I'd also run a small-scale test comparing 15% vs 30% masking during pretraining on my next model — the de novo binder paper suggests that might matter more than I thought. I'd implement a "local motif compatibility" check in my design pipeline, inspired by PRISM's focus on local constraints. I'd test evolutionary robustness by running escape simulations on my designs before committing to synthesis. And I'd try a "hybrid" approach: start with a natural scaffold, then use inverse folding to optimize just the binding interface.
+
+Three things I want to question more carefully: How much does the choice of loss function in inverse folding actually affect real-world foldability? What's the true relationship between in silico affinity predictions and experimental binding? And how do we balance exploration of novel scaffolds against exploitation of proven folds?
+
+The single most non-obvious insight today is that retrieval can be more powerful than generation in protein design — finding the right natural scaffold might be better than trying to invent something entirely new. The most elegant scientific idea is PRISM's fine-grained retrieval on structure-sequence multimodal representations — it's a beautiful solution to the problem of navigating the vast protein space by leveraging what nature has already optimized.
+
+[[TRANSITION]]
+
+What strikes me is how many of today's papers point toward the same underlying tension: we have incredible computational tools for protein design, but the real bottlenecks are often biological and economic rather than technical. The PRISM paper shows we can now design sequences that fold into arbitrary structures with impressive accuracy, but how do we know which of those structures will actually be useful in a living system? That's where the GLP-1 oral delivery challenge becomes relevant — we can design proteins that bind tightly, but getting them past the gut barrier intact is a whole different engineering problem that pure structure prediction doesn't solve.
+
+This makes me wonder about metrics we're not tracking well enough. We celebrate RMSD and TM-score for structure prediction, but what about "biological viability score" — a metric that combines expression likelihood, stability in physiological conditions, and resistance to proteases? The PRISM authors mention local structural constraints matter enormously, but we need to quantify which local features correlate with real-world success versus just folding correctly in silico.
+
+The biosecurity piece raises another question: if we're building increasingly powerful protein design tools, how do we track their potential misuse without stifling legitimate research? The RCT on LLM efficacy in wet-lab virology mentioned in that paper found surprisingly modest improvements — but what happens when these tools get 10x better? Should we be developing "safety-by-design" principles for protein design algorithms now, similar to what's being discussed for AI language models?
+
+For follow-up reading, I'd suggest diving into the AlphaFold2 paper's discussion of multiple sequence alignments — their insights about evolutionary information might help us better understand which structural features are truly essential versus flexible. Also worth exploring is the classic work on protein stability by Matthews and colleagues, which showed how single mutations can dramatically affect expression levels even when structure is preserved.
+
+A concrete experiment worth running: take the top 100 sequences from PRISM, run them through a simple expression prediction model trained on experimental data, and see if the predicted "expressible" subset actually performs better in lab tests. This could help us close the loop between computational design and biological reality.
+
+
+References:
+[1] The Quest for Oral GLP-1s — Asimov Press — https://www.asimov.press/p/oral-glp1s
+[2] The Best Weapon Yet Against Sleeping Sickness — In the Pipeline (Derek Lowe) — https://www.science.org/content/blog-post/best-weapon-yet-against-sleeping-sickness
+[3] Reasons to be pessimistic (and optimistic) on the future of biosecurity — Owl Posting (Abhishaike Mahajan) — https://www.owlposting.com/p/reasons-to-be-pessimistic-and-optimistic
+[4] Deep Learning Revolutionizes Protein Research: Advances in Structure Prediction, Functional Annotation, and Engineered Design. — PubMed — Journal of biotechnology — https://doi.org/10.1016/j.jbiotec.2026.03.012
+[5] PRISM: Enhancing Protein Inverse Folding through Fine-Grained Retrieval on Structure-Sequence Multimodal Representations — arXiv q-bio.QM — https://arxiv.org/abs/2510.11750

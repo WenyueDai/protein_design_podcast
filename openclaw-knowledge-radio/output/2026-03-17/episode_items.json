@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    162.14,
+    287.9,
+    430.57,
+    559.98,
+    702.05,
+    893.04
+  ],
+  "items": [
+    {
+      "title": "The Quest for Oral GLP-1s",
+      "url": "https://www.asimov.press/p/oral-glp1s",
+      "source": "Asimov Press",
+      "one_liner": "In a recent survey, three-in-four respondents said they would prefer a once‑daily oral pill over a weekly injection of GLP-1s. So why aren't there more oral options?",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biology",
+        "science-writing",
+        "substack",
+        "author"
+      ]
+    },
+    {
+      "title": "The Best Weapon Yet Against Sleeping Sickness",
+      "url": "https://www.science.org/content/blog-post/best-weapon-yet-against-sleeping-sickness",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Reasons to be pessimistic (and optimistic) on the future of biosecurity",
+      "url": "https://www.owlposting.com/p/reasons-to-be-pessimistic-and-optimistic",
+      "source": "Owl Posting (Abhishaike Mahajan)",
+      "one_liner": "13.2k words, 59 minutes reading time",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "machine-learning",
+        "biology",
+        "substack",
+        "author"
+      ]
+    },
+    {
+      "title": "Deep Learning Revolutionizes Protein Research: Advances in Structure Prediction, Functional Annotation, and Engineered Design.",
+      "url": "https://doi.org/10.1016/j.jbiotec.2026.03.012",
+      "source": "PubMed — Journal of biotechnology",
+      "one_liner": "Recent advances in deep learning have fundamentally transformed protein research by creating a synergistic cycle that connects structure prediction, functional annotation, and rational design. This review presents an integrative framework to demonstrate how breakthroughs in one domain catalytically enable progress in the next. First, for a broad range of ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PRISM: Enhancing Protein Inverse Folding through Fine-Grained Retrieval on Structure-Sequence Multimodal Representations",
+      "url": "https://arxiv.org/abs/2510.11750",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2510.11750v2 Announce Type: replace \nAbstract: Designing protein sequences that fold into a target 3-D structure, termed as the inverse folding problem, is central to protein engineering. However, it remains challenging due to the vast sequence space and the importance of local structural constraints. Existing deep learning approaches achieve strong...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Fold-CP: A Context Parallelism Framework for Biomolecular Modeling",
+      "url": "https://arxiv.org/abs/2603.14806",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2603.14806v1 Announce Type: cross \nAbstract: Understanding cellular machinery requires atomic-scale reconstruction of large biomolecular assemblies. However, predicting the structures of these systems has been constrained by hardware memory requirements of models like AlphaFold 3, imposing a practical ceiling of a few thousand residues that can be p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Induction Meets Biology: Mechanisms of Repeat Detection in Protein Language Models",
+      "url": "https://arxiv.org/abs/2602.23179",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2602.23179v2 Announce Type: replace-cross \nAbstract: Protein sequences are abundant in repeating segments, both as exact copies and as approximate segments with mutations. These repeats are important for protein structure and function, motivating decades of algorithmic work on repeat identification. Recent work has shown that protein language models...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Functional bottlenecks can emerge from non-epistatic underlying traits.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014000",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Protein fitness landscapes frequently exhibit epistasis, where the effect of a mutation depends on the genetic context in which it occurs, i.e., the rest of the protein sequence. Epistasis increases landscape complexity, often resulting in multiple fitness peaks. In its simplest form, known as global epistasis, fitness is modeled as a non-linear function ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "pKAKA: a protein language model for prioritizing kinase-disrupting variants in diseases.",
+      "url": "https://doi.org/10.1016/j.jgg.2026.03.010",
+      "source": "PubMed — Journal of genetics and genomics = Yi chuan xue bao",
+      "one_liner": "Protein kinases are pivotal regulators of cellular signaling, and their genetic variations are frequently implicated in diseases. Although numerous kinase mutations have been identified as drivers of altered activity, with a few successfully targeted therapeutically, the functional impact of most variants remains uncharacterized. To bridge this gap, we cu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unlocking Enzyme Discovery: A High-Resolution Gene Cluster Database Powered by Phylogenetic Insights and Machine Learning.",
+      "url": "https://doi.org/10.1021/acs.jafc.5c06841",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "High-throughput sequencing has generated vast genomic repositories that remain under-annotated, hampering enzyme discovery. We present an integrated pipeline that (i) builds a high-resolution, cross-kingdom phylogenetic database, (ii) mines candidates via multilocus phylogeny, (iii) predicts activities using an evolutionary-scale protein language model, a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification of nonconvulsive status epilepticus in the ictal-interictal continuum using artificial intelligence: a prospective observational cohort study.",
+      "url": "https://doi.org/10.47936/encephalitis.2025.00157",
+      "source": "PubMed — Encephalitis (Seoul, Korea)",
+      "one_liner": "PURPOSE: This study aims to investigate differences in functional connectivity between patients on the ictal-interictal continuum (IIC) with nonconvulsive status epilepticus (NCSE) versus those with coma-IIC, and to evaluate whether machine learning based on these connectivity measures was able to distinguish between these two groups. METHODS: We prospect...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep learning for RNA secondary structure determination: gauging generalizability and broadening the scope of traditional methods.",
+      "url": "https://doi.org/10.1261/rna.080846.125",
+      "source": "PubMed — RNA (New York, N.Y.)",
+      "one_liner": "The diverse regulatory functions, protein production capacity, and stability of natural and synthetic RNAs are closely tied to their ability to fold into intricate structures. Determining RNA structure is thus fundamental to RNA biology and bioengineering. Among existing approaches to structure determination, computational secondary structure prediction o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Language-related functional connectivity in post-stroke aphasia: preliminary findings from a graph-theoretical and interpretable machine learning study.",
+      "url": "https://doi.org/10.1080/00207454.2026.2644508",
+      "source": "PubMed — The International journal of neuroscience",
+      "one_liner": "PURPOSE: To have an insight into language-related functional connectivity in post-stroke aphasia (PSA) from graph theory measurements when performing an ability-matched auditory-verbal task fMRI. METHODS: Fifty-seven PSA patients were stratified into high-level ( RESULTS: Random Forest classification reached a significant AUC of 0.671 ( CONCLUSIONS: Our f...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Lipid Corona Formation on Iron Oxide Nanoparticles: Machine Learning-Based Identification of Causal Lipidomic Properties.",
+      "url": "https://doi.org/10.1021/acsami.6c01184",
+      "source": "PubMed — ACS applied materials & interfaces",
+      "one_liner": "The adsorption of biomolecules onto nanoparticle (NP) surfaces, forming the so-called biocorona (BC), plays a crucial role in defining the biological identity and fate of nanomaterials. While extensive research has focused on protein coronas, lipid adsorption remains underexplored despite its critical importance in physiological environments. In this stud...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Biosynthesis of pyomelanin from methanol with engineered Komagataella phaffii and its characterizations",
+      "url": "https://www.nature.com/articles/s41467-026-70512-1",
+      "source": "Nature - Protein Engineering",
+      "one_liner": "This review article synthesizes existing research on pyomelanin, a microbially-produced pigment, covering its biosynthetic pathways (primarily via the tyrosine degradation pathway and the enzyme 4-hydroxyphenylpyruvate dioxygenase, HPPD), its physicochemical properties, and its diverse potential applications in fields like biomedicine, materials science, and biotechnology.\n\nMETHOD / APPROACH:\nThe article is a comprehensive literature review.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-engineering",
+        "nature",
+        "topic"
+      ]
+    },
+    {
+      "title": "Learning data-efficient coarse-grained molecular dynamics from forces and noise.",
+      "url": "https://doi.org/10.1038/s41467-026-70818-0",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Molecular dynamics (MD) simulations are essential for elucidating biomolecular function, yet the computational cost of all-atom models often limits their reach. Machine-learned coarse-grained (MLCG) models offer a solution by simplifying the representation while maintaining near-atomistic accuracy. However, the training of MLCG models currently requires v...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Native Chemical Ligation of Peptoid Oligomers.",
+      "url": "https://doi.org/10.1021/acs.biochem.5c00833",
+      "source": "PubMed — Biochemistry",
+      "one_liner": "Bioorganic chemists are inspired by natural biopolymers to design peptidomimetic oligomers that can exhibit sequence-structure-function relationships. Biomimetic polymers can be synthesized to incorporate a specific sequence of nonbiological monomer units using a variety of iterative solution-phase or solid-phase reaction schemes. These protocols generall...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Defective RNA Polymerase III sensing of mitochondrial DNA in pulmonary epithelial cells impairs type I IFN immunity to SARS-CoV-2.",
+      "url": "https://doi.org/10.1073/pnas.2522111123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "The clinical spectrum of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection ranges from asymptomatic cases to critical COVID-19 pneumonia. To investigate the role of host genetics in susceptibility to critical COVID-19 and identify pathophysiological mechanisms and pathways, we analyzed whole-exome and whole-genome sequencing data from...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dengue virus harnesses mosquito Syntenin to load and secrete viral RNA into salivary exosomes.",
+      "url": "https://doi.org/10.1073/pnas.2520697123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Viruses exploit extracellular vesicles (EVs) to transfer infection-enhancing viral RNAs. However, mechanisms underlying viral RNA loading remain elusive. We leveraged our previous discovery that dengue virus secretes transmission-enhancing subgenomic flaviviral RNA (sfRNA) into mosquito salivary EVs to investigate viral RNA loading mechanism. We demonstra...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural insight into the CUB2 domain's role in enteropeptidase-mediated trypsinogen activation.",
+      "url": "https://doi.org/10.1073/pnas.2521394123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Elucidating the structure and function of enteropeptidase (EP) is essential for advancing our understanding of its biological significance, particularly in regulating trypsinogen activation. Using cryo-EM and enzymatic activity, we uncovered the significance of the CUB2 domain in mediating the cleavage of macromolecular substrates. We identified crucial b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Mar 2026 05:33:21 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 05:08:57 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-03-17</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-17/podcast_2026-03-17.mp3</guid>
+      <pubDate>Tue, 17 Mar 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-17/podcast_2026-03-17.mp3" length="7757949" type="audio/mpeg" />
+      <description>Looking at today&#x27;s papers, I&#x27;m struck by how many different angles we could take to push protein design forward. | First, the PRISM paper&#x27;s approach to fine-grained retrieval on structure-sequence multimodal representations makes me want to tackle a specific challenge: designing proteins that can tolerate local mutations while maintaining global fold stability. | Second, the GLP-1 oral delivery challenge from the Asimov Press piece suggests a different angle: designing mini-proteins that mimic GLP-1 receptor binding but with enhanced protease resistance.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Looking at today&#x27;s papers, I&#x27;m struck by how many different angles we could take to push protein design forward. | First, the PRISM paper&#x27;s approach to fine-grained retrieval on structure-sequence multimodal representations makes me want to tackle a specific challenge: designing proteins that can tolerate local mutations while maintaining global fold stability. | Second, the GLP-1 oral delivery challenge from the Asimov Press piece suggests a different angle: designing mini-proteins that mimic GLP-1 receptor binding but with enhanced protease resistance.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-03-16</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-16/podcast_2026-03-16.mp3</guid>
       <pubDate>Mon, 16 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-16/podcast_2026-03-16.mp3" length="11731461" type="audio/mpeg" />
-      <description>The big shift today is about speed and scale in protein structure prediction. | On the RNA-binding front, Flipper addresses a fundamental flaw in how we analyze differential protein-RNA interactions. | The quantum machine learning paper, though we only have the bibliography, points to a growing trend: hybrid classical-quantum architectures are becoming the practical path forward as we navigate the noisy intermediate-scale quantum era.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-16/podcast_2026-03-16.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The big shift today is about speed and scale in protein structure prediction. | On the RNA-binding front, Flipper addresses a fundamental flaw in how we analyze differential protein-RNA interactions. | The quantum machine learning paper, though we only have the bibliography, points to a growing trend: hybrid classical-quantum architectures are becoming the practical path forward as we navigate the noisy intermediate-scale quantum era.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
