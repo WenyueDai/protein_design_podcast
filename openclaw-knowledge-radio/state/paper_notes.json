@@ -518,6 +518,11 @@
       "note": "DD",
       "title": "Knock knock, no one’s there. Study finds scientists’ jokes mostly fall flat",
       "source": "Nature (main journal)"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.12.711363": {
+      "note": "DD",
+      "title": "Genes near tRNAs are enriched in translational machinery",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
