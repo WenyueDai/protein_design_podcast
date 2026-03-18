@@ -508,6 +508,11 @@
       "note": "DD",
       "title": "Artificial intelligence methods for protein structure and interaction prediction: Recent advances and challenges.",
       "source": "PubMed — Current opinion in structural biology"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.13.711260": {
+      "note": "DD",
+      "title": "Decoding conformational heterogeneity across disordered proteomes",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
