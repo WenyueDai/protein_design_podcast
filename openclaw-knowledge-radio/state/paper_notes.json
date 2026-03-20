@@ -562,6 +562,11 @@
       "note": "DD",
       "title": "ST-PARM: Pareto-Complete Inference-Time Alignment for Multi-Objective Protein Design",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.17.712034": {
+      "note": "DD",
+      "title": "ProteinSage: From implicit learning to explicit structural constraints for efficient protein language modeling",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
