@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    134.9,
+    306.45,
+    530.24,
+    704.17,
+    860.21,
+    1020.12,
+    1170.21,
+    1314.9,
+    1458.11,
+    1656.82
+  ],
+  "items": [
+    {
+      "title": "Functional impact of PCSK9 variants on LDL uptake in a knockout hepatic model",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.13.711724",
+      "source": "Po-Ssu Huang (bioRxiv)",
+      "one_liner": "Proprotein convertase subtilisin/kexin type 9 (PCSK9) is a central regulator of low-density lipoprotein (LDL) cholesterol metabolism, yet the functional consequences of many clinically observed PCSK9 variants remain unknown. To establish a rigorous system for quantitative variant assessment, we generated a PCSK9 knockout (KO) HepG2 cell line through CRISPR/Cas9-mediated deletion of exons 2-8, effe",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "author"
+      ]
+    },
+    {
+      "title": "From Gut Bacteria Up to the Brain",
+      "url": "https://www.science.org/content/blog-post/gut-bacteria-brain",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "ABAG-Rank: Improving Model Selection of AlphaFold Antibody-Antigen Complexes by Learning to Rank",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.17.712376",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Motivation: AlphaFold has transformed structural biology with an unprecedented accuracy in modeling protein structures and their interactions with biomolecules, with AlphaFold3 (AF3) achieving state-of-the-art performance. However, AF3 and other methods often struggle to accurately predict the structure of protein complexes that lack strong co-evolutionar...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "PNcsp+: A Periodic Number-Based Crystal Structure Prediction Method Enhanced by Machine Learning.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00044",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Crystal structure prediction (CSP) is central to materials discovery, yet its efficiency and interpretability remain limited by the vast configurational space and reliance on costly local optimizations. Although template-based and machine-learning (ML) approaches have improved exploration, many approaches still require large data sets, complex similarity ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "evedesign: accessible biosequence design with a unified framework",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.17.712115",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Machine learning methods for protein engineering are rarely interoperable, require bespoke workflows, and remain inaccessible to non-experts. Yet the design problems that matter most - conditional design subject to real-world constraints, multi-objective optimization, and iterative lab-in-the-loop workflows where experimental data continuously refines suc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "ST-PARM: Pareto-Complete Inference-Time Alignment for Multi-Objective Protein Design",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.17.712483",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Motivation: Protein engineering is inherently multi-objective: improving one property can degrade others, so practical workflows require generating non-dominated (Pareto-optimal) candidates spanning a trade-off surface. Linear objective scalarization and deterministic pairwise preference learning can under-explore non-convex Pareto regions and amplify noi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProteinSage: From implicit learning to explicit structural constraints for efficient protein language modeling",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.17.712034",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "While protein language models typically rely on sequence-only pretraining objectives, this approach often fails to capture structural regularities and demands large datasets. To address this, we introduce ProteinSage, a pretraining framework that learns protein representations under explicit structural constraints. ProteinSage incorporates structural sign...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "StrucTTY: An Interactive, Terminal-Native Protein Structure Viewer",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.17.712308",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Terminal-based workflows are central to large-scale structural biology, particularly in high-performance computing (HPC) environments and SSH sessions. Yet no existing tool enables real-time, interactive visualization of protein backbone structures directly within a text-only terminal. To address this gap, we present StrucTTY, a fully interactive, termina...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Impact of automatic speech recognition quality on Alzheimer's disease detection from spontaneous speech: a reproducible benchmark study with lexical modeling and statistical validation",
+      "url": "https://arxiv.org/abs/2603.18239",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2603.18239v1 Announce Type: new \nAbstract: Early detection of Alzheimer's disease from spontaneous speech has emerged as a promising non-invasive screening approach. However, the influence of automatic speech recognition (ASR) quality on downstream clinical language modeling remains insufficiently understood. In this study, we investigate Alzheimer'...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "CAPSUL: A Comprehensive Human Protein Benchmark for Subcellular Localization",
+      "url": "https://arxiv.org/abs/2603.18571",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2603.18571v1 Announce Type: cross \nAbstract: Subcellular localization is a crucial biological task for drug target identification and function annotation. Although it has been biologically realized that subcellular localization is closely associated with protein structure, no existing dataset offers comprehensive 3D structural information with detai...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Gene expression and metadata based identification of key genes for lung cancer, COPD, and IPF using machine learning and statistical models.",
+      "url": "https://doi.org/10.1371/journal.pone.0344666",
+      "source": "PubMed — PloS one",
+      "one_liner": "Lung cancer (LC) is one of the most prevalent and deadly cancers globally, presenting a major public health challenge. Patients with chronic obstructive pulmonary disease (COPD) and idiopathic pulmonary fibrosis (IPF) are at a significantly higher risk of developing lung cancer. Despite developments in research, the primary molecular pathways of many diso...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Genomic evolution of SARS-CoV-2 delta variants pre- and post-omicron emergence using alignment-free machine learning models.",
+      "url": "https://doi.org/10.1371/journal.pone.0345259",
+      "source": "PubMed — PloS one",
+      "one_liner": "The SARS-CoV-2 Delta variant (B.1.617.2), initially classified as a variant of concern due to its enhanced transmissibility and vaccine-escape mutations, underwent further genomic changes following the emergence of the Omicron variant (B.1.1.529). This study investigates the genomic differences in Delta variant spike gene sequences collected before and af...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting oil contamination in water using machine learning on microbial compositions.",
+      "url": "https://doi.org/10.1371/journal.pone.0344571",
+      "source": "PubMed — PloS one",
+      "one_liner": "We present a compact and generative machine-learning framework that predicts oil contamination based on microbial community compositions from experimental samples. Our method combines dimensionality reduction with data augmentation and generative modeling to address high-dimensional, non-linear, and sparse microbial data. To reduce the 503-dimensional bac...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-enabled protein design facilitates future plant research and crop breeding.",
+      "url": "https://doi.org/10.1093/plphys/kiag147",
+      "source": "PubMed — Plant physiology",
+      "one_liner": "Artificial intelligence (AI) is poised to reshape the research paradigm of the life sciences by rapidly advancing the adoption of protein language models and their derivative tools. These technologies are increasingly being applied to protein structure prediction, function analysis, and protein design throughout the life sciences, and have only recently b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence-Driven Enzyme Engineering from Structural Prediction to De Novo Design.",
+      "url": "https://doi.org/10.1021/acs.jafc.6c01781",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "The rapid maturation of artificial intelligence (AI) has catalyzed a fundamental transition in biocatalysis, moving from structural analysis toward the prescriptive design of bespoke enzymes. This review synthesizes this AI-driven revolution, evaluating breakthroughs like AlphaFold2 and CLEAN that now bridge sequences with catalytic properties, including ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Off-target reactivity in clinical monoclonal antibodies.",
+      "url": "https://doi.org/10.1016/j.str.2026.02.012",
+      "source": "PubMed — Structure (London, England : 1993)",
+      "one_liner": "Biologics, including monoclonal antibodies (mAbs), are widely used therapeutics due to their high specificity, yet off-target interactions remain an underappreciated risk for safety and efficacy. To systematically assess antibody specificity, we applied rapid extracellular antigen profiling (REAP) to evaluate 174 FDA-approved and clinical-stage antibodies...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Dual-Model Machine Learning Framework for Interpretable Design and Ensemble Prediction of C-Amidated Antimicrobial Peptides.",
+      "url": "https://doi.org/10.1021/acsami.6c00110",
+      "source": "PubMed — ACS applied materials & interfaces",
+      "one_liner": "Antimicrobial peptides (AMPs) offer promising alternatives to conventional antibiotics, yet most predictive models fail to account for chemical modifications that influence real-world efficacy. Among these, C-terminal amidation is a widely adopted and effective strategy that improves structural stability, membrane interaction, and protease resistance. In ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Super Bloom: Fast and precise filter for streaming k-mer queries",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.17.712354",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Approximate membership query structures are used throughout sequence bioinformatics, from read screening and metagenomic classification to assembly, indexing, and error correction. Among them, Bloom filters remain the default choice. They are not the most efficient structures in either time or memory, but they provide an effective compromise between compa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification and classification of all Cytochrome P450 deposits in the Protein Data Bank",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.17.712328",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Cytochrome P450 monooxygenases (CYPs/P450s) form a highly diverse enzyme superfamily central to biotechnology, pharmacology, and environmental science. Despite the large number of available structures, identifying and comparing P450 entries in structural repositories remains challenging due to their extreme sequence divergence and inconsistent annotation ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "SOORENA: Self-lOOp containing or autoREgulatory Nodes in biological network Analysis",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.03.685842",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Autoregulatory mechanisms, in which proteins regulate their own activity or expression, are fundamental to biological networks but are challenging to identify systematically from literature. To address this gap, we present SOORENA (https://soorena.it.helsinki.fi/soorena/), a two-stage transformer model that predicts and classifies protein autoregulation i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    }
+  ]
+}
