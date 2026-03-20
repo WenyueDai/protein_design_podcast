@@ -546,5 +546,12 @@
       "title": "AbDist: a lightweight, distance-based model for antibody affinity prediction as an interpretable benchmark for machine l",
       "source": "PubMed — mAbs"
     }
+  },
+  "2026-03-20": {
+    "https://www.biorxiv.org/content/10.64898/2026.03.17.712376": {
+      "note": "DD",
+      "title": "ABAG-Rank: Improving Model Selection of AlphaFold Antibody-Antigen Complexes by Learning to Rank",
+      "source": "bioRxiv — bioinformatics"
+    }
   }
 }
