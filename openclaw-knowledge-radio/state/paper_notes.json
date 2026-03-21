@@ -579,6 +579,11 @@
       "note": "DD",
       "title": "Coupling codon and protein constraints decouples drivers of variant pathogenicity",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.18.712561": {
+      "note": "DD",
+      "title": "Enhancing non-local interaction modeling for ab initio biomolecular calculations and simulations with ViSNet-PIMA",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
