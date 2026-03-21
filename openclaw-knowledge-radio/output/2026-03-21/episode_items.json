@@ -1,0 +1,297 @@
+{
+  "timestamps": [
+    0.0,
+    218.11,
+    364.36,
+    546.97,
+    687.56,
+    838.04,
+    986.52,
+    1142.71,
+    1307.92,
+    1456.81,
+    1596.03
+  ],
+  "items": [
+    {
+      "title": "Culture Shift",
+      "url": "https://www.asimov.press/p/culture-shift",
+      "source": "Asimov Press",
+      "one_liner": "We tend to think of fermented foods as something humans invented and then chose to eat. But the evidence shows the opposite: fermented foods shaped human biology.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biology",
+        "science-writing",
+        "substack",
+        "author"
+      ]
+    },
+    {
+      "title": "The Dynamics of Chromatin Replication.",
+      "url": "https://doi.org/10.1146/annurev-biochem-082525-050024",
+      "source": "PubMed — Annual review of biochemistry",
+      "one_liner": "The ability of cells to transmit information encoded in the genome, and its organization into chromatin across cell generations, is a cornerstone of eukaryotic life. Chromatin replication, the copying of the mammalian genome in its structural and functional chromatin context to maintain cell identity and fate, is fundamental to lifelong health and has imp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Coupling codon and protein constraints decouples drivers of variant pathogenicity",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.03.12.642937",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Predicting the functional impact of genetic variants remains a fundamental challenge in genomics. Existing models focus on protein-intrinsic defects yet overlook regulatory constraints embedded within coding sequences. Here, we couple a codon language model (CaLM) with a protein language model (ESM-2) to dissect the drivers of variant pathogenicity. On Cl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing non-local interaction modeling for ab initio biomolecular calculations and simulations with ViSNet-PIMA",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.18.712561",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "AI-based molecular dynamics simulation brings ab initio calculations to biomolecules in an efficient way, in which the machine learning force field (MLFF) locates at the central position by accurately predicting the molecular energies and forces. Most existing MLFFs assume localized interatomic interactions, limiting their ability to accurately model non-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning of factors for improving oyster hatchery production.",
+      "url": "https://doi.org/10.1371/journal.pone.0345084",
+      "source": "PubMed — PloS one",
+      "one_liner": "Oyster aquaculture and restoration in the Chesapeake Bay are vital, yet hatcheries frequently struggle with inconsistent larval growth and sudden mass mortality events. Unpredictable disruptions in larval production cause large economic losses, represent a perceived risk to growers, and impede industry expansion. To better understand associations between ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Data-driven classification of Escherichia coli using protein language model ascertains O-serotype determining genes.",
+      "url": "https://doi.org/10.1038/s41598-026-40783-1",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Not stated in source text.\n\nMETHOD / APPROACH:\nNot stated in source text.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identifying microbial protease allergens through protein language model-guided homology.",
+      "url": "https://doi.org/10.1016/j.cels.2025.101510",
+      "source": "PubMed — Cell systems",
+      "one_liner": "Emerging research links the gut, skin, and oral microbiomes to allergies, with serine proteases (SPs) identified as potential allergens. This study leverages deep learning and pre-trained protein language models (pLMs) to uncover allergenic SPs in metagenomic data. First, we develop a model to identify the catalytic serine residue in serine hydrolases, de...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of Reaction-Centered Encoders and Benchmarking of Enzyme-Reaction Pair Models.",
+      "url": "https://doi.org/10.1021/acs.jcim.5c02755",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Uncharacterized functions of enzymes represent an untapped opportunity to develop therapeutics, unlock the sustainable synthesis of materials, and understand the evolution of life-sustaining metabolic networks. Uncharacterized enzymes and reactions, generated by protein language models and computer-aided synthesis tools, respectively, make up a large part...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Application of protein language models for antibody developability prediction.",
+      "url": "https://doi.org/10.1080/19420862.2026.2647489",
+      "source": "PubMed — mAbs",
+      "one_liner": "Protein language models (PLMs) provide a powerful framework for learning sequence - property relationships in antibodies. However, their performance and reliability in real-world industrial antibody discovery pipelines remain underexplored. Here, we systematically evaluate several state-of-the-art PLMs using internal datasets comprising antibody sequences...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Thermodynamic prediction of RNA cellular activity from sequence via conformational ensembles.",
+      "url": "https://doi.org/10.1016/j.cell.2026.02.021",
+      "source": "PubMed — Cell",
+      "one_liner": "Despite advances in structure prediction from sequence, predicting cellular activity requires conformational ensembles that capture propensities to form functionally active states. Such ensembles remain difficult to measure and even harder to predict. Here, we systematically altered the HIV-1 transactivation response element (TAR) RNA sequence to change i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Data-driven prediction of ionic conductivity in solid-state electrolytes with machine learning and large language models.",
+      "url": "https://doi.org/10.1063/5.0307954",
+      "source": "PubMed — The Journal of chemical physics",
+      "one_liner": "Solid-state electrolytes (SSEs) are attractive for next-generation lithium-ion batteries due to improved safety and stability, but their low room-temperature ionic conductivity hinders practical application. Experimental synthesis and testing of new SSEs remain time-consuming and resource-intensive. Machine learning offers an accelerated route for SSE dis...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Ligand Conformational Variability Enhances Machine Learning Prediction of Protein-Ligand Binding Affinity.",
+      "url": "https://doi.org/10.1021/acs.jpcb.5c07757",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "Rapid and accurate screening of protein-ligand binding affinities using machine learning (ML) remains a challenging yet critical task in drug discovery. In this work, two closely related challenges are addressed: the inherent sensitivity of the binding affinity to the ligands' geometry within the protein-ligand complex and the absence of prior knowledge o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Microstructure-Mediated Inverse Design of Thermal Barrier Coatings via Interpretable, Data-Efficient Machine Learning.",
+      "url": "https://doi.org/10.1021/acsami.6c00672",
+      "source": "PubMed — ACS applied materials & interfaces",
+      "one_liner": "Microstructure control is critical for thermal barrier coating (TBC) performance, yet the complex, nonlinear process-structure relationships impede predictive design. Conventional data-driven approaches are limited by scarce experimental data and poor physical interpretability in end-to-end models. Here, we present a closed-loop machine learning framework...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Chlorophyll a degradation in Prokaryotes",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.19.712979",
+      "source": "bioRxiv — microbiology",
+      "one_liner": "Chlorophyll is one of the most abundant pigments on Earth. Although its degradation is well understood in plants, the role of prokaryotes in this process - despite their vast metabolic capabilities - remains unknown. Recent developments in the field of AI-predicted protein structures have opened new avenues for investigating functional homologies between ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Controlled human infection with Plasmodium falciparum-infected mosquito bites elicits antibodies against mosquito salivary protein SG1L3",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.19.713001",
+      "source": "bioRxiv — microbiology",
+      "one_liner": "Human malaria infections begin with the injection of Plasmodium sporozoites via mosquito saliva. Whole sporozoite immunizations have been used as a model to study immune responses to malaria parasites, having culminated in circumsporozoite protein (CSP)-targeting vaccines and monoclonal antibodies (mAbs). However, antibody responses targeting non-CSP anti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Designing mRNA coding sequence via multimodal reverse translation language modeling with Pro2RNA",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.18.712790",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "mRNA coding sequence design is a critical component in the development of mRNA vaccines, nucleic acid therapeutics, and heterologous gene expression systems. While large language models have recently been successfully applied to protein design and RNA modeling, designing optimal mRNA coding sequences for a given protein, particularly in a species-specific...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "CliPepPI: Scalable prediction of domain-peptide specificityusing contrastive learning",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.18.712595",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Domain-peptide interactions mediate a significant fraction of cellular protein networks, yet accurately predicting their specificity remains challenging. Peptide motifs typically have short, fuzzy sequence profiles, and their interactions are often weak and transient, limiting the size, coverage, and quality of experimentally validated domain-peptide data...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational Prediction of Plasmodium falciparum Antigen-T-cell Receptor Interactions via Molecular Docking: Implications for Malaria Vaccine Design",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.18.712575",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Malaria is one of the deadliest diseases in sub-Saharan Africa and Southeast Asia. The majority of the fatalities occur mostly in children under 5 years and pregnant women and this is due to infection by Plasmodium spp, of which Plasmodium falciparum is the most virulent and is responsible for most of the morbidity and mortality. Despite various public he...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Disagreement among variant effect predictors guides experimental prioritization of target proteins",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.18.712765",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Interpreting the functional consequences of genetic variation, especially rare missense variants, remains a significant challenge in human genetics. Computational variant effect predictors (VEPs) and multiplexed assays of variant effects (MAVEs) provide complementary approaches, with VEPs offering scalable predictions and MAVEs delivering detailed empiric...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "China-rooted AI biotech Earendil Labs raises $787M ahead of possible IPO",
+      "url": "https://endpoints.news/china-rooted-ai-biotech-earendil-labs-raises-787m-ahead-of-possible-ipo/",
+      "source": "Endpoints News",
+      "one_liner": "The US-headquartered, China-rooted biotech Earendil Labs said it has raised $787 million in private money, a whopping sum to fund an AI platform that has already produced a pipeline of over 40 drug programs.\n\n Despite ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biotech",
+        "industry"
+      ]
+    }
+  ]
+}
