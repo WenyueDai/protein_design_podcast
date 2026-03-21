@@ -584,6 +584,11 @@
       "note": "DD",
       "title": "Enhancing non-local interaction modeling for ab initio biomolecular calculations and simulations with ViSNet-PIMA",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://doi.org/10.1080/19420862.2026.2647489": {
+      "note": "DD",
+      "title": "Application of protein language models for antibody developability prediction.",
+      "source": "PubMed — mAbs"
     }
   }
 }
