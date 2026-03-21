@@ -573,5 +573,12 @@
       "title": "StrucTTY: An Interactive, Terminal-Native Protein Structure Viewer",
       "source": "bioRxiv — bioinformatics"
     }
+  },
+  "2026-03-21": {
+    "https://www.biorxiv.org/content/10.1101/2025.03.12.642937": {
+      "note": "DD",
+      "title": "Coupling codon and protein constraints decouples drivers of variant pathogenicity",
+      "source": "bioRxiv — bioinformatics"
+    }
   }
 }
