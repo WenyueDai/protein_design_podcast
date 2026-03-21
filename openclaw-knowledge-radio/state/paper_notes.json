@@ -589,6 +589,11 @@
       "note": "DD",
       "title": "Application of protein language models for antibody developability prediction.",
       "source": "PubMed — mAbs"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.18.712765": {
+      "note": "DD",
+      "title": "Disagreement among variant effect predictors guides experimental prioritization of target proteins",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
