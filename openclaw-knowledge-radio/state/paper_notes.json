@@ -600,5 +600,12 @@
       "title": "Culture Shift",
       "source": "Asimov Press"
     }
+  },
+  "2026-03-22": {
+    "https://doi.org/10.1038/s41467-026-70613-x": {
+      "note": "DD",
+      "title": "High-resolution phage-host assignment through key proteins using large language models.",
+      "source": "PubMed — Nature communications"
+    }
   }
 }
