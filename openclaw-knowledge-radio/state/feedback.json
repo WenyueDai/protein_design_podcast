@@ -793,5 +793,22 @@
       "source": "bioRxiv — bioinformatics",
       "title": "evedesign: accessible biosequence design with a unified framework"
     }
+  ],
+  "2026-03-22": [
+    {
+      "url": "https://doi.org/10.1038/s41467-026-70613-x",
+      "source": "PubMed — Nature communications",
+      "title": "High-resolution phage-host assignment through key proteins using large language models."
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-026-70722-7",
+      "source": "PubMed — Nature communications",
+      "title": "Cryo-EM structure of TRPM1 reveals a non-canonical architecture with an inverted transmembrane domain."
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-026-70640-8",
+      "source": "PubMed — Nature communications",
+      "title": "Functional and structural basis of a negative allostery within GABA"
+    }
   ]
 }
