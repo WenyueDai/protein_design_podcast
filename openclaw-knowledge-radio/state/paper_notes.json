@@ -622,5 +622,12 @@
       "title": "TriGraphQA: a triple graph learning framework for model quality assessment of protein complexes",
       "source": "bioRxiv — bioinformatics"
     }
+  },
+  "2026-03-23": {
+    "https://doi.org/10.1093/bioinformatics/btag136": {
+      "note": "DD",
+      "title": "Evaluating Deep Learning Based Structure Prediction Methods on Antibody-Antigen Complexes.",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
+    }
   }
 }
