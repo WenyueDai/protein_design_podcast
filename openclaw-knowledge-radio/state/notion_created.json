@@ -462,5 +462,9 @@
   "2026-03-22|https://www.biorxiv.org/content/10.64898/2026.03.17.712533": {
     "page_id": "32b5f58e-a8c2-8132-bfd6-d418d302df2e",
     "note": "DD"
+  },
+  "2026-03-23|https://doi.org/10.1093/bioinformatics/btag136": {
+    "page_id": "32c5f58e-a8c2-8194-8547-d542e40fbb46",
+    "note": "DD"
   }
 }
