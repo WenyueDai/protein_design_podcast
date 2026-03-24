@@ -650,6 +650,11 @@
       "note": "DD",
       "title": "Misconduct, Bias or Benign? A Case of Missing Ångströms",
       "source": "BLOPIG (Oxford Protein Informatics Group)"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.20.713120": {
+      "note": "DD",
+      "title": "MHCBind: A Pan- and Allele-Specific Model for Predicting Class I MHC-Peptide Binding Affinity",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
