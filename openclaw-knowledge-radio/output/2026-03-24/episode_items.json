@@ -1,0 +1,300 @@
+{
+  "timestamps": [
+    0.0,
+    184.48,
+    378.33,
+    521.03,
+    663.08,
+    801.77,
+    936.48,
+    1069.15,
+    1209.78,
+    1343.84,
+    1546.11
+  ],
+  "items": [
+    {
+      "title": "Designing AI for Disruptive Science",
+      "url": "https://www.asimov.press/p/ai-science",
+      "source": "Asimov Press",
+      "one_liner": "Why scaling AI won’t automatically lead to paradigm shifts.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biology",
+        "science-writing",
+        "substack",
+        "author"
+      ]
+    },
+    {
+      "title": "AI-Predicting Compound Affinity. We Aren't There Yet.",
+      "url": "https://www.science.org/content/blog-post/ai-predicting-compound-affinity-we-aren-t-there-yet",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Why is Wikipedia so good?",
+      "url": "https://www.blopig.com/blog/2026/03/why-is-wikipedia-so-good/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "Something I often think about is how surprising it is that Wikipedia works, given that it is a resource accessible to the entire internet to edit and maintain. By all normal internet logic, it should be dreadful: too open, too messy, and vulnerable to misinformation. These flaws are evident now more so than ever on […]",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "Misconduct, Bias or Benign? A Case of Missing Ångströms",
+      "url": "https://www.blopig.com/blog/2026/03/misconduct-bias-or-benign-a-case-of-missing-angstroms/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "An Ångström An Ångström (Å) is a unit of length equal to 10−10 metres; one ten-billionth of a metre. It sits at a comfortable scale for the atomic world, with the diameter of a hydrogen atom, the length of a chemical bond, all measured in Ångström. It is not an International System of Units (Système […]",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "MHCBind: A Pan- and Allele-Specific Model for Predicting Class I MHC-Peptide Binding Affinity",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.20.713120",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Major Histocompatibility Complex (MHC) molecules are essential to the immune system because they bind and present peptide antigens to T cells, enabling immune recognition and response. The specificity of MHC-peptide interactions is crucial for understanding immune-related diseases, developing personalized immunotherapies, and designing effective vaccines....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "SpectraLLM: Uncovering the Ability of LLMs for Molecule Structure Elucidation from Multi-Spectral",
+      "url": "https://arxiv.org/abs/2508.08441",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2508.08441v2 Announce Type: replace \nAbstract: Automated molecular structure elucidation remains challenging, as existing approaches often depend on pre-compiled databases or restrict themselves to single spectroscopic modalities. Here we introduce \\textbf{SpectraLLM}, a large language model that performs end-to-end structure prediction by reasoning...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Persistent local Laplacian prediction of protein-ligand binding affinities",
+      "url": "https://arxiv.org/abs/2603.21503",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2603.21503v1 Announce Type: new \nAbstract: Accurate prediction of protein-ligand binding affinity remains a central challenge in structure-based drug discovery. The effectiveness of machine learning models critically depends on the quality of molecular descriptors, for which advanced mathematical frameworks provide powerful tools. In this work, we e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "D-LIM: A neural network for interpretable gene-gene interactions.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014107",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Recent advances in gene editing can produce large genotype-fitness maps for targeted genes, yet predicting the effects of mutations between genes remains challenging. Indeed, biochemical models require knowledge of underlying parameters and interactions, whereas machine learning methods typically lack interpretability, as they do not link model parameters...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting drug-target interactions and binding affinity using an optimized deep learning approach.",
+      "url": "https://doi.org/10.1007/s10822-026-00792-8",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "The accurate prediction of Drug-Target Interactions (DTIs) and Drug-Target Affinity (DTA) is crucial for reducing experimental costs and time, thereby accelerating drug discovery and repurposing efforts. The local biochemical contexts and the global structural dependencies between drugs and their target proteins are often insufficiently captured by conven...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Differentiating Depression Subtypes through three-electrode EEG and Emotional Stimuli: A Machine Learning Approach.",
+      "url": "https://doi.org/10.1088/2057-1976/ae55a7",
+      "source": "PubMed — Biomedical physics & engineering express",
+      "one_liner": "We propose an EEG-based framework for depression subtype assessment using emotion-modulated neural dynamics elicited by immersive virtual reality (VR). EEG was recorded from 70 participants (31 first depressive episode, FDE; 18 recurrent depressive episode, RDE; 21 control participants, HC) using a compact frontal montage (Fp1/Fpz/Fp2) during positive and...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "VPF-Class 2.0: a taxonomy-centered framework for automatic viral classification",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.20.713201",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Rapid expansion of viral sequence data demands classifiers that scale, track ICTV updates, and provide interpretable evidence. We present VPF-Class 2.0, an updated successor to VPF-Class, centred on the taxonomic classification, that retains marker-driven protein domain detection but replaces rule-based voting with a lightweight supervised model on per-ge...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Learning gene interactions from tabular gene expression data using Graph Neural Networks",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.19.712949",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Gene interactions form complex networks underlying disease susceptibility and therapeutic response. While bulk transcriptomic datasets offer rich resources for studying these interactions, applying Graph Neural Networks (GNNs) to such data remains limited by a lack of methodological guidance, especially for constructing gene interaction graphs. We present...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structurally Restricted Message-Passing within Shallow Architectures for Explainable Network-Level Brain Decoding on Small Cohorts",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.20.713136",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The application of artificial intelligence (AI) to functional magnetic resonance imaging (fMRI) has gained increasing attention due to its ability to model complex, high-dimensional brain data and capture nonlinear patterns of neural activity. However, deep learning architectures, such as Graph Neural Networks (GNNs), typically require large sample sizes ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Time-Resolved Phosphoproteomics-Guided BFS Beam Search Reveals Cell-Type-Specific EGFR Signaling Architectures and SHP2 Inhibitor-Induced Pathway Rewiring",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.20.712775",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Background: The epidermal growth factor receptor (EGFR) orchestrates highly context-dependent intracellular signaling networks whose architecture varies across cell types and is frequently rewired by targeted therapeutics. Systems-level reconstruction of these networks from phosphoproteomic data remains challenging because phosphorylation measurements ide...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Microbial Signal Recognition & Neuronal Mimicry (SRNM) axis in IBD",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.20.713231",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Background: Inflammatory bowel disease (IBD) is a chronic inflammatory disorder characterized by gut microbial dysbiosis and immune dysregulation. While compositional changes in the microbiome are well studied, the functional mechanisms through which microbes influence host signalling remain poorly understood. Purpose: This study aimed to investigate micr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "EvoMut: A Computational Framework for Engineering Oxidative Stability in Proteins",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.19.712986",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Amino acid oxidation is a major cause of protein instability and loss of function in therapeutic and industrial settings. Although methionine, cysteine, tyrosine, and tryptophan residues are widely recognized as oxidation-prone, only a subset of such residues are dominant functional hotspots, and not all are suitable targets for mutation. Identifying thes...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Solving the Diagnostic Odyssey with Synthetic Phenotype Data",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.19.712946",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The space of possible phenotype profiles over the Human Phenotype Ontology (HPO) is combinatorially vast, whereas the space of candidate disease genes is far smaller. Phenotype-driven diagnosis is therefore highly non-bijective: many distinct symptom profiles can correspond to the same gene, but only a small fraction of the theoretical phenotype space is ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pretraining Improves Prediction of Genomic Datasets Across Species.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag139",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Recent studies suggest that deep neural network models trained on thousands of human genomic datasets can accurately predict genomic features, including gene expression and chromatin accessibility. However, training these models is computation- and time-intensive, and datasets of comparable size do not exist for most other organisms. RESULTS: ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "FFC: A Scalable FASTA Compressor.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag132",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "SUMMARY: FASTA is a widely used text-based format for storing nucleotide and protein sequences. The existing FASTA compressors usually focus on (slightly) improving the compression ratio, not on practical performance. We present FFC, a scalable FASTA compressor that achieves average compression speeds 4.7× and 11.4× higher than two high-performance compre...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Can synthetic data reproduce real-world findings in epidemiology? A replication study using adversarial random forests",
+      "url": "https://arxiv.org/abs/2508.14936",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2508.14936v2 Announce Type: replace \nAbstract: Synthetic data holds substantial potential to address practical challenges in epidemiology due to restricted data access and privacy concerns. However, many current methods suffer from limited quality, high computational demands, and complexity for non-experts. Furthermore, common evaluation strategies ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    }
+  ]
+}
