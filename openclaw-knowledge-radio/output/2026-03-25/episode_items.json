@@ -1,0 +1,298 @@
+{
+  "timestamps": [
+    0.0,
+    179.42,
+    325.96,
+    473.17,
+    596.31,
+    727.47,
+    876.91,
+    1016.64,
+    1160.2,
+    1300.96,
+    1483.95
+  ],
+  "items": [
+    {
+      "title": "Fragment-to-Lead Successes in 2024 – 10th Anniversary Edition",
+      "url": "https://www.blopig.com/blog/2026/03/fragment-to-lead-successes-in-2024-10th-anniversary-edition/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "In what I have to admit is now becoming an annual tradition ([2023] [2019]), I’d like to highlight the 2024 edition of the fragment-to-lead success stories, published in J. Med. Chem. at the end of 2025 [Paper]. This year’s publication covers 18 case studies (in line with last year’s 17, but lower than the 10-year […]",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "Set Phasers to \"Kill\". No, Not Those Phasers.",
+      "url": "https://www.science.org/content/blog-post/set-phasers-kill-no-not-those-phasers",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Fair splits flip the leaderboard: CHANRG reveals limited generalization in RNA secondary-structure prediction",
+      "url": "https://arxiv.org/abs/2603.22330",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2603.22330v1 Announce Type: new \nAbstract: Accurate prediction of RNA secondary structure underpins transcriptome annotation, mechanistic analysis of non-coding RNAs, and RNA therapeutic design. Recent gains from deep learning and RNA foundation models are difficult to interpret because current benchmarks may overestimate generalization across RNA f...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "ProtCross: Bridging the PDB-AlphaFold Gap for Binding Site Prediction with Protein Point Clouds.",
+      "url": "https://doi.org/10.1021/acs.jcim.5c03224",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "AlphaFold2 (AF2) has greatly increased the availability of predicted protein structures, but many binding-site prediction methods trained on experimentally determined Protein Data Bank (PDB) complexes perform less well when applied to AF2 models. This loss of accuracy reflects differences between ligand-bound experimental structures and predominantly apo-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Revealing the therapeutic potential of Laminaria japonica polysaccharides against cataract: evidence from transcriptomics, network pharmacology, and in vivo experiments.",
+      "url": "https://doi.org/10.1007/s10792-026-03984-1",
+      "source": "PubMed — International ophthalmology",
+      "one_liner": "OBJECTIVE: To investigate the protective effects and underlying molecular mechanisms of Laminaria japonica polysaccharides (LPs) against cataract. METHODS: An integrated strategy combining transcriptomic analysis, network pharmacology, machine learning, molecular docking, and in vivo validation was employed. Differentially expressed genes were identified ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Eligibility for lecanemab treatment in a French memory clinic setting.",
+      "url": "https://doi.org/10.1007/s00415-026-13760-x",
+      "source": "PubMed — Journal of neurology",
+      "one_liner": "INTRODUCTION: Anti-amyloid monoclonal antibodies, including lecanemab and donanemab, are now available for the treatment of Alzheimer's disease (AD). Defining real-world patient eligibility and identifying barriers to access are critical for their effective implementation in routine clinical practice. METHODS: Retrospective observational multicenter study...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting the performance of a graphene-based patch antenna using a machine learning model for terahertz applications.",
+      "url": "https://doi.org/10.1038/s41598-026-44544-y",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "This article presents the design of a graphene-based microstrip patch antenna, operating frequency range: (1-5) THz for terahertz (THz) applications. This paper presents simulations and a machine learning (ML) approach to characterize the performance characteristics, such as S11, Voltage Standing Wave Ratio (VSWR), gain, radiation, and total efficiencies,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning modelling of a nonlinear environmental index with sensitivity analysis for groundwater assessment.",
+      "url": "https://doi.org/10.1038/s41598-026-44906-6",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The aim of this study was to evaluate groundwater quality the Marvdasht aquifer using the Groundwater Quality Index (GWQI), which was determined using a conventional method and also predicted using three machine learning algorithms: Artificial Neural Network (ANN), Support Vector Machine (SVM) and Random Forest (RF). For this purpose, groundwater quality ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TMDD Modeling for Antibodies Directed Against Soluble Targets: Parameter Values for De Novo Modeling and Simulation From Experimental Data.",
+      "url": "https://doi.org/10.1002/cpt.70255",
+      "source": "PubMed — Clinical pharmacology and therapeutics",
+      "one_liner": "The Target-Mediated Drug Disposition (TMDD) model is an important framework in pharmacokinetics (PK) and pharmacodynamics (PD), providing insights into drug interactions with soluble and membrane-bound targets, particularly for monoclonal antibodies. This paper reviews TMDD modeling specifically focused on monoclonal antibodies targeting soluble ligands, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Physics-Guided Machine Learning for Ionic-Liquid Volumetric Properties.",
+      "url": "https://doi.org/10.1021/acs.jcim.5c02962",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Accurate modeling of the volumetric behavior of ionic liquids (ILs) is crucial for guiding the design of electrolytes for energy storage and other chemical systems. While classical group contribution methods (GCMs) are grounded in thermodynamic theory, traditional machine learning (ML) models often lack physically consistent predictions and generalizabili...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning and response surface analysis of mean drop size and dispersed phase holdup in an L-shaped pulsed sieve plate column.",
+      "url": "https://doi.org/10.1038/s41598-026-40081-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Micro16S: Universal Phylogenetic 16S rRNA Gene Representations for Deep Learning of the Microbiome",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.21.713432",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Existing self-supervised microbiome models represent taxa as discrete, independent units restricted to fixed vocabularies, disregarding their evolutionary context. Here we present Micro16S, a deep learning approach that embeds 16S ribosomal RNA gene sequences into a continuous vector space according to phylogenetic relationships derived from the Genome Ta...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "TCRseek: Scalable Approximate Nearest Neighbor Search for T-Cell Receptor Repertoires via Windowed k-mer Embeddings",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.20.713313",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The rapid growth of T-cell receptor (TCR) sequencing data has created an urgent need for computational methods that can efficiently search CDR3 sequences at scale. Existing approaches either rely on exact pairwise distance computation, which scales quadratically with repertoire size, or employ heuristic grouping that sacrifices sensitivity. Here we presen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "From SNPs to Pathways: A genome-wide benchmark of annotation discrepancies and their impact on protein- and pathway-level inference",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.21.713397",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Background Accurate single-nucleotide polymorphism (SNP) annotation is central to genomic research yet widely used tools and gene models often yield divergent results. Prior studies have shown such discrepancies in small datasets, but the extent of genome-wide variation and its impact on downstream pathway analysis remain unclear. Results We conducted a c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A universal model for drug-receptor interactions",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.08.01.668090",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The genomic landscape of disease holds, in principle, the information required for rational therapeutic design. Genes encode proteins whose functions are tightly coupled to their three-dimensional structures via non-bonded interactions. Since the late 1970s, the advent of macromolecular crystallography inspired the notion that structural knowledge alone c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unveiling the biodiversity of large DNA viruses in intertidal mudflats via metagenomics.",
+      "url": "https://doi.org/10.1038/s41467-026-71095-7",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Large DNA viruses (LDVs) are unique members of the Earth's virosphere, remarkable for their extra-large genome sizes and broad metabolic potential. However, our knowledge of this viral group remains very limited, particularly in complex dynamic habitats. In this study, 237 metagenome-assembled LDV genomes are comprehensively recovered from intertidal mudf...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A high-affinity split-HaloTag for live-cell protein labeling",
+      "url": "https://www.nature.com/articles/s41467-026-71032-8",
+      "source": "Nature - Protein Design",
+      "one_liner": "Not stated in source text (No article text provided; only a list of references/citations is present).\n\nMETHOD / APPROACH:  \nNot stated in source text.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "nature",
+        "topic"
+      ]
+    },
+    {
+      "title": "COVID-19 Forecasting from U.S. Wastewater Surveillance Data: A Retrospective Multi-Model Study (2022-2024)",
+      "url": "https://arxiv.org/abs/2512.01074",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2512.01074v2 Announce Type: replace-cross \nAbstract: Accurate and reliable forecasting models are critical for guiding public health responses and policy decisions during pandemics such as COVID-19. Retrospective evaluation of model performance is essential for improving epidemic forecasting capabilities. In this study, we used COVID-19 wastewater d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Enhancing generalizability of model discovery across parameter space with multi-experiment equation learning (ME-EQL)",
+      "url": "https://arxiv.org/abs/2506.08916",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2506.08916v2 Announce Type: replace-cross \nAbstract: Agent-based modeling (ABM) is a powerful tool for understanding self-organizing biological systems, but it is computationally intensive and often not analytically tractable. Equation learning (EQL) methods can derive continuum models from ABM data, but they typically require extensive simulations ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Subspace Tensor Orthogonal Rotation Model (STORM) for Batch Alignment, Cell Type Deconvolution, and Gene Imputation in Spatial Transcriptomic Data",
+      "url": "https://arxiv.org/abs/2603.22477",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2603.22477v1 Announce Type: new \nAbstract: Spatial transcriptomics data analysis integrates cellular transcriptional activity with spatial coordinates to identify spatial domains, infer cell-type dynamics, and characterize gene expression patterns within tissues. Despite recent advances, significant challenges remain, including the treatment of batc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    }
+  ]
+}
