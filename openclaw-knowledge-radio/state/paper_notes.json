@@ -667,6 +667,11 @@
       "note": "DD",
       "title": "ProtCross: Bridging the PDB-AlphaFold Gap for Binding Site Prediction with Protein Point Clouds.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://www.nature.com/articles/s41467-026-71032-8": {
+      "note": "DD",
+      "title": "A high-affinity split-HaloTag for live-cell protein labeling",
+      "source": "Nature - Protein Design"
     }
   }
 }
