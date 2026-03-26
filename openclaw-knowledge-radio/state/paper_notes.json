@@ -694,6 +694,11 @@
       "note": "DD",
       "title": "Co-folding of Membrane Proteins and Lipid Molecules Improves Membrane-Protein Structure Prediction Accuracy",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.23.712833": {
+      "note": "DD",
+      "title": "Visualize, Explore, and Select: A protein Language Model-based Approach Enabling Navigation of Protein Sequence Space fo",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
