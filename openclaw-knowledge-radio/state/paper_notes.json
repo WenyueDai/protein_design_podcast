@@ -709,6 +709,11 @@
       "note": "DD",
       "title": "ZeroFold: Protein-RNA Binding Affinity Predictions from Pre-Structural Embeddings",
       "source": "arXiv q-bio.BM"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.24.714074": {
+      "note": "DD",
+      "title": "CombinGym: a benchmark platform for machine learning-assisted design of combinatorial protein variants",
+      "source": "bioRxiv — synthetic biology"
     }
   }
 }
