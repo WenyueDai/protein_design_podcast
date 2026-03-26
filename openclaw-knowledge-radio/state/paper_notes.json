@@ -699,6 +699,11 @@
       "note": "DD",
       "title": "Visualize, Explore, and Select: A protein Language Model-based Approach Enabling Navigation of Protein Sequence Space fo",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://www.biorxiv.org/content/10.1101/2024.12.17.628831": {
+      "note": "DD",
+      "title": "Fitness translocation: improving variant effect prediction with biologically-grounded data augmentation",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
