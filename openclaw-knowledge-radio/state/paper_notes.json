@@ -714,6 +714,11 @@
       "note": "DD",
       "title": "CombinGym: a benchmark platform for machine learning-assisted design of combinatorial protein variants",
       "source": "bioRxiv — synthetic biology"
+    },
+    "https://www.biorxiv.org/content/10.1101/2025.07.22.665918": {
+      "note": "DD",
+      "title": "Statistical detection of protein sites associated with continuous traits",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
