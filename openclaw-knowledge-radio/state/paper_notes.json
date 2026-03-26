@@ -678,5 +678,12 @@
       "title": "Fair splits flip the leaderboard: CHANRG reveals limited generalization in RNA secondary-structure prediction",
       "source": "arXiv q-bio.BM"
     }
+  },
+  "2026-03-26": {
+    "https://www.blopig.com/blog/2026/03/sigmadock-untwisting-molecular-docking-with-fragment-based-se3-diffusion/": {
+      "note": "DD",
+      "title": "SigmaDock: untwisting molecular docking with fragment-based SE(3) diffusion",
+      "source": "BLOPIG (Oxford Protein Informatics Group)"
+    }
   }
 }
