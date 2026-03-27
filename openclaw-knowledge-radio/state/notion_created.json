@@ -538,5 +538,17 @@
   "2026-03-27|https://doi.org/10.1093/gpbjnl/qzag026": {
     "page_id": "3305f58e-a8c2-8149-a1d7-fcb47eaa4943",
     "note": "DD"
+  },
+  "2026-03-27|https://doi.org/10.1021/acs.jctc.5c01990": {
+    "page_id": "3305f58e-a8c2-81e8-bf86-e7d0cd02de40",
+    "note": "DD"
+  },
+  "2026-03-27|https://arxiv.org/abs/2510.14989": {
+    "page_id": "3305f58e-a8c2-8104-bfc1-e0b9b444a733",
+    "note": "DD"
+  },
+  "2026-03-27|https://www.biorxiv.org/content/10.64898/2026.03.24.713863": {
+    "page_id": "3305f58e-a8c2-819a-8e9c-f0ae7dda5de8",
+    "note": "DD"
   }
 }
