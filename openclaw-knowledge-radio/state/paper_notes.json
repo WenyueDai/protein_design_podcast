@@ -741,6 +741,11 @@
       "note": "DD",
       "title": "Effects of protein interface mutations on protein quality and affinity",
       "source": "bioRxiv — molecular biology"
+    },
+    "https://doi.org/10.1038/s41467-026-70884-4": {
+      "note": "DD",
+      "title": "Atlas of predicted protein complex structures across kingdoms.",
+      "source": "PubMed — Nature communications"
     }
   }
 }
