@@ -720,5 +720,12 @@
       "title": "Statistical detection of protein sites associated with continuous traits",
       "source": "bioRxiv — bioinformatics"
     }
+  },
+  "2026-03-27": {
+    "https://doi.org/10.1093/gpbjnl/qzag026": {
+      "note": "DD",
+      "title": "Evaluating AlphaFold Tools and Related Scoring Functions for Protein-peptide Complex Prediction.",
+      "source": "PubMed — Genomics, proteomics & bioinformatics"
+    }
   }
 }
