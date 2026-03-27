@@ -726,6 +726,11 @@
       "note": "DD",
       "title": "Evaluating AlphaFold Tools and Related Scoring Functions for Protein-peptide Complex Prediction.",
       "source": "PubMed — Genomics, proteomics & bioinformatics"
+    },
+    "https://doi.org/10.1021/acs.jctc.5c01990": {
+      "note": "DD",
+      "title": "Evaluation of protein-RNA Docking Web Servers for Template-Free Docking and Comparison with the AlphaFold Server.",
+      "source": "PubMed — Journal of chemical theory and computation"
     }
   }
 }
