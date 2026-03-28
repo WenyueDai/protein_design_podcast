@@ -860,6 +860,7 @@ audio {{ width:100%; margin:0; }}
               <a class="nav-link" href="https://www.notion.so/3235f58ea8c280e3859edbc7015a4714?v=3235f58ea8c2804fbfdc000c874d048d" target="_blank">Daily Transcripts</a>
               <a class="nav-link" href="https://clear-squid-8e3.notion.site/3165f58ea8c280498f72c770028aec0d?v=3165f58ea8c28020983c000cec9807e6" target="_blank">Deep Dive Notes</a>
               <a class="nav-link" href="https://www.notion.so/Openclaw_weekly_summary-3235f58ea8c280e4bbcbe4edac796ca6" target="_blank">Weekly Summary</a>
+              <a class="nav-link" href="https://clear-squid-8e3.notion.site/Openclaw_monthly_summary-3235f58ea8c28044a8e9f479ef65993d" target="_blank">Monthly Summary</a>
             </nav>
           </div>
         </div>
