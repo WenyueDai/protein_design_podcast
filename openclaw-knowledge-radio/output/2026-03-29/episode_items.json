@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    162.52,
+    315.04,
+    449.32,
+    695.72,
+    829.35,
+    982.75,
+    1121.61,
+    1274.15,
+    1410.64,
+    1642.18
+  ],
+  "items": [
+    {
+      "title": "Intensity modulation of trichromatic split fluorescent proteins for live cell mapping.",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101363",
+      "source": "PubMed — Cell reports methods",
+      "one_liner": "Current fluorescent protein-based multiplexed cell labeling techniques suffer from limited discrimination power due to stochastic color selection and large gene sizes from tandem repeats of multiple fluorescent proteins. We developed Caterpie, a rationally designed system using engineered split fluorescent proteins that enables deterministic identificatio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Adversarial erasing enhanced multiple instance learning (siMILe): Discriminative identification of oligomeric protein structures in single molecule localization microscopy",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.09.29.679377",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Single-molecule localization microscopy (SMLM) achieves nanoscale imaging of complex protein structures in the cell. However, the ability to capture structural variability across cell conditions (cell lines, gene expression, treatment) from 3D point cloud SMLM data remains limited. We present siMILe, a weakly-supervised multiple instance learning (MIL) ma...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cryo-EM structures of photosystem I with alternative quinones reveals new insight into cofactor selectivity",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714801",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Quinones are an integral component of electron transfer processes in photosynthetic and mitochondrial respiratory proteins. One such photosynthetic protein, Photosystem I, is an essential photooxidoreductase found in all oxygenic phototrophs. To better understand quinone chemistry and to form a basis for protein engineering, the menB gene in the model cya...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "IDPForge: Deep Learning of Proteins with Global and Local Regions of Disorder",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.25.714313",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Although machine learning has transformed protein structure prediction of folded protein ground states with remarkable accuracy, intrinsically disordered proteins and regions (IDPs/IDRs) are defined by diverse and dynamical structural ensembles that are predicted with low confidence by algorithms such as AlphaFold and RoseTTAFold. We present a new machine...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dissecting the interactions of the ISG15-USP18-STAT2 inhibitory complex",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.26.714284",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "The suppression of type I interferon (IFN) signalling by the ISG15-USP18-STAT2 inhibitory complex (ISG15 IC) is an established regulatory mechanism of the antiviral response. However, a molecular understanding of how the ISG15 IC forms to suppress IFN signalling is still emerging. Here, we use AlphaFold modelling in conjunction with biochemical and biophy...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Free energy calculations in molecular modeling: from classical methods to machine learning.",
+      "url": "https://doi.org/10.1007/s00894-026-06678-8",
+      "source": "PubMed — Journal of molecular modeling",
+      "one_liner": "CONTEXT: Free energy calculations have evolved from specialized theoretical tools to essential components of modern molecular design, particularly in pharmaceutical research where alchemical binding free energy methods now guide lead optimization decisions. Despite significant methodological advances over the past two decades, including statistically opti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A novel quantum convolutional neural network framework for quantum-enhanced classification of pixelated colour images.",
+      "url": "https://doi.org/10.1038/s41598-026-45140-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "As image datasets grow in scale and complexity, classical convolutional neural networks (CNNs) increasingly face limitations in computational efficiency, scalability, and generalisation in low-data regimes. Quantum machine learning (QML) offers a promising alternative, with quantum convolutional neural networks (QCNNs) exploiting quantum parallelism and e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A physics-informed machine learning framework for predicting and mitigating doxorubicin nanocarrier toxicity in normal cells.",
+      "url": "https://doi.org/10.1038/s41598-026-42209-4",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The clinical utility of doxorubicin (DOX) has been widely hampered by a dose-dependent systemic toxicity, in particular cardiotoxicity. While nanocarrier systems represent encouraging solutions, their optimization is not an easy task due to complex, nonlinear relationships between physicochemical properties and biological outcomes. This study presents a h...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing credit card fraud detection with a hybrid approach using machine and deep learning.",
+      "url": "https://doi.org/10.1038/s41598-026-42891-4",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Credit card fraud is an important concern for banks, financial institutions and consumers, resulting in substantial financial losses annually. Traditional fraud detection systems are based on predefined rules, but as fraudsters develop more sophisticated techniques, these methods become less effective. Machine learning (ML) and deep learning (DL) offer po...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Activation mechanism of class A GPCRs: machine learninganalysis of experimental structural databases",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.26.714415",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Recent advances in cryo-electron microscopy and cryo-electron omography have dramatically increased the number of class A G protein-coupled receptor (GPCR) structures, especially in previously inaccessible G protein-bound, active-like conformations. The increased structural diversity provides a unique opportunity to explore the conformational landscape un...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Tracking ligand-binding-induced structural populations in T4 lysozyme by time-resolved serial crystallography",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.26.714466",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Ligand binding has been shown to induce significant alterations in the conformational landscape of proteins. Traditional crystallography approaches have provided valuable input about the end states in ligand-binding reactions. However, dynamical relationships between ligand binding and backbone rearrangement often remain obscured by crystallographic struc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evaluating SARS-CoV-2 Antibody Resilience via Prediction and Design of Escape Viral Variants",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.05.12.653592",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The evolutionary trajectory of SARS-CoV-2 is shaped by competing pressures for ACE2 binding, structural viability, and escape from neutralizing antibodies targeting its receptor-binding domain (RBD). Here, we present EscapeMap, a modular framework that quantifies immune selection and predicts which antibodies are more or less likely to be escaped by futur...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-informed direct coupling analysis improves protein mutational landscape predictions",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714804",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Direct Coupling Analysis has been instrumental over the past decade in leveraging evolutionary information and advancing our understanding of biomolecular structure and function. Here, we introduce sparse extensions of this method that explicitly incorporate structural information. StructureDCA focuses on physically relevant interactions by selectively re...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "SMART: spatial multi-omic aggregation using graph neural networks and metric learning.",
+      "url": "https://doi.org/10.1038/s41467-026-70821-5",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Spatial multi-omics enables the exploration of tissue microenvironments and heterogeneity from the perspective of different omics modalities across distinct spatial domains within tissues. To jointly analyze the spatial multi-omics data, computational methods are desired to integrate multiple omics with spatial information into a unified space. Here, we p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Conformational gating mechanism for processive catalysis of β(1,3)-glucans.",
+      "url": "https://doi.org/10.1038/s41467-026-71224-2",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Processive catalysis is a fundamental molecular mechanism to build and dismantle complex biopolymers such as nucleic acids, proteins and carbohydrates, underpinning a myriad of biotechnological applications. Here, we uncover a processive mechanism for the breakdown of β(1,3)-glucans, a widespread carbohydrate class. This mechanism involves a dynamic activ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cryo-EM structure of Chlamydomonas reinhardtii Photosystem I complexed with cytochrome c",
+      "url": "https://doi.org/10.1038/s41467-026-70944-9",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Photosynthetic electron transfer relies on small soluble carriers that shuttle electrons between the cytochrome b₆f complex and Photosystem I (PSI). While copper-containing plastocyanin (Pc) serves this role in plants, the heme protein cytochrome c₆ (Cyt c₆) is also employed in algae and cyanobacteria. Here, we present a cryo-electron microscopy structure...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TaCNGC-2A suppresses seed dormancy and activates pre-harvest sprouting through modulating calcium and hormonal signaling pathways.",
+      "url": "https://doi.org/10.1038/s41467-026-70894-2",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Weak seed dormancy (SD) is prone to pre-harvest sprouting (PHS), which reduces cereal yield and quality. Here, through map-based analysis, we identify TaCNGC-2A, encoding a cyclic nucleotide-gated channel protein, as a negative regulator of wheat SD. Knocking out of TaCNGC-2A enhances SD and PHS resistance, with no yield penalty. Two transcription factors...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Supernetwork-based efficient mapping of deep learning applications to mixed-precision hardware using model adaptation.",
+      "url": "https://doi.org/10.1038/s41467-026-71071-1",
+      "source": "PubMed — Nature communications",
+      "one_liner": "The rapid proliferation of Artificial Intelligence applications necessitates scalable solutions that perform efficiently under real-world constraints. Heterogeneous accelerators combining specialized analog and digital units offer localized, energy-efficient neural network computations. However, achieving optimal performance on these platforms requires ba...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "#AAD26: Biogen declares Phase 2 lupus success for anti-BDCA2 antibody",
+      "url": "https://endpoints.news/aad26-biogen-declares-phase-2-lupus-win-for-anti-bdca2-antibody/",
+      "source": "Endpoints News",
+      "one_liner": "Biogen trumpeted new Phase 2 lupus data on Saturday for a program it hopes will become a pillar of its immunology pipeline.\n\n The drug litifilimab improved patients’ skin lesions after 24 weeks, with 14.7% reaching ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biotech",
+        "industry"
+      ]
+    },
+    {
+      "title": "#AAD26: Tanabe’s Phase 3 win for drug targeting rare diseases that cause pain upon light exposure",
+      "url": "https://endpoints.news/aad26-tanabes-phase-3-win-for-drug-targeting-rare-diseases-that-cause-pain-upon-light-exposure/",
+      "source": "Endpoints News",
+      "one_liner": "Tanabe Pharma unveiled positive data from a Phase 3 trial of its oral drug for a pair of rare diseases, its first major clinical milestone after it was acquired by Bain Capital ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biotech",
+        "industry"
+      ]
+    }
+  ]
+}
