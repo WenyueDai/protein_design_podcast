@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Mar 2026 05:19:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 09:50:43 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -22,10 +22,10 @@
       <title>Daily Podcast 2026-03-29</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-29/podcast_2026-03-29.mp3</guid>
       <pubDate>Sun, 29 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-29/podcast_2026-03-29.mp3" length="13623477" type="audio/mpeg" />
-      <description>Today&#x27;s papers reveal a fascinating shift in how we think about protein structure and function across multiple scales. | First, a fundamental assumption about Photosystem I has been overturned. | Second, we&#x27;re seeing a breakthrough in how we handle intrinsically disordered proteins.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-29/podcast_2026-03-29.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today&#x27;s papers reveal a fascinating shift in how we think about protein structure and function across multiple scales. | First, a fundamental assumption about Photosystem I has been overturned. | Second, we&#x27;re seeing a breakthrough in how we handle intrinsically disordered proteins.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
