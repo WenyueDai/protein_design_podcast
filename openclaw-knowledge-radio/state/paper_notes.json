@@ -765,6 +765,11 @@
       "note": "DD",
       "title": "IDPForge: Deep Learning of Proteins with Global and Local Regions of Disorder",
       "source": "bioRxiv — biophysics"
+    },
+    "https://doi.org/10.1007/s00894-026-06678-8": {
+      "note": "DD",
+      "title": "Free energy calculations in molecular modeling: from classical methods to machine learning.",
+      "source": "PubMed — Journal of molecular modeling"
     }
   }
 }
