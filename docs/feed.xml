@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Mar 2026 09:50:43 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 05:32:51 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -18,6 +18,17 @@
     <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     <itunes:explicit>false</itunes:explicit>
     
+    <item>
+      <title>Daily Podcast 2026-03-30</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-30/podcast_2026-03-30.mp3</guid>
+      <pubDate>Mon, 30 Mar 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-30/podcast_2026-03-30.mp3" length="11681013" type="audio/mpeg" />
+      <description>Today&#x27;s papers reveal a striking shift in how we think about protein design and prediction at scale. | Another old belief getting overturned: that small-molecule binding requires extensive experimental screening. | The mutation impact prediction paper challenges the assumption that sequence and structure features must be fused implicitly.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Today&#x27;s papers reveal a striking shift in how we think about protein design and prediction at scale. | Another old belief getting overturned: that small-molecule binding requires extensive experimental screening. | The mutation impact prediction paper challenges the assumption that sequence and structure features must be fused implicitly.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
     <item>
       <title>Daily Podcast 2026-03-29</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-29/podcast_2026-03-29.mp3</guid>

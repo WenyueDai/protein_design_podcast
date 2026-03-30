@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    132.07,
+    265.72,
+    399.32,
+    548.24,
+    667.35,
+    818.5,
+    939.96,
+    1088.75,
+    1252.74,
+    1405.47
+  ],
+  "items": [
+    {
+      "title": "Machine learning-predicted chromatin organization landscape across pediatric tumors.",
+      "url": "https://doi.org/10.1038/s41598-026-44925-3",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Structural variants (SVs) are increasingly recognized as important contributors to oncogenesis through their effects on 3D genome folding. Recent advances in whole-genome sequencing have enabled large-scale profiling of SVs across diverse tumors, yet experimental characterization of their individual impact on genome folding remains infeasible. Here, we le...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AlphaFold Database expands to proteome-scale quaternary structures",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714458",
+      "source": "bioRxiv — synthetic biology",
+      "one_liner": "Protein function is governed by molecular interactions, yet structural coverage of these interactions remains sparse. The AlphaFold Protein Structure Database (AFDB) transformed access to accurate monomeric protein structures at scale. Here, we expand AFDB with 1.8M high-confidence protein complexes by conducting a large-scale study of over 31M predicted ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Small-molecule binding and sensing with a designed protein family.",
+      "url": "https://doi.org/10.1038/s41467-026-70953-8",
+      "source": "PubMed — Nature communications",
+      "one_liner": "The de novo design of small-molecule-binding proteins holds great promise as a potential tool to develop sensors on-demand for arbitrary small molecules. Here we combine deep learning and physics-based methods to generate a family of proteins with diverse and designable pocket geometries, which we employ to computationally design binders for six small-mol...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing Mutation Impact Prediction in Protein Protein Interactions through Interpretable Graph-Based Multi-Level Feature Interactions.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag150",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Protein-protein interactions (PPIs) are central to cellular functions, and predicting mutation-induced changes in binding affinity (ΔΔG) remains challenging. Although existing computational methods integrate sequence- and structure-derived features and thus implicitly capture certain sequence-structure relationships, they typically fuse these ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TurboESM: Ultra-Efficient 3-Bit KV Cache Quantization for Protein Language Models with Orthogonal Rotation and QJL Correction",
+      "url": "https://arxiv.org/abs/2603.26110",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2603.26110v1 Announce Type: new \nAbstract: The rapid scaling of Protein Language Models (PLMs) has unlocked unprecedented accuracy in protein structure prediction and design, but the quadratic memory growth of the Key-Value (KV) cache during inference remains a prohibitive barrier for single-GPU deployment and high-throughput generation. While 8-bit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "KANEL: Kolmogorov-Arnold Network Ensemble Learning Enables Early Hit Enrichment in High-Throughput Virtual Screening",
+      "url": "https://arxiv.org/abs/2603.25755",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2603.25755v1 Announce Type: cross \nAbstract: Machine learning models of chemical bioactivity are increasingly used for prioritizing a small number of compounds in virtual screening libraries for experimental follow-up. In these applications, assessing model accuracy by early hit enrichment such as Positive Predicted Value (PPV) calculated for top N ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Decoding the interaction of characteristic aroma compounds in Anhui rose damascena essential oil: Utilizing odor activity values, molecular simulation, and machine learning.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.147985",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Anhui Rosa damascena essential oil is renowned for its unique aroma, yet the mechanism of aroma interactions remains unclear. Using gas chromatography-mass spectrometry-olfactometry (GC-MS-O), odor activity values (OAVs), and computational methods, 31 key aroma compounds and 24 binary interactions (11 masking, 6 additive, 7 synergistic) were identified. N...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein Electrostatic Properties are Finetuned Through Evolution",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.04.17.649309",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Ionization states play crucial roles in protein functions. Yet despite decades of research, predicting protein pKa values emains a formidable challenge. Here, we present KaML-ESMs, neural networks built on the ESM protein language models and trained on a synthetically augmented experimental dataset. The KaML-ESMs significantly outperform structure-based a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dynamic interaction network-guided engineering of Bacillus subtilis lipase a for enhanced stability in non-aqueous media.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.151703",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Industrial enzymes often face the challenge of simultaneously improving thermostability and catalytic activity in non-aqueous catalysis. This study proposes an integrated design strategy combining PROSS computational design, molecular dynamics simulations, and innovative dynamic residue interaction network analysis (focusing on edge-weight variance) to sy...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-driven design of multiscale reinforced horse chestnut starch-based composite films for biodegradable packaging applications.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.151678",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "To address the poor mechanical strength, limited thermal stability, and inadequate UV-shielding capability of starch films, as well as to overcome the inefficiency of conventional trial-and-error optimization, this study fabricated multiscale hybrid composite films via solution casting and established a data-driven framework for mechanical-property predic...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Construction of an Intelligent Decision-Making Model for Laparoscopic Common Bile Duct Repair.",
+      "url": "https://doi.org/10.1177/10926429261427263",
+      "source": "PubMed — Journal of laparoendoscopic & advanced surgical techniques. Part A",
+      "one_liner": "PURPOSE: This study aimed to develop a machine learning-based decision-support model to assist surgeons in intraoperatively selecting the optimal repair strategy (primary duct closure [PDC] versus T-tube drainage [TTD]) following laparoscopic common bile duct exploration (LCBDE). METHODS: Clinical data from 117 patients with common bile duct stones (CBDS)...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ONEST: A Web-Based Platform for the Rapid and Robust Analysis of Protein Excited States through CEST Spectroscopy.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag158",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "SUMMARY: The biological function of proteins is often driven by \"invisible\" excited states-transient, low-population conformations that remain undetectable by conventional structural methods. Chemical Exchange Saturation Transfer (CEST) NMR spectroscopy is a powerful technique for characterizing these states; however, the complexity of data analysis and t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rapidly evolving aphid gall effector proteins exhibit saposin-like folds",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.712717",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Many insects manipulate plants by injecting effector proteins. In one extreme example of this molecular hijacking, Hormaphis cornu aphids inject bicycle proteins into Hamamelis virginiana (Witch Hazel), contributing to the development of novel organs called galls. Bicycle proteins share no amino acid sequence similarity with proteins of known function. He...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Expansion and optimization of the auxin-inducible degron 2 (AID2) system in Candida pathogens",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714890",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "The auxin-inducible degron (AID) technology is a convenient and powerful tool for protein functional characterization in a broad array of eukaryotic species. We recently demonstrated that the original AID and improved AID2 systems are very effective at rapid protein depletion in Candida albicans and described a limited set of reagents for their use in cer...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Label-free toehold mediated strand displacement on 3D printed hybrid paper-polymer platform for protein sensing",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714923",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "A programmable 4-input cascade DNA logic gate utilizing toehold mediated strand displacement (TMSD) was implemented on a 3D printed hybrid paper-polymer vertical flow device (3D HPVF) for on/off sensitive and specific fluorescence detection of platelet derived growth factor BB (PDGF BB). Polypropylene was 3D printed directly on paper and thermally cured t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "KDM2B controls HIF levels and activity through its JmjC and CxxC domains",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.26.714448",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Hypoxia-inducible factors (HIFs) are key regulators of cellular responses to low oxygen (hypoxia), controlling the expression of genes required for survival and adaptation. KDM2B, a chromatin-modifying enzyme, is a direct target of HIF-1, but its precise role in regulating HIF and the hypoxia response remains unclear. Here, we investigated the role of KDM...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of a European Union Time-Indexed Reference Dataset for Assessing the Performance of Signal Detection Methods in Pharmacovigilance using a Large Language Model",
+      "url": "https://arxiv.org/abs/2603.26544",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2603.26544v1 Announce Type: cross \nAbstract: Background: The identification of optimal signal detection methods is hindered by the lack of reliable reference datasets. Existing datasets do not capture when adverse events (AEs) are officially recognized by regulatory authorities, preventing restriction of analyses to pre-confirmation periods and limi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Spectral Coherence Index: A Model-Free Metric for Protein Structural Ensemble Quality Assessment",
+      "url": "https://arxiv.org/abs/2603.25880",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2603.25880v1 Announce Type: new \nAbstract: Protein structural ensembles from NMR spectroscopy capture biologically important conformational heterogeneity, but it remains difficult to determine whether observed variation reflects coordinated motion or noise-like artifacts. We evaluate the Spectral Coherence Index (SCI), a model-free, rotation-invaria...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A Boltzmann-machine-enhanced Transformer For DNA Sequence Classification",
+      "url": "https://arxiv.org/abs/2603.26465",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2603.26465v1 Announce Type: new \nAbstract: DNA sequence classification requires not only high predictive accuracy but also the ability to uncover latent site interactions, combinatorial regulation, and epistasis-like higher-order dependencies. Although the standard Transformer provides strong global modeling capacity, its softmax attention is contin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Reconstructing Quantum Dot Charge Stability Diagrams with Diffusion Models",
+      "url": "https://arxiv.org/abs/2603.26432",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2603.26432v1 Announce Type: cross \nAbstract: Efficiently characterizing quantum dot (QD) devices is a critical bottleneck when scaling quantum processors based on confined spins. Measuring high-resolution charge stability diagrams (or CSDs, data maps which crucially define the occupation of QDs) is time-consuming, particularly in emerging architectu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
