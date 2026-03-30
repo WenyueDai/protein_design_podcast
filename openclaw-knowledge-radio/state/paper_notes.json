@@ -781,5 +781,12 @@
       "title": "Structure-informed direct coupling analysis improves protein mutational landscape predictions",
       "source": "bioRxiv — bioinformatics"
     }
+  },
+  "2026-03-30": {
+    "https://www.biorxiv.org/content/10.64898/2026.03.27.714458": {
+      "note": "DD",
+      "title": "AlphaFold Database expands to proteome-scale quaternary structures",
+      "source": "bioRxiv — synthetic biology"
+    }
   }
 }
