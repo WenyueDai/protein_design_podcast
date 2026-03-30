@@ -802,6 +802,11 @@
       "note": "DD",
       "title": "Protein Electrostatic Properties are Finetuned Through Evolution",
       "source": "bioRxiv — biophysics"
+    },
+    "https://arxiv.org/abs/2603.26432": {
+      "note": "DD",
+      "title": "Reconstructing Quantum Dot Charge Stability Diagrams with Diffusion Models",
+      "source": "arXiv cs.LG (AI/ML)"
     }
   }
 }
