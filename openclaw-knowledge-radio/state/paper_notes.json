@@ -792,6 +792,11 @@
       "note": "DD",
       "title": "Small-molecule binding and sensing with a designed protein family.",
       "source": "PubMed — Nature communications"
+    },
+    "https://doi.org/10.1093/bioinformatics/btag150": {
+      "note": "DD",
+      "title": "Enhancing Mutation Impact Prediction in Protein Protein Interactions through Interpretable Graph-Based Multi-Level Featu",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
     }
   }
 }
