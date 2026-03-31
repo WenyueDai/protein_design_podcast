@@ -829,6 +829,11 @@
       "note": "DD",
       "title": "IDBSpred: An intrinsically disordered binding site predictor using machine learning and protein language model",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.27.714699": {
+      "note": "DD",
+      "title": "DualLoc: Full-parameter fine-tuning of cascaded dual transformers for protein subcellular localization prediction",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
