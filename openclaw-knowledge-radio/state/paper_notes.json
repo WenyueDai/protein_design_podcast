@@ -819,6 +819,11 @@
       "note": "DD",
       "title": "ECOD: Classification of domains in AFDB Swiss-Prot structure predictions.",
       "source": "PubMed — PLoS computational biology"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.03.26.714619": {
+      "note": "DD",
+      "title": "AINN-P1: A Compact Sequence-Only Protein Language Model Achieves Competitive Fitness Prediction on ProteinGym",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
