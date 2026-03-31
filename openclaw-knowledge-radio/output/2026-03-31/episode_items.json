@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    145.87,
+    319.36,
+    522.52,
+    691.95,
+    831.92,
+    968.52,
+    1109.73,
+    1255.58,
+    1417.69,
+    1568.36
+  ],
+  "items": [
+    {
+      "title": "Revving Up LNP Delivery",
+      "url": "https://www.science.org/content/blog-post/revving-lnp-delivery",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "FoldaVirus, a knowledge-based icosahedral capsid builder using AlphaFold",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714795",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Coat protein (CP) tertiary structures and their capsid organization of spherical viruses are highly conserved within each virus family. While AlphaFold successfully predicts the tertiary structures of individual CPs, their association to form proper quaternary assemblies cannot be easily accomplished. Here, we report a generalized methodology and associat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "ECOD: Classification of domains in AFDB Swiss-Prot structure predictions.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1013431",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "The development of highly accurate protein structure prediction algorithms has led to an explosion of structural data, transforming our understanding of protein structure-function relationships across diverse organisms. Domain classifications such as the Evolutionary Classification of Protein Domains (ECOD) have incorporated these computational prediction...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AINN-P1: A Compact Sequence-Only Protein Language Model Achieves Competitive Fitness Prediction on ProteinGym",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.26.714619",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein language models (PLMs) are increasingly central to protein engineering and drug discovery. Many high-performing systems, however, rely on large parameter counts, multiple sequence alignments (MSAs), explicit structural inputs, or computationally intensive attention mechanisms, limiting their accessibility and throughput. Here we present AINN-P1, a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "IDBSpred: An intrinsically disordered binding site predictor using machine learning and protein language model",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714773",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Intrinsically disordered proteins (IDPs) mediate many cellular functions through interactions with structured protein partners, but predicting the corresponding binding sites on the structured partner remains challenging. Here, we present IDBSpred, a sequence-based method for residue-level prediction of IDP-binding sites on structured proteins. Training a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "DualLoc: Full-parameter fine-tuning of cascaded dual transformers for protein subcellular localization prediction",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714699",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Accurate protein subcellular localization is essential for biological function, and mislocalization is linked to numerous diseases. While current methods like DeepLoc 2.0 employ lightweight fine-tuning of protein language models (PLMs), their ability to predict multi-compartment localization remains limited. To address this, we introduce DualLoc, a multi-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Symmetric Self-play Online Preference Optimization for Protein Inverse Folding",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.26.714453",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Multi-objective reinforcement learning based on predicted structure feedback has been introduced into protein inverse folding. However, existing methods typically rely on a single model to optimize multiple structural objectives via a scalarized reward, which can bias the optimization toward dominant objectives and limit the exploration of diverse solutio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pan-Pharmacological Drug-Target Interaction Prediction with 3D-Informed Protein Encoding at Scale",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714727",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Accurate prediction of drug-target binding affinity across multiple pharmacological endpoints remains challenging, as most deep learning methodologies focus on a single metric and face a trade-off between incorporating structural information and computational throughput. Here we present OmniBind, a multitask framework that resolves both constraints by enc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "BrainYears: A functional EEG-based brain age clock enables intervention-ready measurements of brain aging",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.26.714124",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Biological brain aging is a major determinant of cognitive decline and neurodegenerative disease, yet scalable and intervention-ready brain aging biomarkers remain limited. Here, we develop an electroencephalography (EEG)-based brain age clock using machine learning trained on high-dimensional neural features across the adult lifespan. Using 643 features ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep homology and design of proteasome chaperone proteins in Candidozyma auris.",
+      "url": "https://doi.org/10.1038/s41467-026-71206-4",
+      "source": "PubMed — Nature communications",
+      "one_liner": "A central tenet of biology is that protein structure mediates the sequence-function relationship. Recently, there has been excitement about the promise of advances in protein structure modeling to generate hypotheses about sequence-structure-function relationships. Here, we leverage structural similarity to identify rapidly evolving proteasome assembly ch...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Compressing the collective knowledge of ESM into a single protein language model.",
+      "url": "https://doi.org/10.1038/s41592-026-03050-9",
+      "source": "PubMed — Nature methods",
+      "one_liner": "Protein language models (PLMs) have recently emerged as a promising approach for next-generation variant-effect prediction (VEP). Most high-performing VEP methods currently utilize PLMs combined with additional information, such as homology, protein structure and population genetics data to improve prediction accuracy. This performance gain, however, come...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Optimized deep intelligent parameter efficient fine-tuning protein language model system for predicting dephosphorylation site.",
+      "url": "https://doi.org/10.1007/s00894-026-06675-x",
+      "source": "PubMed — Journal of molecular modeling",
+      "one_liner": "CONTEXT: Protein dephosphorylation is essential for regulating cellular processes, and accurate prediction of dephosphorylation sites is crucial for understanding protein function and signaling mechanisms. Existing predictive methods often lack flexibility and fail to capture complex sequence dependencies across diverse proteins. METHODS: A novel Termite ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Bridging the gap between hybrid and sequence-only protein language models.",
+      "url": "https://doi.org/10.1038/s41592-026-03049-2",
+      "source": "PubMed — Nature methods",
+      "one_liner": "VESM is a single sequence-only protein language model (PLM) that, by learning from the confident predictions of other PLMs, compresses their collective knowledge to outperform state-of-the-art hybrid variant effect prediction methods.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mobile Imaging-Based Machine Learning for Dental Caries, Sealants, and Fluorosis: Protocol for a Cross-Sectional Model Development and Validation Study.",
+      "url": "https://doi.org/10.2196/91239",
+      "source": "PubMed — JMIR research protocols",
+      "one_liner": "BACKGROUND: Assessing dental caries, sealants, and fluorosis is essential for public health surveillance, providing critical data to evaluate national prevention programs. Standard methods performed by dental professionals are often limited by affordability, accessibility, and scalability for both population-level and individualized assessments. Mobile he...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Detection of DSCP-based traffic prioritization manipulations and their impact on network performance.",
+      "url": "https://doi.org/10.1038/s41598-026-44350-6",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Differentiated Services Code Point (DSCP) manipulations can distort bandwidth allocation, expose security risks, and degrade performance, yet they are difficult to detect in dynamic traffic. Dynamic traffic flows and sophisticated evasion strategies make such operations difficult to detect. Rule-based and classical machine learning methods cannot detect D...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Framework for Database Search with AI Models in Mass Spectrometry-Based Proteomics.",
+      "url": "https://doi.org/10.1021/acs.jproteome.5c01153",
+      "source": "PubMed — Journal of proteome research",
+      "one_liner": "Database search remains the primary strategy for peptide detection in mass spectrometry-based proteomics, but growing data sets and increasingly expansive peptide search spaces now challenge its computational limits. At the same time, machine learning has transformed multiple aspects of spectrum identification and is increasingly applied directly to pepti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Serum proteomics reveals distinct phenotypic signatures to IL-6 blockade between two immunotherapies",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.712461",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "A recent clinical study tested the effects of two different monoclonal antibodies (mAbs) (siltuximab, anti-IL6; tocilizumab, anti-IL6R) on the fate and function of T-cells in people with type 1 diabetes. While both mAbs affect the response of T-cells to stimulation, they have very different, sometimes opposing mechanisms. Here, we use mass-spectrometry ba...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "On the rise of AI technologies in virtual screening",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.14.699425",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "AI foundational models for predicting protein-ligand interactions and binding affinities have started to emerge. We challenged Boltz-2 on a difficult dataset constructed on ten ultra-large virtual screening hit lists of pharmacologically relevant targets with in vitro binding assays. We show that Boltz-2 is the best classifier, with a success rate twice t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "deluxpore: a Nextflow pipeline for demultiplexing Illumina dual-indexed Nanopore libraries",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714410",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The combination of target capture metagenomics and long-read sequencing represents a powerful approach for the characterisation of rare microbial taxa and their functional genes. However, standard Nanopore library preparations are incompatible with established capture protocols. A possible workaround is the preparation of Illumina libraries prior to ONT s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "$R_{dm}$: Re-conceptualizing Distribution Matching as a Reward for Diffusion Distillation",
+      "url": "https://arxiv.org/abs/2603.28460",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2603.28460v1 Announce Type: cross \nAbstract: Diffusion models achieve state-of-the-art generative performance but are fundamentally bottlenecked by their slow iterative sampling process. While diffusion distillation techniques enable high-fidelity few-step generation, traditional objectives often restrict the student's performance by anchoring it so...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
