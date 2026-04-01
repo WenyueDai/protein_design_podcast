@@ -654,5 +654,13 @@
   "2026-04-01|https://doi.org/10.1016/j.bmcl.2025.130512": {
     "page_id": "3355f58e-a8c2-813f-9294-e7745ca35924",
     "note": "DD"
+  },
+  "2026-04-01|https://www.biorxiv.org/content/10.1101/2024.06.04.596712": {
+    "page_id": "3355f58e-a8c2-813b-a68e-d1a846ffe039",
+    "note": "DD"
+  },
+  "2026-04-01|https://www.biorxiv.org/content/10.64898/2026.03.29.715065": {
+    "page_id": "3355f58e-a8c2-8144-9fb8-d935d7d0f09c",
+    "note": "DD"
   }
 }
