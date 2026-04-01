@@ -662,5 +662,13 @@
   "2026-04-01|https://www.biorxiv.org/content/10.64898/2026.03.29.715065": {
     "page_id": "3355f58e-a8c2-8144-9fb8-d935d7d0f09c",
     "note": "DD"
+  },
+  "2026-04-01|https://arxiv.org/abs/2603.29727": {
+    "page_id": "3355f58e-a8c2-8194-bf93-f24ef2fcd6f2",
+    "note": "DD"
+  },
+  "2026-04-01|https://doi.org/10.1002/pro.70542": {
+    "page_id": "3355f58e-a8c2-814e-9803-e97d6daa9753",
+    "note": "DD"
   }
 }
