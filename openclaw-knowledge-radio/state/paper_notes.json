@@ -881,6 +881,11 @@
       "note": "DD",
       "title": "AI-guided design of cyclic peptide binders targeting TREM2 using CycleRFdiffusion and experimental validation.",
       "source": "PubMed — Bioorganic & medicinal chemistry letters"
+    },
+    "https://www.biorxiv.org/content/10.1101/2024.06.04.596712": {
+      "note": "DD",
+      "title": "Protein sequence domain annotation using a language model",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
