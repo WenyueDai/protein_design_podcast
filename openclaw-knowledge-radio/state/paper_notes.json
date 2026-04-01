@@ -901,6 +901,11 @@
       "note": "DD",
       "title": "SegDesign: A modular framework for controllable protein segment engineering.",
       "source": "PubMed — Protein science : a publication of the Protein Society"
+    },
+    "https://doi.org/10.1016/j.jinorgbio.2026.113215": {
+      "note": "DD",
+      "title": "Phosphoester hydrolysis using a de novo designed protein: A combined experimental and computational study.",
+      "source": "PubMed — Journal of inorganic biochemistry"
     }
   }
 }
