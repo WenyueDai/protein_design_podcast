@@ -933,6 +933,11 @@
       "note": "DD",
       "title": "An intelligent and parameter-efficient fine-tuning of protein language model for dephosphorylation site prediction.",
       "source": "PubMed — Journal of biomolecular structure & dynamics"
+    },
+    "https://doi.org/10.1371/journal.pone.0346242": {
+      "note": "DD",
+      "title": "Computational prediction of binding affinity and structural impact of three Pakistani SARS-CoV-2 spike RBD variants on h",
+      "source": "PubMed — PloS one"
     }
   }
 }
