@@ -928,6 +928,11 @@
       "note": "DD",
       "title": "AlphaFold as a prior: experimental structure determination conditioned on a pretrained neural network.",
       "source": "PubMed — Nature methods"
+    },
+    "https://doi.org/10.1080/07391102.2026.2645103": {
+      "note": "DD",
+      "title": "An intelligent and parameter-efficient fine-tuning of protein language model for dephosphorylation site prediction.",
+      "source": "PubMed — Journal of biomolecular structure & dynamics"
     }
   }
 }
