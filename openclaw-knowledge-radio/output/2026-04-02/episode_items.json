@@ -1,0 +1,297 @@
+{
+  "timestamps": [
+    0.0,
+    135.21,
+    309.74,
+    471.16,
+    594.9,
+    757.52,
+    902.45,
+    1047.4,
+    1218.3,
+    1342.48,
+    1532.84
+  ],
+  "items": [
+    {
+      "title": "Biologic Summit 2026",
+      "url": "https://www.blopig.com/blog/2026/04/biologic-summit-2026/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "This year we (Fabian and Henriette) were invited to speak at the Biologic Summit. The conference took place January 20-22 in San Diego. Fabian presented his work on conformational ensembles of antibodies [1] in the “Data Strategies and the Future of AI Models” track. Henriette presented her work on LICHEN [2], a tool to generate an antibody light sequence...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "AlphaFold as a prior: experimental structure determination conditioned on a pretrained neural network.",
+      "url": "https://doi.org/10.1038/s41592-026-03047-4",
+      "source": "PubMed — Nature methods",
+      "one_liner": "Advances in machine learning have transformed structural biology, enabling swift and accurate prediction of protein structure from sequence. However, key challenges persist in modeling side-chain packing, condition-dependent conformational changes and biomolecular interactions, largely because of limited high-quality training data. At the same time, emerg...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An intelligent and parameter-efficient fine-tuning of protein language model for dephosphorylation site prediction.",
+      "url": "https://doi.org/10.1080/07391102.2026.2645103",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "Protein dephosphorylation site prediction is important for uncovering regulatory processes inside cellular signalling pathways. Experimental approaches like mutagenesis and mass spectrometry, however, are time-consuming and expensive, whereas conventional computational models struggle to model long-range dependencies and context information. To address th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-based ground motion simulation for seismic hazard assessment of critical water infrastructure in Azerbaijan (Case study: Major Shamkir water reservoir).",
+      "url": "https://doi.org/10.1371/journal.pone.0344984",
+      "source": "PubMed — PloS one",
+      "one_liner": "This study focuses on simulating ground motion for the Shamkir Water Reservoir area in Azerbaijan using machine learning algorithms to enhance regional seismic hazard assessments. Given the reservoir's location in a seismically active zone, potential earthquake-induced impacts on dam infrastructure pose critical safety concerns. A synthetic ground motion ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational prediction of binding affinity and structural impact of three Pakistani SARS-CoV-2 spike RBD variants on human ACE2 interaction.",
+      "url": "https://doi.org/10.1371/journal.pone.0346242",
+      "source": "PubMed — PloS one",
+      "one_liner": "Despite the current development and progress in vaccine synthesis, the transmission and infection rate of new variants of SARS-CoV-2 is still challenging in developing countries like Pakistan. Previous studies reported the transmission of new virus variants associated with the mutation in spike protein particularly in the receptor binding domain (RBD) of ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Recent Progress on Selenium Nanoparticles: Synthesis and Neuroprotective Effects for the Treatment of Alzheimer's Disease.",
+      "url": "https://doi.org/10.1007/s12035-026-05835-7",
+      "source": "PubMed — Molecular neurobiology",
+      "one_liner": "Alzheimer's disease (AD) is the most prevalent cause of dementia, affecting over 50 million individuals worldwide, with projections suggesting a tripling of cases by 2050. Current Food and Drug Administration (FDA)-approved treatments, including cholinesterase inhibitors, N-Methyl-D-aspartic acid (NMDA) receptor antagonists, and monoclonal antibodies, pro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "graphpancake: a Python package for representing organic molecules as molecular graphs utilizing electronic structure theory.",
+      "url": "https://doi.org/10.1186/s13321-026-01182-w",
+      "source": "PubMed — Journal of cheminformatics",
+      "one_liner": "Computational methods for predictive modeling have been increasingly utilized in the early stages of drug discovery to supplement high-throughput screening. The advent of highly efficient and complex machine learning architectures necessitates new methods of collating the plethora of topological, geometrical, and quantum chemical data from small molecule ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Forecasting groundwater level changes using machine learning techniques in Tazerbo area, Al Kufra Basin, southeast Libya.",
+      "url": "https://doi.org/10.1038/s41598-026-37337-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Due to the increasing demand for consumable water, groundwater management is critical, especially in arid and semi-arid regions. Effective management strategies are crucial for maintaining a sustainable water supply and promoting environmental health. Machine learning models can identify patterns and trends that help forecast fluctuations in groundwater l...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MDCrow: automating molecular dynamics workflows with large language models.",
+      "url": "https://doi.org/10.1088/2632-2153/ae4b07",
+      "source": "PubMed — Machine learning: science and technology",
+      "one_liner": "Molecular dynamics (MD) simulations are essential for understanding biomolecular systems but remain challenging to automate. Recent advances in large language models (LLMs) have demonstrated success in automating complex scientific tasks using LLM-based agents. In this paper, we introduce MDCrow, an agentic LLM assistant capable of automating MD workflows...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-guided composite ionic liquid-based system for dual-drug delivery targeting redox homeostasis and STAT3-PI3K axis in psoriasis therapy.",
+      "url": "https://doi.org/10.1016/j.bioactmat.2025.11.034",
+      "source": "PubMed — Bioactive materials",
+      "one_liner": "Excessive accumulation of reactive oxygen and nitrogen species (RONS) exacerbates inflammatory responses and contributes to the progression of psoriasis. In particular, ROS activate the STAT3 pathway, inducing abnormal proliferation of keratinocytes and aggravating local inflammation. Moreover, interactions between macrophages and keratinocytes can furthe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multi-pronged design enhances thermostability of zearalenone hydrolase ZenR for enzymatic detoxification of maize flour.",
+      "url": "https://doi.org/10.1016/j.biortech.2026.134107",
+      "source": "PubMed — Bioresource technology",
+      "one_liner": "Zearalenone (ZEN), an estrogenic mycotoxin commonly found in grains and feed, poses a severe threat to livestock production. The ZEN hydrolase ZenR, derived from Rhodococcus erythropolis HQ, exhibits high specific activity; however, its industrial application is constrained by limited thermostability. Through integrated computational design, consensus ana...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Machine Learning Model to Improve Risk Adjustment Accuracy in Medicare.",
+      "url": "https://doi.org/10.1111/1475-6773.70093",
+      "source": "PubMed — Health services research",
+      "one_liner": "OBJECTIVE: To develop a machine learning (ML) algorithm that improves accuracy compared to the Hierarchical Condition Category (HCC) score used by the Centers for Medicare and Medicaid Services to risk-adjust payments for > 65 million Americans. STUDY DESIGN AND SETTING: Prognostic study using Medicare claims data to train \"Franklin\", an ML algorithm pred...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein structure of a glycoside hydrolase family 30, subfamily 12 endo-1,4-β-xylanase.",
+      "url": "https://doi.org/10.1107/S2059798326002160",
+      "source": "PubMed — Acta crystallographica. Section D, Structural biology",
+      "one_liner": "We have determined the X-ray crystallographic protein structure of endo-1,4-β-xylanase (EX) A from Anaerobacterium chartisolvens (AchXyn30A), a homologue of the recent biochemically characterized glycoside hydrolase family 30, subfamily 12 (GH30_12) EX from Acetivibrio clariflavus (AcXyn30B). The N-terminal GH30 catalytic domains (CDs) of these two enzyme...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A biology-based quality-diversity algorithm for drug repurposing in Alzheimer's disease using automated machine learning.",
+      "url": "https://doi.org/10.1186/s13040-026-00550-4",
+      "source": "PubMed — BioData mining",
+      "one_liner": "A quality-diversity Automated Machine Learning (AutoML) framework, integrating biologically informed graph neural network (GNN) embeddings with a MAP-Elites-guided search, can discover drug repurposing candidates for Alzheimer's disease that are both predictively accurate and mechanistically novel.\n\nMETHOD / APPROACH:\nThe framework uses GraphSAGE and variational graph autoencoders to generate embeddings of drugs and genes from the Alzheimer’s Knowledge Base (AlzKB).",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The genetic architecture of an allosteric hormone receptor.",
+      "url": "https://doi.org/10.1038/s41467-026-70341-2",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Many proteins function as switches, transducing the concentrations of environmental chemicals into cellular responses. It is not well understood how signal processing by switches is genetically encoded. Here, using a massively parallel approach, GluePCA, we present >40,000 measurements and a complete map of how mutations alter the quantitative activation ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural basis for the assembly and translocation of the Vip1-Vip2 insecticidal toxin from Bacillus thuringiensis.",
+      "url": "https://doi.org/10.1038/s41467-026-71211-7",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Insecticidal toxins from Bacillus thuringiensis (Bt) have been extensively and successfully used in genetically engineered crops for decades but continue to face challenges from the adaptive resistance in the insect population. The Bt binary toxin Vip1Ad1(Vip1) and Vip2Ag1(Vip2), a promising next-generation candidate gene combination for transgenic crops,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Human-like cognitive generalization for large models via mental representation-guided supervision.",
+      "url": "https://doi.org/10.1038/s41467-026-71267-5",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Recent advancements in deep neural networks (DNNs), particularly large-scale language models, have demonstrated remarkable capabilities in image and natural language understanding. Although scaling up model parameters with increasing volume of training data has progressively improved DNN capabilities, achieving complex cognitive abilities-such as understa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Tim-3 agonist restrains ILC2 function and attenuates airway hyperreactivity via NLK pathway.",
+      "url": "https://doi.org/10.1038/s41467-026-71336-9",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Allergic asthma is promoted by type 2 inflammation involving cytokines such as IL-4, IL-5, and IL-13, with group 2 innate lymphoid cells (ILC2s) playing a key pathogenic role. Here, we identify T cell immunoglobulin and mucin domain-containing protein 3 (Tim-3) as a negative regulator of ILC2 function. Tim-3 expression is upregulated in activated pulmonar...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Manifold topological deep learning for biomedical data.",
+      "url": "https://doi.org/10.1038/s41467-026-71392-1",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Recently, topological deep learning (TDL), which integrates algebraic topology with deep neural networks, has achieved significant success in processing point-cloud data and has emerged as a promising paradigm in data science. However, TDL has not been extended to differentiable-manifold data, including images, due to the challenges introduced by differen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multi-Mode Quantum Annealing for Variational Autoencoders with General Boltzmann Priors",
+      "url": "https://arxiv.org/abs/2604.00919",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2604.00919v1 Announce Type: cross \nAbstract: Variational autoencoders (VAEs) learn compact latent representations of complex data, but their generative capacity is fundamentally constrained by the choice of prior distribution over the latent space. Energy-based priors offer a principled way to move beyond factorized assumptions and capture structure...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
