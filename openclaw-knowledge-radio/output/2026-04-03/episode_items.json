@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    130.05,
+    322.72,
+    472.55,
+    623.22,
+    748.28,
+    907.73,
+    1059.81,
+    1206.16,
+    1340.39,
+    1532.58
+  ],
+  "items": [
+    {
+      "title": "Say \"Chameleonicity\" Three Times Fast. Or Read This Post.",
+      "url": "https://www.science.org/content/blog-post/say-chameleonicity-three-times-fast-or-read-post",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "More protein-ligand data are needed for AlphaFold-like models to enable drug discovery.",
+      "url": "https://doi.org/10.1016/j.sbi.2026.103257",
+      "source": "PubMed — Current opinion in structural biology",
+      "one_liner": "Structure-based drug design (SBDD) is an evolving paradigm that leverages protein structural information to improve small molecule therapeutic design. Building on more than 50 years of data curation from the Protein Data Bank, the recent emergence of protein structure prediction models (PSPMs) promises to enable new computationally driven approaches for t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting the protein interaction landscape of a free-living bacterium with pooled-AlphaFold3.",
+      "url": "https://doi.org/10.1038/s44320-026-00189-7",
+      "source": "PubMed — Molecular systems biology",
+      "one_liner": "Accurate prediction of protein complex structures by AlphaFold3 and similar programs has been used to predict the presence of protein-protein interactions (PPIs), but this technique has never been applied to an entire genome due to onerous computational requirements and questionable utility. Here we present pooled-PPI prediction, a technique that dramatic...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The landscape of machine learning approaches for modeling protein conformational ensembles.",
+      "url": "https://doi.org/10.1016/j.sbi.2026.103253",
+      "source": "PubMed — Current opinion in structural biology",
+      "one_liner": "The conformational ensemble of a protein and its corresponding probabilities and dynamics are crucial determinants of its function, but are difficult to access with traditional experimental and computational technologies. This review examines the landscape of machine learning for modeling protein conformational ensembles. We categorize computational metho...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProVenTL: a transfer-learning framework for predicting peptide-protein interactions derived from snake venom for cancer therapeutics.",
+      "url": "https://doi.org/10.1007/s10822-026-00801-w",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "Accurate prediction of peptide-protein interactions (PepPI) is crucial for advancing peptide-based anticancer drug design. In this study, we introduce ProVenTL, a computer-aided molecular design framework that leverages transfer learning and protein language model embeddings to enhance PepPI prediction accuracy and interpretability. Two complementary stra...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DefensePredictor: A machine learning model to discover prokaryotic immune systems.",
+      "url": "https://doi.org/10.1126/science.adv7924",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "Antiphage defense systems protect bacteria from viral infection and have inspired important biotechnologies such as CRISPR-Cas9 while also revealing the evolutionary roots of eukaryotic innate immunity. Many systems have been discovered by genomic colocalization, but this approach cannot identify systems outside of defense islands. We present DefensePredi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein and genomic language models uncover the unexplored diversity of bacterial immunity.",
+      "url": "https://doi.org/10.1126/science.adv8275",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "The bacterial pangenome contains a vast diversity of antiphage systems, whose overall extent is still unknown. In this study, we developed complementary machine learning approaches to systematically predict antiphage function from genomic context, protein sequence, or their combination, achieving up to 99% precision and 92% recall. We validated these mode...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Data-Driven Toxicity Prediction: Advances in Machine Learning, Deep Learning, and Predictive Tools - A Systematic Review.",
+      "url": "https://doi.org/10.2174/0127724328441651260211220550",
+      "source": "PubMed — Current reviews in clinical and experimental pharmacology",
+      "one_liner": "INTRODUCTION/OBJECTIVE: High rate of attrition still inhibits drug discovery and development, with toxicity accounting for one of the primary causes of failure in preclinical and clinical development. This review summarizes Machine Learning (ML), Deep Learning (DL), and emerging post-deep learning strategies in drug discovery and environmental safety. MET...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exonic enhancers are a widespread class of dual-function regulatory elements.",
+      "url": "https://doi.org/10.1038/s41467-026-71220-6",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Exonic enhancers (EEs) occupy an under-appreciated niche in gene regulation. By integrating transcription factor binding, chromatin accessibility, and high-throughput enhancer-reporter assays, we demonstrate that many protein-coding exons possess enhancer activity across species. These candidate EEs (cEEs) exhibit characteristic epigenomic signatures, for...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Extreme Environment Microbiome Catalog (EEMC): a global resource for microbial diversity and antimicrobial discovery.",
+      "url": "https://doi.org/10.1038/s41467-026-71145-0",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Microorganisms in extreme environments represent a promising source of novel metabolites, yet their global diversity and biosynthetic potential remain underexplored. Here, we reconstruct 78,213 bacterial and archaeal genomes from 2293 publicly available metagenomes and 3214 microbial isolates to establish a unified database, the Extreme Environment Microb...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Data Sieving for Scalable Real-Time Multichannel Nanopore Sensing",
+      "url": "https://arxiv.org/abs/2604.02166",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2604.02166v1 Announce Type: cross \nAbstract: High-throughput solid-state nanopore experiments generate continuous MHz-rate data streams in which only a small fraction of data contains informative molecular information. This creates storage and processing bottlenecks that limit experimental scalability. We introduce Data Sieving, a GPU-accelerated ac...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Real-Time Functional Lesion Simulation in Connectomics: Rapid Sensitivity Analysis of Neural Pathways via Traversal Tree-Correlated Cuts.",
+      "url": "https://doi.org/10.1007/s12539-026-00826-7",
+      "source": "PubMed — Interdisciplinary sciences, computational life sciences",
+      "one_liner": "Preserving critical neural pathways during neurosurgery is paramount to minimizing postoperative functional deficits. Connectomics offers a graph-theoretic framework to model these pathways, where the \"minimum cut\" between two brain regions represents the maximum information flow capacity or structural bottleneck. However, traditional algorithms for calcu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Interpretable Electrophysiological Features of Resting-State EEG Capture Cortical Network Dynamics in Parkinsons Disease",
+      "url": "https://arxiv.org/abs/2604.01475",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.01475v1 Announce Type: cross \nAbstract: Parkinsons disease (PD) alters cortical neural dynamics, yet reliable non-invasive electrophysiological biomarkers remain elusive. This study examined whether interpretable EEG features capturing complementary aspects of neural dynamics can discriminate Parkinsonian neural states. A comprehensive set of i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Multipath Channel Metrics and Detection in Vascular Molecular Communication: A Wireless-Inspired Perspective",
+      "url": "https://arxiv.org/abs/2604.01362",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.01362v1 Announce Type: cross \nAbstract: Motivated by classical communications engineering, early works in molecular communication (MC) largely adopted established modeling and signal processing concepts from wireless electromagnetic communication systems. In the context of the human cardiovascular system (CVS), MC channel models evolved from si...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Controlling tissue size by active fracture",
+      "url": "https://arxiv.org/abs/2503.03126",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2503.03126v4 Announce Type: replace-cross \nAbstract: Groups of cells, including clusters of cancerous cells, multicellular organisms, and developing organs, may both grow and break apart. What physical factors control these fractures? In these processes, what sets the eventual size of clusters? We first develop a one-dimensional framework for unders...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A Data-Driven Measure of REM Sleep Propensity for Human and Rodent Sleep",
+      "url": "https://arxiv.org/abs/2604.01252",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.01252v1 Announce Type: new \nAbstract: Mammalian sleep is characterized by multiple alternations between episodes of rapid-eye-movement sleep (REMS) and non-REM sleep (NREMS). While the mechanisms governing the timing of these ultradian NREMS-REMS cycles remain poorly understood, the phenomenon of REMS pressure, namely a drive for REMS that buil...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "BIOGEN: Evidence-Grounded Multi-Agent Reasoning Framework for Transcriptomic Interpretation in Antimicrobial Resistance",
+      "url": "https://arxiv.org/abs/2510.16082",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2510.16082v5 Announce Type: replace \nAbstract: Interpreting gene clusters from RNA sequencing (RNA-seq) remains challenging, especially in antimicrobial resistance studies where mechanistic insight is important for hypothesis generation. Existing pathway enrichment methods can summarize co-expressed modules, but they often provide limited cluster-sp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Evaluating Deep Surrogate Models for Knee Joint Contact Mechanics Under Input-Limited Conditions",
+      "url": "https://arxiv.org/abs/2604.01990",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.01990v1 Announce Type: new \nAbstract: Background and Objective: Accurate surrogate modeling of knee joint contact mechanics is important for reconstructing stress distributions and identifying risk-relevant regions, yet the relative suitability of different modeling paradigms under practically relevant input-limited conditions remains unclear. ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A Novel Multi-view Mixture Model Framework for Longitudinal Clustering with Application to ANCA-Associated Vasculitis",
+      "url": "https://arxiv.org/abs/2604.01734",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.01734v1 Announce Type: new \nAbstract: Effectively modeling irregularly sampled longitudinal data is essential for understanding disease progression and improving risk prediction. We propose a two-view mixture model that integrates static baseline covariates and longitudinal biomarker trajectories within a unified probabilistic clustering framew...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "An Online Machine Learning Multi-resolution Optimization Framework for Energy System Design Limit of Performance Analysis",
+      "url": "https://arxiv.org/abs/2604.01308",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2604.01308v1 Announce Type: new \nAbstract: Designing reliable integrated energy systems for industrial processes requires optimization and verification models across multiple fidelities, from architecture-level sizing to high-fidelity dynamic operation. However, model mismatch across fidelities obscures the sources of performance loss and complicate...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

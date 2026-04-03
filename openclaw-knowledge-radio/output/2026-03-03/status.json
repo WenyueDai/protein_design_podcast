@@ -1,9 +1,0 @@
-{
-  "date": "2026-03-03",
-  "time": "2026-03-03T05:16:45+00:00",
-  "n_items_raw": 345,
-  "n_items_used": 40,
-  "lookback_hours": 24,
-  "run_anchor": "2026-03-03T04:42:05+00:00",
-  "output_dir": "/home/runner/work/protein_design_podcast/protein_design_podcast/openclaw-knowledge-radio/output/2026-03-03"
-}

@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Apr 2026 05:42:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 05:32:46 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-04-03</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-03/podcast_2026-04-03.mp3</guid>
+      <pubDate>Fri, 03 Apr 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-03/podcast_2026-04-03.mp3" length="12694125" type="audio/mpeg" />
+      <description>Today&#x27;s papers reveal a striking shift in how we think about protein modeling — from static structures to dynamic ensembles, from isolated predictions to genome-scale interaction mapping, and from small-molecule drug discovery to peptide therapeutics. | The pooled-AlphaFold3 approach for predicting protein-protein interactions across an entire genome is fascinating — but what if we pushed it further? | Another direction: the ProVenTL paper shows that transfer learning from snake venom peptides can improve peptide-protein interaction prediction for cancer targets.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Today&#x27;s papers reveal a striking shift in how we think about protein modeling — from static structures to dynamic ensembles, from isolated predictions to genome-scale interaction mapping, and from small-molecule drug discovery to peptide therapeutics. | The pooled-AlphaFold3 approach for predicting protein-protein interactions across an entire genome is fascinating — but what if we pushed it further? | Another direction: the ProVenTL paper shows that transfer learning from snake venom peptides can improve peptide-protein interaction prediction for cancer targets.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-04-02</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-02/podcast_2026-04-02.mp3</guid>
       <pubDate>Thu, 02 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-02/podcast_2026-04-02.mp3" length="12813237" type="audio/mpeg" />
-      <description>The biggest shift today comes from seeing how machine learning is moving beyond prediction into active experimental design. | Another major insight comes from the AlphaFold-as-a-prior paper, which tackles a problem most people don&#x27;t talk about: AlphaFold predictions still struggle with side-chain packing and condition-dependent conformational changes. | The dephosphorylation site prediction paper demonstrates a different kind of shift: instead of fine-tuning massive protein language models with millions of parameters, they use parameter-efficient methods like LoRA to adapt smaller models for specific PTM tasks.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-02/podcast_2026-04-02.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The biggest shift today comes from seeing how machine learning is moving beyond prediction into active experimental design. | Another major insight comes from the AlphaFold-as-a-prior paper, which tackles a problem most people don&#x27;t talk about: AlphaFold predictions still struggle with side-chain packing and condition-dependent conformational changes. | The dephosphorylation site prediction paper demonstrates a different kind of shift: instead of fine-tuning massive protein language models with millions of parameters, they use parameter-efficient methods like LoRA to adapt smaller models for specific PTM tasks.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
