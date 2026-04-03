@@ -950,6 +950,11 @@
       "note": "DD",
       "title": "More protein-ligand data are needed for AlphaFold-like models to enable drug discovery.",
       "source": "PubMed — Current opinion in structural biology"
+    },
+    "https://doi.org/10.1038/s44320-026-00189-7": {
+      "note": "DD",
+      "title": "Predicting the protein interaction landscape of a free-living bacterium with pooled-AlphaFold3.",
+      "source": "PubMed — Molecular systems biology"
     }
   }
 }
