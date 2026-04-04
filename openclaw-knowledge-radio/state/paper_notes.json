@@ -977,6 +977,11 @@
       "note": "DD",
       "title": "Leveraging Auxiliary Potentials in RFDiffusion for the Design of NA-Binding Proteins.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://doi.org/10.1016/j.sbi.2026.103251": {
+      "note": "DD",
+      "title": "AI-based methods for simulating, sampling, and predicting protein ensembles.",
+      "source": "PubMed — Current opinion in structural biology"
     }
   }
 }
