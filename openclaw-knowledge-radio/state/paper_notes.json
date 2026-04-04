@@ -972,6 +972,11 @@
       "note": "Dd",
       "title": "A New Opioid Agonist?",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00109": {
+      "note": "DD",
+      "title": "Leveraging Auxiliary Potentials in RFDiffusion for the Design of NA-Binding Proteins.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
