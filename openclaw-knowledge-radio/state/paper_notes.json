@@ -1007,6 +1007,11 @@
       "note": "DD",
       "title": "Amino Acid Variants at the P94 Position in",
       "source": "PubMed — Biochemistry"
+    },
+    "https://doi.org/10.1016/j.sbi.2026.103238": {
+      "note": "DD",
+      "title": "Graph neural networks for molecular dynamics simulations.",
+      "source": "PubMed — Current opinion in structural biology"
     }
   }
 }
