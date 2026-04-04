@@ -722,5 +722,17 @@
   "2026-04-04|https://www.science.org/content/blog-post/new-opioid-agonist": {
     "page_id": "3385f58e-a8c2-81a7-b7be-ca2a55b02677",
     "note": "Dd"
+  },
+  "2026-04-04|https://doi.org/10.1021/acs.jcim.6c00109": {
+    "page_id": "3385f58e-a8c2-81d1-9795-e5e0e1655b8f",
+    "note": "DD"
+  },
+  "2026-04-04|https://doi.org/10.1016/j.sbi.2026.103251": {
+    "page_id": "3385f58e-a8c2-8124-8964-ea5ed694c05a",
+    "note": "DD"
+  },
+  "2026-04-04|https://doi.org/10.1109/TPAMI.2026.3680437": {
+    "page_id": "3385f58e-a8c2-8147-9de3-cf59c837b8c8",
+    "note": "DD"
   }
 }
