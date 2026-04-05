@@ -1,0 +1,282 @@
+{
+  "timestamps": [
+    0.0,
+    142.58,
+    311.06,
+    532.67,
+    688.9,
+    821.21,
+    981.22,
+    1145.11,
+    1281.16,
+    1454.84,
+    1602.25
+  ],
+  "items": [
+    {
+      "title": "Systematic Validation of AlphaFold-Predicted Interactomes with LUCIA",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.02.716051",
+      "source": "bioRxiv — microbiology",
+      "one_liner": "Mapping protein-protein interactions (PPIs) at structural resolution is essential for understanding cellular machinery. While tools like AlphaFold enable proteome-wide structural predictions, the field lacks high-throughput experimental methods to verify these predictions at scale and establish empirical thresholds for confidence metrics, such as the wide...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Several multiple sequence alignment perturbation methods enhance AlphaFold3 sampling of alternative protein states",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.02.716037",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Protein function often involves multiple conformational states. Several multiple sequence alignment-perturbing strategies, including stochastic subsampling, clustering, and column masking, have been shown to enhance AlphaFold2 (AF2) sampling of alternative protein states. Here, we evaluate these strategies on AlphaFold3 (AF3) and compare their performance...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Conserved water molecules as structural ligands modulating pathogenic variation in human protein binding sites",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.01.715522",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Conserved water molecules (CWMs) are tightly bound solvent molecules that occupy well-defined and recurrent positions in protein structures. Although they are known to influence protein stability, function, and ligand binding, their contribution to human genetic disease has remained largely unexplored. Here, we demonstrate that CWMs substantially contribu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "The CAGE complex: a hollow, megadalton, protein assembly in prokaryotic and eukaryotic microbes",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.09.22.677704",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "We report the discovery and structure of a previously unknown ~1 MDa hollow protein assembly, identified during a survey of ciliary complexes from the ciliate Tetrahymena thermophila. By combining mass spectrometry, structure prediction, and cryo-electron microscopy, we define a homotetrameric cage-like complex with a distinctive elliptical architecture a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine Learning-Driven Antigen Selection Reveals Conserved T-Cell Targets for Broad Coronavirus Vaccination",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.02.716054",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Coronavirus outbreaks remain a persistent global threat, while spike-focused vaccines are vulnerable to antigenic variation. Here, we identify conserved non-spike T-cell targets across betacoronaviruses using machine learning-guided antigen prioritization combined with ex vivo immunological validation. Candidate peptides were screened in primary human PBM...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Detecting positive selection by modeling structure within images of genetic variation.",
+      "url": "https://doi.org/10.1093/gbe/evag085",
+      "source": "PubMed — Genome biology and evolution",
+      "one_liner": "A major challenge in population genomics is accurately identifying and characterizing natural selection from genomic data. The wide availability of dense whole-genome datasets has enabled researchers to analyze and localize genetic variation within populations. Powerful supervised machine learning methods allow researchers to extract spatial information a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Surface Display For Phage Assisted Continuous Evolution: A Platform For Evolving / Screening Nanobodies In Prokaryote Systems",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.03.716437",
+      "source": "bioRxiv — synthetic biology",
+      "one_liner": "Despite >50 years of methods development, specific antibodies are still generated at low throughput and remain in high demand across biotechnology. Most biologics and immunoprobes are monoclonal antibodies, developed using a combination of inoculating animals with a target antigen, engineered candidate libraries, and multiple rounds of selection using pha...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "muat: portable transformer-based method for tumour classification and representation learning from somatic variants",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.01.715762",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Motivation: Deep neural networks have proven effective in classifying tumour types using next-generation sequencing data. However, developing transferable models that work across heterogeneous operating environments remains challenging due to differences in cohort compositions and data generation protocols, privacy concerns, and limited computational capa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "snoFlake: A network model for snoRNA-RBP complexes reveals SNORD22 as a U5 snRNP-associated splicing regulator",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.02.716167",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Small nucleolar RNAs (snoRNAs) are canonically viewed as stable components of ribonucleoprotein complexes dedicated to RNA modification. Here, we developed snoFlake, a snoRNA-centric interaction network integrating physical and functional associations between box C/D snoRNAs and RNA-binding proteins (RBPs), challenging this narrow view. Using snoFlake, we...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "CellWHISPER disentangles direct cell-cell communication from structural proximity",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.07.697982",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Direct, contact-dependent cell-cell communication shapes tissue physiology and disease. Spatial transcriptomics offers a unique opportunity to infer such communication mechanisms, but the few existing tools for such inference are prone to high error rates due to spatial structure in distribution of cell types and gene expression. We present CellWHISPER, a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "GATSBI: Improving context-aware protein embeddingsthrough biologically motivated data splits",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705830",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Motivation: Understanding protein function requires integrating diverse biological evidence while accounting for strong contextual dependence. Recent protein embedding methods increasingly leverage heterogeneous biological networks, yet their evaluation protocols often fail to reflect the specific biological tasks for which the embeddings are intended. Pr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "PlantCAD2: a DNA foundation model for interpreting genomes across flowering plants",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.08.27.672609",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Understanding how DNA sequence encodes biological function remains a fundamental challenge in biology. Flowering plants (angiosperms), the dominant terrestrial clade, exhibit maximal biochemical complexity, extraordinary species diversity (over 100,000 species), relatively recent origins (~160 million years), ~200-fold variation in genome size and relativ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-Guided Design and Dynamic Evaluation of VP4-Targeting siRNAs Against Rotavirus A",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.03.716385",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Rotavirus is a major cause of severe diarrheal disease in children under the age of five, with reduced vaccine effectiveness in low-resource settings causing substantial morbidity and mortality. In the absence of approved antiviral therapeutics, treatment is largely supportive, urging the need for targeted and precision-based interventions. VP4 protein pl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Improved quantitation in data-independent acquisition proteomics via retention time boundary imputation",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.05.27.656394",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The traditional approaches to handling missing values in data-independent acquisition (DIA) proteomics are to either remove high-missingness proteins or impute missing values with statistical procedures. Both approaches have their disadvantages: removal can limit statistical power, whereas imputation can introduce spurious correlations or dilute signal. W...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fine scale structural information substantially improves multivariate regression model for mRNA in-vial degradation prediction",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.08.15.670605",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The success of COVID-19 mRNA vaccines has made the in-solution stability optimization of mRNAs a key objective. However, we still lack a complete understanding of sequence metrics that influence mRNA in-solution stability. RNA secondary structure plays a critical role in protecting against hydrolysis, the primary degradation pathway under storage conditio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Proteome analyses reveal Endoplasmic Reticulum stress-induced changes in protein abundance associated with Ube2j2 deficiency in human cell culture",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.31.715661",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The unfolded protein response (UPR) helps reinstate cellular proteostasis upon an accumulation of misfolded proteins in the endoplasmic reticulum (ER), in part through ER-associated degradation (ERAD). Ube2j2 is an ER-localized E2 ubiquitin-conjugating enzyme that participates in ERAD. We used mass spectrometry analysis of cultured U2OS cells to investiga...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Correlated protein-RNA associations and a requirement for HNRNPU in long-range Polycomb recruitment by the lncRNAs Airn and Kcnq1ot1",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.16.665154",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "The lncRNAs Airn and Kcnq1ot1 recruit Polycomb Repressive Complexes (PRCs) and repress genes over multi-megabase genomic intervals, but how they interact with proteins to direct repression remains poorly understood. We conducted formaldehyde-linked RNA- immunoprecipitations of 27 proteins from trophoblast stem cells, using a protocol exhibiting similar si...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exon-Skipping Antisense Oligonucleotides for H3.3K27M-Altered Diffuse Midline Glioma Therapy",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.03.715131",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Diffuse midline gliomas (DMGs) are a deadly class of pediatric high-grade brain cancers. Approximately 80% of pontine DMGs feature a dominant, somatic, heterozygous point mutation in the non-canonical histone H3.3-coding gene H3-3A. This dominant-negative mutation replaces lysine 27 with methionine (K27M) and prevents global K27 di- and tri-methylation of...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pharma’s dealmaking tear; Blackstone raises record fund; Xolair energizes allergy research; and more",
+      "url": "https://endpoints.news/pharmas-dealmaking-tear-blackstone-raises-record-fund-xolair-energizes-allergy-research-and-more/",
+      "source": "Endpoints News",
+      "one_liner": "Welcome back to Endpoints Weekly! They say March comes in like a lion and out like a lamb, but two pharma giants made a roar this week with megadeals worth more than $5 billion upfront ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biotech",
+        "industry"
+      ]
+    }
+  ]
+}

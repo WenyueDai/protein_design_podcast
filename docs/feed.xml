@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Apr 2026 05:17:07 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 05:28:20 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-04-05</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-05/podcast_2026-04-05.mp3</guid>
+      <pubDate>Sun, 05 Apr 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-05/podcast_2026-04-05.mp3" length="13576629" type="audio/mpeg" />
+      <description>Today&#x27;s papers reveal a striking shift in how we think about protein structure prediction, validation, and design. | The most concrete shift comes from the LUCIA validation study. | The conformational dynamics story is equally transformative.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Today&#x27;s papers reveal a striking shift in how we think about protein structure prediction, validation, and design. | The most concrete shift comes from the LUCIA validation study. | The conformational dynamics story is equally transformative.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-04-04</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-04/podcast_2026-04-04.mp3</guid>
       <pubDate>Sat, 04 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-04/podcast_2026-04-04.mp3" length="11810229" type="audio/mpeg" />
-      <description>Today&#x27;s papers reveal a fascinating shift in how we think about protein design and regulation. | First, we&#x27;re seeing a fundamental rethinking of how cells control protein variability. | The Nature Immunology paper on FOXP3 and AIRE reveals another paradigm shift in how we understand transcription factor function.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-04/podcast_2026-04-04.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today&#x27;s papers reveal a fascinating shift in how we think about protein design and regulation. | First, we&#x27;re seeing a fundamental rethinking of how cells control protein variability. | The Nature Immunology paper on FOXP3 and AIRE reveals another paradigm shift in how we understand transcription factor function.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
