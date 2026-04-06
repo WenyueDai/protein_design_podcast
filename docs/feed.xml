@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Apr 2026 05:28:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 05:51:22 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-04-06</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-06/podcast_2026-04-06.mp3</guid>
+      <pubDate>Mon, 06 Apr 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-06/podcast_2026-04-06.mp3" length="13096413" type="audio/mpeg" />
+      <description>The most striking shift today comes from the AlphaFold-based interactome mapping study, which fundamentally challenges the assumption that computational structure prediction alone can reliably map protein-protein interactions. | The VDJcraft paper represents another fundamental shift in how we approach immune repertoire analysis. | The ultrasound body composition study, while not directly about proteins, reveals something important about AI model generalization across populations.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The most striking shift today comes from the AlphaFold-based interactome mapping study, which fundamentally challenges the assumption that computational structure prediction alone can reliably map protein-protein interactions. | The VDJcraft paper represents another fundamental shift in how we approach immune repertoire analysis. | The ultrasound body composition study, while not directly about proteins, reveals something important about AI model generalization across populations.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-04-05</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-05/podcast_2026-04-05.mp3</guid>
       <pubDate>Sun, 05 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-05/podcast_2026-04-05.mp3" length="13576629" type="audio/mpeg" />
-      <description>Today&#x27;s papers reveal a striking shift in how we think about protein structure prediction, validation, and design. | The most concrete shift comes from the LUCIA validation study. | The conformational dynamics story is equally transformative.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-05/podcast_2026-04-05.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today&#x27;s papers reveal a striking shift in how we think about protein structure prediction, validation, and design. | The most concrete shift comes from the LUCIA validation study. | The conformational dynamics story is equally transformative.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>

@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    151.58,
+    327.47,
+    584.65,
+    729.18,
+    867.0,
+    1011.14,
+    1118.16,
+    1242.06,
+    1383.66,
+    1599.94
+  ],
+  "items": [
+    {
+      "title": "Environment heterogeneity creates fast amplifiers of natural selection in graph-structured populations",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.31.667961",
+      "source": "Anne-Florence Bitbol (bioRxiv)",
+      "one_liner": "Complex spatial structure, with partially isolated subpopulations, and environment heterogeneity, such as gradients in nutrients, oxygen, and drugs, both shape the evolution of natural populations. We investigate the impact of environment heterogeneity on mutant fixation in spatially structured populations with demes on the nodes of a graph. When migrations between demes are frequent, we find that",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "author"
+      ]
+    },
+    {
+      "title": "Comprehensive characterization of V(D)J recombination from long-read transcriptomic data with VDJcraft",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.01.715879",
+      "source": "Yun Song (bioRxiv)",
+      "one_liner": "V(D)J recombination generates antigen receptor diversity in developing B and T cells. Long-read transcriptome technologies (e.g., PacBio Iso-Seq, Nanopore RNA/cDNA) capture full-length transcripts and thus resolve V(D)J events more accurately than short-read platforms. However, existing short-read tools are not applicable to or optimized for long-read data. We developed VDJcraft, the first integra",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "author"
+      ]
+    },
+    {
+      "title": "Experimental assessment of AI-based interactome mapping.",
+      "url": "https://doi.org/10.1038/s41467-026-70942-x",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Genotype-phenotype relationships are mediated through intricate networks of physical and functional interactions among macromolecules. Knowledge of the interactome is vital to understand and model genetics and cellular biology. Recent advances in accurately predicting tertiary protein structures using artificial intelligence (AI) approaches such as AlphaFold",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A machine learning approach to using ultrasound for body composition and nutritional status assessment in newborns: a pilot study protocol.",
+      "url": "https://doi.org/10.1186/s40814-026-01814-w",
+      "source": "PubMed — Pilot and feasibility studies",
+      "one_liner": "BACKGROUND: Accurate assessment of infant body composition, specifically fat and fat-free mass, is crucial for evaluating growth and nutritional status. Existing methods, such as air displacement plethysmography and dual-energy X-ray absorptiometry, are expensive, require specialized facilities, and demand trained personnel. Ultrasound offers a promising ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Uncovering Global Trends in Surgical Oncology Trials: Applying Natural Language Processing to ClinicalTrials.gov.",
+      "url": "https://doi.org/10.1245/s10434-026-19555-8",
+      "source": "PubMed — Annals of surgical oncology",
+      "one_liner": "BACKGROUND: Identifying surgical oncology trials within the National Clinical Trial (NCT) database is challenging owing to the absence of medical specialty labels. We developed a machine learning classifier to systematically identify and analyze surgical oncology trials registered in the NCT database. MATERIALS AND METHODS: We analyzed 425,736 trials. A t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Quantifying airborne vessel noise on large rivers: A novel approach combining acoustic drifters and machine learning.",
+      "url": "https://doi.org/10.1016/j.envpol.2026.128047",
+      "source": "PubMed — Environmental pollution (Barking, Essex : 1987)",
+      "one_liner": "Vessel noise in large rivers poses a growing threat to riparian ecosystems and human communities, yet its large-scale airborne distribution remains poorly monitored. This study introduces an innovative framework combining mobile observations with machine learning. We first conducted extensive measurements of surface airborne noise along the Yangtze River ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine Learning-Driven Classification of Bioactive Peptides and Their Molecular Basis for Sour Taste Perception.",
+      "url": "https://doi.org/10.3168/jds.2026-28183",
+      "source": "PubMed — Journal of dairy science",
+      "one_liner": "Bioactive peptides derived from dairy proteins are increasingly recognized for their dual capacity to enhance sensory attributes and provide health-promoting functions. In fermented dairy products such as yogurt, proteolysis releases a diverse array of peptides, including sour-taste peptides that can refine flavor profiles and reduce the need for added ac...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Prediction of Early-onset Preeclampsia Using Deep Learning: A Scoping Review of Clinical and Imaging Models.",
+      "url": "https://doi.org/10.1016/j.preghy.2026.101462",
+      "source": "PubMed — Pregnancy hypertension",
+      "one_liner": "This scoping review aimed to map the available evidence on deep learning (DL) models for predicting early-onset preeclampsia (EOPE), focusing on both clinical and imaging-based approaches. A comprehensive search of five databases identified 15 eligible studies published between 2018 and 2025. DL and machine learning (ML) models demonstrated heterogeneous ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A machine learning based framework for predictive school management using student and faculty analytics.",
+      "url": "https://doi.org/10.1038/s41598-026-47278-z",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Existing educational predictive models are disconnected and fail to integrate historical trends, student-faculty relationships, and trend patterns.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProDive reveals pervasive cross-family protein fragment reuse",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.02.715841",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Cross-family reuse of short protein fragments has been a long-standing mystery whose resolution first demands an algorithm for their systematic detection. Here we introduce ProDive, a closed-form symmetric KL divergence between profile HMMs that enables GPU-accelerated, fragment level screening across all 25,545 Pfam families. ProDive identifies [~]318,00...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "ViraHinter: a dual-modal artificial intelligence framework for predicting virus-host interactions",
+      "url": "https://arxiv.org/abs/2604.02842",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2604.02842v1 Announce Type: new \nAbstract: Protein-protein interactions (PPIs) between a virus and its host govern infection, replication, and pathogenesis. While high-throughput mapping has identified thousands of virus-host associations, much of the virus-host interactome remains uncharacterized due to the labor-intensive nature of experimental sc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "DrugPlayGround: Benchmarking Large Language Models and Embeddings for Drug Discovery",
+      "url": "https://arxiv.org/abs/2604.02346",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2604.02346v1 Announce Type: cross \nAbstract: Large language models (LLMs) are in the ascendancy for research in drug discovery, offering unprecedented opportunities to reshape drug research by accelerating hypothesis generation, optimizing candidate prioritization, and enabling more scalable and cost-effective drug discovery pipelines. However there...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "MZSGO: multimodal zero-shot protein function annotation via evolutionary signals and textual semantics.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag168",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Although deep learning has significantly advanced the field of protein function prediction, current approaches are limited by their reliance on a narrow set of modalities. Specifically, they primarily rely on sequence patterns and treat protein domain data and functional labels merely as categorical tags. Consequently, they fail to capitalize ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HybridGNN: A Graph Neural Network Approach for Human miRNA-Disease Association Prediction.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag171",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: MicroRNAs (miRNAs) are small non-coding RNAs, typically 18-24 nucleotides in length, that play a pivotal role in RNA silencing and the post-transcriptional regulation of gene expression by targeting messenger RNAs (mRNAs). Dysregulation of these miRNAs has consistently been implicated in the onset and progression of a variety of complex human ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The effects of rapid mitochondrial gene loss on organellar proteomes",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690252",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Mitochondrial genomes retain only a tiny number of genes from their bacterial progenitors, including key components of protein translation machinery. The set of mitochondrially encoded tRNAs and ribosomal subunits is highly variable across angiosperms, with many examples of mitochondrial gene loss, replacement, and/or transfer to the nucleus. This dynamic...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Benchmarking free energy calculations: Analysis of single and double mutations across two simulation software platforms for two protein systems.",
+      "url": "https://doi.org/10.1371/journal.pone.0335829",
+      "source": "PubMed — PloS one",
+      "one_liner": "Mutation analysis of single and double mutations of proteins including the two widely studied proteins: Staphylococcus nuclease (S. nuclease) and T4 lysozyme, provides critical insights into their stability and fitness. Furthermore, such analysis facilitates a deeper understanding of the complex interplay between a protein's sequence, structural conformat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Anti-cancer effect of a novel photodynamic therapy using glucose-linked chlorin e6 conjugated trastuzumab for HER2-positive gastrointestinal cancers.",
+      "url": "https://doi.org/10.1371/journal.pone.0346567",
+      "source": "PubMed — PloS one",
+      "one_liner": "Photodynamic therapy (PDT) is an anti-cancer therapy that employs a photosensitizer (PS) and an optimal wavelength of light, causing a photochemical reaction that releases reactive oxygen species, thereby inducing cancer cell death via oxidative stress. Because light irradiation is limited to the tumor site, PDT has minimal adverse effects. The cancer cel...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "High-dimensional Many-to-many-to-many Mediation Analysis",
+      "url": "https://arxiv.org/abs/2604.02886",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.02886v1 Announce Type: cross \nAbstract: We study high-dimensional mediation analysis in which exposures, mediators, and outcomes are all multivariate, and both exposures and mediators may be high-dimensional. We formalize this as a many (exposures)-to-many (mediators)-to-many (outcomes) (MMM) mediation analysis problem. Methodologically, MMM me...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Tex15 is required for vomeronasal sensory neuron diversity and male pheromone detection",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.03.690614",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "The mouse vomeronasal organ (VNO) detects pheromones, which provide vital information needed to find a mate, detect predators, or alert to the presence of an intruder. Within the VNO, pheromones are sensed by two families of G-protein Coupled Receptors (GPCRs) the type 1 and type 2 vomeronasal receptors (V1Rs and V2Rs). However, little is known about the ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "High-PepBinder: A pLM-Guided Latent Diffusion Framework for Affinity-Aware Target-Specific Peptide Design.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00253",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Peptides, as therapeutic molecules, offer unique advantages in targeting complex protein surfaces, yet their rational design remains limited by the vastness of the sequence space and the constraints of traditional approaches. Here, we propose High-PepBinder, a sequence-only conditional diffusion framework for target-specific peptide generation. Guided by ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
