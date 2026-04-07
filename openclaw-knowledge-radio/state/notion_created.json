@@ -790,5 +790,13 @@
   "2026-04-07|https://doi.org/10.1021/acs.molpharmaceut.5c01851": {
     "page_id": "33b5f58e-a8c2-8179-b783-d0c41b1d57ba",
     "note": "DD"
+  },
+  "2026-04-07|https://www.biorxiv.org/content/10.64898/2026.04.02.716066": {
+    "page_id": "33b5f58e-a8c2-8164-9eb7-c6707575840b",
+    "note": "DD"
+  },
+  "2026-04-07|https://doi.org/10.1021/acs.jcim.6c00004": {
+    "page_id": "33b5f58e-a8c2-8147-9982-d65776d9906d",
+    "note": "DD"
   }
 }
