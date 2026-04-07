@@ -1066,6 +1066,11 @@
       "note": "DD",
       "title": "A Rapid and Universal Pipeline for High-Resolution GPCR Structure Determination through In Silico Construct Optimization",
       "source": "bioRxiv — biophysics"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00004": {
+      "note": "DD",
+      "title": "RinPy, a Python Package for Residue Interaction Network Model to Analyze Protein Structures and Predict Ligand Binding S",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
