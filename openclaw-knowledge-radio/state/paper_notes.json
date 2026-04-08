@@ -1088,6 +1088,11 @@
       "note": "DD",
       "title": "A Brief History of Lab Notebooks",
       "source": "Asimov Press"
+    },
+    "https://doi.org/10.1080/19420862.2026.2646361": {
+      "note": "DD",
+      "title": "Deep learning assessment of nativeness and pairing likelihood for antibody and nanobody design with AbNatiV2.",
+      "source": "PubMed — mAbs"
     }
   }
 }
