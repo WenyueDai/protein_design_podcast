@@ -1083,6 +1083,11 @@
       "note": "DD",
       "title": "A Brief History of Bioinformatics Software",
       "source": "Asimov Press"
+    },
+    "https://www.asimov.press/p/lab-notebooks": {
+      "note": "DD",
+      "title": "A Brief History of Lab Notebooks",
+      "source": "Asimov Press"
     }
   }
 }
