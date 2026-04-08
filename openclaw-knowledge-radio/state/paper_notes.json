@@ -1093,6 +1093,11 @@
       "note": "DD",
       "title": "Deep learning assessment of nativeness and pairing likelihood for antibody and nanobody design with AbNatiV2.",
       "source": "PubMed — mAbs"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.04.06.716835": {
+      "note": "DD",
+      "title": "Machine Learning-Enhanced Nanopore ITS Analysis: Evaluating CPU-GPU Pipelines for High-Accuracy Fungal Taxonomic Resolut",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
