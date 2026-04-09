@@ -1105,6 +1105,11 @@
       "note": "DD",
       "title": "New Bond Formations Just Keep On Coming",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.04.07.717117": {
+      "note": "DD",
+      "title": "Protein Language Models Encode Evolutionary Grammar but Conflate Topological and Thermodynamic Phases",
+      "source": "bioRxiv — biophysics"
     }
   }
 }
