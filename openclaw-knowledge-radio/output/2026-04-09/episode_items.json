@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    152.32,
+    314.1,
+    480.3,
+    648.8,
+    767.48,
+    892.73,
+    1046.54,
+    1096.1,
+    1103.46,
+    1116.61
+  ],
+  "items": [
+    {
+      "title": "New Bond Formations Just Keep On Coming",
+      "url": "https://www.science.org/content/blog-post/new-bond-formations-just-keep-coming",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "The trRosettaRNA server for RNA structure prediction.",
+      "url": "https://doi.org/10.1038/s41596-026-01356-8",
+      "source": "PubMed — Nature protocols",
+      "one_liner": "Similar to proteins, many RNAs fold into three-dimensional (3D) structures to perform biological functions. Here we present the trRosettaRNA server, a web-based platform for automated RNA 3D structure prediction using deep learning. The primary input is the nucleotide sequence of a target RNA, with the option to upload custom multiple sequence alignments ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "RB loss modulates chromatin organization by regulating cohesin-dependent loops and enhancer-promoter interactions.",
+      "url": "https://doi.org/10.1038/s41467-026-71655-x",
+      "source": "PubMed — Nature communications",
+      "one_liner": "The retinoblastoma protein (RB) is a well-characterized repressor of E2F transcriptional activity that controls genes involved in cell proliferation during the G1 phase. Here, we examine the effect of RB on chromatin organization and uncover a non-canonical role for RB in which it promotes the removal of cohesin from insulators and thereby induces the exp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Convolutional Neural Network-Assisted Ultrasensitive Immunochromatographic Strips of",
+      "url": "https://doi.org/10.1021/acs.jafc.6c01313",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "The development of a signal probe that simultaneously possesses high luminescence and superior nano-biointerfacial affinity remains challenging for advancing immunochromatographic assay (ICA) strips to detect foodborne pathogens. Herein, we propose convolutional neural network-assisted ICA strips to detect",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Geometry-enhanced protein language modeling enables discovery of novel antibiotic resistance genes",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.05.716581",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The global antibiotic resistome remains largely unexplored, not because antibiotic resistance genes (ARGs) are rare in the environment, but because many are evolutionarily distant from known ARGs. Current computational approaches primarily rely on sequence homology, and thus miss distant homologues. We develop GeoARG, a geometry-enhanced framework that in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Negative design enables cell-free expression and folding of designed transmembrane β-barrels.",
+      "url": "https://doi.org/10.1073/pnas.2528772123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "De novo design of membrane proteins (MPs) is a rapidly growing field with transformative potential for synthetic biology. Yet, progress has lagged behind that of soluble proteins, largely due to limited understanding of the fundamental principles governing MP folding, stability, and solubility-and the difficulty of integrating them into computational mode...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A transfer-aware, deployment-oriented evaluation framework for NetFlow-based intrusion detection systems (TAN-IDS).",
+      "url": "https://doi.org/10.1371/journal.pone.0346801",
+      "source": "PubMed — PloS one",
+      "one_liner": "Machine learning-based Intrusion Detection Systems (IDS) often report high detection accuracy under controlled, single-dataset evaluation, yet experience severe performance degradation when deployed in unseen network environments due to domain shift. To bridge this gap between laboratory benchmarking and real-world deployment, this paper presents TAN-IDS,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein Language Models Encode Evolutionary Grammar but Conflate Topological and Thermodynamic Phases",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.07.717117",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "How a one-dimensional sequence encodes a dynamic thermodynamic ensemble rather than a static geometry remains a fundamental biophysical challenge. While protein language models achieve high structural accuracy from single sequences, it remains unclear whether they internalize physical folding principles or merely capture evolutionary statistical correlati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exploring quantum annealing for coarse-grained protein folding.",
+      "url": "https://doi.org/10.1038/s41598-026-46916-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "We explore the potential application of quantum annealing to address the protein structure problem. To this end, we compare several proposed ab initio protein folding models for quantum computers and analyze their scaling and performance for classical and quantum heuristics. Moreover, we introduce a novel encoding of coordinate-based models on the tetrahe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advancing early detection of chromophobe renal cell carcinoma: a Bayesian optimization approach to machine learning models.",
+      "url": "https://doi.org/10.1038/s41598-026-46492-z",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Infectious medical waste characterization using X-ray transmission with Machine learning.",
+      "url": "https://doi.org/10.1016/j.wasman.2026.115513",
+      "source": "PubMed — Waste management (New York, N.Y.)",
+      "one_liner": "In Germany, around 425,400 Mg of specially healthcare-related waste is generated annually, of which 2.4% (10,100 Mg) is infectious (EWC 18 01 03*). Its hazardous nature creates organizational and safety challenges for healthcare facilities and disposal companies, while composition and recycling potential remain largely unknown. However, standardized regul...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing Prediabetes and Diabetes Detection Through a Machine Learning-Enabled Self-Assessment Approach.",
+      "url": "https://doi.org/10.1016/j.jclinepi.2026.112266",
+      "source": "PubMed — Journal of clinical epidemiology",
+      "one_liner": "OBJECTIVES: Reliable, accessible, non-invasive self-assessment screening for prediabetes/diabetes is lacking, leading to missed opportunities for early intervention. We aimed to develop and externally validate a machine learning (ML)-derived self-assessment system to predict the likelihood of prevalent prediabetes or diabetes using easily accessible healt...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Explainable machine learning for coagulant dosage prediction in coal port wastewater treatment.",
+      "url": "https://doi.org/10.1016/j.marpolbul.2026.119716",
+      "source": "PubMed — Marine pollution bulletin",
+      "one_liner": "Coal-laden runoff at coal ports, if inadequately treated before discharge, can compromise nearshore water quality. As the primary process for treating coal-laden runoff wastewater, coagulation dosing is largely adjusted empirically under varying influent conditions, and reliable predictive tools remain limited. To address this gap, we developed an interpr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Expanding the Global Map of Protein Post Translational Modifications with Immunoaffinity Enrichment and nDIA Analysis on the Orbitrap Astral Mass Spectrometer.",
+      "url": "https://doi.org/10.1016/j.mcpro.2026.101562",
+      "source": "PubMed — Molecular & cellular proteomics : MCP",
+      "one_liner": "Post-translational modifications (PTMs) contribute greatly to the diversity of the human proteome by affecting protein structure, function, interactions, stability, localization, and more. The study of PTMs is essential to understand various cellular functions, disease mechanisms, and aid in the development of biomarkers and design of therapeutic targets....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "LLM-autonomous development of deep learning models for quantitative microscopy",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.03.716415",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Deep learning can extract quantitative measurements from microscopy images that are inaccessible to classical analysis, but developing these models requires machine learning expertise that most imaging scientists do not have. Here we present a framework in which a researcher describes their microscopy problem to a large language model (LLM) agent in under...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "TPCAV: Interpreting deep learning genomics models via concept attribution",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.20.700723",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Interpreting genomics deep learning models remains challenging. Existing feature attribution methods are largely restricted to one-hot DNA inputs and therefore cannot assess the influence of more general genomic features such as chromatin states or genomic repeats. Concept attribution methods offer an input-agnostic global interpretation framework, yet th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A geometric criterion links HIV-1 capsid topography to its biophysical properties and function",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.01.691629",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Mathematical models of virus capsid structure are pillars of modern virology, aiding the understanding of viral mechanisms and the design of antiviral interventions. Traditionally, the HIV-1 capsid core geometry is represented as a fullerene lattice, akin to the icosahedral models of spherical viruses in Caspar-Klug theory. However, recent studies reveale...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "UBL3 UBL domain exhibits distinct helix-centered dynamic control among ubiquitin-like proteins",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.06.716645",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Ubiquitin-like protein 3 (UBL3) is a post-translational modifier that sorts proteins into small extracellular vesicles and regulates the trafficking of disease-associated proteins such as -synuclein. The structural and dynamic features of the UBL domain that underlie these functions, however, remain poorly understood. Here we performed in silico structura...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "De novo-designed ribozyme-controlled riboregulator for cell-free diagnostics.",
+      "url": "https://doi.org/10.1038/s41467-026-71684-6",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Cell-free systems have great potential for nucleic acid assays, yet universal onsite diagnostics without preamplification are limited. Here, a universal cell-free diagnostic platform termed TRACKer (Target-Responsive non-preAmplification Cell-free diagnostic Kit) has been developed for detecting multiple respiratory viral RNAs in laboratory and field sett...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CBM-Dual: A 65-nm Fully Connected Chaotic Boltzmann Machine Processor for Dual Function Simulated Annealing and Reservoir Computing",
+      "url": "https://arxiv.org/abs/2604.06808",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2604.06808v1 Announce Type: cross \nAbstract: This paper presents CBM-Dual, the first silicon-proven digital chaotic dynamics processor (CDP) supporting both simulated annealing (SA) and reservoir computing (RC). CBM-Dual enables real-time decision-making and lightweight adaptation for autonomous Edge AI, employing the largest-scale fully connected 1...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

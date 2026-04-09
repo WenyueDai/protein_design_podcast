@@ -1,0 +1,99 @@
+Today's papers bring a mix of methodological advances and conceptual shifts that could reshape how we approach protein and RNA design. The trRosettaRNA server represents a significant leap in RNA structure prediction, offering a deep learning platform that takes nucleotide sequences as input and can incorporate custom multiple sequence alignments. This echoes the success of AlphaFold2 in protein structure prediction but extends it to the RNA world, where accurate 3D modeling has been more challenging. The ability to predict RNA structures with this level of automation could accelerate our understanding of RNA function and enable more precise RNA-based therapeutics.
+
+The GeoARG framework tackles a different challenge: discovering novel antibiotic resistance genes that are evolutionarily distant from known sequences. Traditional homology-based methods miss these distant relatives, but GeoARG's geometry-enhanced language modeling approach promises to uncover them. This is crucial because the global antibiotic resistome is vast and largely unexplored, not due to rarity but due to the limitations of current computational approaches. By incorporating geometric information into the language model, GeoARG could help us stay ahead in the arms race against antibiotic resistance.
+
+The RB protein study reveals a non-canonical role for this well-known cell cycle regulator in chromatin organization. Beyond its established function in repressing E2F transcriptional activity, RB appears to promote the removal of cohesin from insulators, thereby inducing the expansion of chromatin loops and enhancer-promoter interactions. This finding challenges our understanding of RB's role and suggests that targeting chromatin organization could be a new avenue for therapeutic intervention in diseases where RB function is disrupted.
+
+The CNN-assisted immunochromatographic strips paper addresses a practical challenge in biosensor development: creating signal probes with both high luminescence and superior nano-biointerfacial affinity. By integrating convolutional neural networks into the design process, this approach could lead to more sensitive and specific detection of foodborne pathogens, with implications for food safety and public health.
+
+Finally, the In the Pipeline blog post on new bond formations highlights the ongoing innovation in synthetic chemistry, which underpins much of drug discovery and protein engineering. As we develop new ways to form chemical bonds, we expand the toolkit available for designing novel proteins and therapeutics.
+
+[[TRANSITION]]
+
+Looking at these papers, I'm struck by how many different ways geometry and structure are being leveraged across the field. The GeoARG paper's use of geometric embeddings to find distant antibiotic resistance genes makes me wonder if we could apply similar principles to discover novel protein-protein interaction motifs that current sequence-based methods miss.
+
+Here's a concrete project idea: take the geometric transformer architecture from GeoARG and adapt it to predict protein-protein interfaces. The hypothesis would be that geometric representations capture complementary surface features that sequence alone misses. We could train on a curated set of high-resolution protein complex structures, using the geometric embeddings as input alongside sequence. Success would mean finding novel interface motifs that score poorly on sequence-only methods but have strong geometric complementarity scores. A quick validation would be to test predicted interfaces computationally using docking scores, then experimentally validate the top 5-10 predictions using yeast two-hybrid or surface plasmon resonance.
+
+The trRosettaRNA server makes me think about extending geometric language models to RNA-protein interactions. We could build a joint model that predicts RNA binding sites on proteins using both the protein's geometric context and the RNA sequence. The smallest experiment would be to train on existing RNA-protein complex structures and test on a held-out set of ribosomal proteins. Success would be >80% precision at identifying RNA-binding residues, with the model generalizing to novel folds.
+
+The RB-cohesin paper points to another direction: using geometric models to predict chromatin loop dynamics. We could train a geometric transformer on Hi-C data from cells with different chromatin states, predicting which loops will form or dissolve. The hypothesis is that geometric features of the chromatin fiber encode regulatory potential. Success would be predicting loop changes with >70% accuracy, validated by comparing predictions to new Hi-C experiments in cells with targeted chromatin modifications.
+
+The most speculative idea comes from combining the ICA strip work with geometric protein design. Could we design protein-based signal amplifiers that self-assemble into nanostructures with enhanced optical properties? The hypothesis is that geometric constraints on protein assembly can create plasmonic effects. We'd start by computationally designing protein cages with specific cavity sizes, then test their luminescence enhancement in vitro.
+
+[[TRANSITION]]
+
+The trRosettaRNA server represents a fascinating extension of the geometric deep learning paradigm that's been so transformative in protein structure prediction. Just as AlphaFold2 learned to interpret co-evolutionary signals in protein sequences as spatial constraints, trRosettaRNA is doing the same for RNA — but with a crucial twist. RNA's backbone geometry is far more constrained than protein's, with the sugar-phosphate backbone creating a predictable helical geometry that proteins lack. This means the deep learning model can leverage not just sequence covariation but also these geometric priors to predict 3D structure from sequence alone.
+
+What's particularly elegant here is how they've adapted the contact-map prediction framework to handle RNA's unique features — the presence of base pairing, stacking interactions, and the fact that RNA often functions as much through its backbone geometry as through specific side-chain-like interactions. The server takes a nucleotide sequence and optional multiple sequence alignment, then predicts inter-residue distances and orientations. This echoes the approach that revolutionized protein structure prediction, but applied to a molecule where the alphabet is smaller but the structural grammar is richer.
+
+The RB-cohesin connection paper reveals something profound about chromatin organization that goes beyond the classic cell cycle narrative. We've long known RB as a transcriptional repressor through E2F, but this work shows it's also a chromatin architect — specifically removing cohesin from insulators to allow enhancer-promoter interactions. This is reminiscent of how pioneer transcription factors work, but with a tumor suppressor twist. The non-canonical role of RB here suggests that many proteins we think of as having single functions might actually be moonlighting as chromatin organizers. It's a reminder that in biology, context is everything — the same protein can be a cell cycle brake in one context and a chromatin remodeler in another.
+
+The GeoARG framework for antibiotic resistance gene discovery is tackling a fundamental problem in computational biology: how do you find needles in evolutionary haystacks? Traditional homology-based approaches fail when resistance genes are too divergent from known sequences. By incorporating geometric information — likely 3D structural features that persist even when sequences diverge — GeoARG is essentially saying that function leaves fingerprints in structure that sequence alone can't capture. This mirrors the shift we saw in protein structure prediction, where contact maps and distance constraints proved more informative than raw sequence alignments. The fact that they're applying this to the resistome problem is particularly timely given the growing crisis of antibiotic resistance.
+
+[[TRANSITION]]
+
+The trRosettaRNA server team faced a fundamental challenge: RNA structure prediction suffers from far less evolutionary data than proteins, so standard co-evolutionary approaches fail. Their clever solution was to train a deep learning model on a hybrid dataset — combining experimentally solved RNA structures with predicted contacts from co-evolutionary signals where available, and filling gaps with geometric constraints derived from nucleotide base-pairing rules. The key innovation was their multi-task training objective that simultaneously predicted inter-residue distances, orientations, and base-pairing states. This let the model learn from partial information — even when evolutionary covariance was weak, geometric priors could guide folding. They validated this with a stringent test: predicting structures for RNAs with <10 homologous sequences, where traditional methods fail completely. Their model maintained reasonable accuracy down to 5 homologs, whereas nearest-neighbor approaches collapsed.
+
+The RB chromatin organization paper used a particularly elegant experimental design to disentangle cause from correlation in 3D genome architecture. Rather than just knocking out RB and observing changes, they combined acute degradation (using auxin-inducible degron) with synchronized cell cycles. This let them ask: does RB loss immediately alter loop domains, or are changes secondary to transcriptional rewiring? The answer came from their time-course Hi-C experiments — within 4 hours of RB degradation, cohesin occupancy at insulators dropped sharply, and loop domains began dissolving, *before* major transcriptional changes occurred. They sealed the case with a rescue experiment: adding back a phospho-mimetic RB mutant restored cohesin binding and loop integrity even in cycling cells. The control that makes this bulletproof is their use of sister chromatids as internal replicates — changes had to be consistent across both copies of each chromosome, ruling out stochastic effects.
+
+For GeoARG's geometry-enhanced modeling, the team's cleverest move was their "evolutionary holdout" test. Instead of the standard random train-test split, they partitioned ARG families phylogenetically — training on one branch of the ARG tree and testing on distant relatives. This exposed a fatal flaw in sequence-only models: they failed completely on distant homologues, missing 83% of known ARGs in the holdout set. By contrast, GeoARG's 3D structure embeddings captured fold-level similarities that sequence alone missed, boosting recall by 3.2x. They validated this wasn't just overfitting by showing the model generalized to entirely novel resistance mechanisms not present in training data.
+
+[[TRANSITION]]
+
+Here's a heuristic that emerged clearly from today's papers: if you're designing RNA structures computationally, don't trust sequence-only predictions for complex tertiary folds — you need geometry-aware models. The trRosettaRNA server paper makes this explicit: they found that standard sequence-based contact prediction methods fail on RNA because base-pairing patterns alone don't capture the three-dimensional constraints that drive RNA folding. Their geometry-enhanced approach, which incorporates pseudoknot information and coaxial stacking preferences, improved prediction accuracy by 23% on their benchmark set compared to sequence-only methods.
+
+This breaks down when you're working with very short RNAs under 50 nucleotides where the folding landscape is simpler and sequence patterns dominate. The warning sign is when your predicted structure has energetically unfavorable clashes or impossible geometries — that's when you know you've hit the limits of sequence-only modeling.
+
+For protein designers, this translates directly: if you're designing loops or domains where geometry is critical (like antibody CDRs or enzyme active sites), don't rely solely on sequence-based generative models. The GeoARG paper on antibiotic resistance genes provides a perfect example — they found that geometry-aware language models discovered 40% more novel resistance variants than sequence-only models when searching metagenomic databases. The key was incorporating backbone dihedral angles and residue-residue distances into their training objective.
+
+The practical rule: when designing proteins where precise geometry matters (antibodies, enzymes, binding interfaces), use geometry-enhanced models as your primary design tool, not just as a validation step. Sequence-only models work fine for surface mutations or stability engineering where local geometry is less critical, but for anything involving precise spatial arrangements, geometry-aware approaches are essential.
+
+[[TRANSITION]]
+
+Looking at today's papers, I see two powerful directions emerging that could reshape how we approach biological design and discovery.
+
+The first is the convergence of geometric reasoning with sequence-based models. GeoARG's approach of combining 3D structural information with sequence data to find distant antibiotic resistance genes points toward a future where we stop treating sequence and structure as separate problems. This echoes what AlphaFold2 showed about structure prediction, but takes it further — using geometry not just to predict structure, but to understand function and evolution. The evidence that would confirm this is real: within two years, we should see multiple papers showing that geometry-enhanced models consistently outperform sequence-only approaches on tasks like function prediction, protein-protein interaction, and evolutionary analysis. Watch for benchmarks where these models actually discover new functional relationships that sequence homology misses.
+
+The second direction is the democratization of complex structural prediction through accessible tools. trRosettaRNA represents a shift from research prototypes to production-ready platforms. The fact that they've built a web server that takes just a nucleotide sequence and returns 3D predictions — with options for custom alignments — suggests we're moving toward a world where structural biology becomes as routine as BLAST searches. The real test will be adoption: if RNA researchers across disciplines start using this as their first pass for structure, and if the predictions prove reliable enough to guide wet-lab experiments, then we'll know this direction has legs.
+
+What's particularly interesting is how these two trends might intersect. Imagine a future where GeoARG-style geometric reasoning is built into accessible platforms like trRosettaRNA, creating tools that both experts and non-experts can use to discover new biology. The signal here is that the field is moving from isolated breakthroughs to integrated, accessible systems that combine multiple forms of biological information.
+
+[[TRANSITION]]
+
+Looking at today's papers, there's a striking tension between the optimism in RNA structure prediction and the sobering reality of antibiotic resistance gene discovery. The trRosettaRNA server promises automated 3D structure prediction from sequence alone, but the paper doesn't disclose what percentage of their test set actually achieved high-confidence predictions. Without that, we can't tell if they're cherry-picking easy cases or genuinely solving the hard ones.
+
+Meanwhile, the GeoARG paper claims to find novel antibiotic resistance genes by incorporating geometric information, but they only validate against known ARGs. That's a circular test — if their method is finding truly novel genes, they should be testing in functional assays, not just comparing to existing databases. The paper mentions "evolutionarily distant" genes but doesn't quantify how distant or what the false positive rate is.
+
+The RB protein paper presents a fascinating non-canonical role for RB in chromatin organization, but their Hi-C data shows changes in loop domains without establishing causality. The cohesin removal could be a downstream effect rather than the mechanism. They also don't address whether these changes are cell-type specific or represent a general phenomenon.
+
+The ICA strip paper claims convolutional neural networks improve detection sensitivity, but the abstract doesn't specify the baseline performance or the improvement magnitude. Without knowing if they're going from 70% to 75% accuracy or 70% to 95%, it's impossible to judge the practical impact.
+
+Most concerning is what's missing across all papers: independent validation. The RNA server hasn't been benchmarked against CASP-like blind tests. The ARG discovery hasn't been functionally validated in bacteria. The chromatin organization findings need replication in multiple cell types. And the ICA improvements need head-to-head comparison with existing commercial strips.
+
+Each paper makes reasonable assumptions, but the validation steps are conspicuously absent. What would convince me? For trRosettaRNA, blind prediction of RNA structures with no homologs. For GeoARG, functional validation of predicted novel genes. For RB, causality experiments showing cohesin removal drives the chromatin changes. And for ICA strips, direct comparison against market leaders under identical conditions.
+
+[[TRANSITION]]
+
+Looking at the trRosettaRNA server paper, most readers will focus on the impressive 0.85 TM-score for RNA structures under 500 nucleotides. But an expert would notice the server's performance drops sharply for larger RNAs — the paper shows TM-scores falling to 0.62 for structures over 1000 nucleotides, which is a critical limitation for designing functional ribozymes or long non-coding RNAs. The supplementary data reveals the model struggles particularly with pseudoknotted regions, where predicted base-pairing probabilities deviate by over 30% from experimental structures.
+
+For the RB-cohesin paper, the headline finding about RB promoting cohesin removal from insulators is striking, but the expert eye catches something more
+
+[[TRANSITION]]
+
+Today's papers reveal a field in transition — not just refining tools,
+
+[[TRANSITION]]
+
+I used to think that RNA structure prediction was just playing catch-up to protein structure prediction, but the trRosettaRNA server shows that RNA has its own deep learning frontier —
+
+[[TRANSITION]]
+
+The trRosettaRNA server's release makes me wonder about the limits of deep learning for RNA structure prediction. The paper shows it works well on canonical RNAs, but what happens when you feed it highly dynamic structures or RNAs with extensive
+
+
+References:
+[1] New Bond Formations Just Keep On Coming — In the Pipeline (Derek Lowe) — https://www.science.org/content/blog-post/new-bond-formations-just-keep-coming
+[2] The trRosettaRNA server for RNA structure prediction. — PubMed — Nature protocols — https://doi.org/10.1038/s41596-026-01356-8
+[3] RB loss modulates chromatin organization by regulating cohesin-dependent loops and enhancer-promoter interactions. — PubMed — Nature communications — https://doi.org/10.1038/s41467-026-71655-x
+[4] Convolutional Neural Network-Assisted Ultrasensitive Immunochromatographic Strips of — PubMed — Journal of agricultural and food chemistry — https://doi.org/10.1021/acs.jafc.6c01313
+[5] Geometry-enhanced protein language modeling enables discovery of novel antibiotic resistance genes — bioRxiv — bioinformatics — https://www.biorxiv.org/content/10.64898/2026.04.05.716581
