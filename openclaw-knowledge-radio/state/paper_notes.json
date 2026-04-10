@@ -1132,6 +1132,11 @@
       "note": "DD",
       "title": "How artificial intelligence is reengineering protein engineering.",
       "source": "PubMed — Science (New York, N.Y.)"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.04.07.716961": {
+      "note": "DD",
+      "title": "GROQ-seq Enables Cross-site Reproducibility for High-Throughput Measurement of Protein Function",
+      "source": "bioRxiv — bioengineering"
     }
   }
 }
