@@ -1116,5 +1116,12 @@
       "title": "Exploring quantum annealing for coarse-grained protein folding.",
       "source": "PubMed — Scientific reports"
     }
+  },
+  "2026-04-10": {
+    "https://www.biorxiv.org/content/10.64898/2026.04.08.717316": {
+      "note": "DD",
+      "title": "Role of Nonneutralizing Antibodies and Fc Effector Functions in Inhibiting SARS-CoV-2 Infection",
+      "source": "bioRxiv — immunology"
+    }
   }
 }
