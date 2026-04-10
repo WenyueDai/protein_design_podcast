@@ -1142,6 +1142,11 @@
       "note": "DD",
       "title": "PoolParty: streamlined design of DNA sequence libraries in Python",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.04.07.716565": {
+      "note": "DD",
+      "title": "ViralMap: Predicting Features in Viral Proteins from Primary Sequence",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
