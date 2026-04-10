@@ -1137,6 +1137,11 @@
       "note": "DD",
       "title": "GROQ-seq Enables Cross-site Reproducibility for High-Throughput Measurement of Protein Function",
       "source": "bioRxiv — bioengineering"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.04.06.716802": {
+      "note": "DD",
+      "title": "PoolParty: streamlined design of DNA sequence libraries in Python",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
