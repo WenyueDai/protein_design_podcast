@@ -1159,6 +1159,11 @@
       "note": "DD",
       "title": "Consider the Selfish Ribosome",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://doi.org/10.1038/s41467-026-71354-7": {
+      "note": "DD",
+      "title": "Balancing the efficacy and safety of chimeric antigen receptor T-cell therapy by affinity combination.",
+      "source": "PubMed — Nature communications"
     }
   }
 }
