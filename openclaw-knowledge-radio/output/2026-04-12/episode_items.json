@@ -1,0 +1,282 @@
+{
+  "timestamps": [
+    0.0,
+    159.5,
+    344.39,
+    548.48,
+    688.83,
+    826.54,
+    971.83,
+    1110.67,
+    1290.21,
+    1464.95,
+    1667.34
+  ],
+  "items": [
+    {
+      "title": "Bleomycin induces active-centromere damage and cytoplasmic mislocalization of centromeric chromatin in fibroblasts",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.08.22.671795",
+      "source": "bioRxiv — genetics",
+      "one_liner": "Systemic sclerosis (SSc) is a fibrotic autoimmune disease in which genomic sources of instability and their immunological consequences remain poorly defined. We show that bleomycin, a widely used SSc fibrosis model, induces DNA double-strand breaks (DSBs) at active centromeres. Similar centromeric damage signatures were observed in fibroblasts from patien...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "PRIZM: Combining Low-N Data and Zero-shot Models to Design Enhanced Protein Variants",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.08.704628",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Machine learning has repeatedly shown the ability to accelerate protein engineering, but many approaches demand large amounts of robust, high-quality training data as well as substantial computational expertise. While large pre-trained models can function as zero-shot proxies for predicting variant effects, selecting the best model for a given protein pro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Learning latent conformational landscapes encoded in cryo-EM",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717737",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Proteins exist as a continuum of conformational states, millions of snapshots of which are captured in every cryo-EM experiment. Current analysis reduces these snapshots to static density maps or discrete classes, discarding the dynamics encoded in the data. Continuous latent-space methods offer a promising alternative, yet whether their learned represent...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Large-Scale Statistical Dissection of Sequence-Derived Biochemical Features Distinguishing Soluble and Insoluble Proteins",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.28.708685",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein solubility critically influences recombinant expression efficiency and downstream biotechnological applications. While deep learning models have improved predictive accuracy, the intrinsic magnitude, redundancy, and interpretability of classical sequence-derived determinants remain insufficiently characterized. We performed a statistically rigorou...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A structure-informed deep learning framework for modeling TCR-peptide-HLA interactions",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.31.715361",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The interaction between T cell receptors (TCRs), peptides, and human leukocyte antigens (HLAs) underlies antigen-specific T cell immunity. Despite substantial advances in peptide-HLA presentation prediction, accurate modeling of coupled TCR-peptide-HLA recognition remains underdeveloped, limiting applications such as TCR and neoepitope prioritization in c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "DIANA: Deep Learning Identification and Assessment of Ancient DNA",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.09.717429",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The field of ancient metagenomics provides insights into past microbiomes, but with a growing dataset size, methods that rely on reference databases have limited scope. Here, we introduce DIANA, a multi-task neural network that predicts key metadata categories from unitig abundances. Trained on 2,597 run accessions (1.72~Tbp of assembled unitig sequences)...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Impact of Fluorophore and Epitope Position on Destabilized Reporter Performance in C. elegans",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717803",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Determining spatial and temporal gene expression is crucial for understanding animal development and physiology. Promoter reporters are powerful tools used to dissect how cis-regulatory elements and trans-acting factors control gene expression. Many fluorescent proteins used in promoter reporters, however, have long half-lives (>24 hr) which limit the stu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "In-cell structural insights into fungal ER stress responses",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717691",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Approximately a third of a cell's proteome is folded in the endoplasmic reticulum (ER). The accumulation of misfolded proteins in the ER results in ER stress. The unfolded protein response (UPR) has evolved to attenuate ER stress by increasing the cell's folding capacity and reducing the folding load in the ER. In metazoans, the latter is notably achieved...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "The amyloid packing difference: a pairwise comparison metric for amyloid structures",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706523",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Several proteins from the human proteome have been observed to adopt multiple distinct amyloid filaments, and specific protofilament folds are associated with different diseases. Thereby, it has become necessary to compare pairs of amyloid structures of a given protein. This paper describes the amyloid packing difference (APD), which quantifies the differ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Real Time Quaking Induced Conversion (RT-QuIC) Assay for Detection of Misfolded Insulin Protein",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.08.717350",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Protein misfolding plays a critical role in aging and disease, yet the involvement of specif-ic proteins in metabolic dysfunction is still poorly understood. Here, we report studies on the development of a Real-time Quaking-Induced Conversion (RT-QuIC) assay to detect misfolded insulin, a peptide hormone required for blood glucose regulation. Although RT-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Repurposed small molecule toxin inhibitors neutralise a diversity of venoms from the Neotropical viperid snake genus Bothrops",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.02.697350",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Snakebite globally claims more than 100,000 lives per year and results in morbidity for 400,000 survivors. Current treatment uses antibody-based antivenoms which are constrained by their efficacy, safety and cost. In this study we evaluated the efficacy of previously described repurposed drugs against viperid snakes of the medically important Bothrops gen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Linear-Scaling and Memory-Efficient Implementation of van-der-Waals Interaction (DFT-D3) for Large Systems.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00223",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "The van der Waals (vdW) interaction is ubiquitous in materials and is long-range by nature. To facilitate vdW-included atomic simulations in large systems with tens of thousands of atoms, we developed LASP-D3, a Compute Unified Device Architecture (CUDA) implementation of the DFT-D3 method on graphics processing unit (GPU) devices, which realizes fast vdW...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-Designed Peptides as Tools for Biochemistry.",
+      "url": "https://doi.org/10.1021/acs.biochem.6c00138",
+      "source": "PubMed — Biochemistry",
+      "one_liner": "Peptides occupy a unique niche as biochemical tools: they are small, modular reagents capable of perturbing protein function with a precision that is often inaccessible to small molecules or antibodies. Historically, their broader use in biochemical research has been constrained by slow discovery workflows, limited control over specificity, and poor physi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Diffusive spreading across dynamic mitochondrial network architectures.",
+      "url": "https://doi.org/10.1073/pnas.2523913123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "In eukaryotic cells, mitochondria form networks that range from highly fused interconnected structures to fragmented populations of individual organelles that undergo transient interactions. These structures can be described as temporal networks of physical units, whose dynamic topology is determined by fusion, fission, and motion of the mitochondria thro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unsupervised industrial image defect detection based on autoencoder and GANs.",
+      "url": "https://doi.org/10.1371/journal.pone.0346637",
+      "source": "PubMed — PloS one",
+      "one_liner": "In the process of intelligentization in modern manufacturing, especially in industrial fields such as automobile manufacturing, semiconductor production, and electronic product assembly, product quality control is crucial. Traditional defect detection methods face problems such as supervised learning methods relying on a large amount of labeled data, weak...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Topology-aware design of spiking neural networks via modular graph architectures.",
+      "url": "https://doi.org/10.1371/journal.pone.0344997",
+      "source": "PubMed — PloS one",
+      "one_liner": "Spiking Neural Networks (SNNs) offer a biologically plausible and energy-efficient alternative to traditional artificial neural networks (ANNs), yet their design remains constrained by limited architectural flexibility and slow training dynamics. In this work, we introduce a novel SNN framework that leverages modular graph-based topologies and explicit sy...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dengue serotype-1 virus like particles induce antibody responses following HeLa cell expression",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.08.717190",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Dengue disease remains a significant global health threat, with current vaccines exhibiting variable efficacy and safety concerns. Virus-like particles (VLPs) offer a promising alternative by mimicking native virus structures without infectious genomes. We engineered a mammalian expression plasmid encoding Dengue-1 prM and E proteins, optimized for secret...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Phagocytic Clearance of SARS-CoV-2 Nucleocapsid- and RNA-Containing Immune Complexes Drives Inflammatory Cytokine Production and Endothelial Dysfunction",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.09.717495",
+      "source": "bioRxiv — immunology",
+      "one_liner": "The aberrant inflammation that characterizes severe COVID-19 is incompletely understood. Given the persistence of SARS-Cov-2 RNA and nucleocapsid protein (N) and the presence of anti-N antibody during the course of severe infection, we investigated the role of RNA-containing immune complexes (ICs) in driving inflammation. We found that ICs consisting of S...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "More pharma dealmaking; FDA’s proposed budget; Takeda ends partnership; and more",
+      "url": "https://endpoints.news/more-pharma-dealmaking-fdas-proposed-budget-takeda-ends-partnership-and-more/",
+      "source": "Endpoints News",
+      "one_liner": "Welcome back to another edition of Endpoints Weekly. Two of the year’s major oncology conferences are coming up soon: AACR starting April 17, and ASCO at the end of May. We’re also hosting our New ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biotech",
+        "industry"
+      ]
+    }
+  ]
+}

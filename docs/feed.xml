@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Apr 2026 05:14:45 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 05:40:19 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-04-12</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-12/podcast_2026-04-12.mp3</guid>
+      <pubDate>Sun, 12 Apr 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-12/podcast_2026-04-12.mp3" length="13625757" type="audio/mpeg" />
+      <description>Today&#x27;s papers reveal a fascinating shift in how we think about protein design and analysis. | First, the bleomycin study on systemic sclerosis fundamentally changes our understanding of centromere stability. | The PRIZM paper tackles a practical problem that&#x27;s been holding back protein engineering: the data bottleneck.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Today&#x27;s papers reveal a fascinating shift in how we think about protein design and analysis. | First, the bleomycin study on systemic sclerosis fundamentally changes our understanding of centromere stability. | The PRIZM paper tackles a practical problem that&#x27;s been holding back protein engineering: the data bottleneck.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-04-11</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-11/podcast_2026-04-11.mp3</guid>
       <pubDate>Sat, 11 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-11/podcast_2026-04-11.mp3" length="12153525" type="audio/mpeg" />
-      <description>Today&#x27;s papers bring a set of shifts that change how we think about control in biology, from the molecular to the cellular scale. | On the computational side, a new preprint introduces vmwhere, a method for resolving long-read microsatellite sequences with full motif phasing. | In structural connectomics, a graph-based deep model predicts age and MMSE scores from diffusion MRI data.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-11/podcast_2026-04-11.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today&#x27;s papers bring a set of shifts that change how we think about control in biology, from the molecular to the cellular scale. | On the computational side, a new preprint introduces vmwhere, a method for resolving long-read microsatellite sequences with full motif phasing. | In structural connectomics, a graph-based deep model predicts age and MMSE scores from diffusion MRI data.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
