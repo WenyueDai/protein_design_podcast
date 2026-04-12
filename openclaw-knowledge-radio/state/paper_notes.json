@@ -1176,6 +1176,11 @@
       "note": "DD",
       "title": "PRIZM: Combining Low-N Data and Zero-shot Models to Design Enhanced Protein Variants",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.04.10.717737": {
+      "note": "DD",
+      "title": "Learning latent conformational landscapes encoded in cryo-EM",
+      "source": "bioRxiv — molecular biology"
     }
   }
 }
