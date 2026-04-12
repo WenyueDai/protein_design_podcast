@@ -1170,5 +1170,12 @@
       "title": "Genetic Diversity, Predictive Protein Structures, and Interaction Networks of Cysteine-Rich Receptor-Like Kinases in",
       "source": "PubMed — Computational and structural biotechnology journal"
     }
+  },
+  "2026-04-12": {
+    "https://www.biorxiv.org/content/10.64898/2026.02.08.704628": {
+      "note": "DD",
+      "title": "PRIZM: Combining Low-N Data and Zero-shot Models to Design Enhanced Protein Variants",
+      "source": "bioRxiv — bioinformatics"
+    }
   }
 }
