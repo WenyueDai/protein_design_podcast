@@ -1220,6 +1220,11 @@
       "note": "DD",
       "title": "Full-Length Structural Modeling of Mitofusins with AlphaFold Reveals a Novel Cross-Type Dimerization and Insights into O",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.04.10.716904": {
+      "note": "DD",
+      "title": "AlphaFold 3 captures oligomeric states and interaction dynamics of MLO ion channels",
+      "source": "bioRxiv — plant biology"
     }
   }
 }
