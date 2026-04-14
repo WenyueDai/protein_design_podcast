@@ -328,8 +328,13 @@
     "title": "How artificial intelligence is reengineering protein engineering",
     "url": null,
     "date_submitted": "2026-04-14",
-    "processed": false,
-    "diagnosis": null,
-    "keywords_added": []
+    "processed": true,
+    "diagnosis": "low_ranking",
+    "keywords_added": [
+      "artificial intelligence",
+      "reengineering"
+    ],
+    "rss_feed_found": "",
+    "notion_page_id": "3425f58e-a8c2-8103-9e45-dfb2ec39a00b"
   }
 ]
