@@ -1230,6 +1230,11 @@
       "note": "DD",
       "title": "Evolutionary Profiles for Protein Fitness Prediction",
       "source": "arXiv q-bio.BM"
+    },
+    "https://www.biorxiv.org/content/10.1101/2025.07.05.663261": {
+      "note": "DD",
+      "title": "Structure from Noise: Confirmation Bias in Particle Picking in Structural Biology",
+      "source": "bioRxiv — molecular biology"
     }
   }
 }
