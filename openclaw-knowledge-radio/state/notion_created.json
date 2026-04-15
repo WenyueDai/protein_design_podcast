@@ -922,5 +922,13 @@
   "2026-04-15|https://www.science.org/content/blog-post/answers-and-reasons-and-knowing-and-thinking": {
     "page_id": "3435f58e-a8c2-81e0-a2f9-c2ef0a3412aa",
     "note": "DD"
+  },
+  "2026-04-15|https://arxiv.org/abs/2604.12026": {
+    "page_id": "3435f58e-a8c2-8189-af45-c7db2f33a7c4",
+    "note": "DD"
+  },
+  "2026-04-15|https://doi.org/10.1016/j.bmcl.2026.130655": {
+    "page_id": "3435f58e-a8c2-81bd-abbb-cf92e3940a79",
+    "note": "Dd"
   }
 }
