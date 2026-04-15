@@ -1252,6 +1252,11 @@
       "note": "Dd",
       "title": "AI-assisted transformation of PD-L1 inhibitory peptides into small molecules using amino acid mapping descriptor and act",
       "source": "PubMed — Bioorganic & medicinal chemistry letters"
+    },
+    "https://doi.org/10.1038/s41467-026-71717-0": {
+      "note": "DD",
+      "title": "Phage-assisted evolution of allosteric protein switches.",
+      "source": "PubMed — Nature communications"
     }
   }
 }
