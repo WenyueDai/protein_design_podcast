@@ -1247,6 +1247,11 @@
       "note": "DD",
       "title": "TriFit: Trimodal Fusion with Protein Dynamics for Mutation Fitness Prediction",
       "source": "arXiv q-bio.BM"
+    },
+    "https://doi.org/10.1016/j.bmcl.2026.130655": {
+      "note": "Dd",
+      "title": "AI-assisted transformation of PD-L1 inhibitory peptides into small molecules using amino acid mapping descriptor and act",
+      "source": "PubMed — Bioorganic & medicinal chemistry letters"
     }
   }
 }
