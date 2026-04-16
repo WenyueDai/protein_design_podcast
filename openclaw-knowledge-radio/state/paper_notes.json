@@ -1269,6 +1269,11 @@
       "note": "DD",
       "title": "Rapid and Reliable Structural Modeling of Adaptive Immune Receptors Using an Optimized AlphaFold3 workflow",
       "source": "bioRxiv — immunology"
+    },
+    "https://arxiv.org/abs/2604.13980": {
+      "note": "DD",
+      "title": "BOAT: Navigating the Sea of In Silico Predictors for Antibody Design via Multi-Objective Bayesian Optimization",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
