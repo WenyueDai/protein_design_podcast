@@ -56,5 +56,8 @@
   "reengineering",
   "conformational changes",
   "topology detection",
-  "geometry analysis"
+  "geometry analysis",
+  "synonymous codon selection",
+  "transformer model",
+  "codon usage"
 ]

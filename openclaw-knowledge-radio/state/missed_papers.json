@@ -357,8 +357,14 @@
     "title": "Decoding Synonymous Codon Selection With a Transformer Model",
     "url": null,
     "date_submitted": "2026-04-16",
-    "processed": false,
-    "diagnosis": null,
-    "keywords_added": []
+    "processed": true,
+    "diagnosis": "low_ranking",
+    "keywords_added": [
+      "synonymous codon selection",
+      "transformer model",
+      "codon usage"
+    ],
+    "rss_feed_found": "",
+    "notion_page_id": "3445f58e-a8c2-81bf-8aea-cbe19a0f8b47"
   }
 ]
