@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    151.75,
+    313.31,
+    461.46,
+    596.65,
+    723.75,
+    876.89,
+    1012.34,
+    1153.5,
+    1283.46,
+    1427.48
+  ],
+  "items": [
+    {
+      "title": "Antimalarial Drugs Stepping On Each Other's Toes",
+      "url": "https://www.science.org/content/blog-post/antimalarial-drugs-stepping-each-other-s-toes",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Benchmarking MSA pairing for protein-protein complex structure prediction reveals a depth-over-pairing principle",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718427",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "AlphaFold-Multimer (AFM) and AlphaFold3 (AF3) have revolutionized protein-protein complex structure prediction. However, it remains unclear whether elaborate MSA pairing is a strict prerequisite for achieving high accuracy. Here, we systematically evaluated diverse MSA construction strategies using a rigorous benchmark of 439 heterodimers. We found that i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rapid and Reliable Structural Modeling of Adaptive Immune Receptors Using an Optimized AlphaFold3 workflow",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.19.695451",
+      "source": "bioRxiv — immunology",
+      "one_liner": "AlphaFold (AF), a deep-learning based protein modelling approach, has revolutionized structural biology by generally achieving near-experimental accuracy in protein structure prediction. An impactful application of AF is the modelling of antibodies (Abs) and T-cell receptors (TCRs), key mediators of cellular immunity, whose structural specificity underlie...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cross-species prediction reveals chromatin regions with increased accessibility in humans.",
+      "url": "https://doi.org/10.1126/sciadv.ady9169",
+      "source": "PubMed — Science advances",
+      "one_liner": "Human-specific genetic variations have shaped unique traits by influencing gene expression. Open chromatin regions (OCRs) are critical regulatory elements associated with gene expression, so investigating the changes in chromatin accessibility is essential for understanding human evolution. Because of the limited availability of epigenetic data from great...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "BOAT: Navigating the Sea of In Silico Predictors for Antibody Design via Multi-Objective Bayesian Optimization",
+      "url": "https://arxiv.org/abs/2604.13980",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.13980v1 Announce Type: cross \nAbstract: Antibody lead optimization is inherently a multi-objective challenge in drug discovery. Achieving a balance between different drug-like properties is crucial for the development of viable candidates, and this search becomes exponentially challenging as desired properties grow. The ever-growing zoo of soph...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Pareto-Optimal Offline Reinforcement Learning via Smooth Tchebysheff Scalarization",
+      "url": "https://arxiv.org/abs/2604.13175",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.13175v1 Announce Type: cross \nAbstract: Large language models can be aligned with human preferences through offline reinforcement learning (RL) on small labeled datasets. While single-objective alignment is well-studied, many real-world applications demand the simultaneous optimization of multiple conflicting rewards, e.g. optimizing both catal...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Multi-Wavelength Machine Learning for High-Precision Colorimetric Sensing",
+      "url": "https://arxiv.org/abs/2509.03398",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2509.03398v3 Announce Type: replace-cross \nAbstract: Conventional colorimetric sensing methods typically rely on signal intensity at a single wavelength, often selected heuristically based on peak visual modulation. This approach overlooks the structured information embedded in full-spectrum transmission profiles, particularly in intensity-based sys...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Analytical and AINN-based investigation of surface wave propagation in dry long bones with initial stress, magnetic field, and rotation effects.",
+      "url": "https://doi.org/10.1007/s12064-026-00470-1",
+      "source": "PubMed — Theory in biosciences = Theorie in den Biowissenschaften",
+      "one_liner": "This study presents a comprehensive analytical and artificial intelligence neural network (AINN)-based investigation of wave propagation in dry long bones, modeled as an orthotropic hollow cylindrical structure. The proposed model incorporates the combined effects of initial stress, magnetic field, and rotational motion to capture the complex behavior of ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DRUMBEAT temporally resolved interpretable machine learning model for characterizing state transitions in protein dynamics.",
+      "url": "https://doi.org/10.1038/s42003-026-09995-z",
+      "source": "PubMed — Communications biology",
+      "one_liner": "Conformational transitions are central to protein function, yet their mechanistic analysis remains challenging due to the multi-dimensionality and timescales underlying the molecular motions. While interpretable network models such as Bayesian networks have advanced the identification of key residue interactions in molecular dynamics (MD) data, they lack ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rapid activity-based colorimetric CoFi blot for screening of engineered FAD-dependent oxidoreductases.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.153494",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "The rapid expansion of protein variant libraries, facilitated by advanced computational design, has created an urgent need for efficient functional validation, as experimental screening of catalytic activity remains a major bottleneck compared to binding-based assays. Conventional high-throughput methods often rely on tedious purification or activity-blin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-based classification of pediatric sagittal skeletal patterns using multi-view facial photographs.",
+      "url": "https://doi.org/10.1016/j.jdent.2026.106697",
+      "source": "PubMed — Journal of dentistry",
+      "one_liner": "OBJECTIVE: The increasing global demand to assess pediatric skeletal malocclusions poses a growing challenge, as current screening methods are dependent on availability of orthodontists and X-rays, which limits accessibility. This study aimed to develop and validate an artificial intelligence (AI) model based on facial photographs to predict pediatric sag...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Impact of automated and manual segmentation errors on knee osteoarthritis classification using MRI-registered data on CT scans.",
+      "url": "https://doi.org/10.1016/j.compmedimag.2026.102767",
+      "source": "PubMed — Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society",
+      "one_liner": "Knee osteoarthritis (OA) is a prevalent, disabling disease for which early, accurate diagnosis is essential to guide treatment and reduce long-term burden. Machine learning (ML) approaches using quantitative imaging biomarkers show promise for automated OA classification, but their reliability under imperfect image segmentation remains unclear. This study...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Explainability Methods from Machine Learning Detect Important Drugs' Atoms in Drug-Target Interactions.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00037",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Predicting drug-target interactions (DTI) with graph neural networks (GNNs) is hindered by their lack of interpretability. To address this, we benchmark four explainable artificial intelligence (XAI) attribution methods on GNN models trained for kinase and G-protein-coupled receptors (GPCR) targets. We assess the methods' consistency through atom-level in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Prediction of acetylcholinesterase inhibition associated with Alzheimer's disease using hybrid descriptor and graph-based machine learning models.",
+      "url": "https://doi.org/10.1080/1062936X.2026.2647201",
+      "source": "PubMed — SAR and QSAR in environmental research",
+      "one_liner": "Accurate prediction of acetylcholinesterase (AChE) inhibitory activity is important in drug discovery and environmental toxicology because AChE inhibition represents a key mechanism underlying neurotoxicity associated with pharmaceuticals and environmental contaminants. In this study, machine learning approaches were used to develop predictive models for ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Hybrid Physics-Deep Learning Framework for Combinatorial De Novo Design of Small-Molecule Binding Proteins",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.12.717919",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Engineering small-molecule binding proteins de novo remains a significant challenge as even advanced generative models struggle to model the atom-level details of protein-ligand interactions with sufficient accuracy. Higher experimental success rates have resulted from methods that explicitly scaffold predefined binding interactions into helical bundles. ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "De novo designed bifunctional proteins for targeted protein degradation",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695915",
+      "source": "bioRxiv — synthetic biology",
+      "one_liner": "Targeted protein degradation (TPD) is a therapeutic strategy to remove disease-causing proteins by routing them to the ubiquitin-proteasome, autophagy, or lysosme machineries. For instance, proteolysis-targeting chimeras (PROTACs) are synthetic hetero-bifunctional small molecules that simultaneously bind the target and an E3 ubiquitin ligase to drive ubiq...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beyond Structure and Affinity: Context-Dependent Signals for de novo Binder Success",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.13.718094",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "De novo protein binder design has advanced rapidly, yet most designs fail experimentally and current structure- and affinity-centred evaluation does not reliably predict which candidates will succeed. Here we show that biology-informed sequence features, derived from models trained on natural proteins, identify transferable and context-dependent associati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "DIA-CLIP: a universal representation learning framework for zero-shot DIA proteomics",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.09.704949",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Data-independent acquisition mass spectrometry (DIA-MS) has established itself as a cornerstone of proteomic profiling and large-scale systems biology, offering unparalleled depth and reproducibility. Current DIA analysis frameworks, however, require semi-supervised training within each run for peptide-spectrum match (PSM) re-scoring. This approach is pro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting Antibody Self-Association with Sequence Structure Fusion Models: The Central Role of CSI-BLI in Early Developability Screening",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.13.718222",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Antibody-based biologics are expanding rapidly, yet challenges in development from self-association, high viscosity, aggregation, and unfavorable clearance underscore the need for accurate in silico screening. Clone self-interaction biolayer interferometry (CSI-BLI) is a plate-based, low-material assay of weak, reversible self-association that serves as a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Guided Transfer Learning for Discrete Diffusion Models",
+      "url": "https://arxiv.org/abs/2512.10877",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.10877v4 Announce Type: replace \nAbstract: Discrete diffusion models (DMs) have achieved strong performance in language and other discrete domains, offering a compelling alternative to autoregressive modeling. Yet this performance typically depends on large training datasets, challenging the performance of DMs in small-data regimes -- common und...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

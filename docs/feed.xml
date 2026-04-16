@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 05:39:35 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 05:37:54 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-04-16</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-16/podcast_2026-04-16.mp3</guid>
+      <pubDate>Thu, 16 Apr 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-16/podcast_2026-04-16.mp3" length="11934861" type="audio/mpeg" />
+      <description>The big shift today is that we&#x27;re seeing AlphaFold&#x27;s dominance in protein structure prediction being challenged on two fronts — one about how we build the input data, and one about how we apply it to real-world design problems. | Starting with the MSA pairing paper: the field has been operating under the assumption that more elaborate multiple sequence alignment pairing always means better structure prediction. | The antibody modeling paper reinforces this practical shift.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The big shift today is that we&#x27;re seeing AlphaFold&#x27;s dominance in protein structure prediction being challenged on two fronts — one about how we build the input data, and one about how we apply it to real-world design problems. | Starting with the MSA pairing paper: the field has been operating under the assumption that more elaborate multiple sequence alignment pairing always means better structure prediction. | The antibody modeling paper reinforces this practical shift.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-04-15</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-15/podcast_2026-04-15.mp3</guid>
       <pubDate>Wed, 15 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-15/podcast_2026-04-15.mp3" length="11691381" type="audio/mpeg" />
-      <description>Today&#x27;s papers bring a fascinating mix of computational biology and neuroscience that could reshape how we think about protein design and biological systems. | First, the PMADS project from Regina Barzilay&#x27;s team represents a major methodological advance in studying perinatal mood disorders. | The menarche study using ABCD data reveals something unexpected about developmental trajectories.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-15/podcast_2026-04-15.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today&#x27;s papers bring a fascinating mix of computational biology and neuroscience that could reshape how we think about protein design and biological systems. | First, the PMADS project from Regina Barzilay&#x27;s team represents a major methodological advance in studying perinatal mood disorders. | The menarche study using ABCD data reveals something unexpected about developmental trajectories.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
