@@ -398,8 +398,14 @@
     "title": "Mechanisms of AI Protein Folding in ESMFold",
     "url": null,
     "date_submitted": "2026-04-17",
-    "processed": false,
-    "diagnosis": null,
-    "keywords_added": []
+    "processed": true,
+    "diagnosis": "low_ranking",
+    "keywords_added": [
+      "protein folding",
+      "ai mechanisms",
+      "esmfolds"
+    ],
+    "rss_feed_found": "",
+    "notion_page_id": "3455f58e-a8c2-819a-a246-e7791ed4e8db"
   }
 ]
