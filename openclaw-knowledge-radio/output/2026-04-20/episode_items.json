@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    149.68,
+    302.22,
+    447.95,
+    603.94,
+    711.89,
+    841.85,
+    977.16,
+    1136.1,
+    1264.93,
+    1423.18
+  ],
+  "items": [
+    {
+      "title": "Large-scale automated detection of gray whales off California in panchromatic and multispectral satellite imagery.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718679",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Increasing human activities along the US west coast are of concern for populations of cetaceans and particularly for a number of large whale species that are recovering from overexploitation during the era of commercial whaling. New rapid monitoring tools, such as satellite imagery analysis powered by recent advances in artificial intelligence, have poten...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mutation-induced biophysical destabilization as a key contributor to cancer-driving potential in the human structural protein interactome",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718717",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "A systems-level investigation of mutation-induced perturbations in the human structural protein interactome, the network of structurally resolved protein-protein interactions in human cells, provides mechanistic insight into the complexity underlying oncogenesis. Mutations can destabilize protein folding or specific protein-protein interactions, resulting...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unsupervised Machine Learning for Adaptive Immune Receptors with immuneML",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718648",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Machine learning (ML) enables adaptive immune receptor repertoires (AIRRs) analyses for biomarker identification and therapeutic development. With the majority of AIRR data partially or imperfectly labeled, unsupervised ML is essential for motif discovery, biologically meaningful clustering, and generation of novel receptor sequences. However, no unified ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Synthetic Epitope Atlas: High-Throughput Design and Validation of De Novo Antibody-Antigen Complexes",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.17.719295",
+      "source": "bioRxiv — synthetic biology",
+      "one_liner": "De novo antibody design models lack sufficient training data to reliably generalize. We demonstrate scalable generation of structural training data for machine learning-driven antibody design by linking in silico designs of antibody-antigen complexes to high-throughput experimental binding validation. Using AlphaSeq, a yeast-based platform for measuring p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Assessment of machine learning models for predicting the deflection of concrete beams.",
+      "url": "https://doi.org/10.1038/s41598-026-47819-6",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advances in high-throughput screening of cyclic peptide drugs using mRNA display technology.",
+      "url": "https://doi.org/10.16288/j.yczz.25-186",
+      "source": "PubMed — Yi chuan = Hereditas",
+      "one_liner": "Cyclic peptides have emerged as a promising therapeutic modality for targeting classically deemed \"undruggable\" protein that defy conventional small-molecule intervention. Their rigid conformations improve binding affinity, selectivity and proteolytic stability, bridging the gap between low-molecular-weight drugs and large biologics. Early discovery of cy...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Antibiotic-Specific Conformational Landscapes of a Multidrug Transporter",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.05.17.654648",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Multidrug transporters are membrane proteins that can transport an ensemble of structurally dissimilar compounds and contribute to bacterial multidrug resistance (MDR) by exporting different antibiotics from the cell. However, whether they transport different substrates through a common mechanism or via distinct substrate-dependent mechanisms remains uncl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Assessing the Generalizability of Machine Learning and Physics Methods for DNA-Encoded Libraries",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.18.719394",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "DNA-encoded libraries (DELs) enable ultra-large screening of billions of molecules simultaneously. However, various limitations of DELs have prompted interest in training machine learning (ML) models on these large datasets to extrapolate predictions to non-DEL compounds. A recent NeurIPS competition revealed that even top performing ML models trained on ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "GROQ-seq Datasets Across Transcription Factors (LacI, RamR, VanR), T7 RNA Polymerase and TEV Protease",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718744",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Predicting any protein's function from its sequence alone would be a significant breakthrough in molecular biology. Although machine learning approaches have sought to tackle this, their limited generalizability reflects the absence of sufficiently large, open, diverse, and unified datasets. To address this data gap, we developed a high-throughput experim...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Modular Deep Learning for Direct RNA Sequence Design via Self-Contained RNA Units",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.16.719021",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "RNA sequence design is a pivotal challenge in synthetic biology, yet state-of-the-art deep learning methods face a fundamental bottleneck: the scarcity of high-resolution 3D structures. To compensate for limited training data, existing approaches like NA-MPNN and RiboDiffusion employ computationally expensive autoregressive or iterative diffusion sampling...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "16S rRNA k-mer composition encodes microbial functional potential",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.16.718937",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "16S rRNA amplicon sequencing is widely used to profile microbiome taxonomic composition and functional potential. Most 16S rRNA-based analysis methods depend on comparing sequenced reads against reference marker genes from previously characterized organisms. Thus, method accuracy declines in environments dominated by uncharacterized microbes. We uncovered...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cluster assembly dynamics drive fidelity of planar cell polarity polarization.",
+      "url": "https://doi.org/10.1038/s41467-026-71839-5",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Planar cell polarity (PCP) signaling orients epithelial cells along an in-plane tissue axis and is a required feature of embryonic development in bilaterians. In PCP signaling, distinct molecular subcomplexes segregate to opposite sides of each cell, where they interact across intercellular junctions to form highly polarized clusters. How signal amplifica...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural basis of FatB-mediated iron uptake via tyrosine/histidine direct coordination accompanying long-distance domain reorganization.",
+      "url": "https://doi.org/10.1038/s41467-026-72127-y",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Iron is an essential cofactor for fundamental biological processes. However, Fe(III) is poorly soluble under aerobic conditions, limiting its bioavailability. To secure this essential nutrient, bacteria release high-affinity siderophores that capture environmental Fe(III) and are subsequently imported into the cell as ferric siderophore complexes. While b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Extracellular ssDNA from Pittosporum tobira Exerts Strong Insecticidal Activity on Coccus hesperidum: a natural parallel to 'genetic zipper' technology",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.18.689116",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Beyond its function as a carrier of hereditary information, recent research has uncovered novel properties of extracellular DNA, including its role in the adaptation to the environment when released from plants. The secreted DNA has been shown to exert insecticidal effects against insect pests, which play an adaptive role in plant-insect interactions, par...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "The LARP1 RRM functions as a ribosome responsive regulator of TOP mRNAs",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.18.719249",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "The synthesis of ribosomes in metazoans is an essential process that is dysregulated in disease. Previous studies implicate La-related protein 1 (LARP1) in binding inactive ribosomes and in repressing Terminal OligoPyrimidine motif mRNAs (TOPs), which encode ribosomal proteins. While the molecular details of LARP1 binding to the ribosome and to TOP mRNAs ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "The vacuolar tauopathy-associated mutation D395G confers redox sensitivity to p97/VCP",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.16.718620",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "The multifunctional AAA+ ATPase p97/VCP is a pivotal regulator of cellular proteostasis, extracting polyubiquitinated substrates from protein complexes or organelle membranes for proteasomal degradation. Mutations in p97 are linked to a broad spectrum of neurodegenerative disorders, including multisystem proteinopathy and amyotrophic lateral sclerosis. He...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep Learning-Enabled Modality Transfer Between Independent Microscopes for High-Throughput Imaging",
+      "url": "https://arxiv.org/abs/2403.18026",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2403.18026v2 Announce Type: replace-cross \nAbstract: High-throughput biological imaging is often constrained by a trade-off between acquisition speed and image quality. Fast imaging modalities, such as wide-field fluorescence microscopy, enable large-scale data acquisition but suffer from reduced contrast and resolution, whereas high-resolution tech...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "When do trajectories matter? Identifiability analysis for stochastic transport phenomena",
+      "url": "https://arxiv.org/abs/2604.15598",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.15598v1 Announce Type: cross \nAbstract: Stochastic models of diffusion are routinely used to study dispersal of populations, including populations of animals, plants, seeds and cells. Advances in imaging and field measurement technologies mean that data are often collected across a range of scales, including count data collected across a series...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "OXtal: An All-Atom Diffusion Model for Organic Crystal Structure Prediction",
+      "url": "https://arxiv.org/abs/2512.06987",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.06987v2 Announce Type: replace \nAbstract: Accurately predicting experimentally realizable 3D molecular crystal structures from their 2D chemical graphs is a long-standing open challenge in computational chemistry called crystal structure prediction (CSP). Efficiently solving this problem has implications ranging from pharmaceuticals to organic ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Why Colors Make Clustering Harder:Global Integrality Gaps, the Price of Fairness, and Color-Coupled Algorithms in Chromatic Correlation Clustering",
+      "url": "https://arxiv.org/abs/2604.15738",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2604.15738v1 Announce Type: new \nAbstract: Chromatic Correlation Clustering (CCC) extends Correlation Clustering by assigning semantic colors to edges and requiring each cluster to receive a single color label. Unlike standard CC, whose LP relaxation has integrality gap 2 on complete graphs and admits a 2.06-approximation, the analogous LP for CCC h...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
