@@ -1360,6 +1360,11 @@
       "note": "DD",
       "title": "Taking the biology seriously makes models better.",
       "source": "PubMed — eLife"
+    },
+    "https://arxiv.org/abs/2506.03157": {
+      "note": "DD",
+      "title": "UniSim: A Unified Simulator for Time-Coarsened Dynamics of Biomolecules",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
