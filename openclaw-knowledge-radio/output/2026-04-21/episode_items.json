@@ -1,0 +1,298 @@
+{
+  "timestamps": [
+    0.0,
+    134.06,
+    295.96,
+    441.35,
+    617.98,
+    771.03,
+    908.86,
+    1066.46,
+    1207.91,
+    1353.95,
+    1562.65
+  ],
+  "items": [
+    {
+      "title": "The printing press for biological data (Sterling Hooten)",
+      "url": "https://www.owlposting.com/p/the-printing-press-for-biological",
+      "source": "Owl Posting (Abhishaike Mahajan)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "machine-learning",
+        "biology",
+        "substack",
+        "author"
+      ]
+    },
+    {
+      "title": "Bizarre Viruses Indeed",
+      "url": "https://www.science.org/content/blog-post/bizarre-viruses-indeed",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Boltzmann Machine Learning with a Parallel, Persistent Markov chain Monte Carlo method for Estimating Evolutionary Fields and Couplings from a Protein Multiple Sequence Alignment",
+      "url": "https://arxiv.org/abs/2604.18022",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2604.18022v1 Announce Type: new \nAbstract: The inverse Potts problem for estimating evolutionary single-site fields and pairwise couplings in homologous protein sequences from their single-site and pairwise amino acid frequencies observed in their multiple sequence alignment would be still one of useful methods in the studies of protein structure an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "ConforNets: Latents-Based Conformational Control in OpenFold3",
+      "url": "https://arxiv.org/abs/2604.18559",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2604.18559v1 Announce Type: new \nAbstract: Models from the AlphaFold (AF) family reliably predict one dominant conformation for most well-ordered proteins but struggle to capture biologically relevant alternate states. Several efforts have focused on eliciting greater conformational variability through ad hoc inference-time perturbations of AF model...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "RosettaSearch: Multi-Objective Inference-Time Search for Protein Sequence Design",
+      "url": "https://arxiv.org/abs/2604.17175",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2604.17175v1 Announce Type: cross \nAbstract: We introduce RosettaSearch, an inference-time multi-objective optimization approach for protein sequence optimization. We use large language models (LLMs) as a generative optimizer within a search algorithm capable of controlled exploration and exploitation, using rewards computed from RosettaFold3, a str...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Learning residue level protein dynamics with multiscale Gaussians",
+      "url": "https://arxiv.org/abs/2509.01038",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2509.01038v2 Announce Type: replace \nAbstract: Many methods have been developed to predict static protein structures, however understanding the dynamics of protein structure is essential for elucidating biological function. While molecular dynamics (MD) simulations remain the in silico gold standard, its high computational cost limits scalability. W...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "ProtoCycle: Reflective Tool-Augmented Planning for Text-Guided Protein Design",
+      "url": "https://arxiv.org/abs/2604.16896",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.16896v1 Announce Type: new \nAbstract: Designing proteins that satisfy natural language functional requirements is a central goal in protein engineering. A straightforward baseline is to fine-tune generic instruction-tuned LLMs as direct text-to-sequence generators, but this is data- and compute-hungry. With limited supervision, LLMs can produce...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A Systematic Survey and Benchmark of Deep Learning for Molecular Property Prediction in the Foundation Model Era",
+      "url": "https://arxiv.org/abs/2604.16586",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.16586v1 Announce Type: cross \nAbstract: Molecular property prediction integrates quantum chemistry, cheminformatics, and deep learning to connect molecular structure with physicochemical and biological behavior. This survey traces four complementary paradigms, including Quantum, Descriptor Machine Learning, Geometric Deep Learning, and Foundati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "MOSAIC: Codon Harmonization of Monte Carlo-Based Simulated Annealing for Linked Codons in Heterologous Protein Expression",
+      "url": "https://arxiv.org/abs/2511.10708",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2511.10708v2 Announce Type: replace \nAbstract: Codon usage bias has a crucial impact on the translation efficiency and co-translational folding of proteins, necessitating the algorithmic development of codon optimization/harmonization methods, particularly for heterologous recombinant protein expression. Codon harmonization is especially valuable fo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "FairLogue: Evaluating Intersectional Fairness across Clinical Machine Learning Use Cases using the All of Us Research Program",
+      "url": "https://arxiv.org/abs/2604.16450",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.16450v1 Announce Type: cross \nAbstract: Intersectional biases in healthcare data can produce compound disparities in clinical machine learning models, yet most fairness evaluations assess demographic attributes independently. FairLogue, a toolkit for intersectional fairness auditing, was applied across multiple clinical prediction tasks to eval...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Guiding Peptide Kinetics via Collective-Variable Tuning of Free-Energy Barriers.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00418",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "While recent advances in AI have transformed protein structure prediction, protein function is also strongly influenced by the thermodynamic and kinetic features encoded in its underlying free-energy surface. Here, we propose a framework to rationally reshape this landscape in order to control conformational transition rates, built on the Collective Varia...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Taking the biology seriously makes models better.",
+      "url": "https://doi.org/10.7554/eLife.111070",
+      "source": "PubMed — eLife",
+      "one_liner": "A new biologically-informed training paradigm enables protein language models to predict affinity maturation trajectories for antibodies.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Modeling Method Based on Traditional Machine Learning and Graph Neural Network for Interpretable Prediction of Short Peptide logD.",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c00299",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "Accurate prediction of the octanol/water distribution coefficient (logD) is crucial for evaluating the lipophilicity, ADMET profiles, and potential of drug candidates. With the increasing interest in peptide-based therapeutics, there is a growing demand for reliable logD prediction methods specifically tailored to short peptides (2-6 residues). In this st...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Addressing Small Data Challenges in Biopharmaceutical Development and Manufacturing: A Mini Review of Multi-Fidelity Techniques.",
+      "url": "https://doi.org/10.1002/bit.70213",
+      "source": "PubMed — Biotechnology and bioengineering",
+      "one_liner": "The growing demand for biopharmaceutical products reflects their effectiveness in medical treatments. However, developing new biopharmaceuticals remains a major bottleneck, often taking up to a decade before market approval. Machine learning (ML) models have the potential to accelerate this process, but their success depends on access to large and diverse...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "UniSim: A Unified Simulator for Time-Coarsened Dynamics of Biomolecules",
+      "url": "https://arxiv.org/abs/2506.03157",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2506.03157v4 Announce Type: replace \nAbstract: Molecular Dynamics (MD) simulations are essential for understanding the atomic-level behavior of molecular systems, giving insights into their transitions and interactions. However, classical MD techniques are limited by the trade-off between accuracy and efficiency, while recent deep learning-based imp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Geometric Stability: The Missing Axis of Representations",
+      "url": "https://arxiv.org/abs/2601.09173",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2601.09173v4 Announce Type: replace-cross \nAbstract: Representational similarity analysis and related methods have become standard tools for comparing the internal geometries of neural networks and biological systems. These methods measure what is represented, the alignment between two representational spaces, but not whether that structure is robus...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Multi-Beholder: Biomarker Prediction for Low-Grade Glioma with Multiple Instance Learning and One-Class Classification",
+      "url": "https://arxiv.org/abs/2310.07464",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2310.07464v2 Announce Type: replace-cross \nAbstract: Biomarker detection is an indispensable part of the diagnosis and treatment of low-grade glioma (LGG). However, current LGG biomarker detection methods rely on expensive and complex molecular genetic testing, for which professionals are required to analyze the results, and intra-rater variability ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "ToFiE, a Topology-aware Fiber Extraction workflow for 3D reconstruction of dense and heterogeneous biological fiber networks from microscopy images",
+      "url": "https://arxiv.org/abs/2604.18230",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.18230v1 Announce Type: new \nAbstract: Fibrous networks are ubiquitous structural components in biology, spanning cellulose in plant cell walls, fibrin in blood clots, and collagen in the extracellular matrix of animal tissues. Theoretical models predict that network connectivity critically influences their mechanical behavior. However, accurate...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Physics-Informed Neural Networks for Biological $2\\mathrm{D}{+}t$ Reaction-Diffusion Systems",
+      "url": "https://arxiv.org/abs/2604.18548",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.18548v1 Announce Type: cross \nAbstract: Physics-informed neural networks (PINNs) provide a powerful framework for learning governing equations of dynamical systems from data. Biologically-informed neural networks (BINNs) are a variant of PINNs that preserve the known differential operator structure (e.g., reaction-diffusion) while learning cons...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Quantifying and combating zoonotic viruses poised for emergence: Using multiplex receptor screening and decoy engineering technologies.",
+      "url": "https://doi.org/10.1073/pnas.2516376123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Viral discovery efforts have uncovered millions of zoonotic viruses across multiple continents, listed on the World Health Organization's pandemic risk register. Over two-thirds of these zoonotic viruses pose significant risks, are poised to infect humans, and expose the limitations of current reactive countermeasures, such as vaccines, monoclonal antibod...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
