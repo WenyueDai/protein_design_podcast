@@ -413,8 +413,12 @@
     "title": "Closing the loop: Experimentally validated methods in artificial intelligence–driven protein design",
     "url": "https://www.sciencedirect.com/science/article/pii/S0959440X26000540",
     "date_submitted": "2026-04-21",
-    "processed": false,
-    "diagnosis": null,
-    "keywords_added": []
+    "processed": true,
+    "diagnosis": "source_not_in_rss",
+    "keywords_added": [
+      "experimentally validated methods"
+    ],
+    "rss_feed_found": "",
+    "notion_page_id": "3495f58e-a8c2-8171-85bc-c4a43a3b4d33"
   }
 ]
