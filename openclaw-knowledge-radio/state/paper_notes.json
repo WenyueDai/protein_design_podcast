@@ -1335,6 +1335,11 @@
       "note": "DD",
       "title": "Bizarre Viruses Indeed",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://arxiv.org/abs/2604.18022": {
+      "note": "DD",
+      "title": "Boltzmann Machine Learning with a Parallel, Persistent Markov chain Monte Carlo method for Estimating Evolutionary Field",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
