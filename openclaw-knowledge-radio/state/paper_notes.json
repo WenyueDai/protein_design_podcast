@@ -1372,6 +1372,11 @@
       "note": "DD",
       "title": "Analyzing AlphaFold 3’s Diffusion Trajectory",
       "source": "BLOPIG (Oxford Protein Informatics Group)"
+    },
+    "https://doi.org/10.7554/eLife.98179": {
+      "note": "DD",
+      "title": "PPIscreenML is a method for structure-based screening of protein-protein interactions using AlphaFold.",
+      "source": "PubMed — eLife"
     }
   }
 }
