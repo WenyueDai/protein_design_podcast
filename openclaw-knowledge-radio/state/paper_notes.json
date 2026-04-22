@@ -1377,6 +1377,11 @@
       "note": "DD",
       "title": "PPIscreenML is a method for structure-based screening of protein-protein interactions using AlphaFold.",
       "source": "PubMed — eLife"
+    },
+    "https://doi.org/10.1016/j.sbi.2026.103272": {
+      "note": "DD",
+      "title": "Closing the loop: Experimentally validated methods in artificial intelligence-driven protein design.",
+      "source": "PubMed — Current opinion in structural biology"
     }
   }
 }
