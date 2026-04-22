@@ -1382,6 +1382,11 @@
       "note": "DD",
       "title": "Closing the loop: Experimentally validated methods in artificial intelligence-driven protein design.",
       "source": "PubMed — Current opinion in structural biology"
+    },
+    "https://doi.org/10.1007/s10822-026-00804-7": {
+      "note": "DD",
+      "title": "A combined study of molecular dynamics simulations, information theory, molecular graph theory, and machine learning in ",
+      "source": "PubMed — Journal of computer-aided molecular design"
     }
   }
 }
