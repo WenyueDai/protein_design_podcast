@@ -51,6 +51,7 @@ from src.outputs.notion_publish import save_script_to_notion, save_transcript_to
 
 import shutil
 import os
+import traceback as _traceback
 
 #  DEBUG=true python run_daily.py
 DEBUG_MODE = os.environ.get('DEBUG', 'false').lower() == 'true'
@@ -585,15 +586,25 @@ def main() -> int:
         _item_segments = [-1] * len(featured_items) if synthesis_mode else list(range(len(ranked)))
     elif synthesis_mode:
         print(f"[script] Synthesis mode: {len(featured_items)} featured, {len(background_items)} greyed-out", flush=True)
-        script_text, _item_segments = build_podcast_script_llm_synthesis(
-            date_str=today,
-            items=featured_items,
-            cfg=cfg,
-            shared_landscape=_s2_shared_landscape or None,
-            recommendations=_s2_recommendations or None,
-        )
+        try:
+            script_text, _item_segments = build_podcast_script_llm_synthesis(
+                date_str=today,
+                items=featured_items,
+                cfg=cfg,
+                shared_landscape=_s2_shared_landscape or None,
+                recommendations=_s2_recommendations or None,
+            )
+        except Exception as _llm_err:
+            print(f"[script] FATAL: synthesis script generation failed — {_llm_err}", flush=True)
+            _traceback.print_exc()
+            raise
     else:
-        script_text, _item_segments = build_podcast_script_llm_chunked_with_map(date_str=today, items=ranked, cfg=cfg)
+        try:
+            script_text, _item_segments = build_podcast_script_llm_chunked_with_map(date_str=today, items=ranked, cfg=cfg)
+        except Exception as _llm_err:
+            print(f"[script] FATAL: chunked script generation failed — {_llm_err}", flush=True)
+            _traceback.print_exc()
+            raise
 
     # Append explicit citations to comprehensive script (for website readers / Spotify notes)
     refs: List[str] = []
@@ -660,12 +671,17 @@ def main() -> int:
                 continue
             _seg_clean = clean_for_tts(_seg)
             seg_mp3_path = parts_dir / f"seg_{_si:03d}.mp3"
-            tts_segment_to_mp3(
-                text=_seg_clean,
-                out_path=seg_mp3_path,
-                voice=voice,
-                rate=rate,
-            )
+            try:
+                tts_segment_to_mp3(
+                    text=_seg_clean,
+                    out_path=seg_mp3_path,
+                    voice=voice,
+                    rate=rate,
+                )
+            except Exception as _tts_err:
+                print(f"[tts] WARNING: segment {_si} failed — {_tts_err}", flush=True)
+                _run_errors.append(f"TTS segment {_si} failed: {_tts_err}")
+                continue
             _raw_seg_to_group[_si] = len(seg_mp3s)
             seg_mp3s.append(seg_mp3_path)
 
@@ -723,13 +739,22 @@ def main() -> int:
         if pub_cfg.get("enabled", False):
             release_repo = pub_cfg.get("github_release_repo", "")
             if release_repo:
-                upload_episode(
-                    today,
-                    final_mp3,
-                    repo=release_repo,
-                    state_dir=state_dir,
-                )
-            push_site(repo_dir, repo_dir.parent, today)
+                try:
+                    upload_episode(
+                        today,
+                        final_mp3,
+                        repo=release_repo,
+                        state_dir=state_dir,
+                    )
+                except Exception as _pub_err:
+                    print(f"[publish] WARNING: upload_episode failed — {_pub_err}", flush=True)
+                    _traceback.print_exc()
+                    _run_errors.append(f"upload_episode failed: {_pub_err}")
+            try:
+                push_site(repo_dir, repo_dir.parent, today)
+            except Exception as _push_err:
+                print(f"[publish] WARNING: push_site failed — {_push_err}", flush=True)
+                _run_errors.append(f"push_site failed: {_push_err}")
 
     source_counts = Counter((it.get("source") or "").strip() or "(unknown)" for it in raw_collected_items)
     source_type_counts = Counter((it.get("source_type") or "unknown").strip() or "unknown" for it in raw_collected_items)
