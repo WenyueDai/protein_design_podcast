@@ -24,7 +24,35 @@ def _client_from_config(cfg: Dict[str, Any]) -> OpenAI:
     )
 
 
-def _chat_complete(
+def _is_daily_quota(e: Exception) -> bool:
+    """Return True if this RateLimitError is a hard daily quota exhaustion."""
+    s = str(e)
+    return "per-day" in s or "per_day" in s
+
+
+def _print_quota_reset(e: Exception) -> None:
+    reset_ms: Optional[int] = None
+    try:
+        body = e.response.json()  # type: ignore[union-attr]
+        reset_ms = int(
+            body.get("error", {}).get("metadata", {})
+            .get("headers", {}).get("X-RateLimit-Reset", 0)
+        )
+    except Exception:
+        pass
+    if reset_ms:
+        import datetime as _dt
+        reset_utc = _dt.datetime.fromtimestamp(reset_ms / 1000, tz=_dt.timezone.utc)
+        print(
+            f"[llm] Daily free-model quota exhausted — resets at "
+            f"{reset_utc.strftime('%Y-%m-%d %H:%M UTC')}.",
+            flush=True,
+        )
+    else:
+        print("[llm] Daily free-model quota exhausted — re-run tomorrow.", flush=True)
+
+
+def _chat_complete_one(
     client: OpenAI,
     *,
     model: str,
@@ -32,8 +60,9 @@ def _chat_complete(
     user: str,
     temperature: float,
     max_tokens: int,
-    retries: int = 5,
+    retries: int = 3,
 ) -> str:
+    """Try a single model with retries. Raises on failure."""
     err: Optional[Exception] = None
     for attempt in range(1, retries + 1):
         try:
@@ -49,33 +78,11 @@ def _chat_complete(
             return (resp.choices[0].message.content or "").strip()
         except _RateLimitError as e:
             err = e
-            # Detect a hard daily quota exhaustion — no point retrying until reset.
-            err_str = str(e)
-            if "per-day" in err_str or "per_day" in err_str:
-                # Try to read the reset time from the response body metadata.
-                reset_ms: Optional[int] = None
-                try:
-                    body = e.response.json()  # type: ignore[union-attr]
-                    reset_ms = int(
-                        body.get("error", {}).get("metadata", {})
-                        .get("headers", {}).get("X-RateLimit-Reset", 0)
-                    )
-                except Exception:
-                    pass
-                if reset_ms:
-                    import datetime as _dt
-                    reset_utc = _dt.datetime.fromtimestamp(reset_ms / 1000, tz=_dt.timezone.utc)
-                    print(
-                        f"[llm] Daily free-model quota exhausted. "
-                        f"Resets at {reset_utc.strftime('%Y-%m-%d %H:%M UTC')}. "
-                        "Re-run after that time.",
-                        flush=True,
-                    )
-                else:
-                    print("[llm] Daily free-model quota exhausted. Re-run tomorrow.", flush=True)
-                raise  # no point waiting — quota won't recover until midnight
-            wait = 65 * attempt  # 65 s, 130 s, 195 s … for transient limits
-            print(f"[llm] 429 rate-limit on attempt {attempt}/{retries} — waiting {wait}s …", flush=True)
+            if _is_daily_quota(e):
+                _print_quota_reset(e)
+                raise  # no point retrying
+            wait = 65 * attempt
+            print(f"[llm] 429 on {model} attempt {attempt}/{retries} — waiting {wait}s …", flush=True)
             if attempt < retries:
                 time.sleep(wait)
             else:
@@ -87,6 +94,35 @@ def _chat_complete(
             else:
                 raise
     raise err  # pragma: no cover
+
+
+def _chat_complete(
+    client: OpenAI,
+    *,
+    model: str,
+    system: str,
+    user: str,
+    temperature: float,
+    max_tokens: int,
+    retries: int = 3,
+    fallback_models: Optional[List[str]] = None,
+) -> str:
+    """Try `model` first, then each entry in `fallback_models` in order."""
+    all_models = [model] + (fallback_models or [])
+    last_err: Optional[Exception] = None
+    for m in all_models:
+        try:
+            result = _chat_complete_one(
+                client, model=m, system=system, user=user,
+                temperature=temperature, max_tokens=max_tokens, retries=retries,
+            )
+            if m != model:
+                print(f"[llm] Used fallback model {m!r} (primary {model!r} failed)", flush=True)
+            return result
+        except Exception as e:
+            print(f"[llm] Model {m!r} failed: {e}", flush=True)
+            last_err = e
+    raise last_err  # type: ignore[misc]
 
 
 # =========================
@@ -544,8 +580,10 @@ def build_podcast_script_llm_synthesis(
     Returns (script_text, item_segments).
     """
     client = _client_from_config(cfg)
-    model = cfg["llm"]["model"]
-    temperature = float(cfg["llm"].get("temperature", 0.25))
+    llm_cfg = cfg.get("llm", {})
+    model = llm_cfg["model"]
+    fallback_models: List[str] = llm_cfg.get("model_fallbacks", [])
+    temperature = float(llm_cfg.get("temperature", 0.25))
 
     podcast_cfg = cfg.get("podcast") or {}
     # Per-section token budget — 700 tokens ≈ 350 words ≈ ~2.5 min narration (11 sections ≈ 30 min)
@@ -619,6 +657,7 @@ def build_podcast_script_llm_synthesis(
             user=user,
             temperature=temperature,
             max_tokens=section_max_tokens,
+            fallback_models=fallback_models,
         ).strip()
         sections.append(seg)
 

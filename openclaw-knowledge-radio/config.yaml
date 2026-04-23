@@ -737,6 +737,10 @@ llm:
   enabled: true
   provider: "openrouter"
   model: "inclusionai/ling-2.6-1t:free"
+  model_fallbacks:
+    - "nvidia/nemotron-3-super-120b-a12b:free"
+    - "minimax/minimax-m2.5:free"
+    - "openrouter/free"
   analysis_model: "inclusionai/ling-2.6-flash:free"
   api_key_env: "OPENROUTER_API_KEY"
   temperature: 0.25
