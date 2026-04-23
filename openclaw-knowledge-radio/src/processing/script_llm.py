@@ -3,6 +3,10 @@ import time
 from typing import Any, Dict, List, Optional, Tuple
 
 from openai import OpenAI
+try:
+    from openai import RateLimitError as _RateLimitError
+except ImportError:
+    _RateLimitError = Exception  # type: ignore
 
 
 # =========================
@@ -28,7 +32,7 @@ def _chat_complete(
     user: str,
     temperature: float,
     max_tokens: int,
-    retries: int = 3,
+    retries: int = 5,
 ) -> str:
     err: Optional[Exception] = None
     for attempt in range(1, retries + 1):
@@ -43,10 +47,18 @@ def _chat_complete(
                 max_tokens=max_tokens,
             )
             return (resp.choices[0].message.content or "").strip()
+        except _RateLimitError as e:
+            err = e
+            wait = 65 * attempt  # 65 s, 130 s, 195 s …
+            print(f"[llm] 429 rate-limit on attempt {attempt}/{retries} — waiting {wait}s …", flush=True)
+            if attempt < retries:
+                time.sleep(wait)
+            else:
+                raise
         except Exception as e:
             err = e
             if attempt < retries:
-                time.sleep(1.5 * attempt)
+                time.sleep(3 * attempt)
             else:
                 raise
     raise err  # pragma: no cover
