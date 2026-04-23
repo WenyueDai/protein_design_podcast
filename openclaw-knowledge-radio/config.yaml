@@ -736,8 +736,8 @@ publish:
 llm:
   enabled: true
   provider: "openrouter"
-  model: "arcee-ai/trinity-large-preview:free"
-  analysis_model: "stepfun/step-3.5-flash:free"
+  model: "google/gemma-4-31b-it:free"
+  analysis_model: "google/gemma-4-26b-a4b-it:free"
   api_key_env: "OPENROUTER_API_KEY"
   temperature: 0.25
   max_output_tokens: 8192
