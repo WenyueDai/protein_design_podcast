@@ -49,7 +49,32 @@ def _chat_complete(
             return (resp.choices[0].message.content or "").strip()
         except _RateLimitError as e:
             err = e
-            wait = 65 * attempt  # 65 s, 130 s, 195 s …
+            # Detect a hard daily quota exhaustion — no point retrying until reset.
+            err_str = str(e)
+            if "per-day" in err_str or "per_day" in err_str:
+                # Try to read the reset time from the response body metadata.
+                reset_ms: Optional[int] = None
+                try:
+                    body = e.response.json()  # type: ignore[union-attr]
+                    reset_ms = int(
+                        body.get("error", {}).get("metadata", {})
+                        .get("headers", {}).get("X-RateLimit-Reset", 0)
+                    )
+                except Exception:
+                    pass
+                if reset_ms:
+                    import datetime as _dt
+                    reset_utc = _dt.datetime.fromtimestamp(reset_ms / 1000, tz=_dt.timezone.utc)
+                    print(
+                        f"[llm] Daily free-model quota exhausted. "
+                        f"Resets at {reset_utc.strftime('%Y-%m-%d %H:%M UTC')}. "
+                        "Re-run after that time.",
+                        flush=True,
+                    )
+                else:
+                    print("[llm] Daily free-model quota exhausted. Re-run tomorrow.", flush=True)
+                raise  # no point waiting — quota won't recover until midnight
+            wait = 65 * attempt  # 65 s, 130 s, 195 s … for transient limits
             print(f"[llm] 429 rate-limit on attempt {attempt}/{retries} — waiting {wait}s …", flush=True)
             if attempt < retries:
                 time.sleep(wait)
