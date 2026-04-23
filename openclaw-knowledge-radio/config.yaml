@@ -503,6 +503,7 @@ rss_sources:
     url: "https://aalphabio.substack.com/feed"
     tags: ["protein-design", "antibody-design", "substack", "author"]
     bucket: "protein"
+    enabled: false  # 2026-04-23: returns 403 Forbidden
 
   - name: "Owl Posting (Abhishaike Mahajan)"
     url: "https://www.owlposting.com/feed"
@@ -518,6 +519,7 @@ rss_sources:
     url: "https://levitate.bio/resources/blog/"
     tags: ["protein-design", "biotech", "blog", "author"]
     bucket: "protein"
+    enabled: false  # 2026-04-23: malformed/non-RSS HTML page
 
   - name: "BLOPIG (Oxford Protein Informatics Group)"
     url: "https://www.blopig.com/blog/feed/"
