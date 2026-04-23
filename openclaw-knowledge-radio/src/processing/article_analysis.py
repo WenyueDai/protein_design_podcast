@@ -1,8 +1,13 @@
 import hashlib
 import os
+import time
 from pathlib import Path
 from typing import Dict, Any, Optional
 from openai import OpenAI
+try:
+    from openai import RateLimitError as _RateLimitError
+except ImportError:
+    _RateLimitError = Exception  # type: ignore
 
 # Anchor to the repo root so this works regardless of cwd
 CACHE_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "article_analysis"
@@ -59,15 +64,23 @@ def analyze_article(url: str, text: str, model: str = "stepfun/step-3.5-flash:fr
 
     client = _get_client()
 
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": f"URL: {url}\n\nARTICLE:\n{text[:12000]}"}
-        ],
-        temperature=0.1,
-        max_tokens=900
-    )
+    for attempt in range(1, 4):
+        try:
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": f"URL: {url}\n\nARTICLE:\n{text[:12000]}"}
+                ],
+                temperature=0.1,
+                max_tokens=900
+            )
+            break
+        except _RateLimitError:
+            if attempt < 3:
+                time.sleep(65 * attempt)
+            else:
+                raise
 
     analysis = (response.choices[0].message.content or "").strip()
     cache_file.write_text(analysis, encoding="utf-8")
