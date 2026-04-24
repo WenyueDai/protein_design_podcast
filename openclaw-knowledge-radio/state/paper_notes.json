@@ -1399,6 +1399,11 @@
       "note": "DD",
       "title": "In silico discovery of nanobody binders to a G-protein coupled receptor using AlphaFold-Multimer.",
       "source": "PubMed — Nature communications"
+    },
+    "https://doi.org/10.1371/journal.pcbi.1014215": {
+      "note": "Dd",
+      "title": "Using experimental results of protein design to guide biomolecular energy-function development.",
+      "source": "PubMed — PLoS computational biology"
     }
   }
 }
