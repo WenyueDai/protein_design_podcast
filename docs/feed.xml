@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Apr 2026 05:23:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 06:51:22 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-04-24</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-24/podcast_2026-04-24.mp3</guid>
+      <pubDate>Fri, 24 Apr 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-24/podcast_2026-04-24.mp3" length="12881613" type="audio/mpeg" />
+      <description>A paper on in silico nanobody discovery against a G-protein coupled receptor with AlphaFold-Multimer reminds us that we are drifting from immunization and billion-member library panning toward the quieter gamble of predicting pairing from sequence alone, and while the text does not spell out affinity numbers it centers a pipeline that sidesteps animal campaigns and instead bets on multimeric docking to deliver binders that would have required months of wet screening a few years ago. | The quotient-space diffusion work makes me want to test whether SE(3)-exact sampling can rescue scaffold poses that currently drift during binder loop closure, so I would graft their principled sampler onto the AlphaFold-Multimer nanobody pipeline that targeted a GPCR and ask whether forcing symmetry-consistent diffusion steps keeps CDR H3 centroids within 1.5 angstroms of crystallographic anchors across 256 sampled trajectories, with success meaning at least 60 percent of trajectories stay under that cutoff without explicit alignment heuristics, and a single early run where average drift exceeds 3 angstroms by step 50 would tell me the quotient constraint is too rigid for flexible loops and I should stop. | The quotient-space diffusion work quietly reasserts a truth that statistical mechanics has long whispered: when we quotient by symmetry we collapse entire orbits of physically equivalent states into single points, trimming the effective dimensionality of configuration space so that sampling resembles diffusion on a far gentler free-energy landscape rather than scrambling against redundant rotations and translations.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>A paper on in silico nanobody discovery against a G-protein coupled receptor with AlphaFold-Multimer reminds us that we are drifting from immunization and billion-member library panning toward the quieter gamble of predicting pairing from sequence alone, and while the text does not spell out affinity numbers it centers a pipeline that sidesteps animal campaigns and instead bets on multimeric docking to deliver binders that would have required months of wet screening a few years ago. | The quotient-space diffusion work makes me want to test whether SE(3)-exact sampling can rescue scaffold poses that currently drift during binder loop closure, so I would graft their principled sampler onto the AlphaFold-Multimer nanobody pipeline that targeted a GPCR and ask whether forcing symmetry-consistent diffusion steps keeps CDR H3 centroids within 1.5 angstroms of crystallographic anchors across 256 sampled trajectories, with success meaning at least 60 percent of trajectories stay under that cutoff without explicit alignment heuristics, and a single early run where average drift exceeds 3 angstroms by step 50 would tell me the quotient constraint is too rigid for flexible loops and I should stop. | The quotient-space diffusion work quietly reasserts a truth that statistical mechanics has long whispered: when we quotient by symmetry we collapse entire orbits of physically equivalent states into single points, trimming the effective dimensionality of configuration space so that sampling resembles diffusion on a far gentler free-energy landscape rather than scrambling against redundant rotations and translations.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-04-22</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-22/podcast_2026-04-22.mp3</guid>
       <pubDate>Wed, 22 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-22/podcast_2026-04-22.mp3" length="12014709" type="audio/mpeg" />
-      <description>The biggest shift today comes from a deep dive into AlphaFold 3&#x27;s diffusion sampling. | On the PPI screening front, PPIscreenML shows that AlphaFold2&#x27;s accuracy on docked protein pairs is high enough to use as a first-pass filter for interaction relevance. | The heteropolymer folding paper adds a theoretical lens: folding chains in the Iori model follow a power-law diffusion D ~ t^ν, with ν dropping from about 0.67 to 0.5 as the chain collapses.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-22/podcast_2026-04-22.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The biggest shift today comes from a deep dive into AlphaFold 3&#x27;s diffusion sampling. | On the PPI screening front, PPIscreenML shows that AlphaFold2&#x27;s accuracy on docked protein pairs is high enough to use as a first-pass filter for interaction relevance. | The heteropolymer folding paper adds a theoretical lens: folding chains in the Iori model follow a power-law diffusion D ~ t^ν, with ν dropping from about 0.67 to 0.5 as the chain collapses.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>

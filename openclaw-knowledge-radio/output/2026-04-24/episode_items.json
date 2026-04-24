@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    142.24,
+    287.99,
+    429.08,
+    593.36,
+    718.56,
+    859.97,
+    1023.38,
+    1185.81,
+    1311.23,
+    1496.48
+  ],
+  "items": [
+    {
+      "title": "Fluorines As Reactive Handles, Eh?",
+      "url": "https://www.science.org/content/blog-post/fluorines-reactive-handles-eh",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "In silico discovery of nanobody binders to a G-protein coupled receptor using AlphaFold-Multimer.",
+      "url": "https://doi.org/10.1038/s41467-026-72093-5",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Antibodies are central mediators of the adaptive immune response, and they are powerful research tools and therapeutics. Antibody discovery requires substantial experimental effort, such as immunization campaigns or in vitro library screening. Predicting antibody-antigen binding a priori remains challenging. However, recent machine learning methods raise ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Quotient-Space Diffusion Models",
+      "url": "https://arxiv.org/abs/2604.21809",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.21809v1 Announce Type: cross \nAbstract: Diffusion-based generative models have reformed generative AI, and have enabled new capabilities in the science domain, for example, generating 3D structures of molecules. Due to the intrinsic problem structure of certain tasks, there is often a symmetry in the system, which identifies objects that can be...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "CryptoBank: A resource for the identification and prediction of cryptic sites in proteins.",
+      "url": "https://doi.org/10.1126/sciadv.ady6364",
+      "source": "PubMed — Science advances",
+      "one_liner": "Cryptic binding sites offer opportunities to modulate targets previously considered \"undruggable.\" However, the scarcity of validated examples limits the development of predictive tools. Here, we introduce CryptoBank, a large-scale database of cryptic sites identified by applying a machine learning model to detect ligand-induced conformational changes in ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Using experimental results of protein design to guide biomolecular energy-function development.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014215",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Computational models of macromolecules have many applications in biochemistry, but physical inaccuracies limit their utility. One class of models uses energy functions rooted in classical mechanics. The standard datasets used to train these models are limited in diversity, pointing to a need for new training data. Here, we sought to explore a new paradigm...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "LEGO®-inspired electrically-actuated microfluidics for on-chip protein crystallization and",
+      "url": "https://doi.org/10.1039/d6lc00021e",
+      "source": "PubMed — Lab on a chip",
+      "one_liner": "X-ray crystallography has long been the workhorse technique for enabling the analysis and investigation of 3D protein structures. This understanding is crucial for deciphering protein function, including enzymatic reactions, signaling pathways, and more. The initial step in this process involves the crystallization of the target protein. In this pursuit, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Designing multi-site charge-bifurcation networks in",
+      "url": "https://doi.org/10.1039/d6cp00473c",
+      "source": "PubMed — Physical chemistry chemical physics : PCCP",
+      "one_liner": "Electron bifurcation reactions separate electron pairs into high and low potential pools, and these reactions are central to the bioenergetics of living systems. Here, we used kinetic analysis and machine learning to analyze a diverse set of structural and electrochemical landscapes that may guide the design of molecular architectures that could serve as ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Segmentation for pelvic malignancies in radiation oncology practice: a systematic review and meta-analysis protocol.",
+      "url": "https://doi.org/10.1186/s13643-026-03173-2",
+      "source": "PubMed — Systematic reviews",
+      "one_liner": "BACKGROUND: Deep learning (DL)-based artificial intelligence (AI) models, the fourth generation in autosegmentation, have been adopted both for commercial and research applications worldwide and have shown great promise as reliable and comprehensive resource strategies for radiotherapy workflows. METHODS: A comprehensive search will be conducted on Medlin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Impact of Glycosylation on the Conformational Ensembles of β-, δ-, and γ- Sarcoglycans.",
+      "url": "https://doi.org/10.1016/j.bpj.2026.04.018",
+      "source": "PubMed — Biophysical journal",
+      "one_liner": "Glycosylation is a pivotal post-translational modification that influences protein folding, stability, and interactions, with direct implications for muscular dystrophy pathogenesis and emerging gene therapies. Sarcoglycans (SGs), β-, δ-, γ-, and α-subunits of the dystrophin-glycoprotein complex (DGC), contain essential N-linked glycosylation sites, and m...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Physics-inspired explainable AI for mechanistic and decision support in drug discovery.",
+      "url": "https://doi.org/10.1016/j.drudis.2026.104679",
+      "source": "PubMed — Drug discovery today",
+      "one_liner": "Explainable artificial intelligence (XAI) is increasingly recognized as essential for trustworthy drug discovery, yet many approaches remain post hoc and correlational. This review examines physics-inspired XAI as a framework for improving mechanistic interpretability and decision support at the molecular design stage. We highlight its strengths in modeli...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Automated Molecular Design in BRADSHAW, Applied to the Optimization of ERAP1 Inhibitors.",
+      "url": "https://doi.org/10.1021/acs.jmedchem.5c03071",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "Generative design and machine learning are increasingly prevalent in medicinal chemistry. To pilot the comprehensive use of automated molecular design on a project, the BRADSHAW platform was used to optimize a series of inhibitors of Endoplasmic Reticulum Aminopeptidase 1 (ERAP1), an emerging target in cancer immunotherapy and autoimmune diseases. Through...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Efficacy and safety of monoclonal antibodies in the treatment of relapsing remitting multiple sclerosis: a systematic review.",
+      "url": "https://doi.org/10.1007/s00415-026-13824-y",
+      "source": "PubMed — Journal of neurology",
+      "one_liner": "INTRODUCTION: In relapsing-remitting multiple sclerosis (RRMS), conventional immunomodulatory and immunosuppressive therapies are widely used. However, in many cases, optimal control of inflammatory activity and disease progression is not achieved, which has led to the use of biological drugs such as monoclonal antibodies that act specifically on key comp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structures of dye-bound transthyretin amyloid fibrils from abdominal fat biopsies.",
+      "url": "https://doi.org/10.1038/s41467-026-72441-5",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Transthyretin (TTR) amyloidosis is a protein misfolding disease characterized by amyloid fibril deposition in vital organs, leading to cardiomyopathy (ATTR-CM). Early diagnosis of ATTR-CM remains challenging due to lack of sensitive, rapid screening methods. Here, we report cryo-EM structures of TTR amyloid fibrils extracted from minimally invasive abdomi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Temporal heterogeneity shapes diffusion dynamics in complex networks.",
+      "url": "https://doi.org/10.1038/s41467-026-72161-w",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Network diffusion underpins diverse phenomena from social contagion to neural dynamics, yet real-world spreading processes often exhibit complex temporal heterogeneity that transcends Markovian assumptions. Here we present a general theoretical framework incorporating node-specific waiting-time distributions through renewal processes, enabling the integra...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Discovery of a novel envelope protein derived from simian retrovirus 2 for pseudotyping retroviral vectors used for production of CAR immune cells.",
+      "url": "https://doi.org/10.1038/s41467-026-72024-4",
+      "source": "PubMed — Nature communications",
+      "one_liner": "In this study, we develop a simian retrovirus 2 pseudotyped retrovirus (SRV2 RV) for the generation of CAR-based immune cells. The SRV2 RV exhibits superior gene transduction efficiency in both T cells and NK cells compared to feline endogenous retrovirus (RD114) pseudotyped retrovirus (RD114 RV) or vesicular stomatitis virus glycoprotein (VSV-G) pseudoty...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The structure of the Vibrio alginolyticus flagellar filament suggests molecular mechanism for the rotation of sheathed flagella.",
+      "url": "https://doi.org/10.1038/s41467-026-71203-7",
+      "source": "PubMed — Nature communications",
+      "one_liner": "In several pathogenic bacteria, including Vibrio species, the filament of the bacterial flagellum is encased by a membranous sheath, an extension of the bacterial outer membrane. It has been proposed that having sheathed flagella permit bacteria to evade an immune response against flagellar components, suggesting a role in virulence. However, the molecula...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular mechanisms of native ligand selectivity in catecholamine G protein-coupled receptors.",
+      "url": "https://doi.org/10.1038/s41467-026-71361-8",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Activation of G protein-coupled receptors (GPCRs) by extracellular ligands is crucial for cellular communication and modulates numerous physiological processes. Despite sharing highly similar orthosteric binding sites, catecholamine GPCRs exhibit exquisite selectivity for their native agonists, even among nearly identical chemical messengers. However, the...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "VARIANT: Web Server for Decoding and Analyzing Viral Mutations at Genome and Protein Levels",
+      "url": "https://arxiv.org/abs/2604.20942",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2604.20942v1 Announce Type: cross \nAbstract: A comprehensive analysis of viral mutations is essential for understanding viral evolution, disease epidemiology, diagnosis, drug resistance, etc. However, challenges remain in capturing complex mutation patterns and supporting diverse viral families with varying genome architectures. To address these nee...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "ProDock: From multi-target consensus docking into database-backed storage",
+      "url": "https://arxiv.org/abs/2604.21828",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2604.21828v1 Announce Type: new \nAbstract: Protein--ligand docking is widely used in structure-based discovery, but routine studies often fail at the workflow level rather than at the scoring level. Receptor cleaning, ligand preparation, file conversion, box definition, run organization, and downstream parsing are frequently handled by fragmented sc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Local Diffusion Models and Phases of Data Distributions",
+      "url": "https://arxiv.org/abs/2508.06614",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2508.06614v2 Announce Type: replace \nAbstract: As a class of generative artificial intelligence frameworks inspired by statistical physics, diffusion models have shown extraordinary performance in synthesizing complicated data distributions through a denoising process gradually guided by score functions. Real-life data, like images, is often spatial...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
