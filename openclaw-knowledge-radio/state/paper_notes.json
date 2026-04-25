@@ -1426,6 +1426,11 @@
       "note": "DD",
       "title": "Repertoire-scale antibody structural prediction informs therapeutic design.",
       "source": "PubMed — Science advances"
+    },
+    "https://www.biorxiv.org/content/10.1101/2025.07.01.662578": {
+      "note": "DD",
+      "title": "Characterization of selective pressures acting on protein sites with Deep Learning",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
