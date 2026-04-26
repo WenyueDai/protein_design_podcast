@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Apr 2026 05:16:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 05:38:02 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-04-26</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-26/podcast_2026-04-26.mp3</guid>
+      <pubDate>Sun, 26 Apr 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-26/podcast_2026-04-26.mp3" length="13270533" type="audio/mpeg" />
+      <description>Infrared nonlinear optical crystals once grew by trial and error in brittle material families, but an integrated framework pairing first-principles high-throughput screening with machine learning flipped the script and now targets candidate space with computation before any furnace is lit, which means we can treat design spaces the way AlphaFold2 treated structure space: sample first, synthesize second. | The ProPER proximity primer exchange trick has me wondering whether we could hardwire split T7 RNA polymerase onto a de novo binder scaffold and ask if spatial colocalization alone can drive transcription inside cells without any added cofactors, betting that bringing catalytic residues within fifteen nanometers is enough to reconstruct activity from scratch. | Borrowing from the HSV nanoparticle strategy that co-displays gD and gH over gL, I want to graft those antigens onto a computationally designed two-component protein cage with icosahedral symmetry and ask whether valency and spatial patterning can double neutralization breadth compared to monomeric ectodomains.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Infrared nonlinear optical crystals once grew by trial and error in brittle material families, but an integrated framework pairing first-principles high-throughput screening with machine learning flipped the script and now targets candidate space with computation before any furnace is lit, which means we can treat design spaces the way AlphaFold2 treated structure space: sample first, synthesize second. | The ProPER proximity primer exchange trick has me wondering whether we could hardwire split T7 RNA polymerase onto a de novo binder scaffold and ask if spatial colocalization alone can drive transcription inside cells without any added cofactors, betting that bringing catalytic residues within fifteen nanometers is enough to reconstruct activity from scratch. | Borrowing from the HSV nanoparticle strategy that co-displays gD and gH over gL, I want to graft those antigens onto a computationally designed two-component protein cage with icosahedral symmetry and ask whether valency and spatial patterning can double neutralization breadth compared to monomeric ectodomains.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-04-25</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-25/podcast_2026-04-25.mp3</guid>
       <pubDate>Sat, 25 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-25/podcast_2026-04-25.mp3" length="13037133" type="audio/mpeg" />
-      <description>AlphaInterp peels open AlphaFold 3 and shows that confidence is not a vague aura but a trace of comparative leverage, and when the model leans on deep rather than shallow multiple sequence alignments it can flip a predicted helix register or tighten an interface by several angstroms, which means we can no longer treat pLDDT as a black box blessing and instead must audit the evolutionary depth feeding each chain much as we learned to inspect attention maps after AlphaFold2 revealed how templates seed topology. | The AlphaInterp dissection of AlphaFold 3 internals makes me want to run a perturbation ladder on the residue contact prior to see whether we can steer confidence away from low pLDDT loops toward beta barrel scaffolds that are under-represented in training. | Borrowing from AF3-TurboAb, I want to test whether repertoire-scale antibody decoding can be run backward to hallucine CDR-H3 sequences that force a rare glycan epitope into a solved pose.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-25/podcast_2026-04-25.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>AlphaInterp peels open AlphaFold 3 and shows that confidence is not a vague aura but a trace of comparative leverage, and when the model leans on deep rather than shallow multiple sequence alignments it can flip a predicted helix register or tighten an interface by several angstroms, which means we can no longer treat pLDDT as a black box blessing and instead must audit the evolutionary depth feeding each chain much as we learned to inspect attention maps after AlphaFold2 revealed how templates seed topology. | The AlphaInterp dissection of AlphaFold 3 internals makes me want to run a perturbation ladder on the residue contact prior to see whether we can steer confidence away from low pLDDT loops toward beta barrel scaffolds that are under-represented in training. | Borrowing from AF3-TurboAb, I want to test whether repertoire-scale antibody decoding can be run backward to hallucine CDR-H3 sequences that force a rare glycan epitope into a solved pose.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>

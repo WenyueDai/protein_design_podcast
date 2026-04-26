@@ -1,0 +1,282 @@
+{
+  "timestamps": [
+    0.0,
+    129.55,
+    287.44,
+    422.39,
+    602.0,
+    774.15,
+    927.24,
+    1072.53,
+    1198.46,
+    1345.57,
+    1525.81
+  ],
+  "items": [
+    {
+      "title": "High-Performance Infrared Nonlinear Optical Crystals Discovery Guided by High-Throughput Computation, Machine Learning, and Experimental Verification.",
+      "url": "https://doi.org/10.1002/anie.2407356",
+      "source": "PubMed — Angewandte Chemie (International ed. in English)",
+      "one_liner": "Infrared nonlinear optical (NLO) materials are essential for laser and photonic technologies, limited by fragmented material systems, lengthy development cycles, and trial-and-error synthesis. To overcome these barriers, we developed an integrated computational-experimental framework integrating first-principles high-throughput calculations, machine learn...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProPER: Programmable, multiplexed detection of molecular proximities and RNA life-cycle stages in situ",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.24.718482",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Proximity detection methods facilitate contextual analysis of biomolecules by reporting their microenvironment, spatial organization and molecular interactions. To expand these detection capabilities towards highly sensitive, quantitative, and multiplexed interaction mapping, we introduce Proximity Primer Exchange Reaction (ProPER). ProPER is a novel liga...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "BAG6 and RNF126 promote the degradation of cytosolic misfolded proteins that contain buried degron motifs",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.24.720685",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Missense mutations account for the majority of catalogued human disease-associated variants, and many are predicted to destabilize proteins and promote their degradation. To characterize the pathways responsible for recognizing and clearing such variants, we employed a two-pronged approach to identify both quality control components mediating turnover of ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "PROBind: A Web Server for Prediction, Analysis, and Visualization of Protein-Protein and Protein-Nucleic Acid Binding Residues.",
+      "url": "https://doi.org/10.1093/gpbjnl/qzag032",
+      "source": "PubMed — Genomics, proteomics & bioinformatics",
+      "one_liner": "Protein-protein and protein-nucleic acid interactions are fundamental to numerous cellular functions, yet only a small fraction have been experimentally characterized. Although modern computational methods have been developed for predicting interacting residues in proteins, they are challenging to use due to individual installation and execution requireme...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Immunization With Herpes Simplex Virus Nanoparticles Targeting Both Attachment and Fusion Protect Against Infection",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.24.720674",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Herpes simplex virus 2 (HSV-2) is associated with genital ulcers, neonatal encephalitis, increased risk of HIV infection, and dementia. There is no licensed HSV-2 vaccine. We developed nanoparticles displaying the HSV-2 attachment protein gD and fusion mediation protein gH/gL. Immunization of mice and non-human primates elicited high levels of neutralizin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Motif-Based Hypergraph Representation Learning: Transductive and Inductive Inference for Gene Regulatory Networks.",
+      "url": "https://doi.org/10.1109/TNNLS.2026.3685617",
+      "source": "PubMed — IEEE transactions on neural networks and learning systems",
+      "one_liner": "Network motifs, as fundamental functional substructures in gene regulatory networks (GRNs), play a critical role in regulating gene expression. Despite the successful application of graph representation learning in GRN modeling, most existing approaches mainly capture pairwise relationships and overlook higher order regulatory patterns encoded by function...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DiffDock-Glide: A Hybrid Physics-Based and Data-Driven Approach to Molecular Docking.",
+      "url": "https://doi.org/10.1021/acs.jcim.5c01635",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Recent years have seen a rise in applications of deep learning to problems in the molecular sciences. Among them, the diffusion model DiffDock stands out as a method for docking small molecules into protein binding sites. But DiffDock struggles to compete with conventional docking methods, especially for targets outside its training set. We develop a hybr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TIAL1 regulates the Hippo pathway through an RNA-binding-independent mechanism.",
+      "url": "https://doi.org/10.1038/s41388-026-03807-8",
+      "source": "PubMed — Oncogene",
+      "one_liner": "The Hippo pathway is an evolutionarily conserved signaling cascade whose dysregulation is implicated in a wide range of diseases. While many RNA-binding proteins (RBPs) regulate this pathway through canonical functions such as modulating mRNA stability and translation, the potential for RBP-mediated regulation via non-canonical, RNA-binding-independent me...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Population-specific MicroRNA biomarker discovery in breast ductal carcinoma via explainable graph neural multi-omics modeling.",
+      "url": "https://doi.org/10.1186/s12885-026-16060-9",
+      "source": "PubMed — BMC cancer",
+      "one_liner": "This study presents the first large-scale characterization of miRNA dysregulation in South Asian breast ductal carcinoma, identifying population-specific prognostic behavior (notably miR-155) and supporting the development of region-tailored liquid biopsy panels and precision therapy strategies.\n\nMETHOD / APPROACH:\nThe study analyzed 800 surgically resected ductal carcinoma tissues (500 IDC, 300 DCIS) from South Asian patients using miRNA-sequencing, differential expression, survival modeling, pathway enrichment, and an explainable Graph Attention Network (GAT) classifier with SHAP interpretation; external validation used TCGA-BRCA, and anti-miR-21 lipid nanoparticle inhibition was evaluated in murine models.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Presenilin 1 is located in the mitochondrial inner inner membrane and regulates mitochondrial cristae junction protein arrangement and cristae formation in HEK293 cells.",
+      "url": "https://doi.org/10.3724/abbs.2026064",
+      "source": "PubMed — Acta biochimica et biophysica Sinica",
+      "one_liner": "Presenilin 1 (PS1), a key pathogenic factor in familial Alzheimer's disease, is implicated in the regulation of mitochondrial functions, yet its precise sub-mitochondrial localization and underlying mechanisms remain poorly understood. In this study, we generate",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Quantifying conformational diversity in protein-ligand ensembles for structure-based virtual screening.",
+      "url": "https://doi.org/10.1007/s10822-026-00811-8",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "Structure-based virtual screening (SBVS) requires accurate representations of protein and ligand conformational states, since both components can adopt diverse geometries that influence binding energetics. Using 79 HIV-1 protease-ligand complexes, we quantify how conformational heterogeneity and ensemble clustering shape the evaluation of interaction ener...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cell density impacts population activity in human iPSC-derived neural networks.",
+      "url": "https://doi.org/10.1523/ENEURO.0176-24.2026",
+      "source": "PubMed — eNeuro",
+      "one_liner": "Multi-electrode recording of neuronal activity in cultures offer opportunities for understanding how the structure of a network gives rise to function. Neuronal cultures derived from human induced pluripotent stem cells (iPSCs) from male and female individuals are often plated at highly variable cell densities across studies, but its impact on neuronal ac...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hybrid diagnostic framework for bone cancer detection using deep learning and radiomics analysis.",
+      "url": "https://doi.org/10.1038/s41598-026-49681-y",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Currently, bone cancer remains a big challenge in healthcare, early and accurate diagnosis is therefore key to achieving the required treatment outcomes. To this end, this research attempts to present a novel hybrid framework, i.e. TriMedNet, which works to classify bone cancer using multi-modal data sources. The diagnostic model is derived from integrati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Influenza forecasting method based on dual-chan nel feature fusion of VMD decomposition.",
+      "url": "https://doi.org/10.1038/s41598-026-48594-0",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Accurate influenza forecasting is critical for timely public health responses and resource allocation. To address challenges such as strong non-stationarity, spatiotemporal heterogeneity, and the prediction lag of traditional models during outbreak peaks , this study proposes a deep learning forecasting framework based on Variational Mode Decomposition (V...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Classifying Post-COVID \"Brain Fog\" Patients and Identifying Key ROIs via Graph Neural Network Model.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3687134",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "Brain fog has raised significant public health concerns as a common neurocognitive impairment in the post-COVID-19 condition, involving memory loss, poor concentration, and language difficulties. However, their neural mechanisms remain unclear, and objective resting-state fMRI-based diagnostic tools are still lacking. To address these challenges, we first...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "LLM-Enhanced Knowledge Distillation for Sequence-Based Protein-Ligand Interaction Prediction.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3686853",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "Accurate prediction of protein-ligand interactions is essential for drug discovery, supporting critical stages from lead optimization to therapeutic development. Many existing methods depend on high-resolution protein-ligand complex structures, which limits scalability and reduces robustness in structure-limited settings. To address these challenges, we i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "[Nanopore sequencing for RNA modification and splicing analysis in skeletal muscle].",
+      "url": "https://doi.org/10.13345/j.cjb.250625",
+      "source": "PubMed — Sheng wu gong cheng xue bao = Chinese journal of biotechnology",
+      "one_liner": "Alternative splicing and chemical modifications of RNA are key mechanisms of post-transcriptional regulation. By modulating RNA structure, localization, stability, translation, and protein expression levels and diversity, they significantly influence cell fate and biological processes. In muscle tissue, these mechanisms are particularly important for myog...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dissecting serum polyclonal antibody escape to SARS-CoV-2 variants by deep mutational learning.",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101417",
+      "source": "PubMed — Cell reports methods",
+      "one_liner": "Deep mutational scanning (DMS) has been extensively used to investigate how single-position mutations in the receptor-binding domain (RBD) affect binding of ACE2 and neutralizing antibodies, thus revealing mutations that drive immune escape. However, these mutations represent only a small fraction of the combinatorial mutational space. Here, we present de...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Sanofi’s immunology reckoning; Lilly acquires in vivo CAR-T biotech; RevMed’s ‘Herceptin moment’; and more",
+      "url": "https://endpoints.news/sanofis-immunology-reckoning-lilly-acquires-in-vivo-car-t-biotech-revmeds-herceptin-moment-and-more/",
+      "source": "Endpoints News",
+      "one_liner": "Welcome back to another edition of Endpoints Weekly! We’re doing a little bit of celebrating here at Endpoints, as we took home three Neal Awards, which recognize excellence in B2B journalism. The ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biotech",
+        "industry"
+      ]
+    }
+  ]
+}
