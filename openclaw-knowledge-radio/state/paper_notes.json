@@ -1442,5 +1442,12 @@
       "title": "Fusion Tags for Recombinant Protein Expression and Purification in Structural and Functional Studies.",
       "source": "PubMed — Protein expression and purification"
     }
+  },
+  "2026-04-27": {
+    "https://www.biorxiv.org/content/10.64898/2026.04.22.720259": {
+      "note": "DD",
+      "title": "AlphaUnfold: Probing Potential Unfolding and Structural Fragility in AlphaFold3 Models via Short-Time High-Pressure MD",
+      "source": "bioRxiv — bioinformatics"
+    }
   }
 }
