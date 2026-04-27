@@ -1448,6 +1448,11 @@
       "note": "DD",
       "title": "AlphaUnfold: Probing Potential Unfolding and Structural Fragility in AlphaFold3 Models via Short-Time High-Pressure MD",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://arxiv.org/abs/2512.05794": {
+      "note": "DD",
+      "title": "Mechanistic Interpretability of Antibody Language Models Using SAEs",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
