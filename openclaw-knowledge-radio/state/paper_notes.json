@@ -1453,6 +1453,11 @@
       "note": "DD",
       "title": "Mechanistic Interpretability of Antibody Language Models Using SAEs",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1186/s12859-026-06415-1": {
+      "note": "DD",
+      "title": "A structural bioinformatics framework for prioritizing pH-sensitive proteins from 3D structural features.",
+      "source": "PubMed — BMC bioinformatics"
     }
   }
 }
