@@ -1178,5 +1178,13 @@
   "2026-05-03|https://doi.org/10.1107/S2052252526001399": {
     "page_id": "3555f58e-a8c2-81d7-b65d-d2cfbc54b2b6",
     "note": "DD"
+  },
+  "2026-05-03|https://www.biorxiv.org/content/10.64898/2026.05.01.718274": {
+    "page_id": "3555f58e-a8c2-8131-a621-dc7dfdc1fb1b",
+    "note": "DD"
+  },
+  "2026-05-03|https://doi.org/10.1002/pro.70554": {
+    "page_id": "3555f58e-a8c2-812f-b40c-e119651a4b49",
+    "note": "DD"
   }
 }
