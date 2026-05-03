@@ -1582,5 +1582,12 @@
       "title": "Deep mining of the human antibody repertoire identifies frequent and genetically diverse CDRH3 topologies targetable by ",
       "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America"
     }
+  },
+  "2026-05-03": {
+    "https://doi.org/10.1107/S2052252526001399": {
+      "note": "DD",
+      "title": "AXIS: a Lab-in-the-Loop machine learning approach for automated detection of macromolecular crystals.",
+      "source": "PubMed — IUCrJ"
+    }
   }
 }
