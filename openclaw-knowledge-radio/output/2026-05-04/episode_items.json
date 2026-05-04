@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    141.07,
+    315.74,
+    461.46,
+    643.3,
+    764.36,
+    895.99,
+    1038.4,
+    1169.85,
+    1317.78,
+    1550.29
+  ],
+  "items": [
+    {
+      "title": "Deep learning architectures achieve state-of-the-art (SOTA) accuracy in protein secondary structure prediction.",
+      "url": "https://doi.org/10.1007/s11030-026-11570-x",
+      "source": "PubMed — Molecular diversity",
+      "one_liner": "Protein secondary structure prediction represents an important intermediate step between a protein's linear amino acid sequence and its three-dimensional structure, with broad implications for synthetic biology, drug development, and disease research. Although experimental techniques such as X-ray crystallography provide highly accurate structural informa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Inferring Local Protein Structural Similarity from Sequence Alone.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00114",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Detecting structural similarity at the local level between proteins is central to understanding function and evolution, yet most approaches require 3D models. In this work, we show that protein language models (pLMs), solely using sequence data as input, implicitly capture fine-grained structural signals that can be leveraged to identify such similarities...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Improving aptamer binding affinity for HN protein of newcastle disease virus: molecular dynamics simulations and MM/GBSA calculations studies.",
+      "url": "https://doi.org/10.1007/s11030-026-11573-8",
+      "source": "PubMed — Molecular diversity",
+      "one_liner": "Aptamers, as single-stranded DNA (ssDNA) or RNA oligonucleotides, are pivotal in biosensing due to their high affinity. However, excessive lengths of these nucleic acid probes can impair their binding affinity and target recognition efficiency. Traditional optimization methods, such as static structural modeling, fail to capture the dynamic interactions b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "In silico design and validation of high-affinity RNA aptamers for SARS-CoV-2 comparable to neutralizing antibodies",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657802",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Nucleic acid aptamers hold promise for clinical applications, yet understanding their molecular binding mechanisms to target proteins and efficiently optimizing their binding affinities remain challenging. Here, we present CAAMO (Computer-Aided Aptamer Modeling and Optimization), which integrates in silico aptamer design with experimental validation to ac...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Self-consistent recurrent neural network for path dependent deformation.",
+      "url": "https://doi.org/10.1038/s41598-026-49661-2",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Using data-driven machine learning (ML) models as surrogates in classical engineering is an emerging trend in the literature. However, effective surrogate modeling in path-dependent problems requires a deep understanding of the fundamental physical properties that naturally arise in data obtained from simulations or experiments. While generic ML architect...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Improved hydro-epidemiological prediction of faecal indicator organisms using knowledge distillation inspired machine learning through dimensionality reduction.",
+      "url": "https://doi.org/10.1016/j.jenvman.2026.129792",
+      "source": "PubMed — Journal of environmental management",
+      "one_liner": "Reliable prediction of Faecal Indicator Organisms (FIOs) in coastal bathing waters remains a major challenge because FIO concentrations could vary rapidly with the flow, meteorological, and hydrological conditions. Mechanistic models require high computational resources, data and could be time consuming to set up. Machine learning (ML) models have been us...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular insights into protein disulfide isomerase antagonism by punicalagin",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.29.721714",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Punicalagin, an ellagic acid polyphenol from pomegranate, has been proposed as an antagonist of protein disulfide isomerase (PDI) and endoplasmic reticulum resident protein 57 (ERp57), thiol oxidoreductases that regulate protein folding and extracellular thrombotic signaling. Here, biochemical oxidase and reductase assays on PDI show that punicalagin inhi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development and validation of a machine learning model and a web tool for predicting the risk of Crohn's disease diagnosis in Chinese patients.",
+      "url": "https://doi.org/10.1016/j.puhe.2026.106294",
+      "source": "PubMed — Public health",
+      "one_liner": "OBJECTIVES: Diagnostic delay in Crohn's disease (CD) may increase the risk of poor prognosis. This study developed and validated a machine learning (ML) model for clinicians to conduct preliminary diagnosis and refer suspected patients. STUDY DESIGN: Retrospective cohort study. METHODS: This retrospective dual-center study analyzed electronic medical reco...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deciphering seasonal dynamics and time series forecasting of urban air quality: a case study in Urban Cities of Andhra Pradesh.",
+      "url": "https://doi.org/10.1038/s41598-026-47509-3",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Proper air quality forecasting is essential in developing countries such as India, where climate variability, industrialization, and increasing urbanization play a major role in degrading air quality and posing health risks. This research introduces an integrated machine learning (ML) architecture for the prediction of the Air Quality Index (AQI) in two A...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Leveraging neural networks to model tourist behaviour for sustainable heritage conservation.",
+      "url": "https://doi.org/10.1038/s41598-026-49345-x",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Artificial intelligence, as an emerging technological science, provides advanced methods for simulating and extending human intelligence. The technological convergence from various domains has been the focus of researcher community for the last few years. This study applies artificial neural network algorithms to examine sustainability indicators at UNESC...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "From intelligent models to clinical tools: the evolving landscape of AI in medical imaging.",
+      "url": "https://doi.org/10.1038/s41598-026-49861-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Integration of Artificial Intelligence (AI), particularly deep learning, into medical imaging represents a profound shift in diagnostic medicine, moving from purely descriptive analysis to advanced predictive and prescriptive analytics. This Collection explores the rapid advancement of AI-driven tools in their specific fields such as oncology, cardiology,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A multicenter-validated interpretable transformer model for pituitary microadenoma detection on non-contrast multiparametric MRI.",
+      "url": "https://doi.org/10.1186/s12880-026-02391-3",
+      "source": "PubMed — BMC medical imaging",
+      "one_liner": "BACKGROUND: Detecting pituitary microadenomas using non-contrast multi-parametric magnetic resonance imaging (MRI) is challenging yet essential for clinical decisions. This study aimed to develop a transformer deep learning (DL) model for detecting pituitary microadenomas based on non-contrast multiparametric MRI and explore the explainability techniques ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Supervised contrastive learning for cell stage classification of animal embryos.",
+      "url": "https://doi.org/10.1038/s41598-026-39214-y",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Video microscopy, when combined with machine learning, offers a promising approach for studying the early development of in vitro produced (IVP) embryos. However, manually annotating developmental events, and more specifically cell divisions, is time-consuming for a biologist and cannot scale up for practical applications. We aim to automatically classify...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence on chest X-ray for tuberculosis screening in Tanzania: a multicentre evaluation.",
+      "url": "https://doi.org/10.1186/s12879-026-13460-x",
+      "source": "PubMed — BMC infectious diseases",
+      "one_liner": "Tanzania has adopted artificial intelligence (AI)-assisted chest X-ray screening for tuberculosis (TB), including the use of CAD4TB version 6, which is registered by the Tanzania Medicines and Medical Devices Authority (TMDA). While GeneXpert, practical reference standard used in routine practice, remains the primary bacteriological confirmatory test in r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An unsupervised framework for comparing SARS-CoV-2 protein sequences using LLMs",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.12.16.628708",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) pandemic led to 700 million infections and 7 million deaths worldwide. While studying these viruses, scientists developed a large amount of sequencing data that was made available to researchers. Large language models (LLMs) are pre-trained on large databases of proteins and prior work has s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "LNODE: latent dynamics reveal the shared spatiotemporal structure of amyloid-$\\beta$ progression",
+      "url": "https://arxiv.org/abs/2605.00272",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2605.00272v1 Announce Type: new \nAbstract: We introduce LNODE, a mechanism-based phenomenological model for amyloid beta (A$\\beta$) dynamics, calibrated using positron emission tomography (PET) imaging. A$\\beta$ is a key biomarker of Alzheimer's disease. LNODE is designed to support the fusion, harmonization, quantitative analysis, and interpretatio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Protein foundation models: a comprehensive survey.",
+      "url": "https://doi.org/10.1007/s11427-025-3147-2",
+      "source": "PubMed — Science China. Life sciences",
+      "one_liner": "Protein foundation models (pFMs) have emerged as pivotal tools in advancing protein science. By leveraging advanced deep learning architectures trained on large-scale protein datasets, pFMs learn generalizable patterns in proteins, enabling accurate prediction of key protein characteristics and generation of novel proteins with tailored properties. In thi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Statistical crystallography reveals an allosteric network in SARS-CoV-2 M",
+      "url": "https://doi.org/10.1038/s42003-026-10127-w",
+      "source": "PubMed — Communications biology",
+      "one_liner": "To interpret and transmit biological signals, proteins use correlated motions. Experimental determination of these dynamics and the structural distributions they generate remains a key challenge. Here, using 1146 crystal structures of the main protease (M",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Aitchison Embeddings for Learning Compositional Graph Representations",
+      "url": "https://arxiv.org/abs/2605.00716",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2605.00716v1 Announce Type: new \nAbstract: Representation learning is central to graph machine learning, powering tasks such as link prediction and node classification. However, most graph embeddings are hard to interpret, offering limited insight into how learned features relate to graph structure. Many networks naturally admit a role-mixture view,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A Novel Patch-Based TDA Approach for Computed Tomography Imaging",
+      "url": "https://arxiv.org/abs/2512.12108",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.12108v5 Announce Type: replace-cross \nAbstract: The development of machine learning models based on computed tomography (CT) imaging has been a major focus due to the promise that imaging holds for diagnosis, staging, and prognostication. These models often rely on the extraction of hand-crafted features where incorporating robust feature engin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
