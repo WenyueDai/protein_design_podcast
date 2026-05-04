@@ -1625,6 +1625,11 @@
       "note": "DD",
       "title": "Inferring Local Protein Structural Similarity from Sequence Alone.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://www.biorxiv.org/content/10.1101/2025.06.04.657802": {
+      "note": "DD",
+      "title": "In silico design and validation of high-affinity RNA aptamers for SARS-CoV-2 comparable to neutralizing antibodies",
+      "source": "bioRxiv — biophysics"
     }
   }
 }
