@@ -1614,5 +1614,12 @@
       "title": "Bristol Myers’ pivotal year; Should AI be swinging bigger?; and more",
       "source": "Endpoints News"
     }
+  },
+  "2026-05-04": {
+    "https://doi.org/10.1007/s11030-026-11570-x": {
+      "note": "DD",
+      "title": "Deep learning architectures achieve state-of-the-art (SOTA) accuracy in protein secondary structure prediction.",
+      "source": "PubMed — Molecular diversity"
+    }
   }
 }
