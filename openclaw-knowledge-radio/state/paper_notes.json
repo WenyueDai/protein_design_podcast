@@ -1620,6 +1620,11 @@
       "note": "DD",
       "title": "Deep learning architectures achieve state-of-the-art (SOTA) accuracy in protein secondary structure prediction.",
       "source": "PubMed — Molecular diversity"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00114": {
+      "note": "DD",
+      "title": "Inferring Local Protein Structural Similarity from Sequence Alone.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
