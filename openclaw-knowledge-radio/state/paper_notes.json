@@ -1652,6 +1652,11 @@
       "note": "DD",
       "title": "Learning Protein Representations with Conformational Dynamics.",
       "source": "PubMed — Bioinformatics (Oxford, England)"
+    },
+    "https://doi.org/10.1093/gpbjnl/qzag036": {
+      "note": "DD",
+      "title": "mTM-align2: A Server for Real-time Protein Structure Database Search and Alignment.",
+      "source": "PubMed — Genomics, proteomics & bioinformatics"
     }
   }
 }
