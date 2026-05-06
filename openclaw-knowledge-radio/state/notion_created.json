@@ -1214,5 +1214,21 @@
   "2026-05-06|https://www.science.org/content/blog-post/ubiquitin-rides-again": {
     "page_id": "3585f58e-a8c2-81bb-95e2-edc45e1e2b49",
     "note": "DD"
+  },
+  "2026-05-06|https://doi.org/10.1002/prot.70143": {
+    "page_id": "3585f58e-a8c2-8157-8d79-e5c80d864df8",
+    "note": "DD"
+  },
+  "2026-05-06|https://doi.org/10.1021/acs.jcim.6c00034": {
+    "page_id": "3585f58e-a8c2-8146-812a-d570304ce574",
+    "note": "DD"
+  },
+  "2026-05-06|https://doi.org/10.1093/bioinformatics/btag254": {
+    "page_id": "3585f58e-a8c2-8130-ac3a-f6ca1390dc6e",
+    "note": "DD"
+  },
+  "2026-05-06|https://doi.org/10.1093/gpbjnl/qzag036": {
+    "page_id": "3585f58e-a8c2-81f5-a6d3-e01fd0aa35cf",
+    "note": "DD"
   }
 }
