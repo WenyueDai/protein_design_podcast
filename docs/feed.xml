@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Mon, 04 May 2026 10:19:21 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 09:27:40 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-05-06</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-06/podcast_2026-05-06.mp3</guid>
+      <pubDate>Wed, 06 May 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-06/podcast_2026-05-06.mp3" length="13735149" type="audio/mpeg" />
+      <description>A few things happened today that should change how you think about protein design. | First, there&#x27;s a paper directly testing whether bigger is actually better in molecular AI — and the answer turns out to be no. | Second, sequence alignment is getting a new competitor.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>A few things happened today that should change how you think about protein design. | First, there&#x27;s a paper directly testing whether bigger is actually better in molecular AI — and the answer turns out to be no. | Second, sequence alignment is getting a new competitor.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-05-04</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-04/podcast_2026-05-04.mp3</guid>
       <pubDate>Mon, 04 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-04/podcast_2026-05-04.mp3" length="12514581" type="audio/mpeg" />
-      <description>Three papers today point toward a convergence that&#x27;s quietly reshaping how we think about computational protein and nucleic acid design. | The most striking shift comes from work on inferring local protein structural similarity from sequence alone. | On the secondary structure front, a new paper in Molecular Diversity reviews how deep learning architectures have pushed prediction accuracy to state-of-the-art levels.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-04/podcast_2026-05-04.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Three papers today point toward a convergence that&#x27;s quietly reshaping how we think about computational protein and nucleic acid design. | The most striking shift comes from work on inferring local protein structural similarity from sequence alone. | On the secondary structure front, a new paper in Molecular Diversity reviews how deep learning architectures have pushed prediction accuracy to state-of-the-art levels.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-06/podcast_2026-03-06.mp3</guid>
       <pubDate>Fri, 06 Mar 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-06/podcast_2026-03-06.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-03-05</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-05/podcast_2026-03-05.mp3</guid>
-      <pubDate>Thu, 05 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-05/podcast_2026-03-05.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
