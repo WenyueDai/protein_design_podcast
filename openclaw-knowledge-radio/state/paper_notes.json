@@ -1637,6 +1637,11 @@
       "note": "DD",
       "title": "Ubiquitin Rides Again",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://doi.org/10.1002/prot.70143": {
+      "note": "DD",
+      "title": "Ankh-Score Produces Better Sequence Alignments Than AlphaFold3.",
+      "source": "PubMed — Proteins"
     }
   }
 }
