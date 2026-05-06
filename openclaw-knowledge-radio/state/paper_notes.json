@@ -1642,6 +1642,11 @@
       "note": "DD",
       "title": "Ankh-Score Produces Better Sequence Alignments Than AlphaFold3.",
       "source": "PubMed — Proteins"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00034": {
+      "note": "DD",
+      "title": "Improving AlphaFold2 Performance in Virtual Screens Targeting GPCRs by Enhancing Binding-Site Conformational Sampling.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
