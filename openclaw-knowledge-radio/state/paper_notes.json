@@ -1647,6 +1647,11 @@
       "note": "DD",
       "title": "Improving AlphaFold2 Performance in Virtual Screens Targeting GPCRs by Enhancing Binding-Site Conformational Sampling.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://doi.org/10.1093/bioinformatics/btag254": {
+      "note": "DD",
+      "title": "Learning Protein Representations with Conformational Dynamics.",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
     }
   }
 }
