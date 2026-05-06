@@ -1202,5 +1202,17 @@
   "2026-05-04|https://doi.org/10.1007/s11030-026-11570-x": {
     "page_id": "3565f58e-a8c2-81f0-a9e8-e540e7e05deb",
     "note": "DD"
+  },
+  "2026-05-04|https://doi.org/10.1021/acs.jcim.6c00114": {
+    "page_id": "3565f58e-a8c2-810c-8bd3-ea86ebd2e6dc",
+    "note": "DD"
+  },
+  "2026-05-04|https://www.biorxiv.org/content/10.1101/2025.06.04.657802": {
+    "page_id": "3565f58e-a8c2-812c-a281-c1c08a930a06",
+    "note": "DD"
+  },
+  "2026-05-06|https://www.science.org/content/blog-post/ubiquitin-rides-again": {
+    "page_id": "3585f58e-a8c2-81bb-95e2-edc45e1e2b49",
+    "note": "DD"
   }
 }
