@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Wed, 06 May 2026 09:27:40 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 10:11:01 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-05-07</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-07/podcast_2026-05-07.mp3</guid>
+      <pubDate>Thu, 07 May 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-07/podcast_2026-05-07.mp3" length="12107709" type="audio/mpeg" />
+      <description>The most tangible shift today is that PROTACs have finally arrived in the clinic. | On a different front, there&#x27;s a new preprint tackling one of AlphaFold&#x27;s persistent weaknesses for drug design: the models it produces aren&#x27;t always accurate enough for reliable virtual screening. | The OPIG blog post on hypergraph representations of protein complexes is more of a perspective piece than a technical breakthrough, but it highlights an emerging idea: instead of modeling proteins as pairwise interactions, you can represent entire complexes as higher-order relationships.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The most tangible shift today is that PROTACs have finally arrived in the clinic. | On a different front, there&#x27;s a new preprint tackling one of AlphaFold&#x27;s persistent weaknesses for drug design: the models it produces aren&#x27;t always accurate enough for reliable virtual screening. | The OPIG blog post on hypergraph representations of protein complexes is more of a perspective piece than a technical breakthrough, but it highlights an emerging idea: instead of modeling proteins as pairwise interactions, you can represent entire complexes as higher-order relationships.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-05-06</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-06/podcast_2026-05-06.mp3</guid>
       <pubDate>Wed, 06 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-06/podcast_2026-05-06.mp3" length="13735149" type="audio/mpeg" />
-      <description>A few things happened today that should change how you think about protein design. | First, there&#x27;s a paper directly testing whether bigger is actually better in molecular AI — and the answer turns out to be no. | Second, sequence alignment is getting a new competitor.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-06/podcast_2026-05-06.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>A few things happened today that should change how you think about protein design. | First, there&#x27;s a paper directly testing whether bigger is actually better in molecular AI — and the answer turns out to be no. | Second, sequence alignment is getting a new competitor.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-07/podcast_2026-03-07.mp3</guid>
       <pubDate>Sat, 07 Mar 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-07/podcast_2026-03-07.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-03-06</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-06/podcast_2026-03-06.mp3</guid>
-      <pubDate>Fri, 06 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-06/podcast_2026-03-06.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
