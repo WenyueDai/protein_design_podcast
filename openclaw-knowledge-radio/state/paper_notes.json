@@ -1716,6 +1716,11 @@
       "note": "DD",
       "title": "MP2D: Constrained Monte Carlo Tree-Guided Diffusion for Multi-Objective Protein Sequence Design",
       "source": "arXiv q-bio.BM"
+    },
+    "https://doi.org/10.1126/science.aea1820": {
+      "note": "DD",
+      "title": "Rapid directed evolution guided by protein language models and epistatic interactions.",
+      "source": "PubMed — Science (New York, N.Y.)"
     }
   }
 }
