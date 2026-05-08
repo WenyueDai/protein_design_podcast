@@ -1684,6 +1684,11 @@
       "note": "DD",
       "title": "Siamese foundation models for crystal structure prediction.",
       "source": "PubMed — Nature communications"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.05.01.722313": {
+      "note": "DD",
+      "title": "Simple baselines rival protein language models in mutation-dense design tasks",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
