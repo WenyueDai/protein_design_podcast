@@ -1689,6 +1689,11 @@
       "note": "DD",
       "title": "Simple baselines rival protein language models in mutation-dense design tasks",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://doi.org/10.1038/s41586-026-10462-2": {
+      "note": "DD",
+      "title": "Steric hindrance of antibody binding in an Omicron spike fusion intermediate.",
+      "source": "PubMed — Nature"
     }
   }
 }
