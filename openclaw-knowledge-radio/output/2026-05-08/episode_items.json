@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    120.64,
+    277.0,
+    421.0,
+    546.73,
+    669.15,
+    793.78,
+    940.2,
+    1070.1,
+    1222.72,
+    1421.41
+  ],
+  "items": [
+    {
+      "title": "White matter reflects the childhood exposome",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.04.722687",
+      "source": "Regina Barzilay (bioRxiv)",
+      "one_liner": "The childhood environment is critical for brain development. However, most neuroimaging studies examine individual environmental measures (e.g., socioeconomic status) or a limited set of exposures, obscuring how the combination of complex, real-world exposures jointly influence brain development. Here we investigated how white matter shape and tissue properties are linked to the childhood exposome",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "author"
+      ]
+    },
+    {
+      "title": "The Latest News in Vaccine Obstruction",
+      "url": "https://www.science.org/content/blog-post/latest-news-vaccine-obstruction",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Genome assembly of Astatotilapia latifasciata uncovers B chromosome-linked chromatin reorganization.",
+      "url": "https://doi.org/10.1038/s41437-026-00847-4",
+      "source": "PubMed — Heredity",
+      "one_liner": "B chromosomes (Bs) are supernumerary genomic elements found in many eukaryotes, yet their full sequence composition, functional potential, and regulatory impact on the host genome remain unclear. Here, we present a chromosome-level genome assembly of the cichlid fish Astatotilapia latifasciata, integrating PacBio long reads, Illumina short reads, and Hi-C...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProtSpace: Protein Universe in Your Browser",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.04.722720",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein Language Models (pLMs) generate per-protein embeddings that encode functional, structural, and evolutionary information, yet the relationships captured in these representations remain difficult to explore systematically. ProtSpace (https://protspace.app) is a web application for interactive visualization of pLM embedding spaces, enabling hypothesi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "MP2D: Constrained Monte Carlo Tree-Guided Diffusion for Multi-Objective Protein Sequence Design",
+      "url": "https://arxiv.org/abs/2605.05829",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2605.05829v1 Announce Type: new \nAbstract: Designing functional protein sequences that satisfy multiple desired properties is a core research focus of protein engineering. Prior methods struggle with inability or inefficiency when dealing with numerous, often conflicting, properties. We propose Multi-Property Protein Diffusion (MP2D), a unified fram...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Distance-Restraint-Guided Diffusion Models for Sampling Protein Conformational Changes and Ligand Dissociation Pathways.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00199",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Protein conformational dynamics and ligand binding processes are fundamental to biological function, yet their systematic sampling and thermodynamic characterization remain challenging. Here, we present a distance-restraint-guided inference method that extends AlphaFold3-like diffusion model frameworks to predict protein structures at specified conformati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting and Decoding Allosteric Binding Sites Using Protein Language Models and Structure-Based Machine Learning: An Energy Landscape-Guided Explainable AI Framework.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00427",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Computational prediction of allosteric binding sites in protein structures remains a persistent challenge, as these regulatory pockets evade detection by both sequence-based and structure-based algorithms. Both computational and physical origins of this predictive asymmetry remain insufficiently understood. In this study, we systematically examine the det...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rapid directed evolution guided by protein language models and epistatic interactions.",
+      "url": "https://doi.org/10.1126/science.aea1820",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "Protein engineering is limited by the inefficient search through a high-dimensional sequence space to find combinations of synergistic mutations. Traditional approaches use stepwise mutation stacking, whereas machine learning methods require extensive datasets or multiple experimental rounds and are bottlenecked by costly, length-limited gene synthesis. W...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "BERT-T6: Toward High-Accuracy T6SS Bacterial Toxin Identification Using a Protein Language Model.",
+      "url": "https://doi.org/10.1021/acs.jcim.5c02744",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Type VI secretion system effectors (T6SEs) are key virulence factors that disrupt critical cellular components in target cells, facilitating bacterial competition or host immune evasion. Accurate identification of T6SEs is therefore crucial for understanding bacterial pathogenesis. Although several computational predictors based on traditional machine lea...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning and neural network algorithms for prediction of C5 palsy after posterior surgery for ossification of posterior longitudinal ligament.",
+      "url": "https://doi.org/10.1007/s00586-026-09988-w",
+      "source": "PubMed — European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",
+      "one_liner": "PURPOSE: C5 palsy (C5P) is one of the main postoperative complications of ossification of the posterior longitudinal ligament (OPLL). However, an accurate predictive tool for C5P remains to be developed. Forecasting this potentially avoidable consequence preoperatively can improve patient management, shared decision-making, and counseling. METHODS: Electr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Gene-Modulated Network Diffusion for Improved Modeling of Amyloid-β Spread in Alzheimer's Disease",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.04.722725",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Understanding the pathogenesis of amyloid-{beta} pathology in Alzheimer's Disease (AD) proves to be a challenge. In this work, we expand upon the application of network diffusion models (NDM) to study pathophysiological spread of amyloid-{beta} throughout white matter structural brain networks. We found that the NDM successfully recaptures subpopulation-l...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Determinants and disparities in skilled birth attendants during childbirth in Bangladesh: A study of machine learning and decomposition analysis.",
+      "url": "https://doi.org/10.1371/journal.pone.0346682",
+      "source": "PubMed — PloS one",
+      "one_liner": "This study delves into the determinants and socioeconomic disparities influencing the utilization of Skilled Birth Attendants (SBAs) for childbirth in Bangladesh, deploying advanced statistical and machine learning (ML) methods. A Multilevel Binary Logistic Regression (MBLR) accounting for hierarchical data structures identified wealth, education levels, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing Cryo-EM Density Map Segmentation in Phenix for Improved Atomic Model Building",
+      "url": "https://arxiv.org/abs/2605.05259",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2605.05259v1 Announce Type: new \nAbstract: We introduce PhenixCraft, a fully automated pipeline for building atomic models from cryo-EM density maps. By integrating AlphaFold predictions, we enhance the map-segmentation step in Phenix during model building, addressing challenges posed by noise and artifacts that traditionally hinder this step. Our r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Structure-guided identification of small molecules potentially able to modulate GDF15 activity.",
+      "url": "https://doi.org/10.1038/s41598-026-51932-x",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Growth Differentiation Factor 15 (GDF15) has been associated with different pathological conditions, including cancer cachexia. Various strategies, such as monoclonal antibodies and peptide antagonists, have been developed to inhibit GDF15 activity; however, it is currently unknown whether using small organic molecules (SOMs) can effectively target GDF15....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A multifeature machine learning and resting-state EEG study reveals differences in beta oscillation in late-life depression with or without mild cognitive impairment.",
+      "url": "https://doi.org/10.1186/s12888-026-08126-6",
+      "source": "PubMed — BMC psychiatry",
+      "one_liner": "BACKGROUND: Late-life depression (LLD) often co-occurs with mild cognitive impairment (MCI), and patients with LLD and MCI (LLD-MCI) have an increased risk of progression to Alzheimer's disease (AD). However, differences in resting-state neural oscillation and cognitive impairment in LLD patients remain unclear. In this cross-sectional study, electroencep...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "High prevalence of CNS-directed autoantibodies in patients with schizophrenia",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.04.722731",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Schizophrenia is a severe neuropsychiatric disorder whose etiology and biological heterogeneity remain poorly understood. Immune dysregulation has long been implicated, but the breadth and clinical significance of autoantibody responses remain unclear beyond rare individual examples. Here we use Rapid Extracellular Antigen Profiling-a proteome-scale assay...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Classification of marine plastic debris using hyperspectral imaging and band selection: A patch-based and pixel-based fusion approach.",
+      "url": "https://doi.org/10.1016/j.marpolbul.2026.119781",
+      "source": "PubMed — Marine pollution bulletin",
+      "one_liner": "Marine plastic pollution poses significant ecological, economic, and social challenges, requiring innovative monitoring and identification solutions to support effective mitigation and management strategies. Hyperspectral imaging and artificial intelligence have proven to be valuable tools in detecting and identifying macroplastics in aquatic environments...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development and Clinical Validation of an Automated Artificial Intelligence System for Bowel Wall Thickness Assessment in Adult Inflammatory Bowel Diseases.",
+      "url": "https://doi.org/10.1055/a-2870-0924",
+      "source": "PubMed — Ultraschall in der Medizin (Stuttgart, Germany : 1980)",
+      "one_liner": "PURPOSE: Intestinal ultrasound (IUS) is used to assess and monitor inflammatory bowel disease (IBD). Bowel wall thickness (BWT) is its key marker, but accurate measurement is operator-dependent and requires expertise. Artificial intelligence (AI) may reduce variability and support IUS implementation. We developed and validated an AI model to detect bowel ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dynamic Vine Copulas: Detecting and Quantifying Time-Varying Higher-Order Interactions",
+      "url": "https://arxiv.org/abs/2605.03061",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2605.03061v2 Announce Type: replace-cross \nAbstract: Time-varying dependence is often modeled with dynamic correlations or Gaussian graphical models, but multivariate systems can change through tail behavior, asymmetry, or conditional structure even when correlations are nearly stable. We introduce Dynamic Vine Copulas (DVC), a temporal vine-copula ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Structured water molecules drive activation and G protein selectivity in the GPR174 receptor.",
+      "url": "https://doi.org/10.1371/journal.pbio.3003447",
+      "source": "PubMed — PLoS biology",
+      "one_liner": "G protein-coupled receptor 174 (GPR174), a key modulator of autoimmune responses, maintains immune homeostasis through distinct G protein signaling pathways, particularly Gs and Gi. Although the structural mechanism of lysophosphatidylserine (LysoPS)-activated GPR174 in the Gs pathway has been characterized, how hydration-mediated interactions influence G...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
