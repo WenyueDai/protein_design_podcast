@@ -1270,5 +1270,17 @@
   "2026-05-08|https://www.biorxiv.org/content/10.64898/2026.05.04.722720": {
     "page_id": "35a5f58e-a8c2-81ea-80f6-f38ff5bce756",
     "note": "DD"
+  },
+  "2026-05-08|https://arxiv.org/abs/2605.05829": {
+    "page_id": "35a5f58e-a8c2-815d-932a-e1a61cd1b7bb",
+    "note": "DD"
+  },
+  "2026-05-08|https://doi.org/10.1126/science.aea1820": {
+    "page_id": "35a5f58e-a8c2-81eb-9e15-f51c6629d730",
+    "note": "DD"
+  },
+  "2026-05-08|https://doi.org/10.1021/acs.jcim.5c02744": {
+    "page_id": "35a5f58e-a8c2-81ce-bce8-da1d272b7ca0",
+    "note": "DD"
   }
 }
