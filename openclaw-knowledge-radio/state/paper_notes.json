@@ -1674,6 +1674,11 @@
       "note": "DD",
       "title": "A first for PROTACs",
       "source": "BLOPIG (Oxford Protein Informatics Group)"
+    },
+    "https://www.biorxiv.org/content/10.1101/2025.06.25.661454": {
+      "note": "DD",
+      "title": "Advancing in silico drug design with Bayesian refinement of AlphaFold models",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
