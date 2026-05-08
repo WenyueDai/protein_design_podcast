@@ -1721,6 +1721,11 @@
       "note": "DD",
       "title": "Rapid directed evolution guided by protein language models and epistatic interactions.",
       "source": "PubMed — Science (New York, N.Y.)"
+    },
+    "https://doi.org/10.1021/acs.jcim.5c02744": {
+      "note": "DD",
+      "title": "BERT-T6: Toward High-Accuracy T6SS Bacterial Toxin Identification Using a Protein Language Model.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
