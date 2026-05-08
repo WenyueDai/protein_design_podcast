@@ -1726,6 +1726,11 @@
       "note": "DD",
       "title": "BERT-T6: Toward High-Accuracy T6SS Bacterial Toxin Identification Using a Protein Language Model.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://arxiv.org/abs/2605.05259": {
+      "note": "DD",
+      "title": "Enhancing Cryo-EM Density Map Segmentation in Phenix for Improved Atomic Model Building",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
