@@ -1254,5 +1254,13 @@
   "2026-05-07|https://www.biorxiv.org/content/10.64898/2026.05.01.722313": {
     "page_id": "35a5f58e-a8c2-8174-b184-df79d1b0a23a",
     "note": "DD"
+  },
+  "2026-05-07|https://doi.org/10.1038/s41586-026-10462-2": {
+    "page_id": "35a5f58e-a8c2-819f-81c7-cccc00242bf3",
+    "note": "DD"
+  },
+  "2026-05-07|https://doi.org/10.1002/bit.70220": {
+    "page_id": "35a5f58e-a8c2-81bb-91c0-e1cbc4b702f7",
+    "note": "DD"
   }
 }
