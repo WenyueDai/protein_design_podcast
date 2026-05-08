@@ -1679,6 +1679,11 @@
       "note": "DD",
       "title": "Advancing in silico drug design with Bayesian refinement of AlphaFold models",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://doi.org/10.1038/s41467-026-72362-3": {
+      "note": "DD",
+      "title": "Siamese foundation models for crystal structure prediction.",
+      "source": "PubMed — Nature communications"
     }
   }
 }
