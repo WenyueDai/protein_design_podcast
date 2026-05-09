@@ -1282,5 +1282,13 @@
   "2026-05-08|https://doi.org/10.1021/acs.jcim.5c02744": {
     "page_id": "35a5f58e-a8c2-81ce-bce8-da1d272b7ca0",
     "note": "DD"
+  },
+  "2026-05-08|https://arxiv.org/abs/2605.05259": {
+    "page_id": "35a5f58e-a8c2-8153-bc56-f5435b388ca4",
+    "note": "DD"
+  },
+  "2026-05-09|https://doi.org/10.1038/s41594-026-01797-5": {
+    "page_id": "35b5f58e-a8c2-8114-be35-c38a502b3183",
+    "note": "DD"
   }
 }
