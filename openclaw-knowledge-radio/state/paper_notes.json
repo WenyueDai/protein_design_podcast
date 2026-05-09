@@ -1732,5 +1732,12 @@
       "title": "Enhancing Cryo-EM Density Map Segmentation in Phenix for Improved Atomic Model Building",
       "source": "arXiv q-bio.BM"
     }
+  },
+  "2026-05-09": {
+    "https://doi.org/10.1038/s41594-026-01797-5": {
+      "note": "DD",
+      "title": "Evaluating generalization in protein-ligand cofolding methods.",
+      "source": "PubMed — Nature structural & molecular biology"
+    }
   }
 }
