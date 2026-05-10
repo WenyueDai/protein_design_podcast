@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sat, 09 May 2026 06:36:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 06:29:15 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-05-10</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-10/podcast_2026-05-10.mp3</guid>
+      <pubDate>Sun, 10 May 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-10/podcast_2026-05-10.mp3" length="16599789" type="audio/mpeg" />
+      <description>The first shift that jumps out is how we think about measuring proteins across technologies. | A second shift comes from the measles antibody study. | The third shift is in pancreatic cancer neuroscience.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The first shift that jumps out is how we think about measuring proteins across technologies. | A second shift comes from the measles antibody study. | The third shift is in pancreatic cancer neuroscience.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-05-09</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-09/podcast_2026-05-09.mp3</guid>
       <pubDate>Sat, 09 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-09/podcast_2026-05-09.mp3" length="18241485" type="audio/mpeg" />
-      <description>Today’s batch of papers shows two converging themes: the power of hybrid architectures that marry different inductive biases, and the expanding toolkit for probing and engineering post‑translational modifications. | The urban‑service paper demonstrates that coupling a Graph Neural Network, which captures the spatial layout of complaints, agencies and locations, with a Transformer that models time‑dependent patterns and textual semantics yields a classifier that reaches 0.938 accuracy on the NYC 311 Service Requests corpus of roughly twelve million records; the same hybrid, tuned with an Improved Heap‑Based Optimizer that adds opposition‑based learning and chaotic search, predicts resolution times with a root‑mean‑square error of just 2.18 days, outperforming earlier baselines and staying robust when faced with noisy labels or shifted temporal trends. | In the enzyme design work, researchers used deep‑learning‑generated scaffolds to hold a cysteine‑ligated cobalt porphyrin IX cofactor (CoPPIX) inside a de novo CO₂ reductase; the resulting hyper‑thermostable enzyme was assembled in vivo and showed measurable CO₂ reduction activity, a concrete proof that non‑native metalloporphyrins can be routed into custom protein cages to create new redox chemistry.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-09/podcast_2026-05-09.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today’s batch of papers shows two converging themes: the power of hybrid architectures that marry different inductive biases, and the expanding toolkit for probing and engineering post‑translational modifications. | The urban‑service paper demonstrates that coupling a Graph Neural Network, which captures the spatial layout of complaints, agencies and locations, with a Transformer that models time‑dependent patterns and textual semantics yields a classifier that reaches 0.938 accuracy on the NYC 311 Service Requests corpus of roughly twelve million records; the same hybrid, tuned with an Improved Heap‑Based Optimizer that adds opposition‑based learning and chaotic search, predicts resolution times with a root‑mean‑square error of just 2.18 days, outperforming earlier baselines and staying robust when faced with noisy labels or shifted temporal trends. | In the enzyme design work, researchers used deep‑learning‑generated scaffolds to hold a cysteine‑ligated cobalt porphyrin IX cofactor (CoPPIX) inside a de novo CO₂ reductase; the resulting hyper‑thermostable enzyme was assembled in vivo and showed measurable CO₂ reduction activity, a concrete proof that non‑native metalloporphyrins can be routed into custom protein cages to create new redox chemistry.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-10/podcast_2026-03-10.mp3</guid>
       <pubDate>Tue, 10 Mar 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-10/podcast_2026-03-10.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-03-09</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-09/podcast_2026-03-09.mp3</guid>
-      <pubDate>Mon, 09 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-09/podcast_2026-03-09.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
