@@ -74,7 +74,7 @@ def _try_one_model(client: OpenAI, model: str, url: str, text: str) -> str:
             if _is_daily_quota(e):
                 raise  # hard daily limit — propagate immediately
             if attempt < 3:
-                wait = 65 * attempt
+                wait = 20 * attempt
                 print(f"[analysis] 429 on {model} attempt {attempt}/3 — waiting {wait}s …", flush=True)
                 time.sleep(wait)
             else:
