@@ -1780,6 +1780,11 @@
       "note": "DD",
       "title": "Systematic Characterization of Thermal Stability Assay Parameters and Application in Discovery of Peptide-Protein Intera",
       "source": "bioRxiv — biochemistry"
+    },
+    "https://doi.org/10.1186/s12864-026-12927-0": {
+      "note": "DD",
+      "title": "BSepDB: a database of bacterial selenoprotein genes and proteins.",
+      "source": "PubMed — BMC genomics"
     }
   }
 }
