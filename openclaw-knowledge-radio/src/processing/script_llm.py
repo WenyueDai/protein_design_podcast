@@ -81,7 +81,7 @@ def _chat_complete_one(
             if _is_daily_quota(e):
                 _print_quota_reset(e)
                 raise  # no point retrying
-            wait = 65 * attempt
+            wait = 20 * attempt
             print(f"[llm] 429 on {model} attempt {attempt}/{retries} — waiting {wait}s …", flush=True)
             if attempt < retries:
                 time.sleep(wait)

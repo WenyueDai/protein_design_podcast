@@ -18,6 +18,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 340
     defaults:
       run:
         working-directory: openclaw-knowledge-radio
