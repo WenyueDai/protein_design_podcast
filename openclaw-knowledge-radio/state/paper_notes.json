@@ -1807,6 +1807,11 @@
       "note": "DD",
       "title": "Assessment of Alphafold Protein Models for Small-Molecule Ligand Docking versus Co-Folding.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://arxiv.org/abs/2605.10978": {
+      "note": "DD",
+      "title": "VibeProteinBench: An Evaluation Benchmark for Language-interfaced Vibe Protein Design",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
