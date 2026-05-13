@@ -1,0 +1,297 @@
+{
+  "timestamps": [
+    0.0,
+    128.32,
+    288.81,
+    424.48,
+    590.17,
+    706.3,
+    843.17,
+    1025.01,
+    1173.98,
+    1324.24,
+    1519.11
+  ],
+  "items": [
+    {
+      "title": "Energy-guided combinatorial co-optimization of antibody affinity and stability",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690765",
+      "source": "Sarel Fleishman (bioRxiv)",
+      "one_liner": "Affinity maturation is an essential process in antibody engineering. Although powerful, it is iterative, time-consuming, and can result in trade-offs, where affinity is gained at the cost of important properties, such as specificity and stability. We present a scalable strategy, called LAffAb, that starts from a crystallographic structure of the antibody-antigen complex and introduces combinations",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "author"
+      ]
+    },
+    {
+      "title": "Three Resources I Keep Coming Back to for Learning Deep Learning",
+      "url": "https://www.blopig.com/blog/2026/05/three-resources-i-keep-coming-back-to-for-learning-deep-learning/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "There is no shortage of AI content online, but over time I have found myself returning to the same handful of resources again, and I wanted to share the three that have helped me the most. AI Summer This one I would recommend to anyone who is earlier in their journey. AI Summer at theaisummer.com […]",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "More Vague, But More Useful",
+      "url": "https://www.science.org/content/blog-post/more-vague-more-useful",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Assessment of Alphafold Protein Models for Small-Molecule Ligand Docking versus Co-Folding.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01038",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Molecular docking is a powerful computational tool for predicting protein-ligand interactions, widely employed in drug discovery. However, its effectiveness is often constrained by the availability of experimentally determined, high-resolution protein structures, a process that is both time-consuming and resource-intensive. AlphaFold (AF), a machine learn...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural Interpretations of Protein Language Model Representations via Differentiable Graph Partitioning",
+      "url": "https://arxiv.org/abs/2605.10985",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2605.10985v1 Announce Type: cross \nAbstract: Protein language models such as ESM-2 learn rich residue representations that achieve strong performance on protein function prediction, but their features remain difficult to interpret as structural $\\&$ evolutionary signals are encoded in dense latent spaces. We propose a plug-$\\&$-play framework that p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "VibeProteinBench: An Evaluation Benchmark for Language-interfaced Vibe Protein Design",
+      "url": "https://arxiv.org/abs/2605.10978",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2605.10978v1 Announce Type: new \nAbstract: Protein design aims to compose amino-acid sequences that fold into stable three-dimensional structures while satisfying targeted functional properties. The field is increasingly shifting toward vibe protein design, where a single model is expected to generate novel sequences, engineer existing proteins, and...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "ConfDTI: Structure Confidence-Guided Multimodal Fusion for Drug-Target Interaction Prediction.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01036",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Protein structural information provides critical physical constraints for drug-target interaction (DTI) prediction. However, predicted protein structures inherently exhibit structural uncertainty, and treating them as deterministic inputs may introduce noise and amplify errors during feature aggregation and cross-modal interaction, thereby compromising mo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dynamic stability-driven machine learning improves binding pose identification on human serum albumin.",
+      "url": "https://doi.org/10.1007/s10822-026-00824-3",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "Accurate identification of ligand binding modes on human serum albumin (HSA) is important for understanding drug-protein interactions that influence pharmacokinetics, including site-specific competition and protein-binding displacement. However, because HSA is a large, multisite binding protein that permits diverse binding configurations, conventional mol...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Energy-aware load balancing in cloud environments using graph neural networks and grey wolf optimization.",
+      "url": "https://doi.org/10.1038/s41598-026-51660-2",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Cloud computing infrastructures must constantly maintain a balance between resource utilization and energy consumption to work effective under dynamic workloads. The training expense and generalizability of machine learning-based load balancing algorithms are both considerable, while existing methods often fails in adjusting in real time conditions. To wo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Interpreting MALDI imaging data for rare types of ampullary cancer using machine learning.",
+      "url": "https://doi.org/10.1038/s41540-026-00705-3",
+      "source": "PubMed — NPJ systems biology and applications",
+      "one_liner": "Rare tumor diseases are difficult to diagnose and there is a lack of routine diagnostic procedures. Approaches must be found that allow comprehensive identification and evaluation of prognostic relevant target proteins or transcripts. Analyzing rare ampullary cancer, respectively, to their prognosis and predictive factors by machine learning (ML) based ma...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An optimized graph neural network approach for robust and explainable IoT intrusion detection against adversarial attacks.",
+      "url": "https://doi.org/10.1038/s41598-026-48715-9",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The swift incorporation of cutting edge technologies has expanded the range for a potential adversary to conduct adaptive attacks against systems and despite progress in detection, machine learning based security remains vulnerable, highlighting the need for more robust and reliable defense methods. Existing DDoS detection techniques are not resilient aga...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exploring human GABA transporter 3 binders for epilepsy through quantum reactivity analysis, molecular dynamics, machine learning prediction, and network pharmacology.",
+      "url": "https://doi.org/10.1007/s00894-026-06758-9",
+      "source": "PubMed — Journal of molecular modeling",
+      "one_liner": "CONTEXT: Drug-resistant epilepsy (DRE) remains a major therapeutic challenge, affecting millions of patients globally who do not respond to conventional antiepileptic medications. Recent evidence highlights GABA transporter 3 (GAT3), a glial subtype responsible for regulating extracellular GABA levels, as a promising molecular target for seizure control. ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational Design and Biopharmaceutical Evaluation of a Chimeric Nanoparticle Vaccine for Targeted Delivery against BK Polyomavirus.",
+      "url": "https://doi.org/10.1007/s11095-026-04100-9",
+      "source": "PubMed — Pharmaceutical research",
+      "one_liner": "PURPOSE: To address the unmet need for a prophylactic therapy against BK polyomavirus (BKPV) in transplant recipients, this study employed a mechanism-based computational approach to design a multi-epitope chimeric nanoparticle (CNP) vaccine, predicting its biopharmaceutical and immunological profile. METHODS: A comprehensive computational biopharmaceutic...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Comparing machine and deep learning models for pediatric anxiety classification using structured EHRs and area-based measures of health data.",
+      "url": "https://doi.org/10.1371/journal.pone.0324673",
+      "source": "PubMed — PloS one",
+      "one_liner": "OBJECTIVE: This retrospective, case-control study with internal validation evaluates the performance of machine learning (ML) and deep learning (DL) models in classifying pediatric patients at risk for anxiety disorders using structured electronic health records (EHRs) and area-based measures of health (ABMH). The aim is to enable proactive care by monito...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Human gloss perception reproduced by tiny neural networks.",
+      "url": "https://doi.org/10.1038/s41562-026-02445-0",
+      "source": "PubMed — Nature human behaviour",
+      "one_liner": "A key goal of visual neuroscience is to explain how our brains infer object properties such as colour, curvature or gloss. Here we used machine learning to identify computations underlying human gloss judgements-traditionally considered a challenging inference. We rendered thousands of objects with varied shapes using a Ward reflectance model across light...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning empowers precise discovery of disease-resistance genes in plants.",
+      "url": "https://doi.org/10.1093/plphys/kiag276",
+      "source": "PubMed — Plant physiology",
+      "one_liner": "Identifying plant disease-resistance genes is essential for understanding the plant immune system and accelerating the breeding of disease-resistant crops. There is a pressing need for a method capable of accurately identifying plant disease-resistance genes on a genome-wide scale. In this study, we propose Evolutionary Scale Modeling for LRR (ESM-LRR), a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Performance and generalization analysis of machine learning, deep learning, and transformer models for histopathology image classification.",
+      "url": "https://doi.org/10.1038/s41598-026-52306-z",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Histopathology image classification plays a critical role in computer-aided diagnosis by supporting pathologists in disease detection and grading. With the rapid advancement of artificial intelligence, a wide range of machine learning, deep learning, and transformer-based models have been applied to histopathological image analysis. However, a systematic ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "BioBlobs: Unsupervised Discovery of Functional Substructures for Protein Function Prediction",
+      "url": "https://arxiv.org/abs/2510.01632",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2510.01632v2 Announce Type: replace \nAbstract: Protein function is driven by cohesive substructures, such as catalytic triads, binding pockets, and structural motifs, that occupy only a small fraction of a protein's residues. Yet existing pipelines built on protein encoders do not model proteins at the substructure level, leaving the central biologi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Deep Learning for Protein Complex Prediction and Design",
+      "url": "https://arxiv.org/abs/2605.11189",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2605.11189v1 Announce Type: cross \nAbstract: Accurately modeling and designing protein complex structures is a central problem in computational structural biology, with broad implications for understanding cellular function and developing therapeutics. This thesis investigates two fundamental aspects of this problem using deep learning: domain-speci...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Learning the Interaction Prior for Protein-Protein Interaction Prediction: A Model-Agnostic Approach",
+      "url": "https://arxiv.org/abs/2605.09964",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2605.09964v2 Announce Type: replace-cross \nAbstract: Protein-protein interactions (PPIs) are fundamental to cellular function and disease mechanisms. Current learning-based PPI predictors focus on learning powerful protein representations but neglect designing specialized classification heads. They mainly rely on generic aggregating methods like con...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    }
+  ]
+}
