@@ -1802,6 +1802,11 @@
       "note": "DD",
       "title": "More Vague, But More Useful",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c01038": {
+      "note": "DD",
+      "title": "Assessment of Alphafold Protein Models for Small-Molecule Ligand Docking versus Co-Folding.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
