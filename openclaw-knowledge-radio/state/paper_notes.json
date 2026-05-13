@@ -1786,5 +1786,12 @@
       "title": "BSepDB: a database of bacterial selenoprotein genes and proteins.",
       "source": "PubMed — BMC genomics"
     }
+  },
+  "2026-05-13": {
+    "https://www.biorxiv.org/content/10.1101/2025.11.26.690765": {
+      "note": "DD",
+      "title": "Energy-guided combinatorial co-optimization of antibody affinity and stability",
+      "source": "Sarel Fleishman (bioRxiv)"
+    }
   }
 }
