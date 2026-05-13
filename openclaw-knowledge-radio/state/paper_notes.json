@@ -1822,6 +1822,11 @@
       "note": "DD",
       "title": "Dynamic stability-driven machine learning improves binding pose identification on human serum albumin.",
       "source": "PubMed — Journal of computer-aided molecular design"
+    },
+    "https://arxiv.org/abs/2510.01632": {
+      "note": "DD",
+      "title": "BioBlobs: Unsupervised Discovery of Functional Substructures for Protein Function Prediction",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
