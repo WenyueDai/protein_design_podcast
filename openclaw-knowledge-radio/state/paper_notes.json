@@ -1832,6 +1832,11 @@
       "note": "DD",
       "title": "Deep Learning for Protein Complex Prediction and Design",
       "source": "arXiv q-bio.BM"
+    },
+    "https://arxiv.org/abs/2605.09964": {
+      "note": "DD",
+      "title": "Learning the Interaction Prior for Protein-Protein Interaction Prediction: A Model-Agnostic Approach",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
