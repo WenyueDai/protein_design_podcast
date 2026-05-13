@@ -1812,6 +1812,11 @@
       "note": "DD",
       "title": "VibeProteinBench: An Evaluation Benchmark for Language-interfaced Vibe Protein Design",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c01036": {
+      "note": "DD",
+      "title": "ConfDTI: Structure Confidence-Guided Multimodal Fusion for Drug-Target Interaction Prediction.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
