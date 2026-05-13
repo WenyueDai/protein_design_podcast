@@ -1817,6 +1817,11 @@
       "note": "DD",
       "title": "ConfDTI: Structure Confidence-Guided Multimodal Fusion for Drug-Target Interaction Prediction.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://doi.org/10.1007/s10822-026-00824-3": {
+      "note": "DD",
+      "title": "Dynamic stability-driven machine learning improves binding pose identification on human serum albumin.",
+      "source": "PubMed — Journal of computer-aided molecular design"
     }
   }
 }
