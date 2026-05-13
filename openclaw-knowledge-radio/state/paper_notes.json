@@ -1827,6 +1827,11 @@
       "note": "DD",
       "title": "BioBlobs: Unsupervised Discovery of Functional Substructures for Protein Function Prediction",
       "source": "arXiv q-bio.BM"
+    },
+    "https://arxiv.org/abs/2605.11189": {
+      "note": "DD",
+      "title": "Deep Learning for Protein Complex Prediction and Design",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
