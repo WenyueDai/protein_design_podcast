@@ -1844,6 +1844,11 @@
       "note": "DD",
       "title": "What Success Can Look Like, Darn It",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://arxiv.org/abs/2605.13789": {
+      "note": "DD",
+      "title": "ENSEMBITS: an alphabet of protein conformational ensembles",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
