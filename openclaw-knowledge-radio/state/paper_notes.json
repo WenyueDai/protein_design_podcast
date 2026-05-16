@@ -1871,6 +1871,11 @@
       "note": "DD",
       "title": "Functional flexibility in bacterial hub proteins is driven by proteome expansion.",
       "source": "PubMed — Scientific reports"
+    },
+    "https://doi.org/10.1093/nar/gkag408": {
+      "note": "DD",
+      "title": "PythiaStudio: a one-stop protein engineering platform powered by Pythia model suite.",
+      "source": "PubMed — Nucleic acids research"
     }
   }
 }
