@@ -1378,5 +1378,17 @@
   "2026-05-16|https://www.science.org/content/blog-post/stemming-ai-preprint-flood": {
     "page_id": "3625f58e-a8c2-8131-bb4a-ef99ab4daa60",
     "note": "DD"
+  },
+  "2026-05-16|https://doi.org/10.1093/bioinformatics/btag309": {
+    "page_id": "3625f58e-a8c2-8127-97a1-f63aedb3a50f",
+    "note": "DD"
+  },
+  "2026-05-16|https://doi.org/10.1016/j.bpj.2026.05.013": {
+    "page_id": "3625f58e-a8c2-817a-81b6-f2ee91d2afd3",
+    "note": "DD"
+  },
+  "2026-05-16|https://doi.org/10.1038/s41598-026-52986-7": {
+    "page_id": "3625f58e-a8c2-81d8-85b8-c8c7acf218fb",
+    "note": "DD"
   }
 }
