@@ -1861,6 +1861,11 @@
       "note": "DD",
       "title": "BindPred: A Framework for Predicting Protein-Protein Binding Affinity from Language Model Embeddings.",
       "source": "PubMed — Bioinformatics (Oxford, England)"
+    },
+    "https://doi.org/10.1016/j.bpj.2026.05.013": {
+      "note": "DD",
+      "title": "Protein Function-Conditioned Language Models for Variant Effect Prediction and Controllable Design.",
+      "source": "PubMed — Biophysical journal"
     }
   }
 }
