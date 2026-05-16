@@ -1850,5 +1850,12 @@
       "title": "ENSEMBITS: an alphabet of protein conformational ensembles",
       "source": "arXiv q-bio.BM"
     }
+  },
+  "2026-05-16": {
+    "https://www.science.org/content/blog-post/stemming-ai-preprint-flood": {
+      "note": "DD",
+      "title": "Stemming the AI Preprint Flood",
+      "source": "In the Pipeline (Derek Lowe)"
+    }
   }
 }
