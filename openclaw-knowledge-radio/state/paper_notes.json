@@ -1856,6 +1856,11 @@
       "note": "DD",
       "title": "Stemming the AI Preprint Flood",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://doi.org/10.1093/bioinformatics/btag309": {
+      "note": "DD",
+      "title": "BindPred: A Framework for Predicting Protein-Protein Binding Affinity from Language Model Embeddings.",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
     }
   }
 }
