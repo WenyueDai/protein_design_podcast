@@ -1370,5 +1370,13 @@
   "2026-05-14|https://www.science.org/content/blog-post/what-success-can-look-darn-it": {
     "page_id": "3615f58e-a8c2-8109-b9ba-d4d9f3bc523d",
     "note": "DD"
+  },
+  "2026-05-14|https://arxiv.org/abs/2605.13789": {
+    "page_id": "3615f58e-a8c2-813b-8635-f0b82b3aad7d",
+    "note": "DD"
+  },
+  "2026-05-16|https://www.science.org/content/blog-post/stemming-ai-preprint-flood": {
+    "page_id": "3625f58e-a8c2-8131-bb4a-ef99ab4daa60",
+    "note": "DD"
   }
 }
