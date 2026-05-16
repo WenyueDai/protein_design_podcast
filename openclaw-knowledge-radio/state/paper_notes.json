@@ -1866,6 +1866,11 @@
       "note": "DD",
       "title": "Protein Function-Conditioned Language Models for Variant Effect Prediction and Controllable Design.",
       "source": "PubMed — Biophysical journal"
+    },
+    "https://doi.org/10.1038/s41598-026-52986-7": {
+      "note": "DD",
+      "title": "Functional flexibility in bacterial hub proteins is driven by proteome expansion.",
+      "source": "PubMed — Scientific reports"
     }
   }
 }
