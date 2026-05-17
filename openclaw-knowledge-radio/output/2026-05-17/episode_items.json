@@ -1,0 +1,282 @@
+{
+  "timestamps": [
+    0.0,
+    161.68,
+    365.92,
+    590.24,
+    759.25,
+    988.11,
+    1165.87,
+    1336.51,
+    1553.39,
+    1770.4,
+    1984.16
+  ],
+  "items": [
+    {
+      "title": "PL-PatchSurfer3: improved structure-based virtual screening for structure variation using 3D Zernike descriptors.",
+      "url": "https://doi.org/10.1186/s13321-026-01224-3",
+      "source": "PubMed — Journal of cheminformatics",
+      "one_liner": "Structure-based virtual screening (SBVS) is a widely used approach in in silico drug discovery, requiring a receptor structure or binding site to predict a ligand's binding pose and affinity. Consequently, the performance of SBVS depends on the protein's conformation. The most common SBVS method is protein-ligand docking, which relies on physics-based, em...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Epitope-Based Multimeric Subunit Vaccine (ATOMSSUISpenta) Confers Broad Protection Against Streptococcus suis Infection.",
+      "url": "https://doi.org/10.1093/infdis/jiag131",
+      "source": "PubMed — The Journal of infectious diseases",
+      "one_liner": "BACKGROUND: Streptococcus suis (S. suis) is a zoonotic pathogen causing economic losses in the swine industry and severe human infections. High serotype variability and genomic diversity of S. suis hinder cross-protective vaccine development. Although advances in in silico prediction-driven antigen discovery have accelerated protein vaccine development, d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Plug-and-Play Platform for Customizing Multivalent Degraders and Degrader-Drug Conjugates.",
+      "url": "https://doi.org/10.1002/advs.75658",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Traditional targeted protein degradation (TPD) strategies are largely ineffective against membrane proteins, which constitute over 60% of drug targets. To address this, we develop a modular \"plug-and-play\" UPTAB (Ultrahigh-affinity Protein pairs fused to Targeting Binders) platform for TPD. The platform leverages orthogonal ultrahigh-affinity Im/CL protei...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evolution of allostery without shape shifting: Internal dynamics drives functional diversification of a transcriptional repressor superfamily",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.15.721447",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Allostery enables proteins to couple environmental signals to functional outputs, yet how allosteric mechanisms diversify during evolution remains poorly understood. Here, we address this question in the ubiquitous and functionally diverse arsenic repressor (ArsR) superfamily by integrating information-theoretic bioinformatics, structural characterization...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Plasmodium falciparum PfMyoF contains a Rab-like tail domain and associates with perinuclear membrane trafficking proteins.",
+      "url": "https://doi.org/10.1038/s42003-026-10192-1",
+      "source": "PubMed — Communications biology",
+      "one_liner": "Members of the myosin superfamily are found in all eukaryotes, including Plasmodium falciparum, the parasite that causes the majority of severe malaria. The P. falciparum genome encodes six myosins, but apart from PfMyoA and B, these remain largely uncharacterised. Here, we characterise PfMyoF, a class XXII myosin, using structural prediction, biochemical...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Design of Metal Ion-Induced Dimers Suggestive of 3D Domain Swapping.",
+      "url": "https://doi.org/10.1002/cbic.70363",
+      "source": "PubMed — Chembiochem : a European journal of chemical biology",
+      "one_liner": "Expanding strategies for the design of artificial protein dimers induced by metal ions is important for creating proteins with novel functions as well as useful research tools. In this study, we extended our previously established polyproline-based design and developed a method to induce dimerization suggestive of 3D domain swapping in a metal ion-depende...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Learning the PTM code through a coarse-to-fine mechanism-aware framework.",
+      "url": "https://doi.org/10.1038/s41467-026-73148-3",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Post-translational modifications (PTMs) form a complex combinatorial \"code\" that orchestrates protein function and cellular signaling. However, deciphering this code by predicting PTM sites and linking sites to their regulatory enzymes remains a fundamental challenge. Here, we present COMPASS-PTM, a mechanism-aware, coarse-to-fine learning framework that ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multiphysics learning with graph neural networks for thrombosis prediction in intracranial aneurysms.",
+      "url": "https://doi.org/10.1016/j.compbiomed.2026.111649",
+      "source": "PubMed — Computers in biology and medicine",
+      "one_liner": "Intracranial aneurysms are pathological dilations of cerebral arteries affecting 3-5% of the population. Their rupture can cause subarachnoid hemorrhage, a severe form of stroke with high mortality and morbidity. Endovascular treatments, such as coiling and flow diversion, aim to induce thrombosis within the aneurysmal sac. Clinicians face challenges in p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "In-silico identification and optimization of MMP-9 inhibitors for cerebral ischemia using structure based virtual screening, MD simulation, and binding free energy calculations.",
+      "url": "https://doi.org/10.1371/journal.pone.0346627",
+      "source": "PubMed — PloS one",
+      "one_liner": "Cerebral ischemia is a leading cause of disability and mortality due to the limited therapies of neuroprotection. Matrix metalloproteinase-9 (MMP-9) plays a major role in cerebral ischemia as it breaks down the components of extracellular matrix, which maintains the tissue structure and integrity, making MMP-9 a potential target for therapeutic interventi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Spatial multi-omics imputation and embedding with SpaMIE.",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101456",
+      "source": "PubMed — Cell reports methods",
+      "one_liner": "SpaMIE is a deep graph neural network framework designed to tackle the challenge of multi-section integration in spatial multi-omics (SMO) datasets with systematic missing modalities. Current SMO platforms face limitations such as high cost and limited throughput, leading to many large-scale spatial atlases relying on cost-effective mono-omics measurement...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Antibody fine specificity correlates with protection from malaria for the RTS,S vaccine in young African children: A post hoc analysis of a phase IIb randomised controlled trial.",
+      "url": "https://doi.org/10.1371/journal.pmed.1004877",
+      "source": "PubMed — PLoS medicine",
+      "one_liner": "BACKGROUND: The RTS,S/AS01 malaria vaccine was recently approved for implementation in children, but only provides modest and short-lived efficacy against malaria. RTS,S targets a portion of the Plasmodium falciparum (Pf) circumsporozoite protein (CSP), comprising the central NANP-repeat region and C-terminal domain. Mechanisms of immunity and correlates ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular dynamics simulations and fluorescence spectroscopy suggest reduced tryptophan-to-heme energy transfer facilitates lignin degradation in ClassII peroxidases.",
+      "url": "https://doi.org/10.1111/febs.70584",
+      "source": "PubMed — The FEBS journal",
+      "one_liner": "A key step in the evolution of lignin-degrading enzymes is revealed by the observation that, unlike other heme proteins studied to date, ClassII peroxidases exhibit minimal energy transfer from tryptophan to heme residues. Bioinformatics analyses and molecular dynamics simulations (MDS) of ClassII peroxidases (manganese peroxidase, MnP and versatile perox...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Silencing PACS2 attenuates cardiac hypertrophy by inhibiting ferroptosis via activating SIRT1.",
+      "url": "https://doi.org/10.1016/j.yjmcc.2026.05.007",
+      "source": "PubMed — Journal of molecular and cellular cardiology",
+      "one_liner": "BACKGROUND: Cardiac hypertrophy plays an important role in organ damage caused by hypertension and may progress into heart failure. This study investigated the function and underlying mechanisms of phosphofurin acidic cluster sorting protein 2 (PACS2) in relation to cardiac hypertrophy. MATERIALS AND METHODS: To create both in vitro and in vivo models, An...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mapping Protein Occupancy on DNA with an Unnatural Cytosine Modification.",
+      "url": "https://doi.org/10.1021/acschembio.6c00280",
+      "source": "PubMed — ACS chemical biology",
+      "one_liner": "The epigenome provides a dynamic layer of gene regulatory control above the static genetic sequence. DNA base modifications are key epigenetic regulators, predominantly found within CpG contexts in mammalian genomes. Working in tandem with these DNA modifications, chromatin-associated proteins and transcription factors further control gene expression. Giv...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "circPCMTD1: a protein-coding circular RNA that regulates DNA damage response in BCR/ABL1-positive leukemias.",
+      "url": "https://doi.org/10.1182/blood.2025031129",
+      "source": "PubMed — Blood",
+      "one_liner": "Circular RNAs (circRNAs) are a novel class of RNA transcripts that regulate important cellular functions in health and disease. In this study, we report on the functional relevance of a protein-coding circRNA, circPCMTD1, in breakpoint cluster region protein-ABL proto-oncogene 1 (BCR/ABL1)-positive myeloid leukemias. In screening experiments, we found tha...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multiplex networks-based directed graph neural network for cancer driver gene identification.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014275",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Identifying cancer driver genes is crucial in precision oncology. Most existing methods rely on a single interaction network to capture gene relationships. However, with the increasing availability of multi-omics and biological network data, integrating multiplex networks offers a more comprehensive representation of the complex and directional regulatory...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PD-1 signaling and PD-1 blockade-mediated tumor control are established at microvillar T cell contacts.",
+      "url": "https://doi.org/10.1126/sciimmunol.adz4983",
+      "source": "PubMed — Science immunology",
+      "one_liner": "Lymphocyte activation relies on the integration of signals from multiple receptors at cell-cell contacts, but the spatiotemporal regulation of this process is unclear. Here, we show that programmed cell death protein 1 (PD-1) and T cell receptor (TCR) signals are integrated at nanoscale microvillar close contacts formed during T cell interactions with the...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Proteomic signatures of equine dental tooth tissues in ageing and disease.",
+      "url": "https://doi.org/10.1002/evj.70167",
+      "source": "PubMed — Equine veterinary journal",
+      "one_liner": "BACKGROUND: Ageing and dental disease in horses lead to structural and functional deterioration of dental tissues, yet their molecular signatures remain poorly characterised. Understanding how these processes alter the protein composition of enamel, dentin, cementum and pulp is essential for improving equine oral health and identifying biomarkers of degen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Makary resigns; Biogen reports Alzheimer’s data; and more",
+      "url": "https://endpoints.news/makary-resigns-biogen-reports-alzheimers-data-and-more/",
+      "source": "Endpoints News",
+      "one_liner": "Welcome back to Endpoints Weekly. The biggest news this week was Marty Makary’s resignation from his role as FDA Commissioner. The announcement came days after reports emerged that President Donald Trump had signed off on ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biotech",
+        "industry"
+      ]
+    }
+  ]
+}
