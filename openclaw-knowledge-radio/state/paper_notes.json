@@ -1877,5 +1877,12 @@
       "title": "PythiaStudio: a one-stop protein engineering platform powered by Pythia model suite.",
       "source": "PubMed — Nucleic acids research"
     }
+  },
+  "2026-05-17": {
+    "https://doi.org/10.1186/s13321-026-01224-3": {
+      "note": "DD",
+      "title": "PL-PatchSurfer3: improved structure-based virtual screening for structure variation using 3D Zernike descriptors.",
+      "source": "PubMed — Journal of cheminformatics"
+    }
   }
 }
