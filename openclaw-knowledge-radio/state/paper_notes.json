@@ -1883,6 +1883,11 @@
       "note": "DD",
       "title": "PL-PatchSurfer3: improved structure-based virtual screening for structure variation using 3D Zernike descriptors.",
       "source": "PubMed — Journal of cheminformatics"
+    },
+    "https://doi.org/10.1093/infdis/jiag131": {
+      "note": "DD",
+      "title": "Epitope-Based Multimeric Subunit Vaccine (ATOMSSUISpenta) Confers Broad Protection Against Streptococcus suis Infection.",
+      "source": "PubMed — The Journal of infectious diseases"
     }
   }
 }
