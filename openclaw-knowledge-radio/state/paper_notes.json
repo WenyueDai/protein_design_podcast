@@ -1915,6 +1915,11 @@
       "note": "DD",
       "title": "From Passive Protection to Lasting Immunity: The Potential Vaccinal Effect of Antiviral Monoclonal Antibodies.",
       "source": "PubMed — International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases"
+    },
+    "https://arxiv.org/abs/2605.15564": {
+      "note": "DD",
+      "title": "CrystalBoltz: End-to-End Protein Structure Determination via Experiment-Guided Diffusion for X-Ray Crystallography",
+      "source": "arXiv cs.LG (AI/ML)"
     }
   }
 }
