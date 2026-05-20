@@ -1927,6 +1927,11 @@
       "note": "DD",
       "title": "Hierarchical Contrastive Learning for Multi-Domain Protein-Ligand Binding",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1016/j.jmb.2026.169863": {
+      "note": "DD",
+      "title": "DeepAlloWeb: A Web Server for Interactive Allosteric Pockets Prediction Using Protein Language Model.",
+      "source": "PubMed — Journal of molecular biology"
     }
   }
 }
