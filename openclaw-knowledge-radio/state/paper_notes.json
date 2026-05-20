@@ -1921,5 +1921,12 @@
       "title": "CrystalBoltz: End-to-End Protein Structure Determination via Experiment-Guided Diffusion for X-Ray Crystallography",
       "source": "arXiv cs.LG (AI/ML)"
     }
+  },
+  "2026-05-20": {
+    "https://arxiv.org/abs/2605.19902": {
+      "note": "DD",
+      "title": "Hierarchical Contrastive Learning for Multi-Domain Protein-Ligand Binding",
+      "source": "arXiv q-bio.QM"
+    }
   }
 }
