@@ -75,6 +75,8 @@ def _chat_complete_one(
                 temperature=temperature,
                 max_tokens=max_tokens,
             )
+            if not resp.choices:
+                raise ValueError(f"Model {model!r} returned empty choices (null response)")
             return (resp.choices[0].message.content or "").strip()
         except _RateLimitError as e:
             err = e
