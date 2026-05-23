@@ -1933,5 +1933,12 @@
       "title": "DeepAlloWeb: A Web Server for Interactive Allosteric Pockets Prediction Using Protein Language Model.",
       "source": "PubMed — Journal of molecular biology"
     }
+  },
+  "2026-05-23": {
+    "https://doi.org/10.1126/sciadv.ady2279": {
+      "note": "DD",
+      "title": "Scalable and cost-efficient custom gene library assembly from oligopools.",
+      "source": "PubMed — Science advances"
+    }
   }
 }
