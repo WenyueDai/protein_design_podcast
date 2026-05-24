@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sat, 23 May 2026 06:25:39 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 06:39:36 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-05-24</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-24/podcast_2026-05-24.mp3</guid>
+      <pubDate>Sun, 24 May 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-24/podcast_2026-05-24.mp3" length="15947877" type="audio/mpeg" />
+      <description>The field is waking up to the idea that design no longer has to be a slow, hand‑crafted affair; a paper on rapid assessment of ligand size, shape and chemical complementarity shows that deep‑learning pipelines can now spit out many de novo protein structures in a single batch, turning what used to be a weeks‑long screening of a handful of candidates into a day‑long exploration of thousands. | A second shift comes from the work on protein subcellular localization, where researchers swapped simple motif‑based predictors for language‑model‑driven knowledge embeddings. | In the clinical realm, a study of graph neural networks on a hospital’s clinical data warehouse demonstrated that these models can match the best existing benchmarks for predicting in‑hospital mortality without any hand‑crafted features.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field is waking up to the idea that design no longer has to be a slow, hand‑crafted affair; a paper on rapid assessment of ligand size, shape and chemical complementarity shows that deep‑learning pipelines can now spit out many de novo protein structures in a single batch, turning what used to be a weeks‑long screening of a handful of candidates into a day‑long exploration of thousands. | A second shift comes from the work on protein subcellular localization, where researchers swapped simple motif‑based predictors for language‑model‑driven knowledge embeddings. | In the clinical realm, a study of graph neural networks on a hospital’s clinical data warehouse demonstrated that these models can match the best existing benchmarks for predicting in‑hospital mortality without any hand‑crafted features.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-05-23</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-23/podcast_2026-05-23.mp3</guid>
       <pubDate>Sat, 23 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-23/podcast_2026-05-23.mp3" length="19212813" type="audio/mpeg" />
-      <description>The field is moving away from needing a solved structure to predict how a drug will bind, and today’s work shows why that shift is real. | At the same time, the bottleneck of turning those in‑silico designs into testable DNA is easing. | When it comes to understanding disease, a third paper took a close look at the myelin basic protein gene in multiple sclerosis.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-23/podcast_2026-05-23.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The field is moving away from needing a solved structure to predict how a drug will bind, and today’s work shows why that shift is real. | At the same time, the bottleneck of turning those in‑silico designs into testable DNA is easing. | When it comes to understanding disease, a third paper took a close look at the myelin basic protein gene in multiple sclerosis.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-20/podcast_2026-03-20.mp3</guid>
       <pubDate>Fri, 20 Mar 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-20/podcast_2026-03-20.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-03-19</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-19/podcast_2026-03-19.mp3</guid>
-      <pubDate>Thu, 19 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-19/podcast_2026-03-19.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
