@@ -1971,6 +1971,11 @@
       "note": "DD",
       "title": "Learning Protein Structure-Function Relationships through Knowledge-guided Representation Decomposition",
       "source": "arXiv q-bio.BM"
+    },
+    "https://doi.org/10.1038/s42003-026-10283-z": {
+      "note": "DD",
+      "title": "Scaling antibody language models improves structure aware representation for antibody engineering.",
+      "source": "PubMed — Communications biology"
     }
   }
 }
