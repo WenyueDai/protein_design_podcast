@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    135.64,
+    310.77,
+    479.72,
+    606.7,
+    800.0,
+    994.87,
+    1151.28,
+    1348.6,
+    1484.68,
+    1781.62
+  ],
+  "items": [
+    {
+      "title": "Learning Protein Structure-Function Relationships through Knowledge-guided Representation Decomposition",
+      "url": "https://arxiv.org/abs/2605.23960",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2605.23960v1 Announce Type: new \nAbstract: Proteins encode diverse functions within complex three-dimensional structures, yet most deep learning representations remain highly entangled, obscuring the biophysical signals that underlie function. Here we introduce ProtDiS, a knowledge-guided framework that decomposes pretrained protein micro-environmen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Structure-based machine learning model for discovering pregnane X receptor (PXR) agonists and biological activity validation.",
+      "url": "https://doi.org/10.1007/s00204-026-04447-3",
+      "source": "PubMed — Archives of toxicology",
+      "one_liner": "Pregnane X receptor (PXR), a nuclear receptor superfamily member, maintains bile acid homeostasis by regulating metabolic enzymes [e.g., cytochrome P450 3A4 (CYP3A4), uridine diphosphate glucuronosyltransferase 1A1 (UGT1A1)] and multidrug resistance protein 1 transporter, and alleviates liver/intestinal inflammation via inhibiting the nuclear factor kappa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Scaling antibody language models improves structure aware representation for antibody engineering.",
+      "url": "https://doi.org/10.1038/s42003-026-10283-z",
+      "source": "PubMed — Communications biology",
+      "one_liner": "Antibody language models have emerged as powerful tools in antibody engineering by capturing patterns in sequences to innovate discovery and optimization. While recent advances in machine learning have significantly enhanced this field, current approaches often struggle to capture the full structural complexity inherent in antibody sequences. To address t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multi-strain dengue antigen design: from epitope prediction to monoclonal antibody binding and dynamics.",
+      "url": "https://doi.org/10.1007/s00894-026-06779-4",
+      "source": "PubMed — Journal of molecular modeling",
+      "one_liner": "CONTEXT: The present study describes the computational design and in silico evaluation of a multi-strain dengue antigen candidate intended for potential application in diagnostic platforms and as a vaccine-related component. Sixteen B-cell epitopes were initially retrieved from the Immune Epitope Database (IEDB) and screened for antigenicity and toxicity,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of a model for design radiation shielding composite aprons using machine learning.",
+      "url": "https://doi.org/10.1038/s41598-026-50473-7",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "This study presents the development and evaluation of a novel lead-free composite for radiation shielding, designed using an artificial neural network (ANN). The ANN model achieved a high predictive accuracy for the mass attenuation coefficient, with a correlation coefficient of R = 0.997 and a mean absolute percentage error of 0.9-1.8%, closely matching ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development and validation of an early prediction model for bee-sting-induced acute kidney injury using machine learning.",
+      "url": "https://doi.org/10.1080/0886022X.2026.2663659",
+      "source": "PubMed — Renal failure",
+      "one_liner": "Acute kidney injury (AKI) is a severe and frequent complication following bee stings, with a reported incidence of 30-50%. Early identification is clinically challenging due to the delayed rise in serum creatinine. This retrospective study aimed to develop and validate an interpretable machine learning model for the early prediction of AKI in bee-sting pa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-based optimization of dual subthalamic nucleus and substantia nigra targeting in deep brain stimulation.",
+      "url": "https://doi.org/10.1038/s41531-026-01406-8",
+      "source": "PubMed — NPJ Parkinson's disease",
+      "one_liner": "Advances in deep brain stimulation lead technology have created new opportunities for multi-site network modulation, including applications for freezing of gait, but systematic strategies for trajectory planning are lacking. We evaluated trajectories targeting the subthalamic nucleus (STN) and the simultaneous engament of the substantia nigra (SN), specif...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CODE-II: a large-scale dataset for artificial intelligence in ECG analysis.",
+      "url": "https://doi.org/10.1038/s41746-026-02704-4",
+      "source": "PubMed — NPJ digital medicine",
+      "one_liner": "Data-driven methods for electrocardiogram (ECG) interpretation are rapidly progressing. Large datasets have enabled advances in artificial intelligence (AI) based ECG analysis, yet limitations in annotation quality, size, and scope remain major challenges. Here we present CODE-II, a large-scale real-world dataset of 2,735,269 12-lead ECGs from 2,093,807 a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Targeting the NKG2D axis in head and neck squamous cell carcinoma: from molecular insights to clinical applications.",
+      "url": "https://doi.org/10.1186/s12935-026-04345-9",
+      "source": "PubMed — Cancer cell international",
+      "one_liner": "Head and neck squamous cell carcinoma (HNSCC) is an aggressive cancer that evades immune surveillance by impairing the NKG2D receptor on natural killer (NK) cells and cytotoxic T lymphocytes. NKG2D recognizes stress-induced ligands (e.g., MICA, MICB, ULBPs) on tumor cells, but HNSCC tumors counteract this by shedding soluble ligands and secreting immunosu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SOFisher: reinforcement learning-guided experiment designs for spatial omics.",
+      "url": "https://doi.org/10.1038/s41467-026-73404-6",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Spatial omics technologies enable the precise detection of proteins and RNAs at high spatial resolution. Designing spatial omics experiments requires careful consideration of \"what\" targets to measure and \"where\" to position the field of views (FOVs). Current FOV sampling strategies often involve acquiring densely sampled FOVs and stitching them together,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "FragmentNet: Adaptive Graph Fragmentation for Graph-to-Sequence Molecular Representation Learning",
+      "url": "https://arxiv.org/abs/2502.01184",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2502.01184v2 Announce Type: replace-cross \nAbstract: Molecular representation learning methods typically tokenize molecules as individual atoms or use rigid, rule-based fragment decompositions, limiting their ability to capture meaningful chemical substructure context. We introduce FragmentNet, a graph-to-sequence model built around a novel adaptive...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Nanometer-scale RNA protein clusters (RPCs) Foster Helicase Activity of DEAD-box eIF4A",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.23.727435",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "DEAD-box RNA helicases are central regulators of RNA metabolism, employing ATP-dependent mechanisms to remodel RNA structure and RNA-protein interactions, yet how helicase catalysis is coordinated with multi-subunit interactions between RNA and protein remains unresolved. Translation initiation helicase, eukaryotic initiation factor 4A (eIF4A), which acts...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Prediction of hepatocellular carcinoma associated biomarkers in TP53 gene; A comprehensive in silico analysis.",
+      "url": "https://doi.org/10.1016/j.mrfmmm.2026.111940",
+      "source": "PubMed — Mutation research",
+      "one_liner": "TP53 mutation is one of the most frequently altered genetic variants leading to hepatocellular carcinoma (HCC). Single nucleotide polymorphisms (SNPs) in this gene play a crucial role in predicting the risk of HCC development. This study aimed to analyze how SNPs in the human TP53 gene affect protein stability, structure, localization, and other physicoch...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The evolution of display technologies for antibody drug discovery.",
+      "url": "https://doi.org/10.1016/j.tibtech.2026.04.021",
+      "source": "PubMed — Trends in biotechnology",
+      "one_liner": "Display technologies are a class of experimental methods that enable a direct association between protein function and nucleic acid sequence. Since the introduction of phage display in 1985, antibody display technologies have evolved along multiple branches and enabled new capabilities for drug discovery. Recent advances build on these foundations to acco...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HBV HBx protein masks epigenetic reader Spindlin1 via an inter-molecular zinc finger to subvert transcriptional control.",
+      "url": "https://doi.org/10.1038/s41467-026-72986-5",
+      "source": "PubMed — Nature communications",
+      "one_liner": "The HBx protein from Hepatitis B virus (HBV) is essential for replication and promotes pathogenicity during chronic infection. HBx hijacks host proteins, reprogramming them to evade antiviral defence. However, the structural basis of recruitment remains largely unknown. The HBx",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Carbon: Decoding the Language of Life",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.22.727119",
+      "source": "bioRxiv — genomics",
+      "one_liner": "Genomic foundation models have emerged alongside the rapid progress of large language models, offering a promising framework for learning general-purpose sequence priors for DNA understanding, generation, and design. This connection to LLMs creates a major opportunity: modern architectures, scaling infrastructure, autoregressive training, and token-based ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "The oomycete effector-targeted nuclear envelope protein StKAKU4 negatively regulates plant immunity via vesicle trafficking.",
+      "url": "https://doi.org/10.1093/plphys/kiag301",
+      "source": "PubMed — Plant physiology",
+      "one_liner": "Nucleoskeleton proteins modulate nuclear structure and play important roles in diverse cellular processes. Yet, their functions in immune responses are poorly understood. Here, we report that a nucleoskeleton protein, potato lamin-like protein StKAKU4, is targeted and stabilized by the oomycete RxLR effector Pi22798 to suppress immunity. StKAKU4 predomina...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An encyclopedic regulatory and functional atlas of RNA interactomes.",
+      "url": "https://doi.org/10.1038/s41592-026-03105-x",
+      "source": "PubMed — Nature methods",
+      "one_liner": "RNA molecules interact extensively with each other and with RNA-binding proteins (RBPs) to regulate gene expression. To improve detection of RBP-RNA and RNA-RNA interactions, we developed the rbsSeeker and rriScan tools and integrated the interactions into the Encyclopedia of RNA Interactomes (ENCORI), providing web-based modules to explore RNA interactio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rapid mixing in positively weighted restricted Boltzmann machines",
+      "url": "https://arxiv.org/abs/2604.00963",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2604.00963v2 Announce Type: replace-cross \nAbstract: We show polylogarithmic mixing time bounds for the alternating-scan sampler for positively weighted restricted Boltzmann machines. This is done via analysing the same chain and the Glauber dynamics for ferromagnetic two-spin systems, where we obtain new mixing time bounds up to the critical thresh...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Blocked Gibbs meets Diffusion Transformers: Unsupervised Learning for Constraint Optimization",
+      "url": "https://arxiv.org/abs/2605.25129",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2605.25129v1 Announce Type: new \nAbstract: Diffusion models have shown promise in learning to solve constraint optimization problems. However, they are mostly restricted to problems with binary variables and rely on graph neural networks, hindering their application to a broader range of problems such as those with general discrete variables or cons...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

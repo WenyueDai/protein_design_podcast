@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Mon, 25 May 2026 08:32:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 09:28:54 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-05-26</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-26/podcast_2026-05-26.mp3</guid>
+      <pubDate>Tue, 26 May 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-26/podcast_2026-05-26.mp3" length="14807637" type="audio/mpeg" />
+      <description>Three papers this week point toward a shared theme: making computational representations of biological molecules more granular and biologically faithful, and it&#x27;s changing what we can actually design. | The most striking is ProtDiS, which takes pretrained protein embeddings and deliberately breaks them apart. | On the small molecule side, the garcinoic acid paper shows what happens when you combine docking with real validation.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Three papers this week point toward a shared theme: making computational representations of biological molecules more granular and biologically faithful, and it&#x27;s changing what we can actually design. | The most striking is ProtDiS, which takes pretrained protein embeddings and deliberately breaks them apart. | On the small molecule side, the garcinoic acid paper shows what happens when you combine docking with real validation.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-05-25</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-25/podcast_2026-05-25.mp3</guid>
       <pubDate>Mon, 25 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-25/podcast_2026-05-25.mp3" length="14507157" type="audio/mpeg" />
-      <description>The first thing that jumps out from today’s set is that we’re finally moving beyond treating protein sequences as the sole source of structural knowledge. | A second shift is the realization that physics‑based constraints can rescue generalisation in protein‑protein interaction predictions. | Third, the zero‑shot deep‑learning paper shows that you can simultaneously optimise for thermostability and activity without sacrificing either.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-25/podcast_2026-05-25.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The first thing that jumps out from today’s set is that we’re finally moving beyond treating protein sequences as the sole source of structural knowledge. | A second shift is the realization that physics‑based constraints can rescue generalisation in protein‑protein interaction predictions. | Third, the zero‑shot deep‑learning paper shows that you can simultaneously optimise for thermostability and activity without sacrificing either.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-22/podcast_2026-03-22.mp3</guid>
       <pubDate>Sun, 22 Mar 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-22/podcast_2026-03-22.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-03-21</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-21/podcast_2026-03-21.mp3</guid>
-      <pubDate>Sat, 21 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-21/podcast_2026-03-21.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
