@@ -1976,6 +1976,11 @@
       "note": "DD",
       "title": "Scaling antibody language models improves structure aware representation for antibody engineering.",
       "source": "PubMed — Communications biology"
+    },
+    "https://doi.org/10.1007/s00894-026-06779-4": {
+      "note": "DD",
+      "title": "Multi-strain dengue antigen design: from epitope prediction to monoclonal antibody binding and dynamics.",
+      "source": "PubMed — Journal of molecular modeling"
     }
   }
 }
