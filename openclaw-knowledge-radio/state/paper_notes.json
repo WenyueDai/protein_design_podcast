@@ -1965,5 +1965,12 @@
       "title": "Structural Hotspot Conditioning for Diffusion-Based Molecular Design.",
       "source": "PubMed — Journal of chemical information and modeling"
     }
+  },
+  "2026-05-26": {
+    "https://arxiv.org/abs/2605.23960": {
+      "note": "DD",
+      "title": "Learning Protein Structure-Function Relationships through Knowledge-guided Representation Decomposition",
+      "source": "arXiv q-bio.BM"
+    }
   }
 }
