@@ -2003,6 +2003,11 @@
       "note": "DD",
       "title": "What Molecular Structure Cannot Tell Us: A Taxonomy of Explainability Gaps in GNN-Based Drug Toxicity Prediction",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00288": {
+      "note": "DD",
+      "title": "PSMa: Learning Protein Surface Representations with Physicochemical Masked Autoencoders.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
