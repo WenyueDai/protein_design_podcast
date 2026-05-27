@@ -1988,6 +1988,11 @@
       "note": "DD",
       "title": "Co-folding model guided by structural proteomics",
       "source": "arXiv q-bio.BM"
+    },
+    "https://doi.org/10.1073/pnas.2520561123": {
+      "note": "DD",
+      "title": "Navigating high-order protein fitness landscapes via deep learning on directed evolution trajectories.",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America"
     }
   }
 }
