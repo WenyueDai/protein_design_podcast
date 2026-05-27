@@ -1998,6 +1998,11 @@
       "note": "DD",
       "title": "Self-Improvement Imitation with Biologically Guided Search for Protein Design Under Oracle Budgets",
       "source": "arXiv q-bio.QM"
+    },
+    "https://arxiv.org/abs/2605.26183": {
+      "note": "DD",
+      "title": "What Molecular Structure Cannot Tell Us: A Taxonomy of Explainability Gaps in GNN-Based Drug Toxicity Prediction",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
