@@ -1,0 +1,298 @@
+{
+  "timestamps": [
+    0.0,
+    210.72,
+    427.89,
+    594.61,
+    871.74,
+    1050.96,
+    1199.47,
+    1338.14,
+    1526.3,
+    1729.69,
+    1974.25
+  ],
+  "items": [
+    {
+      "title": "The ballad of TIGIT",
+      "url": "https://www.owlposting.com/p/the-ballad-of-tigit",
+      "source": "Owl Posting (Abhishaike Mahajan)",
+      "one_liner": "2.8k words, 12 minute reading time",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "machine-learning",
+        "biology",
+        "substack",
+        "author"
+      ]
+    },
+    {
+      "title": "That Methyl Methacrylate Tank",
+      "url": "https://www.science.org/content/blog-post/methyl-methacrylate-tank",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Co-folding model guided by structural proteomics",
+      "url": "https://arxiv.org/abs/2605.26192",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2605.26192v1 Announce Type: cross \nAbstract: Protein structure generative models excel at predicting single protein static structures from sequence, but routinely fail to capture the correct conformational state of protein complexes, critical for protein design and induced proximity modalities such as antibodies and PROTACs. While structural proteom...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Navigating high-order protein fitness landscapes via deep learning on directed evolution trajectories.",
+      "url": "https://doi.org/10.1073/pnas.2520561123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Accurately predicting the fitness effects of high-order mutations is a grand challenge in understanding and engineering proteins. Existing models, including pretrained protein language models, struggle to capture the multiresidue interactions that govern these effects. Here, we introduce DENet, a deep learning framework that harnesses the rich comutation ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "NuConf: a rotamer library for DNA and RNA and its implementation in the protein design software MUMBO.",
+      "url": "https://doi.org/10.1038/s41598-026-52380-3",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Current AI tools for designing macromolecules have been struggling with DNA and RNA structure prediction and design as significantly less experimental training data are available for nucleic acids than for proteins. Therefore, developing alternative approaches remains of interest. MUMBO, a program for designing protein-protein interactions and protein-lig...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Disruption of BCL9-β-catenin interaction by de novo designed miniproteins inhibits oncogenic signaling.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.152719",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Nuclear β-catenin is the central effector in the canonical Wnt pathway, and its dysregulation is a key driver in many cancers. Directly targeting nuclear β-catenin remains challenging due to its multifaceted functions. In this study, we used de novo computational design to develop miniprotein inhibitors against β-catenin. We designed B12, a high-affinity ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Self-Improvement Imitation with Biologically Guided Search for Protein Design Under Oracle Budgets",
+      "url": "https://arxiv.org/abs/2605.26690",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2605.26690v1 Announce Type: cross \nAbstract: Protein sequence optimization under tight oracle budgets requires methods that explore vast combinatorial spaces while making each evaluation informative. Existing reinforcement learning and off-policy generative approaches often degrade under surrogate noise, and position-agnostic mutation proposals risk...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Modeling the Language of Codons with Artificial Intelligence.",
+      "url": "https://doi.org/10.1146/annurev-biodatasci-092624-105741",
+      "source": "PubMed — Annual review of biomedical data science",
+      "one_liner": "The messenger RNA (mRNA) sequence plays a central role in expressing functional proteins from genes. Species-specific nonuniform codon choices influence key processes, including mRNA stability, translation accuracy and efficiency, and cotranslational folding. As evolutionarily selected codon sequences encode multiple overlapping, yet often subtle, signals...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A 24-Day MicroCycle Journey to Interleukin-17 Inhibitors: From Library Design to Central Core Prioritization and Capping Group Identification.",
+      "url": "https://doi.org/10.1002/cmdc.70316",
+      "source": "PubMed — ChemMedChem",
+      "one_liner": "We herein report an application of the MicroCycle platform, which leverages advanced machine learning models, automation, and miniaturization of processes to accelerate the exploration of chemical space through libraries. This approach was applied to a novel thiazole-based series targeting interleukin-17, enabling rapid prioritization of central cores and...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Abstract and Concrete Working Memory Information in Human Visual Cortex",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.23.727368",
+      "source": "bioRxiv — neuroscience",
+      "one_liner": "Neural correlates of visuospatial working memory (WM) information have been found in frontal, parietal, and early visual areas, but the principles by which distributed WM storage is topographically organised remain subject to debate. Here, we used functional magnetic resonance imaging, representational geometry analysis, and vision models to examine the e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multi-epitope tick vaccines: From computational design to field deployment, immunoinformatics approaches, validation challenges, and translational pathways.",
+      "url": "https://doi.org/10.1016/j.parint.2026.103306",
+      "source": "PubMed — Parasitology international",
+      "one_liner": "Ticks are major vectors of pathogens affecting both humans and animals, yet effective and sustainable control strategies remain limited. Conventional vaccines based on the concealed antigen Bm86 provide only partial protection and are often constrained by antigenic variability and strain-specific responses. Recent advances in immunoinformatics have enable...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Norovirus-specific monoclonal antibodies that block histo-blood group antigen binding isolated from healthy donors.",
+      "url": "https://doi.org/10.1128/jvi.00497-26",
+      "source": "PubMed — Journal of virology",
+      "one_liner": "Human noroviruses are a leading cause of acute gastroenteritis, yet no licensed vaccine or antiviral is currently available. The extensive genetic diversity of noroviruses and the limited cross-protective immunity between genotypes complicate the development of broadly effective interventions. To systematically characterize norovirus-specific B cell respo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-IoT driven system for agricultural pest outbreak risk prediction.",
+      "url": "https://doi.org/10.1038/s41598-026-54478-0",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Invasive pests pose a significant threat to agricultural production, particularly maize crops, with severe implications for food security. Timely detection of pest development stages and accurate prediction of outbreak risks are essential for effective management. This study introduces a hybrid model combining Explainable Artificial Intelligence (XAI), a ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Two-Step Ensemble Convolutional Neural Networks for Colonoscopic Biopsy Classification Resembling Pathologists' Process.",
+      "url": "https://doi.org/10.3346/jkms.2026.41.e152",
+      "source": "PubMed — Journal of Korean medical science",
+      "one_liner": "BACKGROUND: Colorectal cancer (CRC) is a leading cause of mortality worldwide, and early examination via colonoscopy is increasingly used to prevent CRC mortality. Recently, studies have attempted utilizing artificial intelligence for the classification of CRC. However, datasets were limited in these studies, and the limited number of findings resulting f...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Leveling Up Upconverting Nanoparticles with Machine Learning.",
+      "url": "https://doi.org/10.1021/acs.accounts.6c00187",
+      "source": "PubMed — Accounts of chemical research",
+      "one_liner": "ConspectusUpconverting nanoparticles (UCNPs) transform low-energy light into higher-energy photons, enabling applications in subwavelength and subsurface imaging, nanoscale sensing, therapeutics, optogenetics, printing, and optical computing. However, the widespread adoption of UCNPs is hindered by their low brightness and limited spectral tunability. Pre...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DGCNet: a clinical knowledge-driven model for the segmentation of reflux esophagitis in endoscopic images.",
+      "url": "https://doi.org/10.1093/gastro/goag046",
+      "source": "PubMed — Gastroenterology report",
+      "one_liner": "BACKGROUND: Digestive endoscopy is vital for diagnosing reflux esophagitis (RE) and is crucial for assessing disease severity. Although some existing pixel-level precision segmentation models can achieve fine-grained lesion region recognition, artificial intelligence-assisted diagnosis of RE is still in its infancy. The mutable shape, uneven distribution,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multilabel prediction of virus target proteins via multimodal graph representation learning.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014320",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Identification of virus target proteins (VTPs) is crucial for understanding viral pathogenesis. Existing computational studies have addressed this issue by predicting host-virus protein interactions, typically framed as a single-label problem. However, targets can be identified using only intrinsic information of host proteins. Moreover, a host protein ma...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Assessment of Excited-State Methods for One- and Two-Photon Absorption in the Retinal Protonated Schiff Base.",
+      "url": "https://doi.org/10.1021/acs.jpca.6c01503",
+      "source": "PubMed — The journal of physical chemistry. A",
+      "one_liner": "The retinal protonated Schiff base (rPSB) is the chromophore of rhodopsins, a family of light-sensitive proteins employed in optogenetics and biomedical research. Accurate computational prediction of its optical properties is essential for the in silico design of rhodopsin variants. While multiconfigurational methods are required to describe the photochem...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "What Molecular Structure Cannot Tell Us: A Taxonomy of Explainability Gaps in GNN-Based Drug Toxicity Prediction",
+      "url": "https://arxiv.org/abs/2605.26183",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2605.26183v1 Announce Type: new \nAbstract: Graph Neural Networks (GNNs) have emerged as a structurally natural approach for molecular toxicity prediction, operating directly on atomic connectivity without the information loss inherent to fixed-length fingerprints. However, the fraction of a drug's known pharmacological profile that is actually encod...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "PSMa: Learning Protein Surface Representations with Physicochemical Masked Autoencoders.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00288",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Protein modeling has largely centered on sequence representations, leaving the geometry and physicochemical context of molecular surfaces underused. We introduce PSMa (Protein Surface Masked autoencoder), a self-supervised framework that operates directly on molecular-surface point clouds with geometric and physicochemical attributes, reconstructing maske...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
