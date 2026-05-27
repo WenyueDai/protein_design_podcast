@@ -1982,5 +1982,12 @@
       "title": "Multi-strain dengue antigen design: from epitope prediction to monoclonal antibody binding and dynamics.",
       "source": "PubMed — Journal of molecular modeling"
     }
+  },
+  "2026-05-27": {
+    "https://arxiv.org/abs/2605.26192": {
+      "note": "DD",
+      "title": "Co-folding model guided by structural proteomics",
+      "source": "arXiv q-bio.BM"
+    }
   }
 }
