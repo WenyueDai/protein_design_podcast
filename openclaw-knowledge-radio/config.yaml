@@ -738,16 +738,15 @@ publish:
 llm:
   enabled: true
   provider: "openrouter"
-  model: "inclusionai/ling-2.6-1t:free"
+  model: "meta-llama/llama-3.3-70b-instruct:free"
   model_fallbacks:
-    - "nvidia/nemotron-3-super-120b-a12b:free"
-    - "minimax/minimax-m2.5:free"
-    - "openrouter/free"
-  analysis_model: "inclusionai/ling-2.6-flash:free"
+    - "qwen/qwen3-coder:free"
+    - "deepseek/deepseek-v4-flash:free"
+    - "openai/gpt-oss-120b:free"
+  analysis_model: "meta-llama/llama-3.3-70b-instruct:free"
   analysis_model_fallbacks:
-    - "google/gemma-4-26b-a4b-it:free"
-    - "nvidia/nemotron-3-super-120b-a12b:free"
-    - "openrouter/free"
+    - "deepseek/deepseek-v4-flash:free"
+    - "qwen/qwen3-coder:free"
   api_key_env: "OPENROUTER_API_KEY"
   temperature: 0.25
   max_output_tokens: 8192
