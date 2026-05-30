@@ -2020,6 +2020,11 @@
       "note": "DD",
       "title": "A robust framework for protein-protein interaction prediction with multi-objective ensemble learning and embedding-based",
       "source": "PubMed — Scientific reports"
+    },
+    "https://doi.org/10.1080/19420862.2026.2678000": {
+      "note": "DD",
+      "title": "Prediction of antibody non-specificity using protein language models and biophysical parameters.",
+      "source": "PubMed — mAbs"
     }
   }
 }
