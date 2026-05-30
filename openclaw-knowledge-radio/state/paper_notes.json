@@ -2015,6 +2015,11 @@
       "note": "DD",
       "title": "Guiding AlphaFold to predict how Munc13-1 opens Syntaxin-1.",
       "source": "PubMed — FEBS open bio"
+    },
+    "https://doi.org/10.1038/s41598-026-55161-0": {
+      "note": "DD",
+      "title": "A robust framework for protein-protein interaction prediction with multi-objective ensemble learning and embedding-based",
+      "source": "PubMed — Scientific reports"
     }
   }
 }
