@@ -2009,5 +2009,12 @@
       "title": "PSMa: Learning Protein Surface Representations with Physicochemical Masked Autoencoders.",
       "source": "PubMed — Journal of chemical information and modeling"
     }
+  },
+  "2026-05-30": {
+    "https://doi.org/10.1002/2211-5463.70272": {
+      "note": "DD",
+      "title": "Guiding AlphaFold to predict how Munc13-1 opens Syntaxin-1.",
+      "source": "PubMed — FEBS open bio"
+    }
   }
 }
