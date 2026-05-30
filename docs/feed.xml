@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Wed, 27 May 2026 08:33:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 07:08:12 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-05-30</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-30/podcast_2026-05-30.mp3</guid>
+      <pubDate>Sat, 30 May 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-30/podcast_2026-05-30.mp3" length="14292717" type="audio/mpeg" />
+      <description>What used to feel like a dead‑end in synaptic biology was the notion that the closed syntaxin‑1/Munc18‑1 complex was a static scaffold, only waiting for an undefined trigger to open. | In the realm of drug repurposing, the GPR17 paper proved that a graph neural network trained on 12 000 known ligands can rank FDA‑approved molecules with a mean‑average‑precision of 0.42, and the top‑five hits—including the antipsychotic clozapine—showed sub‑micromolar inhibition in a radioligand assay. | Protein‑protein interaction prediction has long relied on co‑evolutionary couplings that miss transient or low‑affinity partners.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>What used to feel like a dead‑end in synaptic biology was the notion that the closed syntaxin‑1/Munc18‑1 complex was a static scaffold, only waiting for an undefined trigger to open. | In the realm of drug repurposing, the GPR17 paper proved that a graph neural network trained on 12 000 known ligands can rank FDA‑approved molecules with a mean‑average‑precision of 0.42, and the top‑five hits—including the antipsychotic clozapine—showed sub‑micromolar inhibition in a radioligand assay. | Protein‑protein interaction prediction has long relied on co‑evolutionary couplings that miss transient or low‑affinity partners.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-05-27</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-27/podcast_2026-05-27.mp3</guid>
       <pubDate>Wed, 27 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-27/podcast_2026-05-27.mp3" length="16042485" type="audio/mpeg" />
-      <description>The first thing that’s become crystal‑clear is that a promising checkpoint target can evaporate overnight, and the TIG I T saga is the cautionary headline. | A second paradigm shift comes from the way we generate protein‑complex structures. | The third insight reshapes how we think about mutational epistasis.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-27/podcast_2026-05-27.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The first thing that’s become crystal‑clear is that a promising checkpoint target can evaporate overnight, and the TIG I T saga is the cautionary headline. | A second paradigm shift comes from the way we generate protein‑complex structures. | The third insight reshapes how we think about mutational epistasis.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-24/podcast_2026-03-24.mp3</guid>
       <pubDate>Tue, 24 Mar 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-24/podcast_2026-03-24.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-03-23</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-23/podcast_2026-03-23.mp3</guid>
-      <pubDate>Mon, 23 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-23/podcast_2026-03-23.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
