@@ -2035,6 +2035,11 @@
       "note": "DD",
       "title": "Key Chemistry Question Answered, No Quantum Computer Required",
       "source": "Quanta Magazine"
+    },
+    "https://doi.org/10.1021/acs.jpclett.6c00969": {
+      "note": "DD",
+      "title": "Deep Learning of Protein Structure and Physicochemical Properties from Two-Dimensional Infrared Spectra.",
+      "source": "PubMed — The journal of physical chemistry letters"
     }
   }
 }
