@@ -1486,5 +1486,13 @@
   "2026-05-27|https://arxiv.org/abs/2605.26183": {
     "page_id": "36d5f58e-a8c2-81b8-a879-e82aa1a4834a",
     "note": "DD"
+  },
+  "2026-05-27|https://doi.org/10.1021/acs.jcim.6c00288": {
+    "page_id": "36d5f58e-a8c2-81cd-9942-e623fb2c4554",
+    "note": "DD"
+  },
+  "2026-05-30|https://doi.org/10.1002/2211-5463.70272": {
+    "page_id": "3705f58e-a8c2-8165-8cb8-d617ec9c07da",
+    "note": "DD"
   }
 }
