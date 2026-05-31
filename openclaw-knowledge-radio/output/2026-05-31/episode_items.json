@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    153.81,
+    312.04,
+    478.19,
+    615.54,
+    741.29,
+    897.58,
+    1119.67,
+    1261.41,
+    1425.85,
+    1643.14
+  ],
+  "items": [
+    {
+      "title": "Structure can emerge from disorder under neutral evolution",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728420",
+      "source": "bioRxiv — evolutionary biology",
+      "one_liner": "Mutations are often thought to destabilize protein structures. However, many proteins are naturally unstructured and the effect of mutations on such proteins especially in the absence of selection, remains unclear. Here, we develop a computational model to study the effects of mutations on structural disorder in both random and natural sequences, includin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Precision Chemistry for Protein Lysine Modification.",
+      "url": "https://doi.org/10.1002/chem.71193",
+      "source": "PubMed — Chemistry (Weinheim an der Bergstrasse, Germany)",
+      "one_liner": "Lysine post-translational modifications (PTMs) play crucial roles in regulating protein structures, interactions, and cellular signaling. Precise study of PTM functions requires homogeneous proteins with modifications at defined sites; however, selective chemical modification is challenging because multiple lysines undergo similar chemistry yet exhibit va...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Improving viral protein clustering using both diversified protein profiles and structural information",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.26.727815",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Viruses are abundant, ancestral and potentially fast-evolving biological entities. As a result, their encoded proteins are diverse and identifying homologous relationships between sequences is as important for phylogeny and functional annotation as it is challenging. Traditional methods group viral proteins by sequence similarity, build HMM profiles for e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-Guided Discovery of OAT-4828 as Potent, Selective, and Orally Bioavailable USP7 Inhibitor with",
+      "url": "https://doi.org/10.1021/acs.jmedchem.6c00407",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "Ubiquitin-specific protease 7 (USP7) is a deubiquitinating enzyme implicated in cancer development via stabilization of oncogenic proteins and immunosuppressive factors. We used a structure-based approach to design selective USP7 inhibitors to exploit this therapeutic target. Starting from allosteric USP7 ligand scaffolds, we introduced several structural...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational Drug Repurposing Predicts FDA-Approved Drugs as Potential Inhibitors of Chikungunya Virus nsP2 Protease.",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c00152",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "Chikungunya virus (CHIKV) infection remains a significant global health threat with no approved specific antiviral therapy. The nonstructural protein 2 protease (nsP2pro) is essential for viral replication and represents an attractive target for structure-based drug design. In this study, we employed a computational drug repurposing strategy to predict po...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A functional genomics screen identifies novel drivers of FR900359 resistance in uveal melanoma cells",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728309",
+      "source": "bioRxiv — cancer biology",
+      "one_liner": "Uveal melanoma (UM) is the most common form of intraocular cancer in adults and has a median survival rate of ~1 year after metastasis occurs. Metastatic UM is largely refractory to treatment and there are no effective pharmacological therapies, resulting in poor overall survival. Activating mutations in GNAQ and GNA11 proteins (GNAQ/11) are the oncogenic...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Nucleic Acid Therapeutics for \"Undruggable\" Cancer Targets: Mechanisms, Challenges, and Prospects.",
+      "url": "https://doi.org/10.1002/advs.75837",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Despite significant advances in precision oncology, key oncoproteins such as Ras, MYC, and p53 remain historically difficult to drug. Conventional pharmacologic strategies are fundamentally constrained by their dependency on direct interactions with well-defined structural domains, which these targets lack. Nucleic acid therapeutics offer a transformative...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dithiolane-Based Reversible \"Trojan Tag\" For Intracellular Protein Delivery and Prodrug Design.",
+      "url": "https://doi.org/10.1021/acsami.6c02118",
+      "source": "PubMed — ACS applied materials & interfaces",
+      "one_liner": "Prodrug strategies for protein therapeutics can enable spatiotemporal control, minimize off-target effects and improve safety. However, a universal chemical platform that concurrently enables reversible activity switching and efficient delivery remains a challenge. Here, we introduce a dithiolane-based \"Trojan tag\" (DTL tag) as a simple, multifunctional t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design Principles for β-Solenoid Stability via Covalent and Electrostatic Capping Motifs.",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c01287",
+      "source": "PubMed — The journal of physical chemistry letters",
+      "one_liner": "Extended β-solenoid proteins form highly repetitive architectures representing attractive scaffolds for functional biomaterials, yet their termini are intrinsically prone to fraying, and general stabilization strategies remain elusive. Here we identify covalent and electrostatic capping motifs as orthogonal mechanisms that control β-solenoid stability and...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Macroscopic Convective Fluid Flows Arising From Binding of Ions and Small Molecules to Proteins.",
+      "url": "https://doi.org/10.1002/smll.202514985",
+      "source": "PubMed — Small (Weinheim an der Bergstrasse, Germany)",
+      "one_liner": "Chemically-powered autonomous fluid flow provides a model platform for investigating active matter at the molecular scale and has promising biochemical applications. Although catalysis-driven convective flows have been extensively investigated, the physical mechanisms by which proteins can induce transport through simple molecular binding remain poorly un...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Helical Folding of Abiotic Chiral Poly(phosphodiester)s.",
+      "url": "https://doi.org/10.1002/chem.71189",
+      "source": "PubMed — Chemistry (Weinheim an der Bergstrasse, Germany)",
+      "one_liner": "Functions of biomolecules are intimately linked to their structures which result from the folding of a linear sequence of building blocks, amino-acids for proteins and nucleotides for DNA. In the quest to achieve functions with similar efficiency and selectivity that of biomolecules, several synthetic mimics of secondary structures of proteins have been d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Adipokine Nesfatin-1 Mediates Endothelial Dysfunction by Suppressing",
+      "url": "https://doi.org/10.1161/JAHA.125.047528",
+      "source": "PubMed — Journal of the American Heart Association",
+      "one_liner": "BACKGROUND: How perivascular adipose tissue (PVAT) controls vascular remodeling and perivascular inflammation during pulmonary hypertension progresses remains unknown. METHODS: Western blotting, ELISA, immunohistochemistry, and immunofluorescence were used to measure proteins expression. Sugen 5416 combined with hypoxia (SuHx) mouse models were establishe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HORDB 2.0: a comprehensive dataset of peptide hormones.",
+      "url": "https://doi.org/10.1038/s41597-026-07514-7",
+      "source": "PubMed — Scientific data",
+      "one_liner": "Peptide hormones are key signaling molecules secreted by endocrine cells that regulate vital physiological processes such as metabolism, growth, development, and reproduction. Advances in protein detection and computational approaches have led to the continuous identification of novel peptide hormones, highlighting their potential in basic research, clini...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A novel secretory protein, circVEGFC-182aa, promotes esophageal squamous cell carcinoma progression by inducing M2 polarization of tumor-associated macrophages via regulating the TGF-β pathway.",
+      "url": "https://doi.org/10.1186/s12967-026-08362-0",
+      "source": "PubMed — Journal of translational medicine",
+      "one_liner": "BACKGROUND: Esophageal squamous cell carcinoma (ESCC) is a highly aggressive malignancy with poor prognosis, largely due to limited understanding of the tumor microenvironment and a lack of effective targeted therapies. Circular RNAs (circRNAs) have emerged as key regulators in cancer, yet their potential to encode functional proteins that modulate immune...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Tsetlin Machine: A \"Third Way\" in QSAR Modeling.",
+      "url": "https://doi.org/10.1021/acs.jcim.5c03109",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Advances in Quantitative Structure Activity Relationship (QSAR) are led by two core paradigms, (1) descriptor engineering, where complex fixed-length vectors of compounds are generated and conventional ML methods are applied to those representations and (2) graphical chemical inputs (e.g., Simplified Molecular Input Line Entry System (SMILES), 2D-graph) b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Adaptive Graph-Guided Feature Decomposition for Unsupervised Multiview Feature Selection.",
+      "url": "https://doi.org/10.1109/TNNLS.2026.3694172",
+      "source": "PubMed — IEEE transactions on neural networks and learning systems",
+      "one_liner": "The exponential growth and heterogeneity of multiview data have made dimensionality reduction indispensable. Unsupervised multiview feature selection (UMFS) has emerged as a pivotal solution. However, existing embedded UMFS methods still face several challenges, including poor pseudo-label quality, inadequate modeling of nonlinear structures, and heavy re...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multi-cohort proteogenomic analyses reveal genetic effects across the proteome and diseasome.",
+      "url": "https://doi.org/10.1016/j.cell.2026.03.049",
+      "source": "PubMed — Cell",
+      "one_liner": "Understanding the genetic regulation of circulating protein levels can provide new insights into disease mechanisms. Here, we present the largest proteogenomic study to date (n = 78,664 participants across 38 studies), identifying >24,000 protein quantitative trait loci (QTLs) associated with 1,116 proteins, acting near to (n = 5,040) or distant (n = 19,6...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A high-throughput selection system for fast-acting covalent protein drugs.",
+      "url": "https://doi.org/10.1126/science.adv3081",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "Covalent protein drugs offer therapeutic potential but are limited by slow target engagement and the absence of high-throughput selection platforms. Rapid covalent binding requires coordinated optimization of affinity, stability, and warhead geometry, which is an intrinsically multidimensional challenge. We developed a yeast display platform coupled with ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
