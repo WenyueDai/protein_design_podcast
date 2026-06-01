@@ -2041,5 +2041,12 @@
       "title": "Deep Learning of Protein Structure and Physicochemical Properties from Two-Dimensional Infrared Spectra.",
       "source": "PubMed — The journal of physical chemistry letters"
     }
+  },
+  "2026-05-31": {
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728420": {
+      "note": "DD",
+      "title": "Structure can emerge from disorder under neutral evolution",
+      "source": "bioRxiv — evolutionary biology"
+    }
   }
 }
