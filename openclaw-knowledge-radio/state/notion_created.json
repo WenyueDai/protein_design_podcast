@@ -1518,5 +1518,13 @@
   "2026-05-31|https://www.biorxiv.org/content/10.64898/2026.05.28.728420": {
     "page_id": "3725f58e-a8c2-81c5-a986-e6bde5406626",
     "note": "DD"
+  },
+  "2026-05-31|https://doi.org/10.1002/chem.71193": {
+    "page_id": "3725f58e-a8c2-814a-b648-fccee38a2e41",
+    "note": "DD"
+  },
+  "2026-05-31|https://doi.org/10.1021/acs.jpclett.6c01287": {
+    "page_id": "3725f58e-a8c2-8114-a247-e7085a33b06e",
+    "note": "DD"
   }
 }
