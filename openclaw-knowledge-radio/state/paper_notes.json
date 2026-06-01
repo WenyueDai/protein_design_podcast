@@ -2052,6 +2052,11 @@
       "note": "DD",
       "title": "Precision Chemistry for Protein Lysine Modification.",
       "source": "PubMed — Chemistry (Weinheim an der Bergstrasse, Germany)"
+    },
+    "https://doi.org/10.1021/acs.jpclett.6c01287": {
+      "note": "DD",
+      "title": "Design Principles for β-Solenoid Stability via Covalent and Electrostatic Capping Motifs.",
+      "source": "PubMed — The journal of physical chemistry letters"
     }
   }
 }
