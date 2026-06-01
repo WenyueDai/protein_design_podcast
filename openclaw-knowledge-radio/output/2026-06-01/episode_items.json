@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    204.84,
+    421.77,
+    630.25,
+    853.02,
+    1030.11,
+    1228.42,
+    1406.32,
+    1589.7,
+    1778.92,
+    1974.94
+  ],
+  "items": [
+    {
+      "title": "PlantCTCIP: Chromatin Interaction Prediction Using Convolutional Neural Network and Transformer in Plants.",
+      "url": "https://doi.org/10.1111/pbi.70586",
+      "source": "PubMed — Plant biotechnology journal",
+      "one_liner": "Chromatin interactions establish spatial proximity between distant regulatory elements and their target genes, significantly influencing gene expression, and phenotypic traits. In this study, we present a plant chromatin interaction prediction model called PlantCTCIP based on Convolutional Neural Networks and Transformer. PlantCTCIP demonstrated superior ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DynamicDTA: Drug-Target Binding Affinity Prediction Using Dynamic Descriptors and Graph Representation.",
+      "url": "https://doi.org/10.1007/s12539-025-00729-z",
+      "source": "PubMed — Interdisciplinary sciences, computational life sciences",
+      "one_liner": "MOTIVATION: Predicting drug-target binding affinity (DTA) is essential for identifying potential therapeutic candidates in drug discovery. However, most existing models rely heavily on static protein structures, often overlooking the dynamic nature of proteins, which is crucial for capturing conformational flexibility that will be beneficial for protein b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein design and RNA design: Perspectives.",
+      "url": "https://doi.org/10.1002/qub2.70029",
+      "source": "PubMed — Quantitative biology (Beijing, China)",
+      "one_liner": "Advances in deep learning and generative modeling have transformed the landscape of protein and RNA design, enabling rapid and precise creation of novel biomolecules with tailored structures and functions. In protein design, generative deep learning frameworks now support backbone generation, sequence optimization, and joint sequence-structure co-design w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cross-Chirality Generalization by Axial Vectors for Hetero-Chiral Protein-Peptide Interaction Design",
+      "url": "https://arxiv.org/abs/2602.20176",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2602.20176v3 Announce Type: replace \nAbstract: D-peptide binders targeting L-proteins have promising therapeutic potential. Despite rapid advances in machine learning-based target-conditioned peptide design, generating D-peptide binders remains largely unexplored. In this work, we show that by injecting axial features to $E(3)$-equivariant (polar) v...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A multimodal human protein embeddings database: DeepDrug Protein Embeddings Bank (DPEB).",
+      "url": "https://doi.org/10.1093/nargab/lqag042",
+      "source": "PubMed — NAR genomics and bioinformatics",
+      "one_liner": "Computationally predicting protein-protein interactions (PPIs) is challenging due to the lack of integrated, multimodal protein representations. DeepDrug Protein Embeddings Bank (DPEB) is a curated collection of 22 043 human proteins that integrates four embedding types: structural (AlphaFold2), transformer-based sequence (BioEmbeddings), contextual amino...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Limitations of the refolding pipeline for de novo protein design.",
+      "url": "https://doi.org/10.1002/pro.70613",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "With the emergence of powerful deep learning-based tools, computational protein design has become a widely accessible technique. Nowadays, it is possible to perform both sequence and structure design in a matter of minutes, making the technology attractive to the broader scientific community. In protein design campaigns, one of the most common in silico s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SwitchCraft: A Programmatic Framework for Designing State-Switching Proteins",
+      "url": "https://arxiv.org/abs/2605.31236",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2605.31236v1 Announce Type: new \nAbstract: Multistate mechanisms underlie many of the complex functions observed in natural proteins. The ability to rationally design multistate proteins would have transformative implications for many areas of biotechnology, yet lies beyond the capabilities of existing deep learning frameworks for protein design. To...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Artificial intelligence driven protein design and sustainable nanomedicine for advanced theranostics.",
+      "url": "https://doi.org/10.1016/j.bioactmat.2026.01.036",
+      "source": "PubMed — Bioactive materials",
+      "one_liner": "The integration of artificial intelligence, protein engineering, and sustainable nanomedicine is driving a paradigm shift in theranostics by enabling highly precise disease diagnosis and targeted therapy. AI-driven methodologies, including machine learning and deep learning, facilitate the rapid analysis of complex biological and chemical datasets, accele...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Probing anion recognition in a cobalt(II) de novo designed metalloprotein.",
+      "url": "https://doi.org/10.1016/j.jinorgbio.2026.113268",
+      "source": "PubMed — Journal of inorganic biochemistry",
+      "one_liner": "Anions such as halides and pseudohalides influence metal-site structure and function. De novo designed metallocoiled coils offer a defined platform for studying how metal centers recognize small anions within an α-helical scaffold. Spectroscopic examination of anion binding to three-stranded coiled coils (3SCCs) using artificial cobalt(II) substituted car...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DisSubFormer: A subgraph transformer model for disease subgraph representation and comorbidity prediction.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.108935",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Disease comorbidity-the co-occurrence of multiple diseases in the same individual-is increasingly prevalent and poses major clinical and biological challenges. Computational approaches for studying disease relationships and predicting comorbidity have evolved from overlap-based similarity measures to molecular network modeling and graph deep learning. How...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Robust and interpretable machine learning for affinity prioritization of designed protein interactors.",
+      "url": "https://doi.org/10.1002/pro.70617",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Recent advances in computational protein design have resulted in a large pool of de novo interactors that necessitate efficient and robust tools for candidate prioritization. Here, we introduce Proffinity, a one-stop computational workflow employing explainable machine learning (ML) for prioritizing high-affinity binders for protein design. Proffinity int...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Gaussian Mixture Model-Based Focused Refinement for Enhanced Flexible Structure Determination in CryoEM and CryoET",
+      "url": "https://arxiv.org/abs/2605.30518",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2605.30518v1 Announce Type: new \nAbstract: Dynamic conformational changes of proteins are crucial for their cellular functions. Here we present a unified refinement pipeline for flexible protein structures in both CryoEM and in situ CryoET. Using a Gaussian mixture model-based focused alignment procedure, we improve resolution of small domains in hi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Computational design of a soluble mimic of the outer membrane LPS transport protein LptD suitable for screening of antibiotics.",
+      "url": "https://doi.org/10.1002/pro.70626",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Lipopolysaccharides (LPS) are the principal chemical component of the outer leaflet of Gram-negative bacteria and constitute the first barrier of defense against foreign molecules. Inhibition of LPS transport presents a novel concept for antibiotic discovery, and components of the transport bridge are targets of antimicrobial peptides. LptD, a β-barrel ou...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Use of biomolecular emulator for characterizing flexible proteins by small-angle x-ray scattering.",
+      "url": "https://doi.org/10.1002/pro.70646",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Flexible proteins populate heterogeneous conformational ensembles that are essential for their function. Small-angle x-ray scattering (SAXS) is widely used to study protein structure in solution and to characterize conformational heterogeneity. Yet, extracting ensemble information from SAXS remains challenging because many distinct conformational distribu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Determinants of protein corona adsorption and abundance revealed by interpretable machine learning across nanoparticle systems.",
+      "url": "https://doi.org/10.1038/s41598-026-55258-6",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Nanoparticles (NPs) hold significant potential in biotechnology, including molecular sensing, controlled release systems, and therapeutic applications. However, their behavior in biological environments remains difficult to predict because proteins rapidly absorb onto NP surfaces, forming a protein corona (PC) that reshapes their surface properties and de...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "From molecule to absorption: a multiscale framework for subcutaneous biologic delivery.",
+      "url": "https://doi.org/10.1016/j.addr.2026.115857",
+      "source": "PubMed — Advanced drug delivery reviews",
+      "one_liner": "Subcutaneous (SC) injection has become the preferred route for self-administered monoclonal antibodies (mAbs), yet achieving consistent bioavailability remains challenging because molecular-scale interactions (protein self-association) propagate through device mechanics (cavitation, sloshing) into tissue response (depot geometry, lymphatic uptake) as a co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification of deleterious missense variants of serine peptidase inhibitor Kazal type 2 gene and their impact on KAZAL domain structure, stability, flexibility, and dimension.",
+      "url": "https://doi.org/10.1080/07391102.2026.2618605",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "The SPINK2 protein, encoded by the SPINK2 gene, plays an essential role in the normal development of spermatozoa, and its deficiency is associated with spermatogenesis disorders ranging from aspermia to azoospermia. This study aimed to identify the most deleterious variants of the SPINK2 gene and to evaluate their effects on protein structure and function...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Bridging technical innovation and computational advances in studies of RNA-protein assemblies.",
+      "url": "https://doi.org/10.1038/s41576-026-00931-9",
+      "source": "PubMed — Nature reviews. Genetics",
+      "one_liner": "RNA-dependent protein assemblies - including the spliceosome, ribosome and RNA-dependent membraneless organelles - have crucial roles in diverse cellular processes through RNA scaffolding and hierarchical assembly. Various empirical techniques and artificial intelligence algorithms have been developed to help understand the architecture, dynamics and func...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Physics Enhanced Deep Surrogates for the Phonon Boltzmann Transport Equation",
+      "url": "https://arxiv.org/abs/2512.05976",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.05976v3 Announce Type: replace-cross \nAbstract: Designing materials with controlled heat flow at the nano-scale is central to advances in microelectronics, thermoelectrics, and energy-conversion technologies. At these scales, phonon transport follows the Boltzmann Transport Equation (BTE), which captures non-diffusive (ballistic) effects but is...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Plain Transformers are Surprisingly Powerful Link Predictors",
+      "url": "https://arxiv.org/abs/2602.01553",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2602.01553v2 Announce Type: replace \nAbstract: Link prediction is a core challenge in graph machine learning, demanding models that capture rich and complex topological dependencies. While Graph Neural Networks (GNNs) are the standard solution, state-of-the-art pipelines often rely on explicit structural heuristics or memory-intensive node embedding...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
