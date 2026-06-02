@@ -2064,6 +2064,11 @@
       "note": "DD",
       "title": "Limitations of the refolding pipeline for de novo protein design.",
       "source": "PubMed — Protein science : a publication of the Protein Society"
+    },
+    "https://arxiv.org/abs/2605.31236": {
+      "note": "DD",
+      "title": "SwitchCraft: A Programmatic Framework for Designing State-Switching Proteins",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
