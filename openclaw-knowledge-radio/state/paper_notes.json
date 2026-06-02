@@ -2058,5 +2058,12 @@
       "title": "Design Principles for β-Solenoid Stability via Covalent and Electrostatic Capping Motifs.",
       "source": "PubMed — The journal of physical chemistry letters"
     }
+  },
+  "2026-06-01": {
+    "https://doi.org/10.1002/pro.70613": {
+      "note": "DD",
+      "title": "Limitations of the refolding pipeline for de novo protein design.",
+      "source": "PubMed — Protein science : a publication of the Protein Society"
+    }
   }
 }
