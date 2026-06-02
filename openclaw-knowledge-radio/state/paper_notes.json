@@ -2069,6 +2069,11 @@
       "note": "DD",
       "title": "SwitchCraft: A Programmatic Framework for Designing State-Switching Proteins",
       "source": "arXiv q-bio.BM"
+    },
+    "https://arxiv.org/abs/2602.01553": {
+      "note": "DD",
+      "title": "Plain Transformers are Surprisingly Powerful Link Predictors",
+      "source": "arXiv cs.LG (AI/ML)"
     }
   }
 }
