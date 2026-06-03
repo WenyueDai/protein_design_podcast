@@ -5,8 +5,10 @@ from typing import Any, Dict, List, Optional, Tuple
 from openai import OpenAI
 try:
     from openai import RateLimitError as _RateLimitError
+    from openai import InternalServerError as _InternalServerError
 except ImportError:
     _RateLimitError = Exception  # type: ignore
+    _InternalServerError = Exception  # type: ignore
 
 
 # =========================
@@ -89,6 +91,10 @@ def _chat_complete_one(
                 time.sleep(wait)
             else:
                 raise
+        except _InternalServerError as e:
+            # 503 "no healthy upstream" — provider is down, no point retrying same model
+            print(f"[llm] 503 provider error on {model}: {e} — skipping to next model", flush=True)
+            raise
         except Exception as e:
             err = e
             if attempt < retries:

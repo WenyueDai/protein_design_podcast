@@ -738,15 +738,15 @@ publish:
 llm:
   enabled: true
   provider: "openrouter"
-  model: "meta-llama/llama-3.3-70b-instruct:free"
+  model: "deepseek/deepseek-v4-flash:free"
   model_fallbacks:
     - "qwen/qwen3-coder:free"
-    - "deepseek/deepseek-v4-flash:free"
+    - "meta-llama/llama-3.3-70b-instruct:free"
     - "openai/gpt-oss-120b:free"
-  analysis_model: "meta-llama/llama-3.3-70b-instruct:free"
+  analysis_model: "deepseek/deepseek-v4-flash:free"
   analysis_model_fallbacks:
-    - "deepseek/deepseek-v4-flash:free"
     - "qwen/qwen3-coder:free"
+    - "meta-llama/llama-3.3-70b-instruct:free"
   api_key_env: "OPENROUTER_API_KEY"
   temperature: 0.25
   max_output_tokens: 8192
