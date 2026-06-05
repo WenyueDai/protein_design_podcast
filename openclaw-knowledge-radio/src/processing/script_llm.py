@@ -5,9 +5,11 @@ from typing import Any, Dict, List, Optional, Tuple
 from openai import OpenAI
 try:
     from openai import RateLimitError as _RateLimitError
+    from openai import NotFoundError as _NotFoundError
     from openai import InternalServerError as _InternalServerError
 except ImportError:
     _RateLimitError = Exception  # type: ignore
+    _NotFoundError = Exception  # type: ignore
     _InternalServerError = Exception  # type: ignore
 
 
@@ -80,12 +82,27 @@ def _chat_complete_one(
             if not resp.choices:
                 raise ValueError(f"Model {model!r} returned empty choices (null response)")
             return (resp.choices[0].message.content or "").strip()
+        except _NotFoundError:
+            # 404 — model removed from OpenRouter, no point retrying
+            print(f"[llm] 404 model not found: {model!r} — skipping", flush=True)
+            raise
+        except _InternalServerError:
+            # 503 "no healthy upstream" — provider down, no point retrying
+            print(f"[llm] 503 provider error on {model!r} — skipping", flush=True)
+            raise
         except _RateLimitError as e:
             err = e
             if _is_daily_quota(e):
                 _print_quota_reset(e)
                 raise  # no point retrying
-            wait = 20 * attempt
+            # Respect the retry_after hint from the provider if available
+            retry_after = 30
+            try:
+                body = e.response.json()  # type: ignore[union-attr]
+                retry_after = int(body.get("error", {}).get("metadata", {}).get("retry_after_seconds", 30))
+            except Exception:
+                pass
+            wait = max(retry_after + 5, 20 * attempt)
             print(f"[llm] 429 on {model} attempt {attempt}/{retries} — waiting {wait}s …", flush=True)
             if attempt < retries:
                 time.sleep(wait)
