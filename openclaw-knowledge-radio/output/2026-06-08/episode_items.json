@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    232.82,
+    434.39,
+    593.77,
+    864.42,
+    1073.67,
+    1271.02,
+    1459.56,
+    1651.6,
+    1845.71,
+    2080.62
+  ],
+  "items": [
+    {
+      "title": "Multi-level, multi-body atomic interaction graphs for machine learning-based prediction of protein-ligand binding energies",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730001",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Accurate prediction of binding affinity is crucial for rational drug design and discovery. Traditional computational methods often rely on complex scoring functions that incorporate a multitude of physical and chemical descriptors, leading to high computational demands and sometimes limited generalizability. In this work, we propose a novel scoring functi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Interpreting embeddings from genome and protein language models.",
+      "url": "https://doi.org/10.1016/j.biotechadv.2026.108945",
+      "source": "PubMed — Biotechnology advances",
+      "one_liner": "Following advances in the field of natural language processing related to the transformer and the attention mechanism, many large language models have been trained using DNA and protein databases. While these models are designed for next-token prediction with the goal of generating novel sequences, researchers have found that the intermediate representati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Polynomial Trajectory Compression for Protein Language Model Embeddings",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730461",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein language models (PLMs) generate rich, layer-wise embeddings that capture diverse biological information but are expensive in terms of storage and computation at scale. In this work, we propose a compact surrogate representation for PLM embeddings across transformer layers using low-dimensional PCA projections and cubic polynomial trajectories. Thi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine Learning Surface Plasmon Resonance Biosensor for Simultaneous Detection of Glucose and Plasmodium falciparum Biomarkers.",
+      "url": "https://doi.org/10.1016/j.ab.2026.116165",
+      "source": "PubMed — Analytical biochemistry",
+      "one_liner": "In low-resource clinical settings, Plasmodium falciparum infection and hypoglycemia frequently co-present yet require discrete diagnostic platforms, creating a practical barrier to timely patient management. This study describes a theoretically designed multilayer surface plasmon resonance (SPR) biosensor for label-free, simultaneous quantification of blo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning- assisted remaining useful lifetime prediction of power electronic converters.",
+      "url": "https://doi.org/10.1038/s41598-026-56011-9",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "This paper presents a methodology for the remaining useful life (RUL) prediction in power electronic converters based on the health monitoring of semiconductor devices and DC capacitor(s). The primary components considered are Gallium Nitride High Electron Mobility Transistors (GaN HEMTs) and aluminum electrolytic capacitors (AECs). The proposed methodolo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CascadeMAP: Autonomous Closed-loop Optimization of Enzyme Cascades via Microfluidics, Machine Learning and Agentic AI",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.04.730034",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Enzyme cascades enable complex biochemical transformations, but their optimization is resource-intensive, requiring navigation through high-dimensional parameter spaces encompassing reaction conditions, enzyme ratios, and buffer composition. Here we introduce CascadeMAP, an autonomous microfluidic platform for closed-loop optimization of enzyme cascades, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Smart manufacturing for continuous downstream processing of monoclonal antibodies at the lab-scale.",
+      "url": "https://doi.org/10.1016/j.slast.2026.100441",
+      "source": "PubMed — SLAS technology",
+      "one_liner": "Continuous bioprocessing has shown promise for efficiently scaling production of monoclonal antibodies for biotherapeutic production. Integrating process analytical technologies at the lab-scale stage improves the reliability of results during development and the translation of the system during scale-up. Smart Manufacturing provides a framework for imple...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "VelocityFM: Short-Horizon Protein Trajectory Prediction via Flow Matching in Velocity Space",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730410",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein dynamics is fundamentally a trajectory prediction problem, but molecular dynamics (MD) simulation remains expensive and static structure predictors do not model time-ordered motion. We present VelocityFM, a short-horizon protein trajectory predictor that applies rectified flow matching in velocity space over residue frames and torsions. The model ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "CytoGem-XAI:A Hypergraph Neural Network Framework for Genome-Scale Metabolic Modeling and Interpretable Analysis",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730334",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Genome-scale metabolic models are essential for understanding cellular metabolism, yet existing deep learning approaches remain black boxes, and traditional flux balance analysis (FBA) cannot provide sample-specific predictions. To our knowledge, CytoGem-XAI is the first framework to combine hypergraph neural network representation with interpretable, FBA...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A trio of Arabidopsis proteins acts as the executor complex in the pollen aperture formation program.",
+      "url": "https://doi.org/10.1093/plcell/koag163",
+      "source": "PubMed — The Plant cell",
+      "one_liner": "Pollen apertures are specialized sites on the pollen surface that have little to no pollen wall exine and their numbers, positions, and morphology are species specific. Apertures have become a useful model for studying how cells develop distinct plasma membrane (PM) domains. During pollen development, these sites recruit specific factors and become protec...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Human small non-coding tRNA-derived fragments as key hallmarks of host-virus interaction in viral infections.",
+      "url": "https://doi.org/10.1186/s13578-026-01552-9",
+      "source": "PubMed — Cell & bioscience",
+      "one_liner": "Viral infections cause deep changes in the host transcriptome, triggering a complex antiviral immune response that involves multiple proteins and molecular and cellular signaling pathways. Traditionally, Transfer RNAs (tRNAs) have been identified for their vital role in protein synthesis, and recent investigations have determined different small non-codin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multimodal physical evidence uncovers interpretable gene regulatory networks for perturbation prediction",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.05.729520",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Gene regulatory networks govern cell fate transitions through dynamic causal mechanisms. Since exhaustively mapping this vast perturbation space experimentally is prohibitive, scalable computational models are essential. Yet, current frameworks fall short because they infer statistical co-expression rather than physical mechanisms, remain blind to non-can...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "CUL7-mediated KEAP1 ubiquitination promotes the progression of colon cancer via NRF2 signaling.",
+      "url": "https://doi.org/10.1038/s41419-026-08929-1",
+      "source": "PubMed — Cell death & disease",
+      "one_liner": "Cullin7 (CUL7) mediates cancer progression across multiple cancer types through its regulatory role in protein ubiquitination. However, the biological function and molecular mechanisms underlying CUL7 in colon cancer remain poorly defined. Here, we demonstrate that high CUL7 expression correlates with poor prognosis in patients. Ablation of CUL7 inhibited...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CiliAI: Automated segmentation and compartment specific fluorescence quantification of primary cilia in confocal microscopy images",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.05.727888",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Primary cilia regulate essential signalling pathways controlling cell proliferation, differentiation, and tissue homeostasis. Quantitative analysis of ciliary morphology and compartment-specific protein localization by confocal microscopy is labor-intensive, user-dependent, and difficult to scale, particularly for multiplexed 3D image datasets. Here, we p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of coumarin-based acetylcholinesterase inhibitors: Synthesis, biological assessment and computational simulations.",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.109630",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "Novel coumarin-based derivatives (5, 6a-c and 10a-j) have been designed, synthesized and biologically assessed as multimodal anti-Alzheimer agents targeting acetylcholinesterase (AChE), butyrylcholinesterase (BuChE) and glycogen synthase kinase-3β (GSK-3β). The synthesized derivatives have been afforded in a good yield and the structures confirmed by the ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rho-associated kinase inhibitors in cerebral cavernous malformations: a preclinical systematic review.",
+      "url": "https://doi.org/10.1007/s10143-026-04360-4",
+      "source": "PubMed — Neurosurgical review",
+      "one_liner": "Cerebral cavernous malformations (CCMs) are vascular abnormalities characterized by clusters of dilated capillaries. They are most associated with loss-of-function mutations in three genes (Ccm1, Ccm2, and Pdcd10/Ccm3). In capillary endothelial cells, mutations activate the Rho-associated coiled-coil-containing protein kinase (ROCK), leading to non-heme i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "[WD40 repeat-containing protein 6 aggravates diabetic kidney disease by promoting lipid accumulation in renal tubular cells].",
+      "url": "https://doi.org/10.3724/zdxbyxb-2025-0666",
+      "source": "PubMed — Zhejiang da xue xue bao. Yi xue ban = Journal of Zhejiang University. Medical sciences",
+      "one_liner": "OBJECTIVES: To investigate the role of WD40 repeat-containing protein 6 (WDR6) in the regulation of tubular lipid metabolism in diabetic kidney disease (DKD). METHODS: A total of 97 patients who underwent renal biopsy at Linyi People's Hospital between 2015 and 2023 were enrolled. Based on pathological diagnoses, the patients were divided into three group...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "IFITM1 differentially regulates antibacterial immunity and immunopathology but is dispensable for antiparasitic responses.",
+      "url": "https://doi.org/10.1093/jimmun/vkag122",
+      "source": "PubMed — Journal of immunology (Baltimore, Md. : 1950)",
+      "one_liner": "Interferon-induced transmembrane (IFITM) proteins underpin antiviral responses, yet their role in bacterial infections remains underexplored, particularly for parasites. We probed the role of IFITM1 in Mycobacterium tuberculosis (Mtb), Listeria monocytogenes (Lm), and Leishmania major infection using IFITM1 knockout mice. Notably, IFITM1 was upregulated i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ADAGE: Active Defenses Against GNN Extraction",
+      "url": "https://arxiv.org/abs/2503.00065",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2503.00065v4 Announce Type: replace-cross \nAbstract: Graph Neural Networks (GNNs) achieve high performance in various real-world applications, such as drug discovery, traffic states prediction, and recommendation systems. The fact that building powerful GNNs requires a large amount of training data, powerful computing resources, and human expertise ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Hard labels sampled from sparse targets mislead rotation invariant algorithms",
+      "url": "https://arxiv.org/abs/2603.20967",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2603.20967v2 Announce Type: replace-cross \nAbstract: One of the most common machine learning setups is logistic regression. In many classification models, including neural networks, the final prediction is obtained by applying a logistic link function to a linear score. In binary logistic regression, the feedback can be either soft labels, correspon...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

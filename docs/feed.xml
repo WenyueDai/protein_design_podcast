@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sun, 07 Jun 2026 06:39:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 07:12:38 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-06-08</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-08/podcast_2026-06-08.mp3</guid>
+      <pubDate>Mon, 08 Jun 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-08/podcast_2026-06-08.mp3" length="17418549" type="audio/mpeg" />
+      <description>What used to feel like a wall of chemistry and physics is cracking open into a more data‑driven landscape, and today’s five papers illustrate exactly where that crack is widening. | A second shift is the growing confidence that the hidden layers of protein language models are not just black boxes. | The third paper tackles the practical bottleneck of storing those massive embeddings.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>What used to feel like a wall of chemistry and physics is cracking open into a more data‑driven landscape, and today’s five papers illustrate exactly where that crack is widening. | A second shift is the growing confidence that the hidden layers of protein language models are not just black boxes. | The third paper tackles the practical bottleneck of storing those massive embeddings.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-06-07</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-07/podcast_2026-06-07.mp3</guid>
       <pubDate>Sun, 07 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-07/podcast_2026-06-07.mp3" length="14569269" type="audio/mpeg" />
-      <description>What’s striking today is how the borders of protein design are being redrawn by ideas that originally lived in very different scientific neighborhoods. | A second shift comes from the same network mindset applied to dynamics. | Finally, the high‑throughput GUS inhibitor screen illustrated how machine‑learning classifiers trained on thousands of enzyme–inhibitor pairs can flag chemically tractable hits in minutes.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-07/podcast_2026-06-07.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>What’s striking today is how the borders of protein design are being redrawn by ideas that originally lived in very different scientific neighborhoods. | A second shift comes from the same network mindset applied to dynamics. | Finally, the high‑throughput GUS inhibitor screen illustrated how machine‑learning classifiers trained on thousands of enzyme–inhibitor pairs can flag chemically tractable hits in minutes.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-29/podcast_2026-03-29.mp3</guid>
       <pubDate>Sun, 29 Mar 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-29/podcast_2026-03-29.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-03-28</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-28/podcast_2026-03-28.mp3</guid>
-      <pubDate>Sat, 28 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-28/podcast_2026-03-28.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
