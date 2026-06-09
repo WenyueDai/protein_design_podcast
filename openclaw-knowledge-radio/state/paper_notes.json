@@ -2087,5 +2087,12 @@
       "title": "VelocityFM: Short-Horizon Protein Trajectory Prediction via Flow Matching in Velocity Space",
       "source": "bioRxiv — bioinformatics"
     }
+  },
+  "2026-06-09": {
+    "https://arxiv.org/abs/2606.08647": {
+      "note": "DD",
+      "title": "Protein Dynamics Beyond Structure Prediction",
+      "source": "arXiv q-bio.BM"
+    }
   }
 }
