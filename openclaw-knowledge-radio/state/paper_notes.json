@@ -2080,5 +2080,12 @@
       "title": "Protein design and RNA design: Perspectives.",
       "source": "PubMed — Quantitative biology (Beijing, China)"
     }
+  },
+  "2026-06-08": {
+    "https://www.biorxiv.org/content/10.64898/2026.06.05.730410": {
+      "note": "DD",
+      "title": "VelocityFM: Short-Horizon Protein Trajectory Prediction via Flow Matching in Velocity Space",
+      "source": "bioRxiv — bioinformatics"
+    }
   }
 }
