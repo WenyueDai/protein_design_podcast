@@ -2098,6 +2098,11 @@
       "note": "DD",
       "title": "SurfDesign: Effective Protein Design on Molecular Surfaces",
       "source": "arXiv q-bio.BM"
+    },
+    "https://arxiv.org/abs/2511.22519": {
+      "note": "DD",
+      "title": "FoldSAE: Learning to Steer Protein Folding Through Sparse Representations",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
