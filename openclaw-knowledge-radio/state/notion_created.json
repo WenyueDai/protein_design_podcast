@@ -1546,5 +1546,13 @@
   "2026-06-08|https://www.biorxiv.org/content/10.64898/2026.06.05.730410": {
     "page_id": "37a5f58e-a8c2-8102-bd55-ff396b09ed52",
     "note": "DD"
+  },
+  "2026-06-09|https://arxiv.org/abs/2606.08647": {
+    "page_id": "37a5f58e-a8c2-8199-a59e-d33331924077",
+    "note": "DD"
+  },
+  "2026-06-09|https://arxiv.org/abs/2606.07567": {
+    "page_id": "37a5f58e-a8c2-8152-abf5-f87529dd7f29",
+    "note": "DD"
   }
 }
