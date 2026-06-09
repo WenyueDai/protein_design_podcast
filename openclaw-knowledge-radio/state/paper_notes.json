@@ -2093,6 +2093,11 @@
       "note": "DD",
       "title": "Protein Dynamics Beyond Structure Prediction",
       "source": "arXiv q-bio.BM"
+    },
+    "https://arxiv.org/abs/2606.07567": {
+      "note": "DD",
+      "title": "SurfDesign: Effective Protein Design on Molecular Surfaces",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
