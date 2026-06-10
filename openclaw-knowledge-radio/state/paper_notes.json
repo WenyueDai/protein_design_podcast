@@ -2120,6 +2120,11 @@
       "note": "DD",
       "title": "AgentPLM: Agentic Protein Language Models with Reasoning-Augmented Decoding for Protein Sequence Design",
       "source": "arXiv q-bio.QM"
+    },
+    "https://arxiv.org/abs/2606.11057": {
+      "note": "DD",
+      "title": "Flexible Kernels for Protein Property Prediction",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
