@@ -2140,6 +2140,11 @@
       "note": "DD",
       "title": "KNexPHENIX: A PHENIX-Based Workflow for Improving Cryo-EM and Crystallographic Structural Models.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://doi.org/10.1021/acs.biochem.5c00813": {
+      "note": "DD",
+      "title": "Backbone Nitrogen Substitution Probes the Role of Glycine Residues at GxxxG Interfaces in Transmembrane Helices.",
+      "source": "PubMed — Biochemistry"
     }
   }
 }
