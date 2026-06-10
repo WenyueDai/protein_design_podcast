@@ -2145,6 +2145,11 @@
       "note": "DD",
       "title": "Backbone Nitrogen Substitution Probes the Role of Glycine Residues at GxxxG Interfaces in Transmembrane Helices.",
       "source": "PubMed — Biochemistry"
+    },
+    "https://doi.org/10.1021/acs.jctc.6c00821": {
+      "note": "DD",
+      "title": "EZPro-Multi: Contrastive Learning-Enhanced Multi-property Prediction for Enzyme Engineering.",
+      "source": "PubMed — Journal of chemical theory and computation"
     }
   }
 }
