@@ -2115,6 +2115,11 @@
       "note": "DD",
       "title": "Discriminator-Guided Inverse Folding for Multi-Property Protein Design.",
       "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    },
+    "https://arxiv.org/abs/2606.02386": {
+      "note": "DD",
+      "title": "AgentPLM: Agentic Protein Language Models with Reasoning-Augmented Decoding for Protein Sequence Design",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
