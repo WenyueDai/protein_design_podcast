@@ -2135,6 +2135,11 @@
       "note": "DD",
       "title": "TaxoFormer: Hierarchical Transformer for Predicting the Full Taxonomic Lineage of Protein Sequences",
       "source": "bioRxiv — synthetic biology"
+    },
+    "https://doi.org/10.1021/acs.jcim.5c02404": {
+      "note": "DD",
+      "title": "KNexPHENIX: A PHENIX-Based Workflow for Improving Cryo-EM and Crystallographic Structural Models.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
