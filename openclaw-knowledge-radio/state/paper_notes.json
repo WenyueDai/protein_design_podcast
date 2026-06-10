@@ -2150,6 +2150,11 @@
       "note": "DD",
       "title": "EZPro-Multi: Contrastive Learning-Enhanced Multi-property Prediction for Enzyme Engineering.",
       "source": "PubMed — Journal of chemical theory and computation"
+    },
+    "https://doi.org/10.1073/pnas.2524866123": {
+      "note": "DD",
+      "title": "G-protein regulatory network governs receptor internalization dynamics.",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America"
     }
   }
 }
