@@ -2109,5 +2109,12 @@
       "title": "Therapeutic Approaches Against Dengue Virus: Current Status of Vaccines, Antivirals, and Monoclonal Antibodies.",
       "source": "PubMed — Emerging microbes & infections"
     }
+  },
+  "2026-06-10": {
+    "https://doi.org/10.1002/advs.75988": {
+      "note": "DD",
+      "title": "Discriminator-Guided Inverse Folding for Multi-Property Protein Design.",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    }
   }
 }
