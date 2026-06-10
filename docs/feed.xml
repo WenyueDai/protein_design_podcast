@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jun 2026 07:10:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 07:03:48 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-06-10</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-10/podcast_2026-06-10.mp3</guid>
+      <pubDate>Wed, 10 Jun 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-10/podcast_2026-06-10.mp3" length="16523925" type="audio/mpeg" />
+      <description>Designing proteins used to be a two‑step game: first you pick a backbone, then you thread a sequence that satisfies a handful of constraints, hoping the result will also be stable, soluble and functional. | AgentPLM takes the “single‑pass” mindset of most protein language models and turns it into an interactive dialogue. | The flexible‑kernel work reminds us that we don’t always need massive embeddings to predict properties.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Designing proteins used to be a two‑step game: first you pick a backbone, then you thread a sequence that satisfies a handful of constraints, hoping the result will also be stable, soluble and functional. | AgentPLM takes the “single‑pass” mindset of most protein language models and turns it into an interactive dialogue. | The flexible‑kernel work reminds us that we don’t always need massive embeddings to predict properties.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-06-09</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-09/podcast_2026-06-09.mp3</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-09/podcast_2026-06-09.mp3" length="16470741" type="audio/mpeg" />
-      <description>The biggest surprise coming out of today’s reading is how quickly the community is moving from “static pictures” to “personalized, dynamic blueprints.” For decades we built cancer vaccines around shared tumor‑associated antigens like HER2 or NY‑ESO‑1, assuming that a one‑size‑fits‑all peptide could break tolerance. | That same theme of moving beyond a single structure appears in the protein‑dynamics roadmap. | SurfDesign takes the surface‑first idea even further.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-09/podcast_2026-06-09.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The biggest surprise coming out of today’s reading is how quickly the community is moving from “static pictures” to “personalized, dynamic blueprints.” For decades we built cancer vaccines around shared tumor‑associated antigens like HER2 or NY‑ESO‑1, assuming that a one‑size‑fits‑all peptide could break tolerance. | That same theme of moving beyond a single structure appears in the protein‑dynamics roadmap. | SurfDesign takes the surface‑first idea even further.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-31/podcast_2026-03-31.mp3</guid>
       <pubDate>Tue, 31 Mar 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-31/podcast_2026-03-31.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-03-30</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-30/podcast_2026-03-30.mp3</guid>
-      <pubDate>Mon, 30 Mar 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-03-30/podcast_2026-03-30.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
