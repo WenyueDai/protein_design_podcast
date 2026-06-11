@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    183.28,
+    374.08,
+    529.98,
+    817.62,
+    1013.09,
+    1206.38,
+    1402.17,
+    1580.2,
+    1743.54,
+    1930.76
+  ],
+  "items": [
+    {
+      "title": "BioPipelines: Accessible Computational Protein and Ligand Design for Chemical Biologists.",
+      "url": "https://doi.org/10.34133/csbj.0129",
+      "source": "PubMed — Computational and structural biotechnology journal",
+      "one_liner": "Deep learning methods for protein structure generation, sequence design, and structure and property prediction have created unprecedented opportunities for protein engineering and drug discovery. However, using these tools often requires navigating incompatible software environments, diverse input/output formats, and high-performance computing infrastruct...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identifying the relationship between exosome genes and breast cancer risk using bioinformatics and machine learning methods.",
+      "url": "https://doi.org/10.1007/s12672-026-05402-5",
+      "source": "PubMed — Discover oncology",
+      "one_liner": "BACKGROUND: Breast cancer (BC) is the most prevalent cancer among women globally, with a high mortality rate. The treatment and prevention of this disease are of utmost importance. Exosomes-nanovesicles derived from cells-play a vital role in intercellular communication and have profound implications for numerous physiological and pathological processes. ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Extracranial vascular association of moyamoya disease: a systematic review and machine learning analysis.",
+      "url": "https://doi.org/10.1007/s10072-026-09168-0",
+      "source": "PubMed — Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+      "one_liner": "BACKGROUND: Intracranial steno-occlusive lesions are characteristic of moyamoya disease (MMD), but increasing reports of extracranial vascular involvement suggest a possible systemic arteriopathy. METHODS: We conducted a PRISMA-guided systematic review (1974-May 2025) to identify extracranial vascular involvement in classical MMD. Seventy-four studies wer...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Electronic Health Record-Based Machine Learning Model for Predicting Disease Activity in Patients with Rheumatoid Arthritis.",
+      "url": "https://doi.org/10.34133/hds.0461",
+      "source": "PubMed — Health data science",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Interpretable enzyme function prediction via sparse autoencoder features of ESMC across the microbial protein universe",
+      "url": "https://arxiv.org/abs/2606.12209",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2606.12209v1 Announce Type: new \nAbstract: Microbial genomes and metagenomes contain millions of proteins whose enzymatic functions remain unknown, the enzyme dark matter. While deep learning has improved protein function prediction, most methods are black boxes relying on sequence or structural similarity, limiting discovery of novel catalytic acti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "The LiPP Benchmark Set for Modeling Lipid-Protein Complexes: Comparison of Co-Folding and Docking Methods.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01457",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Lipid-protein interactions are a universal feature of nearly all cellular pathways and are essential for advances in medicine, pharmaceuticals, and biotechnology. However, computational prediction of lipid-protein binding poses lags behind protein-protein, protein-small molecule, and protein-nucleic acid complexes, partially due to the lack of inclusive d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SLiMNet: a deep learning model to detect short linear motifs using protein large language model representations and paired inputs",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.04.722713",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Short linear motifs (SLiMs) are short (3-15 amino acids in length) segments within intrinsically disordered regions (IDRs) that mediate transient protein-protein interactions as well as other functions such as stability and subcellular localization. Only a few thousand out of likely hundreds of thousands have been experimentally validated. SLiMs can be de...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multiple Protein-Protein Interactions Drive the Assembly and Budding of the Chikungunya Virion.",
+      "url": "https://doi.org/10.1021/acsinfecdis.6c00369",
+      "source": "PubMed — ACS infectious diseases",
+      "one_liner": "The assembly of enveloped viruses is a highly orchestrated process that depends on the coupling of multiple protein-protein interactions within a membrane environment. To gain mechanistic insight into this process, we use Chikungunya virus as a model system to study Alphavirus assembly, focusing on the interplay between core-spike and spike-spike interact...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Natural and evolved membrane-associated accessory proteins differentially engage SNARE machinery for AAV egress.",
+      "url": "https://doi.org/10.1128/jvi.00026-26",
+      "source": "PubMed — Journal of virology",
+      "one_liner": "Adeno-associated viruses (AAV) are non-enveloped parvoviruses widely utilized for therapeutic gene delivery. The membrane-associated accessory protein (MAAP), a key viral protein, is critical for cellular egress of both infectious and recombinant AAV particles. However, the structure-function correlates of this process have remained largely elusive. Here,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Different mechanisms for human rhinovirus survival in the presence of deleterious amino acid substitutions at virion protein-protein or RNA-protein interfaces.",
+      "url": "https://doi.org/10.1128/jvi.00511-26",
+      "source": "PubMed — Journal of virology",
+      "one_liner": "A combination of structure-function and genetic analyses of viruses is unveiling a wide repertoire of adaptive mechanisms for restoring biological function in the face of negative selection pressures. The fixation of second-site compensatory mutations in highly heterogeneous RNA virus populations constitutes a frequent and versatile response to recover in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing the detection of LTP through lyophilized protein samples and NIR spectroscopy with explainable deep learning.",
+      "url": "https://doi.org/10.1038/s41598-026-56935-2",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Lipid transfer proteins (LTPs) are clinically relevant allergens widely present in plant-based foods, and their reliable detection in complex food matrices remains a major challenge. In this study, we developed an integrated framework combining near-infrared spectroscopy (NIRS), deep learning, and explainability methods to enable accurate and interpretabl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Immunoinformatics-based design of artificial chimeric proteins as universal vaccine candidates against foot-and-mouth disease virus serotypes A, O, and SAT2.",
+      "url": "https://doi.org/10.1038/s41598-026-49135-5",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Foot-and-mouth disease virus (FMDV) remains a major constraint to livestock health due to its high mutation rate and serotype diversity. Currently, FMDV vaccines, primarily inactivated whole-virus formulations, have significant limitations, including limited cross-protection, high production costs, and potential biosafety risks. To address the need for br...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Polymer-stabilized amorphous CuO-ZnO hybrid nanocomplex as a promising candidate for antimicrobial therapy and controlled drug delivery with molecular docking insights.",
+      "url": "https://doi.org/10.1038/s41598-026-57132-x",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "In this study, multifunctional polymer-stabilized CuO-ZnO hybrid nanocomplexes were developed through a green synthesis approach and systematically evaluated for their antimicrobial and protein delivery potential. Bimetallic CuO-ZnO nanoparticles were biosynthesized using extracts of Cotoneaster horizontalis, Salvia officinalis, and Laurus nobilis, follow...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Designing the Future of Hemostasis.",
+      "url": "https://doi.org/10.1055/a-2885-4368",
+      "source": "PubMed — Seminars in thrombosis and hemostasis",
+      "one_liner": "Bleeding disorders arising from dysfunctional platelet-protein interactions pose a significant clinical challenge due to their heterogeneity and complexity. Primary hemostasis is mediated by von Willebrand factor (VWF) and platelet surface receptors GPIbα and αIIbβ3. This protein triad is central to clot formation, and interfering with their associated ac...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cell state plasticity emerging from co-regulated, competitive, and configurable interactions within the AP-1 network",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.06.686987",
+      "source": "bioRxiv — systems biology",
+      "one_liner": "AP-1 transcription factors have been implicated in cellular plasticity, differentiation-state heterogeneity, and phenotype switching in response to cancer therapies. Although AP-1 states, defined by combinatorial expression of AP-1 proteins, are heterogeneous within cell populations, only a subset of possible states is observed. How these states are const...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exploring the bistable equilibrium of methylated CpG DNA recognition by the MBD2 protein",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.06.30.662303",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Methyl-CpG binding domain 2 (MBD2) is a critical epigenetic regulator that selectively binds methylated CpG dinucleotides, key marks controlling gene regulation and chromatin organization. Understanding the interactions and conformational dynamics underlying this high selectivity is essential to elucidate MBD2's regulatory role. Here, using extensive clas...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Wave-aware mortality prediction in COVID-19: a multi-stage feature selection and explainable machine-learning framework.",
+      "url": "https://doi.org/10.1186/s12911-026-03464-7",
+      "source": "PubMed — BMC medical informatics and decision making",
+      "one_liner": "BACKGROUND: Mortality among hospitalized COVID-19 patients changed markedly across successive epidemic waves as circulating variants shifted, population immunity increased, and health-system pressures fluctuated. These increasingly heterogeneous conditions raise concerns about whether prediction models developed during early phases remain reliable in late...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DeepRHP: A Hybrid Variational Autoencoder for Designing Random Heteropolymers as Protein Mimics",
+      "url": "https://arxiv.org/abs/2606.11651",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2606.11651v1 Announce Type: cross \nAbstract: Synthetic random heteropolymers (RHPs), consisting of a predefined set of monomers, offer an approach toward the design of protein-like materials. These RHPs, if designed appropriately, can mimic protein behavior and function. As such, there is a need for computational tools to efficiently guide RHP desig...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Modelling magnetic material properties with uncertainty-aware neural networks",
+      "url": "https://arxiv.org/abs/2606.11870",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.11870v1 Announce Type: cross \nAbstract: Machine learning is increasingly applied to accelerate the discovery of novel materials by exploring large compositional and structural design spaces. Yet, the scarcity of high-quality data and the frequent need for out-of-distribution prediction introduce substantial uncertainty, making the assessment of...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics",
+      "url": "https://arxiv.org/abs/2606.11833",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.11833v1 Announce Type: new \nAbstract: Flow matching and diffusion models enable conditional generation across domains ranging from images to proteins, with recent extensions to out-of-distribution contexts. Yet generative models of neural time series have largely remained restricted to categorical conditioning, precluding compositional and zero...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
