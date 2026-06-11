@@ -2161,5 +2161,12 @@
       "title": "Synergistic Protein-Protein and Protein-Lipid Interactions Drive SARS-CoV-2 Envelope Assembly.",
       "source": "PubMed — Journal of chemical information and modeling"
     }
+  },
+  "2026-06-11": {
+    "https://doi.org/10.34133/csbj.0129": {
+      "note": "DD",
+      "title": "BioPipelines: Accessible Computational Protein and Ligand Design for Chemical Biologists.",
+      "source": "PubMed — Computational and structural biotechnology journal"
+    }
   }
 }
