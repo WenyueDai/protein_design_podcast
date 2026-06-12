@@ -2189,6 +2189,11 @@
       "note": "DD",
       "title": "Structural diversity and chemical space analysis of a PROTAC database using unsupervised machine learning.",
       "source": "PubMed — Scientific reports"
+    },
+    "https://doi.org/10.1038/s41598-026-54101-2": {
+      "note": "DD",
+      "title": "Entropy quantum computing for fixed-backbone protein design.",
+      "source": "PubMed — Scientific reports"
     }
   }
 }
