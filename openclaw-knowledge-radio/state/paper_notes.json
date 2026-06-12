@@ -2184,6 +2184,11 @@
       "note": "DD",
       "title": "Viral Proteins Reveal Geometry of Protein Language Models",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1038/s41598-026-53215-x": {
+      "note": "DD",
+      "title": "Structural diversity and chemical space analysis of a PROTAC database using unsupervised machine learning.",
+      "source": "PubMed — Scientific reports"
     }
   }
 }
