@@ -2174,6 +2174,11 @@
       "note": "DD",
       "title": "EasyNano: rapid epitope-targeted nanobody CDR design via differentiable distogram optimization with ESMFold2",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1371/journal.pone.0347525": {
+      "note": "DD",
+      "title": "Structural bioinformatic studies of eight integral transmembrane NADPH oxidases and their AlphaFold 3 predicted QTY anal",
+      "source": "PubMed — PloS one"
     }
   }
 }
