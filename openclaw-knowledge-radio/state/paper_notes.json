@@ -2168,5 +2168,12 @@
       "title": "BioPipelines: Accessible Computational Protein and Ligand Design for Chemical Biologists.",
       "source": "PubMed — Computational and structural biotechnology journal"
     }
+  },
+  "2026-06-12": {
+    "https://arxiv.org/abs/2606.12772": {
+      "note": "DD",
+      "title": "EasyNano: rapid epitope-targeted nanobody CDR design via differentiable distogram optimization with ESMFold2",
+      "source": "arXiv q-bio.QM"
+    }
   }
 }
