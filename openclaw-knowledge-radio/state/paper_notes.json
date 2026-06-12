@@ -2179,6 +2179,11 @@
       "note": "DD",
       "title": "Structural bioinformatic studies of eight integral transmembrane NADPH oxidases and their AlphaFold 3 predicted QTY anal",
       "source": "PubMed — PloS one"
+    },
+    "https://arxiv.org/abs/2606.12609": {
+      "note": "DD",
+      "title": "Viral Proteins Reveal Geometry of Protein Language Models",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
