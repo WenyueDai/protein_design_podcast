@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Jun 2026 07:19:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 06:34:04 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-06-13</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-13/podcast_2026-06-13.mp3</guid>
+      <pubDate>Sat, 13 Jun 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-13/podcast_2026-06-13.mp3" length="16764813" type="audio/mpeg" />
+      <description>What mattered today was the way a handful of new tools forced us to rethink the mental shortcuts we’ve been using in protein‑focused design. | Second, the malaria antibody study—though still in pre‑print—expanded the paradigm of epitope targeting. | Third, the sequence‑only DTI predictor reminded us that three‑dimensional structures are not always a prerequisite.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>What mattered today was the way a handful of new tools forced us to rethink the mental shortcuts we’ve been using in protein‑focused design. | Second, the malaria antibody study—though still in pre‑print—expanded the paradigm of epitope targeting. | Third, the sequence‑only DTI predictor reminded us that three‑dimensional structures are not always a prerequisite.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-06-12</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-12/podcast_2026-06-12.mp3</guid>
       <pubDate>Fri, 12 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-12/podcast_2026-06-12.mp3" length="15687573" type="audio/mpeg" />
-      <description>What used to feel like a dead‑end in antibody engineering—waiting days for a stochastic sampler to stumble on a nanobody that might hug a chosen epitope—has been upended by a differentiable approach that literally slides the CDR loops into place. | A parallel re‑thinking comes from the QTY code applied to the notoriously hydrophobic NADPH‑oxidase family. | The third conceptual leap comes from a broader evolutionary lens: fitness is no longer seen as the sum of a coding mutation’s effect on stability plus a separate expression change.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-12/podcast_2026-06-12.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>What used to feel like a dead‑end in antibody engineering—waiting days for a stochastic sampler to stumble on a nanobody that might hug a chosen epitope—has been upended by a differentiable approach that literally slides the CDR loops into place. | A parallel re‑thinking comes from the QTY code applied to the notoriously hydrophobic NADPH‑oxidase family. | The third conceptual leap comes from a broader evolutionary lens: fitness is no longer seen as the sum of a coding mutation’s effect on stability plus a separate expression change.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-03/podcast_2026-04-03.mp3</guid>
       <pubDate>Fri, 03 Apr 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-03/podcast_2026-04-03.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-04-02</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-02/podcast_2026-04-02.mp3</guid>
-      <pubDate>Thu, 02 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-02/podcast_2026-04-02.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
