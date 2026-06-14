@@ -1630,5 +1630,13 @@
   "2026-06-12|https://doi.org/10.1038/s41598-026-57819-1": {
     "page_id": "37d5f58e-a8c2-8106-8115-e1585a5837a4",
     "note": "DD"
+  },
+  "2026-06-12|https://doi.org/10.1038/s41467-026-74301-8": {
+    "page_id": "37d5f58e-a8c2-8187-8f83-ea720316bb48",
+    "note": "DD"
+  },
+  "2026-06-14|https://doi.org/10.1093/bioinformatics/btag375": {
+    "page_id": "37f5f58e-a8c2-81ed-bbff-ddce809833f5",
+    "note": "DD"
   }
 }
