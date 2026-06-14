@@ -2211,6 +2211,11 @@
       "note": "DD",
       "title": "PEPE: Scalable extraction of multi-modal protein language model representations.",
       "source": "PubMed — Bioinformatics (Oxford, England)"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.06.11.731710": {
+      "note": "DD",
+      "title": "Spatial Organization of Lipids Drives GPCR Conformational Equilibria",
+      "source": "bioRxiv — biophysics"
     }
   }
 }
