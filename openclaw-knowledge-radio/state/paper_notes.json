@@ -2205,5 +2205,12 @@
       "title": "Synthetically designed anti-defense proteins overcome barriers to bacterial transformation and phage infection.",
       "source": "PubMed — Nature communications"
     }
+  },
+  "2026-06-14": {
+    "https://doi.org/10.1093/bioinformatics/btag375": {
+      "note": "DD",
+      "title": "PEPE: Scalable extraction of multi-modal protein language model representations.",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
+    }
   }
 }
