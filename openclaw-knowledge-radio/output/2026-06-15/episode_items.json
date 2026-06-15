@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    173.06,
+    403.34,
+    573.52,
+    810.56,
+    981.46,
+    1155.31,
+    1331.18,
+    1487.54,
+    1651.02,
+    1840.14
+  ],
+  "items": [
+    {
+      "title": "Determination of antigen components in inactivated SARS-CoV-2 vaccine using ultra-high-performance liquid chromatography tandem mass spectrometry.",
+      "url": "https://doi.org/10.1016/j.jpba.2026.117388",
+      "source": "PubMed — Journal of pharmaceutical and biomedical analysis",
+      "one_liner": "Accurate and reliable quantification of antigen components in vaccines is critical in vaccine quality control and evaluation of immunogenic consistency. However, conventional immunoassays often suffer from limited specificity, trace-level antigen concentrations, and indirect quantification. In this study, we demonstrated an ultra-high-performance liquid c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Curvature-Informed Potential Energy Surface for Protein-Ligand Binding Affinity Prediction",
+      "url": "https://arxiv.org/abs/2606.14217",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2606.14217v1 Announce Type: cross \nAbstract: Accurate prediction of protein-ligand binding affinity is essential for structure-based drug discovery. Recent geometric deep learning methods have achieved promising performance by representing protein-ligand complexes as three-dimensional graphs. However, most existing approaches mainly rely on static i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Curvature-Guided Geometric Representation for Protein-Ligand Binding Affinity Prediction",
+      "url": "https://arxiv.org/abs/2606.14159",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2606.14159v1 Announce Type: cross \nAbstract: Protein-ligand binding affinity (PLA) prediction is critical in drug discovery. Despite the notable advancements in machine learning-based approaches, existing methods struggle to jointly characterize local geometric organization and globally coordinated cross-molecular interactions, limiting their abilit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "PeptiDIA: A Machine Learning Framework for Enhanced Peptide Identification in Fast-Gradient Data-Independent Acquisition Proteomics",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.10.731224",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Data-independent acquisition (DIA) mass spectrometry has become increasingly prevalent in proteomics as advances in instrumentation, chromatography, and computational analysis have enabled robust proteome identification across complex biological samples. However, analytical depth achieved with fast chromatographic gradients remains lower than that obtaine...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Measurement-limited learning of conformational heterogeneity in cryo-electron microscopy",
+      "url": "https://arxiv.org/abs/2606.14449",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2606.14449v1 Announce Type: cross \nAbstract: Cryogenic electron microscopy images sample individual biomolecules from their conformational landscapes, offering a route to infer the distributions underlying molecular mechanisms. However, because images are indirect measurements, they limit which features of an underlying landscape are statistically i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Topology-engineered dopamine-mediated flower-like gold nanoparticle adjuvants: Boosting immune responses and enabling sensitive immunoassays for albendazole residue detection.",
+      "url": "https://doi.org/10.1016/j.aca.2026.345410",
+      "source": "PubMed — Analytica chimica acta",
+      "one_liner": "BACKGROUND: Albendazole (ABZ) exhibited teratogenic and embryotoxic effects in diverse animal species, implying comparable risks to humans; residues derived from improper veterinary use can enter the food chain via transfer, ultimately endangering human health. To obtain efficient anti-albendazole (ABZ) monoclonal antibodies and establish a sensitive dete...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "In silico design of a citrullinated protein-based multi-epitope vaccine for rheumatoid arthritis using immunoinformatics.",
+      "url": "https://doi.org/10.1016/j.intimp.2026.116615",
+      "source": "PubMed — International immunopharmacology",
+      "one_liner": "Rheumatoid arthritis (RA) is a chronic autoimmune disorder marked by synovial inflammation and joint deformity. Anti-citrullinated protein antibodies is one of the key biomarkers for RA, produced against citrullinated peptides and contribute to inflammation by forming immune complexes. While current RA treatments may help in managing the symptoms, they ma...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-Based Design of Isoxazolidine RIPK1 Inhibitors for Neuroinflammation.",
+      "url": "https://doi.org/10.1002/jcc.70411",
+      "source": "PubMed — Journal of computational chemistry",
+      "one_liner": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder characterized by cognitive impairment and neuronal loss. Aberrant activation of receptor-interacting protein kinase 1 (RIPK1) plays a critical role in neuroinflammation and programmed neuronal death, making it an attractive therapeutic target. In this computational study, 16 isoxazolidin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Synthesis of",
+      "url": "https://doi.org/10.1002/mrc.70121",
+      "source": "PubMed — Magnetic resonance in chemistry : MRC",
+      "one_liner": "Characterizing protein-drug interactions at the atomic level is challenging partly because small molecules can be difficult to detect within large biomolecular complexes. We have developed a strategy to introduce NMR-active isotopic",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Luminescent heparin-functionalized carbon dots with potential applications in nanoparticle-protein interactions and cell imaging.",
+      "url": "https://doi.org/10.1038/s41598-026-54338-x",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "In this study, we report the synthesis and comprehensive characterization of heparin-capped carbon dots (Hep-C-dots) prepared using D-glucose as a carbon precursor and heparin, a negatively charged polysaccharide belonging to the glycosaminoglycan family, as a capping and stabilizing agent. The obtained Hep-C-dots exhibited a uniform nanoscale size distri...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Extracellular Vesicle Carryover Distorts Nanoparticle Protein Corona Profiles in Human Plasma",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.19.706828",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "The nanoparticle (NP) protein corona is considered the biological identity that determines NP fate, safety, targeting, and therapeutic effectiveness in biofluids. Nonetheless, standard corona isolation workflows assume the recovered protein signature originates primarily from plasma proteins adsorbed directly onto NP surface, while largely overlooking co-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "ADMETron: An AI-driven SaaS platform for comprehensive ADMET prediction and compound prioritisation",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.13.732026",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "ONTOSIGHT(R) ADMETron is an AI-driven platform designed for rapid prediction and visualization of Absorption, Distribution, Metabolism, Excretion, and Toxicity (ADMET) properties to support modern drug discovery. The platform integrates an interactive web interface with a scalable predictive engine, enabling high-throughput virtual screening and batch ana...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Correcting mutant CFTR with a stabilizing nanobody reveals a novel active conformation of the channel",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.08.681081",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Defects in protein trafficking underlie many genetic diseases, including cystic fibrosis (CF), where the predominant F508del mutation destabilizes the cystic fibrosis transmembrane conductance regulator (CFTR) channel, leading to its degradation. To provide a protein-specific chaperone, we used lipid nanoparticles to deliver mRNA encoding T2a, a nanobody ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "LRBA regulates actin cytoskeleton dynamics through NMIIA during B cell immune responses.",
+      "url": "https://doi.org/10.1038/s44319-026-00831-3",
+      "source": "PubMed — EMBO reports",
+      "one_liner": "Patients with lipopolysaccharide-responsive beige-like anchor protein (LRBA) deficiency typically suffer from severe B cell dysfunction. However, the underlying mechanisms remain incompletely understood. In this study, we identify non-muscle myosin IIA (NMIIA) as an interaction partner of LRBA in B cells, and uncover a role for LRBA in regulating actin cy...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Serotype-Specific Detection of Non-Structural Protein 1 from Dengue Viruses by Surface-Enhanced Raman Spectroscopy: An Enhanced Precision Diagnosis",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.13.731912",
+      "source": "bioRxiv — microbiology",
+      "one_liner": "Dengue disease exhibits diverse clinical manifestations in patients when infected by its different serotypes. Early and accurate detection of dengue virus (DENV) infections, particularly distinguishing between serotypes is crucial for effective patient management and sporadic outbreak control. Surface-Enhanced Raman Spectroscopy (SERS) offers advantages o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multitask Learning for Membrane Permeability Prediction across Assays with Prediction Reliability Assessment.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00597",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Membrane permeability is a critical determinant of drug exposure and distribution; however, experimental permeability data are unevenly available across assay systems, thereby restricting the robustness and predictive utility of the in silico models. In this study, we curated five apparent permeability (",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Learning Developmental Scaffoldings to Guide Self-Organisation",
+      "url": "https://arxiv.org/abs/2605.14998",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2605.14998v3 Announce Type: replace-cross \nAbstract: From subcellular structures to entire organisms, many natural systems generate complex organisation through self-organisation: local interactions that collectively give rise to global structure without any blueprint of the outcome. Yet a significant portion of the information driving such processe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Phosphoproteome-derived peptide libraries for deep specificity profiling of phosphatases and phospholyases.",
+      "url": "https://doi.org/10.1073/pnas.2523183123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Protein phosphorylation is dynamically regulated by the opposing activities of phosphowriter enzymes (kinases) and phosphoeraser enzymes (phosphatases and phospholyases). While significant progress has been made toward defining the sequence preferences of kinases, the selectivity of phosphoerasers has not been explored at scale. Here, we develop an experi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "XRDiff: Crystal Structure Prediction from Powder X-Ray Diffraction Data Using Diffusion Models",
+      "url": "https://arxiv.org/abs/2606.14003",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.14003v1 Announce Type: cross \nAbstract: Determining the crystal structure of a material from its powder X-ray diffraction (PXRD) pattern is a central challenge in materials science. PXRD is an accessible and widely used characterization technique, yet recovering the atomic structure from diffraction data requires solving an underdetermined inve...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Traditional machine learning vs. deep learning from dynamic graph representations of proteins' 3D folds in the task of protein structure classification",
+      "url": "https://arxiv.org/abs/2605.29228",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2605.29228v2 Announce Type: replace \nAbstract: Protein structure classification (PSC) uses supervised learning to predict a protein's CATH/SCOP(e) class from the protein's sequence or 3D structural feature(s). We already modeled 3D structures as (static) protein structure networks (PSNs), demonstrating the competitiveness of PSN-based features to se...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

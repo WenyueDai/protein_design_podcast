@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jun 2026 06:57:23 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 07:51:21 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-06-15</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-15/podcast_2026-06-15.mp3</guid>
+      <pubDate>Mon, 15 Jun 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-15/podcast_2026-06-15.mp3" length="15401133" type="audio/mpeg" />
+      <description>What used to feel like a hard ceiling in our design toolbox is quietly cracking open. | A parallel line of thinking arrives from the Ricci‑curvature work. | The cryo‑EM paper flips another long‑standing belief—that more states always mean a better picture.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>What used to feel like a hard ceiling in our design toolbox is quietly cracking open. | A parallel line of thinking arrives from the Ricci‑curvature work. | The cryo‑EM paper flips another long‑standing belief—that more states always mean a better picture.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-06-14</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-14/podcast_2026-06-14.mp3</guid>
       <pubDate>Sun, 14 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-14/podcast_2026-06-14.mp3" length="16946877" type="audio/mpeg" />
-      <description>The first thing that clicks across the day’s work is that we’ve been over‑optimistic about how much signal our models really see. | A second shift comes from the PEPE framework, which reminds us that extracting embeddings is not a trivial afterthought. | In the siRNA arena, MEG-mod demonstrates that integrating chemical modification patterns as separate graph views can lift knockdown prediction R² from 0.31 (baseline sequence‑only model) to 0.58.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-14/podcast_2026-06-14.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The first thing that clicks across the day’s work is that we’ve been over‑optimistic about how much signal our models really see. | A second shift comes from the PEPE framework, which reminds us that extracting embeddings is not a trivial afterthought. | In the siRNA arena, MEG-mod demonstrates that integrating chemical modification patterns as separate graph views can lift knockdown prediction R² from 0.31 (baseline sequence‑only model) to 0.58.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-05/podcast_2026-04-05.mp3</guid>
       <pubDate>Sun, 05 Apr 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-05/podcast_2026-04-05.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-04-04</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-04/podcast_2026-04-04.mp3</guid>
-      <pubDate>Sat, 04 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-04/podcast_2026-04-04.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
