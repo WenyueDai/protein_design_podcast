@@ -2233,6 +2233,11 @@
       "note": "DD",
       "title": "XRDiff: Crystal Structure Prediction from Powder X-Ray Diffraction Data Using Diffusion Models",
       "source": "arXiv cs.LG (AI/ML)"
+    },
+    "https://arxiv.org/abs/2605.29228": {
+      "note": "DD",
+      "title": "Traditional machine learning vs. deep learning from dynamic graph representations of proteins' 3D folds in the task of p",
+      "source": "arXiv cs.LG (AI/ML)"
     }
   }
 }
