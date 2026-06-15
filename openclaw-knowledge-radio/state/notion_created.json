@@ -1638,5 +1638,13 @@
   "2026-06-14|https://doi.org/10.1093/bioinformatics/btag375": {
     "page_id": "37f5f58e-a8c2-81ed-bbff-ddce809833f5",
     "note": "DD"
+  },
+  "2026-06-14|https://www.biorxiv.org/content/10.64898/2026.06.11.731710": {
+    "page_id": "37f5f58e-a8c2-81fd-93dd-e9f2ba64f161",
+    "note": "DD"
+  },
+  "2026-06-15|https://arxiv.org/abs/2606.14217": {
+    "page_id": "3805f58e-a8c2-8159-95c1-dbf1bed692bb",
+    "note": "DD"
   }
 }
