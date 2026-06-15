@@ -2228,6 +2228,11 @@
       "note": "DD",
       "title": "Measurement-limited learning of conformational heterogeneity in cryo-electron microscopy",
       "source": "arXiv q-bio.BM"
+    },
+    "https://arxiv.org/abs/2606.14003": {
+      "note": "DD",
+      "title": "XRDiff: Crystal Structure Prediction from Powder X-Ray Diffraction Data Using Diffusion Models",
+      "source": "arXiv cs.LG (AI/ML)"
     }
   }
 }
