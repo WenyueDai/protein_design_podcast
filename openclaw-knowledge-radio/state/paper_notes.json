@@ -2223,6 +2223,11 @@
       "note": "DD",
       "title": "Curvature-Informed Potential Energy Surface for Protein-Ligand Binding Affinity Prediction",
       "source": "arXiv q-bio.BM"
+    },
+    "https://arxiv.org/abs/2606.14449": {
+      "note": "DD",
+      "title": "Measurement-limited learning of conformational heterogeneity in cryo-electron microscopy",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
