@@ -2285,6 +2285,11 @@
       "note": "DD",
       "title": "Multi-Modal Characterization of the Interactions between a Recombinant Protein Antigen and a Liposomal Adjuvant.",
       "source": "PubMed — Molecular pharmaceutics"
+    },
+    "https://doi.org/10.1186/s12859-026-06532-x": {
+      "note": "DD",
+      "title": "Predicting molecular recognition features in protein sequences with MoRFchibi 2.0.",
+      "source": "PubMed — BMC bioinformatics"
     }
   }
 }
