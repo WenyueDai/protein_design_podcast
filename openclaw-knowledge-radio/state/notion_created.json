@@ -1686,5 +1686,13 @@
   "2026-06-16|https://doi.org/10.1016/j.omtn.2026.102873": {
     "page_id": "3815f58e-a8c2-812b-8470-c88a4bdd1122",
     "note": "DD"
+  },
+  "2026-06-16|https://doi.org/10.1021/acs.jcim.6c00352": {
+    "page_id": "3815f58e-a8c2-8113-a652-fff8cfa853b0",
+    "note": "LDD"
+  },
+  "2026-06-16|https://doi.org/10.1021/acs.molpharmaceut.5c01863": {
+    "page_id": "3815f58e-a8c2-8115-b0fc-e99997883e37",
+    "note": "DD"
   }
 }
