@@ -2239,5 +2239,12 @@
       "title": "Traditional machine learning vs. deep learning from dynamic graph representations of proteins' 3D folds in the task of p",
       "source": "arXiv cs.LG (AI/ML)"
     }
+  },
+  "2026-06-16": {
+    "https://www.blopig.com/blog/2026/06/sabdab2-the-structural-antibody-database-in-the-age-of-machine-learning/": {
+      "note": "DD",
+      "title": "SAbDab2: The structural antibody database in the age of machine learning",
+      "source": "BLOPIG (Oxford Protein Informatics Group)"
+    }
   }
 }
