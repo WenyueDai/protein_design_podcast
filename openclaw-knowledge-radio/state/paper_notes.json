@@ -2280,6 +2280,11 @@
       "note": "LDD",
       "title": "Assessing Metal Ion Assignment Accuracy in Protein Data Bank Models via Elemental Spectroscopy.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://doi.org/10.1021/acs.molpharmaceut.5c01863": {
+      "note": "DD",
+      "title": "Multi-Modal Characterization of the Interactions between a Recombinant Protein Antigen and a Liposomal Adjuvant.",
+      "source": "PubMed — Molecular pharmaceutics"
     }
   }
 }
