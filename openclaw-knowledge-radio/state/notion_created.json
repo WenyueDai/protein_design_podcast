@@ -1689,10 +1689,22 @@
   },
   "2026-06-16|https://doi.org/10.1021/acs.jcim.6c00352": {
     "page_id": "3815f58e-a8c2-8113-a652-fff8cfa853b0",
-    "note": "LDD"
+    "note": "DD"
   },
   "2026-06-16|https://doi.org/10.1021/acs.molpharmaceut.5c01863": {
     "page_id": "3815f58e-a8c2-8115-b0fc-e99997883e37",
+    "note": "DD"
+  },
+  "2026-06-16|https://doi.org/10.1186/s12859-026-06532-x": {
+    "page_id": "3815f58e-a8c2-8192-a91c-c31a7054981b",
+    "note": "DD"
+  },
+  "2026-06-16|https://arxiv.org/abs/2606.16517": {
+    "page_id": "3815f58e-a8c2-8143-a6f1-c06627c8530d",
+    "note": "DD"
+  },
+  "2026-06-16|https://doi.org/10.1021/acs.jctc.6c00593": {
+    "page_id": "3815f58e-a8c2-81e2-b286-d6474f3338f6",
     "note": "DD"
   }
 }
