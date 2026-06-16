@@ -2290,6 +2290,11 @@
       "note": "DD",
       "title": "Predicting molecular recognition features in protein sequences with MoRFchibi 2.0.",
       "source": "PubMed — BMC bioinformatics"
+    },
+    "https://arxiv.org/abs/2606.16517": {
+      "note": "DD",
+      "title": "How Post-Training Shapes Biological Reasoning Models",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
