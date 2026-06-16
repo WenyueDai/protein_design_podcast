@@ -2270,6 +2270,11 @@
       "note": "DD",
       "title": "Rethinking molecular evolution through protein language model embeddings.",
       "source": "PubMed — Trends in genetics : TIG"
+    },
+    "https://doi.org/10.1016/j.omtn.2026.102873": {
+      "note": "DD",
+      "title": "Delivery of monoclonal antibodies using mRNA lipid nanoparticles confers protection against SARS-CoV-2 and influenza.",
+      "source": "PubMed — Molecular therapy. Nucleic acids"
     }
   }
 }
