@@ -2275,6 +2275,11 @@
       "note": "DD",
       "title": "Delivery of monoclonal antibodies using mRNA lipid nanoparticles confers protection against SARS-CoV-2 and influenza.",
       "source": "PubMed — Molecular therapy. Nucleic acids"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00352": {
+      "note": "LDD",
+      "title": "Assessing Metal Ion Assignment Accuracy in Protein Data Bank Models via Elemental Spectroscopy.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
