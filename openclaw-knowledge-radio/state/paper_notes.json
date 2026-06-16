@@ -2260,6 +2260,11 @@
       "note": "DD",
       "title": "Deep3D-DTA: A Tri-Modal Deep Learning Framework for Binding Affinity Prediction Leveraging 3D Structural Representations",
       "source": "PubMed — Interdisciplinary sciences, computational life sciences"
+    },
+    "https://doi.org/10.1002/prot.70147": {
+      "note": "DD",
+      "title": "Physics-Based Energy Functions for Computational Protein Design.",
+      "source": "PubMed — Proteins"
     }
   }
 }
