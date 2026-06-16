@@ -2250,6 +2250,11 @@
       "note": "DD",
       "title": "Building an Agent – Practical Notes for Beginners",
       "source": "BLOPIG (Oxford Protein Informatics Group)"
+    },
+    "https://doi.org/10.1128/mbio.00878-26": {
+      "note": "DD",
+      "title": "AlphaFold reveals how pathogenic",
+      "source": "PubMed — mBio"
     }
   }
 }
