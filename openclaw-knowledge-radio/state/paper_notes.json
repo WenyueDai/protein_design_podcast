@@ -2265,6 +2265,11 @@
       "note": "DD",
       "title": "Physics-Based Energy Functions for Computational Protein Design.",
       "source": "PubMed — Proteins"
+    },
+    "https://doi.org/10.1016/j.tig.2026.05.014": {
+      "note": "DD",
+      "title": "Rethinking molecular evolution through protein language model embeddings.",
+      "source": "PubMed — Trends in genetics : TIG"
     }
   }
 }
