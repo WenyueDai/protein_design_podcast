@@ -2295,6 +2295,11 @@
       "note": "DD",
       "title": "How Post-Training Shapes Biological Reasoning Models",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1021/acs.jctc.6c00593": {
+      "note": "DD",
+      "title": "Enhancing Relative Binding Free Energy Calculation with Grand Canonical Monte Carlo, Water-swap Monte Carlo, Terminal-fl",
+      "source": "PubMed — Journal of chemical theory and computation"
     }
   }
 }
