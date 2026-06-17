@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2026 08:10:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 07:40:50 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-06-17</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-17/podcast_2026-06-17.mp3</guid>
+      <pubDate>Wed, 17 Jun 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-17/podcast_2026-06-17.mp3" length="16063005" type="audio/mpeg" />
+      <description>Imagine you could flip a viral spike between its “ready‑to‑strike” and “already‑struck” shapes just by nudging the template list you feed into AlphaFold‑Multimer. | A second shift comes from the nanobody biosensor built on an AlphaFold‑engineered scaffold for detecting enrofloxacin. | The SMCHD1 paper, while still unpacking mechanisms, reminds us that ATP‑driven conformational cycles can dictate chromatin targeting specificity.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Imagine you could flip a viral spike between its “ready‑to‑strike” and “already‑struck” shapes just by nudging the template list you feed into AlphaFold‑Multimer. | A second shift comes from the nanobody biosensor built on an AlphaFold‑engineered scaffold for detecting enrofloxacin. | The SMCHD1 paper, while still unpacking mechanisms, reminds us that ATP‑driven conformational cycles can dictate chromatin targeting specificity.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-06-16</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-16/podcast_2026-06-16.mp3</guid>
       <pubDate>Tue, 16 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-16/podcast_2026-06-16.mp3" length="15855765" type="audio/mpeg" />
-      <description>The field has been wrestling with three hidden sources of bias that have quietly limited how we train and trust models, and today’s papers lay them bare. | Second, the same work quantifies the scale of the problem—over 21 000 antibody instances now map to just 6 540 unique sequences. | A complementary insight comes from the practical guide to building AI agents for antibody pipelines.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-16/podcast_2026-06-16.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The field has been wrestling with three hidden sources of bias that have quietly limited how we train and trust models, and today’s papers lay them bare. | Second, the same work quantifies the scale of the problem—over 21 000 antibody instances now map to just 6 540 unique sequences. | A complementary insight comes from the practical guide to building AI agents for antibody pipelines.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-07/podcast_2026-04-07.mp3</guid>
       <pubDate>Tue, 07 Apr 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-07/podcast_2026-04-07.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-04-06</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-06/podcast_2026-04-06.mp3</guid>
-      <pubDate>Mon, 06 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-06/podcast_2026-04-06.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

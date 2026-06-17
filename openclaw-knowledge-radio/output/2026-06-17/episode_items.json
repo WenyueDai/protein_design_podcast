@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    199.22,
+    399.83,
+    574.5,
+    789.54,
+    965.86,
+    1145.98,
+    1334.37,
+    1530.04,
+    1719.47,
+    1907.58
+  ],
+  "items": [
+    {
+      "title": "Prediction of pre- and postfusion conformations of class I fusion proteins with AlphaFold2.",
+      "url": "https://doi.org/10.1371/journal.pone.0351662",
+      "source": "PubMed — PloS one",
+      "one_liner": "Viruses such as coronaviruses or filoviruses use their surface glycoproteins (GPs) to attach to the host cell, triggering the fusion of the viral membrane with the endosome membrane. Epitopes on the viral GP are major targets for antibody-mediated recognition and neutralization. During the fusion process, the GP undergoes conformational changes triggered ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enclosure-Free Smartphone Detection of Enrofloxacin Using an AlphaFold-Engineered Nanobody Biosensor with Active Illumination Imaging and Multidimensional Color Analysis.",
+      "url": "https://doi.org/10.1021/acs.analchem.6c00609",
+      "source": "PubMed — Analytical chemistry",
+      "one_liner": "Smartphone-based colorimetric assays are attractive for on-site analysis but often suffer from measurement instability caused by ambient illumination and imaging conditions, as well as limited sensitivity from conventional single-channel color readout. Herein, an AlphaFold-engineered nanobody biosensor was developed for enrofloxacin (ENR) by integrating a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Selective interaction of SMCHD1 with chromatin is governed by LRIF1 and SMCHD1 ATPase activity.",
+      "url": "https://doi.org/10.1038/s41467-026-74427-9",
+      "source": "PubMed — Nature communications",
+      "one_liner": "The chromosomal protein SMCHD1 is a GHKL ATPase with important roles in epigenetic silencing, including on the inactive X chromosome (Xi). Mutations of SMCHD1 have been linked to facioscapulohumeral muscular dystrophy (FSHD) and Bosma arrhinia microphthalmia syndrome (BAMS). Here, we use live-cell and single-molecule imaging to investigate SMCHD1 interact...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multimodal Information-Driven Heterogeneous Graph Neural Networks for Protein-Ligand Binding Affinity Prediction.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01317",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Accurate prediction of protein-ligand binding affinity (PLA) is essential for efficient drug screening. However, existing methods often inadequately model multimodal molecular interactions and their combined effects on binding affinity. To address this challenge, this study introduces AtomBind, a multimodal information-driven heterogeneous graph neural ne...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational design and cellular synthesis of two protein topological isomers: Solomon link vs. three-twist knot.",
+      "url": "https://doi.org/10.1073/pnas.2537891123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Chemical topology has emerged as a unique dimension in protein engineering, motivating the pursuit of topologically nontrivial protein architectures for functional advantages, such as enhanced stability and rich dynamics. However, the structural diversity of artificial mechanically interlocked proteins remains limited. Here, we report the computational de...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multiscale reconstruction of protein conformations from cryo-EM images",
+      "url": "https://arxiv.org/abs/2606.18058",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2606.18058v1 Announce Type: cross \nAbstract: We present a novel multiscale algorithm for directly recovering the atomic model structure of a protein from single-particle cryo-EM data. Our algorithm is able to estimate protein structures to state-of-the-art accuracy for high-noise and low-contrast data. It is also robust to misspecifications in the T...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Broadly reactive human monoclonal antibodies targeting influenza a nucleoprotein lack protective activity in vivo.",
+      "url": "https://doi.org/10.1038/s41598-026-58084-y",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The antibody response to influenza virus infection targets numerous viral proteins, with those specific for the hemagglutinin (HA) and neuraminidase (NA) surface glycoproteins being the most extensively studied. Antibodies to HA and NA function as independent immune correlates of protection and form the basis of most vaccine approaches. In contrast, the c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structures of protein folding intermediates on the ribosome.",
+      "url": "https://doi.org/10.1038/s41594-026-01814-7",
+      "source": "PubMed — Nature structural & molecular biology",
+      "one_liner": "The ribosome biases the conformations sampled by nascent polypeptide chains along folding pathways toward biologically active states. A hallmark of the cotranslational folding (coTF) of many proteins constitutes highly stable folding intermediates that are absent or only transiently populated off the ribosome, yet persist during translation well beyond co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A comprehensive landscape of human organ N-glycoproteome.",
+      "url": "https://doi.org/10.1038/s41467-026-74631-7",
+      "source": "PubMed — Nature communications",
+      "one_liner": "N-glycosylation, as a common post-translational modification with complex structures, plays key roles in protein folding, cellular recognition and signaling pathways. State-of-the-art mass spectrometry-based N-glycoproteomics has enabled deep N-glycoproteome characterization of various human organs. However, a comprehensive N-glycoproteome landscape of hu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Can Graph Neural Networks Understand Chemical Elements?",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00384",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Classical machine learning (ML) has proven itself successful in a vast range of chemical applications. These successes often only come after substantial effort in feature engineering to obtain an effective data representation for the model input. Graph neural networks (GNNs) limit this feature engineering by learning their own representation directly from...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "IAN, an intelligent system for omics data analysis and discovery.",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101503",
+      "source": "PubMed — Cell reports methods",
+      "one_liner": "IAN is an R package addressing the challenge of integrating, analyzing, and interpreting gene expression data using an artificial intelligence (AI) system. It leverages popular pathway (KEGG, WikiPathways, Reactome, and GO) and regulatory datasets (ChEA), along with STRING for protein-protein interactions, to perform standard enrichment analysis. A multi-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Methyl Cation Affinity and Methyl Anion Affinity Prediction Using Uni-Mol-Based Models.",
+      "url": "https://doi.org/10.1021/acs.jpca.5c08537",
+      "source": "PubMed — The journal of physical chemistry. A",
+      "one_liner": "Predicting nucleophilicity and electrophilicity at atomic sites in organic compounds is crucial for the design of polar reactions. Methyl cation affinity (MCA) and methyl anion affinity (MAA), calculated using quantum-chemistry-based simulations, are good indicators of nucleophilicity and electrophilicity, respectively. Machine learning surrogate models h...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Benchmarking machine learning approaches for polarization mapping in ferroelectrics using 4D-STEM.",
+      "url": "https://doi.org/10.1038/s41598-026-57754-1",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Four-dimensional scanning transmission electron microscopy (4D-STEM) provides rich, atomic-scale insights into materials structures. However, extracting specific physical properties-such as polarization directions essential for understanding functional properties of ferroelectrics-remains a significant challenge. In this study, we systematically benchmark...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Accessible and Robust Machine Learning Approaches to Improve the Opsin Genotype-Phenotype Map.",
+      "url": "https://doi.org/10.1093/molbev/msag138",
+      "source": "PubMed — Molecular biology and evolution",
+      "one_liner": "Predicting phenotypes from genetic variation is a central challenge in biology. Here, machine learning (ML) offers great promise, but its use is often limited by poor accessibility, difficulty with interpretability, and a \"data-cliff\"-a gap between abundant sequences and scarce functional measurements. To develop more robust methods for genotype-phenotype...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Double electron-electron resonance (DEER) structural study of the holo and apo states of calmodulin.",
+      "url": "https://doi.org/10.1080/09553002.2026.2686688",
+      "source": "PubMed — International journal of radiation biology",
+      "one_liner": "PURPOSE: Human calmodulin-1 (CaM) undergoes calcium-dependent conformational changes that are difficult to capture owing to substantial structural flexibility. This study aims to show that double electron-electron resonance (DEER) spectroscopy can measure ensembles of CaM conformations. The most probable distances are compared to structural models from ex...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Explainable machine learning reveals evolutionary signals in influenza haemagglutinin.",
+      "url": "https://doi.org/10.1098/rsif.2025.1302",
+      "source": "PubMed — Journal of the Royal Society, Interface",
+      "one_liner": "Identifying amino acid changes that lead to phenotypic change is critical to viral surveillance. Common metrics, such as site-wise evolutionary rates and entropy, are true measures of variability rather than phenotypic importance. Here, I show that supervised, explainable machine learning (ML) models provide a complementary approach to date and classify s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A hybrid CNN-LSTM approach for large-scale Twitter sentiment analysis with explainable artificial intelligence.",
+      "url": "https://doi.org/10.1038/s41598-026-58345-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Sentiment analysis of social media data has become an essential research topic due to the widespread use of platforms such as Twitter for expressing public opinion. However, the short, informal, and context-dependent nature of tweets poses significant challenges for accurate sentiment classification. In this study, a comprehensive sentiment analysis frame...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Using AI to Detect Psychosis Relapse: Scoping Review.",
+      "url": "https://doi.org/10.2196/92192",
+      "source": "PubMed — JMIR mental health",
+      "one_liner": "BACKGROUND: Psychotic disorder represents a leading cause of disability worldwide, and relapse in psychosis is common. Artificial intelligence (AI) is increasingly recognized as a method that could aid clinical monitoring for individuals experiencing psychosis. OBJECTIVE: This review aims to map the existing literature on AI-based approaches-including mac...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Revisiting Structural Dependency in Autoregressive Multi-Task Table Recognition via Order-Independent Cell-Level Representations",
+      "url": "https://arxiv.org/abs/2606.17874",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.17874v1 Announce Type: cross \nAbstract: Multi-task table recognition jointly addresses table structure prediction, cell localization, and cell content recognition within a unified framework. Existing approaches often rely on autoregressive decoders to generate table structures and reuse their hidden states for cell localization and content reco...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Searching Neural Architectures for Sensor Nodes on IoT Gateways",
+      "url": "https://arxiv.org/abs/2505.23939",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2505.23939v2 Announce Type: replace \nAbstract: This paper presents an automatic method for the design of Neural Networks (NNs) at the edge, enabling Machine Learning (ML) access even in privacy-sensitive Internet of Things (IoT) applications. The proposed method runs on IoT gateways and designs NNs for connected sensor nodes without sharing the coll...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
