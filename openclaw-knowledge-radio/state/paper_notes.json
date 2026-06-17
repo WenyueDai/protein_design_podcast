@@ -2322,6 +2322,11 @@
       "note": "DD",
       "title": "Structures of protein folding intermediates on the ribosome.",
       "source": "PubMed — Nature structural & molecular biology"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00384": {
+      "note": "DD",
+      "title": "Can Graph Neural Networks Understand Chemical Elements?",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
