@@ -2307,6 +2307,11 @@
       "note": "DD",
       "title": "Prediction of pre- and postfusion conformations of class I fusion proteins with AlphaFold2.",
       "source": "PubMed — PloS one"
+    },
+    "https://doi.org/10.1073/pnas.2537891123": {
+      "note": "DD",
+      "title": "Computational design and cellular synthesis of two protein topological isomers: Solomon link vs. three-twist knot.",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America"
     }
   }
 }
