@@ -2301,5 +2301,12 @@
       "title": "Enhancing Relative Binding Free Energy Calculation with Grand Canonical Monte Carlo, Water-swap Monte Carlo, Terminal-fl",
       "source": "PubMed — Journal of chemical theory and computation"
     }
+  },
+  "2026-06-17": {
+    "https://doi.org/10.1371/journal.pone.0351662": {
+      "note": "DD",
+      "title": "Prediction of pre- and postfusion conformations of class I fusion proteins with AlphaFold2.",
+      "source": "PubMed — PloS one"
+    }
   }
 }
