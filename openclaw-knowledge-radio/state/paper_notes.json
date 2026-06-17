@@ -2312,6 +2312,11 @@
       "note": "DD",
       "title": "Computational design and cellular synthesis of two protein topological isomers: Solomon link vs. three-twist knot.",
       "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America"
+    },
+    "https://arxiv.org/abs/2606.18058": {
+      "note": "DD",
+      "title": "Multiscale reconstruction of protein conformations from cryo-EM images",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
