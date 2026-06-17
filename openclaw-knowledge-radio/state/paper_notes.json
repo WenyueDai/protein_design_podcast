@@ -2317,6 +2317,11 @@
       "note": "DD",
       "title": "Multiscale reconstruction of protein conformations from cryo-EM images",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1038/s41594-026-01814-7": {
+      "note": "DD",
+      "title": "Structures of protein folding intermediates on the ribosome.",
+      "source": "PubMed — Nature structural & molecular biology"
     }
   }
 }
