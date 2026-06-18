@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jun 2026 07:40:50 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 07:26:00 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-06-18</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-18/podcast_2026-06-18.mp3</guid>
+      <pubDate>Thu, 18 Jun 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-18/podcast_2026-06-18.mp3" length="16403589" type="audio/mpeg" />
+      <description>The field has been quietly pivoting from static, structure‑centric thinking to a view where disorder, scale and learned representations drive design. | A second conceptual leap arrives from the FlashPPI framework. | The membrane protein review crystallizes another mindset change: design is no longer a hand‑crafted physics problem but a hybrid of high‑throughput screening and AI.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field has been quietly pivoting from static, structure‑centric thinking to a view where disorder, scale and learned representations drive design. | A second conceptual leap arrives from the FlashPPI framework. | The membrane protein review crystallizes another mindset change: design is no longer a hand‑crafted physics problem but a hybrid of high‑throughput screening and AI.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-06-17</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-17/podcast_2026-06-17.mp3</guid>
       <pubDate>Wed, 17 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-17/podcast_2026-06-17.mp3" length="16063005" type="audio/mpeg" />
-      <description>Imagine you could flip a viral spike between its “ready‑to‑strike” and “already‑struck” shapes just by nudging the template list you feed into AlphaFold‑Multimer. | A second shift comes from the nanobody biosensor built on an AlphaFold‑engineered scaffold for detecting enrofloxacin. | The SMCHD1 paper, while still unpacking mechanisms, reminds us that ATP‑driven conformational cycles can dictate chromatin targeting specificity.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-17/podcast_2026-06-17.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Imagine you could flip a viral spike between its “ready‑to‑strike” and “already‑struck” shapes just by nudging the template list you feed into AlphaFold‑Multimer. | A second shift comes from the nanobody biosensor built on an AlphaFold‑engineered scaffold for detecting enrofloxacin. | The SMCHD1 paper, while still unpacking mechanisms, reminds us that ATP‑driven conformational cycles can dictate chromatin targeting specificity.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-08/podcast_2026-04-08.mp3</guid>
       <pubDate>Wed, 08 Apr 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-08/podcast_2026-04-08.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-04-07</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-07/podcast_2026-04-07.mp3</guid>
-      <pubDate>Tue, 07 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-07/podcast_2026-04-07.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
