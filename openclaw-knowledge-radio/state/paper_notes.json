@@ -2328,5 +2328,12 @@
       "title": "Can Graph Neural Networks Understand Chemical Elements?",
       "source": "PubMed — Journal of chemical information and modeling"
     }
+  },
+  "2026-06-18": {
+    "https://doi.org/10.1021/acs.chemrev.5c01105": {
+      "note": "DD",
+      "title": "Membrane Protein Design: From Reprogramming Functions to AI-Guided",
+      "source": "PubMed — Chemical reviews"
+    }
   }
 }
