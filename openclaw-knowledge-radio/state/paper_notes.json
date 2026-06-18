@@ -2334,6 +2334,11 @@
       "note": "DD",
       "title": "Membrane Protein Design: From Reprogramming Functions to AI-Guided",
       "source": "PubMed — Chemical reviews"
+    },
+    "https://arxiv.org/abs/2606.18961": {
+      "note": "DD",
+      "title": "Be Your Own Teacher: Steering Protein Language Models via Unsupervised Reward Optimization",
+      "source": "arXiv cs.LG (AI/ML)"
     }
   }
 }
