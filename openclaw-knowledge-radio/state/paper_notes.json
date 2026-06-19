@@ -2361,6 +2361,11 @@
       "note": "DD",
       "title": "Tau modulates the microtubule protofilament number distribution and structure.",
       "source": "PubMed — Biophysical journal"
+    },
+    "https://arxiv.org/abs/2606.19374": {
+      "note": "DD",
+      "title": "Protein Representation Learning with Secondary-Structure and Energy-Filtered Hydrogen-Bond Graphs",
+      "source": "arXiv cs.LG (AI/ML)"
     }
   }
 }
