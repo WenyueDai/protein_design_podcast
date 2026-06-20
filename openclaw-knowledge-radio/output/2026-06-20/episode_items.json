@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    185.88,
+    410.22,
+    592.45,
+    811.88,
+    1046.93,
+    1226.98,
+    1401.14,
+    1663.55,
+    1859.1,
+    2064.01
+  ],
+  "items": [
+    {
+      "title": "Elucidating Protein Quaternary Structure in Near-Native Solution: An AI-Assisted Hydrodynamic Approach.",
+      "url": "https://doi.org/10.1021/acs.analchem.6c01433",
+      "source": "PubMed — Analytical chemistry",
+      "one_liner": "Elucidating the quaternary structures of protein complexes under physiological conditions remains a central challenge for structural biology. Here, we introduce an integrative analytical pipeline that combines size exclusion chromatography (SEC), Taylor dispersion analysis (TDA), native mass spectrometry (nMS), and artificial intelligence to resolve macro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Ovo, an open-source ecosystem for de novo protein design.",
+      "url": "https://doi.org/10.1038/s42003-026-10497-1",
+      "source": "PubMed — Communications biology",
+      "one_liner": "The protein design field is rapidly advancing, with frequent emergence of new models and pipelines for designing de novo proteins with tailored properties and functions not found in nature. However, the current tool landscape is fragmented, tools are hard to install and deploy, and require significant computational expertise to integrate into end-to-end, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Coordinated molecular reorganization of faba bean protein via dual polyphenol complexation for Pickering emulsion stabilization.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.153039",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "This study investigated the coordinated molecular reorganization of faba bean protein isolate (FBPI) induced by ratio controlled dual polyphenol complexation. Gallic acid (GA) and rutin were selected as model polyphenols with different molecular sizes and interaction characteristics. Their distinct effects on protein structure were further examined in rel...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo Design of Near-Infrared Fluorescence-Activating Proteins.",
+      "url": "https://doi.org/10.1021/jacs.5c19594",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "Protein-based fluorescence imaging is a powerful modality for visualizing diverse biological processes. Biological imaging in the near-infrared (NIR, 800-1000 nm) and shortwave infrared (SWIR, 1000-2000 nm) ranges confers a number of photophysical advantages, but remains a challenge in practice due to the dearth of suitable protein probes in these optical...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Establishment of the China Elderly Comorbidity Medical Database (CECMed) and its application in machine learning-based prediction.",
+      "url": "https://doi.org/10.1186/s12877-026-07820-0",
+      "source": "PubMed — BMC geriatrics",
+      "one_liner": "AIMS: Comorbidity is highly prevalent in the elderly in China, representing a leading cause of mortality in this population. This study established a multicenter dataset specific to geriatric comorbidities and explored the performance in early warning of in-hospital adverse events using multiple machine learning models. METHODS AND RESULTS: Data were coll...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Ovo, an open-source ecosystem for de novo protein design",
+      "url": "https://www.nature.com/articles/s42003-026-10497-1",
+      "source": "Nature - Protein Design",
+      "one_liner": "Not stated in source text.\n\nMETHOD / APPROACH:\nNot stated in source text.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "nature",
+        "topic"
+      ]
+    },
+    {
+      "title": "Carbonyl-Modulated Lowest Unoccupied Molecular Orbital Energy Directs Machine Learning-Assisted Screening of Electrolyte Additives Toward Ultra-Stable Zinc Metal Anodes.",
+      "url": "https://doi.org/10.1002/adma.73811",
+      "source": "PubMed — Advanced materials (Deerfield Beach, Fla.)",
+      "one_liner": "The commercialization of aqueous zinc-ion batteries has long been hindered by side reactions stemming from zinc anode interfacial instability. Organic molecular additives offer an effective solution. Here, using lowest unoccupied molecular orbital (LUMO) energy and solubility as dual screening criteria, a novel high-precision Organic Molecular Attention P...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exploring the immune landscape and immunotherapy relevance of ER stress-related lncRNAs in melanoma through multi-omics and explainable machine learning.",
+      "url": "https://doi.org/10.1186/s12885-026-16356-w",
+      "source": "PubMed — BMC cancer",
+      "one_liner": "BACKGROUND: Melanoma is a highly aggressive malignancy with poor clinical outcomes, and endoplasmic reticulum (ER) stress plays an important role in tumor progression, immune regulation, and therapeutic resistance. However, the prognostic significance and biological functions of ER stress-related long noncoding RNAs (ERlncRNAs) in melanoma remain largely ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Detecting entanglement in high-spin quantum systems via a stacking ensemble of machine learning models.",
+      "url": "https://doi.org/10.1038/s41598-026-53789-6",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Reliable quantification of quantum entanglement in high-spin or many body systems remains a major computational challenge. Extending machine learning techniques to genuinely high dimensional settings is urgently needed. In this study, we investigate ensemble machine learning as a scalable framework for estimating entanglement, quantified by the negativity...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Nanoelectronic Detection of Opioids: Machine Learning-Powered Screening With Carbon Nanotube Field-Effect Transistor Sensor Array.",
+      "url": "https://doi.org/10.1002/smll.74244",
+      "source": "PubMed — Small (Weinheim an der Bergstrasse, Germany)",
+      "one_liner": "The development of inexpensive, portable, and rapid opioid screening techniques is urgently needed because of the ongoing opioid crisis in the United States, primarily driven by illicit fentanyl. In this work, a nanoelectronic detection method was developed for opioids using machine learning. Fentanyl and three other opioids (codeine, hydrocodone, and mor...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural and functional characterization of Acyl-CoA Synthetase Long-Chain Family Member 3 (ACSL3) and its targeted inhibition by gramicidin in multiple myeloma.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.153126",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Relapse and therapeutic resistance remain critical challenges in multiple myeloma (MM). This study investigates the macromolecular drivers of metabolic reprogramming in MM to identify novel therapeutic targets. Through integrated multi-omics profiling, we identified significant dysregulation in long-chain fatty acid metabolism, pinpointing the protein Acy...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification of potent inhibitors targeting the pre-fusion DENV envelope protein: A consensus physics-and AI-based in silico multi-tier screening approach.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.153722",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "Dengue virus, a well-known arbovirus, causes devastating effects in various parts of the globe, with an infection rate of 300-400 million annually, and nearly half of the world's population remains at risk of acquiring dengue infection. Currently, there are no specific approved drugs against the dengue virus, and existing vaccines have significant limitat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural architecture of a hybrid β-barrel assembly machinery BAM-TAM complex in Borrelia burgdorferi.",
+      "url": "https://doi.org/10.1016/j.jbc.2026.113267",
+      "source": "PubMed — The Journal of biological chemistry",
+      "one_liner": "The β-barrel assembly machinery (BAM) inserts outer membrane proteins (OMPs) into the outer membrane of Gram-negative bacteria. In well-studied organisms such as Escherichia coli, BAM consists of BamA and four accessory lipoproteins (BamB-E) that coordinate substrate recognition, membrane remodeling, and β-barrel insertion. In the Lyme disease spirochete ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Feature Transformation Network based on Correlation Distribution Graph for Disease Diagnosis.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3695915",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "Gene expression data play a crucial role in disease diagnosis. Transforming such non-image data into spatially structured image representations enables the ap-plication of convolutional neural networks (CNNs) to im-prove diagnostic accuracy. However, existing methods of-ten fail to capture complex spatial relationships among genes and overlook biologicall...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Phosphatidylethanolamine Binds to Human Perilipins via a Hydrophobic Cleft in their 4-Helix Bundle Domain for Lipid Droplet Targeting.",
+      "url": "https://doi.org/10.1016/j.jbc.2026.113268",
+      "source": "PubMed — The Journal of biological chemistry",
+      "one_liner": "Perilipins (PLINs) are a family of proteins that coat the surface of lipid droplets (LDs), the cell's main storage sites for fats, to control their formation, growth, and breakdown. These proteins share a common structure: an N-terminal PAT domain for initial targeting, a central region of repeating helices that insert into the LD surface, and a C-termina...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Immunomodulatory role and therapeutic potential of thrombospondin-1 during infectious diseases and autoimmunity.",
+      "url": "https://doi.org/10.1186/s12915-026-02657-w",
+      "source": "PubMed — BMC biology",
+      "one_liner": "Infectious diseases and autoimmunity are leading causes of mortality worldwide. The lack of vaccines and resistance to current treatments by microbes highlight the importance of developing novel therapeutics. Similarly, treatments for autoimmune diseases are limited and require improved approaches. Identifying relevant proteins involved in host defense an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Perceptual no-reference image quality assessment with meta-learning by graph representation learning and multi-scale feature fusion.",
+      "url": "https://doi.org/10.1371/journal.pone.0351549",
+      "source": "PubMed — PloS one",
+      "one_liner": "No-reference image quality assessment (NR-IQA) aims to predict perceptual quality in alignment with the human visual system (HVS), yet existing methods face challenges in capturing long-range dependencies across distortion types and levels while preserving content fidelity during preprocessing. This paper presents a perceptually-driven NR-IQA framework th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "From Amino Acids to Proteins via Peptide-Centric Nanopore Technology for Sensing, Probing, and Design.",
+      "url": "https://doi.org/10.1021/acs.langmuir.6c00804",
+      "source": "PubMed — Langmuir : the ACS journal of surfaces and colloids",
+      "one_liner": "Direct, high-resolution analysis of proteins and peptides at the single-molecule level remains a major challenge in biology and medicine. Nanopore technology has emerged as a uniquely powerful tool for label-free, real-time detection of biomolecules. This review comprehensively surveys advances in nanopore sensing, with a focus on peptides as pivotal inte...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
