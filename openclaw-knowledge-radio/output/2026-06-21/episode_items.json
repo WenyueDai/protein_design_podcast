@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    179.61,
+    374.25,
+    556.48,
+    787.52,
+    977.67,
+    1189.78,
+    1368.21,
+    1584.09,
+    1759.86,
+    1943.65
+  ],
+  "items": [
+    {
+      "title": "Ribosomes are covered by a coat of flexible protein fragments",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.18.733196",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Ribosomal proteins contain flexible terminal regions that are averaged out during electron density reconstructions, rendering them absent from experimental models derived by X-ray crystallography or cryogenic electron microscopy. These flexible protein fragments (FPFs) collectively form an invisible coat on the ribosome surface whose presence has been sys...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "AFM-Fold: Rapid Reconstruction of Protein Conformations from AFM Images.",
+      "url": "https://doi.org/10.1016/j.bpj.2026.06.022",
+      "source": "PubMed — Biophysical journal",
+      "one_liner": "High-speed atomic force microscopy (HS-AFM) enables direct visualization of protein dynamics under near-physiological conditions, yet its intrinsic limitation to surface topography prevents atomic-level structural characterization. We present AFM-Fold, a generative AI-based framework that reconstructs three-dimensional protein conformations directly from ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Functional importance of a structurally encoded succinimide modification in a high-affinity solute-binding protein",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.18.732793",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Post-translational modifications usually occur under enzymatic control as a mechanism for regulation of protein activity or localization, but can also occur spontaneously during protein aging and degradation. In contrast, there are few examples of spontaneous post-translational modifications with a significant role in the stability or biochemical function...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Bioinstructive Orthogonally-crosslinked Ovoprotein Microgels for Modular Bioprinting",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.17.732926",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Bioprinting increasingly requires biomaterials that are not only printable, but structurally adaptive and biologically instructive. Here we establish an ovoprotein-derived microgel platform that couples intrinsic protein bioactivity with orthogonal interparticle photocrosslinking for modular bioprinting. Methacrylated ovoproteins yielded a photoresponsive...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular arms race classifier for decrypting venom peptide and ion channel interactions.",
+      "url": "https://doi.org/10.1039/d5dd00498e",
+      "source": "PubMed — Digital discovery",
+      "one_liner": "Animal venoms comprise an astonishing number of peptides, proteins and small molecules. The diversity of venom compounds arises from evolutionary adaptations resulting in both offensive and defensive traits in predators and prey alike. This concept, referred to as \"arms race\", underpins the specificity and selectivity of venom compounds for certain molecu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ChromBERT-tools: A versatile toolkit for context-specific regulatory representations of transcription regulators across different cell types.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag423",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "SUMMARY: Representations that encode the genome-wide regulatory behavior of transcription regulators provide a foundation for flexible transcription modeling and in silico regulatory analysis. Existing regulator representations are commonly derived from gene co-expression, motif annotations, or static protein features, which capture useful but limited asp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MultiGSA: wind power prediction based on a multi-scale cross-graph network combined with an enhanced simple attention mechanism.",
+      "url": "https://doi.org/10.1038/s41598-026-57249-z",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Wind power generation datasets are widely encountered in renewable energy systems because of their inherent periodicity, non-stationarity, and substantial noise. Recent advancements in graph neural networks have improved wind power time series forecasting via multi-scale feature extraction. However, a key challenge is effectively capturing multi-scale tem...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A universal deep learning framework for empowering nanopore identification by reinforcing temporal signals.",
+      "url": "https://doi.org/10.1038/s41467-026-74507-w",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Nanopore sensing holds transformative potential for revolutionizing protein and glycan sequencing. However, translating this potential into practical, high-fidelity identification is severely bottlenecked by the challenge of processing massive amounts of highly similar nanopore ionic-current data, spurring an urgent need for robust, AI-driven solutions. P...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Extracellular matrix proteins as risk markers for complications in type 1 diabetes.",
+      "url": "https://doi.org/10.1111/dme.70396",
+      "source": "PubMed — Diabetic medicine : a journal of the British Diabetic Association",
+      "one_liner": "AIMS: Kidney fibrosis, characterised by impaired extracellular matrix remodelling and excessive collagen deposition, is a hallmark of chronic kidney disease in diabetes. We investigated whether biomarkers reflecting collagen formation and degradation were associated with complications in type 1 diabetes. METHODS: In this observational cohort study, marker...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Puf3 contributes to changes in mRNA solubility, translation elongation dynamics at rare arginine codons and loss of protein homeostasis in cells lacking Not4.",
+      "url": "https://doi.org/10.1261/rna.080953.126",
+      "source": "PubMed — RNA (New York, N.Y.)",
+      "one_liner": "The Not proteins of the Ccr4-Not complex regulate translation elongation dynamics, essential for proper folding and assembly of new proteins. In yeast, ribosomes with non-optimal codons in the A-site are enriched within the pool of ribosomes bound by Not4 and Not5. Such ribosomes accumulate in cells lacking Not4 or Not5 that show defects in co-translation...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "USP24 is a cross-reactive DUB targeting MOV10 to regulate IFN-I production.",
+      "url": "https://doi.org/10.1038/s41467-026-74490-2",
+      "source": "PubMed — Nature communications",
+      "one_liner": "The type I Interferon (IFN-I)-induced ubiquitin-like modifier Interferon-Stimulated Gene 15 (ISG15) plays a crucial role in the innate immune response against viral infections. ISG15 is conjugated to target proteins by an enzymatic cascade, called ISGylation. While ubiquitin-specific protease 18 (USP18) serves as the major deISGylase counteracting ISG15 c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Quantitative Serological Detection of NELL1 Autoantibodies in Membranous Nephropathy.",
+      "url": "https://doi.org/10.1016/j.kint.2026.05.017",
+      "source": "PubMed — Kidney international",
+      "one_liner": "INTRODUCTION: Membranous nephropathy (MN) comprises distinct subtypes driven by autoantibodies targeting podocyte-associated proteins, one of which is neural EGFL like 1 (NELL1). Currently, the diagnosis of NELL1-associated MN relies mainly on mass spectrometry or immunostaining of kidney biopsies. Serologic testing for anti-NELL1 antibodies is not yet co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Immunoinflammatory Mechanisms and Biocompatibility of Bioactive Dental Biomaterials: From Fundamental Insights to Clinical Translation.",
+      "url": "https://doi.org/10.1002/adhm.71335",
+      "source": "PubMed — Advanced healthcare materials",
+      "one_liner": "Biomaterials are substances designed to interact with living systems for diagnostic, therapeutic, or regenerative purposes. Their clinical success is governed not only by their bulk physicochemical properties but more importantly, by their surface properties and interfacial characteristics, which regulate early protein adsorption and subsequently downstre...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Extracellular vesicles in solid tumors: from tumor ecology to engineered therapeutics.",
+      "url": "https://doi.org/10.1186/s12943-026-02705-7",
+      "source": "PubMed — Molecular cancer",
+      "one_liner": "Extracellular vesicles (EVs) are important mediators of intercellular communication in solid tumors. Released by malignant, stromal, immune, and microbial cells, they influence tumor evolution by transferring proteins, nucleic acids, lipids, and metabolites that reshape local and systemic signaling. Current evidence implicates EVs in tumor microenvironmen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhanced Efficacy of Combined Iliac Crest Bone Graft and Recombinant Human Bone Morphogenetic Protein for Alveolar Bone Grafting.",
+      "url": "https://doi.org/10.1177/10556656261461128",
+      "source": "PubMed — The Cleft palate-craniofacial journal : official publication of the American Cleft Palate-Craniofacial Association",
+      "one_liner": "BackgroundThis study compares clinical and radiographic outcomes in alveolar bone grafting (ABG) using iliac crest bone graft (ICBG) alone, demineralized bone matrix (DBM) with recombinant human bone morphogenetic protein-2 (rhBMP-2), and ICBG with recombinant human bone morphogenetic protein-2 with demineralized bone matrix (rhBMP2/DBM).PurposeWe evaluat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Surface-based brain age index reflects hematological impacts on cognitive development in children with beta-thalassemia major.",
+      "url": "https://doi.org/10.1016/j.isci.2026.116072",
+      "source": "PubMed — iScience",
+      "one_liner": "Children with beta-thalassemia major (β-TM) are at risk of neurodevelopmental or cognitive impairment. In this study, we developed SurfGNN, a surface-based graph neural network model, to estimate brain age from cortical morphological features extracted via structural MRI, to a cross-sectional cohort of 25 β-TM patients and 40 age- and sex-matched healthy ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Discovery of cell-active small molecule inhibitors of UDP-galactose 4'-epimerase",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.17.733026",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Glycosylation depends on tightly regulated pools of nucleotide-sugars (NS), yet the mechanisms controlling mammalian NS homeostasis and their downstream effects on glycoprotein biosynthesis remain poorly understood. UDP-galactose 4'-epimerase (GALE) catalyzes the reversible interconversion of UDP-galactose/UDP-glucose and UDP-N-acetylgalactosamine/UDP-N-a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo Engineered Living Materials via Elastin-Like Polypeptide-Mediated Self-Assembly.",
+      "url": "https://doi.org/10.1021/acssynbio.6c00073",
+      "source": "PubMed — ACS synthetic biology",
+      "one_liner": "De novo engineered living materials (ELMs) are cellular systems that self-assemble into macroscopic structures through genetically encoded interactions, offering a route to programmable materials grown directly from living cells. Despite their promise, the molecular design principles that enable scalable self-assembly in de novo ELMs remain poorly underst...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
