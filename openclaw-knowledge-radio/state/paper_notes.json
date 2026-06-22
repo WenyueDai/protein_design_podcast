@@ -2384,5 +2384,12 @@
       "title": "Bioinstructive Orthogonally-crosslinked Ovoprotein Microgels for Modular Bioprinting",
       "source": "bioRxiv — bioengineering"
     }
+  },
+  "2026-06-22": {
+    "https://www.biorxiv.org/content/10.64898/2026.06.19.733375": {
+      "note": "DD",
+      "title": "Antibody-Antigen Affinity Prediction with Chain-Aware Protein Language Modeling",
+      "source": "bioRxiv — bioinformatics"
+    }
   }
 }
