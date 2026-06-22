@@ -2367,5 +2367,12 @@
       "title": "Protein Representation Learning with Secondary-Structure and Energy-Filtered Hydrogen-Bond Graphs",
       "source": "arXiv cs.LG (AI/ML)"
     }
+  },
+  "2026-06-21": {
+    "https://www.biorxiv.org/content/10.64898/2026.06.18.733196": {
+      "note": "DD",
+      "title": "Ribosomes are covered by a coat of flexible protein fragments",
+      "source": "bioRxiv — bioinformatics"
+    }
   }
 }
