@@ -2373,6 +2373,11 @@
       "note": "DD",
       "title": "Ribosomes are covered by a coat of flexible protein fragments",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://doi.org/10.1016/j.bpj.2026.06.022": {
+      "note": "DD",
+      "title": "AFM-Fold: Rapid Reconstruction of Protein Conformations from AFM Images.",
+      "source": "PubMed — Biophysical journal"
     }
   }
 }
