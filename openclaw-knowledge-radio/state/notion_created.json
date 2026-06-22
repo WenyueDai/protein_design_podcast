@@ -1746,5 +1746,17 @@
   "2026-06-19|https://www.biorxiv.org/content/10.64898/2026.06.16.732218": {
     "page_id": "3845f58e-a8c2-811d-a463-e6291b023194",
     "note": "DD"
+  },
+  "2026-06-19|https://doi.org/10.1016/j.bpj.2025.11.023": {
+    "page_id": "3845f58e-a8c2-8125-a704-c448b98c70e6",
+    "note": "DD"
+  },
+  "2026-06-19|https://arxiv.org/abs/2606.19374": {
+    "page_id": "3845f58e-a8c2-81ef-be9f-fe73bccc145e",
+    "note": "DD"
+  },
+  "2026-06-21|https://www.biorxiv.org/content/10.64898/2026.06.18.733196": {
+    "page_id": "3875f58e-a8c2-8144-9208-d6bc1a23590e",
+    "note": "DD"
   }
 }
