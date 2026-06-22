@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    193.72,
+    376.26,
+    547.86,
+    789.25,
+    972.68,
+    1142.71,
+    1328.25,
+    1543.62,
+    1725.68,
+    1947.63
+  ],
+  "items": [
+    {
+      "title": "Protein-Nucleic Acid Binding Site Prediction Using Interpretable Kolmogorov-Arnold Networks with Hypergraph Representation Learning.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag433",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: In recent years, protein language models (pLMs) and graph neural networks (GNNs) have demonstrated powerful expressive and reasoning capabilities in modeling protein-RNA/DNA interactions. However, existing methods, which use simple graphs to describe the relationships between residues, struggle to effectively capture the high-order, multi-body...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Antibody-Antigen Affinity Prediction with Chain-Aware Protein Language Modeling",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.19.733375",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Motivation: Antibody-antigen affinity determines which antibodies advance in therapeutic discovery, repertoire analysis and affinity maturation, but experimental measurements are sparse relative to the scale of sequence libraries. Structure-based predictors can exploit interface geometry when reliable complexes are available, yet early discovery often req...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fitness translocation: improving variant effect prediction with biologically-grounded data augmentation.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag415",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Data scarcity limits the characterization of protein fitness landscapes and the development of accurate variant effect prediction models. To address this challenge, we introduce fitness translocation, a data augmentation strategy that generates synthetic variants for a target protein by leveraging variant fitness data previously measured in ho...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mass spectrometry-based mapping of conformational epitopes on SARS-CoV-2 antigens targeted by monoclonal antibodies.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.153102",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "The spike glycoprotein of SARS-CoV-2, particularly its receptor-binding domain (RBD), is a key target for therapeutic monoclonal antibodies (mAbs). Epitope mapping is therefore critical for the development of effective antiviral therapeutics. In this study, diethylpyrocarbonate covalent labeling mass spectrometry (DEPC CL-MS) was applied to map epitopes o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Emerging and regionally novel voltage-gated sodium channel mutations associated with pyrethroid resistance and altered binding affinity in Aedes albopictus (Skuse) from Northern Peninsular Malaysia.",
+      "url": "https://doi.org/10.1186/s13071-026-07496-w",
+      "source": "PubMed — Parasites & vectors",
+      "one_liner": "BACKGROUND: The application of synthetic insecticides is the primary means of controlling Aedes mosquitoes in Malaysia, but the efficacy of this method is undermined by the evolution of resistance. Aedes albopictus as one of the dominant and competent arboviral vectors has an elusive insecticide resistance status in different geographical regions of North...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Performance evaluation of AkidaNet converted to spiking domain for the classification of weeds in cotton fields.",
+      "url": "https://doi.org/10.1038/s41598-026-54153-4",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The infestation of weeds in cotton fields poses a serious threat to the production of lint. Weeds are eliminated either by spraying weed kill sprays, or removal by hand, or by automated machinery. Machine learning (ML) and deep learning (DL) models are used in these machines for weed classification and detection. Compared with machine learning models, DL ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A sensitive orange fluorescent calcium ion indicator for imaging neural activity",
+      "url": "https://www.nature.com/articles/s41467-026-74553-4",
+      "source": "Nature - Protein Design",
+      "one_liner": "Not stated in source text.\n\nMETHOD / APPROACH:\nNot stated in source text.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "nature",
+        "topic"
+      ]
+    },
+    {
+      "title": "Cell-sized droplet interfaces reorganize protein secondary structures through confinement-enhanced membrane interactions",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.17.732854",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Cell membranes are recognized as regulators of protein organization, yet it remains unclear whether membrane-associated structural transitions arise from membrane-induced destabilization or from the reorganization of proteins already destabilized before membrane contact. Here, we address this question using cell-sized lipid-coated droplets. Native serum a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification of human T lymphotropic virus type-1 p30 protein phosphorylations and computational analysis of their effect on intrinsically disordered nature of p30.",
+      "url": "https://doi.org/10.1080/07391102.2026.2688933",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "Human T-lymphotropic virus (HTLV-1), a delta retrovirus, encodes for accessory proteins in addition to structural and enzymatic proteins. p30, an HTLV-1 accessory protein, contributes to viral persistence and pathogenesis. p30 is a multifunctional protein and its intrinsically disordered protein (IDP) nature enables interactions with different host protei...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "RNA-binding proteins in aging and age-related diseases: roles, mechanisms, and a large language model analysis.",
+      "url": "https://doi.org/10.1007/s10522-026-10464-7",
+      "source": "PubMed — Biogerontology",
+      "one_liner": "Aging is a progressive and irreversible biological process that contributes to the pathogenesis of numerous age-related diseases. Elucidating the molecular mechanisms of aging is crucial for promoting healthy aging and extending healthspan. RNA-binding proteins (RBPs) are pivotal regulators of post-transcriptional gene expression and play essential roles ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A unified platform for the rapid assembly of glutarimides for Cereblon E3 ligase modulatory drugs.",
+      "url": "https://doi.org/10.1038/s41467-026-74673-x",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Glutarimide-containing Cereblon (CRBN) ligands are critical motifs for PROTACs, molecular glue degraders and next-generation Cereblon E3 ligase modulatory drugs (CELMoDs), which represent promising therapeutic modalities in targeted protein degradation. However, the multistep synthetic routes required to access glutarimide scaffolds continue to present fo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "mRNA vaccine design targeting Merkel cell polyomavirus for immunotherapy of Merkel cell carcinoma.",
+      "url": "https://doi.org/10.1038/s41598-026-59194-3",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The pathogenesis of Merkel cell polyomavirus (MCPyV) is characterized by ubiquitous and most likely silent childhood infection that may cause Merkel cell carcinoma (MCC). This mRNA vaccine includes the capsid proteins VP1 and VP2, as well as the Large T antigen and small T antigen, which are highly immunogenic. This has led to the development of mRNA vacc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development and multi-institutional validation of a deep learning algorithm for predicting cervical cord compression using dynamic cervical lateral radiographs.",
+      "url": "https://doi.org/10.1038/s41598-026-56657-5",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Although magnetic resonance imaging (MRI) is the gold standard for diagnosing degenerative cervical myelopathy (DCM), its cost and limited availability can delay diagnosis. Deep learning (DL) models with convolutional neural networks (CNNs) may offer a screening alternative with plain radiographs. We aimed to develop a CNN-based DL algorithm to predict sp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DeepEN: A deep reinforcement learning framework for personalized enteral nutrition in critical care.",
+      "url": "https://doi.org/10.1016/j.jbi.2026.105067",
+      "source": "PubMed — Journal of biomedical informatics",
+      "one_liner": "OBJECTIVE: Enteral nutrition (EN) delivery in the ICU remains suboptimal due to limited personalization and uncertainty regarding appropriate calorie, protein, and fluid targets under dynamic metabolic demands. We introduce DeepEN, a reinforcement learning (RL) framework for personalized EN optimization using electronic health record data. METHODS: DeepEN...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fabrication and characterization of edible composite films derived from xylanase-enzymatic flaxseed gum and citric acid-modified soybean protein isolate: Intermolecular interactions and functional efficacy.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.153113",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Polysaccharide based edible films often exhibit high brittleness and poor extensibility, limiting their widespread application in food preservation. To address these limitations, plasticizer-free polysaccharide-protein composite films were fabricated from xylanase hydrolyzed flaxseed gum (EFG) and citric acid modified soybean protein isolate (ASPI). This ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mitochondria-associated endoplasmic reticulum membrane (MAM): roles in innate immunity dysregulation.",
+      "url": "https://doi.org/10.1186/s12964-026-03013-9",
+      "source": "PubMed — Cell communication and signaling : CCS",
+      "one_liner": "Mitochondria-associated endoplasmic reticulum membrane (MAM), which serves as a signaling hub for interactions between the endoplasmic reticulum (ER) and mitochondria, dynamically coordinates innate immune processes by regulating calcium homeostasis, lipid metabolism, mitochondrial dynamics, mitochondrial protein modifications, and autophagy. MAM regulate...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Autism-associated substitutions at ASN374 disrupt FORKHEAD box P2-mediated regulation of DNA binding by t-box BRAIN protein 1.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.153156",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "TBR1 is a neurodevelopmental transcription factor whose function depends on the coordinated integration of DNA binding with regulatory protein-protein interactions. Despite physiological links between TBR1 and other transcription factors, the biochemical mechanisms that couple DNA binding to partner-mediated regulation, and how these processes are disrupt...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Sanguinarine as a multi-target therapeutic candidate for laryngeal cancer: insights from network pharmacology, molecular dynamics and in vitro validation.",
+      "url": "https://doi.org/10.1186/s12885-026-16377-5",
+      "source": "PubMed — BMC cancer",
+      "one_liner": "OBJECTIVE: To identify the core targets and elucidate the potential molecular mechanisms of sanguinarine (SA) against laryngeal squamous cell carcinoma (LSCC), and to validate its antitumor effects in vitro. METHODS: Potential targets of SA were predicted using SwissTargetPrediction, TargetNet, and SuperPred and intersected with LSCC-related targets obtai...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
