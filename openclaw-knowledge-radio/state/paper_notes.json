@@ -2378,6 +2378,11 @@
       "note": "DD",
       "title": "AFM-Fold: Rapid Reconstruction of Protein Conformations from AFM Images.",
       "source": "PubMed — Biophysical journal"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.06.17.732926": {
+      "note": "DD",
+      "title": "Bioinstructive Orthogonally-crosslinked Ovoprotein Microgels for Modular Bioprinting",
+      "source": "bioRxiv — bioengineering"
     }
   }
 }
