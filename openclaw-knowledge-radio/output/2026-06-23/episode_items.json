@@ -1,0 +1,282 @@
+{
+  "timestamps": [
+    0.0,
+    174.69,
+    385.0,
+    567.85,
+    711.99,
+    882.2,
+    1057.15,
+    1239.04,
+    1417.14,
+    1606.64,
+    1812.92
+  ],
+  "items": [
+    {
+      "title": "Bidirectional cross-modal fusion with tensor interaction for drug-target binding prediction.",
+      "url": "https://doi.org/10.1038/s41598-026-57915-2",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Accurate prediction of drug-target binding affinity is central to computational drug discovery, yet it remains difficult because binding is governed by complex, non-linear interactions between chemical substructures and protein residue environments. Many existing deep learning approaches learn drug and protein representations largely in isolation and comb...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Parameter Efficient Deep Learning Models for Multi-Target Binding Affinity and hERG Cardiotoxicity Prediction.",
+      "url": "https://doi.org/10.1109/TCBBIO.2026.3705951",
+      "source": "PubMed — IEEE transactions on computational biology and bioinformatics",
+      "one_liner": "Accurately predicting binding affinity and toxicity is critical to drug discovery, offering the potential to reduce development costs and enhance safety profiles. Traditional computational methods, such as molecular docking and quantitative structure-activity relationship (QSAR) models, rely heavily on handcrafted features and domain expertise, limiting t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beyond the canonical: The role of post-transcriptional regulation in drug-target interaction prediction.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014440",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Protein isoforms produced from the same gene through post-transcriptional regulatory mechanisms, such as alternative splicing, can substantially alter protein structure and function, including drug-binding properties. However, most existing drug-target interaction (DTI) and drug-target affinity (DTA) prediction models rely exclusively on a single represen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A complete RXFP1-relaxin interaction model unlocks the design of potent mini-protein modulators",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.19.733483",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Relaxin family peptide receptor 1 (RXFP1) is a multi-domain GPCR with compelling therapeutic potential, yet uncertainty surrounding the mechanism of its activation by the hormone H2 relaxin has hindered the development of selective modulators. Here, we combine deep learning based structural modelling with de novo protein design to overcome this barrier. W...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Functional effect predictions for ion channel missense variants using a protein language model.",
+      "url": "https://doi.org/10.1038/s10038-026-01484-9",
+      "source": "PubMed — Journal of human genetics",
+      "one_liner": "Channelopathies represent a group of diseases often caused by missense variants in ion channels affecting the functioning of tissues like the nervous system, heart, and muscle. The gold standard for functionally characterizing a variant is to measure the electrophysiological changes in channel properties using cell-based heterologous expression systems. A...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dopamine hydrochloride promotes non-amyloid aggregation and secondary structural rearrangement of hemoglobin: Biophysical and spectroscopic evidence.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.153154",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Hemoglobin (Hb) is susceptible to oxidative and conformational perturbations that can promote protein aggregation and impair biological function. Dopamine hydrochloride (DA HCl), a redox-active catecholamine, undergoes autoxidation under physiological conditions, generating reactive intermediates that may influence protein structure and assembly. However,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A partially quantum‑informed crystal graph network for direct adsorption energy prediction in catalysis.",
+      "url": "https://doi.org/10.1038/s41598-026-56391-y",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The rational design of heterogeneous catalysts requires predictive tools that balance quantum-level accuracy with computational efficiency for estimating adsorbate energetics. Although recent machine learning approaches have shown strong performance, they mostly depend on total energy decomposition and/or force supervision, where forces are obtained as th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "WITHDRAWN: Distilling Protein Language Models with Complementary Regularizers",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.17.706304",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The authors have withdrawn this manuscript because, at the time of submission, the submitter did not have the rights required to agree to the distribution license. Accordingly, the authors request that this work not be cited as a reference for the project. Please contact the corresponding author with any questions.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Divergence in virus-host protein interactomes across species explains disparities in translational therapeutic success.",
+      "url": "https://doi.org/10.1128/mbio.00195-26",
+      "source": "PubMed — mBio",
+      "one_liner": "Infectious viral diseases remain a major and persistent threat to human health, and findings from animal models often translate poorly to clinical applications. Here, we constructed protein interactomes for seven species, including humans, revealing substantial differences in research biases. A random sampling strategy was employed to generate human inter...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Impact of Clustered Antigenic Architectures on the Adhesion of Monoclonal Antibodies: Insights from Biomimetic Model Surfaces.",
+      "url": "https://doi.org/10.1021/acs.analchem.5c07274",
+      "source": "PubMed — Analytical chemistry",
+      "one_liner": "Monoclonal antibodies, thanks to their high affinity and specificity for their antigen targets, are increasingly used as highly selective therapeutics. While antigen expression and clustering at the cell surface critically influence therapeutic activity, quantifying these effects remains challenging due to the lack of well-defined in vitro platforms that ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cross-attention guided explainable deep transformer model for multi-level classification of rare neurological disorders using MRI images.",
+      "url": "https://doi.org/10.1038/s41598-026-58491-1",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Neurological disorders (ND) impact a significant number of the population all over the world, affecting the brain, spinal cord, and peripheral nerves. These disorders are classified as NeuroDegenerative, NeuroBiological, and NeuroDevelopmental disorders, which vary from common to rare disorders. Traditional deep learning methods often fail to generalize e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine Learning Prediction of Heart Failure Readmissions: Insights From a Multicenter Emergency Department Trial.",
+      "url": "https://doi.org/10.1016/j.jacadv.2026.102931",
+      "source": "PubMed — JACC. Advances",
+      "one_liner": "BACKGROUND: Heart failure (HF) readmissions remain common and costly, yet existing prediction models show limited clinical utility, particularly at the time of emergency department (ED) presentation. OBJECTIVES: This study aimed to develop and evaluate machine learning (ML) models to predict 12-month HF readmission among patients presenting to EDs with su...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Interpretable deep learning for rotator cuff calcific tendinopathy diagnosis: a multi-center study.",
+      "url": "https://doi.org/10.1038/s41598-026-51016-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The reliable deployment of artificial intelligence systems in medical imaging requires high diagnostic performance, robustness and interpretability. In this study, we developed and evaluated two automated frameworks for binary classification of shoulder radiographs (XRs) using deep learning (DL) and hybrid DL-machine learning (ML) approaches. A convolutio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Comment on \"Application of machine learning to create a prediction model for the need of aggressive nutritional intervention during head & neck cancer radiotherapy\".",
+      "url": "https://doi.org/10.1016/j.clnesp.2026.103426",
+      "source": "PubMed — Clinical nutrition ESPEN",
+      "one_liner": "Not stated in source text.\n\nMETHOD / APPROACH:\nNot stated in source text.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Personalized talent cultivation and academic prediction framework for higher education based on the HA-GNN-LSTM architecture.",
+      "url": "https://doi.org/10.1038/s41598-026-59218-y",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "To address the dilemma of homogeneous talent training and the efficiency bottleneck of human resource management in universities, this study proposes an innovative personalized training framework integrating artificial intelligence, big data, and deep learning. Based on the 18-dimensional full-cycle behavior dataset of 5,000 students and OULAD dataset, a ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Linking mixtures of air pollution exposures and preterm birth with a self-organizing map.",
+      "url": "https://doi.org/10.1038/s41370-026-00933-z",
+      "source": "PubMed — Journal of exposure science & environmental epidemiology",
+      "one_liner": "BACKGROUND: Exposure to nitrogen dioxide (NO OBJECTIVES: To implement a novel epidemiologic machine learning framework for linking high-dimensional mixture exposures and health outcomes, with an application in preterm birth and residential exposure to PM METHODS: Data comes from a retrospective cohort of 44,874 individuals living in Utah who gave birth fo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A systematic review of machine learning approaches for phonocardiogram classification.",
+      "url": "https://doi.org/10.1080/10255842.2026.2690183",
+      "source": "PubMed — Computer methods in biomechanics and biomedical engineering",
+      "one_liner": "Recent advances in machine learning (ML) have accelerated automated analysis of phonocardiogram (PCG) signals, yet prior surveys often narrow their scope (e.g. omitting segmentation, focusing only on classical ML or overlooking recent deep learning [DL] trends) and provide limited methodological transparency. We present a comprehensive, Preferred Reportin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "pyhgf: A neural network library for predictive coding.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014340",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Bayesian models of cognition have gained considerable traction in computational neuroscience and psychiatry. Their scopes are now expected to expand rapidly to artificial intelligence, providing general inference frameworks to support embodied, adaptable, and energy-efficient autonomous agents. A central theory in this domain is predictive coding, which p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Dark Dimension Could Link Two of the Universe’s Great Unknowns",
+      "url": "https://www.quantamagazine.org/a-dark-dimension-could-link-two-of-the-universes-great-unknowns-20260622/",
+      "source": "Quanta Magazine",
+      "one_liner": "Recent observations suggest that dark energy is changing over time. Theorists wonder if dark matter is, too. The post A Dark Dimension Could Link Two of the Universe’s Great Unknowns first appeared on",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
