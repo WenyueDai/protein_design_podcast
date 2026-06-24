@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    177.02,
+    424.58,
+    587.48,
+    804.3,
+    1001.62,
+    1207.03,
+    1400.16,
+    1570.55,
+    1760.89,
+    1953.18
+  ],
+  "items": [
+    {
+      "title": "Robustness of Protein-Ligand Binding Affinity Prediction Models to Docked and Predicted Structures.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00592",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Structure-based deep learning models for protein-ligand binding affinity prediction (PLBAP) are commonly benchmarked using experimentally resolved co-crystal structures, but real use cases often rely on computed inputs (docked or predicted complexes). To quantify this benchmark-to-deployment mismatch, we compared the CASF-2016 performance of five reproduc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multimodal machine learning and deep graph neural networks for the prediction of molecular inhibitory activity and disease associations.",
+      "url": "https://doi.org/10.1007/s10822-026-00858-7",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "Effectively integrating a variety of biological and chemical data sources is essential for the acceleration of drug discovery and precision diagnostics. Nevertheless, conventional computational methods frequently experience modality isolation, which results in their inability to simultaneously capture the intricate multi-omics regulatory landscape of dise...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PharmaGNN: a model for odor prediction based on graph neural networks.",
+      "url": "https://doi.org/10.1002/jsfa.70826",
+      "source": "PubMed — Journal of the science of food and agriculture",
+      "one_liner": "BACKGROUND: Artificial intelligence (AI)-assisted odor prediction holds significant potential for applications in fragrance discovery, food quality control, and sensory evaluation. However, the accuracy of existing models is often limited by insufficient features and class imbalance across diverse odor labels. We propose the PharmaGNN model that integrate...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "High-throughput machine learning-aided antibody discovery for cell surface antigens.",
+      "url": "https://doi.org/10.1016/j.cels.2026.101645",
+      "source": "PubMed — Cell systems",
+      "one_liner": "Machine learning (ML) has the potential to revolutionize antibody design and selection, but its success depends on access to well-curated datasets of antibody-antigen interactions. We developed a synthetic Fab yeast display library optimized for seamless integration with ML processes, focusing on sequence diversity within the complementary determining reg...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Graph informed biomarker discovery framework using transcriptomic machine learning for glioblastoma prognosis.",
+      "url": "https://doi.org/10.1038/s41598-026-58062-4",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Identifying reproducible, interpretable prognostic signals from high-dimensional transcriptomics remains challenging because gene-level models often ignore network context. We developed Graph-Informed Biomarker Discovery (GIBD), a locked transcriptomics-only framework for primary glioblastoma that integrates RNA-seq expression with high-confidence STRING ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Recent advances in protein engineering and synthetic applications of amino acid oxidases.",
+      "url": "https://doi.org/10.1016/j.biortech.2026.135229",
+      "source": "PubMed — Bioresource technology",
+      "one_liner": "Amino acid oxidases (AAOs: EC 1.4.3.X, D- and l-forms) have attracted significant interest as promising biocatalysts for the synthesis of high-value chiral compounds, including natural and non-natural amino acids. These FAD-dependent enzymes catalyze the oxidative deamination of amino acids to corresponding imino acids (which subsequently degrade to keto ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting brain tumour enhancement from non-contrast MR imaging with artificial intelligence: a multi-cohort retrospective diagnostic accuracy study",
+      "url": "https://arxiv.org/abs/2508.16650",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2508.16650v3 Announce Type: replace-cross \nAbstract: Brain tumour MRI typically requires both pre- and post-contrast imaging, but gadolinium is not always desirable (frequent follow-up, renal impairment, allergy, paediatric patients). We developed and validated a deep learning model to predict tumour contrast enhancement from non-contrast MRI alone....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Predicting High-Risk Colorectal Polyps in African Americans Using Pre-colonoscopy Clinical Features: Machine Learning Model Development and Temporal Validation.",
+      "url": "https://doi.org/10.1007/s10620-026-10045-1",
+      "source": "PubMed — Digestive diseases and sciences",
+      "one_liner": "PURPOSE: Risk stratification for advanced colorectal polyps typically relies on colonoscopy and/or pathology findings. However, there is growing interest in whether noninvasive features available prior to colonoscopy can help identify patients at higher risk. Such approaches may enhance clinical decision-making by prioritizing surveillance for individuals...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-based modeling to predict inhibitors for targets of Alzheimer's Disease",
+      "url": "https://arxiv.org/abs/2606.24372",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2606.24372v1 Announce Type: new \nAbstract: Alzheimer's Disease is a chronic neurodegenerative disorder projected to affect 115 million people by 2050, driven by mechanisms like the cholinergic and amyloid hypotheses and insulin signaling disruptions involving key targets such as BACE-1, AChE, and GSK-3 beta. Utilizing machine learning (ML), we devel...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Impact of ASO conjugation and receptor binding affinity on intracellular transport of mono- and bispecific TfR- and CD98-Brainshuttle",
+      "url": "https://doi.org/10.1080/19420862.2026.2691351",
+      "source": "PubMed — mAbs",
+      "one_liner": "Antisense oligonucleotides (ASOs) represent a promising therapeutic modality for central nervous system (CNS) disorders, offering highly specific modulation of gene expression. However, their clinical utility is severely limited by their inability to cross the blood-brain barrier (BBB), necessitating effective shuttling strategies. While transferrin recep...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Generalized Chargaff symmetry in codon usage across the tree of life",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.22.733775",
+      "source": "bioRxiv — evolutionary biology",
+      "one_liner": "Codon usage bias is a central record of mutation, selection, drift, and translational constraints, but it is usually treated separately from generalized Chargaff symmetry, the tendency for words and their reverse complements to occur at similar frequencies in long DNA sequences. Here we ask whether codon usage contains a measurable reverse-complement comp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "UniRES-GO: Unified residue-level early fusion of sequence and predicted structure for protein function prediction.",
+      "url": "https://doi.org/10.1016/j.ab.2026.116184",
+      "source": "PubMed — Analytical biochemistry",
+      "one_liner": "Protein function prediction remains a central problem in bioinformatics, with broad implications for understanding biological processes, disease mechanisms, and drug discovery. Due to the high cost and time required for experimental characterization, only a small fraction of proteins have reliable functional annotations, highlighting the need for accurate...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Selection of high-affinity optimer aptamers for A-type inclusion proteins and designing of optimer-enabled photonic crystal paper device for recognition of poxviruses.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.153134",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "We present an optimer-enabled photonic crystal paper device (OPCD) for rapid, multiplexed detection of orthopoxviruses, alongside a fundamental insight into aptamer structure-function relationships. By systematically truncating computationally designed 40-nucleotide DNA aptamers targeting A-type inclusion protein (A27L) proteins from cowpox, monkeypox, an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Antigenic Multi-Epitope Vaccine Against Ross River Virus Using Capsid and Envelope Proteins via Immunoinformatics and Reverse Vaccinology Approaches.",
+      "url": "https://doi.org/10.1111/1348-0421.70070",
+      "source": "PubMed — Microbiology and immunology",
+      "one_liner": "Ross River virus (RRV), a mosquito-borne alphavirus of the Togaviridae family, is the causative agent of Ross River fever a debilitating infectious disease characterized by fever, rash, and persistent polyarthritis. The virus remains endemic across Australia and the Pacific regions, with sporadic outbreaks reported in new geographic areas due to climate c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SpliceSelectNet: a hierarchical Transformer-based deep learning model for splice site prediction.",
+      "url": "https://doi.org/10.1093/nar/gkag625",
+      "source": "PubMed — Nucleic acids research",
+      "one_liner": "Accurate RNA splicing is essential for gene expression and protein function, yet the mechanisms governing splice site recognition remain incompletely understood. Aberrant splicing caused by mutations can lead to severe diseases, including cancer and genetic disorders, underscoring the need for accurate computational tools to predict splice sites and detec...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CABS-flex standalone 3: an open command-line platform for protein flexibility simulation, peptide structure modeling, and protein-peptide docking",
+      "url": "https://arxiv.org/abs/2606.24487",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2606.24487v1 Announce Type: new \nAbstract: Summary: CABS-flex standalone 3 is an open command-line platform for fast CABS-based coarse-grained modeling of protein flexibility, peptide structures, and global or information-guided protein-peptide docking, coupled with all-atom reconstruction and analysis. The package builds on the established CABS-fle...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Quantification of Binding of Small Molecules to Native Kinases by Flow Cytometry Reveals Divergence from Biochemical Affinities.",
+      "url": "https://doi.org/10.1021/jacs.6c06577",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "Precise measurements of small molecule-protein interactions are critical for drug discovery. However, most biochemical profiling platforms measure binding using recombinant kinase domains or proteins in cell lysates, which can miss conformational regulation present in intact living cells. Here, we used flow cytometry-based fluorescent probe cellular bindi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Discovery of CDK4-selective molecular glue degraders by high-throughput proteomics",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.19.733443",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Molecular glue degraders (MGDs) are proximity-inducing molecules that promote the destruction of disease-causing proteins by stabilizing novel interfaces between E3 ubiquitin ligases and target proteins. The rational design of MGDs remains exceptionally challenging, historically relying on serendipitous discoveries. Here, we deployed a high-throughput, ma...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Ensemble Feature Selection and Harris Hawks Optimization for Explainable Mental Health Risk Prediction in Female Sex Workers",
+      "url": "https://arxiv.org/abs/2606.24047",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.24047v1 Announce Type: cross \nAbstract: One of the significant mental health issues affecting female sex workers (FSWs) is mental disorders, especially depression. Exposure to violence, stigma, and economic hardship further increases their psychological risk. Current machine learning (ML) models are typically ineffective at capturing the high-d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Machine Learning Classification and Portfolio Construction: Does the Loss Function Matter?",
+      "url": "https://arxiv.org/abs/2108.02283",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2108.02283v3 Announce Type: replace-cross \nAbstract: Classification outperforms regression across matched machine learning models in portfolio construction. A stacking ensemble of gradient boosted tree, random forest, and neural network yields a value-weighted annualized Sharpe ratio of 1.83 for classification and 1.11 for regression. This outperfor...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
