@@ -2396,5 +2396,12 @@
       "title": "Fitness translocation: improving variant effect prediction with biologically-grounded data augmentation.",
       "source": "PubMed — Bioinformatics (Oxford, England)"
     }
+  },
+  "2026-06-25": {
+    "https://arxiv.org/abs/2602.06020": {
+      "note": "DD",
+      "title": "Two Stages of Folding: Convergent Mechanisms in AI Protein Folding Trunks",
+      "source": "arXiv q-bio.BM"
+    }
   }
 }
