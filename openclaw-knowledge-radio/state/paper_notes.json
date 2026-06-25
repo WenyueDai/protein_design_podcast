@@ -2402,6 +2402,11 @@
       "note": "DD",
       "title": "Two Stages of Folding: Convergent Mechanisms in AI Protein Folding Trunks",
       "source": "arXiv q-bio.BM"
+    },
+    "https://doi.org/10.1093/bioinformatics/btag446": {
+      "note": "DD",
+      "title": "Inferring Dynamic Information from Protein Structures by Gaussian Integrals and Deep Learning.",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
     }
   }
 }
