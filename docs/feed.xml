@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 06:43:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 06:45:49 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-06-25</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-25/podcast_2026-06-25.mp3</guid>
+      <pubDate>Thu, 25 Jun 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-25/podcast_2026-06-25.mp3" length="16208805" type="audio/mpeg" />
+      <description>What used to feel like a blind‑search in bacterial genetics is now being turned into a high‑resolution map, thanks to a cross‑species hybrid feature pipeline that fuses EggNOG orthology with Pfam domains. | In the world of structure prediction, the prevailing view was that each deep‑learning model learned its own idiosyncratic folding pathway. | Dynamic information, long thought to require costly molecular‑dynamics simulations, is being extracted directly from static coordinates.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>What used to feel like a blind‑search in bacterial genetics is now being turned into a high‑resolution map, thanks to a cross‑species hybrid feature pipeline that fuses EggNOG orthology with Pfam domains. | In the world of structure prediction, the prevailing view was that each deep‑learning model learned its own idiosyncratic folding pathway. | Dynamic information, long thought to require costly molecular‑dynamics simulations, is being extracted directly from static coordinates.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-06-24</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-24/podcast_2026-06-24.mp3</guid>
       <pubDate>Wed, 24 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-24/podcast_2026-06-24.mp3" length="16344069" type="audio/mpeg" />
-      <description>What used to be a comfortable shortcut—feeding a deep‑learning binding‑affinity model a pristine crystal structure—has now been shown to be a fragile crutch. | A second shift comes from the multimodal framework that married quantum‑calculated electron‑density grids with SMILES, ECFP4 fingerprints and heterogeneous disease networks. | The glioblastoma study rewrites the assumption that raw transcript counts are the only sensible input for survival classifiers.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-24/podcast_2026-06-24.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>What used to be a comfortable shortcut—feeding a deep‑learning binding‑affinity model a pristine crystal structure—has now been shown to be a fragile crutch. | A second shift comes from the multimodal framework that married quantum‑calculated electron‑density grids with SMILES, ECFP4 fingerprints and heterogeneous disease networks. | The glioblastoma study rewrites the assumption that raw transcript counts are the only sensible input for survival classifiers.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-15/podcast_2026-04-15.mp3</guid>
       <pubDate>Wed, 15 Apr 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-15/podcast_2026-04-15.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-04-14</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-14/podcast_2026-04-14.mp3</guid>
-      <pubDate>Tue, 14 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-14/podcast_2026-04-14.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

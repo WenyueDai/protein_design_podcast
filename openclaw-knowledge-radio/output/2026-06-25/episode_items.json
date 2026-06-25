@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    187.39,
+    396.52,
+    574.45,
+    802.23,
+    979.71,
+    1186.54,
+    1362.62,
+    1561.34,
+    1732.38,
+    1927.21
+  ],
+  "items": [
+    {
+      "title": "Enhanced identification of key bacterial motility genes via a cross-species genomic hybrid feature machine learning approach.",
+      "url": "https://doi.org/10.1186/s12864-026-13083-1",
+      "source": "PubMed — BMC genomics",
+      "one_liner": "Efficient and accurate identification of functional genes is critical to biological research, yet traditional single-species approaches are often limited by low efficiency. Previously, we established a novel method for identifying key genes using cross-species protein domain features and machine learning. However, the high multiplicity of gene members ass...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Two Stages of Folding: Convergent Mechanisms in AI Protein Folding Trunks",
+      "url": "https://arxiv.org/abs/2602.06020",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2602.06020v3 Announce Type: replace-cross \nAbstract: How do protein structure prediction models fold proteins? We investigate this question through causal interventions on the folding trunks of ESMFold, OpenFold, and Boltz-1. Across all three models, we find a shared two-stage computational structure. In the first stage, early blocks initialize pair...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Inferring Dynamic Information from Protein Structures by Gaussian Integrals and Deep Learning.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag446",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Protein dynamics are central to function, but experiments and molecular dynamics (MD) simulations remain costly, low-throughput, and difficult to compare across protocols. Scalable structure-based methods are needed to infer dynamics from static protein structures. RESULTS: We present a deep learning framework that predicts protein dynamics fr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Facilitating structure-based drug discovery with an artificial intelligence-driven virtual screening platform.",
+      "url": "https://doi.org/10.1038/s41596-026-01389-z",
+      "source": "PubMed — Nature protocols",
+      "one_liner": "Structure-based virtual screening (VS) via molecular docking is a pivotal approach for hit identification. Many artificial intelligence (AI)-powered protein-ligand docking and scoring methods have demonstrated impressive speed and accuracy. Retrospective benchmarking studies using enrichment rate and computational efficiency on curated datasets have corro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "pHLA-Bi-Mamba: A pan-specific deep learning model for peptide-HLA-Ⅰ binding affinity and eluted ligand prediction.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.153729",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "Human leukocyte antigen class I (HLA-I) molecules are central to immunosurveillance, and accurate prediction of peptide-HLA-I binding is critical for immune target discovery and personalized immunotherapies. Although Transformer-based deep learning models have advanced sequence representation learning, they are often limited by quadratic computational com...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting Perceived Profile Attractiveness From Cephalometric Measurements Using Machine Learning.",
+      "url": "https://doi.org/10.1016/j.identj.2026.109679",
+      "source": "PubMed — International dental journal",
+      "one_liner": "OBJECTIVES: Orthodontic treatment planning requires careful consideration of facial aesthetics. This study aimed to compare machine learning (ML) models to predict perceived attractiveness based on lateral cephalometric measurements and to identify parameters that significantly impact perceived attractiveness. METHODS: Lateral cephalometric radiographs an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Prediction of Early Hospital Admission (≤24 Hours) After Stroke Using Machine Learning and Deep Learning: Multicenter Study From China.",
+      "url": "https://doi.org/10.2196/90852",
+      "source": "PubMed — JMIR medical informatics",
+      "one_liner": "BACKGROUND: Timely hospital admission is a prerequisite for effective acute stroke management, yet a substantial proportion of patients fail to reach medical facilities within the optimal therapeutic window. Existing prediction models often lack temporal robustness and clinical interpretability, limiting their utility in real-world, evolving health care s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advanced machine learning-based screening for primary aldosteronism with plasma steroids, potassium, and renin.",
+      "url": "https://doi.org/10.1038/s41746-026-02906-w",
+      "source": "PubMed — NPJ digital medicine",
+      "one_liner": "Commonly used screening tests for primary aldosteronism (PA) provide suboptimal diagnostic accuracy, particularly with antihypertensive medication use. This study utilized three datasets totaling 1380 patients with and without PA to develop machine learning models for screening based on plasma steroids, potassium, and renin. A feedforward neural network (...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The convergence of surface acoustic wave technology and artificial intelligence.",
+      "url": "https://doi.org/10.1016/j.ultras.2026.108206",
+      "source": "PubMed — Ultrasonics",
+      "one_liner": "Surface acoustic wave (SAW) devices have become key building blocks in communications, sensing, and emerging neuromorphic hardware, yet their growing complexity in materials, architectures, and operating environments exposes limitations in conventional design and signal processing approaches. Concurrently, machine learning (ML) provides powerful tools for...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Explainable and Interpretable AI for Voice and Speech Analysis in Clinical Care: Systematic Review.",
+      "url": "https://doi.org/10.2196/83790",
+      "source": "PubMed — Journal of medical Internet research",
+      "one_liner": "BACKGROUND: Driven by recent advances in artificial intelligence (AI), particularly in medicine, audio-based voice and speech biomarkers are increasingly investigated for various medical applications as a complementary or even alternative modality to traditional medical devices. The adoption of deep learning techniques in recent literature is motivated by...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hybrid constitutive law with machine learning for sintering of advanced ceramics.",
+      "url": "https://doi.org/10.1038/s41598-026-58322-3",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Predictive simulation of sintering-induced distortion remains challenging for ceramic components subjected to gravity and mechanical constraint. Classical constitutive sintering laws reproduce free densification reliably but lack the flexibility required to accurately capture stress-driven deformation within finite-element (FE) frameworks when calibrated ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "EXPRESS: Advances in artificial intelligence for neuroimaging.",
+      "url": "https://doi.org/10.1177/0271678X261465843",
+      "source": "PubMed — Journal of cerebral blood flow and metabolism : official journal of the International Society of Cerebral Blood Flow and Metabolism",
+      "one_liner": "Most neuroimaging applications involve a multi-step pipeline encompassing image acquisition, reconstruction, enhancement, registration, segmentation, diagnosis, and prognosis. These steps are fundamental for diagnosing neurological disorders, tracking disease progression, and guiding treatment. Recent advances in artificial intelligence (AI), particularly...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DeepPath: overcoming data scarcity for protein transition pathway prediction using physics-based deep learning.",
+      "url": "https://doi.org/10.1039/d5sc08253f",
+      "source": "PubMed — Chemical science",
+      "one_liner": "The structural dynamics of proteins play a crucial role in their function, yet many current deep learning methods chiefly yield high-resolution static snapshots of single conformations, with dynamics captured indirectly or at limited resolution unless paired with simulations or experiments. We present DeepPath, a physics-guided deep learning framework tha...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-based computational screening and molecular dynamics reveal potential inhibitors of Norovirus VP1 and RdRp Proteins: an in-silico study.",
+      "url": "https://doi.org/10.1038/s41598-026-55563-0",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Norovirus is a major enteric pathogen with pandemic potential and disproportionately high mortality in low-income countries, particularly among young children. Despite its global health burden, no approved vaccine or specific antiviral therapy is currently available. In this study, we targeted two key viral proteins, viral protein 1 (VP1) and RNA-dependen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Use of Deep Learning in RNA Therapeutic Development.",
+      "url": "https://doi.org/10.1021/acsnano.6c02090",
+      "source": "PubMed — ACS nano",
+      "one_liner": "Ribonucleic acid (RNA)-based therapeutics have emerged as promising methods of disease treatment due to their ability to target the human genome and influence protein production, their versatility, and their relative lack of toxicity compared to other gene therapies. However, the RNA therapeutic design space is extremely large, encompassing multiple varia...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-driven steric occlusion of BCL-2 by an RNA origami Traptamer.",
+      "url": "https://doi.org/10.1080/07391102.2026.2688522",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "The BCL-2 family of anti-apoptotic proteins, particularly BCL-2, BCL-xL, and MCL-1, are key drivers of cancer cell survival and therapeutic resistance. While small-molecule inhibitors like venetoclax have shown success, issues with selectivity and resistance persist. This study explores a novel RNA-based strategy utilizing RNA origami nanostructures to in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design and synthesis of 2,5-di(pyridin-4-yl)-1,3,4-oxadiazole: structural elucidation, DFT insights, and preliminary in silico biological evaluation.",
+      "url": "https://doi.org/10.1038/s41598-026-59504-9",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "A multidisciplinary experimental and computational investigation of 2,5-di(pyridin-4-yl)-1,3,4-oxadiazole (compound 4) is reported. The compound was synthesized and characterized using FTIR, NMR, ESI-MS, and single-crystal X-ray diffraction, confirming its molecular structure and crystallographic features. To explore its possible pharmacological relevance...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural and aggregation studies of the butyrylcholinesterase signal peptide combining in vitro experiments and in silico simulations.",
+      "url": "https://doi.org/10.1016/j.cbi.2026.112082",
+      "source": "PubMed — Chemico-biological interactions",
+      "one_liner": "Structural characterization of proteins is essential for understanding their function, stability, and role in disease. Butyrylcholinesterase (BChE), expressed in the brain and localized within amyloid-β plaques, may generate an extended 69-amino acid, cysteine-rich signal peptide capable of self-aggregation and iron binding. In this study, we investigated...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Generalization Spectrum: A Chromatographic Approach to Evaluating Learning Algorithms",
+      "url": "https://arxiv.org/abs/2606.25450",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.25450v1 Announce Type: new \nAbstract: Traditional evaluations measure a learning algorithm's final performance on an i.i.d. test set, reducing learning to a single aggregate score. This approach obscures a fundamental question: to what extent does learning from a specific example generalize to others? Such per-sample generalization, akin to lea...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Cellular Predictions on the Move: What about Data?",
+      "url": "https://arxiv.org/abs/2606.25709",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.25709v1 Announce Type: new \nAbstract: Mobile cellular load forecasting is native to network resource optimization and delivery of services with reliability, latency and quality guarantees. The mainstream of machine learning research in the area is focused primarily on developing powerful learning structures for improved prediction accuracy. The...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
