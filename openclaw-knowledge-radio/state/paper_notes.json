@@ -2407,6 +2407,11 @@
       "note": "DD",
       "title": "Inferring Dynamic Information from Protein Structures by Gaussian Integrals and Deep Learning.",
       "source": "PubMed — Bioinformatics (Oxford, England)"
+    },
+    "https://doi.org/10.1016/j.ultras.2026.108206": {
+      "note": "DD",
+      "title": "The convergence of surface acoustic wave technology and artificial intelligence.",
+      "source": "PubMed — Ultrasonics"
     }
   }
 }
