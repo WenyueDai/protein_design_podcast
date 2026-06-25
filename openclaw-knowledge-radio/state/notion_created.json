@@ -1778,5 +1778,13 @@
   "2026-06-25|https://arxiv.org/abs/2602.06020": {
     "page_id": "38a5f58e-a8c2-81b1-bbca-ff1776e299e6",
     "note": "DD"
+  },
+  "2026-06-25|https://doi.org/10.1093/bioinformatics/btag446": {
+    "page_id": "38a5f58e-a8c2-8196-94c8-f842bb3e4cb1",
+    "note": "DD"
+  },
+  "2026-06-25|https://doi.org/10.1016/j.ultras.2026.108206": {
+    "page_id": "38a5f58e-a8c2-8145-94c9-d0686c7b757a",
+    "note": "DD"
   }
 }
