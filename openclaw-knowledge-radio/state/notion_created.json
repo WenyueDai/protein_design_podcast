@@ -1770,5 +1770,13 @@
   "2026-06-22|https://www.biorxiv.org/content/10.64898/2026.06.19.733375": {
     "page_id": "3875f58e-a8c2-81a6-9b20-c9abc8234b67",
     "note": "DD"
+  },
+  "2026-06-22|https://doi.org/10.1093/bioinformatics/btag415": {
+    "page_id": "3875f58e-a8c2-8112-840f-e182aa6153e9",
+    "note": "DD"
+  },
+  "2026-06-25|https://arxiv.org/abs/2602.06020": {
+    "page_id": "38a5f58e-a8c2-81b1-bbca-ff1776e299e6",
+    "note": "DD"
   }
 }
