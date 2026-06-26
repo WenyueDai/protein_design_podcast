@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    185.78,
+    416.78,
+    615.59,
+    856.3,
+    1054.56,
+    1254.1,
+    1468.94,
+    1648.41,
+    1887.16,
+    2087.67
+  ],
+  "items": [
+    {
+      "title": "PDA-MutPred: Reliable prediction of binding affinity change upon mutation in protein-DNA complexes.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.153205",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Mutations in protein-DNA complexes interfere with normal cell functions by causing structural changes, leading to the dissociation of complexes or altering the affinity of interactions between proteins and DNA. Reliable prediction of binding affinity changes (ΔΔG) upon amino acid mutation in protein-DNA complexes in a challenging problem in computational ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ESM2-BiMamba: A Length-Adaptive Hybrid Framework for Efficient Concurrent Prediction of DNA-Binding Proteins and DNA-Binding Residue Sites.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01246",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Accurate identification of DNA-binding proteins (DBPs) and their DNA-binding residue sites (DBSs) is essential for understanding gene regulatory processes. Despite recent progress achieved by protein language models, current methods still face fundamental limitations, including the quadratic computational burden of Transformer architectures, inadequate mo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De novo design and experimental characterization of bitter peptides.",
+      "url": "https://doi.org/10.1038/s41538-026-00942-0",
+      "source": "PubMed — NPJ science of food",
+      "one_liner": "Bitter taste is a critical quality determinant in food systems, particularly those using sustainable protein hydrolysates, where the unpredictable formation of bitter peptides severely limits consumer acceptance. Achieving predictive control over flavor chemistry requires deciphering the complex sequence-activity relationship. To address this, we integrat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Reconstructing enzyme evolution by protein engineering.",
+      "url": "https://doi.org/10.1002/1873-3468.70400",
+      "source": "PubMed — FEBS letters",
+      "one_liner": "It is important to understand how the fascinating diversity of modern enzymes has manifested itself since the onset of life. A powerful approach to address this question is the computational and experimental retracing of evolutionary processes by protein engineering techniques such as rational design, directed evolution, and ancestral sequence reconstruct...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pioneering detonation pressure in energetic materials.",
+      "url": "https://doi.org/10.1038/s41598-026-58813-3",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Accurate prediction of detonation performance is a critical challenge in the design and screening of energetic materials due to the complex and nonlinear interactions among their physicochemical and molecular descriptors. In this study, a comprehensive data-driven framework based on machine learning (ML) algorithms is developed to predict detonation press...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deciphering Allergen Peptides for Dermatological and Cosmetic Applications with Explainable Artificial Intelligence.",
+      "url": "https://doi.org/10.1021/acs.jproteome.6c00268",
+      "source": "PubMed — Journal of proteome research",
+      "one_liner": "This study explores the potential of explainable artificial intelligence to advance our understanding of allergen peptides in the context of dermatology and cosmetics. We present a hybrid deep learning framework that integrates Temporal Convolutional Networks (TCN) and stacked Long Short-Term Memory (LSTM) architectures, enhanced with Evolutionary Scale M...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Discrimination of generalized anxiety and major depressive disorders by machine learning of resting-state functional MRI.",
+      "url": "https://doi.org/10.1186/s12888-026-08326-0",
+      "source": "PubMed — BMC psychiatry",
+      "one_liner": "OBJECTIVE: To address the clinical difficulty of differentiating Generalized Anxiety Disorder (GAD) from Major Depressive Disorder (MDD), this study aimed to create a machine learning framework with strong interpretability, leveraging a comprehensive suite of resting-state functional MRI features to enhance potential relevance. METHODS: A comprehensive se...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of machine learning models to determine CO",
+      "url": "https://doi.org/10.1016/j.marpolbul.2026.120036",
+      "source": "PubMed — Marine pollution bulletin",
+      "one_liner": "CCS is gaining attention as a measure against the global warming. In Japan, a CCS operator must conduct monitoring to check whether CO",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-driven discovery of GPNMB CAR T cells as a multi-cancer therapy.",
+      "url": "https://doi.org/10.1016/j.cell.2026.06.002",
+      "source": "PubMed — Cell",
+      "one_liner": "Chimeric antigen receptor (CAR) T cells have demonstrated curative potential in hematologic cancers and increasing efficacy in solid tumors and non-malignant diseases. However, target identification remains a major bottleneck. We developed an artificial intelligence (AI)-driven approach for CAR T cell target discovery by integrating single-cell RNA sequen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "NanoBind: Mechanism-Driven Deep Learning of Nanobody-Antigen Molecular Recognition.",
+      "url": "https://doi.org/10.34133/research.1327",
+      "source": "PubMed — Research (Washington, D.C.)",
+      "one_liner": "Nanobody-antigen molecular recognition underpins nanobody discovery and development, necessitating accurate determination of binding occurrence, interface residues, and affinity. Current predictors are architecturally designed for the massive, heterogeneous spectrum of general protein-protein interactions, diluting the limited, complementarity-determining...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "NanoporeDB: A Structural Resource Of Multimeric Protein Nanopores For Single-Molecule Sensing.",
+      "url": "https://doi.org/10.1093/gigascience/giag076",
+      "source": "PubMed — GigaScience",
+      "one_liner": "BACKGROUND: Protein nanopores are essential molecular gateways in biology and have inspired transformative technologies in biosensing and single-molecule sequencing. However, the discovery and engineering of novel nanopore scaffolds remains limited due to the scarcity of experimentally resolved pore structures. RESULTS: Here, we present NanoporeDB, an ope...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Functional implications of SNPs in spliceosomal network: a structural systems biology approach.",
+      "url": "https://doi.org/10.1080/07391102.2026.2690060",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "Spliceosome is a dynamic macromolecular complex responsible for splicing precursor mRNA. Single Nucleotide Polymorphisms (SNPs) in spliceosomal proteins have been implicated in various diseases. Mutational studies and high-resolution structures have provided important functional insights, and these data can be used to evaluate the impact of SNPs on splici...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "KG-TRACE: A Neuro-Symbolic Framework for Mechanistic Grounding in Antimicrobial Resistance Prediction",
+      "url": "https://arxiv.org/abs/2606.26179",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2606.26179v1 Announce Type: cross \nAbstract: While WGS-based AMR prediction has reached high accuracy, existing models lack a mechanism to ground neural attributions in established biological pathways. We present KG-TRACE, a novel neuro-symbolic framework that integrates the WHO mutation knowledge graph (KG) as a structured biological constraint on ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Cyclin-dependent kinase-inhibitor screening and structural analysis identify a CDK-like kinase candidate in Naegleria fowleri.",
+      "url": "https://doi.org/10.1186/s13071-026-07525-8",
+      "source": "PubMed — Parasites & vectors",
+      "one_liner": "BACKGROUND: Primary amebic meningoencephalitis (PAM) caused by Naegleria fowleri is a highly fatal central nervous system infection for which effective treatment options remain limited. This study explored CDK-related pathways in N. fowleri using a focused CDK inhibitor library and structure-based analysis of a selected CDK-like protein. METHODS: A librar...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Circulating tumor-associated autoantibody signatures for diagnosis and prognosis in small-cell lung cancer and lung adenocarcinoma.",
+      "url": "https://doi.org/10.1038/s41416-026-03504-z",
+      "source": "PubMed — British journal of cancer",
+      "one_liner": "BACKGROUND: Tumour-associated autoantibodies (TAAbs) are promising biomarkers for cancer detection, but their induction and clinical relevance in lung cancer remain unclear. METHODS: Serum samples from 695 individuals were analysed for TAAb profiling by protein-array screening and two-stage ELISA validation. Diagnostic models were constructed with identif...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Heterologous betacoronavirus spike immunization in non-human primates elicits antibodies that neutralize both sarbeco- and merbecoviruses.",
+      "url": "https://doi.org/10.1016/j.celrep.2026.117439",
+      "source": "PubMed — Cell reports",
+      "one_liner": "In anticipation of future coronavirus (CoV) pandemics, developing vaccines that elicit broadly neutralizing antibodies (bnAbs) against diverse CoVs is critical. Here, we vaccinated rhesus macaques with the SARS-CoV-2 spike (S)-protein, then boosted with heterologous β-CoV S-proteins to focus responses to common conserved S2 bnAb epitopes. Initial SARS-CoV...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Interacting Species Database (ISDB): Comprehensive Resource for Interspecies Interactions at the Molecular Level.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag419",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Organisms within ecological systems often engage in molecular interactions that mediate key biological processes, such as protein-protein interactions involved in host-pathogen recognition and symbiosis. Characterization of these interactions at a molecular level is essential for understanding the mechanistic, evolutionary, and functional basi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Regulating Light-Harvesting Protein Assembly through Engineered Trimers of Phycocyanin and Allophycocyanin",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.24.734401",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Phycobiliproteins form oligomeric assemblies essential for photosynthetic light harvesting. Here, we engineered phycocyanin (TeCPC) and allophycocyanin (TeAPC) from Thermosynechococcus elongatus to stabilize defined trimers by inhibiting hexamer formation. Structure-guided substitutions at conserved glycine residues (TeCPC G29R, TeAPC G21R) introduce ster...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Learning to Select Maximum Clique Algorithms: From Traditional Machine Learning to a Dual-Channel Hybrid Neural Architecture",
+      "url": "https://arxiv.org/abs/2508.08005",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2508.08005v4 Announce Type: replace \nAbstract: The Maximum Clique Problem (MCP) is an NP-hard problem with wide-ranging applications in fields such as bioinformatics, network science, and social computing, yet no single algorithm consistently outperforms all others across diverse graph instances. This underscores the critical need for instance-aware...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Huracan: A skillful end-to-end data-driven system for ensemble data assimilation and weather prediction",
+      "url": "https://arxiv.org/abs/2508.18486",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2508.18486v2 Announce Type: replace-cross \nAbstract: Over the past few years, machine learning-based data-driven weather prediction has been transforming operational weather forecasting by providing more accurate forecasts while using a mere fraction of computing power compared to traditional numerical weather prediction (NWP). However, those models...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
