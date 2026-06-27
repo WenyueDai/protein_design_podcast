@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jun 2026 06:49:45 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 06:16:51 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-06-27</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-27/podcast_2026-06-27.mp3</guid>
+      <pubDate>Sat, 27 Jun 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-27/podcast_2026-06-27.mp3" length="16376301" type="audio/mpeg" />
+      <description>The first thing that jumps out is how the bottleneck of hardware and expertise is finally being cracked open. | A second paradigm change comes from the chemistry side. | The copper‑alloy paper flips the script on how we treat processing data.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The first thing that jumps out is how the bottleneck of hardware and expertise is finally being cracked open. | A second paradigm change comes from the chemistry side. | The copper‑alloy paper flips the script on how we treat processing data.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-06-26</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-26/podcast_2026-06-26.mp3</guid>
       <pubDate>Fri, 26 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-26/podcast_2026-06-26.mp3" length="17421885" type="audio/mpeg" />
-      <description>What used to be a blind spot in protein‑DNA work was the belief that we could only guess how a single amino‑acid change would tilt the binding free energy. | A parallel shift appears in how we locate DNA‑binding residues. | Taste chemistry has long been a black box, especially for short bitter peptides that pop up in protein hydrolysates.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-26/podcast_2026-06-26.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>What used to be a blind spot in protein‑DNA work was the belief that we could only guess how a single amino‑acid change would tilt the binding free energy. | A parallel shift appears in how we locate DNA‑binding residues. | Taste chemistry has long been a black box, especially for short bitter peptides that pop up in protein hydrolysates.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-17/podcast_2026-04-17.mp3</guid>
       <pubDate>Fri, 17 Apr 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-17/podcast_2026-04-17.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-04-16</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-16/podcast_2026-04-16.mp3</guid>
-      <pubDate>Thu, 16 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-16/podcast_2026-04-16.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

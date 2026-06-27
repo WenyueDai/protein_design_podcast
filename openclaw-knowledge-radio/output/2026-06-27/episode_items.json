@@ -1,0 +1,282 @@
+{
+  "timestamps": [
+    0.0,
+    168.72,
+    386.15,
+    586.86,
+    783.42,
+    953.45,
+    1160.59,
+    1369.7,
+    1558.79,
+    1745.44,
+    1957.64
+  ],
+  "items": [
+    {
+      "title": "Foldify: Web Application for Protein Structure Prediction.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01154",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Protein structure prediction models released in recent years have presented tectonic changes in the field of structural biology. However, their potential has not yet been harnessed to its fullest due to their demands on hardware and technical expertise required for their usage. In this paper, we present Foldify, which makes prediction models accessible, i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unifying Composition and Process Design: A Heterogeneous Graph Neural Network for Discovering High-Performance Cu Alloys.",
+      "url": "https://doi.org/10.1002/advs.202524364",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "The properties of copper alloys critical for sustainable development depend on their processing pathways. However, the complex and variable character of these pathways is incompatible with conventional machine learning models that require fixed-input structures, creating a barrier to AI-driven materials design. To address this challenge, we introduce a he...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Sampling out-of-distribution chemical spaces via Bayesian flow.",
+      "url": "https://doi.org/10.1186/s13321-026-01248-9",
+      "source": "PubMed — Journal of cheminformatics",
+      "one_liner": "Generating novel molecules with higher properties than the training space, namely the out-of-distribution generation, is important for de novo drug design. However, it is not easy for distribution learning-based models, for example diffusion models, to solve this challenge as these methods are designed to fit the distribution of training data as close as ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.",
+      "url": "https://doi.org/10.1021/acssynbio.6c00199",
+      "source": "PubMed — ACS synthetic biology",
+      "one_liner": "Microbial cell factories represent sustainable platforms for the production of fuels, chemicals, and therapeutics, but their development is limited by challenges in pathway discovery, enzyme optimization, and metabolic regulation. Recent advances in artificial intelligence and machine learning are reshaping this field by enabling predictive pathway design...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Binding Affinity Ranking at the Molecular Initiating Event (BARMIE): An open-source computational pipeline for the rapid screening of chemical interactions with steroid receptors from many species.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.02.05.636649",
+      "source": "bioRxiv — pharmacology and toxicology",
+      "one_liner": "A challenge in ecological risk assessment is identifying the chemicals that pose the greatest threat and determining which species are most vulnerable to them. To help address this, this study has developed an in-silico open-source tool called BARMIE (Binding Affinity Ranking at the Molecular Initiating Event) to rapidly predict the chemical binding affin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Using machine learning to identify individuals at elevated risk of diabetes from low-cost complete blood count data for opportunistic screening.",
+      "url": "https://doi.org/10.1038/s41598-026-59213-3",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Type 2 diabetes and prediabetes remain substantially underrecognized, highlighting the need for practical screening approaches based on routinely available data. This study aimed to develop and temporally validate a low-cost complete blood count (CBC)-based machine learning model for identifying individuals at elevated risk of diabetes in a routine health...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-driven prioritization and experimental validation of traditional Chinese medicine-derived STING-inhibitory candidates.",
+      "url": "https://doi.org/10.1007/s11030-026-11634-y",
+      "source": "PubMed — Molecular diversity",
+      "one_liner": "The stimulator of interferon genes (STING) is a key signalling adaptor in the cGAS-STING pathway of the innate immune system and plays a significant role in autoimmune diseases, viral infections, and cancer, thus representing a promising target for small-molecule inhibitor therapies. This study presents an integrated multidimensional computer-aided drug d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence-Assisted Histopathologic Diagnosis and Grading of Oral Epithelial Dysplasia: A Systematic Review and Functional Meta-synthesis.",
+      "url": "https://doi.org/10.1007/s12105-026-01937-9",
+      "source": "PubMed — Head and neck pathology",
+      "one_liner": "PURPOSE: Artificial intelligence (AI) has emerged as a promising tool for digital pathology, with potential applications in the histopathologic evaluation of oral epithelial dysplasia (OED). This systematic review synthesized current evidence on AI-assisted histopathologic diagnosis and grading of OED, focusing on diagnostic performance, methodological qu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ZHMolTopoRPI: A Commutative Algebra-Driven Deep Learning Framework for Robust RNA-Protein Interaction Prediction.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01199",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Accurate prediction of RNA-protein interactions (RPIs) is crucial for understanding post-transcriptional regulation. Most existing models depend on implicit embeddings within large language models, which limits their physical interpretability. This study introduces ZHMolTopoRPI, a computational framework that integrates persistent commutative algebra with...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An approach of dual attention-driven multi-levelled graph neural architecture for rich-structural social graph analysis and representation learning.",
+      "url": "https://doi.org/10.1371/journal.pone.0351922",
+      "source": "PubMed — PloS one",
+      "one_liner": "In recent years, graph neural networks (GNNs) have emerged as a dominant paradigm for learning from graph-structured data, achieving strong performance across a wide range of graph mining tasks, including node classification, clustering, and relational inference. Despite these advances, most existing GNN architectures primarily rely on message-passing mec...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Biophysical fitness landscape design traps viral evolution.",
+      "url": "https://doi.org/10.1073/pnas.2611571123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Evolutionary adaptation is often visualized as a population's stochastic climb toward the top of a fitness landscape. While there exist approaches to design or synthetically evolve proteins into desired structures, there is a lack of methodology for designing, tuning, and quantitatively reshaping the fitness landscapes themselves on which protein evolutio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Genetic rescue of disrupted synaptic protein interaction network dynamics following SYNGAP1 reactivation.",
+      "url": "https://doi.org/10.1016/j.mcpro.2026.101614",
+      "source": "PubMed — Molecular & cellular proteomics : MCP",
+      "one_liner": "Synaptic protein interaction networks (PINs) dynamically translate neural activity into biochemical signals that regulate synaptic structure and plasticity. Disruption of these coordinated networks is a common feature of autism spectrum disorder (ASD) risk genes, yet it remains unclear whether the molecular organization of a perturbed network can be resto...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A lightweight hybrid ViT-GNN framework for data-centric land cover mapping in the amazon biome using graph structural priors.",
+      "url": "https://doi.org/10.1038/s41598-026-59674-6",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Continuous monitoring of the Amazon biome demands land cover classification models that are both highly sensitive and computationally feasible. To resolve the inherent trade-off between architectural complexity and predictive performance in spatial deep learning, this study introduces the Vision Transformer-Graph Neural Network with Feature Adaptation (Vi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Effect of different ultrasonic power levels on the structure and functional properties of soybean protein hydrolysates-soybean hull polysaccharide (SPHS-SSPS) complexes.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.150176",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "In this study, soybean protein hydrolysates (SPHS) and soybean seed hull polysaccharides (SSPS) were used to investigate the effects of ultrasonic treatment on the structural characteristics and functional properties of their complexes. The results revealed that after treatment at 300 W ultrasonic power, the particle size of the complex system decreased f...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Interpretable graph neural networks for predicting drug activity in triple-negative breast cancer using scaffold-based splits.",
+      "url": "https://doi.org/10.1038/s41598-026-58978-x",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Triple-negative breast cancer (TNBC) is an oncology indication with urgent need for drug discovery and limited targeted therapies. This work benchmarked several graph neural network (GNN) models for binary drug-sensitivity prediction in TNBC under conditions of scaffold-aware evaluation. A benchmark dataset of 3433 TNBC drug-cell line samples from 373 dis...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Time-dependent shift from antagonism to synergism in mixture toxicity mediated by GFP-modified Caenorhabditis elegans.",
+      "url": "https://doi.org/10.1016/j.ecoenv.2026.120406",
+      "source": "PubMed — Ecotoxicology and environmental safety",
+      "one_liner": "Environmental contaminant mixtures present complex toxicological challenges, especially in transgenic organisms where genetic modifications may alter toxicity mechanisms. This study addresses the uncharacterized influence of GFP fusion proteins on mixture interactions using Caenorhabditis elegans. We employed uniform design ray methodology to evaluate 6 c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "NOX4 promotes cardiomyocyte ferroptosis-related injury in septic cardiomyopathy in associated with mitochondrial dysfunction and impaired NRF2 nuclear translocation.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.153230",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Septic cardiomyopathy is a common early complication of sepsis, and its underlying mechanisms remain incompletely understood. In this study, we integrated transcriptomic differential expression analysis, a ferroptosis gene set, protein-protein interaction networks, and consensus machine-learning-based screening to identify NOX4 as a core ferroptosis-relat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Comprehensive analysis of the RBP regulome reveals functional modules and drug candidates in liver cancer.",
+      "url": "https://doi.org/10.1038/s41598-026-58864-6",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "RNA binding proteins (RBPs) are essential components of the transcriptomic regulome. Understanding the RBP regulome in cancer cells is crucial for uncovering carcinogenesis mechanisms and identifying novel therapeutic targets. In this study, we aimed to reveal the regulome of liver cancer upon specific perturbations. To achieve this, we applied a consensu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "After 80 Years, Mathematicians Give Famed ‘Erdős Method’ an Upgrade",
+      "url": "https://www.quantamagazine.org/after-80-years-mathematicians-give-famed-erdos-method-an-upgrade-20260626/",
+      "source": "Quanta Magazine",
+      "one_liner": "Decades ago, Paul Erdős used randomness to illuminate the vast and weird world of networks. Now mathematicians are making his technique even more powerful. The post After 80 Years, Mathematicians Give Famed ‘Erd...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
