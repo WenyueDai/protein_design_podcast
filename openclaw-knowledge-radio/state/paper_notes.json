@@ -2419,6 +2419,11 @@
       "note": "DD",
       "title": "Foldify: Web Application for Protein Structure Prediction.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://doi.org/10.1021/acssynbio.6c00199": {
+      "note": "DD",
+      "title": "Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.",
+      "source": "PubMed — ACS synthetic biology"
     }
   }
 }
