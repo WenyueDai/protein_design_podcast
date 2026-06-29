@@ -738,15 +738,21 @@ publish:
 llm:
   enabled: true
   provider: "openrouter"
-  model: "openai/gpt-oss-120b:free"
+  # Primary on Nvidia's own free endpoint (less congested than the
+  # third-party aggregators below). Fallbacks deliberately span distinct
+  # upstream providers (OpenInference, Google AI Studio/Darkbloom, Venice)
+  # so one provider's rate limit/outage doesn't take out the whole chain.
+  # google/gemini-2.0-flash-exp:free and google/gemma-3-27b-it:free were
+  # removed from OpenRouter's free tier (404) — do not re-add them.
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
   model_fallbacks:
-    - "google/gemini-2.0-flash-exp:free"
-    - "google/gemma-3-27b-it:free"
+    - "openai/gpt-oss-120b:free"
+    - "google/gemma-4-26b-a4b-it:free"
     - "meta-llama/llama-3.3-70b-instruct:free"
-  analysis_model: "openai/gpt-oss-120b:free"
+  analysis_model: "nvidia/nemotron-3-super-120b-a12b:free"
   analysis_model_fallbacks:
-    - "google/gemini-2.0-flash-exp:free"
-    - "google/gemma-3-27b-it:free"
+    - "openai/gpt-oss-120b:free"
+    - "google/gemma-4-26b-a4b-it:free"
   api_key_env: "OPENROUTER_API_KEY"
   temperature: 0.25
   max_output_tokens: 8192

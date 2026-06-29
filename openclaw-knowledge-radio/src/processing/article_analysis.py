@@ -6,8 +6,12 @@ from typing import Dict, Any, List, Optional
 from openai import OpenAI
 try:
     from openai import RateLimitError as _RateLimitError
+    from openai import NotFoundError as _NotFoundError
+    from openai import InternalServerError as _InternalServerError
 except ImportError:
     _RateLimitError = Exception  # type: ignore
+    _NotFoundError = Exception  # type: ignore
+    _InternalServerError = Exception  # type: ignore
 
 # Anchor to the repo root so this works regardless of cwd
 CACHE_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "article_analysis"
@@ -58,6 +62,7 @@ def _is_daily_quota(e: Exception) -> bool:
 
 def _try_one_model(client: OpenAI, model: str, url: str, text: str) -> str:
     """Attempt analysis with a single model; 3 retries on transient 429s."""
+    err: Optional[Exception] = None
     for attempt in range(1, 4):
         try:
             response = client.chat.completions.create(
@@ -69,23 +74,47 @@ def _try_one_model(client: OpenAI, model: str, url: str, text: str) -> str:
                 temperature=0.1,
                 max_tokens=900,
             )
+            if not response.choices:
+                raise ValueError(f"Model {model!r} returned empty choices (null response)")
             return (response.choices[0].message.content or "").strip()
+        except _NotFoundError:
+            # 404 — model removed from OpenRouter, no point retrying
+            print(f"[analysis] 404 model not found: {model!r} — skipping", flush=True)
+            raise
+        except _InternalServerError:
+            # 503 "no healthy upstream" — provider down, no point retrying
+            print(f"[analysis] 503 provider error on {model!r} — skipping", flush=True)
+            raise
         except _RateLimitError as e:
+            err = e
             if _is_daily_quota(e):
                 raise  # hard daily limit — propagate immediately
+            # Respect the retry_after hint from the provider if available
+            retry_after = 20
+            try:
+                body = e.response.json()  # type: ignore[union-attr]
+                retry_after = int(body.get("error", {}).get("metadata", {}).get("retry_after_seconds", 20))
+            except Exception:
+                pass
+            wait = max(retry_after + 5, 20 * attempt)
+            print(f"[analysis] 429 on {model} attempt {attempt}/3 — waiting {wait}s …", flush=True)
             if attempt < 3:
-                wait = 20 * attempt
-                print(f"[analysis] 429 on {model} attempt {attempt}/3 — waiting {wait}s …", flush=True)
                 time.sleep(wait)
             else:
                 raise
-    return ""  # unreachable
+        except Exception as e:
+            err = e
+            if attempt < 3:
+                time.sleep(3 * attempt)
+            else:
+                raise
+    raise err  # pragma: no cover
 
 
 def analyze_article(
     url: str,
     text: str,
-    model: str = "inclusionai/ling-2.6-flash:free",
+    model: str = "nvidia/nemotron-3-super-120b-a12b:free",
     fallback_models: Optional[List[str]] = None,
 ) -> str:
     text = (text or "").strip()
