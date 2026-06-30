@@ -13,6 +13,11 @@ except ImportError:
     _NotFoundError = Exception  # type: ignore
     _InternalServerError = Exception  # type: ignore
 
+# Cap on how many auto-discovered (unvetted) free models to try once the
+# static config.yaml fallback chain is exhausted, so a bad run can't loop
+# through dozens of models and blow past the job timeout.
+DISCOVERY_FALLBACK_LIMIT = 5
+
 # Anchor to the repo root so this works regardless of cwd
 CACHE_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "article_analysis"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
@@ -60,10 +65,10 @@ def _is_daily_quota(e: Exception) -> bool:
     return "per-day" in s or "per_day" in s
 
 
-def _try_one_model(client: OpenAI, model: str, url: str, text: str) -> str:
-    """Attempt analysis with a single model; 3 retries on transient 429s."""
+def _try_one_model(client: OpenAI, model: str, url: str, text: str, max_attempts: int = 3) -> str:
+    """Attempt analysis with a single model; up to max_attempts retries on transient 429s."""
     err: Optional[Exception] = None
-    for attempt in range(1, 4):
+    for attempt in range(1, max_attempts + 1):
         try:
             response = client.chat.completions.create(
                 model=model,
@@ -97,14 +102,14 @@ def _try_one_model(client: OpenAI, model: str, url: str, text: str) -> str:
             except Exception:
                 pass
             wait = max(retry_after + 5, 20 * attempt)
-            print(f"[analysis] 429 on {model} attempt {attempt}/3 — waiting {wait}s …", flush=True)
-            if attempt < 3:
+            print(f"[analysis] 429 on {model} attempt {attempt}/{max_attempts} — waiting {wait}s …", flush=True)
+            if attempt < max_attempts:
                 time.sleep(wait)
             else:
                 raise
         except Exception as e:
             err = e
-            if attempt < 3:
+            if attempt < max_attempts:
                 time.sleep(3 * attempt)
             else:
                 raise
@@ -140,6 +145,28 @@ def analyze_article(
             return analysis
         except Exception as e:
             print(f"[analysis] Model {m!r} failed: {e}", flush=True)
+            last_err = e
+
+    # Static chain exhausted — config.yaml's fallback list inevitably goes
+    # stale as OpenRouter's free tier churns, so try whatever's currently
+    # live before giving up on this article entirely.
+    from src.processing.model_discovery import get_live_free_models
+    tried = set(all_models)
+    live = [m for m in get_live_free_models() if m not in tried]
+    discovered, skipped = live[:DISCOVERY_FALLBACK_LIMIT], live[DISCOVERY_FALLBACK_LIMIT:]
+    if discovered:
+        print(f"[analysis] Static fallback chain exhausted — trying {len(discovered)} auto-discovered free model(s)", flush=True)
+    if skipped:
+        print(f"[analysis] Skipping {len(skipped)} further auto-discovered model(s) to bound retry time: {skipped}", flush=True)
+    for m in discovered:
+        try:
+            # Single attempt per discovered model — unvetted last resort.
+            analysis = _try_one_model(client, m, url, text, max_attempts=1)
+            print(f"[analysis] Used auto-discovered fallback model {m!r}", flush=True)
+            cache_file.write_text(analysis, encoding="utf-8")
+            return analysis
+        except Exception as e:
+            print(f"[analysis] Auto-discovered model {m!r} failed: {e}", flush=True)
             last_err = e
 
     # All models failed — return empty string so the paper is still included

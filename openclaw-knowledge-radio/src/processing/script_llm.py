@@ -12,6 +12,11 @@ except ImportError:
     _NotFoundError = Exception  # type: ignore
     _InternalServerError = Exception  # type: ignore
 
+# Cap on how many auto-discovered (unvetted) free models to try once the
+# static config.yaml fallback chain is exhausted, so a bad run can't loop
+# through dozens of models and blow past the job timeout.
+DISCOVERY_FALLBACK_LIMIT = 5
+
 
 # =========================
 # Client (OpenRouter / OpenAI-compatible)
@@ -132,7 +137,12 @@ def _chat_complete(
     retries: int = 3,
     fallback_models: Optional[List[str]] = None,
 ) -> str:
-    """Try `model` first, then each entry in `fallback_models` in order."""
+    """Try `model` first, then each entry in `fallback_models` in order.
+
+    If the whole static chain fails, auto-discover whatever free models
+    are currently live on OpenRouter (config.yaml's list inevitably goes
+    stale as the free tier churns) and try those too before giving up.
+    """
     all_models = [model] + (fallback_models or [])
     last_err: Optional[Exception] = None
     for m in all_models:
@@ -147,6 +157,29 @@ def _chat_complete(
         except Exception as e:
             print(f"[llm] Model {m!r} failed: {e}", flush=True)
             last_err = e
+
+    from src.processing.model_discovery import get_live_free_models
+    tried = set(all_models)
+    live = [m for m in get_live_free_models() if m not in tried]
+    discovered, skipped = live[:DISCOVERY_FALLBACK_LIMIT], live[DISCOVERY_FALLBACK_LIMIT:]
+    if discovered:
+        print(f"[llm] Static fallback chain exhausted — trying {len(discovered)} auto-discovered free model(s)", flush=True)
+    if skipped:
+        print(f"[llm] Skipping {len(skipped)} further auto-discovered model(s) to bound retry time: {skipped}", flush=True)
+    for m in discovered:
+        try:
+            # Single attempt per discovered model (no retries) — these are
+            # unvetted last-resort options, not worth burning minutes on.
+            result = _chat_complete_one(
+                client, model=m, system=system, user=user,
+                temperature=temperature, max_tokens=max_tokens, retries=1,
+            )
+            print(f"[llm] Used auto-discovered fallback model {m!r}", flush=True)
+            return result
+        except Exception as e:
+            print(f"[llm] Auto-discovered model {m!r} failed: {e}", flush=True)
+            last_err = e
+
     raise last_err  # type: ignore[misc]
 
 
