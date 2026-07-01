@@ -2441,6 +2441,11 @@
       "note": "DD",
       "title": "AlphaFold2-Guided Cyclic Peptide Stabilizer Design to Target Protein-Protein Interactions.",
       "source": "PubMed — Proteins"
+    },
+    "https://doi.org/10.1002/pro.70667": {
+      "note": "DD",
+      "title": "DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.",
+      "source": "PubMed — Protein science : a publication of the Protein Society"
     }
   }
 }
