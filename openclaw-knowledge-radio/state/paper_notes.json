@@ -2436,6 +2436,11 @@
       "note": "DD",
       "title": "When can AlphaFold predict the oligomeric states of proteins?",
       "source": "PubMed — Protein science : a publication of the Protein Society"
+    },
+    "https://doi.org/10.1002/prot.70123": {
+      "note": "DD",
+      "title": "AlphaFold2-Guided Cyclic Peptide Stabilizer Design to Target Protein-Protein Interactions.",
+      "source": "PubMed — Proteins"
     }
   }
 }
