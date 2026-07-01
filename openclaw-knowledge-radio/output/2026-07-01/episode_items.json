@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    169.27,
+    345.42,
+    560.0,
+    842.91,
+    1013.69,
+    1225.66,
+    1378.51,
+    1567.86,
+    1807.12,
+    2048.24
+  ],
+  "items": [
+    {
+      "title": "Adversarial Sequence Mutations in AlphaFold and ESMFold Reveal Nonphysical Structural Invariance, Confidence Failures, and Concerns for Protein Design.",
+      "url": "https://doi.org/10.34133/csbj.0142",
+      "source": "PubMed — Computational and structural biotechnology journal",
+      "one_liner": "AlphaFold has transformed structural biology and spawned an ecosystem of derivative tools for protein design, binding prediction, and drug discovery. However, whether AlphaFold has learned generalizable biophysical principles as opposed to template-based pattern matching remains unclear-a distinction critical for applications beyond its training context. ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exploring quantum frontiers in protein structure prediction: techniques, challenges, and opportunities.",
+      "url": "https://doi.org/10.1016/j.ymeth.2026.04.006",
+      "source": "PubMed — Methods (San Diego, Calif.)",
+      "one_liner": "Protein folding is governed by the principle of free energy minimization, where a protein's native tertiary structure corresponds to the global minimum on an energy landscape shaped by quantum mechanical interactions such as hydrogen bonding, van der Waals forces, and electron delocalization. Despite significant advances in template-based modeling (TBM), ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "When can AlphaFold predict the oligomeric states of proteins?",
+      "url": "https://doi.org/10.1002/pro.70686",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Homooligomerisation is a prevalent and important process that many proteins undergo to form the quaternary structures required for biological function. However, determining oligomeric states and structures experimentally remains technically challenging and time-consuming for many proteins. Here, we show that the protein structure prediction tools AlphaFol...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AlphaFold2-Guided Cyclic Peptide Stabilizer Design to Target Protein-Protein Interactions.",
+      "url": "https://doi.org/10.1002/prot.70123",
+      "source": "PubMed — Proteins",
+      "one_liner": "The control and modulation of protein-protein interactions (PPIs) is of central importance for the majority of biological processes and most biomedical applications. Stabilization of PPIs, besides inhibition, is of growing pharmaceutical interest. Due to their small size, drug-like organic molecules may not provide sufficient interaction surfaces to allow...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AlphaFold-driven structure-guided identification of NS5 RdRp-targeting antiviral leads against Kyasanur Forest Disease Virus.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109443",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "With no approved antiviral treatments currently available, Kyasanur Forest Disease Virus (KFDV) remains a serious and neglected tick-borne flavivirus posing a significant public health concern endemic to India. To address this therapeutic gap, we employed AlphaFold-based structural modelling integrated with structure-based lead identification targeting th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Synonymous Codons as Potential Contributors to Chromatin Stability and Gene Body Methylation in Plants.",
+      "url": "https://doi.org/10.1007/s00239-026-10330-7",
+      "source": "PubMed — Journal of molecular evolution",
+      "one_liner": "Synonymous codon sites were historically considered largely neutral; however, accumulating evidence indicates that codon usage may influence gene regulation, translation dynamics, and evolutionary fitness. In plants, gene body methylation (gbM) and chromatin-based stress memory represent stable epigenetic features whose underlying sequence determinants re...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Coordination/Assembly Twin-Boosted Lateral Flow Immunochromatographic Assay: Metal-Organic Framework-Mediated Visual Signal Programming for On-Site Ultrasensitive Diagnostics.",
+      "url": "https://doi.org/10.1021/acs.analchem.6c02051",
+      "source": "PubMed — Analytical chemistry",
+      "one_liner": "Lateral flow immunochromatographic assay (LFIA) is a classic point-of-care testing technique. However, its sensitivity is commonly constrained by the signal intensity of conventional probes, restricting the detection of low-abundance biomarkers. Herein, we report an ultrasensitive LFIA platform based on coordination/assembly-regulated signal programming e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.",
+      "url": "https://doi.org/10.1002/pro.70667",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Accurate prediction of the interface residue-residue contacts between interacting proteins is valuable for determining the structure and function of protein complexes. Recent deep learning methods have drastically improved the accuracy of predicting the interface contacts of protein complexes. However, existing methods rely on Multiple Sequence Alignments...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.",
+      "url": "https://doi.org/10.1016/j.neunet.2026.108707",
+      "source": "PubMed — Neural networks : the official journal of the International Neural Network Society",
+      "one_liner": "Accurately predicting protein thermal stability is crucial for understanding protein function, guiding protein engineering, and advancing biomedical and industrial applications. Although research on protein thermal stability has advanced with structure-based representation learning, most existing methods embed protein structures as homogeneous graphs, whi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine-learning prediction of affinity and epistasis in the bovine pancreatic trypsin inhibitor-chymotrypsin complex.",
+      "url": "https://doi.org/10.1002/pro.70660",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Protein-protein interactions (PPIs) are shaped by evolutionary pressures that fine-tune binding affinities and drive the epistatic relationships that support functional outcomes. Here, we used the complex of bovine pancreatic trypsin inhibitor (BPTI) and chymotrypsin as a model system to study how mutations at one or two positions affect binding affinity ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Probe-based identification of metal-binding sites using deep learning representations.",
+      "url": "https://doi.org/10.1038/s41467-026-74657-x",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Metalloproteins are essential to many cellular processes. They use metal ions as cofactors to catalyze reactions, stabilize protein structures, and mediate electron transfer. Identifying their metal-binding sites remains difficult because of the complexity of protein environments and the promiscuous binding of metal ions, and existing computational method...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?",
+      "url": "https://arxiv.org/abs/2606.31126",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2606.31126v1 Announce Type: cross \nAbstract: Predicting biomolecular properties from limited labeled data is a central bottleneck in protein engineering and small-molecule design. As strong pretrained encoders now supply rich fixed-length representations, the difficulty has shifted from representation learning to building a data-efficient predictor ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "SNAC-DB: An ML-ready database for antibody and NANOBODY® VHH-antigen complexes with expanded structural diversity and real-world benchmarking.",
+      "url": "https://doi.org/10.1002/pro.70655",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Predicting antibody and NANOBODY® VHH-antigen complexes remains a critical challenge for state-of-the-art structure prediction models, limiting their impact in therapeutic discovery pipelines. We introduce SNAC-DB, an ML-ready database and curation pipeline enriched with structural biology expertise, designed to accelerate model accuracy and generalizatio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pre-trained language model-based similarity relationship network approach for Drug-Target Interaction prediction.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109434",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "The rapid progress of drug and protein language models has enabled their application across a broad spectrum of biological prediction tasks, where they have consistently demonstrated remarkable predictive power. Recently, these models have been introduced into the Drug-Target Interaction (DTI) prediction task, yielding substantial improvements. Neverthele...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protection of SARS-CoV-2 Infection by Targeting Viral Spike Protein With De Novo Designed ACE2-Derived Undecapeptide.",
+      "url": "https://doi.org/10.1002/psc.70097",
+      "source": "PubMed — Journal of peptide science : an official publication of the European Peptide Society",
+      "one_liner": "The envelope-anchored trimeric spike protein of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) mediates the attachment and entry of the virus within human cells by utilizing the angiotensin converting enzyme 2 (ACE2) as a receptor, present in the epithelial cells of the upper respiratory tract and lungs. The ACE2 interaction interface with t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting PROTAC degradation activity and selectivity of effective E3 ligase through harnessing a combination of AtomPair fingerprints and multiple machine learning algorithms.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109449",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "Proteolysis targeting chimeras (PROTACs) are drugs that recruit target proteins and E3 ligases to leverage the ubiquitin-proteasome system (UPS) for specific degradation of proteins. This approach has received significant attention because of their ability to target previously considered \"undruggable\" proteins. Predicting PROTAC degradation activity and t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.152871",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "This study focused on enhancing the catalytic efficiency of 3α-hydroxysteroid dehydrogenase (3α-HSD) from Comamonas testosteroni toward androsterone. By employing enzyme engineering strategy combining semi-rational design with the protein language model Saprot, a high-performance mutant, H119A/R201L/R216L/N152F/K208A, was obtained. First, ethanol was used...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.",
+      "url": "https://doi.org/10.1002/pro.70689",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Ion channels are central to regulating neuronal communication, cardiac rhythm, and muscle contraction. Their modulation can induce therapeutic benefits but may also lead to adverse or toxic effects. This study presents IonNTxPred, a protein language model (PLM)-based method for predicting protein ion channel modulators, including channel-specific (such as...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ElemeNet: Multiscale Molecular Machine Learning with Uncertainty Quantification Across the Periodic Table",
+      "url": "https://arxiv.org/abs/2606.30961",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.30961v1 Announce Type: cross \nAbstract: Advances in deep learning architectures and representations have enabled ML-driven chemical property prediction, but state-of-the-art (SOTA) models have remained largely confined to independent codebases and lack support for diverse chemical species. This work introduces ElemeNet, a unified, general-purpo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "OTCache: Optimal Transport for Geometry-Aware Caching in Diffusion Models",
+      "url": "https://arxiv.org/abs/2606.31026",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.31026v1 Announce Type: new \nAbstract: We propose OTCache, a training-free framework for accelerating diffusion sampling via caching schedule prediction. Existing graph-based caching methods reduce redundant computation by optimizing shortest-path objectives, but rely on an additive independence assumption, which often breaks down in the low NFE...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

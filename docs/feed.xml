@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jun 2026 06:59:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 07:10:02 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-07-01</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-01/podcast_2026-07-01.mp3</guid>
+      <pubDate>Wed, 01 Jul 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-01/podcast_2026-07-01.mp3" length="17627973" type="audio/mpeg" />
+      <description>The field has long treated AlphaFold as a near‑oracle of protein structure, assuming its high confidence scores reflect deep biophysical understanding, but a recent probe of adversarial mutations shows that tiny sequence tweaks can collapse the model’s confidence while leaving the predicted fold unchanged, revealing a brittleness that stems from pattern memorisation rather than true physics. | At the same time, the community is looking beyond classical force fields to the quantum realm, and a new review maps out how electron delocalisation and zero‑point energy could be woven into folding algorithms, noting that current methods still treat hydrogen bonds as classical springs. | Another long‑standing gap is the prediction of quaternary architecture; experimental oligomerisation states remain elusive for many membrane proteins, yet a recent study shows that AlphaFold‑Multimer, when fed with symmetric dimeric constraints, correctly recovers the tetrameric assembly of a bacterial channel protein with an interface RMSD under 1.5 Å, offering a computational shortcut for those who would otherwise spend months crosslinking or cryo‑EM to verify stoichiometry.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field has long treated AlphaFold as a near‑oracle of protein structure, assuming its high confidence scores reflect deep biophysical understanding, but a recent probe of adversarial mutations shows that tiny sequence tweaks can collapse the model’s confidence while leaving the predicted fold unchanged, revealing a brittleness that stems from pattern memorisation rather than true physics. | At the same time, the community is looking beyond classical force fields to the quantum realm, and a new review maps out how electron delocalisation and zero‑point energy could be woven into folding algorithms, noting that current methods still treat hydrogen bonds as classical springs. | Another long‑standing gap is the prediction of quaternary architecture; experimental oligomerisation states remain elusive for many membrane proteins, yet a recent study shows that AlphaFold‑Multimer, when fed with symmetric dimeric constraints, correctly recovers the tetrameric assembly of a bacterial channel protein with an interface RMSD under 1.5 Å, offering a computational shortcut for those who would otherwise spend months crosslinking or cryo‑EM to verify stoichiometry.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-06-30</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-30/podcast_2026-06-30.mp3</guid>
       <pubDate>Tue, 30 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-30/podcast_2026-06-30.mp3" length="20195901" type="audio/mpeg" />
-      <description>The papers today collectively push us to see protein prediction not as a static snapshot but as a landscape shaped by experiment, geometry and evolutionary chance. | Second, the AlphaFold3‑guided ensemble paper shows how we can rescue that limitation by folding experimental data directly into the deep‑learning pipeline. | Third, the GeoPep study introduces geometry into the language‑model paradigm for peptide binding.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-30/podcast_2026-06-30.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The papers today collectively push us to see protein prediction not as a static snapshot but as a landscape shaped by experiment, geometry and evolutionary chance. | Second, the AlphaFold3‑guided ensemble paper shows how we can rescue that limitation by folding experimental data directly into the deep‑learning pipeline. | Third, the GeoPep study introduces geometry into the language‑model paradigm for peptide binding.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-19/podcast_2026-04-19.mp3</guid>
       <pubDate>Sun, 19 Apr 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-19/podcast_2026-04-19.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-04-18</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-18/podcast_2026-04-18.mp3</guid>
-      <pubDate>Sat, 18 Apr 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-04-18/podcast_2026-04-18.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
