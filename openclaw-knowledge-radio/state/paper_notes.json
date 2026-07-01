@@ -2446,6 +2446,11 @@
       "note": "DD",
       "title": "DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.",
       "source": "PubMed — Protein science : a publication of the Protein Society"
+    },
+    "https://doi.org/10.1002/pro.70655": {
+      "note": "DD",
+      "title": "SNAC-DB: An ML-ready database for antibody and NANOBODY® VHH-antigen complexes with expanded structural diversity and re",
+      "source": "PubMed — Protein science : a publication of the Protein Society"
     }
   }
 }
