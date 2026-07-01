@@ -2431,6 +2431,11 @@
       "note": "DD",
       "title": "Exploring quantum frontiers in protein structure prediction: techniques, challenges, and opportunities.",
       "source": "PubMed — Methods (San Diego, Calif.)"
+    },
+    "https://doi.org/10.1002/pro.70686": {
+      "note": "DD",
+      "title": "When can AlphaFold predict the oligomeric states of proteins?",
+      "source": "PubMed — Protein science : a publication of the Protein Society"
     }
   }
 }
