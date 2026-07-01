@@ -2425,5 +2425,12 @@
       "title": "Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.",
       "source": "PubMed — ACS synthetic biology"
     }
+  },
+  "2026-07-01": {
+    "https://doi.org/10.1016/j.ymeth.2026.04.006": {
+      "note": "DD",
+      "title": "Exploring quantum frontiers in protein structure prediction: techniques, challenges, and opportunities.",
+      "source": "PubMed — Methods (San Diego, Calif.)"
+    }
   }
 }
