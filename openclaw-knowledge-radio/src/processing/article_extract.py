@@ -1,17 +1,46 @@
 from __future__ import annotations
 
+import json
+import subprocess
+import sys
 from typing import Optional
 
-from newspaper import Article
 import requests
 from bs4 import BeautifulSoup
 
 
+# newspaper4k uses lxml internally. lxml occasionally triggers a C-level
+# "double free or corruption" that sends SIGABRT and kills the whole process —
+# Python's try/except cannot intercept it. Running newspaper in a subprocess
+# means its crash only kills the child; the main process catches the non-zero
+# exit code and falls through to the bs4 fallback instead.
+_NEWSPAPER_WORKER = (
+    "import json, sys;"
+    "from newspaper import Article;"
+    "a = Article(sys.argv[1]);"
+    "a.download();"
+    "a.parse();"
+    "print(json.dumps(a.text or ''))"
+)
+
+
 def _extract_with_newspaper(url: str) -> str:
-    article = Article(url)
-    article.download()
-    article.parse()
-    return (article.text or "").strip()
+    try:
+        result = subprocess.run(
+            [sys.executable, "-c", _NEWSPAPER_WORKER, url],
+            capture_output=True,
+            text=True,
+            timeout=45,
+        )
+    except subprocess.TimeoutExpired:
+        raise RuntimeError(f"newspaper timed out for {url}")
+    if result.returncode != 0:
+        raise RuntimeError(
+            f"newspaper exited {result.returncode} for {url}: "
+            f"{(result.stderr or '').strip()[-200:]}"
+        )
+    stdout = (result.stdout or "").strip()
+    return json.loads(stdout) if stdout else ""
 
 
 def _extract_with_bs4(url: str) -> str:
