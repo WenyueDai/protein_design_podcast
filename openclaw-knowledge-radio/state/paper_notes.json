@@ -2458,6 +2458,11 @@
       "note": "DD",
       "title": "Beyond native sequence recovery: Improved modeling of the sequence-energy landscape of protein structures.",
       "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America"
+    },
+    "https://doi.org/10.1093/bioinformatics/btag481": {
+      "note": "DD",
+      "title": "KASSPer: Kinase Active Site Structure Prediction using Protein and Ligand Language Models and Its Application to Virtual",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
     }
   }
 }
