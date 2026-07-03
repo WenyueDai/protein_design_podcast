@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    144.21,
+    328.77,
+    557.75,
+    774.66,
+    833.84,
+    893.98,
+    1047.93,
+    1126.79,
+    1253.05,
+    1525.74
+  ],
+  "items": [
+    {
+      "title": "KASSPer: Kinase Active Site Structure Prediction using Protein and Ligand Language Models and Its Application to Virtual Screening.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag481",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Structure-based virtual screening (SBVS) is limited by the rigid-receptor assumption, which is particularly problematic for kinases that adopt multiple active-site conformations but are experimentally biased toward a single state. Although ensemble screening can address this limitation, it remains computationally expensive. RESULTS: We introdu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beyond native sequence recovery: Improved modeling of the sequence-energy landscape of protein structures.",
+      "url": "https://doi.org/10.1073/pnas.2535494123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Computational protein design using machine learning models has advanced rapidly since the introduction of AlphaFold2. There is now a suite of tools that enable in silico design of proteins with desired structures and properties. Most design workflows require fitting a designed backbone with a sequence that stabilizes it, and many machine learning sequence...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Calcium and phosphorylation coordination is a novel mechanism that stabilises protein-complexes during HIV assembly.",
+      "url": "https://doi.org/10.1186/s12929-026-01274-7",
+      "source": "PubMed — Journal of biomedical science",
+      "one_liner": "BACKGROUND: Calcium (Ca METHODS: In this work, we have utilised a combination of molecular virology, phosphorylation proteomics mass spectrometry, surface plasmon resonance, nuclear magnetic resonance, AlphaFold structural prediction, and electron microscopy imaging to systematically evaluated the biology of calcium - phosphorylation interplay. RESULTS: H...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Targeted enzyme discovery using metal-coordination mining.",
+      "url": "https://doi.org/10.1038/s41586-026-10716-z",
+      "source": "PubMed — Nature",
+      "one_liner": "The recent revolution in genome sequencing and protein structure prediction has opened new frontiers in understanding, predicting and designing enzyme function",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag476",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Protein sequence alignment is a crucial task in bioinformatics, yet aligning remote homologs with low sequence identity remains a longstanding challenge, particularly due to the difficulty of handling gaps. We introduce a new method that applies Optimal Transport (OT) theory to sequence alignment, providing a mathematically principled framewor...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A physics-informed neural network framework for plant-wide prediction and dynamic control of wastewater treatment.",
+      "url": "https://doi.org/10.1016/j.biortech.2026.135275",
+      "source": "PubMed — Bioresource technology",
+      "one_liner": "Mechanistic models and machine learning methods provide powerful capabilities for simulating and controlling wastewater treatment processes; however, their application to real-time control faces major challenges due to the high computational cost of the former and the limited physical consistency of the latter. Accordingly, this study develops a physics-i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence for Discovery in Life Sciences.",
+      "url": "https://doi.org/10.1021/acs.bioconjchem.6c00230",
+      "source": "PubMed — Bioconjugate chemistry",
+      "one_liner": "Artificial intelligence is becoming a transformative tool in life sciences, not just by improving the results of existing technologies but also by introducing fundamental new ways of discovery. Initially applied to denoising, segmentation, or pattern recognition, it now extends across microscopy, structural biology, protein engineering, experimental desig...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Graph Neural Network-Assisted Machine Learning for High-Throughput Buried Interfacial Materials Screening in Antisolvent-Free Perovskite Solar Cells.",
+      "url": "https://doi.org/10.1021/acsami.6c06418",
+      "source": "PubMed — ACS applied materials & interfaces",
+      "one_liner": "Numerous interfacial materials have been explored for efficient perovskite solar cells (PSCs). The identification of optimal candidates from the vast chemical space remains a difficult and costly task. Artificial intelligence (AI)-assisted materials screening has emerged as a convenient route to benefit and promote the pace of PSC research. Here, we propo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Explainable QSAR models of 5-HT1A receptor ligands using conceptual DFT descriptors and no-code machine learning tools.",
+      "url": "https://doi.org/10.1007/s10822-026-00872-9",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "Quantitative structure-activity relationship (QSAR) modeling is a central component of molecular informatics and ligand-based drug discovery, enabling the analysis and interpretation of structure-activity relationships from molecular descriptors. In this study, mechanistically interpretable binary QSAR models were developed to classify the activity of 89 ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A machine learning framework for early warning prediction of student success using privacy preserving synthetic educational data.",
+      "url": "https://doi.org/10.1038/s41598-026-60144-2",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The early prediction of student success through machine learning holds transformative potential for improving educational outcomes. However, the development of robust predictive models is fundamentally constrained by the scarcity of large-scale, high-quality educational datasets and privacy regulations. This paper introduces a machine learning framework t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multi-representation machine learning approaches for screening aurora kinases A & B inhibitors and insights from structural alerts.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109365",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "The Aurora kinase (AURK) family enzymes are almost identical to the serine or threonine kinase (STK), and they are essential for various cell functions, including cell cycle to cell division. Aurora kinases A (AURKA) and B (AURKB) play a vital role, and their overexpression is linked to the aetiology of different carcinomas; thus, they are attractive targ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "FocusLG: Focusing on local and global molecular representation for kinase inhibitor binding affinity prediction.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109446",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "Kinase inhibitor binding affinity prediction is a fundamental and important task in drug discovery. Existing approaches for kinase inhibitor affinity research suffer from limitations including insufficient feature representation, limited labeled data, and relatively low prediction accuracy of the model. We propose FOCUSLG, which is a kinase inhibitor affi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Optimization of mechanical performance in bioinspired FDM-printed PLA sandwich structures using machine learning.",
+      "url": "https://doi.org/10.1038/s41598-026-55261-x",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Despite some successes and claims of the best possible mechanical performance in 3D printed parts, it is essential that intelligent design approaches be linked to intelligent process control. In this paper, an integrated experimental-machine learning methodology is presented to optimize the polylactic acid (PLA) sandwich structures that has bio-inspired i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Ferroptosis regulator NOX1 acts a diagnostic biomarker and mediates disease progression with the transcriptional regulation of STAT3 in glaucoma.",
+      "url": "https://doi.org/10.4103/IJO.IJO_1322_25",
+      "source": "PubMed — Indian journal of ophthalmology",
+      "one_liner": "PURPOSE: Primary open-angle glaucoma (POAG) is the leading cause of irreversible blindness. Regrettably, the roles of ferroptosis-related (FR) genes in POAG remain elusive. DESIGN: Five GEO data sets and a series of experimentations in vitro were used for bioinformatic exploration and biological validation. METHODS: Using multiple machine learning algorit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Self-Supervised Continuous Dynamic Graph Representation Learning via Hawkes Processes.",
+      "url": "https://doi.org/10.1109/TNNLS.2026.3702819",
+      "source": "PubMed — IEEE transactions on neural networks and learning systems",
+      "one_liner": "Dynamic graph representation learning (DGRL) has garnered significant attention due to its prevalence in real-world applications. However, existing methods often rely on labeled data for training, which can be costly. Furthermore, these methods treat node links as instantaneous events, which limits their ability to capture node correlations and link persi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-Based De Novo Design of Novel Dual DPP IV and PTP 1B Inhibitors (DDPI's).",
+      "url": "https://doi.org/10.1002/cbdv.202502643",
+      "source": "PubMed — Chemistry & biodiversity",
+      "one_liner": "Inhibition of DPP IV and PTP 1B constitutes a legitimate approach in modulating glucose homeostasis, thereby representing a viable therapeutic strategy for managing T2DM. This study employed a novel structure-based de novo design approach for developing dual DPP IV and PTP 1B inhibitors (DDPI's) with synergistic anti-hyperglycemic potential to effectively...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Applying artificial intelligence and machine learning framework for de novo design of pyrazole-based VEGFR-2 inhibitors.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109458",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "VEGFR-2 is an important target for oncological interventions due to its key role in angiogenesis, a biological process vital for tumour expansion and metastasis. The targeted blockade of VEGFR-2 has emerged as a promising treatment approach across a diverse range of cancers. Pyrazole derivatives extensively studied in this setting have exhibited considera...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Screening and classification of anti-angiogenic VEGFR2 inhibitors with supervised machine learning, deep learning and molecular docking and molecular dynamics simulation.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109397",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "Vascular Endothelial Growth Factor Receptor 2 (VEGFR2) is a critical therapeutic target in cancer due to its role in pathological angiogenesis and tumor progression. Despite available FDA-approved VEGFR2 tyrosine kinase inhibitors (TKIs), challenges like resistance, off-target toxicities, and low discovery success rates persist, necessitating more efficie...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dynamic Neural Graph Encoding of Inference Processes in Deep Weight Space",
+      "url": "https://arxiv.org/abs/2607.02166",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.02166v1 Announce Type: new \nAbstract: The rapid advancements in using neural networks as implicit data representations have attracted significant interest in developing machine learning methods that analyze and process the weight spaces of other neural networks. However, efficiently handling these highdimensional weight spaces remains challengi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Locality-Aware Continual Unlearning for Diffusion Models",
+      "url": "https://arxiv.org/abs/2512.02657",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.02657v2 Announce Type: replace \nAbstract: Real-world deployment of text-to-image diffusion models requires continual concept removal as new privacy, copyright, or safety obligations arise over time. Existing unlearning methods, however, are designed for single-step deletion and collapse after only 3-5 sequential applications. We trace this inst...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
