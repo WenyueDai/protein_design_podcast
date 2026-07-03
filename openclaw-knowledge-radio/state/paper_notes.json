@@ -2452,5 +2452,12 @@
       "title": "SNAC-DB: An ML-ready database for antibody and NANOBODY® VHH-antigen complexes with expanded structural diversity and re",
       "source": "PubMed — Protein science : a publication of the Protein Society"
     }
+  },
+  "2026-07-03": {
+    "https://doi.org/10.1073/pnas.2535494123": {
+      "note": "DD",
+      "title": "Beyond native sequence recovery: Improved modeling of the sequence-energy landscape of protein structures.",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America"
+    }
   }
 }
