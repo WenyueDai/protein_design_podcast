@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    188.16,
+    414.93,
+    583.04,
+    629.86,
+    720.08,
+    830.78,
+    1030.82,
+    1196.87,
+    1374.2,
+    1688.1
+  ],
+  "items": [
+    {
+      "title": "A historical journey of metabolite-protein interaction discovery: from data harmonization to AI-driven prediction.",
+      "url": "https://doi.org/10.1093/bib/bbag355",
+      "source": "PubMed — Briefings in bioinformatics",
+      "one_liner": "Metabolites are life-sustaining small molecules produced by living organisms. They interact with proteins involved in metabolism, signalling, and gene regulation, called metabolite-protein interactions (MPIs). This review traces the history of MPI research, from curated resources and early cheminformatics to harmonized identifiers, proteome-scale structur...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00574",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Implicit solvent models (ISMs) promise to deliver the accuracy of explicit solvent simulations at a fraction of their computational cost. However, despite decades of development, their accuracy has remained insufficient for many critical applications, particularly for simulating protein folding and the behavior of intrinsically disordered proteins. Develo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Aberrant splicing in human cancer shows possible functional impact on transcription factors.",
+      "url": "https://doi.org/10.1038/s41388-026-03876-9",
+      "source": "PubMed — Oncogene",
+      "one_liner": "Cancer shows aberrant alternative splicing (AS), which could functionally perturb proteins required for normal cellular behavior. Transcription factors (TFs) are proteins that regulate gene transcription. Some evidence about AS-driven perturbation of TFs in cancer has been documented. A systematic analysis of how cancer-specific AS could affect structural...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-assisted prediction of obstructive sleep apnea in patients with metabolic dysfunction-associated steatotic liver disease: a multicenter study with external validation.",
+      "url": "https://doi.org/10.1186/s12902-026-02391-y",
+      "source": "PubMed — BMC endocrine disorders",
+      "one_liner": "BACKGROUND: Metabolic dysfunction-associated steatotic liver disease (MASLD) is closely associated with obstructive sleep apnea (OSA) through shared metabolic and inflammatory mechanisms. Early identification of high-risk individuals remains challenging, highlighting the need for reliable predictive tools. METHODS: This retrospective multicenter study inc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Diagnostic performance of machine learning-based radiomics models for predicting epidermal growth factor receptor mutation status in lung adenocarcinoma in Chinese patients: A systematic review and meta-analysis.",
+      "url": "https://doi.org/10.1177/03000605261460311",
+      "source": "PubMed — The Journal of international medical research",
+      "one_liner": "ObjectiveThis systematic review and meta-analysis evaluates the diagnostic performance of machine learning-based radiomics models for predicting epidermal growth factor receptor mutation status in Chinese patients with lung adenocarcinoma.MethodsFollowing the Preferred Reporting Items for Systematic Reviews and Meta-Analyses 2020 guidelines and prospectiv...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exploring gefitinib to enhance endocytosis of antibodies and nucleic acid aptamers targeting EGFR in glioblastoma.",
+      "url": "https://doi.org/10.1039/d6nr00420b",
+      "source": "PubMed — Nanoscale",
+      "one_liner": "Active targeting in drug delivery involves the binding of ligands to receptors present on the surface of targeted cells. Several conjugates are already in use or under development for active targeting of tumors, the most widely known being antibody-drug conjugates (ADC). They combine the specificity of monoclonal antibodies with the cytotoxicity of chemot...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence for food innovation.",
+      "url": "https://doi.org/10.1038/s43016-026-01380-7",
+      "source": "PubMed — Nature food",
+      "one_liner": "Global food systems must deliver nutritious, sustainable foods while sharply reducing environmental impact. Yet, food innovation remains slow, empirical and fragmented. Artificial intelligence (AI) offers a transformative path to link molecular composition to functional performance, connect chemical structure to sensory outcomes and accelerate cross-disci...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cheminformatics analysis, machine learning-based QSAR model building and virtual screening: identification of dual ROCK1 and TGFBR1 inhibitors for the treatment of cancer metastasis.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109428",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "Rho-associated coiled-coil kinase 1 (ROCK1) and Transforming Growth Factor Beta Receptor 1 (TGFBR1) are pivotal mediators of epithelial-mesenchymal transition (EMT), cytoskeleton remodeling, cell adhesion, and cancer metastasis. Their simultaneous inhibition offers a promising therapeutic strategy to disrupt cancer metastasis. This study integrates machin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Towards the construction of a virtual yeast.",
+      "url": "https://doi.org/10.1038/s41586-026-10574-9",
+      "source": "PubMed — Nature",
+      "one_liner": "To advance the computational simulation of cellular life, we propose a virtual yeast, an artificial intelligence (AI)-driven agent that models eukaryotic cellular behaviours by integrating multimodal biological data, mechanistic reasoning and active experimentation using Saccharomyces cerevisiae as a genetically tractable and data-rich model system. Cellu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Harnessing AI and bioinformatics to combat methicillin-resistant staphylococcus aureus: Innovations in genomic surveillance, diagnosis, and therapeutic development.",
+      "url": "https://doi.org/10.1016/j.jiph.2026.103244",
+      "source": "PubMed — Journal of infection and public health",
+      "one_liner": "The global rise of antimicrobial resistance (AMR), particularly methicillin-resistant Staphylococcus aureus (MRSA), poses a major health challenge, demanding innovative strategies for surveillance, diagnosis, and therapy. Advances in artificial intelligence (AI), machine learning (ML), and bioinformatics are transforming infectious disease management by e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Profiling galcanezumab in episodic migraine, cluster headache, and medication overuse headache.",
+      "url": "https://doi.org/10.1080/14737175.2026.2675009",
+      "source": "PubMed — Expert review of neurotherapeutics",
+      "one_liner": "INTRODUCTION: The introduction of monoclonal antibodies (mAbs) targeting the calcitonin gene-related peptide (CGRP) pathway has revolutionized migraine treatment. In this regard, galcanezumab, a humanized immunoglobulin G4 (IgG4) that binds the CGRP molecule, has rapid onset of action, monthly dosing, and favorable pharmacokinetics. AREAS COVERED: This re...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Donor Age Impairs Vasculogenic Potential of hiPSC-Derived Endothelial Progenitors",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.06.24.661422",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Background: Human induced pluripotent stem cells (hiPSCs) hold promise for vascular regeneration, but preliminary research often relies on neonatal donors, whereas clinical applications will use cells derived from aged individuals. Although the impact of donor age on reprogramming efficiency has been studied, its effect on the functionality of hiPSC-deriv...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Global, regional, and national burden of tuberculosis and multidrug-resistant tuberculosis by HIV status, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023.",
+      "url": "https://doi.org/10.1016/S1473-3099(26)00295-1",
+      "source": "PubMed — The Lancet. Infectious diseases",
+      "one_liner": "BACKGROUND: Tuberculosis (TB) is the leading global cause of death from a single infectious agent. Recent reductions in global health funding have threatened TB control, making comprehensive assessment of TB, HIV-related TB, and drug-resistant TB burdens before these disruptions essential for shaping effective responses. The WHO End TB Strategy sets targe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GATv2-TransDTI: A graph and sequence hybrid model for fine-grained drug-target interaction prediction.",
+      "url": "https://doi.org/10.1016/j.ab.2026.116122",
+      "source": "PubMed — Analytical biochemistry",
+      "one_liner": "Accurately predicting drug-target interaction (DTI) is critical for drug discovery and development. Existing methods typically rely on the atomic structure or molecular graphs of drugs, along with amino acid sequences of target proteins, to extract features using graph neural networks or sequence modeling techniques, followed by binary classification. How...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CoAff-DTI: Fine-grained drug-target interaction prediction using pre-trained language models and affinity-guided mechanisms.",
+      "url": "https://doi.org/10.1016/j.jbi.2026.105076",
+      "source": "PubMed — Journal of biomedical informatics",
+      "one_liner": "Accurate prediction of drug-target interactions (DTI) is essential for drug discovery. Despite the success of pre-trained language models (PLMs) in learning robust molecular and protein representations, a fundamental challenge remains in characterizing the fine-grained, localized biochemical interactions between drug substructures and protein binding site...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Membrane protein solubilization and structure determination using de novo-designed proteins.",
+      "url": "https://doi.org/10.1126/science.adr3817",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "Developing therapies and vaccines against integral membrane proteins is hindered by their extensive hydrophobic surfaces, which complicate production and structural analysis. Here, we describe a general deep learning-based design approach for solubilizing native membrane proteins while preserving their sequence, fold, active-site, and ligand-binding prope...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Prediction of circular RNA-RNA binding protein binding sites based on structural feature and dynamic feature screening.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.152870",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Circular RNA (circRNA)-RNA binding protein (RBP) interactions play critical roles in various diseases, and predicting their binding sites can elucidate regulatory mechanisms and identify potential therapeutic targets. Current deep learning methods for this task rarely integrate predictions across both whole-sequence and single-nucleotide resolutions, and ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein-ligand interaction prediction based on heterogeneity maps and data enhancement.",
+      "url": "https://doi.org/10.1080/07391102.2025.2475229",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "Prediction of protein-ligand interactions is critical for drug discovery and repositioning. Traditional prediction methods are computationally intensive and limited in modeling structural changes. In contrast, data-driven deep learning methods significantly reduce computational costs and offer a more efficient approach for drug discovery. However, existin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
