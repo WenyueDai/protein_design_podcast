@@ -2464,5 +2464,12 @@
       "title": "KASSPer: Kinase Active Site Structure Prediction using Protein and Ligand Language Models and Its Application to Virtual",
       "source": "PubMed — Bioinformatics (Oxford, England)"
     }
+  },
+  "2026-07-05": {
+    "https://doi.org/10.1021/acs.jmedchem.6c00674": {
+      "note": "DD",
+      "title": "One Face, Three Solutions: Structural Convergence in PD-L1 Inhibition across Antibodies, Macrocycles, and Small Molecule",
+      "source": "PubMed — Journal of medicinal chemistry"
+    }
   }
 }
