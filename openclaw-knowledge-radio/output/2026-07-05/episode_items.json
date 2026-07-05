@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    203.92,
+    368.1,
+    531.92,
+    1133.94,
+    1350.72,
+    1534.92,
+    1687.1,
+    2265.38,
+    2541.04,
+    3113.46
+  ],
+  "items": [
+    {
+      "title": "Structure-guided computational design of high-affinity antibodies enables chemiluminescence immunoassay for C-reactive protein.",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.109799",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "The development of robust immunoassays depends on high-affinity antibodies; however, rational design strategies remain challenging. Here, we present a structure-guided computational framework for antibody optimization and demonstrate its application in a clinical-grade chemiluminescence assay for C-reactive protein (CRP). Based on key topological residues...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-driven development of a novel unfolded protein response-related gene signature for predicting lung adenocarcinoma patient prognosis.",
+      "url": "https://doi.org/10.1186/s12885-026-16477-2",
+      "source": "PubMed — BMC cancer",
+      "one_liner": "Lung adenocarcinoma (LUAD) is the most common lung cancer histological subtype. Although the unfolded protein response (UPR) has been linked to various human diseases, its role in LUAD remains unclear. To identify UPR-related genes, we applied various methods, including weighted gene co-expression network analysis, differential expression analysis, and mu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "pH-sensitive gelatin-montmorillonite-cerium oxide nanocarriers for controlled quercetin delivery and machine learning release prediction.",
+      "url": "https://doi.org/10.1038/s41598-026-59424-8",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "In this study, a novel pH-responsive hybrid nanocarrier with a water-in-oil-in-water (W/O/W) emulsion structure was developed using gelatin (G) as a biocompatible polymer, montmorillonite (MMT) as a layered diffusion barrier, and cerium oxide nanoparticles (CeO₂) as a multifunctional stabilizing agent for pH-responsive and controlled delivery of quercetin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beyond complex architectures: a streamlined CNN pipeline for robust Alzheimer's disease classification from brain MRI.",
+      "url": "https://doi.org/10.1007/s00234-026-04088-4",
+      "source": "PubMed — Neuroradiology",
+      "one_liner": "BACKGROUND AND PURPOSE: Alzheimer's disease, a common type of dementia, gradually steals memories and impacts daily life as brain cells deteriorate. We explored how Artificial Intelligence (AI) could help spot early signs of Alzheimer's using MRI brain scans. MATERIALS AND METHODS: Our study focused on a deep learning approach, specifically a convolutiona...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Defects under insulation evaluation using convolutional neural network-based microwave technique.",
+      "url": "https://doi.org/10.1038/s41598-026-59641-1",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The detection of subsurface defects has increasingly benefited from the integration of machine learning techniques, particularly in data-driven inspection methods. While convolutional neural networks (CNNs) have shown promising capabilities, their performance in identifying fine-scale defects remains suboptimal. This study proposes a microwave nondestruct...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An edge-AI enabled wearable platform for real-time epileptic seizure detection with geolocated alerting.",
+      "url": "https://doi.org/10.1186/s42490-026-00116-9",
+      "source": "PubMed — BMC biomedical engineering",
+      "one_liner": "Epilepsy remains a major global health concern, particularly in regions where continuous medical monitoring is difficult to implement. This study introduces a wearable system powered by edge-based artificial intelligence, designed to detect epileptic seizures in real time. The device integrates multiple sensors-accelerometers for motion tracking, photople...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Bridging local-global transmembrane protein contexts with contrastive pretraining for alignment-free pathogenicity prediction.",
+      "url": "https://doi.org/10.1093/bib/bbag352",
+      "source": "PubMed — Briefings in bioinformatics",
+      "one_liner": "Predicting the pathogenic consequences of protein mutations is a cornerstone of precision medicine, yet it remains a formidable challenge for transmembrane proteins (TMPs), a clinically vital class of drug targets. Existing computational methods are often hampered by their reliance on evolutionary data and fail to model TMP-specific biophysical constraint...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cryo-EM structure of African horse sickness virus VP2 receptor-binding protein enables nanoparticle vaccine design.",
+      "url": "https://doi.org/10.1038/s41467-026-75067-9",
+      "source": "PubMed — Nature communications",
+      "one_liner": "African horse sickness virus (AHSV) is a lethal equine pathogen with no licensed vaccine other than vaccines containing attenuated virus, which pose safety risks. Endemic to sub-Saharan Africa, AHSV has caused epizootics in Spain and Portugal, Cyprus, Morocco, the Middle East, India and Pakistan and, most recently, Thailand. Here, we resolve the 3.11 Å cr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification of Novel Interacting Proteins of FUZ and GPR161.",
+      "url": "https://doi.org/10.1002/pmic.70164",
+      "source": "PubMed — Proteomics",
+      "one_liner": "Protein-protein interactions are central to the dynamic regulation of signaling pathways and provide critical insight into the cellular mechanisms underlying human disease. Our previous study demonstrated biochemical and genetic interactions between FUZ and GPR161 in sonic hedgehog signaling during spinal neural tube development. In this study, we sought ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DMS-informed secondary structure modeling of Epstein-Barr Virus LMP-1 pre-mRNA defines novel elements spanning introns.",
+      "url": "https://doi.org/10.1371/journal.pone.0345208",
+      "source": "PubMed — PloS one",
+      "one_liner": "The Epstein-Barr virus (EBV) infects over 95% of adults, establishing lifelong latency and contributing to the development of various malignancies, including Burkitt lymphoma and nasopharyngeal carcinoma. However, the RNA structures regulating the splicing of the critical EBV gene, latent membrane protein 1 (LMP1), remain uncharacterized. To identify thes...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Epitope-selective vaccine designs to elicit protective antibodies against the Plasmodium falciparum circumsporozoite protein.",
+      "url": "https://doi.org/10.1038/s41541-026-01518-5",
+      "source": "PubMed — NPJ vaccines",
+      "one_liner": "P. falciparum (Pf) malaria is a major cause of morbidity and mortality in sub-Saharan Africa. Recently introduced malaria vaccines, RTS,S/AS01 and R21/Matrix-M, are effective in preventing infection, but their efficacy declines over time. To address this challenge, next-generation vaccine candidates have been designed to improve the functional immunogenic...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "In vitro Reconstitution of Syncytin-2 and MFSD2A Reveals their Functional Tethering in Membrane Fusion Initiation.",
+      "url": "https://doi.org/10.1007/s00232-026-00387-2",
+      "source": "PubMed — The Journal of membrane biology",
+      "one_liner": "Syncytin-2, a human endogenous retrovirus-derived fusogen, is essential for placental syncytiotrophoblast formation by mediating trophoblast cell-cell fusion. While Syncytin-2 shares structural similarities with viral envelope proteins, the molecular mechanisms underlying its receptor recognition and membrane fusion remain poorly characterized, largely du...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Graph Network Feature Space Fusion for Predicting Irregularly Sampled Medical Time-Series Data: Deep Learning Model Development and Validation Study.",
+      "url": "https://doi.org/10.2196/81145",
+      "source": "PubMed — JMIR medical informatics",
+      "one_liner": "BACKGROUND: Irregularly sampled data, as a common data structure in the medical field, is frequently observed in emergency clinical datasets. It poses problems such as unequal sampling time intervals and frequencies, making it difficult to align the data without losing information for input into models. Meanwhile, due to information loss in the dataset, i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Engineering phage endolysins and receptor-binding proteins for foodborne pathogen control and detection: A review and AI-driven framework.",
+      "url": "https://doi.org/10.1016/j.ijfoodmicro.2026.111802",
+      "source": "PubMed — International journal of food microbiology",
+      "one_liner": "Antimicrobial resistance exacerbates food safety risks, highlighting the need for novel, matrix-tolerant control and detection tools. Phage-derived endolysins and receptor-binding proteins (RBPs) offer high specificity, yet their performance is often reduced in complex food environments compared with buffer assays. In this review, we summarize engineering...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "New approach methodologies (NAMs) for preclinical and translational evaluation of mRNA-lipid nanoparticle (LNP) therapeutics.",
+      "url": "https://doi.org/10.1016/j.jconrel.2026.115157",
+      "source": "PubMed — Journal of controlled release : official journal of the Controlled Release Society",
+      "one_liner": "Messenger RNA-lipid nanoparticle (mRNA-LNP) therapeutics have emerged as a versatile drug modality, enabling in vivo protein expression for vaccines, cancer immunotherapy, and the treatment of genetic and metabolic diseases. Although mRNA-LNP platforms achieved rapid clinical success during the COVID-19 pandemic, most candidates fail to progress beyond pr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "One Face, Three Solutions: Structural Convergence in PD-L1 Inhibition across Antibodies, Macrocycles, and Small Molecules.",
+      "url": "https://doi.org/10.1021/acs.jmedchem.6c00674",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "Protein-protein interactions dominated by large, flat interfaces are widely considered challenging drug targets. The programmed cell death protein-1/programmed death ligand-1 (PD-1/PD-L1) immune checkpoint exemplifies this problem, as the interaction is mediated by an extended β-sheet surface lacking deep pockets. Despite this, PD-L1 has been successfully...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design of a site selective heterochromic bimetallic lanthanide coiled coil with nanometre-scale control.",
+      "url": "https://doi.org/10.1039/d6sc00813e",
+      "source": "PubMed — Chemical science",
+      "one_liner": "Lanthanide-protein scaffolds hold significant promise for the design of functional biomaterials. Yet the selective incorporation of multiple lanthanide ions with distinct properties into discrete sites at tuneable distances within a single construct remains a key challenge. Here, we report the rational design and structural characterization of the first",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure aware graph community cluster pruning for efficient neural network compression in Parkinson's disease diagnosis.",
+      "url": "https://doi.org/10.1038/s41598-026-59636-y",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Deep neural networks in medical and edge environments often face computational and memory constraints, which necessitate effective model compression. Neural network pruning is a widely used solution, but conventional methods often rely on magnitude-based or random criteria that can remove entire functional groups of neurons and reduce model performance. T...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
