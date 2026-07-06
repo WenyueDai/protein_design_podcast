@@ -115,9 +115,20 @@ def query_done_this_week(start: str, end: str) -> list[dict]:
 
 
 def query_not_started() -> list[dict]:
-    """All papers still Not started — the unread backlog to rank."""
+    """All papers in the unread backlog.
+
+    Catches two cases:
+    - Text explicitly set to "Not started"
+    - Text not set at all (auto-synced pages from sync_notion_notes.py never set it)
+    Excludes papers already marked Done or In progress.
+    """
     return _query_deepdive({
-        "filter": {"property": "Text", "status": {"equals": "Not started"}},
+        "filter": {
+            "and": [
+                {"property": "Text", "status": {"does_not_equal": "Done"}},
+                {"property": "Text", "status": {"does_not_equal": "In progress"}},
+            ]
+        },
         "sorts": [{"property": "Date", "direction": "descending"}],
         "page_size": 100,
     })
