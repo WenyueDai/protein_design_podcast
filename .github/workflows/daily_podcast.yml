@@ -100,6 +100,16 @@ jobs:
           RUN_DATE: ${{ github.event.inputs.run_date }}
         run: python tools/weekly_summary.py
 
+      - name: Run speculative biology ideation (Saturday only)
+        if: steps.sched.outputs.is_saturday == 'true'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_SPECULATIVE_DB_ID: ${{ secrets.NOTION_SPECULATIVE_DB_ID }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          RUN_DATE: ${{ github.event.inputs.run_date }}
+        run: python tools/speculative_ideas.py
+
       - name: Run monthly evolution report (last day of month only)
         if: steps.sched.outputs.is_month_end == 'true'
         env:
