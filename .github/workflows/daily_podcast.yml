@@ -73,24 +73,23 @@ jobs:
           run_date = os.environ.get("RUN_DATE") or ""
           today = date.fromisoformat(run_date) if run_date else date.today()
 
-          # Sat=5, Sun=6 — run the weekly briefing on either weekend day so a
-          # missed Saturday run still gets caught by Sunday.
-          is_weekend = today.weekday() in (5, 6)
+          # Sat=5 only — weekly briefing runs Saturday so it covers the full week.
+          is_saturday = today.weekday() == 5
 
           last_day_of_month = monthrange(today.year, today.month)[1]
           is_month_end = today.day == last_day_of_month
 
           gh_output = os.environ["GITHUB_OUTPUT"]
           with open(gh_output, "a") as f:
-              f.write(f"is_weekend={'true' if is_weekend else 'false'}\n")
+              f.write(f"is_saturday={'true' if is_saturday else 'false'}\n")
               f.write(f"is_month_end={'true' if is_month_end else 'false'}\n")
-          print(f"today={today} is_weekend={is_weekend} is_month_end={is_month_end}")
+          print(f"today={today} is_saturday={is_saturday} is_month_end={is_month_end}")
           PYEOF
         env:
           RUN_DATE: ${{ github.event.inputs.run_date }}
 
-      - name: Run weekly deep-research briefing (Sat/Sun only)
-        if: steps.sched.outputs.is_weekend == 'true'
+      - name: Run weekly deep-research briefing (Saturday only)
+        if: steps.sched.outputs.is_saturday == 'true'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
