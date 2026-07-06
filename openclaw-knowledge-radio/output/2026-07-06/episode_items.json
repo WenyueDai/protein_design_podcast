@@ -1,0 +1,284 @@
+{
+  "timestamps": [
+    0.0,
+    166.2,
+    279.21,
+    563.99,
+    588.7,
+    619.88,
+    668.66,
+    877.29,
+    921.71,
+    1092.4,
+    1300.64
+  ],
+  "items": [
+    {
+      "title": "How to design a cancer vaccine (and vastly improve them): Alex Rubinsteyn & Ben Vincent",
+      "url": "https://www.owlposting.com/p/how-to-design-a-cancer-vaccine-and",
+      "source": "Owl Posting (Abhishaike Mahajan)",
+      "one_liner": "Cancer vaccines aim to reprogram the immune system to recognize tumor‑specific antigens presented on MHC molecules, turning the immune system into an “easy living drug” that continually kills cancer cells without the need for ongoing treatment.\n\nMETHOD / APPROACH:\n1.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "machine-learning",
+        "biology",
+        "substack",
+        "author"
+      ]
+    },
+    {
+      "title": "A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00806",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Hormones regulate many essential biological processes by interacting with specific receptors that control gene expression, metabolism, growth, and immune function. Because numerous therapeutic compounds can influence or disrupt hormone signaling pathways, understanding drug-hormone receptor interactions (DHRI) is crucial for ensuring both therapeutic effi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dental age assessment: orthopantomogram-based comparison of traditional methods and artificial intelligence in the adult population.",
+      "url": "https://doi.org/10.1007/s00414-026-03908-9",
+      "source": "PubMed — International journal of legal medicine",
+      "one_liner": "Dental age estimation in adults represents an important component of forensic odontology and medicolegal practice. Recent artificial intelligence (AI) approaches have demonstrated improved performance compared to traditional morphometric techniques. This study aimed to compare the reliability and accuracy of three conventional dental age estimation method...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Manganese@Gold cluster-coordinated covalent organic frameworks-based artificial metalloenzymes with cascade biocatalysis and amplified systemic stimulation to combat malignant tumor metastasis.",
+      "url": "https://doi.org/10.1016/j.biomaterials.2026.124417",
+      "source": "PubMed — Biomaterials",
+      "one_liner": "Reactive oxygen species (ROS)-catalytic artificial enzymes have emerged as a promising way to combat malignant tumors, yet their efficacy remains constrained by tumor hypoxia, oxygen dependence, and robust antioxidant defenses. Herein, we report the de novo design of a bioinspired manganese@gold cluster-coordinated covalent organic frameworks-based artifi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Drugging the proteome via large-scale chemoproteomics.",
+      "url": "https://doi.org/10.1016/j.tibs.2026.06.005",
+      "source": "PubMed — Trends in biochemical sciences",
+      "one_liner": "Genomic and proteomic initiatives have accelerated therapeutic target identification, yet many proteins remain difficult to drug, especially those lacking structural information, including those with intrinsically disordered regions. However, the conformational states of these proteins are shaped in living cells by chemical modifications, protein-protein ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A High Throughput SPR-Based Array for Quantitative Profiling of Glycosaminoglycan Protein Interactions",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736113",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Glycosaminoglycans (GAGs) are linear, negatively charged, polysaccharides that mediate a wide variety of biologically critical interactions with proteins, underpinning growth factor signalling, extracellular matrix assembly and numerous disease processes. However, GAG-protein interactions remain under characterised, in part because of the lack of high-thr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Systematic AI-assisted screening of the cadhesome to map epithelial monolayer mechanics.",
+      "url": "https://doi.org/10.1186/s12964-026-03008-6",
+      "source": "PubMed — Cell communication and signaling : CCS",
+      "one_liner": "Cadherin-mediated adhesions serve as key mechanical and signaling hubs in epithelial tissues, linking the actin cytoskeleton of adjacent cells. Their disruption is a hallmark of cancer progression. The \"cadhesome\" network comprises over 170 proteins involved in cadherin-mediated adhesion and force transmission, yet its complexity hampers functional unders...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "tmGNN-XAI: An Explainable Graph Neural Network Tool for Predicting Electronic Properties of Transition Metal Complexes from SMILES.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01047",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Predicting the electronic properties of transition metal complexes (TMCs) from 2D molecular graphs remains challenging; organic-trained property models lack TMC transferability, universal interatomic potentials require 3D coordinates rather than SMILES, and tools providing holistic electronic property prediction with atom-level explainability and calibrat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Recent advances in the detection and functional analysis of circRNAs with short-read RNA sequencing-based methods.",
+      "url": "https://doi.org/10.1007/s11033-026-12267-y",
+      "source": "PubMed — Molecular biology reports",
+      "one_liner": "Circular RNAs (circRNAs) were first identified approximately 50 years ago in pathogenic viroids as single-stranded, covalently closed RNA molecules. Initially considered by-products of splicing, circRNAs are now recognised as an important class of regulatory RNAs involved in microRNA sponging, RNA-protein interactions, and cellular pathways. Their closed-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein lactylation in health and diseases: molecular mechanisms, biological significance, and clinical implications.",
+      "url": "https://doi.org/10.1038/s41392-026-02757-7",
+      "source": "PubMed — Signal transduction and targeted therapy",
+      "one_liner": "Protein lysine lactylation (Kla) is a newly identified post-translational modification (PTM), in which lactyl groups are transferred to specific lysine residues in proteins. As a crucial intermediary between cellular metabolism and epigenetic regulation, Kla immensely increases the functional diversity of the proteome. This intriguing modification extends...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Optimization of novel quinazolinone derivatives as CRBN E3 ligase modulators for enhanced degradative activity and metabolic stability.",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.109816",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "CRBN E3 ligase modulators (CELMoDs) exhibit excellent pharmacological activity by degrading cereblon (CRBN) associated multiple substrates and have become an important field for protein degradation drugs development. Previously, we conducted structural modifications on the quinazolinone-based CELMoD CC-122 to obtain derivative 1, which exhibited enhanced ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.733993",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Lysine and arginine methylation regulate chromatin dynamics, transcription, and cellular signaling, however confident mass spectrometry (MS)-based detection and localization of this modification remain challenging. We reanalyzed eight public human methylation-enriched datasets using an open and standardized workflow that integrates database searching via ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProteoForge: An Imputation-Aware Framework for Differential Proteoform Discovery in Bottom-Up Proteomics.",
+      "url": "https://doi.org/10.1021/acs.jproteome.5c01235",
+      "source": "PubMed — Journal of proteome research",
+      "one_liner": "The human genome contains approximately 20,000 protein-coding genes. However, millions of diverse protein variants, called proteoforms, exist. Despite originating from the same gene, proteoforms often have distinct biological roles. In bottom-up proteomics, the aggregation of peptide measurements into protein-level quantities often obscures this informati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "NuSAP1 promotes spindle assembly in Trypanosoma brucei by bundling spindle microtubules.",
+      "url": "https://doi.org/10.1038/s42003-026-10621-1",
+      "source": "PubMed — Communications biology",
+      "one_liner": "The parasitic protozoan Trypanosoma brucei assembles an intranuclear spindle during mitosis to segregate its chromosomes through mechanisms that are distinct from its mammalian host. This parasite employs unusual nucleus- and spindle-associated proteins (NuSAPs) to regulate mitosis, but their mechanistic roles remain poorly understood. Here, we characteri...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Role of methionine metabolism in cancer: recent advances in molecular mechanisms and therapeutic implications.",
+      "url": "https://doi.org/10.1186/s40164-026-00806-z",
+      "source": "PubMed — Experimental hematology & oncology",
+      "one_liner": "Methionine is essential for protein synthesis and serves as a precursor to S-adenosylmethionine, supporting epigenetic modifications and cell growth. Unlike normal cells, cancer cells are dependent on methionine. Therapeutic strategies targeting metabolic vulnerability show promise but face challenges related to tumor heterogeneity and adaptive resistance...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Spiranic compounds as novel AMPK paradoxical inhibitors: can we derive new mechanistic insights?",
+      "url": "https://doi.org/10.1016/j.ejmech.2026.118763",
+      "source": "PubMed — European journal of medicinal chemistry",
+      "one_liner": "In this study, we synthesized and fully characterized spiranic compounds designed as conformationally restricted mimetics of A-769662 by means of crystallographic, spectroscopic, and computational methods. In vitro enzymatic assays and surface plasmon resonance experiments revealed a mixed-type inhibition mechanism. We developed a stable and equilibrated ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Nanobody-based sandwich ELISA for sensitive detection of carcinoembryonic antigen-related cell adhesion molecule 5.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.153341",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Carcinoembryonic antigen-related cell adhesion molecule 5 (CEACAM-5), also known as carcinoembryonic antigen, is a clinically important tumor-associated glycoprotein biomacromolecule widely used as a serum biomarker for cancer diagnosis, prognosis evaluation, and disease monitoring. However, nanobody-based sandwich ELISA platforms for CEACAM-5 detection r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Quantitation of Spatial Proteoforms in Alzheimer's Disease",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735694",
+      "source": "bioRxiv — neuroscience",
+      "one_liner": "Alzheimer's disease (AD) pathogenesis involves complex, multifactorial changes to the brain proteome that conventional unfractionated analyses may obscure. Proteins frequently occupy multiple subcellular compartments as spatial proteoforms, yet the contribution of aberrant protein localization to AD pathogenesis remains poorly understood. To address this,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Positional interpretation of cis-regulatory code and nucleosome organization with deep learning models.",
+      "url": "https://doi.org/10.1038/s41467-026-74807-1",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Sequence-to-function neural networks learn cis-regulatory sequence rules driving many types of genomic data. Interpreting these models to relate the sequence rules to underlying biological processes remains challenging, especially for complex genomic readouts such as MNase-seq, which maps nucleosome occupancy but is confounded by experimental bias. Here, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
