@@ -2489,6 +2489,11 @@
       "note": "DD",
       "title": "Behold the SpudCell",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://doi.org/10.1093/protein/gzag016": {
+      "note": "DD",
+      "title": "Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBS",
+      "source": "PubMed — Protein engineering, design & selection : PEDS"
     }
   }
 }
