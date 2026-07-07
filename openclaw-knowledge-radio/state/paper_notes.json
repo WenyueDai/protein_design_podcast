@@ -2494,6 +2494,11 @@
       "note": "DD",
       "title": "Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBS",
       "source": "PubMed — Protein engineering, design & selection : PEDS"
+    },
+    "https://arxiv.org/abs/2505.20346": {
+      "note": "DD",
+      "title": "PDFBench: A Benchmark for De novo Protein Design from Function",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
