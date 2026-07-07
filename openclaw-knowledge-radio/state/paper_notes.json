@@ -2499,6 +2499,11 @@
       "note": "DD",
       "title": "PDFBench: A Benchmark for De novo Protein Design from Function",
       "source": "arXiv q-bio.BM"
+    },
+    "https://arxiv.org/abs/2607.05084": {
+      "note": "DD",
+      "title": "Rethinking Benchmarks and Models for Enzyme Specificity Prediction",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
