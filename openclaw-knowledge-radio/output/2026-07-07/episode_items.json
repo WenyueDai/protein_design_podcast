@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    182.16,
+    382.29,
+    556.43,
+    572.05,
+    777.53,
+    952.06,
+    1094.85,
+    1143.59,
+    1304.7,
+    1938.08
+  ],
+  "items": [
+    {
+      "title": "Behold the SpudCell",
+      "url": "https://www.science.org/content/blog-post/behold-spudcell",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.",
+      "url": "https://doi.org/10.1093/protein/gzag016",
+      "source": "PubMed — Protein engineering, design & selection : PEDS",
+      "one_liner": "Directed evolution for protein engineering, as currently practiced in the biotechnology and pharmaceutical industries, is both tedious and expensive. Computationally driven protein design has the potential to expedite the engineering process and generate high-quality variants at a lower cost than traditional approaches. We investigated the effectiveness o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PDFBench: A Benchmark for De novo Protein Design from Function",
+      "url": "https://arxiv.org/abs/2505.20346",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2505.20346v3 Announce Type: replace-cross \nAbstract: Function-guided protein design is a crucial task with significant applications in drug discovery and enzyme engineering. However, the field lacks a unified and comprehensive evaluation framework. Current models are assessed using inconsistent and limited subsets of metrics, which prevents fair com...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Rethinking Benchmarks and Models for Enzyme Specificity Prediction",
+      "url": "https://arxiv.org/abs/2607.05084",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.05084v1 Announce Type: new \nAbstract: Artificial Intelligence has had a profound impact on the biological sciences, and in particular has accelerated research on protein form and function. Enzymes are no exception: a surge of predictive models have been recently developed to address a range of enzyme tasks. Models addressing enzyme-substrate (E...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Machine learning-guided discovery of spirocyclic inhibitors targeting Mycobacterium tuberculosis FtsZ.",
+      "url": "https://doi.org/10.1007/s12223-026-01542-x",
+      "source": "PubMed — Folia microbiologica",
+      "one_liner": "Tuberculosis continues to pose serious threats to global public health and calls for the design of new drugs that can target key bacterial proteins. This research used an integrated approach involving computational techniques to discover new drugs that can inhibit the FtsZ protein of Mycobacterium tuberculosis using the Life Chemicals compound library as ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A comprehensive benchmark of sequence-based subcellular localization predictors for human proteins.",
+      "url": "https://doi.org/10.1038/s41592-026-03142-6",
+      "source": "PubMed — Nature methods",
+      "one_liner": "Computational sequence-based predictors of protein localization have the potential to accelerate the discovery of protein functions and interactions, thereby advancing our understanding of human biology and disease. While many methods have been proposed, evaluations remain limited by small test sets, coarse-grained cellular compartment labels and single-l...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Out-of-Distribution Detection in Molecular Complexes via Diffusion Models for Irregular Graphs",
+      "url": "https://arxiv.org/abs/2512.18454",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2512.18454v3 Announce Type: replace-cross \nAbstract: Predictive machine learning models generally excel on in-distribution data, but their performance degrades on out-of-distribution (OOD) inputs. Reliable deployment therefore requires robust OOD detection, yet this is particularly challenging for irregular 3D graphs that combine continuous geometry...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Smooth $\\%$MinMax: A Differentiable Relaxation for Codon Harmonization",
+      "url": "https://arxiv.org/abs/2607.03881",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2607.03881v1 Announce Type: new \nAbstract: Codon harmonization aims to adapt the coding sequences for heterologous expression while preserving the native-like patterns of frequent and rare codons that may influence local translation dynamics and co-translational protein folding. However, widely used harmonization metrics, such as $\\%$MinMax, are def...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Machine learning evaluation of structural descriptors for supercooled water.",
+      "url": "https://doi.org/10.1038/s42004-026-02097-1",
+      "source": "PubMed — Communications chemistry",
+      "one_liner": "The anomalous behavior of liquid water is widely associated with a liquid-liquid phase transition between high- and low-density states in the supercooled regime. At the microscopic level, tetrahedral hydrogen-bond networks govern these properties, motivating structural descriptors that characterize local molecular environments. These structural descriptor...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Suicide risk prediction and analysis of associated factors among high school students in four provinces of China based on explainable machine learning.",
+      "url": "https://doi.org/10.1016/j.jad.2026.122216",
+      "source": "PubMed — Journal of affective disorders",
+      "one_liner": "BACKGROUND: Suicidal ideation (SI) among adolescents is a severe global public health issue; however, accurate identification and mechanistic explanation of its multi-dimensional associated factors remain insufficient. This study aimed to construct a machine learning framework that balances predictive capability with transparent interpretability to identi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Comprehensive and low-cost machine learning models for predicting MASLD prevalence: cross-sectional evidence from the amol cohort study (AmolCS).",
+      "url": "https://doi.org/10.1186/s41043-026-01372-0",
+      "source": "PubMed — Journal of health, population, and nutrition",
+      "one_liner": "Metabolic dysfunction-associated steatotic liver disease (MASLD) represents a growing global health burden, yet early detection remains difficult, especially in low-resource settings. This study aimed to develop an interpretable machine learning model using both conventional and non-invasive, low-cost predictors to assess the probability of MASLD in the g...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GestaltMML: Enhancing Rare Genetic Disease Diagnosis through Multimodal Machine Learning Combining Facial Images and Clinical Text",
+      "url": "https://arxiv.org/abs/2312.15320",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2312.15320v3 Announce Type: replace \nAbstract: Individuals with suspected rare genetic disorders often undergo multiple clinical evaluations, imaging studies, laboratory tests, and genetic tests over a prolonged period of time, a process commonly described as the diagnostic odyssey. Addressing this odyssey has substantial clinical, psychosocial, and...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "An Active Learning Framework for Data-Efficient, Human-in-the-Loop Enzyme Function Prediction",
+      "url": "https://arxiv.org/abs/2602.23269",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2602.23269v2 Announce Type: replace \nAbstract: Generalizable protein function prediction is increasingly constrained by the growing mismatch between exponentially expanding sequences of environmental proteins and the comparatively slow accumulation of experimentally verified functional data. Active learning offers a promising path forward for accele...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Intrinsically disordered regions in eukaryotic mRNA decay pathways.",
+      "url": "https://doi.org/10.1016/j.tibs.2026.06.002",
+      "source": "PubMed — Trends in biochemical sciences",
+      "one_liner": "Regulation of gene expression in cells is mediated by RNA-binding proteins (RBPs), which act as adaptors connecting messenger RNA (mRNA) to enzymatic and structural components to achieve a distinct functional outcome. RBPs are enriched in intrinsically disordered regions (IDRs). These regions mediate multivalent interactions that lead to the expansion of ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "BetaDescribe: Providing rich descriptions from protein sequences.",
+      "url": "https://doi.org/10.1073/pnas.2537345123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Deciphering protein function is fundamental to advancements in medicine and biotechnology. However, conventional experimental characterization remains resource-intensive. Public large language models (LLMs), though proficient in natural language processing, often fail to accurately interpret and predict the functional and structural properties of proteins...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Fusion Between Common Bean Phaseolin and the N-Terminal Domain of Maize 16 kDa Gamma Zein: Clues for Designing Nutritionally Improved Seed Storage Proteins.",
+      "url": "https://doi.org/10.1111/pbi.70719",
+      "source": "PubMed — Plant biotechnology journal",
+      "one_liner": "Increasing the nutritional value of seed storage proteins (SSPs) has been largely hindered by limited knowledge of how the features of the various SSP domains determine high accumulation in protein storage vacuoles (PSV) or as endoplasmic reticulum (ER)-located insoluble protein bodies (PB). We had previously designed zeolin, a fusion between phaseolin (P...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Spectral Diffusion for Protein Dynamics",
+      "url": "https://arxiv.org/abs/2607.04134",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.04134v1 Announce Type: new \nAbstract: Generative models present a promising alternative to expensive molecular dynamics for computationally querying protein dynamics, yet many existing approaches treat ensembles as unordered snapshots rather than temporally coherent trajectories, or scale poorly with protein size. We present a new physics-infor...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Back to Basics: Improving Molecular Understanding in LLMs via SMILES-Graph Translation",
+      "url": "https://arxiv.org/abs/2607.03007",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.03007v1 Announce Type: cross \nAbstract: Recent advances in molecular large language models have led to strong performance on molecular understanding and generation tasks, yet these gains often come without reliable structural grounding. In particular, existing approaches conflict with the chemistry principle that structure determines function: ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Structural insights into the MLH1-FAN1 interaction reveal an uncharacterized binding interface on MLH1.",
+      "url": "https://doi.org/10.1038/s41467-026-74991-0",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Huntington's disease is driven by CAG repeat expansion in the mutant huntingtin gene. Nuclease FAN1 and mismatch repair protein MLH1 regulate repeat expansion through direct interaction, but the underlying structural basis remains unclear. Here, we show that the MLH1 C-terminal domain binds to FAN1-derived peptides containing either the MIP or MIM motif w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "EvoXplain: When Machine Learning Models Agree on Predictions but Disagree on Why -- Measuring Mechanistic Multiplicity Across Training Runs",
+      "url": "https://arxiv.org/abs/2512.22240",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.22240v5 Announce Type: replace \nAbstract: Machine learning models are primarily judged by predictive performance, especially in applied genomics, where explanations are read as biological findings. In practice, reported gene panels are stabilised by averaging, ranking, or taking consensus over the many models a pipeline produces across cross-va...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
