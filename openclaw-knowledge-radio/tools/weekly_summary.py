@@ -2,27 +2,31 @@
 """
 tools/weekly_summary.py
 
-Reads the past week's reviewed papers from the Deep Dive Notes database,
-writes a 6-section deep-research briefing, and saves it to the
-Weekly Summary database. Meant to run alongside the daily pipeline on
-weekends (see .github/workflows/daily_podcast.yml).
+Saturday briefing drawn from the Deep Dive Notes Notion database.
+Always generates all 8 sections regardless of whether you've read anything.
 
-Reading gate (enforced in code, not just convention):
-  Only papers with Text == "Done" in Deep Dive Notes are included.
-  Papers still "Not started" are EXCLUDED from the briefing and instead
-  reported via Slack, so unread papers never silently disappear —
-  they surface as a nag, not as content.
+  Sections 1-6 — Analysis:
+    All papers saved to Deep Dive Notes this week (by Date), read or not.
+    Insights derived from abstracts, tags, scores, and any notes you left.
+    Papers you marked Done get a "(read)" flag — the analysis covers all of them.
+
+  Section 7 — Read next week:
+    Ranked 5-7 picks from the full unread backlog (papers not marked Done).
+
+  Section 8 — Reading momentum:
+    Honest progress check for the month + one "reading challenge" pick
+    to motivate you to actually open a paper before next Saturday.
 
 Env vars required:
   NOTION_API_KEY             — same integration token used by sync_notion_notes.py
-  NOTION_DEEPDIVE_DB_ID       — default: 3165f58ea8c280498f72c770028aec0d
-  NOTION_WEEKLY_SUMMARY_DB_ID — id of the Weekly Summary database (new — see README)
+  NOTION_DEEPDIVE_DB_ID      — default: 3165f58ea8c280498f72c770028aec0d
+  NOTION_WEEKLY_SUMMARY_DB_ID — id of the Weekly Summary database
   OPENROUTER_API_KEY         — same key used by script_llm.py
 
 Optional:
-  SLACK_WEBHOOK_URL          — for the unread-papers nag + success notification
+  SLACK_WEBHOOK_URL          — for success/failure notifications
   RUN_DATE                   — override "today" (YYYY-MM-DD), for backfilling
-  SEMANTIC_SCHOLAR_API_KEY   — optional citation/abstract enrichment
+  SEMANTIC_SCHOLAR_API_KEY   — enriches papers with year + citation count
 """
 from __future__ import annotations
 
@@ -47,7 +51,6 @@ from src.utils.timeutils import load_tz, now_local_date
 NOTION_API_KEY = os.environ.get("NOTION_API_KEY", "")
 DEEPDIVE_DB_ID = os.environ.get("NOTION_DEEPDIVE_DB_ID", "3165f58ea8c280498f72c770028aec0d").replace("-", "")
 WEEKLY_DB_ID = os.environ.get("NOTION_WEEKLY_SUMMARY_DB_ID", "").replace("-", "")
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 SLACK_WEBHOOK_URL = os.environ.get("SLACK_WEBHOOK_URL", "")
 S2_API_KEY = os.environ.get("SEMANTIC_SCHOLAR_API_KEY", "")
 
@@ -75,38 +78,79 @@ def _slack(msg: str) -> None:
 
 
 # ---------------------------------------------------------------------------
-# Notion: query Deep Dive Notes for the week, split done vs unread
+# Notion helpers
 # ---------------------------------------------------------------------------
 
-def query_deepdive_week(start: str, end: str) -> tuple[list[dict], list[dict]]:
-    """Return (done_pages, unread_pages) with Date in [start, end]."""
-    body = {
+def _query_deepdive(body: dict) -> list[dict]:
+    results = []
+    cursor = None
+    while True:
+        if cursor:
+            body["start_cursor"] = cursor
+        r = requests.post(
+            f"https://api.notion.com/v1/databases/{DEEPDIVE_DB_ID}/query",
+            json=body, headers=NOTION_HEADERS, timeout=30,
+        )
+        r.raise_for_status()
+        data = r.json()
+        results.extend(data.get("results", []))
+        if not data.get("has_more"):
+            break
+        cursor = data.get("next_cursor")
+    return results
+
+
+def query_saved_this_week(start: str, end: str) -> list[dict]:
+    """All papers saved to Deep Dive Notes this week, regardless of read status."""
+    return _query_deepdive({
         "filter": {
             "and": [
                 {"property": "Date", "date": {"on_or_after": start}},
                 {"property": "Date", "date": {"on_or_before": end}},
             ]
         },
+        "sorts": [{"property": "Date", "direction": "descending"}],
         "page_size": 100,
-    }
-    r = requests.post(
-        f"https://api.notion.com/v1/databases/{DEEPDIVE_DB_ID}/query",
-        json=body, headers=NOTION_HEADERS, timeout=30,
-    )
-    r.raise_for_status()
-    results = r.json().get("results", [])
+    })
 
-    done, unread = [], []
-    for page in results:
-        props = page.get("properties", {})
-        status = ((props.get("Text") or {}).get("status") or {}).get("name", "")
-        (done if status == "Done" else unread).append(page)
-    return done, unread
+
+def query_done_this_month(month_start: str, end: str) -> list[dict]:
+    """Papers marked Done since start of the current month."""
+    return _query_deepdive({
+        "filter": {
+            "and": [
+                {"property": "Text", "status": {"equals": "Done"}},
+                {"property": "Date", "date": {"on_or_after": month_start}},
+                {"property": "Date", "date": {"on_or_before": end}},
+            ]
+        },
+        "page_size": 100,
+    })
+
+
+def query_not_started() -> list[dict]:
+    """All papers in the unread backlog.
+
+    Catches two cases:
+    - Text explicitly set to "Not started"
+    - Text not set at all (auto-synced pages from sync_notion_notes.py never set it)
+    Excludes papers already marked Done or In progress.
+    """
+    return _query_deepdive({
+        "filter": {
+            "and": [
+                {"property": "Text", "status": {"does_not_equal": "Done"}},
+                {"property": "Text", "status": {"does_not_equal": "In progress"}},
+            ]
+        },
+        "sorts": [{"property": "Date", "direction": "descending"}],
+        "page_size": 100,
+    })
 
 
 def _title_of(page: dict) -> str:
-    title_prop = page.get("properties", {}).get("Name", {}).get("title", [])
-    return "".join(t.get("plain_text", "") for t in title_prop) or "(untitled)"
+    props = page.get("properties", {}).get("Name", {}).get("title", [])
+    return "".join(t.get("plain_text", "") for t in props) or "(untitled)"
 
 
 def _tags_of(page: dict) -> list[str]:
@@ -119,30 +163,33 @@ def _score_of(page: dict) -> str:
     return sel["name"] if sel else "unscored"
 
 
-def fetch_owner_note(page_id: str) -> str:
-    """Pull the owner's 'Deep Dive Notes' text (if any) from the page body."""
+def _date_of(page: dict) -> str:
+    d = page.get("properties", {}).get("Date", {}).get("date")
+    return d["start"] if d else ""
+
+
+def fetch_page_notes(page_id: str) -> str:
+    """Pull any text the user wrote in the page body (their own notes)."""
     try:
         r = requests.get(
             f"https://api.notion.com/v1/blocks/{page_id}/children",
             headers=NOTION_HEADERS, timeout=30,
         )
         r.raise_for_status()
-        blocks = r.json().get("results", [])
-        text_parts = []
-        for b in blocks:
+        parts = []
+        for b in r.json().get("results", []):
             btype = b.get("type", "")
-            content = b.get(btype, {})
-            rich = content.get("rich_text", [])
+            rich = b.get(btype, {}).get("rich_text", [])
             text = "".join(t.get("plain_text", "") for t in rich)
             if text.strip():
-                text_parts.append(text.strip())
-        return "\n".join(text_parts)
+                parts.append(text.strip())
+        return "\n".join(parts)
     except Exception:
         return ""
 
 
 # ---------------------------------------------------------------------------
-# Optional: light Semantic Scholar enrichment (best-effort, never fatal)
+# Semantic Scholar enrichment (best-effort, never fatal)
 # ---------------------------------------------------------------------------
 
 def s2_lookup(title: str) -> dict:
@@ -164,11 +211,49 @@ def s2_lookup(title: str) -> dict:
     return {}
 
 
+def enrich_papers(papers: list[dict], limit: int = 15) -> None:
+    """Adds year/citations/abstract in-place for the top `limit` papers."""
+    def _score_num(p):
+        try:
+            return int(p["score"])
+        except Exception:
+            return 0
+    for p in sorted(papers, key=_score_num, reverse=True)[:limit]:
+        s2 = s2_lookup(p["title"])
+        if s2:
+            p["year"] = s2.get("year")
+            p["citations"] = s2.get("citationCount")
+            p["abstract"] = (s2.get("abstract") or "")[:500]
+
+
 # ---------------------------------------------------------------------------
-# LLM: reuse the repo's OpenRouter client + fallback chain
+# Build paper text for prompts
 # ---------------------------------------------------------------------------
 
-def call_llm(system: str, user: str, cfg: dict) -> str:
+def _paper_block(p: dict) -> str:
+    line = f"### {p['title']}"
+    meta = []
+    if p.get("year"):
+        meta.append(f"{p['year']}")
+    if p.get("citations") is not None:
+        meta.append(f"{p['citations']} citations")
+    if meta:
+        line += f" ({', '.join(meta)})"
+    line += f"\nTags: {', '.join(p['tags']) or 'none'} | Score of interest: {p['score']}"
+    if p.get("date"):
+        line += f" | Added: {p['date']}"
+    if p.get("abstract"):
+        line += f"\nAbstract: {p['abstract']}"
+    if p.get("notes"):
+        line += f"\nYour notes: {p['notes']}"
+    return line
+
+
+# ---------------------------------------------------------------------------
+# LLM
+# ---------------------------------------------------------------------------
+
+def call_llm(system: str, user: str, cfg: dict, max_tokens: int = 7000) -> str:
     from src.processing.script_llm import _chat_complete, _client_from_config
     llm_cfg = cfg.get("llm", {})
     client = _client_from_config(llm_cfg)
@@ -178,13 +263,13 @@ def call_llm(system: str, user: str, cfg: dict) -> str:
         system=system,
         user=user,
         temperature=0.4,
-        max_tokens=6000,
+        max_tokens=max_tokens,
         fallback_models=llm_cfg.get("model_fallbacks", []),
     )
 
 
 # ---------------------------------------------------------------------------
-# Markdown -> Notion blocks (same batching convention as notion_publish.py)
+# Markdown -> Notion blocks
 # ---------------------------------------------------------------------------
 
 def markdown_to_blocks(md: str) -> list[dict]:
@@ -210,9 +295,9 @@ def markdown_to_blocks(md: str) -> list[dict]:
         elif line.startswith("---"):
             blocks.append({"object": "block", "type": "divider", "divider": {}})
         else:
-            for start in range(0, len(line), CHUNK):
+            for chunk_start in range(0, len(line), CHUNK):
                 blocks.append({"object": "block", "type": "paragraph",
-                                "paragraph": {"rich_text": rich(line[start:start + CHUNK])}})
+                                "paragraph": {"rich_text": rich(line[chunk_start:chunk_start + CHUNK])}})
     return blocks
 
 
@@ -251,80 +336,115 @@ def main():
     cfg = _cfg()
     tz = load_tz(cfg.get("timezone", "Europe/London"))
     end = os.environ.get("RUN_DATE") or now_local_date(tz)
-    start = (datetime.fromisoformat(end) - timedelta(days=7)).date().isoformat()
+    end_dt = datetime.fromisoformat(end)
+    start = (end_dt - timedelta(days=6)).date().isoformat()
+    month_start = end_dt.replace(day=1).date().isoformat()
 
     print(f"[weekly] Running for {start} → {end}", flush=True)
 
-    done_pages, unread_pages = query_deepdive_week(start, end)
+    # --- Papers saved this week (always the analysis input) ---
+    week_pages = query_saved_this_week(start, end)
+    week_papers = []
+    for p in week_pages:
+        week_papers.append({
+            "title": _title_of(p),
+            "tags": _tags_of(p),
+            "score": _score_of(p),
+            "date": _date_of(p),
+            "read": p.get("properties", {}).get("Text", {}).get("status", {}).get("name") == "Done",
+            "notes": fetch_page_notes(p["id"]),
+        })
 
-    if unread_pages:
-        titles = "\n".join(f"• {_title_of(p)}" for p in unread_pages[:15])
-        _slack(
-            f":warning: *Weekly briefing {start}→{end}*: {len(unread_pages)} paper(s) still "
-            f"unread (Text≠Done) and were *excluded* from this week's briefing:\n{titles}"
-        )
-        print(f"[weekly] {len(unread_pages)} unread paper(s) excluded, Slack notified", flush=True)
-
-    if not done_pages:
-        print("[weekly] No reviewed (Text=Done) papers this week — nothing to summarize.", flush=True)
-        _slack(f":pause_button: No reviewed papers for {start}→{end} — weekly briefing skipped.")
-        return
-
-    # Gather paper context, with a light S2 enrichment pass on top-scored papers
-    papers = []
-    for p in done_pages:
+    # --- Full unread backlog (reading recommendations) ---
+    unread_pages = query_not_started()
+    unread_papers = []
+    week_titles = {p["title"] for p in week_papers}
+    for p in unread_pages:
         title = _title_of(p)
-        entry = {
+        unread_papers.append({
             "title": title,
             "tags": _tags_of(p),
             "score": _score_of(p),
-            "owner_note": fetch_owner_note(p["id"]),
-        }
-        papers.append(entry)
+            "date": _date_of(p),
+            "notes": "",
+            "new_this_week": title in week_titles,
+        })
 
-    # Enrich the 10 most-interesting (by Score of interest) papers via S2
-    def _score_num(e):
-        try:
-            return int(e["score"])
-        except Exception:
-            return 0
-    for entry in sorted(papers, key=_score_num, reverse=True)[:10]:
-        s2 = s2_lookup(entry["title"])
-        if s2:
-            entry["year"] = s2.get("year")
-            entry["citations"] = s2.get("citationCount")
-            entry["abstract"] = (s2.get("abstract") or "")[:600]
+    # --- Reading progress this month (for motivation section) ---
+    done_month_pages = query_done_this_month(month_start, end)
+    done_this_month = len(done_month_pages)
 
-    papers_text = "\n\n".join(
-        f"### {p['title']}\n"
-        f"Tags: {', '.join(p['tags']) or 'none'} | Score of interest: {p['score']}"
-        + (f" | {p['year']}, {p.get('citations', '?')} citations" if p.get("year") else "")
-        + (f"\nAbstract: {p['abstract']}" if p.get("abstract") else "")
-        + (f"\nOwner's notes: {p['owner_note']}" if p["owner_note"] else "")
-        for p in papers
+    print(
+        f"[weekly] {len(week_papers)} saved this week, "
+        f"{sum(1 for p in week_papers if p['read'])} marked Done, "
+        f"{len(unread_papers)} in backlog, "
+        f"{done_this_month} Done this month",
+        flush=True,
     )
 
+    if not week_papers and not unread_papers:
+        print("[weekly] Deep Dive Notes is empty — nothing to do.", flush=True)
+        _slack(f":pause_button: Deep Dive Notes is empty for {start}→{end} — weekly briefing skipped.")
+        return
+
+    # S2 enrichment
+    if week_papers:
+        enrich_papers(week_papers, limit=15)
+    if unread_papers:
+        enrich_papers(unread_papers, limit=20)
+
+    # --- Build prompt ---
     system = (
         "You are writing a weekly deep-research briefing for a computational "
-        "protein/antibody designer, based on the papers they marked as read this week."
+        "protein/antibody designer. Your job: (A) synthesise the week's new papers "
+        "into actionable insights — the user may or may not have fully read them, "
+        "so derive insights from abstracts, titles, tags, and any notes they left; "
+        "(B) recommend exactly what to read next week from their backlog; "
+        "(C) motivate them to keep reading with honest, direct encouragement."
     )
-    user = f"""Papers reviewed this week ({start} to {end}):
 
-{papers_text}
+    week_text = "\n\n".join(_paper_block(p) for p in week_papers) if week_papers else "(no new papers saved this week)"
+    unread_text = "\n\n".join(_paper_block(p) for p in unread_papers) if unread_papers else "(backlog is empty)"
 
-Write the briefing using this exact structure. Each section assumes the reader
-just finished the previous one — never re-explain a finding, use "(→ Insight N)"
-back-references instead (a monthly process later scans for this exact syntax).
+    read_count = sum(1 for p in week_papers if p["read"])
+    # Weeks elapsed in the month (at least 1)
+    week_num = max(1, (end_dt.day - 1) // 7 + 1)
+    target_low = week_num * 5
+    target_high = week_num * 7
 
-Content must start with:
+    user_prompt = f"""PART A — Papers saved to Deep Dive Notes this week ({start} to {end}):
+Note: {read_count} of these are marked Done (fully read). The rest may be partially read or unread.
+Derive insights from abstracts, tags, scores, and any notes the user left.
+
+{week_text}
+
+---
+
+PART B — Unread backlog (all papers not yet marked Done):
+
+{unread_text}
+
+---
+
+Reading momentum this month ({month_start} to {end}):
+- Papers marked Done this month: {done_this_month}
+- Target pace: {target_low}–{target_high} by now (week {week_num} of the month)
+
+---
+
+Write the weekly briefing with this exact structure, starting with:
 # Weekly deep research briefing — {start} to {end}
 
-> Papers: [all titles, with year/citations in brackets where known]
+> This week: [list PART A paper titles with year/citations where known]
 
 ---
 
 # 1. Key insights
-5-8 insights. For each:
+"""
+
+    if week_papers:
+        user_prompt += f"""5-8 insights from this week's papers. Base them on abstracts and metadata —
+be concrete even if the user hasn't read the full paper yet.
 ## Insight N — [sharp, specific title]
 **Problem:** one sentence.
 **Old assumption:** what the field believed.
@@ -332,36 +452,92 @@ Content must start with:
 **Real shift or incremental:** honest one-line assessment.
 
 # 2. Connections and patterns
-Pure extension of Section 1 — adjacent fields, meta-patterns (label: real trend / hype / too early to tell). No re-statement of Section 1.
+Cross-paper patterns, adjacent-field links. Label each: real trend / hype / too early to tell.
+No re-stating Section 1 content.
 
 # 3. Design heuristics
-5-8 heuristics: **H[N] — [title]** / Rule: [If X then Y] / Fails when: [condition] / *(Paper)*
+5-8 heuristics extractable from this week's papers:
+**H[N] — [title]** / Rule: [If X then Y] / Fails when: [condition] / *(Paper)*
 
 # 4. Methods worth stealing
-2-4 methods: ## [Method] — (*Paper*) / **The clever move:** / **What alternative explanation it closes:** / **Reuse potential:**
+2-4 methods:
+## [Method] — (*Paper*)
+**The clever move:**
+**What alternative it closes:**
+**Reuse potential:**
 
 # 5. Research directions
-2-4 directions: **Direction N** / *Suggested by:* (→ Insight N) / *Smallest test:* / *Success looks like:* / *Main risk:*
+2-4 directions opened by this week's papers:
+**Direction N** / *Suggested by:* (→ Insight N) / *Smallest test:* / *Success looks like:* / *Main risk:*
 
 # 6. Weekly update
-**Belief updates** (5): > [Old] → [New] *(Paper)*
-**Try this week** (3-5, with expected output)
-**Stop trusting** (3)
-**One surprising idea** (2-3 paragraphs)
+**Belief updates** (5): > [Old belief] → [New belief] *(Paper)*
+**Experiments to try** (3-5, each with expected output)
+**Stop trusting** (3 assumptions this week's papers undermine)
+**One surprising idea** (2-3 paragraphs — the non-obvious synthesis)
+
+---
+
+"""
+    else:
+        user_prompt += "(No new papers saved this week — sections 1-6 skipped.)\n\n---\n\n"
+
+    if unread_papers:
+        user_prompt += f"""# 7. Read next week
+From the unread backlog (PART B), pick exactly 5-7 papers to read next week.
+Prioritise by: scientific importance, actionability for protein/antibody design,
+subfield diversity (not 5 papers from the same area), recency.
+Papers marked "new_this_week" are fresh — give them a slight priority boost.
+
+For each pick:
+## [Paper title]
+**Why this one:** 2 sentences — concrete insight you will gain, not just a topic label.
+**Read for:** the specific figure, section, or experiment that matters most.
+**Time:** realistic estimate (e.g. "20 min skim", "1.5h full methods").
+**Subfield:** one of: antibody design / inverse folding / structure prediction /
+topology engineering / binder design / benchmarking & data / other
+
+After the 5-7 picks:
+> **Not recommended this week:** deprioritised titles with one-line reason each.
+
+---
+
+"""
+    else:
+        user_prompt += "# 7. Read next week\n(Backlog empty — save papers from the daily podcast to get reading recommendations.)\n\n---\n\n"
+
+    user_prompt += f"""# 8. Reading momentum
+Papers Done this month: {done_this_month} | Target by week {week_num}: {target_low}–{target_high}
+
+Write 3-4 sentences:
+1. Honest assessment of reading pace — celebrate if on track, be direct (not harsh) if behind.
+2. Pick ONE paper from the week's recommendations and frame it as "this week's reading challenge":
+   give a specific, motivating reason why skipping it would be a real cost.
+3. One-line action item: the single smallest thing to do before next Saturday
+   (e.g. "block 45 min Thursday to read [paper]'s methods section").
 """
 
     print("[weekly] Calling LLM...", flush=True)
-    briefing = call_llm(system, user, cfg)
+    briefing = call_llm(system, user_prompt, cfg)
 
     page_title = f"Deep Research Briefing {start} to {end}"
     print("[weekly] Saving to Notion...", flush=True)
     url = save_to_notion(page_title, end, briefing)
 
+    top_pick = unread_papers[0]["title"] if unread_papers else None
+    slack_parts = [f"{len(week_papers)} new this week", f"{len(unread_papers)} in backlog"]
+    if done_this_month:
+        slack_parts.append(f"{done_this_month} Done this month")
+    slack_summary = " | ".join(slack_parts)
+
     if url:
         print(f"[weekly] Saved: {url}", flush=True)
-        _slack(f":scroll: Weekly briefing ready ({len(papers)} papers, {len(unread_pages)} skipped unread): {url}")
+        slack_msg = f":scroll: *Weekly briefing ready* ({slack_summary}, {start}→{end}): {url}"
+        if top_pick:
+            slack_msg += f"\n:bookmark: *This week's reading challenge:* {top_pick}"
+        _slack(slack_msg)
     else:
-        print("[weekly] Warning: briefing was written but not saved to Notion.", flush=True)
+        print("[weekly] Warning: briefing generated but Notion save skipped.", flush=True)
         _slack(":warning: Weekly briefing generated but Notion save failed — check Action logs.")
 
 
