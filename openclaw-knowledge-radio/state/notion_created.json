@@ -1838,5 +1838,21 @@
   "2026-07-07|https://www.science.org/content/blog-post/behold-spudcell": {
     "page_id": "3965f58e-a8c2-8120-90a4-e6599895356e",
     "note": "DD"
+  },
+  "2026-07-07|https://doi.org/10.1093/protein/gzag016": {
+    "page_id": "3965f58e-a8c2-817d-9c7f-fef9a2589968",
+    "note": "DD"
+  },
+  "2026-07-07|https://arxiv.org/abs/2505.20346": {
+    "page_id": "3965f58e-a8c2-8165-bd6b-cc70d78c027d",
+    "note": "DD"
+  },
+  "2026-07-07|https://arxiv.org/abs/2607.05084": {
+    "page_id": "3965f58e-a8c2-81fb-b001-c7ff0ff3d224",
+    "note": "DD"
+  },
+  "2026-07-07|https://doi.org/10.1073/pnas.2537345123": {
+    "page_id": "3965f58e-a8c2-819e-a9e6-d63be2577368",
+    "note": "DD"
   }
 }
