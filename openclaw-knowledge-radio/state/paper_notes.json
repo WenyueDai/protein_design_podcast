@@ -2504,6 +2504,11 @@
       "note": "DD",
       "title": "Rethinking Benchmarks and Models for Enzyme Specificity Prediction",
       "source": "arXiv q-bio.BM"
+    },
+    "https://doi.org/10.1073/pnas.2537345123": {
+      "note": "DD",
+      "title": "BetaDescribe: Providing rich descriptions from protein sequences.",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America"
     }
   }
 }
