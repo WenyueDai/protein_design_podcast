@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    164.44,
+    333.59,
+    936.23,
+    1102.04,
+    1679.28,
+    1910.02,
+    2005.17,
+    2180.49,
+    2784.13,
+    2949.37
+  ],
+  "items": [
+    {
+      "title": "A cofactor-promiscuous HMGR from the Lyme disease pathogen illuminates diversity in bacterial isoprenoid biosynthesis",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.06.735745",
+      "source": "Pranam Chatterjee (bioRxiv)",
+      "one_liner": "The Lyme disease pathogen Borrelia burgdorferi contains a highly reduced genome lacking many primary metabolic pathways. However, B. burgdorferi retains the mevalonate pathway that synthesizes isopentenyl pyrophosphate (IPP), the precursor to the peptidoglycan carrier lipid. While the mevalonate pathway and the enzyme that catalyzes its rate-limiting step (3-hydroxy-3-methyl glutaryl coenzyme A re",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "author"
+      ]
+    },
+    {
+      "title": "A Telomerase Inhibitor Revealed",
+      "url": "https://www.science.org/content/blog-post/telomerase-inhibitor-revealed",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Ligand-dependent enhancer activation indirectly modulates non-target promoters in a chromatin domain.",
+      "url": "https://doi.org/10.7554/eLife.102417",
+      "source": "PubMed — eLife",
+      "one_liner": "Transcription activation of genes by estrogen is driven by enhancers, which are often located within the same topologically associating domain (TAD) as non-targeted promoters. We investigated how acute enhancer-driven activation affects neighbouring non-target genes within the same TAD. Using single-molecule RNA FISH (smFISH), we tracked the transcription...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Bridging between Structure-Based and Data-Driven Affinity Prediction.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00697",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Protein-ligand binding affinity prediction is central in computer-aided drug design, and a wide range of physics-based, empirical, and machine learning (ML) tools have been developed for this purpose. Scientists are often tasked with choosing an optimal tool for a given discovery problem, which can be difficult. Physical models typically perform best in t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Compiling Bioinformatics Recurrences",
+      "url": "https://arxiv.org/abs/2607.06225",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2607.06225v1 Announce Type: cross \nAbstract: Many bioinformatics algorithms, such as sequence alignment and structure prediction, can be expressed as recurrence equations over a dynamic programming matrix. Efficient implementations of these algorithms for large-scale biological data often require changing the order in which matrix cells are calculat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "AbICL: In-Context Learning for Antigen-Specific Antibody Affinity Ranking",
+      "url": "https://arxiv.org/abs/2607.05846",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2607.05846v1 Announce Type: cross \nAbstract: Accurate ranking of antibody candidates according to their binding affinity is essential for therapeutic antibody discovery. However, existing methods treat affinity comparisons independently and ignore the contextual information encoded in other labeled comparisons, limiting their ability to capture anti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Predicting challenges and opportunities in improving snakebite envenoming management in Ghana.",
+      "url": "https://doi.org/10.1093/trstmh/trag043",
+      "source": "PubMed — Transactions of the Royal Society of Tropical Medicine and Hygiene",
+      "one_liner": "BACKGROUND: Snakebite envenoming (SBE) is a neglected tropical disease and a major public health crisis in Africa. We integrated a maximum difference experimental design and machine learning (ML) models to predict challenges and opportunities for improving SBE management in Ghana. METHODS: This cross-sectional study included 137 healthcare workers, identi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Explainable Hybrid Deep Learning Framework for Cardiovascular Disease Prediction and Clinical Decision Support.",
+      "url": "https://doi.org/10.2174/011871529X487473260629112351",
+      "source": "PubMed — Cardiovascular & hematological disorders drug targets",
+      "one_liner": "INTRODUCTION: The main concern of the world's public health is cardiovascular disease. There are many different types of machine learning models available to help clinicians identify cardiovascular disease at an early stage and predict future risk. In this study, we propose HCVDNet, a hybrid machine learning-deep learning model that can be used to improve...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Systematic engineering and machine learning analysis of intrinsic terminators reveal crucial nucleotides directly upstream of the terminator hairpin.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.06.736697",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Transcriptional termination efficiency is considered an important parameter for fine tuning bacterial gene expression. Still, the design principles that determine transcription termination efficiency remain poorly understood. In this study, we aimed to investigate the impact of the 3' untranslated region (3'UTR) on gene expression in Escherichia coli and ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence advancements for orthopaedic clinical reasoning: longitudinal assessment of newer models (ChatGPT-5, Grok-3, Gemini 2.5 Flash) compared to clinicians.",
+      "url": "https://doi.org/10.1007/s00402-026-06400-6",
+      "source": "PubMed — Archives of orthopaedic and trauma surgery",
+      "one_liner": "INTRODUCTION: This descriptive study aimed to longitudinally evaluate the performance of contemporary large language models - ChatGPT-5, Gemini 2.5 Flash, and Grok-3 - on orthopaedic clinical multiple-choice tasks, benchmarked against pooled clinician consensus. A secondary aim was to assess whether recent advances in generative AI translated into improve...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mitochondrial dysfunction in peri-implantitis: bioinformatics and machine learning analysis with in vivo experiment.",
+      "url": "https://doi.org/10.1007/s10266-026-01487-0",
+      "source": "PubMed — Odontology",
+      "one_liner": "This study aimed to identify mitochondria-related hub genes in peri-implantitis and to detect their expression in a Sprague-Dawley (SD) rat model. Human peri-implantitis tissue datasets (GSE223924, GSE33774, and GSE106090) were obtained from the GEO database and cross-referenced with the MitoCarta3.0 database to identify mitochondria-related differentiall...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Stylistic analysis of translated languages: A perturbation-based XAI deep learning framework.",
+      "url": "https://doi.org/10.1371/journal.pone.0352889",
+      "source": "PubMed — PloS one",
+      "one_liner": "Text classification using traditional machine learning techniques has been used in natural language processing (NLP) tasks to distinguish translated from non-translated languages, with high accuracy scores indicating the distinctive style of translated languages. While deep learning (DL) has demonstrated impressive performance in terms of representation l...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational design, synthesis, and in vitro evaluation of thiadiazole-derived PARP-1 inhibitors.",
+      "url": "https://doi.org/10.1080/10799893.2026.2697740",
+      "source": "PubMed — Journal of receptor and signal transduction research",
+      "one_liner": "BACKGROUND: Poly (ADP-ribose) polymerase-1 (PARP-1) is a crucial enzyme in DNA repair pathways and a significant target for cancer therapy. Due to their favorable physicochemical and biological characteristics, heterocyclic scaffolds like 1,3,4-thiadiazoles are good candidates for PARP-1 inhibitor design. OBJECTIVES: The purpose of this work was to use an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo Designed Minibinders Targeting the GDF15-GFRAL Axis Reverse Cancer Cachexia and Restore Anti-Tumor Immunity.",
+      "url": "https://doi.org/10.1002/advs.76202",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Cancer-associated cachexia is a devastating syndrome characterized by progressive weight loss, reduced survival, and impaired responses to anticancer therapies. Growth differentiation factor 15 (GDF15), acting through its receptor GFRAL, has emerged as a key mediator of cachexia, yet effective and mechanistically defined strategies to neutralize this path...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Feasibility of Tailoring Artificial Intelligence-Assisted Ambient Scribes for Intensive Care Unit Rounds: Algorithm Development and Validation.",
+      "url": "https://doi.org/10.2196/85015",
+      "source": "PubMed — JMIR medical informatics",
+      "one_liner": "BACKGROUND: The increasing documentation burden on physicians is a significant contributor to burnout and decreases in care quality. Artificial intelligence (AI) has been proposed as a solution to reduce documentation burden in clinical care, but there are very limited data on its use in the inpatient and intensive care unit (ICU) environments. OBJECTIVE:...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Atomic clarity: how structural biology is shaping blood-stage malaria vaccines.",
+      "url": "https://doi.org/10.1093/trstmh/trag039",
+      "source": "PubMed — Transactions of the Royal Society of Tropical Medicine and Hygiene",
+      "one_liner": "Developing an effective malaria vaccine is challenging because Plasmodium parasites use complex strategies to invade host cells. The blood stage, where parasites replicate inside red blood cells, causes disease symptoms and relies on large multiprotein surface complexes that are difficult to target. Understanding their structure is essential for rational ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exploring Privileged Structure Repurposing: Target Similarity as a Catalyst for Cross-Species Drug Discovery.",
+      "url": "https://doi.org/10.1021/acs.jmedchem.6c01234",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "Privileged drug structures refer to substructures that impart drug-like properties, including high target affinity, favorable pharmacokinetic profiles, and structural modifiability. In cross-species drug repositioning, targets should be prioritized based on homologous proteins that exhibit high structural and functional conservation across members of the ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TF-MOEA$^{+}$: A Multi-Objective Evolutionary Framework with Self-Adaptive Topological-Functional Mutation for Protein Complex Detection.",
+      "url": "https://doi.org/10.1109/TCBBIO.2026.3710847",
+      "source": "PubMed — IEEE transactions on computational biology and bioinformatics",
+      "one_liner": "Identifying protein complexes from protein-protein interaction (PPI) networks is a fundamental task in systems biology, offering important insights into cellular organization and molecular function. However, reliable complex detection remains challenging due to the sparsity and noise of PPI data, as well as the need to balance structural compactness, inte...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PIMPC-GNN: Physics-Informed Multiphase Consensus Learning for Enhancing Imbalanced Node Classification in Graph Neural Networks.",
+      "url": "https://doi.org/10.1109/TNNLS.2026.3709308",
+      "source": "PubMed — IEEE transactions on neural networks and learning systems",
+      "one_liner": "Graph neural networks (GNNs) often struggle in class-imbalanced settings, where minority classes are underrepresented, and predictions are biased toward the majority. We propose PIMPC-GNN, a physics-informed multiphase consensus framework for imbalanced node classification. Our method integrates three complementary dynamics: 1) thermodynamic diffusion, wh...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design-CP: Context Parallelism for Design of Protein Nanoparticles",
+      "url": "https://arxiv.org/abs/2607.05439",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2607.05439v1 Announce Type: cross \nAbstract: Many all-atom generative protein models can in principle design large multimeric complexes by jointly modelling all chains, but their quadratic token- and atom-pair representations quickly exceed single-GPU memory as the number of chains and residues modelled grows. We introduce Design-CP, two context-par...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    }
+  ]
+}
