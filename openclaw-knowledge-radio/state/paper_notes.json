@@ -2510,5 +2510,12 @@
       "title": "BetaDescribe: Providing rich descriptions from protein sequences.",
       "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America"
     }
+  },
+  "2026-07-08": {
+    "https://www.science.org/content/blog-post/telomerase-inhibitor-revealed": {
+      "note": "DD",
+      "title": "A Telomerase Inhibitor Revealed",
+      "source": "In the Pipeline (Derek Lowe)"
+    }
   }
 }
