@@ -2516,6 +2516,11 @@
       "note": "DD",
       "title": "A Telomerase Inhibitor Revealed",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00697": {
+      "note": "DD",
+      "title": "Bridging between Structure-Based and Data-Driven Affinity Prediction.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
