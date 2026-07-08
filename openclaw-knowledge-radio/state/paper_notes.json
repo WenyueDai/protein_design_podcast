@@ -2521,6 +2521,11 @@
       "note": "DD",
       "title": "Bridging between Structure-Based and Data-Driven Affinity Prediction.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://arxiv.org/abs/2607.05846": {
+      "note": "DD",
+      "title": "AbICL: In-Context Learning for Antigen-Specific Antibody Affinity Ranking",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
