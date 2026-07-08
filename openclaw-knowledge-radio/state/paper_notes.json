@@ -2526,6 +2526,11 @@
       "note": "DD",
       "title": "AbICL: In-Context Learning for Antigen-Specific Antibody Affinity Ranking",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1021/acs.jmedchem.6c01234": {
+      "note": "DD",
+      "title": "Exploring Privileged Structure Repurposing: Target Similarity as a Catalyst for Cross-Species Drug Discovery.",
+      "source": "PubMed — Journal of medicinal chemistry"
     }
   }
 }
