@@ -1862,5 +1862,13 @@
   "2026-07-08|https://doi.org/10.1021/acs.jcim.6c00697": {
     "page_id": "3975f58e-a8c2-81e7-aa6a-e9eb44188336",
     "note": "DD"
+  },
+  "2026-07-08|https://arxiv.org/abs/2607.05846": {
+    "page_id": "3975f58e-a8c2-817f-89c5-e03a640916fa",
+    "note": "DD"
+  },
+  "2026-07-08|https://doi.org/10.1021/acs.jmedchem.6c01234": {
+    "page_id": "3975f58e-a8c2-81f8-b9a1-e5e403550e28",
+    "note": "DD"
   }
 }
