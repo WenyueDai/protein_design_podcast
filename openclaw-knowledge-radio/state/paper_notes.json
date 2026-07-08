@@ -2531,6 +2531,11 @@
       "note": "DD",
       "title": "Exploring Privileged Structure Repurposing: Target Similarity as a Catalyst for Cross-Species Drug Discovery.",
       "source": "PubMed — Journal of medicinal chemistry"
+    },
+    "https://arxiv.org/abs/2607.05439": {
+      "note": "DD",
+      "title": "Design-CP: Context Parallelism for Design of Protein Nanoparticles",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
