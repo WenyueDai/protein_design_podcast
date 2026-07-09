@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    156.14,
+    339.66,
+    961.12,
+    1702.38,
+    2440.71,
+    2602.34,
+    2753.13,
+    3498.78,
+    4041.88,
+    4282.21
+  ],
+  "items": [
+    {
+      "title": "Turning Down the Refinery Heat",
+      "url": "https://www.science.org/content/blog-post/turning-down-refinery-heat",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "The influence of ligands on AlphaFold3 prediction of cryptic pockets.",
+      "url": "https://doi.org/10.1038/s42003-026-10596-z",
+      "source": "PubMed — Communications biology",
+      "one_liner": "Cryptic pockets-binding sites that are formed or exposed upon a conformational change-represent an important class of potentially druggable binding sites. Reliably predicting cryptic pockets capable of binding ligands, however, remains a challenge. Herein we examine the use of AlphaFold 3 (AF3) for generating realistic conformational ensembles that includ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An ultrasensitive visual detection platform for forchlorfenuron: from simulation-assisted hapten and antibody production to double-T immunochromatographic assay application.",
+      "url": "https://doi.org/10.1039/d6tb00792a",
+      "source": "PubMed — Journal of materials chemistry. B",
+      "one_liner": "Forchlorfenuron (FCF), a widely utilized cytokinin-type plant growth regulator, poses a considerable threat to human health and ecological stability when overapplied. This issue has consequently driven an escalating demand for real-time, on-site monitoring technologies capable of detecting FCF residues in agricultural products and environmental matrices. ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pangenome-guided immunoinformatics design and in silico characterization of a multi-epitope vaccine candidate against Acinetobacter baumannii with nanoparticle assembly potential.",
+      "url": "https://doi.org/10.1038/s41598-026-59935-4",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Acinetobacter baumannii is a critical multidrug-resistant pathogen causing severe healthcare infections with high mortality, yet no licensed vaccine exists. This study aims to identify universally conserved surface antigens through pangenome analysis, predict immunogenic epitopes using integrated machine learning, and computationally design and in silico ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Metaheuristic optimized hybrid machine learning framework for predicting soil compaction parameters.",
+      "url": "https://doi.org/10.1038/s41598-026-59491-x",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Accurate prediction of maximum dry density (MDD) and optimum moisture content (OMC) is critical for effective compaction control and earthwork design in geotechnical engineering. Conventional laboratory compaction tests are time-consuming and resource-intensive, motivating the adoption of reliable data-driven prediction models. In this study, a hybrid mod...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Diagnosis of Obstructive Sleep Apnea Using Overnight Pulse Oximetry: A Systematic Review and Bayesian Meta-Analysis.",
+      "url": "https://doi.org/10.2196/80349",
+      "source": "PubMed — Journal of medical Internet research",
+      "one_liner": "BACKGROUND: Obstructive sleep apnea (OSA) affects 38% of the population, yet over 90% of cases remain undiagnosed. The gold standard for diagnosis, polysomnography, requires specialized equipment and trained personnel, making it inaccessible in primary care and acute settings. With artificial intelligence (AI) advancements, oximetry-based AI models have e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hybrid noise-resistant technique for malware classification.",
+      "url": "https://doi.org/10.1038/s41598-026-57376-7",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Visualization-based malware detection has recently gained significant attention for binary and multiclass malware classification using machine learning and deep learning techniques. However, existing visualization-based frameworks still face several important limitations, including insufficient robustness evaluation, limited cross-dataset validation, rest...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Can LLMs improve the accuracy of behavior prediction for personnel in high-stakes scenarios by predicting emotions? - A fine-tuning study based on scarce homogeneous cultural data in high-pressure environments.",
+      "url": "https://doi.org/10.1371/journal.pone.0352988",
+      "source": "PubMed — PloS one",
+      "one_liner": "Research on human behavior prediction using LLMs is increasingly prevalent. This study addresses a key question in the interdisciplinary fields of behavioral science and artificial intelligence: Can LLMs enhance the accuracy of predicting personnel behavior by predicting emotions in high-pressure scenarios? We rigorously screened homogeneous cultural data...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Engineering of tandem bispecific IL-7 receptor agonist antibody promoting selective T cell expansion.",
+      "url": "https://doi.org/10.1093/protein/gzag017",
+      "source": "PubMed — Protein engineering, design & selection : PEDS",
+      "one_liner": "Interleukin-7 (IL-7) is indispensable for T cell development and homeostasis, and clinical studies have demonstrated its ability to restore T cell numbers in lymphopenic conditions. However, the therapeutic application of IL-7 has been limited by its short half-life and potential immunogenicity of recombinant variants. To overcome these challenges, we eng...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "IPGMVL: based on interactive progressive graph convolution with multi-view learning traffic flow forecasting.",
+      "url": "https://doi.org/10.1038/s41598-026-59952-3",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The key challenge in traffic flow prediction lies in modeling complex spatio-temporal dependencies effectively. While graph neural networks have shown promise, existing methods face two critical limitations: (1) static graph construction approaches fail to adapt to real-time network dynamics, and (2) prevailing spatio-temporal models neglect both interact...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design of a Multi-epitope Vaccine Against Human Glanders Targeting Outer Membrane β-barrel Proteins of Burkholderia mallei",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.25.727591",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Burkholderia mallei, a facultative intracellular Gram-negative pathogen, is the causative agent of glanders that primarily affects solipeds and sporadically transmitted to humans. Current interventions mainly rely on antibiotics; however, increasing resistance and the lack of a licensed vaccine further complicate disease management. In the present study, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Centimeter-Scale Alignment of Fibrillar Proteins Utilizing Viscous Polymers for Tissue Engineering.",
+      "url": "https://doi.org/10.1021/acsbiomaterials.6c01067",
+      "source": "PubMed — ACS biomaterials science & engineering",
+      "one_liner": "Extracellular matrix (ECM) organization is important for integrating interactions between cells into functional tissues. A well-known example is the cellular alignment in skeletal and cardiac muscles, tendons, bones, and corneas, all of which are guided by aligned ECM fibrils. However, no current ECM alignment technique is adequate for disease modeling an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DeepDPM: A Deep Learning Method for MoRFs Prediction Based on Wavelet Transform and Dynamic Convolutional Attention Mechanism.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01251",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Molecular recognition features (MoRFs) play important roles in various biological processes and are associated with numerous diseases. However, existing methods are limited in multisource feature modeling, contextual dependency capture, and robust feature fusion. To address these issues, we propose a novel framework, DeepDPM. We selected Prot-T5 and ESM-2...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mapping protein-DNA interactions across biological scales: principles, scalability and applications.",
+      "url": "https://doi.org/10.1016/j.ymeth.2026.07.007",
+      "source": "PubMed — Methods (San Diego, Calif.)",
+      "one_liner": "Mapping protein-DNA interactions (PDIs) is essential for understanding transcriptional regulation and chromatin organization. Experimental approaches now range from in vitro assays that characterize intrinsic DNA-binding specificity to chromatin-based methods that capture protein occupancy in native genomes, as well as single-cell and single-molecule tech...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HIV-1 capsid interactions with Nuclear Pore Complex components support nuclear entry via affinity gradient.",
+      "url": "https://doi.org/10.1073/pnas.2534919123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Before entering the nucleus, the HIV capsid core [composed of capsid (CA) proteins] must translocate through the Nuclear Pore Complex (NPC). This process relies on direct interactions between CA and the phenylalanine-glycine (FG) repeats in nucleoporins (NUPs) within the NPC. FG repeats are generally classified into three canonical motifs: FG, GLFG, and F...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structures of the Xcp and Hxc T2SS endopili provide new insights into type IV pili subfamilies.",
+      "url": "https://doi.org/10.1016/j.str.2026.06.007",
+      "source": "PubMed — Structure (London, England : 1993)",
+      "one_liner": "Type IV filaments (T4F) are widespread bacterial appendages involved in adhesion, motility, DNA uptake, and protein secretion. In the type II secretion system (T2SS), a short pilus-like structure termed the endopilus drives protein export across the outer membrane. Despite its important function, the specific molecular determinants of endopili remain poor...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein-Enforced Ligand Environments Reshape Classical Coordination Preferences in Copper Polypyridyl Complexes.",
+      "url": "https://doi.org/10.1021/jacs.6c09177",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "Copper coordination chemistry is governed by several well-established features, including Jahn-Teller distortion in octahedral Cu(II) complexes and the scarcity of high-coordinate Cu(I) species. Here, we demonstrate that protein scaffolds can function as mechanically active ligand architectures that override these intrinsic electronic and structural prefe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure and receptor recognition of type-II feline infectious peritonitis virus spike glycoprotein.",
+      "url": "https://doi.org/10.1038/s44318-026-00849-2",
+      "source": "PubMed — The EMBO journal",
+      "one_liner": "Type-II feline infectious peritonitis virus (FIPV-II) is a lethal alphacoronavirus, whose high homology with the human coronavirus CCoV-HuPn-2018 carries the risk of potential zoonotic FIPV-II transmission to humans. FIPV-II infects felids using cat aminopeptidase N (cAPN) as its cell-entry receptor, but the molecular details remain unclear. Here, we reso...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Analysis and design of disordered polypeptides with optimized sequence patterning properties.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014462",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Intrinsically disordered proteins (IDPs) exhibit phase separation behavior that is closely linked to their degree of single-chain compaction, which in turn is governed by both amino acid composition and sequence patterning. Existing metrics such as sequence charge decoration (SCD) and sequence hydropathy decoration (SHD) describe these effects but are lar...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Physics-guided spatiotemporal neural models for fuel density prediction",
+      "url": "https://arxiv.org/abs/2607.06999",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.06999v1 Announce Type: new \nAbstract: This paper presents a physics-guided machine learning (PGML) framework for fuel density prediction, integrating physics constraints and domain knowledge into deep learning models to enhance model accuracy and stability. We explore three deep learning architectures -- ConvLSTM, Adaptive Fourier Neural Operat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
