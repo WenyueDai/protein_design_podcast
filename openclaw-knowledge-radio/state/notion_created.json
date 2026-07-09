@@ -1870,5 +1870,13 @@
   "2026-07-08|https://doi.org/10.1021/acs.jmedchem.6c01234": {
     "page_id": "3975f58e-a8c2-81f8-b9a1-e5e403550e28",
     "note": "DD"
+  },
+  "2026-07-08|https://arxiv.org/abs/2607.05439": {
+    "page_id": "3975f58e-a8c2-81f6-90a7-c953ba02a559",
+    "note": "DD"
+  },
+  "2026-07-09|https://doi.org/10.1038/s44318-026-00849-2": {
+    "page_id": "3985f58e-a8c2-81fc-969a-c2ba8b287ceb",
+    "note": "DD"
   }
 }
