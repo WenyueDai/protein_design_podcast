@@ -69,5 +69,27 @@
       "source": "arXiv q-bio.QM",
       "title": "Mathematical Modeling of Cancer-Bacterial Therapy: Analysis and Numerical Simulation via Physics-Informed Neural Network"
     }
+  ],
+  "2026-07-09": [
+    {
+      "url": "https://doi.org/10.1038/s41598-026-59491-x",
+      "source": "PubMed — Scientific reports",
+      "title": "Metaheuristic optimized hybrid machine learning framework for predicting soil compaction parameters."
+    },
+    {
+      "url": "https://doi.org/10.2196/80349",
+      "source": "PubMed — Journal of medical Internet research",
+      "title": "Artificial Intelligence Diagnosis of Obstructive Sleep Apnea Using Overnight Pulse Oximetry: A Systematic Review and Bay"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41598-026-57376-7",
+      "source": "PubMed — Scientific reports",
+      "title": "Hybrid noise-resistant technique for malware classification."
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06999",
+      "source": "arXiv cs.LG (AI/ML)",
+      "title": "Physics-guided spatiotemporal neural models for fuel density prediction"
+    }
   ]
 }
