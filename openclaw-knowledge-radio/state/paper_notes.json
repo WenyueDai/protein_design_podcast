@@ -2537,5 +2537,12 @@
       "title": "Design-CP: Context Parallelism for Design of Protein Nanoparticles",
       "source": "arXiv q-bio.QM"
     }
+  },
+  "2026-07-09": {
+    "https://doi.org/10.1038/s44318-026-00849-2": {
+      "note": "DD",
+      "title": "Structure and receptor recognition of type-II feline infectious peritonitis virus spike glycoprotein.",
+      "source": "PubMed — The EMBO journal"
+    }
   }
 }
