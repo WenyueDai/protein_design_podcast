@@ -2543,6 +2543,11 @@
       "note": "DD",
       "title": "Structure and receptor recognition of type-II feline infectious peritonitis virus spike glycoprotein.",
       "source": "PubMed — The EMBO journal"
+    },
+    "https://doi.org/10.1371/journal.pcbi.1014462": {
+      "note": "DD",
+      "title": "Analysis and design of disordered polypeptides with optimized sequence patterning properties.",
+      "source": "PubMed — PLoS computational biology"
     }
   }
 }
