@@ -1894,5 +1894,13 @@
   "2026-07-10|https://doi.org/10.1021/jacs.6c07615": {
     "page_id": "3995f58e-a8c2-817a-89bd-e7788462a99c",
     "note": "DD"
+  },
+  "2026-07-10|https://doi.org/10.1371/journal.pcbi.1014433": {
+    "page_id": "3995f58e-a8c2-81d8-8920-e9dd3178f8d3",
+    "note": "DD"
+  },
+  "2026-07-10|https://doi.org/10.1002/prot.70155": {
+    "page_id": "3995f58e-a8c2-8142-9464-c7d0d8f0e4ab",
+    "note": "DD"
   }
 }
