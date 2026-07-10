@@ -2565,6 +2565,11 @@
       "note": "DD",
       "title": "A",
       "source": "PubMed — Journal of the American Chemical Society"
+    },
+    "https://doi.org/10.1371/journal.pcbi.1014433": {
+      "note": "DD",
+      "title": "Mind the gap: An embedding guide to safely travel in sequence space.",
+      "source": "PubMed — PLoS computational biology"
     }
   }
 }
