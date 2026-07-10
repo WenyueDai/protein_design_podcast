@@ -2555,6 +2555,11 @@
       "note": "DD",
       "title": "AlphaFold-based peptide structure prediction: Opportunities, limitations, and future directions.",
       "source": "PubMed — Biotechnology advances"
+    },
+    "https://doi.org/10.1093/bioinformatics/btag509": {
+      "note": "DD",
+      "title": "LoMuS: Low-Rank Adaptation with Sequence Multi-representation Improves Protein Stability Prediction.",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
     }
   }
 }
