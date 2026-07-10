@@ -1878,5 +1878,13 @@
   "2026-07-09|https://doi.org/10.1038/s44318-026-00849-2": {
     "page_id": "3985f58e-a8c2-81fc-969a-c2ba8b287ceb",
     "note": "DD"
+  },
+  "2026-07-09|https://doi.org/10.1371/journal.pcbi.1014462": {
+    "page_id": "3985f58e-a8c2-81ce-98fd-ec79d3aa3635",
+    "note": "DD"
+  },
+  "2026-07-10|https://doi.org/10.1016/j.biotechadv.2026.108977": {
+    "page_id": "3995f58e-a8c2-81a8-bd8b-f37148e722b1",
+    "note": "DD"
   }
 }
