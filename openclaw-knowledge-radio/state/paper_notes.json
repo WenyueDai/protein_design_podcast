@@ -2549,5 +2549,12 @@
       "title": "Analysis and design of disordered polypeptides with optimized sequence patterning properties.",
       "source": "PubMed — PLoS computational biology"
     }
+  },
+  "2026-07-10": {
+    "https://doi.org/10.1016/j.biotechadv.2026.108977": {
+      "note": "DD",
+      "title": "AlphaFold-based peptide structure prediction: Opportunities, limitations, and future directions.",
+      "source": "PubMed — Biotechnology advances"
+    }
   }
 }
