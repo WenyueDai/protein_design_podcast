@@ -2575,6 +2575,11 @@
       "note": "DD",
       "title": "An (αβ)",
       "source": "PubMed — Proteins"
+    },
+    "https://doi.org/10.1021/acs.biochem.6c00356": {
+      "note": "DD",
+      "title": "From First Principles to Function: How AI Is Reshaping Enzyme Design.",
+      "source": "PubMed — Biochemistry"
     }
   }
 }
