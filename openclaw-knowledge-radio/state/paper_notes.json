@@ -2560,6 +2560,11 @@
       "note": "DD",
       "title": "LoMuS: Low-Rank Adaptation with Sequence Multi-representation Improves Protein Stability Prediction.",
       "source": "PubMed — Bioinformatics (Oxford, England)"
+    },
+    "https://doi.org/10.1021/jacs.6c07615": {
+      "note": "DD",
+      "title": "A",
+      "source": "PubMed — Journal of the American Chemical Society"
     }
   }
 }
