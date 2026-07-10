@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    197.88,
+    320.13,
+    506.46,
+    678.75,
+    939.77,
+    1122.05,
+    1330.15,
+    1530.28,
+    1802.36,
+    2118.37
+  ],
+  "items": [
+    {
+      "title": "AlphaFold-based peptide structure prediction: Opportunities, limitations, and future directions.",
+      "url": "https://doi.org/10.1016/j.biotechadv.2026.108977",
+      "source": "PubMed — Biotechnology advances",
+      "one_liner": "Accurate prediction of peptide structures and peptide-receptor complexes is essential for rational peptide drug development. However, the inherent conformational flexibility of short and disordered peptides presents a fundamental challenge. The AlphaFold model series, which has progressed from AlphaFold2 through AlphaFold-Multimer to AlphaFold3, has subst...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "UMA-Inverse: Ligand-Conditioned Protein Inverse Folding with a Distogram-Supervised Dense Pair Encoder",
+      "url": "https://arxiv.org/abs/2607.07866",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.07866v1 Announce Type: new \nAbstract: Designing protein sequences that bind specific ligands benefits from an inverse-folding model conditioned on full ligand geometry. We present UMA-Inverse, which replaces the sparse graph backbone of LigandMPNN with a dense pair-representation encoder: a six-block PairMixer (triangle multiplication, no trian...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "LoMuS: Low-Rank Adaptation with Sequence Multi-representation Improves Protein Stability Prediction.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag509",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Protein folding stability is a key determinant for understanding protein dynamics, including molecular function, pathogenicity, and protein engineering. Yet, accurate prediction of protein stability remains challenging due to high variability in available data, particularly when only sequence information is available and structural knowledge i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Synthesis and machine learning techniques to enable data-driven investigation of supramolecular host-guest interactions.",
+      "url": "https://doi.org/10.1039/d6sc00479b",
+      "source": "PubMed — Chemical science",
+      "one_liner": "The availability of large datasets such as the Protein DataBank and ChEMBL have allowed for rapid progress in developing machine learning tools for predicting the biological activity of organic small molecules. The binding between supramolecular hosts and their desired guests is governed by the same forces that drive protein-small molecule interactions, a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A",
+      "url": "https://doi.org/10.1021/jacs.6c07615",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "Modern protein design methods based on deep learning allow generation of customized protein scaffolds with diverse geometries and functionalities. Here we capitalize on these recent advances to develop hyper-thermostable",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Proteome-scale quantification of the interactions driving condensate formation of intrinsically disordered proteins.",
+      "url": "https://doi.org/10.1038/s41467-026-74825-z",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Cellular organization in the form of biomolecular condensates is a fundamental regulatory mechanism across all forms of life. Formation of condensates relies on multivalent interactions that are often weak and transient, making them challenging to study experimentally. We have developed Condensate Partitioning by mRNA-Display (CPmD) to measure these inter...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mind the gap: An embedding guide to safely travel in sequence space.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014433",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "We present a hybrid approach combining a protein language model (pLM) with Monte Carlo (MC) sampling for generating enzyme mutants free of mutations deleterious for structural preservation. Given the amino acid sequence of the original enzyme and a set of residues for which the local environment should be conserved, i.e., the catalytic site, our approach ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Resolving cellular signaling in space and time: From organelle proteomics to spatial phosphoproteomics.",
+      "url": "https://doi.org/10.1016/j.cbpa.2026.102724",
+      "source": "PubMed — Current opinion in chemical biology",
+      "one_liner": "Cellular signaling is inherently organized in space and time, requiring coordinated control of protein localization, molecular interactions, and enzymatic activity across subcellular compartments. Recent advances in chemical biology, protein engineering, and quantitative proteomics have made it possible to interrogate these dimensions in an integrated man...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting the Young's Modulus of biomedical titanium alloys using machine learning: a data-driven approach.",
+      "url": "https://doi.org/10.1038/s41598-026-56250-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "This study presents a machine learning framework for predicting the Young's Modulus (YM) of biomedical titanium alloys to address stress shielding in implant applications. A Deep Neural Network (DNN) was developed using nineteen compositional features and physically meaningful descriptors. Prior to model training, the dataset was preprocessed using Box-Co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Neural Network-Driven Finite Element Modeling for Estimating Knee Joint Cartilage Mechanical Responses.",
+      "url": "https://doi.org/10.1007/s10439-026-04266-8",
+      "source": "PubMed — Annals of biomedical engineering",
+      "one_liner": "Low-fidelity, artificial intelligence (AI)-generated approaches are increasingly used to estimate kinematics and kinetics of human movement, which are traditionally measured by high-fidelity motion capture (Mocap) approaches. However, there are no methods to study knee joint tissue mechanics using such low-fidelity approaches. To do so, we investigated kn...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pig vocalizations contain shared acoustic structure for humans and machines, but limited evidence for presumed affective valence",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.06.736900",
+      "source": "bioRxiv — animal behavior and cognition",
+      "one_liner": "Vocalizations are increasingly proposed as indicators of affective state in animal welfare research. Yet many studies assign context-derived affective valence to vocalizations and then classify these using machine learning according to those context-derived labels. This circular dependence makes it unclear whether successful classification reflects affect...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rapid identification of Chrysanthemi Flos based on multi-source data fusion and machine learning algorithms.",
+      "url": "https://doi.org/10.1016/j.talanta.2026.130215",
+      "source": "PubMed — Talanta",
+      "one_liner": "Chrysanthemi Flos (CF), a versatile herb utilized for both medicinal and culinary applications, exhibits a range of visually similar varieties. The majority of extant investigations identify herbal materials merely based on isolated morphological traits or individual chemical markers; systematic research elucidating the correlation between macroscopic phe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An (αβ)",
+      "url": "https://doi.org/10.1002/prot.70155",
+      "source": "PubMed — Proteins",
+      "one_liner": "The tRNA splicing endonuclease (TSEN) removes introns from precursor tRNAs (pre-tRNAs) in eukaryotes and archaea, but the architecture and subunit organization of plant TSEN remain poorly defined. Here, we integrated in planta bimolecular fluorescence complementation (BiFC) assays with AlphaFold3 (AF3)-based structural modeling, molecular dynamics simulat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "How to benchmark medical AI agents.",
+      "url": "https://doi.org/10.1371/journal.pmed.1005170",
+      "source": "PubMed — PLoS medicine",
+      "one_liner": "Medical artificial intelligence research is shifting from single-task models toward multimodal large language model-based agents for complex clinical workflows, requiring benchmarks that assess clinical reasoning, process safety, and resource stewardship rather than final outputs alone.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "From First Principles to Function: How AI Is Reshaping Enzyme Design.",
+      "url": "https://doi.org/10.1021/acs.biochem.6c00356",
+      "source": "PubMed — Biochemistry",
+      "one_liner": "Artificial intelligence is rapidly transforming everyday life and driving major advances across science. De novo enzyme design is an area of particular promise, with implications for medicine, biotechnology, and industry. Recent applications of AI-enhanced methodologies have yielded a range of enzymes with catalytic activities that were previously unattai...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advancing outbreak detection: Hybridizing machine learning with wavelets for weekly dengue case forecasting.",
+      "url": "https://doi.org/10.1371/journal.pntd.0014444",
+      "source": "PubMed — PLoS neglected tropical diseases",
+      "one_liner": "BACKGROUND: Traditional surveillance systems often struggle with the volatility of weekly case data, limiting timely prevention and control efforts. In the Philippines, the standard method for setting outbreak thresholds relies on historical moving averages that are highly affected by extreme values and slow to reflect recent epidemiological shifts. This ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Accuracy of breast density assessment using artificial intelligence by convolutional neural network for carriers of UGT1A1 polymorphisms with Gilbert's Syndrome - a pilot study.",
+      "url": "https://doi.org/10.1016/j.clinsp.2026.101038",
+      "source": "PubMed — Clinics (Sao Paulo, Brazil)",
+      "one_liner": "INTRODUCTION: Gilbert's Syndrome (GS), an indirect hyperbilirubinemia resulting from the reduced hepatic bilirubin-glucuronyltransferase enzyme activity, influences estrogen metabolism. Polymorphisms in the UGT gene, such as those associated with GS, can alter estrogen clearance, impacting hormonal exposure and, consequently, breast density, an independen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Applying Deep-Learning-Driven",
+      "url": "https://doi.org/10.1021/acs.jmedchem.6c00231",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "Artificial intelligence is increasingly applied in early drug discovery to accelerate hit identification and reduce costs. In this study, we implemented an AI-driven",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Towards the Explainability of Temporal Graph Networks via Memory Backtracking and Topological Attribution",
+      "url": "https://arxiv.org/abs/2607.07716",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.07716v1 Announce Type: new \nAbstract: Temporal graphs are ubiquitous in real-world applications and Temporal Graph Networks (TGNs) have achieved superior predictive accuracy. Understanding which historical events drive model predictions can enhance trustworthiness of TGNs. Existing explanation methods overlook the memory module, the core compon...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Steering Neural Network Training through Interpretable Constraints Based on Partial Dependence",
+      "url": "https://arxiv.org/abs/2607.08641",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.08641v1 Announce Type: new \nAbstract: Over the last few years, there has been an increased interest in making machine learning models more interpretable. Although a great deal of effort goes into developing techniques for interpreting the interactions learned by a given model, fewer studies focus on assessing the quality of such explanations. E...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
