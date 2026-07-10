@@ -1886,5 +1886,13 @@
   "2026-07-10|https://doi.org/10.1016/j.biotechadv.2026.108977": {
     "page_id": "3995f58e-a8c2-81a8-bd8b-f37148e722b1",
     "note": "DD"
+  },
+  "2026-07-10|https://doi.org/10.1093/bioinformatics/btag509": {
+    "page_id": "3995f58e-a8c2-81b1-ae9e-e5420668eaa2",
+    "note": "DD"
+  },
+  "2026-07-10|https://doi.org/10.1021/jacs.6c07615": {
+    "page_id": "3995f58e-a8c2-817a-89bd-e7788462a99c",
+    "note": "DD"
   }
 }
