@@ -1,0 +1,282 @@
+{
+  "timestamps": [
+    0.0,
+    135.76,
+    411.86,
+    542.6,
+    689.77,
+    1328.98,
+    1514.78,
+    2156.35,
+    2332.79,
+    2481.61,
+    2705.5
+  ],
+  "items": [
+    {
+      "title": "Progress in structure prediction and design of adaptive immune receptors.",
+      "url": "https://doi.org/10.1016/j.sbi.2026.103326",
+      "source": "PubMed — Current opinion in structural biology",
+      "one_liner": "Adaptive immune receptors (AIRs), including antibodies and T-cell receptors (TCRs), mediate antigen recognition and represent a major class of therapeutic biomolecules. Their unique architecture, combining conserved framework with highly diverse complementarity-determining regions (CDRs), poses challenges for structure prediction and design. Recent advanc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning prediction of local control after Gamma Knife radiosurgery to post-resection cavities from brain metastases: a proof-of-concept study.",
+      "url": "https://doi.org/10.1007/s11060-026-05703-3",
+      "source": "PubMed — Journal of neuro-oncology",
+      "one_liner": "BACKGROUND: Large symptomatic brain metastases require initial surgical resection. However, local control (LC) after Gamma Knife radiosurgery (GKRS) to resection cavities remains variable. Quantitative risk stratification using routinely available treatment-time variables could inform surveillance and multidisciplinary decision-making. METHODS: We perform...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hybrid quantum-classical de novo design of MHC-binding peptides",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.09.736951",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Deep generative models have become a leading approach for designing therapeutic molecules, yet efficiently exploring vast biomolecular sequence spaces remains difficult, particularly for targets with limited training data. The prior distribution that seeds a generative model shapes which regions of sequence space it explores, and recent work suggests that...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A scalable deep-learning framework for cancer detection using cell-free DNA shallow whole-genome sequencing.",
+      "url": "https://doi.org/10.1126/sciadv.ady9432",
+      "source": "PubMed — Science advances",
+      "one_liner": "Cell-free DNA (cfDNA) in body fluids enables noninvasive cancer detection. Multifeature artificial intelligence (AI) can improve sensitivity by integrating diverse biomarkers when cancer signals are sparse. Tumor-informed assays that rely on mutations have limited practicality for early cancer detection. Emerging fragmentomic and epigenetic features under...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Applications of Large Language Models in Ovarian Cancer Management: Protocol for a Systematic Review and Meta-Analysis.",
+      "url": "https://doi.org/10.2196/88163",
+      "source": "PubMed — JMIR research protocols",
+      "one_liner": "BACKGROUND: Ovarian cancer (OC) is a highly fatal gynecologic malignancy with complex management challenges and limited long-term survival for advanced stages. Large language models (LLMs)-including systems such as GPT-4, Claude, Google Gemini, and others-are emerging artificial intelligence (AI) tools capable of performing health care-related tasks such ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence and automation in enzyme engineering: evolution, advances, and future perspectives.",
+      "url": "https://doi.org/10.1186/s40643-026-01096-3",
+      "source": "PubMed — Bioresources and bioprocessing",
+      "one_liner": "Natural enzymes often fail to meet industrial demands for catalytic efficiency, stability, and substrate specificity, creating a critical bottleneck in biomanufacturing. This review examines how artificial intelligence (AI) and automation are reshaping enzyme engineering from empirical trial‑and‑error toward data-driven, closed-loop design. We trace AI de...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Efficacy of high-frequency low-dose rituximab and acalabrutinib in chronic lymphocytic leukemia.",
+      "url": "https://doi.org/10.1002/hem3.70430",
+      "source": "PubMed — HemaSphere",
+      "one_liner": "Anti-CD20 monoclonal antibodies (mAbs) are effective but not curative treatment for chronic lymphocytic leukemia (CLL). To study rituximab efficacy, we examined serial blood samples from CLL patients receiving initial monotherapy with high-frequency low-dose (HFLD) rituximab for 1 week followed by the addition of acalabrutinib. Low-dose rituximab (intrave...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Autonomous biomedical research with an artificial intelligence agent.",
+      "url": "https://doi.org/10.1126/science.adz4351",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "Biomedical research is increasingly constrained by repetitive, fragmented workflows that slow discovery. We introduce Biomni, a general-purpose biomedical artificial intelligence agent that autonomously executes diverse research tasks. To map the biomedical action space, Biomni's action-discovery agent mines tools, databases, and protocols from thousands ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GraphTransDTI: A novel hybrid framework combining graph transformer and CNN-BiLSTM for enhanced Drug-Protein Interaction prediction.",
+      "url": "https://doi.org/10.1371/journal.pone.0351314",
+      "source": "PubMed — PloS one",
+      "one_liner": "Drug-protein interaction (DTI) prediction is a pivotal step in the drug discovery and repurposing process, helping to minimize experimental costs and time. However, existing deep learning methods often face limitations in simultaneously capturing the spatial structure of drug molecules and the deep contextual correlation with protein sequences. To address...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unveiling Large-Scale Kinase-Centric Protein-Protein Interactions through a Knowledge-Informed Workflow.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00906",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Protein phosphorylation regulates signaling, yet atomic-level substrate specificity remains elusive due to sparse structural data and phosphorylation-site-insensitive deep-learning predictors. Here we present a pipeline reformulating kinase-substrate modeling as a Bayesian inference problem. By integrating curated data sets and literature evidence parsed ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular dynamics simulations of intrinsically disordered protein regions enable biophysical interpretation of variant-effect predictors.",
+      "url": "https://doi.org/10.1016/j.xhgg.2026.100618",
+      "source": "PubMed — HGG advances",
+      "one_liner": "Predictive models for missense-variant pathogenicity offer little functional interpretation for intrinsically disordered regions (IDRs), since they mostly leverage conservation and co-evolution across homologous sequences. In our study, we use molecular dynamics (MD) simulations to model biophysics of IDRs for improved interpretation of variant effects. W...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The polar landscape of bacterial pathogens and predators.",
+      "url": "https://doi.org/10.1016/j.mib.2026.102793",
+      "source": "PubMed — Current opinion in microbiology",
+      "one_liner": "Precise spatial positioning of cellular constituents is critical for bacterial replication, interactions, and behavior. Rod-shaped bacteria may concentrate molecules and machinery at the cell poles, often by leveraging polar scaffolding proteins to recruit other factors. These typically small proteins can self-assemble into higher-order structures that pr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CircDiscoverer: A multispecies comprehensive resource for circRNA-protein interactions and RNA modification landscapes",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.08.698416",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Circular RNAs (circRNAs) regulate various cellular processes by interacting with miRNAs, proteins, and by encoding peptides. Compared to circRNA-miRNA interactions, circRNA-protein interactions (CPIs) and circRNA modifications have been relatively less explored. Here, we developed a comprehensive user-friendly web resource, CircDiscoverer, to explore CPIs...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Collective Variable-Guided Engineering of the Free-Energy Surface of a Small Peptide.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00674",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Engineering the free-energy surfaces (FES) of proteins and peptides is central to controlling conformational ensembles and their responses to perturbations. However, predicting how chemical modifications such as point mutations reshape the FES and shift conformational equilibria remains challenging, particularly in data-scarce settings. Building on the Co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Glyco-Ligated Binders to Lectins: Multivalency vs Specificity.",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c01091",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "Here, we examine and compare different types of glycan-based binders to lectins, a class of carbohydrate-binding proteins involved in many biological recognition processes. We use atomistic molecular dynamics simulations to model metallosupramolecular glycoassemblies of different topologies, core charges, and linker lengths binding in a multivalent manner...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unleashing the potential of S-layer proteins for engineered living materials.",
+      "url": "https://doi.org/10.1016/j.mib.2026.102789",
+      "source": "PubMed — Current opinion in microbiology",
+      "one_liner": "The field of engineered living materials (ELMs) aims to create self-regenerative, self-assembled, and multifunctional materials that mimic natural biomaterials. Novel ELMs can be produced by engineering biomolecules that are naturally secreted and displayed on bacterial cell surfaces. Surface-layer (S-layer) proteins are a class of proteins that form a tw...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "N-Terminal Amine Chemistry Influences α-Synuclein Interactions with Lipid Bilayers.",
+      "url": "https://doi.org/10.1021/acs.biochem.6c00382",
+      "source": "PubMed — Biochemistry",
+      "one_liner": "α-Synuclein (αSyn) is an intrinsically disordered protein whose reversible membrane binding via amphipathic α-helix formation is central to its function and may also contribute to the pathology of Parkinson's disease. In mammals, αSyn is constitutively N-terminally acetylated, a modification that alters its structural propensity and interactions with lipi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "USP4 controls neutrophil spreading through stabilising IQGAP1 during lung inflammation.",
+      "url": "https://doi.org/10.1136/thorax-2026-224871",
+      "source": "PubMed — Thorax",
+      "one_liner": "BACKGROUND: Protein availability critically influences innate immune reactivity and the extent of immune-mediated tissue injury. A key unresolved question is how specific protein homeostasis networks within immune cells such as neutrophils can be modulated to mitigate the detrimental outcomes of acute inflammation. METHODS: We established an acute lung in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.",
+      "url": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
+      "source": "Quanta Magazine",
+      "one_liner": "Researchers thought that what enabled complex fluids to break apart was their elasticity. But a crack in a nonelastic simple fluid has them questioning that idea. The post We Know Simple Fluids Can Flow. Turns Out, So...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
