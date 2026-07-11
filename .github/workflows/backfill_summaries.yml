@@ -38,15 +38,16 @@ jobs:
 
       - name: Backfill weekly + speculative + monthly
         env:
-          OPENROUTER_API_KEY:          ${{ secrets.OPENROUTER_API_KEY }}
-          NOTION_API_KEY:              ${{ secrets.NOTION_API_KEY }}
-          NOTION_DEEPDIVE_DB_ID:       3165f58ea8c280498f72c770028aec0d
-          NOTION_WEEKLY_SUMMARY_DB_ID: ${{ secrets.NOTION_WEEKLY_SUMMARY_DB_ID }}
-          NOTION_SPECULATIVE_DB_ID:    ${{ secrets.NOTION_SPECULATIVE_DB_ID }}
-          SLACK_WEBHOOK_URL:           ${{ secrets.SLACK_WEBHOOK_URL }}
-          SEMANTIC_SCHOLAR_API_KEY:    ${{ secrets.S2_API_KEY }}
-          START_DATE:                  ${{ github.event.inputs.start_date }}
-          END_DATE:                    ${{ github.event.inputs.end_date }}
+          OPENROUTER_API_KEY:           ${{ secrets.OPENROUTER_API_KEY }}
+          NOTION_API_KEY:               ${{ secrets.NOTION_API_KEY }}
+          NOTION_DEEPDIVE_DB_ID:        3165f58ea8c280498f72c770028aec0d
+          NOTION_WEEKLY_SUMMARY_DB_ID:  ${{ secrets.NOTION_WEEKLY_SUMMARY_DB_ID }}
+          NOTION_SPECULATIVE_DB_ID:     ${{ secrets.NOTION_SPECULATIVE_DB_ID }}
+          NOTION_MONTHLY_SUMMARY_DB_ID: ${{ secrets.NOTION_MONTHLY_SUMMARY_DB_ID }}
+          SLACK_WEBHOOK_URL:            ${{ secrets.SLACK_WEBHOOK_URL }}
+          SEMANTIC_SCHOLAR_API_KEY:     ${{ secrets.S2_API_KEY }}
+          START_DATE:                   ${{ github.event.inputs.start_date }}
+          END_DATE:                     ${{ github.event.inputs.end_date }}
         run: python tools/backfill_summaries.py
 
       - name: Commit and push changes

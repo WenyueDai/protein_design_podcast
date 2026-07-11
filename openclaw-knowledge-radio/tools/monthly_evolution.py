@@ -41,6 +41,7 @@ from src.utils.timeutils import load_tz, now_local_date
 NOTION_API_KEY = os.environ.get("NOTION_API_KEY", "")
 DEEPDIVE_DB_ID = os.environ.get("NOTION_DEEPDIVE_DB_ID", "3165f58ea8c280498f72c770028aec0d").replace("-", "")
 WEEKLY_DB_ID = os.environ.get("NOTION_WEEKLY_SUMMARY_DB_ID", "").replace("-", "")
+MONTHLY_DB_ID = os.environ.get("NOTION_MONTHLY_SUMMARY_DB_ID", WEEKLY_DB_ID).replace("-", "")
 SLACK_WEBHOOK_URL = os.environ.get("SLACK_WEBHOOK_URL", "")
 
 NOTION_HEADERS = {
@@ -206,13 +207,13 @@ def markdown_to_blocks(md: str) -> list[dict]:
 
 
 def save_to_notion(title: str, date_end: str, md: str) -> str | None:
-    if not WEEKLY_DB_ID:
-        print("[monthly] NOTION_WEEKLY_SUMMARY_DB_ID not set — skipping Notion save", flush=True)
+    if not MONTHLY_DB_ID:
+        print("[monthly] NOTION_MONTHLY_SUMMARY_DB_ID not set — skipping Notion save", flush=True)
         return None
     blocks = markdown_to_blocks(md)
     first_batch, rest = blocks[:100], blocks[100:]
     body = {
-        "parent": {"database_id": WEEKLY_DB_ID},
+        "parent": {"database_id": MONTHLY_DB_ID},
         "properties": {
             "Name": {"title": [{"text": {"content": title[:2000]}}]},
             "date": {"date": {"start": date_end}},
