@@ -2581,5 +2581,12 @@
       "title": "From First Principles to Function: How AI Is Reshaping Enzyme Design.",
       "source": "PubMed — Biochemistry"
     }
+  },
+  "2026-07-11": {
+    "https://doi.org/10.1016/j.sbi.2026.103326": {
+      "note": "DD",
+      "title": "Progress in structure prediction and design of adaptive immune receptors.",
+      "source": "PubMed — Current opinion in structural biology"
+    }
   }
 }
