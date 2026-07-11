@@ -117,6 +117,7 @@ jobs:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DEEPDIVE_DB_ID: 3165f58ea8c280498f72c770028aec0d
           NOTION_WEEKLY_SUMMARY_DB_ID: ${{ secrets.NOTION_WEEKLY_SUMMARY_DB_ID }}
+          NOTION_MONTHLY_SUMMARY_DB_ID: ${{ secrets.NOTION_MONTHLY_SUMMARY_DB_ID }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           RUN_DATE: ${{ github.event.inputs.run_date }}
         run: python tools/monthly_evolution.py
