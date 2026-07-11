@@ -5,6 +5,9 @@ A fully automated daily podcast for protein designers. Every morning at **03:00 
 **Live site:** [wenyuedai.github.io/protein_design_podcast](https://wenyuedai.github.io/protein_design_podcast)
 **Paper collection (Notion):** [all past digests](https://clear-squid-8e3.notion.site/3155f58ea8c280258959fba00c0149ab?v=3155f58ea8c2803c8c0d000c76d1bfba)
 **Deep dive notes (Notion):** [owner's expert annotations](https://clear-squid-8e3.notion.site/3165f58ea8c280498f72c770028aec0d?v=3165f58ea8c28020983c000cec9807e6)
+**Weekly summary (Notion):** [Saturday deep-research briefings](https://clear-squid-8e3.notion.site/3235f58ea8c280ccbc4bc228a2a05d84)
+**Monthly summary (Notion):** [month-end evolution reports](https://clear-squid-8e3.notion.site/3235f58ea8c280678565d06131f8b6cf)
+**Speculative ideas (Notion):** [weekly speculative biology × protein design](https://clear-squid-8e3.notion.site/3965f58ea8c280208f64feb8a0f20108)
 
 ---
 
@@ -17,19 +20,19 @@ GitHub Actions checks out the latest `main` branch and runs `python run_daily.py
 An **idempotency guard** at the start of `run_daily.py` checks `state/release_index.json`: if today's date already has an entry, the run exits immediately without repeating work.
 
 **1a. RSS feeds** (`src/collectors/rss.py`)
-Fetches 79 RSS/Atom feeds simultaneously, grouped into:
+Fetches 80 RSS/Atom feeds simultaneously, grouped into:
 
 - **Core protein/structural biology** — Nature (protein design, engineering, antibodies, enzyme design, structural & molecular biology, methods, main journal), arXiv q-bio.BM and q-bio.QM, Protein Science, Protein Engineering Design and Selection, Structure (Cell Press)
 - **Top journals** — Nature Biotechnology, Nature Chemical Biology, PNAS
 - **AI/ML** — arXiv cs.LG
 - **News** — Nature News, Endpoints News, Quanta Magazine
-- **Key researchers (absolute priority, tier 0)** — arXiv author feeds for ~50 researchers including David Baker, Sergey Ovchinnikov, Alexander Rives, Brian Hie, Charlotte Deane, Jeffrey Gray, Tanja Kortemme, Po-Ssu Huang, Noelia Ferruz, Debora Marks, Kevin Yang, Yaron Lipman, Chloe Hsu, Jure Leskovec, Regina Barzilay, Bonnie Berger, Tommi Jaakkola, and many others across the US, Switzerland, Canada, UK, Germany, Israel, Korea, and Denmark
+- **Key researchers (absolute priority, tier 0)** — arXiv author feeds for ~64 researchers including David Baker, Sergey Ovchinnikov, Alexander Rives, Brian Hie, Charlotte Deane, Jeffrey Gray, Tanja Kortemme, Po-Ssu Huang, Noelia Ferruz, Debora Marks, Kevin Yang, Yaron Lipman, Chloe Hsu, Jure Leskovec, Regina Barzilay, Bonnie Berger, Tommi Jaakkola, and many others across the US, Switzerland, Canada, UK, Germany, Israel, Korea, and Denmark
 - **Blogs (absolute priority, tier 1)** — A-Alpha Bio, Owl Posting, Asimov Press, Mohammed AlQuraishi's blog, BLOPIG (Oxford Protein Informatics Group), In the Pipeline (Derek Lowe)
 
 Each item gets a `bucket` tag: `protein`, `journal`, `ai_bio`, `news`, or `daily`.
 
 **1b. PubMed search** (`src/collectors/pubmed.py`)
-Runs 35 keyword queries against the PubMed E-utilities API, organized by protein design category:
+Runs 33 keyword queries against the PubMed E-utilities API, organized by protein design category:
 - **Structure prediction / review** — "protein design deep learning", "protein engineering review", "peptide design"
 - **Computational design** — "de novo protein design", "de novo enzyme design", "computational protein design"
 - **Diffusion / generative models** — "diffusion model protein", "backbone design protein", "flow matching protein design", "score-based protein design", "protein hallucination"
@@ -69,7 +72,7 @@ Items are sorted by a 10-level priority key (lower = better):
 | 8 | **Fulltext available** — papers where full text was successfully extracted | Content quality |
 | 9 | **Extracted text length** | Final tie-breaker |
 
-Tier-0 (researcher feeds) and tier-1 (blogs) items are **hoisted to the front** before any bucket quota is applied, so they are never buried behind the protein-bucket flood. Remaining items then have bucket quotas applied: up to 38 `protein`, 2 `daily`. Total episode cap: 40 items.
+Tier-0 (researcher feeds) and tier-1 (blogs) items are **hoisted to the front** before any bucket quota is applied, so they are never buried behind the protein-bucket flood. Remaining items then have bucket quotas applied: up to 18 `protein`. Total episode cap: 20 items.
 
 ---
 
@@ -80,14 +83,14 @@ The ranked items are sent in batches to the main LLM (`arcee-ai/trinity-large-pr
 - A **deep-dive segment** (~250–300 words): background, methodology, findings, significance
 - A **roundup blurb** (~100 words): quick summary for papers that didn't make the deep-dive
 
-Segments are joined with `[[TRANSITION]]` markers. The final script is saved as `output/DATE/podcast_script_DATE_llm.txt`.
+Segments are joined with `[[TRANSITION]]` markers. The final script is saved as `output/DATE/podcast_script_DATE_llm.txt`. Episode cap: 20 items total (up to 18 `protein` bucket).
 
 ---
 
 ### Phase 4 — Text-to-Speech
 
 **4a. One MP3 per segment** (`src/outputs/tts_edge.py`)
-The script is split on `[[TRANSITION]]` markers into individual segments. Each segment is converted to a separate MP3 using Microsoft Edge TTS (voice: `en-GB-RyanNeural`, rate: `+35%`). Edge TTS is free and runs over a WebSocket to Microsoft's servers.
+The script is split on `[[TRANSITION]]` markers into individual segments. Each segment is converted to a separate MP3 using Microsoft Edge TTS (voice: `en-GB-RyanNeural`, rate: `+0%`). Edge TTS is free and runs over a WebSocket to Microsoft's servers.
 
 - If Edge TTS fails or produces a corrupt file, it retries up to 3 times with fallback voices
 - If all retries fail, it falls back to gTTS (Google TTS, lower quality but reliable)
@@ -139,7 +142,35 @@ GitHub Pages detects the change to `docs/` and automatically redeploys the websi
 
 ---
 
-### Phase 6 — Interactive Features (browser-side)
+### Phase 6 — Weekly & Monthly Intelligence (Saturdays / month-end)
+
+These steps run inside the same `daily_podcast.yml` job, conditional on the day.
+
+**6a. Weekly deep-research briefing** (`tools/weekly_summary.py`, Saturdays only)
+Reads every paper in the past week's `episode_items.json` files, groups them by subfield, and calls the LLM to write a structured research briefing:
+- **Headline themes** — the 3–5 biggest ideas that ran through the week
+- **Per-paper deep dives** — for each highlighted paper: background, methodology, findings, open questions, and connections to other work
+- **Semantic Scholar citations** — enriches highlighted papers with their real-time citation counts (via `SEMANTIC_SCHOLAR_API_KEY`)
+- **Cross-paper synthesis** — what the week's papers collectively reveal about where the field is heading
+
+Saved as a page in the **Weekly Summary** Notion database.
+
+**6b. Speculative biology ideation** (`tools/speculative_ideas.py`, Saturdays only)
+Uses the same week's paper pool to generate 10 speculative biology × protein design ideas — creative extrapolations of what becomes possible as protein design matures toward its theoretical limits. Each idea includes:
+- The speculative question ("What if we could…")
+- Grounding in this week's specific results
+- The speculative biology leap (organism, ecosystem, or phenomenon)
+- A concrete first experiment achievable with current tools (AlphaFold, RFdiffusion, yeast display)
+- A weirdness level (1–5 stars)
+
+Ends with a meta-observation about where the week's papers suggest speculative biology will be most productive in the next decade. Saved to the **Speculative Ideas** Notion database.
+
+**6c. Monthly evolution report** (`tools/monthly_evolution.py`, last day of month only)
+Reads every weekly briefing published that month, assigns each insight a fitness score (weighted by citation frequency, freshness, connectivity, richness, and paper interest score), cross-breeds the fittest insights across subfields (using an evolutionary metaphor), and writes a **Monthly Evolution Report** to the **Monthly Summary** Notion database. Tracks which research directions are accelerating, which are plateauing, and what new directions are emerging.
+
+---
+
+### Phase 7 — Interactive Features (browser-side)
 
 These happen **in your browser**, not on GitHub's servers.
 
@@ -168,7 +199,7 @@ Clicking ✏️ next to a paper opens an inline textarea. Saving calls the same 
 
 ---
 
-### Phase 7 — Missed Paper Processing (`process_missed.yml`)
+### Phase 8 — Missed Paper Processing (`process_missed.yml`)
 
 Whenever the owner submits a missed paper, the **`process_missed.yml`** workflow fires immediately (triggered by a push to `state/missed_papers.json`). It also runs as part of the daily pipeline.
 
@@ -190,7 +221,7 @@ Whenever the owner submits a missed paper, the **`process_missed.yml`** workflow
 
 ---
 
-### Phase 8 — Notion Deep-Dive Sync (`sync_notes.yml`)
+### Phase 9 — Notion Deep-Dive Sync (`sync_notes.yml`)
 
 Whenever `paper_notes.json` is updated, the **`sync_notes.yml`** workflow fires automatically:
 
@@ -218,11 +249,14 @@ For this project:
 
 ```
 .github/workflows/
-├── daily_podcast.yml    ← runs at 03:00 UTC daily (cron only — no manual dispatch
-│                           to prevent accidental reruns)
-│                           includes: main pipeline + process_missed_papers.py
-├── sync_notes.yml       ← runs whenever paper_notes.json is pushed (owner notes → Notion)
-└── process_missed.yml   ← runs whenever missed_papers.json is pushed (immediate diagnosis)
+├── daily_podcast.yml       ← cron: 02:00 UTC daily; workflow_dispatch for manual runs
+│                              includes: main pipeline + process_missed_papers.py
+│                              + weekly_summary.py + speculative_ideas.py (Saturdays)
+│                              + monthly_evolution.py (last day of month)
+├── backfill_summaries.yml  ← workflow_dispatch: backfill missed weekly/speculative/monthly
+│                              reports over a date range (start_date → end_date)
+├── sync_notes.yml          ← runs whenever paper_notes.json is pushed (owner notes → Notion)
+└── process_missed.yml      ← runs whenever missed_papers.json is pushed (immediate diagnosis)
 ```
 
 Each workflow run gets a **brand-new virtual machine**. It:
@@ -329,7 +363,11 @@ openclaw-knowledge-radio/         ← Python pipeline package
 ├── tools/
 │   ├── build_site.py             ← generates docs/ (HTML + RSS feed + animated cat)
 │   ├── sync_notion_notes.py      ← syncs owner notes → Notion deep-dive stubs
-│   └── process_missed_papers.py  ← diagnoses missed papers + extracts boost keywords
+│   ├── process_missed_papers.py  ← diagnoses missed papers + extracts boost keywords
+│   ├── weekly_summary.py         ← Saturday: deep-research briefing → Weekly Summary DB
+│   ├── speculative_ideas.py      ← Saturday: 10 speculative bio ideas → Speculative Ideas DB
+│   ├── monthly_evolution.py      ← month-end: fitness-scored evolution report → Monthly Summary DB
+│   └── backfill_summaries.py     ← iterate date range, call weekly/speculative/monthly scripts
 ├── state/
 │   ├── seen_ids.json             ← URLs seen in previous runs (dedup)
 │   ├── release_index.json        ← date → GitHub Release audio URL
@@ -405,7 +443,11 @@ Go to `Settings → Secrets and variables → Actions` and add:
 | `SLACK_WEBHOOK_URL` | Slack incoming webhook (optional, for run notifications) |
 | `NOTION_TOKEN` | Notion integration token for the **Paper Collection** database |
 | `NOTION_DATABASE_ID` | Paper Collection database ID |
-| `NOTION_API_KEY` | Notion integration token for the **Deep Dive Notes** database |
+| `NOTION_API_KEY` | Notion integration token for all deep-dive/weekly/monthly/speculative databases |
+| `NOTION_WEEKLY_SUMMARY_DB_ID` | Weekly Summary database ID (Saturday briefings) |
+| `NOTION_MONTHLY_SUMMARY_DB_ID` | Monthly Summary database ID (month-end evolution reports) |
+| `NOTION_SPECULATIVE_DB_ID` | Speculative Ideas database ID (Saturday creative ideation) |
+| `S2_API_KEY` | Semantic Scholar API key (optional, enriches weekly briefings with citation counts) |
 
 ### 5. Browser setup (for owner interactive features)
 
@@ -421,7 +463,7 @@ This is stored only in your browser's `localStorage`. It enables the feedback ch
 
 | Section | Key settings |
 |---------|-------------|
-| `limits` | `max_items_total` (40), `max_items_protein` (38), `source_caps` (per-journal caps) |
+| `limits` | `max_items_total` (20), `max_items_protein` (18), `source_caps` (per-journal caps) |
 | `excluded_terms` | Keywords that filter out off-topic items (cell biology, neurogenesis, etc.) |
 | `rss_sources` | 79 feeds with `name`, `url`, `bucket`, `tags`; sources tagged `author` get tier-0 or tier-1 absolute priority |
 | `pubmed` | `search_terms` (35 queries across 7 protein design categories), `lookback_days`, `max_results_per_term` |
@@ -435,13 +477,14 @@ This is stored only in your browser's `localStorage`. It enables the feedback ch
 
 Every GitHub Actions run does `git checkout main` as its first step, so it always runs the **latest committed code**.
 
-- 79 RSS sources: protein design, structural biology, AI/ML, ~50 tracked researcher arXiv feeds, and curated blogs
+**Daily (every day at 02:00 UTC)**
+- 80 RSS sources: protein design, structural biology, AI/ML, ~64 tracked researcher arXiv feeds, and curated blogs
 - 10-tier ranking: researcher feeds → blogs → landmark titles → missed paper keywords → time-decayed feedback → config topics → journal quality → bucket → fulltext → length
 - Tier-0/1 hoisting: researcher feeds and blogs are always shown before any bucket quota is applied
 - Absolute title keywords: AlphaFold, RoseTTAFold, ESMFold, RFdiffusion, ProteinMPNN, LigandMPNN, OpenFold, OmegaFold, Chai-1, Boltz, EvoDiff, Chroma, "structure prediction" get tier-2 priority regardless of source
 - Missed paper keyword boost: topics from owner-submitted missed papers go into `boosted_topics.json` at tier-3
 - Time-decayed feedback at tier-4: 14-day half-life; liked sources/keywords compound over repeated days without selection-bias lock-in
-- 35 PubMed queries covering all 7 protein design taxonomy categories including inverse folding and backbone design
+- 33 PubMed queries covering all 7 protein design taxonomy categories including inverse folding and backbone design
 - Idempotency guard: pipeline exits immediately if today's episode is already published
 - iOS Safari audio compatibility: `<source type="audio/mpeg">` ensures playback on iPhone/Safari
 - Timestamp seeking: clicking `[N]` lands 0.5s before transition tones
@@ -449,4 +492,14 @@ Every GitHub Actions run does `git checkout main` as its first step, so it alway
 - "My Take" notes: ✏️ button on each paper, saves to GitHub + triggers Notion stub creation
 - Missed paper form: immediate diagnosis + Notion stub via `process_missed.yml`
 - RSS discovery: `source_not_in_rss` papers trigger a feed probe; discovered feeds saved to `extra_rss_sources.json`
-- `daily_knowledge` disabled: no Wikipedia filler
+
+**Saturday (weekly intelligence)**
+- Deep-research briefing: synthesises the week's papers by subfield, with Semantic Scholar citation enrichment for highlighted papers, cross-paper connections, and a field trajectory assessment → Weekly Summary Notion DB
+- Speculative biology ideation: 10 creative ideas spanning weirdness levels 1–5, each grounded in that week's specific results with a concrete first experiment → Speculative Ideas Notion DB
+- If Saturday also falls on the last day of the month, all three weekly + monthly scripts run
+
+**Last day of month (monthly intelligence)**
+- Evolution report: fitness-scores all insights from that month's weekly briefings (citation frequency, freshness, connectivity, richness, paper interest), cross-breeds fittest insights across subfields, identifies accelerating vs. plateauing research directions → Monthly Summary Notion DB
+
+**Website nav bar**
+- Daily Transcripts · Deep Dive Notes · Weekly Summary · Monthly Summary · 🧬 Speculative Ideas — all clickable links to the respective Notion databases
