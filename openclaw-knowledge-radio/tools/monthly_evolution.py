@@ -2,18 +2,14 @@
 """
 tools/monthly_evolution.py
 
-Reads every weekly briefing published this month, extracts each Insight,
-computes a fitness score, cross-breeds the fittest insights across
-populations (subfields), and writes a Monthly Evolution Report back to
-the Weekly Summary database. Meant to run on the last day of the month
-(see .github/workflows/daily_podcast.yml).
+Reads every weekly briefing published this month from the Weekly Summary
+Notion database and synthesises them into a single integrated Monthly
+Synthesis report. The LLM is asked to find cross-week threads, show how
+ideas built on each other, and write a coherent narrative — not a list
+of weekly summaries.
 
-Fitness (0-1 scale, computed fresh each run — not persisted as its own DB):
-  0.25 x citation_frequency   (how many later weeks reference it)
-  0.20 x freshness            (4-week half-life decay)
-  0.20 x connectivity         (how many other insights this month relate to it)
-  0.15 x richness             (length/density of the insight's text)
-  0.20 x human_score          (Score of interest of the source paper, /10)
+Runs on the last day of each month (see .github/workflows/daily_podcast.yml).
+Saves the report to NOTION_MONTHLY_SUMMARY_DB_ID.
 
 Env vars: same as tools/weekly_summary.py.
 """
@@ -277,71 +273,58 @@ def main():
     )
 
     system = (
-        "You are running the monthly evolution engine for a computational "
-        "protein/antibody designer's literature system. Insights compete for "
-        "fitness, get cross-bred into hybrids, and go dormant/archived if "
-        "nobody reads or cites them."
+        "You are a senior protein design researcher writing a monthly synthesis "
+        "report for a colleague who listened to weekly briefings all month but "
+        "wants to step back and see the bigger picture. Your job is to synthesise — "
+        "not to repeat, not to list, not to score. Find the threads that ran across "
+        "multiple weeks, show how ideas built on each other, and tell a coherent "
+        "story about what this month meant for the field."
     )
-    user = f"""This month's weekly briefings ({start} to {end}):
+    user = f"""Below are the weekly research briefings for {start} to {end}.
+Each briefing covers one week of the protein design / structural biology literature.
 
 {corpus}
 
 ---
 
-Deep Dive Notes index (paper title | human Score of interest 2-10 | tags), for looking up human scores by fuzzy title match:
+Deep Dive Notes (papers the owner flagged as interesting, with their personal interest score 2-10):
 
 {index_text}
 
 ---
 
-TASK:
+TASK: Write a monthly synthesis report. This is NOT a summary of each week in turn.
+Read all the weekly briefings together and write a single, integrated narrative.
 
-STEP 1 — From each weekly briefing's "1. Key insights" section, extract every Insight: title, one-line summary, and classify it into ONE population from this fixed taxonomy: antibody design, inverse folding, structure prediction, topology engineering, binder design, benchmarking & data, other.
+Your report must follow this structure:
 
-STEP 2 — Scan across ALL the weekly texts (not just Section 1) for "(→ Insight N)" back-references and any prose that clearly re-invokes an earlier week's insight by topic, even without the exact tag. Count how many distinct later weeks reference each insight — this is its citation count.
+# Monthly Synthesis — {start} to {end}
 
-STEP 3 — For each insight, look up its source paper in the Deep Dive Notes index above by fuzzy title match and use its Score of interest as the human score. If no match, use 5 (neutral) and mark it "unscored".
+## The month in one paragraph
+A 3-5 sentence executive summary: what was this month about, overall? What was the dominant mood or direction of the field?
 
-STEP 4 — Compute fitness for each insight on a 0-1 scale:
-fitness = 0.25 x citation_frequency (normalized against this month's max)
-        + 0.20 x freshness (exponential decay, 4-week half-life from the insight's birth week to {end})
-        + 0.20 x connectivity (how many OTHER insights this month relate to it, normalized)
-        + 0.15 x richness (length/density of the insight's summary, normalized)
-        + 0.20 x human_score (Score of interest / 10)
+## Major themes
+Identify 3-5 themes that ran through the month — ideas, techniques, or questions that appeared in multiple weeks and deepened over time. For each theme:
+- Give it a title
+- Explain how it developed across the weeks (not just "it appeared in week 1 and week 3" — explain the intellectual progression)
+- What open question does it leave for next month?
 
-Status: fitness >= 0.6 = active, 0.3-0.6 = dormant, <0.3 = archived. Flag any insight that dropped straight from active to archived (skipped dormant) as "worth re-examining" — that usually means a thread got dropped, not that it naturally faded.
+## Papers worth returning to
+Pick 5-8 papers from across the month that, viewed together now, seem most significant. Prefer papers flagged with a high interest score in the Deep Dive Notes. For each: one sentence on what it showed, one sentence on why it matters more in the context of everything else this month.
 
-STEP 5 — From insights with fitness >= 0.6, pick 1-3 pairs from DIFFERENT populations and write a new hybrid insight for each pair — a genuinely new synthesis neither parent stated alone. Label with both parent titles.
+## Connections the weekly view missed
+What cross-week connections only become visible now that you can see the whole month? E.g. a result from week 1 that reframes a finding from week 3, or two separate directions that are converging on the same problem.
 
-STEP 6 — Write the report with this exact structure:
+## Where the field is heading
+Based only on this month's evidence, write 2-3 sentences on the direction the field is moving. Be specific — not "protein design is advancing" but "the shift from single-chain to multi-chain binder design is accelerating because X and Y both showed Z".
 
-# Monthly evolution report — {start} to {end}
-
-# 1. Population trends
-Which subfields grew/shrank in insight count and average fitness this month. Flowing prose.
-
-# 2. Top 10 fittest insights
-Ranked list: title, population, fitness score (2 decimals), one-line why.
-
-# 3. Cross-bred insights this month
-For each hybrid: ## [New insight title] — bred from [Parent A] x [Parent B] / the synthesis text / why neither parent alone said this.
-
-# 4. Dormant & archived this month
-Bulleted, one line each, with fitness score. Flag skipped-dormant cases.
-
-# 5. Thought archaeology
-Insights archived 2+ months ago (if determinable from the text) that were high-fitness when born — worth revisiting.
-
-# 6. Unscored insights
-List any insight where no Deep Dive Notes match was found — these need a rating next review.
-
-Output ONLY the report in the structure above, starting with "# Monthly evolution report".
+Output ONLY the report starting with "# Monthly Synthesis".
 """
 
     print("[monthly] Calling LLM...", flush=True)
     report = call_llm(system, user, cfg)
 
-    page_title = f"Monthly Evolution Report {start} to {end}"
+    page_title = f"Monthly Synthesis {start} to {end}"
     print("[monthly] Saving to Notion...", flush=True)
     url = save_to_notion(page_title, end, report)
 
