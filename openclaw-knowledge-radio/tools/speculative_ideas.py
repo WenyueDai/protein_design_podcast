@@ -180,6 +180,8 @@ def save_to_notion(title: str, date_str: str, md: str) -> str | None:
         "children": first_batch,
     }
     r = requests.post("https://api.notion.com/v1/pages", json=body, headers=NOTION_HEADERS, timeout=30)
+    if not r.ok:
+        print(f"[speculative] Notion error {r.status_code}: {r.text}", flush=True)
     r.raise_for_status()
     page = r.json()
     page_id, page_url = page["id"], page.get("url", "")
