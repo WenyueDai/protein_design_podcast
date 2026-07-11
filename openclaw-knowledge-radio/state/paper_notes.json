@@ -2587,6 +2587,11 @@
       "note": "DD",
       "title": "Progress in structure prediction and design of adaptive immune receptors.",
       "source": "PubMed — Current opinion in structural biology"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.07.09.736951": {
+      "note": "DD",
+      "title": "Hybrid quantum-classical de novo design of MHC-binding peptides",
+      "source": "bioRxiv — biochemistry"
     }
   }
 }
