@@ -1,0 +1,60 @@
+name: Backfill Summaries
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: "Start date (YYYY-MM-DD) — first Saturday to backfill"
+        required: true
+        default: "2026-04-25"
+      end_date:
+        description: "End date (YYYY-MM-DD, leave blank for today)"
+        required: false
+        default: ""
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    defaults:
+      run:
+        working-directory: openclaw-knowledge-radio
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Backfill weekly + speculative + monthly
+        env:
+          OPENROUTER_API_KEY:          ${{ secrets.OPENROUTER_API_KEY }}
+          NOTION_API_KEY:              ${{ secrets.NOTION_API_KEY }}
+          NOTION_DEEPDIVE_DB_ID:       3165f58ea8c280498f72c770028aec0d
+          NOTION_WEEKLY_SUMMARY_DB_ID: ${{ secrets.NOTION_WEEKLY_SUMMARY_DB_ID }}
+          NOTION_SPECULATIVE_DB_ID:    ${{ secrets.NOTION_SPECULATIVE_DB_ID }}
+          SLACK_WEBHOOK_URL:           ${{ secrets.SLACK_WEBHOOK_URL }}
+          SEMANTIC_SCHOLAR_API_KEY:    ${{ secrets.S2_API_KEY }}
+          START_DATE:                  ${{ github.event.inputs.start_date }}
+          END_DATE:                    ${{ github.event.inputs.end_date }}
+        run: python tools/backfill_summaries.py
+
+      - name: Commit and push changes
+        working-directory: ${{ github.workspace }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Backfill summaries $(date -u +%Y-%m-%d)"
+          git pull --no-rebase -X ours origin main
+          git push origin main
