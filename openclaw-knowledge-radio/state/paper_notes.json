@@ -2619,6 +2619,11 @@
       "note": "DD",
       "title": "SGGly: a web server for whole-protein, structure-guided analysis of candidate N-linked glycosylation sites.",
       "source": "PubMed — Nucleic acids research"
+    },
+    "https://doi.org/10.1038/s41598-026-61499-2": {
+      "note": "DD",
+      "title": "Designing a chimeric multi-epitope vaccine against Candida auris using reverse vaccinology approach targeting the agglut",
+      "source": "PubMed — Scientific reports"
     }
   }
 }
