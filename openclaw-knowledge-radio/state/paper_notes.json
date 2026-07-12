@@ -2613,5 +2613,12 @@
       "title": "We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.",
       "source": "Quanta Magazine"
     }
+  },
+  "2026-07-12": {
+    "https://doi.org/10.1093/nar/gkag507": {
+      "note": "DD",
+      "title": "SGGly: a web server for whole-protein, structure-guided analysis of candidate N-linked glycosylation sites.",
+      "source": "PubMed — Nucleic acids research"
+    }
   }
 }
