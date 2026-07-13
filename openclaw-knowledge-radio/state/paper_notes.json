@@ -2631,6 +2631,11 @@
       "note": "DD",
       "title": "A geometric atlas of how ESM3 organizes modalities across depth",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://doi.org/10.1038/s41598-026-60513-x": {
+      "note": "Dd",
+      "title": "Physics-informed-GPR data augmentation framework for flower-shaped antenna performance optimization and prediction using",
+      "source": "PubMed — Scientific reports"
     }
   }
 }
