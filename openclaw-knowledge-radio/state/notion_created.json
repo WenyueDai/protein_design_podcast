@@ -1934,5 +1934,13 @@
   "2026-07-12|https://doi.org/10.1093/nar/gkag507": {
     "page_id": "39b5f58e-a8c2-818e-8cc6-efa234daea82",
     "note": "DD"
+  },
+  "2026-07-12|https://doi.org/10.1038/s41598-026-61499-2": {
+    "page_id": "39b5f58e-a8c2-810a-bf80-cdf9dda56fa4",
+    "note": "DD"
+  },
+  "2026-07-13|https://www.biorxiv.org/content/10.64898/2026.07.08.737319": {
+    "page_id": "39c5f58e-a8c2-8153-8ee7-ea96e0ac4ffc",
+    "note": "DD"
   }
 }
