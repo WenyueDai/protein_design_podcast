@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    193.92,
+    827.68,
+    1080.47,
+    1271.38,
+    1441.13,
+    1616.93,
+    1806.81,
+    1934.03,
+    2570.15,
+    3124.74
+  ],
+  "items": [
+    {
+      "title": "A geometric atlas of how ESM3 organizes modalities across depth",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737319",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein language models learn general-purpose representations from large collections of protein sequences and structures, and have advanced the prediction of protein structure and function. ESM3 is a multimodal protein language model that ingests a protein through several channels at once, including amino-acid sequence, three-dimensional structure, second...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Physics-informed-GPR data augmentation framework for flower-shaped antenna performance optimization and prediction using machine learning models.",
+      "url": "https://doi.org/10.1038/s41598-026-60513-x",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "This paper presents a physics-informed Gaussian process regression (PI-GPR) data augmentation framework, combined with standalone machine-learning predictive models, for the design, optimization, and performance prediction of a flower-shaped wideband millimeter-wave antenna and its extension to a compact multiple-input multiple-output (MIMO) configuration...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Performance evaluation of SFP models using ML/DL and feature selection via cost evaluation framework.",
+      "url": "https://doi.org/10.1038/s41598-026-58865-5",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The increasing complexity of software systems (SW) makes fault prevention challenging. Although significant amount of research has explored Software Fault Prediction (SFP). However the extensive comparative analysis of Deep Learning (DL), state-of-the-art, and Machine Learning (ML) techniques, with the use of a Cost Evaluation Framework (CEF) remains larg...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence in cardiopulmonary resuscitation: a systematic review.",
+      "url": "https://doi.org/10.1016/j.bjane.2026.844795",
+      "source": "PubMed — Brazilian journal of anesthesiology (Elsevier)",
+      "one_liner": "Cardiac arrest remains a major cause of mortality and neurological disability, and its management depends on rapid recognition, effective resuscitation, and accurate post-arrest prognostication. Artificial intelligence (AI) has been increasingly investigated as a tool to support these stages of care. This narrative review summarizes recent evidence on AI ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProtBLIP2-SST: Protein Function Prediction via BLIP2 with Sequence, Structure, and Text",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.10.737551",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein function prediction traditionally relies on structured gene ontology (GO) labels or multi-label classifiers. However, these labels or classifiers cannot flexibly describe molecular function, biological process, cellular component, and free-text functional narratives in a single output. In comparison, generation-based approaches offer an intuitive ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rapid Access to Photoswitchable RNA Binders: Fluorination Enhances Protein Rescue by Exon Inclusion.",
+      "url": "https://doi.org/10.1002/chem.71371",
+      "source": "PubMed — Chemistry (Weinheim an der Bergstrasse, Germany)",
+      "one_liner": "Targeting RNA is a rich, yet largely untackled opportunity for controlling biological functions, with high potential for therapeutic intervention. However, it remains inherently challenging. Beyond RNA structural diversity, functional RNA motifs are frequently context-dependent and transient, complicating the rational design of selective small-molecule bi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Plasma proteomic profiling deciphers molecular dynamics linking insulin resistance to multiple chronic diseases and mortality.",
+      "url": "https://doi.org/10.1186/s12933-026-03273-2",
+      "source": "PubMed — Cardiovascular diabetology",
+      "one_liner": "BACKGROUND: Insulin resistance (IR) correlates with a wide spectrum of diseases and death. However, the specific proteomic signatures of IR and their associations with health outcomes remain incompletely understood. METHODS: Leveraging data of 2,920 plasma proteins from 19,556 individuals in UK biobank study, we employed the elastic net model to dissect I...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TheBioCollection: Unified Pre-Training Scale LLM Corpus for Biology",
+      "url": "https://arxiv.org/abs/2607.08803",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2607.08803v1 Announce Type: new \nAbstract: The push toward large language models for biology (BioLM) has created a need for training corpora that can endow models with a genuine understanding of biology. However, existing biological resources, such as molecular databases, protein repositories, genomic annotations, single-cell atlases, and pathway da...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Microbial Interactions with Protein Intake and Preterm Infant Body Composition: Secondary Analysis of a Randomized Trial.",
+      "url": "https://doi.org/10.1016/j.tjnut.2026.101723",
+      "source": "PubMed — The Journal of nutrition",
+      "one_liner": "INTRODUCTION: Enteral protein supplementation improves preterm infant growth, and may impact body composition and the gut microbiota. OBJECTIVE: To identify effects of additional enteral protein supplementation on the gut microbiota and microbial and clinical drivers of body composition. METHODS: Secondary analysis of a masked randomized trial of addition...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A practical framework for measuring protein oligomerization equilibria by fluorescence correlation spectroscopy",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737283",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Protein oligomerization equilibria are central to many biological processes and are often highly sensitive to environmental conditions such as ionic strength, pH, and ligand binding. Quantitative characterization of these equilibria remains experimentally challenging because stable protein complexes frequently dissociate only at concentrations that are di...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "DeepKinomeWeb: a quantitative, panel-level platform for kinase inhibitor screening and selectivity profiling.",
+      "url": "https://doi.org/10.1093/nar/gkag393",
+      "source": "PubMed — Nucleic acids research",
+      "one_liner": "Protein kinases are central targets in drug discovery, yet early-stage development of potent and selective inhibitors remains challenging due to high experimental costs and limited interpretability of large-scale screening data. Here, we present DeepKinomeWeb, an integrated web-based platform that transforms competition-based high-throughput screening dat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Brain targeting and trafficking of extracellular vesicles in central nervous system diseases: a therapeutic roadmap.",
+      "url": "https://doi.org/10.1080/17435889.2026.2698782",
+      "source": "PubMed — Nanomedicine (London, England)",
+      "one_liner": "Extracellular vesicles (EVs) mediate intercellular signaling in the central nervous system (CNS) by transferring lipids, proteins, and nucleic acids among neurons, glia, endothelium, and immune cells. Brain targeting depends on a linked sequence: EV ligands and adsorbed protein coronas engage receptor modules, select endocytic routes, determine intracellu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Splice-altering TP53 missense mutations as drivers of dysfunction and targets for RNA-based therapy.",
+      "url": "https://doi.org/10.1186/s13287-026-05176-1",
+      "source": "PubMed — Stem cell research & therapy",
+      "one_liner": "TP53 missense mutations introduce single amino acid substitutions in the p53 protein, which can lead to diverse functional consequences. However, their post-transcriptional impact, particularly on RNA splicing, remains underexplored. Herein, we analyzed cancer genome databases and identified 34 TP53 missense and synonymous mutations capable of generating ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mapping the dynamic plant interactome: from in vitro assays to in vivo quantitative approaches.",
+      "url": "https://doi.org/10.1186/s13007-026-01571-0",
+      "source": "PubMed — Plant methods",
+      "one_liner": "BACKGROUND: Protein-protein interactions underpin virtually all biological processes in plants, from signal transduction and immune responses to development and stress adaptation. Despite their fundamental importance, the plant interactome remains far from complete, and existing maps are systematically biased by the technical limitations inherent to conve...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fuzzy K-means-based outlier detection in plastic-degradation-related protein sequences using PSI-BLAST, Jaccard similarity, and OMA features.",
+      "url": "https://doi.org/10.1038/s41598-026-52273-5",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Plastic pollution is a severe environmental hazard due to the persistence of synthetic polymers, thus requiring the development of sophisticated techniques. This study proposes a fuzzy k-means-based framework integrating PSI-BLAST alignment features, Jaccard motif similarity, and OMA evolutionary scores to identify functional outliers within protein seque...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Phage portal proteins counteract stringent-response-mediated restriction.",
+      "url": "https://doi.org/10.1038/s41467-026-75532-5",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Bacteria restrict viral replication not only through dedicated defense systems but also by entering physiological states that limit cellular resources, yet how phages overcome such host-imposed barriers remains unclear. The stringent response, driven by the alarmone nucleotides ppGpp and pppGpp, can impose a growth-restrictive state that hinders phage inf...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification of VAYPQCV, a Gastrointestinally Stable Competitive DPP-IV Inhibitory Peptide from Bitter Leaf (Vernonia amygdalina).",
+      "url": "https://doi.org/10.1007/s11130-026-01542-9",
+      "source": "PubMed — Plant foods for human nutrition (Dordrecht, Netherlands)",
+      "one_liner": "Among hydrolysates generated from bitter leaf (Vernonia amygdalina) proteins using multiple proteases, the thermolysin-derived hydrolysate exhibited the strongest inhibition toward human dipeptidyl peptidase IV (DPP-IV). Bioassay-guided RP-HPLC fractionation coupled with LC-MS/MS analysis yielded five candidate peptides for synthesis and validation, among...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "UbiDash: A UPS proteomic atlas for tissue-aware degrader design.",
+      "url": "https://doi.org/10.1038/s41418-026-01791-w",
+      "source": "PubMed — Cell death and differentiation",
+      "one_liner": "Targeted protein degradation repurposes endogenous E3 ubiquitin ligases to eliminate disease-driving proteins, yet the ligase toolkit deployed clinically remains narrow and largely tissue-agnostic. To support rational expansion of this toolkit, we built a harmonized pan-tissue proteomic atlas of the ubiquitin-proteasome system (UPS) by integrating four ma...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "FairSelect: A Systematic Evaluation of Multi-Level and Intersectional Algorithmic Fairness",
+      "url": "https://arxiv.org/abs/2607.08953",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.08953v1 Announce Type: new \nAbstract: Algorithmic fairness methods are increasingly used to identify and mitigate bias in machine learning models, yet most approaches are evaluated in isolation and along single demographic axes. This limits practical guidance for selecting fairness strategies, where disparities may arise across intersectional s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
+      "url": "https://arxiv.org/abs/2606.03979",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.03979v2 Announce Type: replace \nAbstract: The past few decades have witnessed significant advances in the design of machine learning algorithms, from early studies on task-specific shallow models to more general deep Large Language Models (LLMs). Despite showing promising results in tasks that require instant prediction or in-context learning, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
