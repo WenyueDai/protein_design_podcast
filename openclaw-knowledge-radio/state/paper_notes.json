@@ -2636,6 +2636,11 @@
       "note": "Dd",
       "title": "Physics-informed-GPR data augmentation framework for flower-shaped antenna performance optimization and prediction using",
       "source": "PubMed — Scientific reports"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.07.10.737551": {
+      "note": "DD",
+      "title": "ProtBLIP2-SST: Protein Function Prediction via BLIP2 with Sequence, Structure, and Text",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
