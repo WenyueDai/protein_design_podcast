@@ -1942,5 +1942,13 @@
   "2026-07-13|https://www.biorxiv.org/content/10.64898/2026.07.08.737319": {
     "page_id": "39c5f58e-a8c2-8153-8ee7-ea96e0ac4ffc",
     "note": "DD"
+  },
+  "2026-07-13|https://doi.org/10.1038/s41598-026-60513-x": {
+    "page_id": "39c5f58e-a8c2-8188-8ac5-cb457d10b8aa",
+    "note": "Dd"
+  },
+  "2026-07-13|https://www.biorxiv.org/content/10.64898/2026.07.10.737551": {
+    "page_id": "39c5f58e-a8c2-814b-8390-d277231d6b2f",
+    "note": "DD"
   }
 }
