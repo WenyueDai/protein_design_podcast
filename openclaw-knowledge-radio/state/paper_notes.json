@@ -2668,6 +2668,11 @@
       "note": "DD",
       "title": "Automation and Active Learning for the Multi-Objective Optimization of Antibody Formulations.",
       "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00768": {
+      "note": "DD",
+      "title": "Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
