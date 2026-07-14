@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2026 06:04:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 05:33:25 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-07-14</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-14/podcast_2026-07-14.mp3</guid>
+      <pubDate>Tue, 14 Jul 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-14/podcast_2026-07-14.mp3" length="31886445" type="audio/mpeg" />
+      <description>The first shift is away from fragment‑based or coarse‑generators for macrocycles toward an all‑atom foundation model that treats every atom uniformly. | The second shift from static graph of a model that explicitly orientation of interacting partners. | The third shift is from hand‑crafted drug and protein descriptors to a joint learning pipeline where a global self‑attentive pooled GNN highlights the most informative atomic nodes of a drug while a transformer‑based protein language model captures long‑range sequence context.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The first shift is away from fragment‑based or coarse‑generators for macrocycles toward an all‑atom foundation model that treats every atom uniformly. | The second shift from static graph of a model that explicitly orientation of interacting partners. | The third shift is from hand‑crafted drug and protein descriptors to a joint learning pipeline where a global self‑attentive pooled GNN highlights the most informative atomic nodes of a drug while a transformer‑based protein language model captures long‑range sequence context.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-07-13</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-13/podcast_2026-07-13.mp3</guid>
       <pubDate>Mon, 13 Jul 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-13/podcast_2026-07-13.mp3" length="23530845" type="audio/mpeg" />
-      <description>Today’s batch of papers reveals a handful of shifts that should change how we think about building and using models for protein design. | Second, ProtBLIP2‑SST takes a different tack by explicitly marrying sequence, 3D structure and free‑text biomedical language. | Third, the physics‑informed GPR paper demonstrates how embedding known physical laws can dramatically shrink the data needed for accurate prediction.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-13/podcast_2026-07-13.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today’s batch of papers reveals a handful of shifts that should change how we think about building and using models for protein design. | Second, ProtBLIP2‑SST takes a different tack by explicitly marrying sequence, 3D structure and free‑text biomedical language. | Third, the physics‑informed GPR paper demonstrates how embedding known physical laws can dramatically shrink the data needed for accurate prediction.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-02/podcast_2026-05-02.mp3</guid>
       <pubDate>Sat, 02 May 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-02/podcast_2026-05-02.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-05-01</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-01/podcast_2026-05-01.mp3</guid>
-      <pubDate>Fri, 01 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-01/podcast_2026-05-01.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

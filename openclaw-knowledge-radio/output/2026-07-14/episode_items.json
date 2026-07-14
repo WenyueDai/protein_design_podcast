@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    144.4,
+    344.87,
+    494.46,
+    1142.14,
+    1772.4,
+    2348.28,
+    2948.76,
+    3099.4,
+    3259.5,
+    3928.62
+  ],
+  "items": [
+    {
+      "title": "Vilya-1: An all-atom foundation model for macrocycle structure prediction and design",
+      "url": "https://arxiv.org/abs/2607.09998",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.09998v1 Announce Type: cross \nAbstract: Macrocyclic peptides are an increasingly important therapeutic modality, but existing computational methods for modeling their structures and properties are limited in scope and do not generalize well across the synthetically accessible chemical space. In this work, we introduce Vilya-1, a deep learning m...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "ORIGAMI: Orientation-Aware Graph Neural Network for Assessing Multimeric Interfaces of Protein Complex Structures.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00988",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Deep-learning-based protein structure prediction methods have led to a paradigm shift in computational structural biology, yet reliably assessing the quality of computationally predicted multimeric structures remains challenging. Recent methods have demonstrated the benefits of employing graph neural networks for assessing multimeric interfaces of protein...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "T-pGNN4DTI: Towards better drug-target interactions prediction using Global Self-attentive Pooled Graph Convolutional Networks and protein pre-training Models.",
+      "url": "https://doi.org/10.1371/journal.pone.0352250",
+      "source": "PubMed — PloS one",
+      "one_liner": "Identification of drug-target interactions (DTI) is an important and challenging task in drug discovery and development. Traditional methods generally require biological experiments, which are costly and time-consuming. Machine learning-based methods can rapidly predict DTI using only computer algorithmic models, allowing researchers to validate only the ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine Learning Models for Local Optimization of Red Fluorescent Protein Variants in a Low-Data Setting.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00632",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Fluorescent proteins (FPs) are widely used reporters for visualizing cellular structures and processes. Traditional wet-lab strategies for FP engineering (rational design and directed evolution) have enabled substantial improvements in photophysical performance but are limited by their requirement for deep expert knowledge or labor-intensive screening. AI...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Understanding language model scaling for protein fitness prediction.",
+      "url": "https://doi.org/10.1038/s43588-026-01010-z",
+      "source": "PubMed — Nature computational science",
+      "one_liner": "Protein language models, as well as models that incorporate structural information or homologous sequences, estimate the sequence likelihood p(sequence), which reflects the protein fitness landscape and is commonly used in mutation effect prediction and protein design. It is widely believed in deep learning field that larger models perform better across t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evo-EquiGPS: Synergizing Dynamic Geometry, Global Topology, and Explicit Evolution for High-Precision Enzyme Active Site Prediction.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00969",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Accurate identification of enzyme active sites is a prerequisite for elucidating protein functions and guiding enzyme engineering. Driven by the exponential growth of protein sequence data from next-generation sequencing, numerous novel enzymes with low sequence similarity have been discovered. While protein structure prediction models have provided highl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Automation and Active Learning for the Multi-Objective Optimization of Antibody Formulations.",
+      "url": "https://doi.org/10.1002/advs.76551",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Over the last forty years, monoclonal antibodies have become increasingly important therapeutic agents, with most manufactured as preformulated solutions. However, bioformulation of complex proteins is a difficult engineering challenge; formulations must be tailored to individual therapies, necessitating time- and material-intensive campaigns to select co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep Learning Models Capture Umbrella Sampling-Derived Energetic Trends: A Troponin C Case Study.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01925",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Deep learning models have transformed several fields lately. In the past, capturing thermodynamic trends from free energies has relied on computationally expensive and time-consuming umbrella sampling simulations for dynamic proteins. Here, we investigate whether modern deep learning protein design methods (ProteinMPNN and ThermoMPNN) can obtain comparabl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy",
+      "url": "https://arxiv.org/abs/2607.10887",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.10887v1 Announce Type: cross \nAbstract: Machine learning interatomic potentials (MLPs) have revolutionized atomistic modeling, offering the potential to replace traditional methods like Density Functional Theory (DFT). However, inference time of MLPs is orders of magnitude slower than that of classical force fields, hindering real-world applica...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Advancing",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00868",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Virtual screening has become an indispensable tool in modern structure-based drug discovery, enabling the identification of candidate molecules by computationally evaluating their potential to bind target proteins. The accuracy of such screenings critically depends on the quality of the target structures employed. Recent advances in protein structure pred...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hybrid multilayer perceptron models optimized by evolutionary algorithms for urban air quality forecasting: a case study of Shiraz, Iran.",
+      "url": "https://doi.org/10.1038/s41598-026-52228-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Accurate air quality predictions are vital for environmental management and public health, especially in urban areas facing rising pollution levels. This study investigates the potential of hybrid machine learning models based on Multilayer Perceptron neural networks, optimized using three nature-inspired metaheuristic algorithms: Optics-Inspired Optimiza...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Combined Molecular Fingerprint and Descriptor Features Enable Classical Machine Learning to Match Deep Learning Performance Across the Tox21 Toxicity Panel.",
+      "url": "https://doi.org/10.1080/15376516.2026.2703006",
+      "source": "PubMed — Toxicology mechanisms and methods",
+      "one_liner": "BACKGROUND AND OBJECTIVE: Molecular fingerprints and physicochemical descriptors encode complementary structural information, yet most Tox21 benchmarks evaluate only one representation at a time. This study examined whether integrating both closes the reported gap between classical and graph-based deep learning. METHODS: Six algorithms (Random Forest, XGB...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00768",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Drug resistance is a major challenge in cancer therapy. Cancer cells with pre-existing or acquired mutations that confer resistance to a given drug treatment outgrow the susceptible cell population and cause cancer recurrence after an initial successful treatment response. Knowledge about resistance mutations before they occur in the clinic could prevent ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Impact of QTL number, heritability and reference population size on the benefit of machine learning models over GBLUP in genomic prediction.",
+      "url": "https://doi.org/10.1186/s12711-026-01065-6",
+      "source": "PubMed — Genetics, selection, evolution : GSE",
+      "one_liner": "BACKGROUND: With the successful application of machine learning (ML) in many areas, its potential for genomic prediction (GP) in animal and plant breeding has attracted growing attention. However, despite numerous studies, the benefit of ML models over GBLUP remains controversial. Some studies reported higher accuracy of ML than linear models with small r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evaluation of a deep transfer learning-based ultrasound model for predicting HER2-positive breast cancer.",
+      "url": "https://doi.org/10.1038/s41598-026-62063-8",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "This study aimed to evaluate the accuracy of an ultrasound imaging-based deep transfer learning model for predicting human epidermal growth factor receptor 2 (HER2)-positive breast cancer and to explore its potential advantages and clinical applications. This retrospective study included ultrasound images from 492 patients with breast cancer who were trea...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Representation similarity analysis based on spatial projection: Decoding of semantic congruity with OPM-MEG and EEG.",
+      "url": "https://doi.org/10.1016/j.neuroimage.2026.122113",
+      "source": "PubMed — NeuroImage",
+      "one_liner": "Semantic processing is one of the core functions of human higher-level cognition. The neural mechanism of the decoding process is attached to great significance for understanding language, cognition, and clinical applications. The key issue in decoding semantic representation is how to enhance the sensitivity of task-related neural signals to effectively ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Self-explaining artificial intelligence for the classification of B cell non-Hodgkin lymphoma: A diagnostic decision support study.",
+      "url": "https://doi.org/10.1371/journal.pmed.1004889",
+      "source": "PubMed — PLoS medicine",
+      "one_liner": "BACKGROUND: Multiparameter flow cytometry is a cornerstone of B cell non-Hodgkin lymphoma (B-NHL) diagnostics, but interpretation requires substantial expertise and is complicated by high-dimensional data, variable sample quality, limited data for rare entities, and evolving clinical classification systems. Current artificial intelligence approaches often...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Meta-learning GNN with MD-informed attention for cross-species prediction of phosphoinositide-dependent kinase-1 (PdK1) inhibitors in termite control.",
+      "url": "https://doi.org/10.1007/s00894-026-06853-x",
+      "source": "PubMed — Journal of molecular modeling",
+      "one_liner": "CONTEXT: In this study, we introduce a meta-learning graph neural network (GNN) combined with molecular dynamics (MD)-guided attention mechanisms to predict small-molecule inhibitors of PdK1 for termite control, addressing the limited availability of species-specific data. The method redefines structure-based virtual screening by integrating cross-species...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Learning from Noise: Effective-Rank Collapse and Out-of-Distribution Rejection in Restricted Boltzmann Machines",
+      "url": "https://arxiv.org/abs/2607.10506",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.10506v1 Announce Type: new \nAbstract: Restricted Boltzmann machines (RBMs) represent data by shaping an energy landscape over visible and hidden configurations, but their discriminative use is fragile under out-of-distribution (OOD) inputs: samples outside the training distribution can be absorbed into one of the learned class basins rather tha...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Distance-Preserving Embeddings in Inhomogeneous Random Graphs",
+      "url": "https://arxiv.org/abs/2607.10074",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.10074v1 Announce Type: new \nAbstract: Graph machine learning provides powerful tools for understanding complex networks and learning meaningful node representations. A central challenge, however, is designing embeddings with minimal distortion of both local and global functionals, such as shortest path lengths. Prior distortion guarantees for d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
