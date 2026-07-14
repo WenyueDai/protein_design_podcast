@@ -2663,6 +2663,11 @@
       "note": "DD",
       "title": "Evo-EquiGPS: Synergizing Dynamic Geometry, Global Topology, and Explicit Evolution for High-Precision Enzyme Active Site",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://doi.org/10.1002/advs.76551": {
+      "note": "DD",
+      "title": "Automation and Active Learning for the Multi-Objective Optimization of Antibody Formulations.",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
     }
   }
 }
