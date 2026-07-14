@@ -2653,6 +2653,11 @@
       "note": "DD",
       "title": "Machine Learning Models for Local Optimization of Red Fluorescent Protein Variants in a Low-Data Setting.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://doi.org/10.1038/s43588-026-01010-z": {
+      "note": "DD",
+      "title": "Understanding language model scaling for protein fitness prediction.",
+      "source": "PubMed — Nature computational science"
     }
   }
 }
