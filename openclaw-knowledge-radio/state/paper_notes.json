@@ -2658,6 +2658,11 @@
       "note": "DD",
       "title": "Understanding language model scaling for protein fitness prediction.",
       "source": "PubMed — Nature computational science"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00969": {
+      "note": "DD",
+      "title": "Evo-EquiGPS: Synergizing Dynamic Geometry, Global Topology, and Explicit Evolution for High-Precision Enzyme Active Site",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
