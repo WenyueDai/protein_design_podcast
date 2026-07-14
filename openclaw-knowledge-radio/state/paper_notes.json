@@ -2642,5 +2642,12 @@
       "title": "ProtBLIP2-SST: Protein Function Prediction via BLIP2 with Sequence, Structure, and Text",
       "source": "bioRxiv — bioinformatics"
     }
+  },
+  "2026-07-14": {
+    "https://doi.org/10.1021/acs.jcim.6c00988": {
+      "note": "DD",
+      "title": "ORIGAMI: Orientation-Aware Graph Neural Network for Assessing Multimeric Interfaces of Protein Complex Structures.",
+      "source": "PubMed — Journal of chemical information and modeling"
+    }
   }
 }
