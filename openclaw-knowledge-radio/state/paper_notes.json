@@ -2648,6 +2648,11 @@
       "note": "DD",
       "title": "ORIGAMI: Orientation-Aware Graph Neural Network for Assessing Multimeric Interfaces of Protein Complex Structures.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00632": {
+      "note": "DD",
+      "title": "Machine Learning Models for Local Optimization of Red Fluorescent Protein Variants in a Low-Data Setting.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
