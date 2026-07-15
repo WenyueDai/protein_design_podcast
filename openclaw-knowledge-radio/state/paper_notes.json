@@ -2674,5 +2674,12 @@
       "title": "Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.",
       "source": "PubMed — Journal of chemical information and modeling"
     }
+  },
+  "2026-07-15": {
+    "https://doi.org/10.1038/s41597-026-07498-4": {
+      "note": "DD",
+      "title": "VITAGRAPH: building a knowledge graph for biologically relevant learning tasks.",
+      "source": "PubMed — Scientific data"
+    }
   }
 }
