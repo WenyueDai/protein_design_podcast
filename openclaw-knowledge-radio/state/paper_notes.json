@@ -2680,6 +2680,11 @@
       "note": "DD",
       "title": "VITAGRAPH: building a knowledge graph for biologically relevant learning tasks.",
       "source": "PubMed — Scientific data"
+    },
+    "https://doi.org/10.7554/eLife.107785": {
+      "note": "DD",
+      "title": "In silico design and validation of high-affinity RNA aptamers for SARS-CoV-2 comparable to neutralizing antibodies.",
+      "source": "PubMed — eLife"
     }
   }
 }
