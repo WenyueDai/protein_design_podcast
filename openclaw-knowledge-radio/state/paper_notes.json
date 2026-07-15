@@ -2690,6 +2690,11 @@
       "note": "DD",
       "title": "Anti-amyloid nanobody-Fc fusion protein drives potent amyloid clearance through microglial recruitment.",
       "source": "PubMed — Alzheimer's & dementia (New York, N. Y.)"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.07.13.737974": {
+      "note": "DD",
+      "title": "Minimal Data, Maximal Insight (MDMI): A Structure-guided Pipeline for Discovering Functional Alternatives in Peptide-Pro",
+      "source": "bioRxiv — synthetic biology"
     }
   }
 }
