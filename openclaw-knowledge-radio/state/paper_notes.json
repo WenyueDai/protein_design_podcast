@@ -2685,6 +2685,11 @@
       "note": "DD",
       "title": "In silico design and validation of high-affinity RNA aptamers for SARS-CoV-2 comparable to neutralizing antibodies.",
       "source": "PubMed — eLife"
+    },
+    "https://doi.org/10.1002/trc2.70269": {
+      "note": "DD",
+      "title": "Anti-amyloid nanobody-Fc fusion protein drives potent amyloid clearance through microglial recruitment.",
+      "source": "PubMed — Alzheimer's & dementia (New York, N. Y.)"
     }
   }
 }
