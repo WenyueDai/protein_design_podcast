@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    207.52,
+    823.77,
+    973.88,
+    1009.9,
+    1631.38,
+    1635.19,
+    1818.4,
+    2363.78,
+    2508.9,
+    2593.45
+  ],
+  "items": [
+    {
+      "title": "VITAGRAPH: building a knowledge graph for biologically relevant learning tasks.",
+      "url": "https://doi.org/10.1038/s41597-026-07498-4",
+      "source": "PubMed — Scientific data",
+      "one_liner": "The complexity of human biology poses ongoing challenges, driving global interdisciplinary research. Artificial intelligence has become a powerful tool in computational biology, where graph data structures model entities like protein-protein interaction (PPI) networks and gene functional networks. These networks support crucial tasks in network medicine, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo Synthesis in Cancer Immunotherapy: Applications and Prospects.",
+      "url": "https://doi.org/10.1002/mco2.70847",
+      "source": "PubMed — MedComm",
+      "one_liner": "De novo protein design enables the creation of proteins with entirely novel structures and biological functions from scratch, offering a promising new paradigm for cancer immunotherapy. Emerging methodologies are integrating principles of rational design, including specificity, modularity, and adaptability, into the development process from the outset. Th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "In silico design and validation of high-affinity RNA aptamers for SARS-CoV-2 comparable to neutralizing antibodies.",
+      "url": "https://doi.org/10.7554/eLife.107785",
+      "source": "PubMed — eLife",
+      "one_liner": "Nucleic acid aptamers hold promise for clinical applications, yet understanding their molecular binding mechanisms to target proteins, and efficiently optimizing their binding affinities, remain challenging. Here, we present CAAMO (",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Anti-amyloid nanobody-Fc fusion protein drives potent amyloid clearance through microglial recruitment.",
+      "url": "https://doi.org/10.1002/trc2.70269",
+      "source": "PubMed — Alzheimer's & dementia (New York, N. Y.)",
+      "one_liner": "INTRODUCTION: Anti-amyloid beta (Aβ) monoclonal antibodies are effective at lowering amyloid in Alzheimer's disease (AD). However, whether Fc-mediated effector function is absolutely required for efficacy is not completely understood. This is important for optimizing therapeutic efficacy and mitigating side effects such as amyloid-related imaging abnormal...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Randomized, Double-Blind, Placebo-Controlled First-in-Human Trial of a First-in-Class AI-Designed Monoclonal Antibody (GB-0669) Against the Conserved SARS-CoV-2 Spike S2 Stem Helix.",
+      "url": "https://doi.org/10.1093/infdis/jiag349",
+      "source": "PubMed — The Journal of infectious diseases",
+      "one_liner": "BACKGROUND: Antibodies against the SARS-CoV-2 spike receptor-binding domain provided effective COVID-19 treatment until resistant variants emerged. GB-0669 is a half-life-extended monoclonal antibody optimized using artificial intelligence. It targets the conserved spike S2 stem helix, a region subject to limited selective pressure from antibody responses...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TB-SERS analyzer: Analysis tool for tuberculosis prediction based on Raman spectroscopy with machine learning and convolutional neural network.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014397",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Raman spectroscopy (RS) and surface-enhanced Raman spectroscopy (SERS) are promising technologies that have been applied across various fields, including clinical diagnostics. In the context of tuberculosis (TB) diagnosis, RS/SERS offers significant potential for rapid, non-invasive, and sensitive biomolecular detection. However, no software currently exi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Highly sensitive closed-tube detection of alkaline phosphatase based on phosphate-mediated CRISPR/Cas12a regulation.",
+      "url": "https://doi.org/10.1016/j.bios.2026.118659",
+      "source": "PubMed — Biosensors & bioelectronics",
+      "one_liner": "Recently, we reported that a 5'-terminal phosphate at the junction of split activators inhibits the trans-cleavage activity of Cas12a. In this work, we discovered that phosphate-mediated Cas12a inhibition has two key features: strong position dependence and notable dual-phosphate enhancement. AlphaFold 3 (AF3) structural predictions indicate that the inhi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Prediction of axillary lymph node metastasis using a transformer model and multi-omics validation in breast cancer.",
+      "url": "https://doi.org/10.1038/s41698-026-01593-w",
+      "source": "PubMed — NPJ precision oncology",
+      "one_liner": "Our study developed a multiomics-driven transformer model that combines mammography, MRI, transcriptomic and proteomic data to noninvasively predict axillary lymph node (ALN) metastasis in breast cancer. A total of 2105 patients from 10 institutions were included for model training and validation. The model achieved an AUC of 0.939 in the training cohort ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Decoding the neural mechanisms of salty peptide perception via electroencephalography and machine learning.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.149460",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Excessive sodium intake poses major public health risks, driving the search for salt substitutes that preserve desirable flavor. Salty peptides have emerged as promising low-sodium alternatives, yet their neural perception, distinct from the ion-dependent mechanism of sodium chloride, remains poorly understood. This study integrated electroencephalography...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Frontline Health Workers' Perspectives of the World Health Organization Skin Neglected Tropical Diseases App in Kenya: Qualitative Study on AI-Embedded mHealth Implementation.",
+      "url": "https://doi.org/10.2196/81829",
+      "source": "PubMed — JMIR mHealth and uHealth",
+      "one_liner": "BACKGROUND: Skin neglected tropical diseases (NTDs) pose significant diagnostic and management challenges in resource-limited settings due to constrained dermatological expertise, frontline health worker (FHW) training, and limited access to diagnostic resources. Mobile health apps with artificial intelligence (AI)-enabled diagnostic imaging capabilities ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PACEff Builder: An Efficient Platform for Constructing PACE Hybrid-Resolution Models for Molecular Dynamics Simulations of Aqueous Protein, Peptide Assembly, and Membrane Protein Systems.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01443",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Hybrid resolution molecular dynamics offers a practical balance between the accuracy of all-atom models and the efficiency of coarse-grained (CG) approaches. We previously developed Protein in Atomistic details coupled with CG Environment (PACE), a force field that uses a united atom description for proteins and a MARTINI CG environment for lipids, water,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Minimal Data, Maximal Insight (MDMI): A Structure-guided Pipeline for Discovering Functional Alternatives in Peptide-Protein Interfaces",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.13.737974",
+      "source": "bioRxiv — synthetic biology",
+      "one_liner": "Discovering functional peptides across vast sequence space remains a formidable challenge, particularly when experimental training data is scarce. We present Minimal Data Maximal Insight (MDMI), a two-stage structure-guided computational pipeline that designs functional peptide variants using only a small, annotated dataset. Rather than relying on sequenc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Language Model-Enhanced Geometric Learning for Metalloprotein Pathogenic Mutations.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3713319",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "The interaction between proteins and metal ions plays a pivotal role in the pathogenesis of various diseases. Base pair substitution subsequently triggers single-amino acid substitutions, leading to missense mutations that may impair protein function and consequently cause severe human diseases. Predicting the pathogenicity or benign nature of mutation si...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational modeling of regulated protein conformational transitions.",
+      "url": "https://doi.org/10.1016/j.sbi.2026.103337",
+      "source": "PubMed — Current opinion in structural biology",
+      "one_liner": "Conformational transitions are not accidents; they are the currency of regulation. Cells actively spend energy through adenosine triphosphate (ATP) turnover, mechanical work, targeted post-translational modification to bias proteins toward specific metastable states in space and time, rather than stabilizing a single 'active' structure. This mini-review s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "NeuroPpred-PSCG: A Multimodal Framework Using ProtT5 and Structural Features for Neuropeptide Prediction Based on Gated Cross-Attention Mechanism and Multiscale Gated Convolution.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01123",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "As fundamental signaling molecules, neuropeptides are involved in diverse physiological regulatory activities. Abnormal expression patterns have been closely linked to neurological and metabolic disorders, which underscores the urgent need for precise and rapid identification methods. Here, we develop NeuroPpred-PSCG, a novel multimodal deep learning fram...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Scaling SMILES-Based Chemical Language Models for Therapeutic Peptide Engineering.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00652",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Therapeutic peptides occupy a unique middle ground in drug discovery, offering the high specificity of protein interactions with the chemical diversity of small molecules, yet they currently fall in a computational blind spot. Existing foundation models cannot handle them effectively: protein models are restricted to natural amino acids, while chemical mo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AlphaFunctor: Bridging The Gap Between Protein Function Annotation and Property Prediction",
+      "url": "https://arxiv.org/abs/2607.12196",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.12196v1 Announce Type: new \nAbstract: The fundamental relationship among protein sequence, structure, function, and physicochemical properties is a central principle in biology. While in principle protein function and properties should be able to be derived directly from protein sequence, in practice protein function and property prediction met...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Novel CDK-independent function of CDC25 phosphatases in mRNA translation.",
+      "url": "https://doi.org/10.1038/s44319-026-00852-y",
+      "source": "PubMed — EMBO reports",
+      "one_liner": "Molecular and functional networks driving coordination between cell cycle and mRNA translation remain to be explored. Here, we use mass spectrometry-based proteomics to comprehensively investigate the interactome and phosphoproteome of the cell cycle regulator CDC25A. We identify actors of mRNA regulation, such as RNA-binding proteins and translation fact...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PolarBM: Complex-valued Boltzmann Machine for Modeling Audio Signals in Polar and Log-polar Coordinates",
+      "url": "https://arxiv.org/abs/2607.12417",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.12417v1 Announce Type: new \nAbstract: Although vast amounts of data, such as audio signal spectra, are naturally represented using complex numbers, conventional machine learning methods often simplify complex-domain problems by employing frameworks designed for real-valued variables. While this simplification offers computational benefits, it d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Efficiently Learning Branching Networks for Multitask Algorithmic Reasoning",
+      "url": "https://arxiv.org/abs/2512.01113",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.01113v2 Announce Type: replace \nAbstract: Algorithmic reasoning -- the ability to perform step-by-step logical inference -- is a synthetic benchmark for evaluating multi-step reasoning abilities, designed for graph neural networks and also for transformer models. Prior work has evaluated reasoning for executing a single algorithmic task, wherea...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
