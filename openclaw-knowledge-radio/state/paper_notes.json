@@ -2700,6 +2700,11 @@
       "note": "DD",
       "title": "Computational modeling of regulated protein conformational transitions.",
       "source": "PubMed — Current opinion in structural biology"
+    },
+    "https://arxiv.org/abs/2607.12196": {
+      "note": "DD",
+      "title": "AlphaFunctor: Bridging The Gap Between Protein Function Annotation and Property Prediction",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
