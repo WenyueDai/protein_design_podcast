@@ -2695,6 +2695,11 @@
       "note": "DD",
       "title": "Minimal Data, Maximal Insight (MDMI): A Structure-guided Pipeline for Discovering Functional Alternatives in Peptide-Pro",
       "source": "bioRxiv — synthetic biology"
+    },
+    "https://doi.org/10.1016/j.sbi.2026.103337": {
+      "note": "DD",
+      "title": "Computational modeling of regulated protein conformational transitions.",
+      "source": "PubMed — Current opinion in structural biology"
     }
   }
 }
