@@ -2727,6 +2727,11 @@
       "note": "DD",
       "title": "Fuzzy topological analysis of fuzzy Helm graphs with applications to protein interaction networks.",
       "source": "PubMed — Scientific reports"
+    },
+    "https://doi.org/10.1038/s41467-026-75463-1": {
+      "note": "DD",
+      "title": "ADAPT-M: a workflow for rapid, quantitative in vitro measurements of enriched protein libraries.",
+      "source": "PubMed — Nature communications"
     }
   }
 }
