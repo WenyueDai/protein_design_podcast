@@ -2717,6 +2717,11 @@
       "note": "DD",
       "title": "Computational design of a multi-epitope vaccine against M. tuberculosis",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://doi.org/10.1371/journal.pone.0353622": {
+      "note": "DD",
+      "title": "Binding Affinity Ranking at the Molecular Initiating Event (BARMIE): An open-source computational pipeline for the rapid",
+      "source": "PubMed — PloS one"
     }
   }
 }
