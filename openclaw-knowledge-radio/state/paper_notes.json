@@ -2732,6 +2732,11 @@
       "note": "DD",
       "title": "ADAPT-M: a workflow for rapid, quantitative in vitro measurements of enriched protein libraries.",
       "source": "PubMed — Nature communications"
+    },
+    "https://doi.org/10.1021/acs.chemrev.6c00294": {
+      "note": "DD",
+      "title": "Folding and Oligomerization of CLC Channels and Transporters.",
+      "source": "PubMed — Chemical reviews"
     }
   }
 }
