@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    191.23,
+    266.01,
+    426.28,
+    1050.8,
+    1207.88,
+    1416.07,
+    1552.87,
+    1703.37,
+    1931.53,
+    2015.1
+  ],
+  "items": [
+    {
+      "title": "PeptideSGCL: Structure-Enhanced Graph-Transformer Encoding and Dual-Level Contrastive Learning for Peptide Property Prediction.",
+      "url": "https://doi.org/10.1021/acssynbio.6c00318",
+      "source": "PubMed — ACS synthetic biology",
+      "one_liner": "Peptides play important roles in biological processes and biomedical applications, and their hemolytic (Hemo) and nonfouling (NF) properties directly affect their safety and translational potential. Therefore, accurate predictive models are essential for the rational design of functional peptides. Although existing multimodal peptide property prediction m...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational design of a multi-epitope vaccine against M. tuberculosis",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737463",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Background: Tuberculosis remains a leading global infectious killer, with BCG offering inconsistent adult protection and rising drug-resistant strains demanding novel vaccine strategies. We report the first multi-epitope vaccine construct simultaneously targeting three previously unexplored Mycobacterium tuberculosis virulence proteins; EccB3, MycP, and p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Binding Affinity Ranking at the Molecular Initiating Event (BARMIE): An open-source computational pipeline for the rapid screening of chemical interactions with steroid receptors from many species.",
+      "url": "https://doi.org/10.1371/journal.pone.0353622",
+      "source": "PubMed — PloS one",
+      "one_liner": "A challenge in ecological risk assessment is identifying the chemicals that pose the greatest threat and determining which species are most vulnerable to them. To help address this, this study has developed an in-silico open-source tool called BARMIE (Binding Affinity Ranking at the Molecular Initiating Event) to rapidly predict the chemical binding affin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Explainable deep learning for multi-country energy forecasting and sustainability analysis using climate and socio-economic indicators.",
+      "url": "https://doi.org/10.1038/s41598-026-62451-0",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Climate change and socio-economic factors have made predicting energy demand and assessing sustainability important problems in today's energy systems. This work proposes an integrated framework for multi-country energy forecasting and sustainability assessment using deep learning and explainable artificial intelligence (XAI). A multi-country dataset for ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Determinants of modern family planning use among married adolescents in Bangladesh: evidence from a machine learning approach.",
+      "url": "https://doi.org/10.1186/s12889-026-28244-w",
+      "source": "PubMed — BMC public health",
+      "one_liner": "BACKGROUND: Modern family planning (FP) is essential for improving the reproductive health of adolescent women, especially in Bangladesh, where early marriage is still prevalent. Despite overall progress in family planning, modern FP use remains uneven and relatively low among married adolescent women due to social, relational, and contextual barriers. Co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Explainable AI Consensus for Grading Human Blastocysts and Blastoids.",
+      "url": "https://doi.org/10.1530/RAF-26-0050",
+      "source": "PubMed — Reproduction & fertility",
+      "one_liner": "ABSTRACT: The morphological evaluation of human blastocysts is a critical yet subjective step in clinical assisted reproductive technology, often limited by inter-observer variability. To establish a standardized and objective grading system for both clinical blastocysts and stem cell-derived blastoids, we developed an explainable artificial intelligence-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fuzzy topological analysis of fuzzy Helm graphs with applications to protein interaction networks.",
+      "url": "https://doi.org/10.1038/s41598-026-61816-9",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "In biological and chemical networks, in which the strength of interactions is often not absolute, uncertainty is an inherent feature of many real-world networks. A fuzzy graph consists of vertices with fuzzy memberships and fuzzy relationships among vertices and edges; therefore, fuzzy graph theory is a natural approach for modelling systems in which the ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "BET Bromodomain Targeting by NSAIDs: Structural, Biophysical, and Computational Insights.",
+      "url": "https://doi.org/10.1002/prot.70154",
+      "source": "PubMed — Proteins",
+      "one_liner": "The bromodomain and extra-terminal (BET) family of proteins, which regulate chromatin function, is an established potential drug target for treating major diseases such as cancer and inflammatory conditions. There is significant research focused on developing new BET inhibitors with innovative molecular structures to target and modulate the epigenetic mec...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ADAPT-M: a workflow for rapid, quantitative in vitro measurements of enriched protein libraries.",
+      "url": "https://doi.org/10.1038/s41467-026-75463-1",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Protein-protein interactions underpin most cellular processes, and engineered binders present powerful tools for probing biology and developing novel therapeutics. However, scalable, quantitative characterization of large numbers of candidates remains a major bottleneck. Here we show that ADAPT-M (Affinity Determination by Adaptation of ProTein binders fo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Decoupling Adsorption from Reactivity: Protein Unfolding Governs Peptide Bond Hydrolysis on Metal-Organic Framework Nanosheets.",
+      "url": "https://doi.org/10.1021/jacs.6c08412",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "Metal-organic frameworks (MOFs) are promising platforms for biomolecular applications due to their tunable structures, high surface areas, and catalytic functionality. Zr-based MOFs, in particular, exhibit protease-like activity; however, the interfacial factors governing protein adsorption onto MOF materials and their impact on peptide bond cleavage rema...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "High-Throughput Screening and Mechanistic Elucidation of RhlA Mutants for Enhanced Rhamnolipid Biosynthesis Guided by EGCA-Net and Molecular Dynamics Simulations.",
+      "url": "https://doi.org/10.1021/acs.jafc.6c03371",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "RhlA serves as the crucial rate-limiting enzyme in rhamnolipid biosynthesis. In this study, we developed a fusion model named EGCA-Net, integrating a cross-attention mechanism with ESM-2 and graph convolutional network (GCN), to identify candidate RhlA mutants. Via an approach combining deep learning-based activity prediction, Rosetta analysis, molecular ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Learning Fragment-Based Segmentation of Binding Sites from Molecular Dynamics: A Proof of Concept on Cardiac Myosin.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00549",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "The geometric and chemical features of protein binding sites tend to change as a consequence of conformational dynamics. In the ligand-unbound (apo) state, a binding site might be only transiently organized in a way that can accommodate a ligand, with the relevant regions of the protein coming together in a suitable arrangement only in a subset of conform...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Synonymous variants in IRX4 and their association with congenital heart disease: an in-silico functional assessment.",
+      "url": "https://doi.org/10.1007/s11033-026-12304-w",
+      "source": "PubMed — Molecular biology reports",
+      "one_liner": "BACKGROUND: Synonymous variants are often overlooked during genetic screening, however current reports forecasted their significant biological impact and inevitably considered pathogenic. These silent changes in genome significantly affect the mRNA structure and stability and hence, alter the protein expression and function. IRX4 is an essential transcrip...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-based design of the approved drug zafirlukast identifies HLC40 as a potent WDR5 WIN-site inhibitor with antitumor efficacy.",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.109869",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "WD40 repeat-containing protein 5 (WDR5) plays a critical role in chromatin-related processes, and its overexpression is associated with poor prognosis in multiple cancers, making it an attractive therapeutic target. Screening of an approved drug library identified zafirlukast (ZAF), an anti-asthmatic agent, as a binder to the WIN site of WDR5, inhibiting ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep learning-driven discovery of anti-metastatic phytochemicals targeting MMP-1 in breast cancer via advanced contrastive learning and structural attention.",
+      "url": "https://doi.org/10.1007/s11030-026-11646-8",
+      "source": "PubMed — Molecular diversity",
+      "one_liner": "Matrix metalloproteinase-1 (MMP-1) is a key enzyme that drives extracellular matrix degradation and facilitates breast cancer progression, invasion, and metastasis. This abnormal MMP-1 activity is linked to worse patient outcomes and also improved progression of tumor, which promotes critical therapeutic target. However, recent deep learning approaches ar...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Folding and Oligomerization of CLC Channels and Transporters.",
+      "url": "https://doi.org/10.1021/acs.chemrev.6c00294",
+      "source": "PubMed — Chemical reviews",
+      "one_liner": "Regarded as one of the most complex membrane protein folds, CLCs form a large family of membrane proteins that function as anion channels and secondary active anion/proton transporters. Despite low sequence similarity, available structures are remarkably similar, maintaining the same inverted topology and fold, with subunits assembled as dimers in wild-ty...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Elucidating superoxide dismutase interactions with whey protein isolate using multi-spectroscopy, deep learning, and molecular dynamic simulations.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.149498",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Superoxide dismutase (SOD) is an appealing additive for sports beverages owing to its antioxidant activity, while its thermal lability restricts its application in high-protein formulations. Here, we found that whey protein isolate increases the thermal stability of SOD by forming protein-protein complex. A Whey-protein isolate (WPI):SOD ratio of 5:1 resu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Effect of Oxidation on Cx26 Gap Junctions: A Molecular Dynamics Study.",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c02549",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "Gap junctions (GJs) are transmembrane channels composed of connexin (Cx) proteins, responsible for communication and transfer of electrical signals and molecules/nutrients between neighboring cells. GJs play an important role in many physiological functions, including the propagation of survival and death signals between cells. Considering the promising a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Towards quantum machine learning for assessing the resilience of post-quantum cryptography",
+      "url": "https://arxiv.org/abs/2607.13722",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.13722v1 Announce Type: cross \nAbstract: The potential capabilities of quantum computers motivated the development of cryptographic protocols suitable for securing communication against adversaries with access to large fault-tolerant quantum computers. However, even though current quantum computers are limited in terms of size and precision, the...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Quantum Topological Data Encoding",
+      "url": "https://arxiv.org/abs/2607.13847",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.13847v1 Announce Type: cross \nAbstract: Many datasets encountered across a wide range of domains possess rich geometric and topological structure that is difficult to capture using conventional vector-based representations. Quantum machine learning offers the possibility of processing high-dimensional data in Hilbert spaces, but its practical s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
