@@ -2722,6 +2722,11 @@
       "note": "DD",
       "title": "Binding Affinity Ranking at the Molecular Initiating Event (BARMIE): An open-source computational pipeline for the rapid",
       "source": "PubMed — PloS one"
+    },
+    "https://doi.org/10.1038/s41598-026-61816-9": {
+      "note": "DD",
+      "title": "Fuzzy topological analysis of fuzzy Helm graphs with applications to protein interaction networks.",
+      "source": "PubMed — Scientific reports"
     }
   }
 }
