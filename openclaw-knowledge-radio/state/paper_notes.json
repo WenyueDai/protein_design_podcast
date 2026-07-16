@@ -2706,5 +2706,12 @@
       "title": "AlphaFunctor: Bridging The Gap Between Protein Function Annotation and Property Prediction",
       "source": "arXiv q-bio.BM"
     }
+  },
+  "2026-07-16": {
+    "https://doi.org/10.1021/acssynbio.6c00318": {
+      "note": "DD",
+      "title": "PeptideSGCL: Structure-Enhanced Graph-Transformer Encoding and Dual-Level Contrastive Learning for Peptide Property Pred",
+      "source": "PubMed — ACS synthetic biology"
+    }
   }
 }
