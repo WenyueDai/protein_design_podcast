@@ -2712,6 +2712,11 @@
       "note": "DD",
       "title": "PeptideSGCL: Structure-Enhanced Graph-Transformer Encoding and Dual-Level Contrastive Learning for Peptide Property Pred",
       "source": "PubMed — ACS synthetic biology"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.07.09.737463": {
+      "note": "DD",
+      "title": "Computational design of a multi-epitope vaccine against M. tuberculosis",
+      "source": "bioRxiv — bioinformatics"
     }
   }
 }
