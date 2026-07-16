@@ -1994,5 +1994,13 @@
   "2026-07-15|https://doi.org/10.1016/j.sbi.2026.103337": {
     "page_id": "39e5f58e-a8c2-81ba-8caa-e6bdbec4a998",
     "note": "DD"
+  },
+  "2026-07-15|https://arxiv.org/abs/2607.12196": {
+    "page_id": "39e5f58e-a8c2-8127-8426-f5fa2aa36cdf",
+    "note": "DD"
+  },
+  "2026-07-16|https://doi.org/10.1021/acssynbio.6c00318": {
+    "page_id": "39f5f58e-a8c2-818a-8be0-cf557a2e7ad7",
+    "note": "DD"
   }
 }
