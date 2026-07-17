@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    165.98,
+    344.32,
+    535.5,
+    808.14,
+    1019.38,
+    1166.86,
+    1344.14,
+    1503.74,
+    1694.89,
+    2298.49
+  ],
+  "items": [
+    {
+      "title": "Neuroanatomical Subtypes of Callous-Unemotional Traits in a Community Sample of Youth",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.14.738524",
+      "source": "Regina Barzilay (bioRxiv)",
+      "one_liner": "Importance. Callous Unemotional (CU) traits are associated with significant clinical and neurophysiological heterogeneity that may affect treatment effectiveness. Objective. To uncover neuroanatomical subtypes of CU traits using weakly-supervised machine learning and assess whether emerging subtypes differ on relevant clinical, temperamental, and environmental constructs. Design, Setting, and Part",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "author"
+      ]
+    },
+    {
+      "title": "More Condensate Secrets Revealed",
+      "url": "https://www.science.org/content/blog-post/more-condensate-secrets-revealed",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Purification of Advanced Therapeutics by Flow-Through Pseudo-Affinity Chromatography: Bi-Specific mABs, Fc Fusion Proteins, and Adeno-Associated Viruses.",
+      "url": "https://doi.org/10.1002/bit.70310",
+      "source": "PubMed — Biotechnology and bioengineering",
+      "one_liner": "Modern biopharmaceutical manufacturing requires purification platforms capable of processing structurally and functionally diverse products while addressing the challenge of removing persistent and high-risk host cell proteins (HCPs). Current purification processes utilize adsorbents that operate in bind-and-elute mode, which limits productivity, and ofte...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AKNA drives neuroblastoma cell fate transition through chromatin modifications of stemness factors and differentiation by cytosolic retention.",
+      "url": "https://doi.org/10.1016/j.bbamcr.2026.120192",
+      "source": "PubMed — Biochimica et biophysica acta. Molecular cell research",
+      "one_liner": "Neuroblast cells play a pivotal role in adult neurogenesis. However, the detailed mechanisms underlying the acquisition of pluripotency or the process of differentiation remain unknown. Herein, the role of the AT-hook protein AKNA in regulating pluripotency and stemness in neuroblastoma cells is demonstrated through gene knockdown, immunofluorescence, chr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Advantages of AI for Computational Protein Studies and Looking Ahead at the Next Challenges: Single Structures Are Not Enough.",
+      "url": "https://doi.org/10.1016/j.jmb.2026.169949",
+      "source": "PubMed — Journal of molecular biology",
+      "one_liner": "The ability to understand proteins and their behaviors has been drastically improved by major successes in structure prediction and the appearance of Large Protein Language Models. The speed with which Deep Learning and Artificial Intelligence are now affecting computational protein studies is remarkable, but there are now many opportunities for further r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DARMN: Domain-Aware Residual Feature Modulation Network for Multidomain Protein Dynamic Inter-Residue Contact Prediction.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00754",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "The regulation of conformational stability in multidomain proteins (MDP) is a central challenge in protein engineering with major implications for antigen optimization, enzyme activity modulation, and signal transduction. The function of these proteins depends on the properties of their constituent domains as well as on interdomain orientation and interfa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure and evolution-guided design of minimal RNA-guided nucleases.",
+      "url": "https://doi.org/10.1126/science.aed6123",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "The design of RNA-guided nucleases with properties not limited by evolution can expand programmable genome-editing capabilities. However, generating diverse multidomain proteins with robust enzymatic properties remains challenging. Here, we use a protein design strategy that couples a structure-guided inverse-folding model with evolution-informed residue ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Benchmarking Docking Protocols on Predicting Alternative Binding Modes.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00356",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "The quality of protein-ligand binding affinity prediction is often limited by the accuracy of positioning the ligand correctly inside the binding site. However, pose accuracy is a secondary concern in high-throughput virtual screening, which is the application scenario in mind when most docking protocols are developed. On the other hand, similar protocols...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging.",
+      "url": "https://doi.org/10.1126/science.aeb0822",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "Fluorescent proteins and small-molecule dyes offer complementary advantages for biological imaging: proteins are amenable to genetic tagging, whereas dyes provide superior brightness and photostability. To combine these strengths, we used de novo protein design to generate small, nanomolar-affinity, high-selectivity binders (NovoTags) for three cell-perme...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Machine Learning Benchmarking Framework for Lipid Nanoparticle Transfection Efficiency Prediction",
+      "url": "https://arxiv.org/abs/2507.03209",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2507.03209v2 Announce Type: replace \nAbstract: The discovery of new ionizable lipids for efficient lipid nanoparticle (LNP)-mediated RNA delivery remains a major bottleneck in RNA therapeutics development. Recent advances demonstrate the potential of machine learning (ML) models to predict transfection efficiency directly from lipid structure, enabl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "An informed regression-based knowledge distillation framework for simultaneous prediction of physical and mechanical properties of thermoset epoxy polymers.",
+      "url": "https://doi.org/10.1038/s41598-026-61931-7",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Epoxy polymers are widely used due to their multifunctional properties, however their complex 3D molecular structure, multi-component nature, and lack of curated datasets have limited the application of machine learning (ML) for these materials.Existing ML studies are largely restricted to simulation data, specific properties, or narrow constituent ranges...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PeptiVerse: A unified platform for therapeutic peptide property prediction.",
+      "url": "https://doi.org/10.1038/s41467-026-74167-w",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Therapeutic peptides combine the advantages of small molecules and antibodies, offering target flexibility and low immunogenicity, yet their successful translation requires careful evaluation of multiple developability properties beyond binding alone. As chemically modified peptides become increasingly common in drug design, no unified platform currently ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Synthetic Intrinsically Disordered Proteins Enable Soluble Expression of Disulfide-Rich Therapeutics in",
+      "url": "https://doi.org/10.1021/acssynbio.6c00115",
+      "source": "PubMed — ACS synthetic biology",
+      "one_liner": "We previously reported the de novo design of three small (<20 kDa), highly soluble synthetic intrinsically disordered proteins (SynIDPs) and demonstrated their utility as solubility tags for proteins and antifouling agents. Building on this work, we now show that these hypersoluble SynIDPs significantly enhance the soluble expression of disulfide-rich pro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of Convolutional Neural Networks for Classification and Characterisation of Proximal Humerus Fractures on Computed Tomography.",
+      "url": "https://doi.org/10.1016/j.jse.2026.07.004",
+      "source": "PubMed — Journal of shoulder and elbow surgery",
+      "one_liner": "BACKGROUND: Agreement between surgeons on classification, characterization and choice of treatment for proximal humerus fractures (PHFs) is poor, leading to subjective surgical decision-making and poor inter-surgeon reliability. Machine Learning for classification and characterization of PHFs on radiographs performed insufficiently. More detailed three-di...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Hybrid CNN-Transformer Model with Crossover Boosted Cheetah Optimization for Prenatal Spina Bifida Identification from Ultrasound Images.",
+      "url": "https://doi.org/10.1002/jum.70347",
+      "source": "PubMed — Journal of ultrasound in medicine : official journal of the American Institute of Ultrasound in Medicine",
+      "one_liner": "OBJECTIVES: Spina bifida is a birth defect caused by the incomplete closure of the neural tube around the spinal cord. Earlier, various deep learning-based models were developed, but they failed to capture the fine details from the ultrasound images that reduce the detection accuracy. Hence, to overcome these challenges, an automated and trustworthy deep ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A survey of inevitability results in AI instability.",
+      "url": "https://doi.org/10.1098/rsta.2025.0128",
+      "source": "PubMed — Philosophical transactions. Series A, Mathematical, physical, and engineering sciences",
+      "one_liner": "Over the past decade, there has been an explosion of activity in the design of algorithms for adversarially attacking artificial intelligence (AI) systems; especially in the context of image classification. For example, a carefully crafted perturbation to an image that is imperceptible to the human eye may cause a sophisticated convolutional neural networ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Recent advances in function-enhanced antibody-drug conjugates: Antibody optimization and payload combination.",
+      "url": "https://doi.org/10.1038/s41401-026-01867-w",
+      "source": "PubMed — Acta pharmacologica Sinica",
+      "one_liner": "Antibody-drug conjugates (ADCs), a revolutionary tumor therapeutic modality integrating the targeting specificity of monoclonal antibodies and the cytotoxicity of payloads, have undergone four generations of development, with over 20 approved drugs and more than 300 candidates in clinical trials globally. Despite their remarkable success in treating both ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Role of Artificial Intelligence and Machine Learning in Predictive Virology: Forecasting, Tracking, and Combating Viral Threats.",
+      "url": "https://doi.org/10.1177/15303667261469037",
+      "source": "PubMed — Vector borne and zoonotic diseases (Larchmont, N.Y.)",
+      "one_liner": "The escalating threat of viral pandemics, dramatically illustrated by the COVID-19 crisis, has exposed the critical shortcomings of conventional reactive virology in addressing rapidly evolving pathogens. This review introduces predictive virology (PV) as an artificial intelligence (AI)-driven discipline within broader epidemic intelligence and public hea...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evaluation of deep learning architectures for predicting ligand interactions with neurologically relevant GPCRs.",
+      "url": "https://doi.org/10.1186/s13321-026-01258-7",
+      "source": "PubMed — Journal of cheminformatics",
+      "one_liner": "G protein-coupled receptors (GPCRs) are therapeutic targets for over 30% of approved drugs, yet specific GPCR subtypes act as molecular initiating events in several neurotoxic adverse outcome pathways. Therefore, knowledge of GPCR-ligand interactions is critical for drug discovery and computational toxicology. However, accurate predictions of GPCR-ligand ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "LINKER:",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00527",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Accurate identification of interactions between protein residues and ligand functional groups is critical for understanding molecular recognition and guiding rational drug design. Existing deep learning approaches for protein-ligand interpretability typically rely on three-dimensional structural input or distance-based contact labels, which limit both the...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
