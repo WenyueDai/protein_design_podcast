@@ -2754,6 +2754,11 @@
       "note": "Stress granules have long been proposed to have a function to protect RNA from harmful conditions, thus their appearance under stress. The accumulation of RNA into dense globules could keep them from reacting with harmful chemicals and safeguard the information coded in their RNA sequence.\n\nhttps://pubs.acs.org/doi/10.1021/jacs.6c01118 all-atom continuous constant pH simulations of model pentapeptides of four titratable residues (Asp, Glu, His, and Lys) to quantify the effect of the condensate microenvironment on their acid dissociation constants. We find that within the dense phase of five model condensates with different sequence features both cationic and anionic amino acids show upshifted pKa values compared to the dilute phase.",
       "title": "More Condensate Secrets Revealed",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://doi.org/10.1016/j.jmb.2026.169949": {
+      "note": "With advancements in Deep Learning (DL), several methods have been developed to predict and optimize the placement of water molecules around proteins. GALAXYWater-CNN30 uses a 3D Convolutional Neural Network (CNN) to generate a water score map for a given protein structure, and showed higher performance when compared with previous energy-based methods. HydraProt31 employs a 3D U-net and a Multi-Layer Perceptron (MLP) framework, and was shown to surpass than existing state-of-the-art approaches in terms of precision and recall. SuperWater32 has recently been developed to integrate a score-based diffusion model with equivariant Graph Neural Networks (GNNs) and was found to predict water molecule placements around proteins with an accuracy of 0.3 ± 0.06 Å relative to experimentally validated positions. More recently, Sun et al.33 presented a complementary approach based on Molecular Dynamics (MD) simulations to improve the placement of water in maps derived from cryogenic Electron Microscopy (cryo-EM). \nMPBind, integrates pLMs with equivariant GNN that extract geometric features of 3D protein structures.",
+      "title": "The Advantages of AI for Computational Protein Studies and Looking Ahead at the Next Challenges: Single Structures Are N",
+      "source": "PubMed — Journal of molecular biology"
     }
   }
 }
