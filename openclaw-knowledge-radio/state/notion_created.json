@@ -2038,5 +2038,9 @@
   "2026-07-17|https://doi.org/10.1016/j.jmb.2026.169949": {
     "page_id": "3a05f58e-a8c2-810b-9e9f-d85a7b3c017d",
     "note": "With advancements in Deep Learning (DL), several methods have been developed to predict and optimize the placement of water molecules around proteins. GALAXYWater-CNN30 uses a 3D Convolutional Neural Network (CNN) to generate a water score map for a given protein structure, and showed higher performance when compared with previous energy-based methods. HydraProt31 employs a 3D U-net and a Multi-Layer Perceptron (MLP) framework, and was shown to surpass than existing state-of-the-art approaches in terms of precision and recall. SuperWater32 has recently been developed to integrate a score-based diffusion model with equivariant Graph Neural Networks (GNNs) and was found to predict water molecule placements around proteins with an accuracy of 0.3 ± 0.06 Å relative to experimentally validated positions. More recently, Sun et al.33 presented a complementary approach based on Molecular Dynamics (MD) simulations to improve the placement of water in maps derived from cryogenic Electron Microscopy (cryo-EM). \nMPBind, integrates pLMs with equivariant GNN that extract geometric features of 3D protein structures."
+  },
+  "2026-07-17|https://doi.org/10.1021/acs.jctc.6c00754": {
+    "page_id": "3a05f58e-a8c2-81a9-9dbb-f6622a6ba9cc",
+    "note": "MIT license"
   }
 }
