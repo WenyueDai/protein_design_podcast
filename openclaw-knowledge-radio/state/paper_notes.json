@@ -2751,7 +2751,7 @@
   },
   "2026-07-17": {
     "https://www.science.org/content/blog-post/more-condensate-secrets-revealed": {
-      "note": "Stress granules have long been proposed to have a function to protect RNA from harmful conditions, thus their appearance under stress.[4] The accumulation of RNA into dense globules could keep them from reacting with harmful chemicals and safeguard the information coded in their RNA sequence.",
+      "note": "Stress granules have long been proposed to have a function to protect RNA from harmful conditions, thus their appearance under stress. The accumulation of RNA into dense globules could keep them from reacting with harmful chemicals and safeguard the information coded in their RNA sequence.\n\nhttps://pubs.acs.org/doi/10.1021/jacs.6c01118 all-atom continuous constant pH simulations of model pentapeptides of four titratable residues (Asp, Glu, His, and Lys) to quantify the effect of the condensate microenvironment on their acid dissociation constants. We find that within the dense phase of five model condensates with different sequence features both cationic and anionic amino acids show upshifted pKa values compared to the dilute phase.",
       "title": "More Condensate Secrets Revealed",
       "source": "In the Pipeline (Derek Lowe)"
     }
