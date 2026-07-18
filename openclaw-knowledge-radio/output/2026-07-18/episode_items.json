@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    213.36,
+    377.54,
+    520.5,
+    708.97,
+    916.01,
+    1350.82,
+    1949.44,
+    2606.92,
+    2779.19,
+    2956.47
+  ],
+  "items": [
+    {
+      "title": "The accuracy of electrostatic interactions captured by AI protein structure prediction models.",
+      "url": "https://doi.org/10.1073/pnas.2609610123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "A variant of the U1A protein containing four substitutions to ionizable residues was generated serendipitously due to a miscommunication. Biophysical measurements reveal this variant has twice the helical structure of wild-type U1A and is trimeric, unlike the monomeric wild type. In sharp contrast, structures predicted by deep-learning (AlphaFold2, RoseTT...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SPPIPred: Stacking-based ensemble learning model for identification of protein-protein interaction.",
+      "url": "https://doi.org/10.1371/journal.pone.0353199",
+      "source": "PubMed — PloS one",
+      "one_liner": "Protein-protein interactions (PPIs) are essential for various biological functions and are crucial in drug discovery, signaling pathways, and network reconstruction. This study presents SPPIPred, an advanced machine learning-based model designed for precise PPI prediction. The SPPIPred model was constructed using five feature extraction methods: Pseudo am...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CatIF-RL: Activity-Oriented Enzyme Sequence Design by Steered Inverse Protein Folding.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01587",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Protein inverse folding models are designed to generate amino acid sequences compatible with a given backbone structure, but they are not explicitly optimized for specific biological functions. Here, we present CatIF-RL, a framework that steers a graph-based denoising diffusion inverse folding model toward designing enzyme variants with improved predicted...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational rescue of antibody binding to monkeypox virus E8L: from electrostatic repulsion to salt bridge-enhanced affinity.",
+      "url": "https://doi.org/10.1039/d6cp02084d",
+      "source": "PubMed — Physical chemistry chemical physics : PCCP",
+      "one_liner": "The ongoing Mpox (monkeypox) outbreak underscores the need for effective therapeutic antibodies. Antibody VACV-66 binds strongly to the vaccinia virus D8 protein but shows markedly reduced cross-reactivity to the MPXV homolog E8L, despite >95% sequence identity. In this study, we combined AlphaFold3 modeling, molecular dynamics simulations, and ASGB-IE fr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An enzyme-specific protein language model for catalytic property prediction.",
+      "url": "https://doi.org/10.1038/s41467-026-75283-3",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Enzymes drive cellular metabolism, yet predicting catalytic properties from amino acid sequences remains challenging. Existing protein language models (PLMs) provide powerful general-purpose representations but are often inefficient for high-throughput screening and insufficiently adapted to enzyme-specific tasks. Here, we propose EnzGFM, an enzyme-specif...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein engineering: Status report.",
+      "url": "https://doi.org/10.1093/protein/gzag020",
+      "source": "PubMed — Protein engineering, design & selection : PEDS",
+      "one_liner": "With this status report, we aim to provide a timely snapshot of the protein engineering field as a broad and rapidly advancing discipline that integrates computational, molecular biology, structure-guided, evolutionary, and synthetic approaches to create new and improved proteins with tailored structures and useful functions. The report is organized into ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Tethered Yeast Surface Display System Facilitates Enriching Epitope-Specific Binding Interactions.",
+      "url": "https://doi.org/10.1093/protein/gzag019",
+      "source": "PubMed — Protein engineering, design & selection : PEDS",
+      "one_liner": "Engineering proteins for therapeutic applications is a field that has seen substantial growth in the past two decades, but challenges remain. A major deficiency in current strategies is the lack of a means to efficiently screen for binding to key epitopes to yield a desired function. To meet this challenge, we designed a tethered yeast surface display con...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Genetic algorithm-guided sample design enables efficient machine learning-driven optimization of tauroursodeoxycholic acid production in engineered Escherichia coli.",
+      "url": "https://doi.org/10.1016/j.biortech.2026.135434",
+      "source": "PubMed — Bioresource technology",
+      "one_liner": "Data-driven machine learning (ML) approaches offer powerful tools for modeling and optimizing complex fermentation processes, yet their application is often limited by the need for large experimental datasets, which is difficult to meet in low-throughput microbial fermentation systems. Here, we present a practical genetic algorithm (GA)-assisted adaptive ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fragment-based diffusion modeling and molecular dynamics simulation validation for the discovery of PD-L1 small-molecule inhibitors.",
+      "url": "https://doi.org/10.1007/s11030-026-11642-y",
+      "source": "PubMed — Molecular diversity",
+      "one_liner": "The programmed cell death-1/programmed cell death-ligand 1 (PD-1/PD-L1) pathway is a key target in cancer immunotherapy. Although monoclonal antibodies (mAbs) have demonstrated remarkable clinical efficacy, their application is limited by poor tissue penetration, high production costs, and the need for intravenous administration. Small-molecule inhibitors...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Selective Effects of Backbone Cyclization and Disulfide Bonding as Global Covalent Constraints on the Conformational Ensemble of Sunflower Trypsin Inhibitor-1.",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c01967",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "Backbone cyclization and disulfide bonding are key global covalent constraints in many bioactive peptides, yet their individual and combined effects on peptide conformational ensembles remain incompletely understood. Here, we combine all-atom molecular dynamics (MD) simulations, geometric analysis, and interpretable machine learning to examine these effec...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A cell-based kinetic framework enables TCR specificity prediction.",
+      "url": "https://doi.org/10.1038/s41392-026-02855-6",
+      "source": "PubMed — Signal transduction and targeted therapy",
+      "one_liner": "The ability to predict T-cell receptor (TCR) specificity from sequences could transform immunotherapy, vaccine development, and our understanding of immune recognition. However, progress has been shaped by \"edge cases\", in which specificity appears to be captured by simplified descriptors, such as sequence motifs or correlations between binding affinity a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-assisted fragment-based drug discovery of SARS-CoV-2 macrodomain binders validated by NMR and X-ray crystallography.",
+      "url": "https://doi.org/10.1038/s42004-026-02138-9",
+      "source": "PubMed — Communications chemistry",
+      "one_liner": "Fragment-based drug discovery (FBDD) is an effective approach for exploring chemical space using small, low-affinity fragments as starting points to facilitate development of lead compounds. Strategies to improve fragment potency include fragment merging and linking to generate higher-affinity inhibitors. Recently, artificial intelligence (AI) and machine...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep Reinforcement Learning-based combat recognition of traditional Chinese Sanda under artificial intelligence technology.",
+      "url": "https://doi.org/10.1038/s41598-026-62617-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "In the modern sports ecosystem, the digital preservation of traditional Chinese Sanda requires precise methodology to capture its complex technical lineage. This study proposes an innovative combat recognition framework for traditional Chinese Sanda based on Deep Reinforcement Learning. The framework employs a two-stream three-dimensional Convolutional Ne...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Plasma proteomics and machine learning deliver non-invasive distinction between fibrotic hypersensitivity pneumonitis and idiopathic pulmonary fibrosis.",
+      "url": "https://doi.org/10.1186/s12967-026-08643-8",
+      "source": "PubMed — Journal of translational medicine",
+      "one_liner": "BACKGROUND: Hypersensitivity pneumonitis (HP) manifests as fibrotic (FHP) and non-fibrotic (NFHP) phenotypes. Clinically distinguishing FHP from idiopathic pulmonary fibrosis (IPF) remains challenging owing to phenotypic overlap, despite divergent management protocols. This investigation sought to develop a plasma proteomics-based framework for differenti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "From binary labels to dynamic landscapes: The evolving computational prediction of protein-RNA interactions through tasks and deep learning paradigms.",
+      "url": "https://doi.org/10.1016/j.biotechadv.2026.108985",
+      "source": "PubMed — Biotechnology advances",
+      "one_liner": "Protein-RNA interactions (RPIs) stand for the central process in post-transcriptional regulation and have catalyzed a fast proliferation of computational approaches in recent years. Adopting a task-oriented classification method, RPIs calculation prediction schemes proposed over the period 2010-2025 fall into five primary categories: RNA-binding protein (...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Versatile Glycan Probes for Multiplatform Investigation of Glycan Interactions with Proteins, Viruses, and Cells.",
+      "url": "https://doi.org/10.1038/s41467-026-75206-2",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Glycan-mediated interactions are vital to development, microbial colonisation, immune signalling, and cancer progression. Glycan microarrays have revolutionised glycobiology by enabling high-throughput analysis of these complex interactions, supported by techniques that reveal kinetics and dynamics in solution or at the cellular level. We introduce multif...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "4MRNA: a new approach for nucleic acid molecular replacement using models with diverse parameter patterns.",
+      "url": "https://doi.org/10.1261/rna.081112.126",
+      "source": "PubMed — RNA (New York, N.Y.)",
+      "one_liner": "Structural analysis of nucleic acids lags behind that of proteins, partly because most fundamental structural analysis techniques have been primarily developed for proteins. The molecular replacement (MR) method, commonly used for phase determination in protein crystallography, encounters unique challenges when applied to nucleic acids. Nucleic acids can ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unveiling the KRAS Relationship between Affinity and Dynamics: A Molecular Simulations Study.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01239",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Kirsten rat sarcoma virus protein (KRAS) is one of the most important targets in current drug discovery. Its intrinsic properties, including a high structural flexibility and a shallow polar pocket, make KRAS extremely difficult to target. In fact, for a long time it was considered undruggable. A better understanding of its structure and dynamics will hel...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Random Logit Scaling: Defending Deep Neural Networks Against Black-Box Score-Based Adversarial Example Attacks",
+      "url": "https://arxiv.org/abs/2607.14921",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.14921v1 Announce Type: new \nAbstract: Machine learning models are increasingly adapted in various domains. However, adversarial examples pose a significant threat to the reliable deployment of these models. In recent years, some powerful adversarial example attacks have been proposed for the fast and query-efficient generation of adversarial ex...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Subgrid-Scale Parameterization in Burgers' Equation Using Structure-Preserving Neural Networks and Entropy Variables",
+      "url": "https://arxiv.org/abs/2607.14855",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.14855v1 Announce Type: cross \nAbstract: We present a machine learning approach for developing subgrid-scale (SGS) parametrizations in coarse simulations of partial differential equations. We utilize structure-preserving neural networks and entropy variables to learn subgrid fluxes in coarse simulations of the Burgers' equation. In particular, w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
