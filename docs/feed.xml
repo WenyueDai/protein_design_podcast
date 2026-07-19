@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jul 2026 05:22:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 05:38:36 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-07-19</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-19/podcast_2026-07-19.mp3</guid>
+      <pubDate>Sun, 19 Jul 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-19/podcast_2026-07-19.mp3" length="17344437" type="audio/mpeg" />
+      <description>The field is waking up to a new calculus for what counts as a useful model, and today’s papers sketch that shift in sharp relief. | Second, the AMIUgraph benchmark pits graph neural networks against classic knowledge‑graph embeddings on real‑world clinical graphs. | Third, the first site‑specific N‑glycoproteome of the spider mite *Tetranychus urticae* uncovers a glycosylation vocabulary that diverges sharply from the insect models most labs rely on.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field is waking up to a new calculus for what counts as a useful model, and today’s papers sketch that shift in sharp relief. | Second, the AMIUgraph benchmark pits graph neural networks against classic knowledge‑graph embeddings on real‑world clinical graphs. | Third, the first site‑specific N‑glycoproteome of the spider mite *Tetranychus urticae* uncovers a glycosylation vocabulary that diverges sharply from the insect models most labs rely on.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-07-18</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-18/podcast_2026-07-18.mp3</guid>
       <pubDate>Sat, 18 Jul 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-18/podcast_2026-07-18.mp3" length="22354389" type="audio/mpeg" />
-      <description>The papers released today collectively shift how we think about linking sequence to structure, interaction, and function, and they do so with concrete, measurable examples that a designer can act on right now. | Second, the SPPIPred work demonstrates that stacking together simple sequence‑based encoders — Pseudo amino acid composition, CTDC, DPC, Word2Vec and FastText — can push protein‑protein interaction classification to near‑perfect levels, hitting 0.9989 accuracy on both the yeast DIP set (5 594 interacting plus 5 594 non‑interacting pairs) and the Martin et al. | Third, CatIF‑RL reframes inverse folding: instead of merely sampling sequences that fit a backbone, it steers a graph‑based denoising diffusion model with reinforcement learning to optimise for predicted enzyme activity.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-18/podcast_2026-07-18.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The papers released today collectively shift how we think about linking sequence to structure, interaction, and function, and they do so with concrete, measurable examples that a designer can act on right now. | Second, the SPPIPred work demonstrates that stacking together simple sequence‑based encoders — Pseudo amino acid composition, CTDC, DPC, Word2Vec and FastText — can push protein‑protein interaction classification to near‑perfect levels, hitting 0.9989 accuracy on both the yeast DIP set (5 594 interacting plus 5 594 non‑interacting pairs) and the Martin et al. | Third, CatIF‑RL reframes inverse folding: instead of merely sampling sequences that fit a backbone, it steers a graph‑based denoising diffusion model with reinforcement learning to optimise for predicted enzyme activity.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-08/podcast_2026-05-08.mp3</guid>
       <pubDate>Fri, 08 May 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-08/podcast_2026-05-08.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-05-07</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-07/podcast_2026-05-07.mp3</guid>
-      <pubDate>Thu, 07 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-07/podcast_2026-05-07.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

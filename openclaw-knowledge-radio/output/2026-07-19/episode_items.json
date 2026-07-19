@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    186.74,
+    405.21,
+    564.73,
+    731.77,
+    830.55,
+    987.86,
+    1159.0,
+    1358.97,
+    1534.5,
+    2147.38
+  ],
+  "items": [
+    {
+      "title": "Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives.",
+      "url": "https://doi.org/10.1007/s12602-026-11131-6",
+      "source": "PubMed — Probiotics and antimicrobial proteins",
+      "one_liner": "Protein design has numerous applications in synthetic biology, drug discovery, and bioengineering. Recently, there has been a revolution in this field due to the emergence of artificial intelligence. At the forefront are deep learning models (DLMs). The impact of these models on the design pipeline is so transformative that it leads to radical advances in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AMIUgraph: analysis and modeling of interactions for utility-driven benchmarking of graph-based models in healthcare.",
+      "url": "https://doi.org/10.1186/s12911-026-03717-5",
+      "source": "PubMed — BMC medical informatics and decision making",
+      "one_liner": "BACKGROUND: Graph-based machine learning approaches, including Knowledge Graph Embedding (KGE) methods and Graph Neural Networks (GNNs), have emerged as powerful tools for modeling complex biomedical data. However, a systematic and clinically grounded comparison of these approaches across heterogeneous healthcare graphs, accounting for both predictive per...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "First site-specific N-glycoproteome of the spider mite Tetranychus urticae reveals a glycan signature different from insect models and functional insights for pest management.",
+      "url": "https://doi.org/10.1007/s10493-026-01162-7",
+      "source": "PubMed — Experimental & applied acarology",
+      "one_liner": "Protein N-glycosylation is a fundamental post-translational modification that shapes protein folding, stability, trafficking, and biological function. In arthropods, current understanding of N-glycosylation is largely derived from insect models, whereas chelicerates, including mites and ticks, remain poorly characterized despite their ecological and econo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ORBIT: Oncogenic Representation Learning via Bi-Prototype Contrastive Learning in Hyperbolic Space for cancer driver gene identification.",
+      "url": "https://doi.org/10.1016/j.artmed.2026.103486",
+      "source": "PubMed — Artificial intelligence in medicine",
+      "one_liner": "Accurate identification of cancer driver genes is crucial for precision oncology but remains challenging due to the complexity of integrating heterogeneous data and modeling dynamic biological systems. To address these limitations, we propose ORBIT (Oncogenic Representation Learning via Bi-Prototype Contrastive Learning in Hyperbolic Space). Our framework...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning models of depressive symptoms in middle-aged and elderly patients with chronic kidney disease: A cross-sectional study based on CHARLS.",
+      "url": "https://doi.org/10.1097/MD.0000000000049764",
+      "source": "PubMed — Medicine",
+      "one_liner": "This study aimed to develop and compare the performance of machine learning models in identifying depressive symptom status among middle-aged and elderly patients with chronic kidney disease (CKD), while identifying key factors that influence depressive symptoms. Data from the 2015 China Health and Retirement Longitudinal Study were used to construct the ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Comparison of artificial intelligence-based chatbots and expert periodontists in responding to patient questions: a multi-dimensional analysis.",
+      "url": "https://doi.org/10.1186/s12903-026-09315-1",
+      "source": "PubMed — BMC oral health",
+      "one_liner": "BACKGROUND: Large Language Model (LLM) -based chatbots are increasingly used in patient information processes. The aim of this study was to compare the performance of ChatGPT (GPT-5.1), Gemini (2.5 Flash), and Claude (Sonnet 4.5) with expert periodontologists in responding to periodontal questions. Responses were evaluated in terms of scientific accuracy,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mapping Non-Homologous Pocket Compatibilities to Identify Hidden Drug-Target Relationships: A Pocket Hopping Framework.",
+      "url": "https://doi.org/10.1021/acs.jmedchem.6c01050",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "Predicting small molecule-protein interactions across nonhomologous proteins remains challenging because shared ligand recognition is often not evident from sequence, fold, or pocket similarity. Here, we introduce pocket hopping, a machine-learning framework that learns residue-level interaction patterns from coligand binding pockets and infers compatibil...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DB-IRES: a deep learning model based on ensemble learning for predicting internal ribosome entry sites.",
+      "url": "https://doi.org/10.1186/s12859-026-06551-8",
+      "source": "PubMed — BMC bioinformatics",
+      "one_liner": "BACKGROUND: Internal ribosome entry sites (IRES) are cap-independent translation initiation elements present in specific viral and cellular mRNAs. They facilitate direct ribosome recruitment for protein synthesis, bypassing the need for the canonical 5' cap structure. Due to their pivotal roles in viral pathogenesis and cellular translational regulation, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dynamical-nonequilibrium (D-NEMD) alanine scanning for identifying allosteric positions in proteins.",
+      "url": "https://doi.org/10.1016/j.bpj.2026.07.019",
+      "source": "PubMed — Biophysical journal",
+      "one_liner": "Allosteric effects are widespread in proteins, but predicting the impact of sequence substitutions at positions distant from ligand-binding or enzyme active sites remains challenging, as their effects are mediated through complex dynamical networks. Pinpointing such positions experimentally is labour-intensive and low throughput. Equilibrium molecular dyn...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "From data to scent: validating an ensemble AI model that predicts novel insect odourant interactions.",
+      "url": "https://doi.org/10.1007/s00894-026-06844-y",
+      "source": "PubMed — Journal of molecular modeling",
+      "one_liner": "CONTEXT: Insects navigate the world through odourant receptor (OR)-mediated chemo-sensation. While of primary importance, insect chemo-sensation is poorly understood due to the lack of experimental structures surveying the binding between ORs and their ligands. Computational approaches empowered by deep learning can, in principle, provide an accurate pred...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multimodal graph-based deep learning for predicting heat of combustion as a key hazard indicator under GHS/CLP standards.",
+      "url": "https://doi.org/10.1038/s41598-026-60540-8",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "We report a multimodal graph-based deep learning framework that integrates molecular graph topology with physicochemical descriptors to predict the heat of combustion (HoC) directly from chemical structure. The model employs a neural network convolution (NNConv) to capture bonding and topological information, while molecular descriptors provide complement...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "BiGranMolNet: A deep learning method for predicting blood-brain barrier permeability based on Bi-Granularity Molecular Graphs.",
+      "url": "https://doi.org/10.1016/j.jbi.2026.105079",
+      "source": "PubMed — Journal of biomedical informatics",
+      "one_liner": "OBJECTIVE: The selective permeability of the blood-brain barrier (BBB) hinders the delivery of central nervous system (CNS) drugs to brain targets. It is therefore crucial to determine BBB permeability during CNS drug development. METHODS: We propose BiGranMolNet (Bi-Granularity Molecular Graph Network), a BBB permeability prediction model based on graph ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Genomic Subtype Influences BH3 Mimetic Drug Sensitivity and Synergy with Cytotoxic Chemotherapeutics in T-cell Acute Lymphoblastic Leukemia.",
+      "url": "https://doi.org/10.1158/1078-0432.CCR-25-4836",
+      "source": "PubMed — Clinical cancer research : an official journal of the American Association for Cancer Research",
+      "one_liner": "PURPOSE: BH3 mimetics targeting antiapoptotic BCL2 family proteins are promising therapeutics for T-cell acute lymphoblastic leukemia (T-ALL). However, their activity across genomic subtypes of this cancer and interactions with other antileukemic agents remain incompletely defined. EXPERIMENTAL DESIGN: We evaluated the ex vivo sensitivity of BCL2/BCL-XL d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Targeted isolation of FabG inhibitors from Koelreuteria bipinnata leaves: Mechanistic insights, synergistic antibacterial effects, and cytoprotection.",
+      "url": "https://doi.org/10.1016/j.fitote.2026.107397",
+      "source": "PubMed — Fitoterapia",
+      "one_liner": "Koelreuteria species serve as valuable sources of bioactive phytochemicals. This study explored the potential of chemical constituents derived from Koelreuteria bipinnata leaves as multifunctional natural ingredients for cosmetic applications. Through bioassay-guided fractionation targeting β-ketoacyl-acyl carrier protein reductase (FabG), 12 compounds we...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GraphGDel: Constructing and Learning Graph Representations of Genome-Scale Metabolic Models for Growth-Coupled Gene Deletion Prediction.",
+      "url": "https://doi.org/10.1109/TCBBIO.2026.3714738",
+      "source": "PubMed — IEEE transactions on computational biology and bioinformatics",
+      "one_liner": "In genome-scale constraint-based metabolic models, gene deletion strategies are essential for achieving growth-coupled production, where cell growth and target metabolite synthesis occur simultaneously. Despite the inherently networked nature of genome-scale metabolic models, existing computational approaches rely primarily on sequential data and lack gra...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of a Novel, Eco-Friendly Mechanical Cell Lysis Process Using Hollow Fiber Filter for AAV Manufacturing.",
+      "url": "https://doi.org/10.1002/bit.70309",
+      "source": "PubMed — Biotechnology and bioengineering",
+      "one_liner": "Adeno-associated virus (AAV) gene therapy is a transformative treatment for genetic disorders, providing a clinically proven in vivo delivery system capable of vectorizing diverse payloads-including therapeutic proteins, antibodies or fragments, and nucleic acids such as ASOs and siRNAs. Manufacturing AAVs presents distinct challenges, particularly the ne...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Physics-Inspired Latent Dynamics for Predicting Olfactory Mixture Similarity.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01297",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Predicting olfactory similarity between molecular mixtures remains a fundamental challenge due to the absence of a universal structure-percept mapping. Existing approaches often rely on pretrained molecular representations or graph neural networks that require larger labeled data sets than are currently available for mixture similarity. Here we introduce ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multimodal graph learning for chagas disease classification.",
+      "url": "https://doi.org/10.1007/s11517-026-03631-y",
+      "source": "PubMed — Medical & biological engineering & computing",
+      "one_liner": "The accurate classification of Chagas disease stages based on Trypanosoma cruzi infection in experimental models faces challenges due to the scarcity of data and the high dimensionality of diagnostic sources. This study proposes an architecture based on Graph Attention Networks on fully connected graphs to combine multimodal features (Electrocardiogram, E...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
