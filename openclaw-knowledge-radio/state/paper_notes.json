@@ -2765,5 +2765,12 @@
       "title": "DARMN: Domain-Aware Residual Feature Modulation Network for Multidomain Protein Dynamic Inter-Residue Contact Prediction",
       "source": "PubMed — Journal of chemical theory and computation"
     }
+  },
+  "2026-07-20": {
+    "https://arxiv.org/abs/2607.16087": {
+      "note": "DD",
+      "title": "Neural spectroscopy of AlphaFold2 reveals encoded protein conformational landscapes",
+      "source": "arXiv q-bio.BM"
+    }
   }
 }
