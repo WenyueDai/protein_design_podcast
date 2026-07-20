@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    562.44,
+    600.95,
+    771.06,
+    967.38,
+    1239.6,
+    1373.62,
+    1558.24,
+    1706.15,
+    1833.71,
+    2437.69
+  ],
+  "items": [
+    {
+      "title": "Neural spectroscopy of AlphaFold2 reveals encoded protein conformational landscapes",
+      "url": "https://arxiv.org/abs/2607.16087",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.16087v1 Announce Type: cross \nAbstract: AlphaFold2's 93 million parameters, shaped by the evolutionary record of protein structure encoded in the Protein Data Bank and in sequence alignments, are conventionally treated only as machinery for converting sequence to structure. We propose they are also a scientific object that can be analyzed direc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Graph-augmented transformer networks and explainable AI for economic impact forecasting in disrupted supply chains.",
+      "url": "https://doi.org/10.1038/s41598-026-61049-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "This study proposes a hybrid AI model which integrates Graph Neural Networks and Transformer models to predict the economic consequence of the disruption of the supply chains with unprecedented accuracy (MAPE: 3.7%). The framework is based on multi-dimensional data from 137 companies in 23 countries, and shows the non-linear cascading effects as well as t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Symbolic and domain-generalized machine learning for interpretable solubility modeling in supercritical CO₂.",
+      "url": "https://doi.org/10.1038/s41598-026-62721-x",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Accurate prediction of drug solubility in supercritical CO₂ remains challenging due to the limited generalizability of compound-specific correlations and the black-box nature of most machine learning models. This study proposes a domain-aware symbolic regression framework that discovers closed-form analytical expressions for ln(y), enabling interpretable ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computer simulation: probing the dynamic binding mechanism of the azo pigment allure red to meat-derived proteins.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109516",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "Elucidating the interactions between the azo dye Allura Red (AR) and meat-derived proteins is crucial for understanding its safe application in complex food systems. This study investigated the interactions between AR and actin (AC), glutamate dehydrogenase (GDH), and myosin (MS) using molecular docking and molecular dynamics simulations. Molecular dockin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Genotypic and phenotypic heterogeneity in tubulinopathies: insights from a Turkish multicenter cohort.",
+      "url": "https://doi.org/10.1007/s10072-026-09258-z",
+      "source": "PubMed — Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+      "one_liner": "BACKGROUND: Tubulinopathies encompass a clinically and neuroradiologically diverse group of neurodevelopmental disorders caused by mutations in genes encoding tubulins and microtubule-associated proteins. This study aims to delineate the extensive phenotypic and genotypic spectrum within a pediatric cohort. METHODS: We conducted a multicenter retrospectiv...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Interfacial coronas of green-energy nanomaterials: A life-cycle eco-to-protein corona framework and molecular fingerprints.",
+      "url": "https://doi.org/10.1016/j.ecoenv.2026.120518",
+      "source": "PubMed — Ecotoxicology and environmental safety",
+      "one_liner": "Green-energy technologies (GETs)-including solar cells, batteries, and biomass systems-underpin climate-change mitigation, but their performance increasingly depends on engineered nanoscale interfaces, making the energy transition also an interface transition. The ligand shells, coatings, and conductive networks that optimize a device can be inherited by ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The hidden role of glomalin-related soil protein in mediating soil organic carbon dynamics in response to urbanization.",
+      "url": "https://doi.org/10.1038/s41598-026-62535-x",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Urbanization can alter soil organic carbon (SOC) storage, while glomalin-related soil protein (GRSP) is crucial for SOC sequestration. However, whether and how GRSP mediates the response of SOC to urbanization remains unclear. We investigated 184 soil samples by analyzing GRSP and its C-functional structures along an urban expansion gradient using redunda...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Spontaneous Evolution of Biology",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.14.738476",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "We have demonstrated the potential of amino acids to polymerise into peptides, proteins, and form cell-like structures in the absence of cellular machinery, including nucleic acids, lipids or sugars. Not only has cell-free protein replication been observed, but evidence of protein templating strongly suggests protein mediated replication. We believe this ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "SSA(BBO)-optimized neural networks for remaining useful life estimation and health monitoring of lithium-ion batteries.",
+      "url": "https://doi.org/10.1038/s41598-026-62566-4",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Accurate prediction of the remaining useful life (RUL) of lithium-ion batteries is crucial for advancing battery health management, enhancing safety, and improving the efficiency of electric vehicles and energy storage systems. This study introduces a novel hybrid deep learning framework that integrates a deep neural network (DNN) with advanced optimizati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Microclimate prediction for sandy photovoltaic power plants using a spatio-temporal graph convolutional network with environmental covariates.",
+      "url": "https://doi.org/10.1016/j.isci.2026.116329",
+      "source": "PubMed — iScience",
+      "one_liner": "The deployment of photovoltaic (PV) power plants in sandy regions alters the local microclimate. Accurate microclimate prediction is essential for optimizing short-term operations and maintenance plans. Compared with traditional statistical and numerical models, neural networks are suited to capture the complex nonlinear dependencies in sandy-region PV en...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing virtual screening of cystathionine β-synthase inhibitors: benchmarking target-specific machine-learning scoring functions against state-of-the-art AI docking and co-folding approaches.",
+      "url": "https://doi.org/10.1186/s13321-026-01262-x",
+      "source": "PubMed — Journal of cheminformatics",
+      "one_liner": "Cystathionine β-synthase (CBS) has emerged as an important therapeutic target implicated in cancer and Down syndrome, yet the discovery of selective CBS inhibitors remains challenging due to limited structural diversity of known ligands and the scarcity of target-focused virtual screening (VS) benchmarks. In this study, we present the first comprehensive ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exosomes in cancer drug resistance: dual roles in therapy failure and emerging precision therapeutics.",
+      "url": "https://doi.org/10.1186/s12935-026-04396-y",
+      "source": "PubMed — Cancer cell international",
+      "one_liner": "Exosomes play a key role in cancer, functioning both as drivers of drug resistance and as tools for therapy. Tumor-derived exosomes facilitate intercellular communication through selective transfer of bioactive cargo, including proteins (e.g., P-gp, PD-L1), nucleic acids (e.g., miR-21, lncRNA H19), lipids, and metabolites. These cargos remodel the tumor m...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mechanistic Insights into Effector-Mediated Modulation of Rice Mitochondrial Proteins by Magnaporthe oryzae.",
+      "url": "https://doi.org/10.1007/s12033-026-01594-x",
+      "source": "PubMed — Molecular biotechnology",
+      "one_liner": "Mitochondria are crucial for the plant and animal immunity. The effector protein MoCDIP4 reduces rice immunity by targeting the mitochondria-associated OsDjA9-OsDRP1E protein complex. The present study is focussed on how Magnaporthe oryzae, the fungus that causes rice blast disease, affects mitochondrial dynamics and inhibits innate immune responses in ri...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Analytical construction of lump, rogue, and multi-wave structures in a nonlinear neuron membrane model via bilinear neural network approach.",
+      "url": "https://doi.org/10.1007/s12064-026-00474-x",
+      "source": "PubMed — Theory in biosciences = Theorie in den Biowissenschaften",
+      "one_liner": "In this article, we study a nonlinear neuron membrane model describing the propagation of action potentials along nerve fibers, incorporating nonlinear elastic effects and higher-order dispersion. By applying the Hirota bilinear transformation, the given equation is converted into an equivalent bilinear form, which provides a suitable analytical framework...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Programmable Nanobody-Targeting Chimeras Enable Intracellular Viral Protein Degradation.",
+      "url": "https://doi.org/10.1002/advs.76687",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Chronic hepatitis B virus (HBV) infection remains a major global health challenge, largely because current antiviral therapies seldom achieve sustained clearance of the viral surface antigen (HBsAg), a central driver of immune tolerance and viral persistence. Here, we present a programmable, nanobody-based targeted protein degradation platform, termed Nan...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Tissue origins of the plasma proteomic response to glucose ingestion in humans.",
+      "url": "https://doi.org/10.1007/s00125-026-06800-8",
+      "source": "PubMed — Diabetologia",
+      "one_liner": "AIMS/HYPOTHESIS: Circulating proteins act as important hormonal signals of nutrient intake. We aimed to systematically characterise the time-resolved proteomic response to glucose ingestion in humans, and to assess its robustness following prolonged complete caloric restriction. METHODS: We conducted oral glucose tolerance tests (OGTTs) in 11 healthy volu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Isotope-free mapping of protein-RNA interactions at single-nucleotide resolution by iCLIP3.",
+      "url": "https://doi.org/10.1016/j.xpro.2026.104704",
+      "source": "PubMed — STAR protocols",
+      "one_liner": "Individual-nucleotide resolution UV crosslinking and immunoprecipitation (iCLIP) enables transcriptome-wide mapping of RNA-binding protein (RBP)-RNA interactions. Here, we present iCLIP version 3 (iCLIP3), a streamlined protocol optimized for generating high-quality iCLIP libraries from low-input material. We describe steps for near-infrared visualization...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Physics-informed multi-task learning for permeability prediction and probabilistic HFU modeling: a case study from the Lower Bahariya Reservoir, Shahd SE field Egypt.",
+      "url": "https://doi.org/10.1038/s41598-026-61051-2",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Accurate permeability prediction is essential for reliable reservoir characterization and simulation, yet remains challenging due to complex nonlinear relationships and subsurface heterogeneity. Conventional hydraulic flow unit (HFU) methods rely on discrete rock typing and fixed porosity-permeability relationships, limiting their ability to capture conti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Neural Non-Equilibrium Hamiltonian Monte Carlo for Corrected Boltzmann Sampling",
+      "url": "https://arxiv.org/abs/2607.15682",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.15682v1 Announce Type: new \nAbstract: Sampling from an unnormalized Boltzmann density requires proposals that move probability mass globally while retaining enough path-probability information for statistical correction. We introduce Neural Non-Equilibrium Hamiltonian Monte Carlo (NHMC), a train-then-correct learned Hamiltonian sampler. Startin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "LLM4EHR: Aligning Clinical Time Series with Medical Event Sequences via Large Language Models",
+      "url": "https://arxiv.org/abs/2607.15447",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.15447v1 Announce Type: new \nAbstract: Recent research in clinical machine learning, focusing on outcome predictions in intensive care unit (ICU), has shifted from bespoke supervised models to foundation models, utilising modern representation learning methods. Here, foundation models are pre-trained on mixtures of complex clinical data modaliti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
