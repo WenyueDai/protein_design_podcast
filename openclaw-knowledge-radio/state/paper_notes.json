@@ -2771,6 +2771,11 @@
       "note": "DD",
       "title": "Neural spectroscopy of AlphaFold2 reveals encoded protein conformational landscapes",
       "source": "arXiv q-bio.BM"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.07.14.738476": {
+      "note": "DD",
+      "title": "The Spontaneous Evolution of Biology",
+      "source": "bioRxiv — biochemistry"
     }
   }
 }
