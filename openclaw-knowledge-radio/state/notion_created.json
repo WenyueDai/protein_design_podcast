@@ -2042,5 +2042,9 @@
   "2026-07-17|https://doi.org/10.1021/acs.jctc.6c00754": {
     "page_id": "3a05f58e-a8c2-81a9-9dbb-f6622a6ba9cc",
     "note": "MIT license"
+  },
+  "2026-07-20|https://arxiv.org/abs/2607.16087": {
+    "page_id": "3a35f58e-a8c2-816f-b951-c352c54ddec5",
+    "note": "DD"
   }
 }
