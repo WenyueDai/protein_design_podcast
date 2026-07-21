@@ -2803,6 +2803,11 @@
       "note": "DD",
       "title": "Machine learning of electronic structure and atomistic properties from the external potential.",
       "source": "PubMed — The Journal of chemical physics"
+    },
+    "https://arxiv.org/abs/2607.16263": {
+      "note": "DD",
+      "title": "Preference-based Antibody Expression Ranking: Scaling with Large-scale Weak Supervision",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
