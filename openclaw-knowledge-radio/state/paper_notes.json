@@ -2782,5 +2782,12 @@
       "title": "Programmable Nanobody-Targeting Chimeras Enable Intracellular Viral Protein Degradation.",
       "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
     }
+  },
+  "2026-07-21": {
+    "https://www.blopig.com/blog/2026/07/app-ready-databases-from-python-with-sqlmodel-and-fastapi/": {
+      "note": "DD",
+      "title": "App-ready databases from Python with SQLModel and FastAPI",
+      "source": "BLOPIG (Oxford Protein Informatics Group)"
+    }
   }
 }
