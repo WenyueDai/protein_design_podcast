@@ -2808,6 +2808,11 @@
       "note": "DD",
       "title": "Preference-based Antibody Expression Ranking: Scaling with Large-scale Weak Supervision",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1007/s10482-026-02379-7": {
+      "note": "DD",
+      "title": "Computational design of oleuropein as a potential antifungal agent and enzyme engineering targeting multidrug-resistant ",
+      "source": "PubMed — Antonie van Leeuwenhoek"
     }
   }
 }
