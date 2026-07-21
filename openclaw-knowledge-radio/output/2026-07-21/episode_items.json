@@ -1,0 +1,298 @@
+{
+  "timestamps": [
+    0.0,
+    168.02,
+    392.87,
+    486.06,
+    698.67,
+    893.5,
+    1102.54,
+    1289.68,
+    1511.2,
+    1670.36,
+    1929.13
+  ],
+  "items": [
+    {
+      "title": "App-ready databases from Python with SQLModel and FastAPI",
+      "url": "https://www.blopig.com/blog/2026/07/app-ready-databases-from-python-with-sqlmodel-and-fastapi/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "Python is ubiquitous for those of us coming into programming from academic research backgrounds, both for generating scientific data and for analysing it. Of course, modern data-driven research only thrives when data is FAIR (findable, accessible, interoperable, and reusable) and traditional relational databases and APIs for interacting with them are a tr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "More Pancreatic Cancer Vaccine Progress - Treatment and Preventative",
+      "url": "https://www.science.org/content/blog-post/more-pancreatic-cancer-vaccine-progress-treatment-and-preventative",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "ORC binding to Heterochromatin Protein 1 through intrinsically disordered regions is required for heterochromatin structure and function",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.17.738698",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "The Origin Recognition Complex (ORC) is known for initiating DNA replication in eukaryotic cells, but increasing evidence suggests that ORC has multiple functions. Here we show that the organization and function of two major nuclear components, heterochromatin and the nucleolus, depend on multivalent interactions between Orc1 and Heterochromatin Protein 1...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evolutionary Profiles for Protein Fitness Prediction.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag525",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Predicting the fitness impact of mutations is central to protein engineering but constrained by limited assays relative to the size of sequence space. Protein language models (pLMs) trained with masked language modeling (MLM) exhibit strong zero-shot fitness prediction;we provide a interpretive lens by regarding natural evolution as implicit r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The energy landscape of DNA-binding proteins along the genome",
+      "url": "https://arxiv.org/abs/2607.17753",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.17753v1 Announce Type: new \nAbstract: Reconstructing the energy profile of DNA-binding proteins along the genome requires an algorithm that quantifies efficiently the binding free energy. We assembled a dataset of protein structures and DNA binding sites, together with their binding energies, and used it to train a machine-learning algorithm th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "De Novo Design of Protein Nanopores: From Minimal Peptides to AI-Driven Design.",
+      "url": "https://doi.org/10.1021/acs.chemrev.5c00990",
+      "source": "PubMed — Chemical reviews",
+      "one_liner": "Protein nanopores offer a powerful platform for analytical applications by directly converting chemical properties into information-rich, single-molecule electrical readouts. However, engineering natural nanopores for sensing remains challenging due to the limited number of available scaffolds and evolutionary constraints on their geometries and chemistri...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-assisted performance prediction of graphene-silicon twin-port band-notched wideband antenna for THz 6G communication systems.",
+      "url": "https://doi.org/10.1038/s41598-026-60977-x",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "A graphene-silicon-based twin-port terahertz (THz) antenna is proposed and investigated in this work. The antenna employs an aperture-coupled asymmetric ring dielectric resonator configuration to achieve wideband operation in the THz regime. Circular metallic rings integrated with the printed feed structure introduce a band-notch characteristic between 2....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning of electronic structure and atomistic properties from the external potential.",
+      "url": "https://doi.org/10.1063/5.0332678",
+      "source": "PubMed — The Journal of chemical physics",
+      "one_liner": "Electronic structure calculations remain a major bottleneck in atomistic simulations and, not surprisingly, have attracted significant attention in machine learning (ML). Most existing approaches learn a direct map from molecular geometries, typically represented as graphs or encoded local environments, to molecular properties or use ML as a surrogate for...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unraveling Microplastics in Lakes with a Mechanism-Informed, Few-Shot Data-Driven Liquid Neural Networks.",
+      "url": "https://doi.org/10.1021/acs.est.6c05904",
+      "source": "PubMed — Environmental science & technology",
+      "one_liner": "Simulating microplastic (MP) transport in aquatic environments faces two persistent bottlenecks: error accumulation in purely physical models and the intrinsic difficulty of machine learning methods with sparse, discontinuous field observations. Here, we introduce a mechanism-informed, few-shot data-driven framework powered by Liquid time-constant network...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Preference-based Antibody Expression Ranking: Scaling with Large-scale Weak Supervision",
+      "url": "https://arxiv.org/abs/2607.16263",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2607.16263v1 Announce Type: cross \nAbstract: Antibody expression ranking is a critical task in antibody design, yet its modelling is severely hindered by the scarcity of labeled experimental data. To address this, we propose a unified preference-based learning framework that integrates scarce quantitative expression data with large-scale weak positi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "MSstatsQC-ML: A Supervised Machine Learning Approach to Monitor System Suitability and Quality Control in Mass Spectrometry-Based Proteomics.",
+      "url": "https://doi.org/10.1021/acs.jproteome.6c00186",
+      "source": "PubMed — Journal of proteome research",
+      "one_liner": "Mass spectrometry offers numerous ways to analyze the composition, function, and interactions of complex proteomes. Unfortunately, it suffers from the variation introduced by technological artifacts, which reduces the reproducibility and reliability of the results. In order to detect and minimize deviations from optimal performance, researchers monitor st...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational design of oleuropein as a potential antifungal agent and enzyme engineering targeting multidrug-resistant fusarium species.",
+      "url": "https://doi.org/10.1007/s10482-026-02379-7",
+      "source": "PubMed — Antonie van Leeuwenhoek",
+      "one_liner": "Fusarium species, including Fusarium oxysporum and Fusarium solani, pose significant threats to global agriculture due to their multidrug resistance (MDR), which reduces the efficacy of conventional fungicides. This study investigates the potential of Oleuropein, a natural phenolic compound, as a candidate antifungal agent targeting Fusarium-associated pr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep cross-modal representation fusion learning for enhanced drug target affinity prediction.",
+      "url": "https://doi.org/10.1016/j.ab.2026.116198",
+      "source": "PubMed — Analytical biochemistry",
+      "one_liner": "Prediction of Drug Target Affinity (DTA) is essential for accelerating computational drug discovery and reducing experimental costs. However, traditional experimental approaches for DTA estimation are resource-intensive and are further challenged by the structural flexibility of both drugs and target proteins. In this work, we propose the PCBERT-GAT-DFFNN...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Impact of M and E protein mutations in SARS-CoV-2 Omicron variants on reduced antibody binding and increased structural stability: a bioinformatics study (2021-2023).",
+      "url": "https://doi.org/10.1186/s12864-026-13206-8",
+      "source": "PubMed — BMC genomics",
+      "one_liner": "BACKGROUND: First identified in late 2021, the Omicron variant of SARS-CoV-2 accumulated substantially more mutations than previously circulating variants. This study investigated the genomic characteristics and structural consequences of mutations in the membrane (M) and envelope (E) proteins of dominant Omicron lineages circulating in southern Iran betw...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Single molecule studies of the bacterial curli protein CsgA reveal a structurally dynamic monomeric structure",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.09.08.674806",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "E. coli curli, a critical biofilm scaffold and antimicrobial target, is assembled mainly from the protein CsgA guided by many other chaperones in a regulated functional amyloid assembly pathway. CsgA is highly aggregation prone, confounding high-resolution studies of its structure and amyloid formation mechanism. Ensemble studies show CsgA is intrinsicall...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mapping in-cell protein contact sites reveals hijacking of paraspeckles during influenza A virus infection.",
+      "url": "https://doi.org/10.1038/s41564-026-02416-1",
+      "source": "PubMed — Nature microbiology",
+      "one_liner": "Influenza A virus (IAV) hijacks host cellular machinery during infection but many host-virus protein interactions remain uncharacterized, particularly in their native context. Here, we applied in-cell cross-linking mass spectrometry, integrated with structural modelling and functional assays, to map protein-protein contact sites in IAV-infected human cell...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Separable spectral and conformational channels in proteins: A quantum-like view of dual information encoding.",
+      "url": "https://doi.org/10.1016/j.biosystems.2026.105894",
+      "source": "PubMed — Bio Systems",
+      "one_liner": "The aim of this paper is to test whether biological macromolecules carry information through two distinct, separable channels. The conformational channel (C-channel), governed by three-dimensional structure and the Coulomb potential, sets binding geometry, catalysis, and stability. The spectral channel (S-channel), the one-dimensional electron-ion interac...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Septins promote breast cancer cell invasion in 3D collagen gels by influencing actin-based protrusion formation",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.17.739166",
+      "source": "bioRxiv — cancer biology",
+      "one_liner": "Septins are cytoskeletal proteins that contribute to essential cellular processes such as cell migration and cell division through interactions with the cell membrane and the cytoskeleton. High expression of septins is correlated with breast cancer malignancy and promotes cell invasion, but the molecular complexity of septins interactions has made it chal...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Publisher Correction: Artificial allosteric protein switches with machine-learning-designed receptors.",
+      "url": "https://doi.org/10.1038/s41587-026-03263-5",
+      "source": "PubMed — Nature biotechnology",
+      "one_liner": "Not stated in source text\nMETHOD / APPROACH: Not stated in source text.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A distinctive PDZ:β-hairpin interaction mediates AFDN complex with SCRIB and promotes binding to KRAS.",
+      "url": "https://doi.org/10.1042/BCJ20260336",
+      "source": "PubMed — The Biochemical journal",
+      "one_liner": "PDZ domains canonically recognize short C-terminal peptide motifs, but numerous non-canonical binding mechanisms have also been described. We previously identified a direct interaction between the cell polarity protein SCRIB and the RAS effector AFDN, mediated by the SCRIB PDZ1 and AFDN FHA domains, though a structural basis remained unresolved. Here, we ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
