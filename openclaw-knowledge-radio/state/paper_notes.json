@@ -2793,6 +2793,11 @@
       "note": "DD",
       "title": "Evolutionary Profiles for Protein Fitness Prediction.",
       "source": "PubMed — Bioinformatics (Oxford, England)"
+    },
+    "https://doi.org/10.1021/acs.chemrev.5c00990": {
+      "note": "DD",
+      "title": "De Novo Design of Protein Nanopores: From Minimal Peptides to AI-Driven Design.",
+      "source": "PubMed — Chemical reviews"
     }
   }
 }
