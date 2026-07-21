@@ -2054,5 +2054,9 @@
   "2026-07-20|https://doi.org/10.1002/advs.76687": {
     "page_id": "3a35f58e-a8c2-8103-8af3-d4ceeb3b7029",
     "note": "DD"
+  },
+  "2026-07-21|https://www.blopig.com/blog/2026/07/app-ready-databases-from-python-with-sqlmodel-and-fastapi/": {
+    "page_id": "3a45f58e-a8c2-81cb-a1ed-ff0e7790d220",
+    "note": "DD"
   }
 }
