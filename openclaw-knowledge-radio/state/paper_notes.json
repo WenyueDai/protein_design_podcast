@@ -2788,6 +2788,11 @@
       "note": "DD",
       "title": "App-ready databases from Python with SQLModel and FastAPI",
       "source": "BLOPIG (Oxford Protein Informatics Group)"
+    },
+    "https://doi.org/10.1093/bioinformatics/btag525": {
+      "note": "DD",
+      "title": "Evolutionary Profiles for Protein Fitness Prediction.",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
     }
   }
 }
