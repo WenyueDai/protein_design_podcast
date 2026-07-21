@@ -7,7 +7,7 @@ A fully automated daily podcast for protein designers. Every morning at **03:00 
 **Deep dive notes (Notion):** [owner's expert annotations](https://clear-squid-8e3.notion.site/3165f58ea8c280498f72c770028aec0d?v=3165f58ea8c28020983c000cec9807e6)
 **Weekly summary (Notion):** [Saturday deep-research briefings](https://clear-squid-8e3.notion.site/3235f58ea8c280ccbc4bc228a2a05d84)
 **Monthly summary (Notion):** [month-end evolution reports](https://clear-squid-8e3.notion.site/3235f58ea8c280678565d06131f8b6cf)
-**Speculative ideas (Notion):** [weekly speculative biology × protein design](https://clear-squid-8e3.notion.site/3965f58ea8c280208f64feb8a0f20108)
+**Speculative ideas (Notion):** [weekly speculative biology × protein design](https://clear-squid-8e3.notion.site/3965f58ea8c280219e06e816780f885f?v=3965f58ea8c280c99d48000c4ffdc472)
 
 ---
 
