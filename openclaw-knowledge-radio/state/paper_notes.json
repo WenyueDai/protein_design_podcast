@@ -2798,6 +2798,11 @@
       "note": "DD",
       "title": "De Novo Design of Protein Nanopores: From Minimal Peptides to AI-Driven Design.",
       "source": "PubMed — Chemical reviews"
+    },
+    "https://doi.org/10.1063/5.0332678": {
+      "note": "DD",
+      "title": "Machine learning of electronic structure and atomistic properties from the external potential.",
+      "source": "PubMed — The Journal of chemical physics"
     }
   }
 }
