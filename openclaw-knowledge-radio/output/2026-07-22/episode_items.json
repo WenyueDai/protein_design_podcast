@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    5.71,
+    183.42,
+    904.09,
+    939.25,
+    1094.6,
+    1250.83,
+    1941.24,
+    2090.34,
+    2191.86,
+    2412.08
+  ],
+  "items": [
+    {
+      "title": "Benchmarking the Benchmarks",
+      "url": "https://www.science.org/content/blog-post/benchmarking-benchmarks",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Extending Protein Language Models to a Viral Genomic Scale Using Biologically Induced Sparse Attention.",
+      "url": "https://doi.org/10.1093/gigascience/giag081",
+      "source": "PubMed — GigaScience",
+      "one_liner": "The transformer architecture in deep learning has revolutionized protein sequence analysis. Recent advancements in protein language models have paved the way for significant progress across various domains, including protein function and structure prediction, multiple sequence alignments and mutation effect prediction. A protein language model is commonly...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A hybrid machine learning and enzyme-constrained metabolic model for ab initio prediction of proteome reallocation",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.20.739489",
+      "source": "bioRxiv — systems biology",
+      "one_liner": "High expression of heterologous proteins in microbial cell factories frequently triggers a severe burden due to reallocation of finite cellular proteome. Conventional constraint-based models struggle to predict these resource shifts ab initio without relying on condition-specific omics data. To bridge this gap, we developed the Hybrid Transcription-Transl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Importance of antibody validation in detecting cell cycle regulatory protein p16",
+      "url": "https://doi.org/10.1080/19382014.2026.2706228",
+      "source": "PubMed — Islets",
+      "one_liner": "AIMS/OBJECTIVE: p16 METHODS: Four commercial monoclonal antibodies reported to react against mouse p16 RESULTS: One commercial monoclonal antibody robustly detected a nuclear antigen in both mouse and human pancreas sections, consistent with the previously reported p16 CONCLUSION: Our findings highlight the importance of antibody validation for p16",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Bioorthogonal Regulation of Negatively Charged Protein Side Chains in Living Systems.",
+      "url": "https://doi.org/10.1021/jacs.6c07245",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "Negatively charged amino acid side chains are essential determinants of protein structure and function, yet their precise temporal regulation in living systems remains challenging. Although coupling the genetic code expansion strategy with bioorthogonal decaging reaction has enabled conditional control over various residues, the regulation of negatively c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "NewRep: a classification model for online pattern recognition based on HD-EMG signals.",
+      "url": "https://doi.org/10.1007/s11517-026-03630-z",
+      "source": "PubMed — Medical & biological engineering & computing",
+      "one_liner": "High density (HD) electromyography (EMG) signals have been widely used for pattern recognition (PR) in myoelectric control, particularly for gesture recognition. Although neural networks generally outperform traditional machine learning models in EMG PR, the limited accuracy in recognition remains a critical challenge. To further improve the online classi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Unified Flash Memory Platform for Mode-Adaptive and Robust AI Computation.",
+      "url": "https://doi.org/10.1002/advs.76619",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Computing-in-memory (CIM) architectures offer a promising route toward energy-efficient artificial intelligence by reducing data-movement overhead. However, most existing CIM hardware operates at a fixed trade-off between accuracy, energy efficiency, and robustness, limiting adaptability to diverse workloads. Here, we present a dual-mode CIM accelerator b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Neurofilament Light Disordered Tail Mutations Reshape Its Self-Assembled Network Structure.",
+      "url": "https://doi.org/10.1021/jacs.6c03785",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "Proteins with intrinsically disordered regions (IDRs) perform essential cellular functions despite lacking stable structures, challenging the traditional structure-function paradigm. Neurofilament-light (NFL) proteins self-assemble into bottlebrush filaments, whose disordered tail domains mediate nematic hydrogel formation critical for neuronal integrity....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProtSyntax: a protein large language model for decoding post-translational modification syntax and function",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.18.739331",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Post-translational modifications (PTMs) regulate protein function through dependencies among residue chemistry, sequence context, three-dimensional microenvironments and modification states, yet most predictors model sites independently and do not connect modification propensity to functional consequences. Here we present ProtSyntax, a PTM-centered protei...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A novel monoclonal antibody targeting the hemagglutinin-neuraminidase of peste des petits ruminants virus maintains neutralizing activity by blocking viral adsorption and receptor interaction.",
+      "url": "https://doi.org/10.1128/jvi.00787-26",
+      "source": "PubMed — Journal of virology",
+      "one_liner": "Peste des petits ruminants (PPR) is a highly contagious viral disease that primarily affects sheep and goats, posing a significant threat to small ruminant livestock production. The protective humoral immunity against Peste des petits ruminants virus (PPRV) is mainly mediated by the hemagglutinin-neuraminidase (HN) glycoprotein. To elucidate the functiona...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Binding-Activated",
+      "url": "https://doi.org/10.1002/anie.3832427",
+      "source": "PubMed — Angewandte Chemie (International ed. in English)",
+      "one_liner": "Cytoskeletal filaments and their associated organelles/proteins form a system-level network that organizes cellular architecture and activity, yet chemical tools for spatiotemporal control and proteome-wide mapping of these networks in living cells remain scarce. Here we present a modular strategy to generate small-molecule, singlet-oxygen-generating (",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Rho GTPase-activating protein plays a positive role in tobacco resistance against chilli veinal mottle virus.",
+      "url": "https://doi.org/10.1093/plphys/kiag527",
+      "source": "PubMed — Plant physiology",
+      "one_liner": "Chilli veinal mottle virus (ChiVMV) causes severe yield losses in solanaceous crops across Asia, making the exploration of host resistance imperative. Although GTPase-activating proteins (GAPs) are known to modulate host-pathogen interactions and participate in plant defense against bacterial and fungal pathogens, their role in antiviral immunity remains ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Position-dependent codon occurrence is associated with patterns of translational efficiency and ribosomal occupancy in the human transcriptome.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014501",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "All life depends on the reliable translation of RNA to protein according to complex interactions between translation machinery and RNA sequence features. While ribosomal occupancy and codon frequencies vary across coding regions, well-established metrics for computing coding potential of RNA do not capture such positional dependence. Here, we investigate ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protocol for analyzing protein interactomes under starvation in fission yeast using in vivo cross-linking.",
+      "url": "https://doi.org/10.1016/j.xpro.2026.104721",
+      "source": "PubMed — STAR protocols",
+      "one_liner": "Identifying a protein's interactome can be challenging when studying low-abundance proteins, labile or transient interactions, or cells under starvation conditions. Here, we present a protocol to purify proteins and their interacting partners in the fission yeast Schizosaccharomyces pombe. We use formaldehyde to cross-link proteins in vivo, thereby stabil...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Classification models for KCNQ1 variants distinguish functional and trafficking effects to enhance pathogenicity interpretation.",
+      "url": "https://doi.org/10.1073/pnas.2537217123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Missense variants in the potassium channel KCNQ1 underlie most cases of congenital long QT syndrome (LQTS), one of the most common genetic arrhythmias. Variants affect protein stability, trafficking, and function, which are measurable properties that support variant interpretation. Leveraging the extensive experimental data generated by our laboratories, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CDCA8 regulates ATP5F1A protein stability and malignant phenotypes in wilms tumor cells: Prognostic implications and mechanistic insights.",
+      "url": "https://doi.org/10.1371/journal.pone.0353696",
+      "source": "PubMed — PloS one",
+      "one_liner": "BACKGROUND: Wilms tumor (WT) is a prevalent pediatric renal malignancy, yet its molecular mechanisms remain poorly defined. Identifying key prognostic genes and understanding their functional roles is critical for improving clinical management. This study aimed to identify prognostic genes in WT and to investigate whether ATP5F1A functions as a candidate ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Chaotropic Surface Chemistry for Protein Profiling with Solid-State Micropores.",
+      "url": "https://doi.org/10.1021/acssensors.6c02297",
+      "source": "PubMed — ACS sensors",
+      "one_liner": "Proteins derive their biological identity from an amino acid sequence, and even subtle sequence variations can mark disease states, therapeutic response, and cancer progression. Although solid-state nanopores offer single-molecule sensitivity, protein analysis with conventional nanopores remains limited by stochastic capture, rapid translocation, and the ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TraianProt: a user-friendly R shiny application for wide format proteomics data downstream analysis",
+      "url": "https://arxiv.org/abs/2412.15806",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2412.15806v2 Announce Type: replace-cross \nAbstract: Mass spectrometry based proteomics enables large-scale identification, quantification, and characterization of proteins, post-translational modifications, and dynamic expression changes, providing critical insights into biological processes and disease mechanisms. However, downstream data analysis...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Association of long-term exposure to lower low-density lipoprotein cholesterol with neuroimaging metrics: A population-based cohort study.",
+      "url": "https://doi.org/10.1097/CM9.0000000000004105",
+      "source": "PubMed — Chinese medical journal",
+      "one_liner": "BACKGROUND: Limited evidence exists regarding the relationship between long-term exposure to low concentrations of low-density lipoprotein cholesterol (LDL-C) and brain structural integrity. This study aimed to examine the associations of cumulative low LDL-C exposure with a series of neuroimaging metrics. METHODS: This study included 987 participants (me...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models",
+      "url": "https://arxiv.org/abs/2607.19237",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.19237v1 Announce Type: new \nAbstract: Designing small molecule ligands that bind with high affinity to specific protein pockets is a fundamental goal in drug discovery, as small molecules constitute a major fraction of approved therapeutics. Recent breakthroughs in structure prediction, such as AlphaFold-3 and Boltz-2, enable accurate biomolecu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
