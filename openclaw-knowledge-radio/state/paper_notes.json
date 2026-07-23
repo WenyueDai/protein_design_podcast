@@ -2835,6 +2835,11 @@
       "note": "DD",
       "title": "Thoughts on the \"Netflix Analogy\"",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://doi.org/10.1016/j.cell.2026.06.029": {
+      "note": "DD",
+      "title": "Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.",
+      "source": "PubMed — Cell"
     }
   }
 }
