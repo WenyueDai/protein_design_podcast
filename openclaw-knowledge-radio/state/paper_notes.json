@@ -2845,6 +2845,11 @@
       "note": "DD",
       "title": "Refnd: Preventing Data Leakage in Relational Datasets",
       "source": "arXiv q-bio.QM"
+    },
+    "https://doi.org/10.1016/j.canlet.2026.218753": {
+      "note": "DD",
+      "title": "Antibody-Drug Conjugates Against Multidrug-Resistant Cancers: Biomarker-Guided Patient Selection, Payload Engineering, L",
+      "source": "PubMed — Cancer letters"
     }
   }
 }
