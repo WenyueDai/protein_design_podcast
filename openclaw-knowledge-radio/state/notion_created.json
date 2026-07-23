@@ -2094,5 +2094,13 @@
   "2026-07-23|https://www.science.org/content/blog-post/thoughts-netflix-analogy": {
     "page_id": "3a65f58e-a8c2-81ac-b528-f9667e728f45",
     "note": "DD"
+  },
+  "2026-07-23|https://doi.org/10.1016/j.cell.2026.06.029": {
+    "page_id": "3a65f58e-a8c2-81f6-8ae1-e8abff9ee324",
+    "note": "DD"
+  },
+  "2026-07-23|https://arxiv.org/abs/2607.19376": {
+    "page_id": "3a65f58e-a8c2-8114-a985-cdceb12e7025",
+    "note": "DD"
   }
 }
