@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Jul 2026 05:43:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 05:48:26 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-07-23</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-23/podcast_2026-07-23.mp3</guid>
+      <pubDate>Thu, 23 Jul 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-23/podcast_2026-07-23.mp3" length="17546685" type="audio/mpeg" />
+      <description>Imagine you’re standing at the whiteboard trying to sketch why today’s papers feel like a collective pivot rather than a series of isolated updates. | A second, more concrete re‑orientation appears in the melanoma epigenetics work. | The third shift is methodological and lands squarely in antibody design.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Imagine you’re standing at the whiteboard trying to sketch why today’s papers feel like a collective pivot rather than a series of isolated updates. | A second, more concrete re‑orientation appears in the melanoma epigenetics work. | The third shift is methodological and lands squarely in antibody design.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-07-22</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-22/podcast_2026-07-22.mp3</guid>
       <pubDate>Wed, 22 Jul 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-22/podcast_2026-07-22.mp3" length="19684797" type="audio/mpeg" />
-      <description>The first shift comes from the Hybrid Transcription‑Translation framework described in | If I were designing a project inspired by today’s papers I would start by marrying the biologically induced sparse‑attention protein language model with the HyTT framework to anticipate how viral proteins reshape host proteome allocation. | A second idea builds on the antibody‑validation lesson: use the sparse‑attention PLM to pre‑filter nanobody libraries for developability before costly empirical screens.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-22/podcast_2026-07-22.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The first shift comes from the Hybrid Transcription‑Translation framework described in | If I were designing a project inspired by today’s papers I would start by marrying the biologically induced sparse‑attention protein language model with the HyTT framework to anticipate how viral proteins reshape host proteome allocation. | A second idea builds on the antibody‑validation lesson: use the sparse‑attention PLM to pre‑filter nanobody libraries for developability before costly empirical screens.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-14/podcast_2026-05-14.mp3</guid>
       <pubDate>Thu, 14 May 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-14/podcast_2026-05-14.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-05-13</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-13/podcast_2026-05-13.mp3</guid>
-      <pubDate>Wed, 13 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-13/podcast_2026-05-13.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

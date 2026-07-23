@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    196.75,
+    381.4,
+    993.9,
+    1035.3,
+    1197.15,
+    1341.29,
+    1382.59,
+    1423.14,
+    1587.78,
+    1813.06
+  ],
+  "items": [
+    {
+      "title": "Thoughts on the \"Netflix Analogy\"",
+      "url": "https://www.science.org/content/blog-post/thoughts-netflix-analogy",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Systematic multivariate analysis of chromatin complex dependencies reveals Set1C/COMPASS as a melanoma-enriched epigenetic vulnerability",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705694",
+      "source": "bioRxiv — cancer biology",
+      "one_liner": "Epigenetic dysregulation is a common feature of cancer. It creates vulnerabilities arising from an increased reliance on chromatin-based mechanisms that sustain malignant transcriptional states. While many chromatin regulators are broadly required for cellular viability, others function in a context-dependent manner across distinct oncogenic settings, tis...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Antigen-specific Antibody Multi-modal Foundation Model for Functional Antibody Design",
+      "url": "https://arxiv.org/abs/2607.20057",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.20057v1 Announce Type: new \nAbstract: Antibodies are essential proteins that play a central role in immune recognition by binding specific antigen molecules. Although recent protein language models have enabled progress in single-chain protein modeling and generation, they often fall short in antigen-specific antibody design, where effective mo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.",
+      "url": "https://doi.org/10.1016/j.cell.2026.06.029",
+      "source": "PubMed — Cell",
+      "one_liner": "Protein-protein interactions underlie biological complexity, and modeling their coevolution is essential for characterizing and engineering molecular assemblies. While protein and genomic language models have excelled at modeling individual proteins, extending these capabilities to protein complexes remains challenging. We present multiple sequence alignm...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Glycosylation penetrance of N-X-S/T sequons in antibody variable domains: a structural survey of 19,265 human antibody structures reassessing the histidine/glutamine suppression hypothesis.",
+      "url": "https://doi.org/10.1080/19420862.2026.2703349",
+      "source": "PubMed — mAbs",
+      "one_liner": "Machine learning (ML) approaches for de novo antibody design generate thousands of candidate sequences, but most lack a robust assessment of post-translational modification liabilities. N-linked glycosylation in variable domains can fundamentally alter antibody function, yet current penetrance estimates are derived from glycosylation-enriched datasets inf...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Model Gateway: Management Platform for Model-Driven Drug Discovery",
+      "url": "https://arxiv.org/abs/2512.05462",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2512.05462v2 Announce Type: replace-cross \nAbstract: Pharmaceutical drug discovery demands machine learning (ML) infrastructure that goes beyond general-purpose Machine Learning Operations (MLOps): inference-time composition of multiple models for multi-parameter optimization (MPO), version management for physics-based models without serialized ML a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Refnd: Preventing Data Leakage in Relational Datasets",
+      "url": "https://arxiv.org/abs/2607.19376",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2607.19376v1 Announce Type: new \nAbstract: Machine learning models trained on biochemical data are routinely evaluated using splits that fail to account for relational structure, causing information leakage and over-optimistic performance estimates. Existing splitting methods lack theoretical grounding and scale at best quadratically. We introduce t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Antibody-Drug Conjugates Against Multidrug-Resistant Cancers: Biomarker-Guided Patient Selection, Payload Engineering, Linker Chemistry, and Bystander Effects.",
+      "url": "https://doi.org/10.1016/j.canlet.2026.218753",
+      "source": "PubMed — Cancer letters",
+      "one_liner": "Antibody-drug conjugates (ADCs) are one of the most significant advancements in modern cancer therapeutics. Combining the target selectivity of monoclonal antibodies with the cytotoxic potential of payloads, ADCs effectively kill cancer cells and offer hope to patients with even refractory cancer types. Beyond simply increasing the number of therapeutic o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beyond Confidence in AI-Assisted Colonoscopy: A Spatial, Temporal and Quality-Aware Audit Framework for Endoscopic AI Review",
+      "url": "https://arxiv.org/abs/2607.19372",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2607.19372v1 Announce Type: cross \nAbstract: AI-assisted colonoscopy systems commonly report frame-level confidence scores, but confidence alone does not show whether a prediction is spatially plausible, temporally persistent or reliable under degraded image quality. We propose EndoExplain, a lightweight and reproducible audit framework for endoscop...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Anti-CD20 B cell depletion is associated with elevated mucosal-originating circulating regulatory IgA B cells in multiple sclerosis.",
+      "url": "https://doi.org/10.1126/scitranslmed.aee1580",
+      "source": "PubMed — Science translational medicine",
+      "one_liner": "Therapy with anti-CD20 monoclonal antibodies is highly efficacious in various autoimmune diseases including multiple sclerosis (MS), a prototypic autoimmune inflammatory disease of the central nervous system (CNS). However, which B cell subsets and altered B cell-regulating factors mediate the clinical efficacy of anti-CD20 treatment is unclear. To addres...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep learning-based computational pathology: Technologies, clinical applications, and future directions.",
+      "url": "https://doi.org/10.1097/CM9.0000000000004154",
+      "source": "PubMed — Chinese medical journal",
+      "one_liner": "The adoption of whole-slide imaging is establishing a new paradigm in digital pathology. However, the translation of artificial intelligence (AI) from research to clinical practice faces significant hurdles, largely due to a misalignment between algorithmic advances and the practical demands of pathological diagnosis and prognosis. In this review, we prop...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence and Large Language Models: A Case-Based, Peer-Teaching Workshop for Preclinical Medical Students.",
+      "url": "https://doi.org/10.15766/mep_2374-8265.11621",
+      "source": "PubMed — MedEdPORTAL : the journal of teaching and learning resources",
+      "one_liner": "INTRODUCTION: Artificial intelligence tools have rapidly become integrated in health care settings and are quickly affecting medical student education. However, there remains limited formal teaching on such tools in student curricula. This project sought to introduce preclerkship medical students to the basics of large language models and allow them to pr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hyperfusogenic Mutations Destabilize the Postfusion Six-Helix Bundle of the Measles Virus Fusion Glycoprotein.",
+      "url": "https://doi.org/10.1021/acs.biochem.6c00182",
+      "source": "PubMed — Biochemistry",
+      "one_liner": "Fusion of the host membrane and viral envelope by class I viral fusion proteins is driven by the assembly of a postfusion six-helix bundle formed through antiparallel interactions between N-terminal (HR1) and C-terminal (HR2) heptad-repeat regions. Although mutations in these regions of the measles virus (MeV) fusion (F) glycoprotein are known to promote ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design and evaluation of an EpCAM-specific peptide-diphtheria toxin fusion (DT-SNFYMPL) for targeted epithelial cancer treatment.",
+      "url": "https://doi.org/10.1007/s12032-026-03347-x",
+      "source": "PubMed — Medical oncology (Northwood, London, England)",
+      "one_liner": "Epithelial cell adhesion molecule (EpCAM, CD326) is a transmembrane glycoprotein that plays important roles in both normal epithelial tissues and epithelial malignancies. Its frequent overexpression in several cancers, including pancreatic, colorectal, and prostate carcinomas, has made it an attractive therapeutic target. In this study, we designed and ev...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design, synthesis, biological evaluation, and in silico analysis of novel coumarin carboxamides as acetylcholinesterase and butyrylcholinesterase inhibitors and anticancer agents.",
+      "url": "https://doi.org/10.1007/s10822-026-00897-0",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "In this study, coumarin-3-carboxamide derivatives were designed and evaluated through a comprehensive in silico and in vitro combined approaches to identify cholinesterase inhibitors. Molecular docking, molecular dynamics (MD) simulations, and MM/GBSA analyses revealed strong binding affinities and stable interactions within key catalytic regions of AChE ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hybrid Nonviral Nanocarriers Enable Functional Neural Modulation.",
+      "url": "https://doi.org/10.1021/acsnano.6c07588",
+      "source": "PubMed — ACS nano",
+      "one_liner": "Extracellular vesicles released from the neuronal cells mediate the transfer of proteins, nucleic acids, and neurotransmitter-related cargoes, shaping gene expression and intercellular communication across neural circuits. Leveraging this endogenous pathway, we fused astrocyte-derived exosomes with RNA-loaded synthetic liposomes to create sub-100 nm hybri...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DynaTCR: Dynamic hard-negative ensemble graph learning improves TCR-epitope binding prediction.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag544",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: T-cell receptors (TCRs) recognize antigenic peptides presented by major histocompatibility complex (MHC) molecules and are central to adaptive immunity. Computational prediction of TCR-epitope binding (TEB) can accelerate immunotherapy development, yet remains hampered by limited labeled data, false-negative noise in unobserved pairs, and over...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Automated identification of cardiac amyloidosis using cross-modal neural networks on [Formula: see text]-Pyrophosphate SPECT imaging and clinical data.",
+      "url": "https://doi.org/10.1007/s10554-026-03778-7",
+      "source": "PubMed — The international journal of cardiovascular imaging",
+      "one_liner": "Accurate, early identification of transthyretin cardiac amyloidosis (ATTR-CA) is challenging yet critical for effective treatment. In this work, the modeled endpoint is scan positivity on [Formula: see text] scintigraphy, defined by the semi-quantitative Perugini visual grade (Grade 2-3 versus Grade 0-1). Two multimodal deep-learning frameworks, including...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pharmacological potential of the marine peptide cyclo(L-phenylalanyl-L-prolyl) against both multidrug-resistant, gram-negative Acinetobacter baumannii and gram-positive Staphylococcus aureus: structure - activity relationship, computational and experimental studies.",
+      "url": "https://doi.org/10.1007/s42770-026-02031-6",
+      "source": "PubMed — Brazilian journal of microbiology : [publication of the Brazilian Society for Microbiology]",
+      "one_liner": "The marine cyclic dipeptide, cyclo(phenylalanine-proline) (cFP), exhibits promising antimicrobial and antibiofilm activities. The balanced reactivity and stability of the compound, which are conducive to multi-target interactions, were identified using the density functional theory (DFT) calculations, and PASS (Prediction of Activity Spectra for Substance...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Boltzmann-Expected Molecular Design with Decoupled Annealing Flows",
+      "url": "https://arxiv.org/abs/2607.19519",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.19519v1 Announce Type: cross \nAbstract: Most 3D properties relevant to molecular design, including free energies and shape descriptors, are $\\textit{expectations}$ over the Boltzmann distribution over 3D configurations of a molecular graph. However, existing property-guided generative models tie each property to a single structure, ignoring the...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
