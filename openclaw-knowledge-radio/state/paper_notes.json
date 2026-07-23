@@ -2840,6 +2840,11 @@
       "note": "DD",
       "title": "Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.",
       "source": "PubMed — Cell"
+    },
+    "https://arxiv.org/abs/2607.19376": {
+      "note": "DD",
+      "title": "Refnd: Preventing Data Leakage in Relational Datasets",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
