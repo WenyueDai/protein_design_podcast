@@ -2862,6 +2862,11 @@
       "note": "DD",
       "title": "DeorphaNN: Virtual screening of GPCR peptide agonists using AlphaFold-predicted active-state complexes and deep learning",
       "source": "PubMed — Molecular cell"
+    },
+    "https://doi.org/10.1038/s41586-026-10820-0": {
+      "note": "DD",
+      "title": "AI-redesigned starting points and outcomes enhance protein evolution.",
+      "source": "PubMed — Nature"
     }
   }
 }
