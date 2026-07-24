@@ -2857,6 +2857,11 @@
       "note": "DD",
       "title": "The Assault On Science Funding Continues",
       "source": "In the Pipeline (Derek Lowe)"
+    },
+    "https://doi.org/10.1016/j.molcel.2026.07.006": {
+      "note": "DD",
+      "title": "DeorphaNN: Virtual screening of GPCR peptide agonists using AlphaFold-predicted active-state complexes and deep learning",
+      "source": "PubMed — Molecular cell"
     }
   }
 }
