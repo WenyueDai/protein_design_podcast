@@ -2872,6 +2872,11 @@
       "note": "DD",
       "title": "Prediction of compost physicochemical properties using image-based feature extraction and machine learning.",
       "source": "PubMed — Waste management (New York, N.Y.)"
+    },
+    "https://doi.org/10.1007/s10822-026-00876-5": {
+      "note": "DD",
+      "title": "Artificial intelligence in impurity prediction: current landscape, challenges, and future directions.",
+      "source": "PubMed — Journal of computer-aided molecular design"
     }
   }
 }
