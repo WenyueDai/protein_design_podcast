@@ -2867,6 +2867,11 @@
       "note": "DD",
       "title": "AI-redesigned starting points and outcomes enhance protein evolution.",
       "source": "PubMed — Nature"
+    },
+    "https://doi.org/10.1016/j.wasman.2026.115769": {
+      "note": "DD",
+      "title": "Prediction of compost physicochemical properties using image-based feature extraction and machine learning.",
+      "source": "PubMed — Waste management (New York, N.Y.)"
     }
   }
 }
