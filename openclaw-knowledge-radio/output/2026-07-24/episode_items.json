@@ -1,0 +1,296 @@
+{
+  "timestamps": [
+    0.0,
+    198.74,
+    387.35,
+    581.6,
+    761.29,
+    1012.54,
+    1149.05,
+    1317.72,
+    1464.52,
+    1633.86,
+    1898.96
+  ],
+  "items": [
+    {
+      "title": "The Assault On Science Funding Continues",
+      "url": "https://www.science.org/content/blog-post/assault-science-funding-continues",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "DeorphaNN: Virtual screening of GPCR peptide agonists using AlphaFold-predicted active-state complexes and deep learning embeddings.",
+      "url": "https://doi.org/10.1016/j.molcel.2026.07.006",
+      "source": "PubMed — Molecular cell",
+      "one_liner": "Peptide-activated G protein-coupled receptors (GPCRs) regulate physiological processes through interaction with neuropeptides and peptide hormones. Identifying endogenous peptide agonists remains challenging, as peptide-GPCR pairings often follow gene-family relationships that offer limited predictive insight for orphan GPCRs without characterized homolog...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Improving expression of Photobacterium sp. JT-ISH-224 α2,6-sialyltransferase using ProteinMPNN and machine learning guided combinatory mutagenesis.",
+      "url": "https://doi.org/10.1007/s10529-026-03756-y",
+      "source": "PubMed — Biotechnology letters",
+      "one_liner": "Industrial-scale production of 6'-sialyllactose (6'-SL), a sialylated human milk oligosaccharide, has recently attracted increasing attention. As a crucial enzyme for both microbial synthesis approaches and enzymatic catalysis, several α2,6-sialyltransferases (α2,6-SiaTs) have been reported and characterized. However, the low expression levels and poor st...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AlphaFold-driven structural proteomics reveals extensive cellulosome machinery in human ruminococcal symbionts.",
+      "url": "https://doi.org/10.1128/mbio.01295-26",
+      "source": "PubMed — mBio",
+      "one_liner": "Cellulosomes are large, surface-displayed enzyme complexes that enable anaerobic bacteria to degrade recalcitrant plant polysaccharides, yet cellulosome-expressing bacteria are thought to be rare in the human gut. Here, we show that extensive sequence divergence obscures the detection of many ruminococcal cellulosomes by conventional sequence homology-bas...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational protein stability analysis of SCN1A missense variants reveals domain-dependent stability patterns.",
+      "url": "https://doi.org/10.1002/epi4.70312",
+      "source": "PubMed — Epilepsia open",
+      "one_liner": "OBJECTIVE: To determine whether computational protein-stability predictions discriminate pathogenic from benign SCN1A missense variants, and to characterize the structural distribution of predicted destabilization among pathogenic variants. METHODS: On an AlphaFold3-predicted Nav1.1 structure, FoldX, and Rosetta Cartesian ΔΔG were computed for a single Cl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-redesigned starting points and outcomes enhance protein evolution.",
+      "url": "https://doi.org/10.1038/s41586-026-10820-0",
+      "source": "PubMed — Nature",
+      "one_liner": "Engineered or laboratory-evolved proteins often have suboptimal stability, activity or specificity. Here we applied artificial intelligence (AI)-based protein sequence design to address challenges in experimental enzyme evolution. Using the model ProteinMPNN, we redesigned three distinct botulinum neurotoxin (BoNT) proteases, generating variants with impr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Programmable design of synthetic plant immune receptors for pathogen protein recognition.",
+      "url": "https://doi.org/10.1126/science.aee1792",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "The limited diversity and recognition scope of natural plant immune receptors impede resistance breeding against rapidly evolving pathogens. Here we report programmable design of synthetic plant immune receptors (SPIRs). De novo designed binding modules targeting pathogen proteins were grafted into the integrated decoy (ID) domain of a plant immune recept...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The interplay between epigenetic mechanisms and deleterious mutations: implications for fitness, evolution and conservation.",
+      "url": "https://doi.org/10.1098/rstb.2025.0032",
+      "source": "PubMed — Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+      "one_liner": "Understanding the causal effects of genetic mutations is essential for explaining fitness variation, forecasting evolutionary trajectories and assessing extinction risk, yet remains a fundamental challenge, particularly in natural populations. While amino acid substitutions can alter protein structure and function, mutations affecting gene regulation can ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Prediction of compost physicochemical properties using image-based feature extraction and machine learning.",
+      "url": "https://doi.org/10.1016/j.wasman.2026.115769",
+      "source": "PubMed — Waste management (New York, N.Y.)",
+      "one_liner": "This study evaluated standard digital photographs, combined with automated image segmentation and machine learning, to rapidly and non-destructively predict compost physicochemical properties. A total of 230 compost samples were collected from retail stores and commercial composting facilities across Georgia, South Carolina, and Tennessee, USA. Images wer...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Decision Support Framework for Quality Assurance and Enhancement of Therapeutic Artificial Intelligence Systems: Mixed Methods Pilot Study.",
+      "url": "https://doi.org/10.2196/87887",
+      "source": "PubMed — JMIR medical informatics",
+      "one_liner": "BACKGROUND: Therapeutic chatbots are increasingly deployed across digital mental health services, yet most evaluation efforts remain diagnostic rather than actionable. Organizations lack structured pathways to translate evaluation findings into validated quality improvements aligned with health care quality assurance requirements. OBJECTIVE: This study ai...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence in impurity prediction: current landscape, challenges, and future directions.",
+      "url": "https://doi.org/10.1007/s10822-026-00876-5",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "Earlier identification, regulation of impurities in pharmaceutical products is critical throughout the medication development process because they have a high impact on drug quality, safety, and regulatory approval. Traditional analytical methods like LC-MS and NMR are frequently used, but they are labour intensive, time consuming and have limited capacit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Benefits of Chain-of-Thought Prompting for Clinical Record Rubric Evaluation in Undergraduate Medical Education: Experimental Evaluation Study With Medical Faculty.",
+      "url": "https://doi.org/10.2196/88652",
+      "source": "PubMed — JMIR medical education",
+      "one_liner": "BACKGROUND: Large language models in artificial intelligence have been among the tools with a significant and real impact on people's daily lives. In this regard, they serve as an aid in specific fields, such as education, helping educators with cumbersome tasks such as periodic evaluations. OBJECTIVE: This study focused on analyzing the benefits of large...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Diagnosis of Parkinson's Disease Based on Voice and Speech Using Machine Learning and Deep Learning: A Systematic Umbrella Review.",
+      "url": "https://doi.org/10.1016/j.jvoice.2026.06.055",
+      "source": "PubMed — Journal of voice : official journal of the Voice Foundation",
+      "one_liner": "OBJECTIVES: Early diagnosis of Parkinson's disease (PD) is complicated. Speech impairment, as an early symptom of PD, offers a noninvasive, scalable biomarker for remote assessment. Speech-based machine learning has shown promise, but methodological quality of existing evidence remains unclear. This review examines the previous reviews on the performance ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TextDTI: A Multimodal Context Representation Learning Framework for Drug-Target Interaction Prediction.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01435",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Predicting Drug-Target Interactions (DTIs) is a crucial task in drug discovery. Recent advances in deep learning, particularly the application of Large Language Models (LLMs), have shown promise in encoding sequential information from SMILES strings and protein sequences. However, integrating these diverse modalities remains a challenge. In this paper, we...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep Learning Prediction of O-Glycopeptide Tandem Mass Spectra Enhances O-Glycoproteomics.",
+      "url": "https://doi.org/10.1002/advs.76760",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Protein glycosylation, a post-translational modification involving the attachment of glycans to proteins, plays critical roles in numerous physiological and pathological cellular functions. Characterization of protein glycosylation is one of the most challenging problems due to the high heterogeneity of glycosites and glycan structures. Recently, deep lea...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Graph Learning on Ensembles of Cyclic Peptides: An Investigation of Molecular Ensemble Modeling",
+      "url": "https://arxiv.org/abs/2607.21561",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.21561v1 Announce Type: cross \nAbstract: Molecular property prediction from structure often uses a single representative conformation, even though many molecules exist as conformational ensembles in solution. We introduce EnsembleEGNN, a molecular ensemble foundation model that encodes an ensemble by first encoding each conformer with shared Equ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Beyond Platelet Destruction: A Mechanistic Understanding of Dengue Virus Non-Structural Proteins and Gene Regulatory Networks Driving Thrombocytopenia.",
+      "url": "https://doi.org/10.1007/s11239-026-03365-6",
+      "source": "PubMed — Journal of thrombosis and thrombolysis",
+      "one_liner": "Thrombocytopenia is a defining and prognostically relevant feature of dengue virus infection, yet its mechanistic basis remains incompletely resolved. Classical models have emphasized immune-mediated platelet destruction or transient bone marrow suppression as independent causes of platelet loss. Increasing evidence, however, suggests that these explanati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting Enantioselectivity of Ruthenium-Catalyzed Ketone Hydrogenation with 3D Structure-Based Deep Learning.",
+      "url": "https://doi.org/10.1021/jacs.6c07313",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "We report machine-learning (ML) models that predict with high accuracy the enantioselectivity of ketone hydrogenation with Noyori-type diphosphine-diamine catalysts. To mitigate bias in published data, we combined a data set curated from the literature with >1,000 examples from our own high-throughput experimentation. We demonstrate that 3D graph neural n...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fungal biofilms and pleomorphism under the effect of sesquiterpenes valencene and nootkatone: an in vitro and in silico approach.",
+      "url": "https://doi.org/10.1016/j.micpath.2026.108725",
+      "source": "PubMed — Microbial pathogenesis",
+      "one_liner": "Candida spp. and Pichia spp. undergo morphological transitions and invade host tissues through biofilm formation, making fungal infections more difficult to treat. To identify new antifungal compounds, this study evaluated the effects of valencene and nootkatone on fungal pleomorphism, biofilm eradication, interactions with virulence-associated proteins, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multilevel Graph Wavelet Compressed Sensing with Scale-Aware Neural Recovery",
+      "url": "https://arxiv.org/abs/2607.20857",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.20857v1 Announce Type: new \nAbstract: Scientific machine learning methods such as neural operators and physics-informed neural networks have advanced engineering applications and inverse problems, but their training typically requires large volumes of simulated data. This makes data preparation and model training expensive. We propose Graph Wav...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
