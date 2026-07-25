@@ -2884,6 +2884,11 @@
       "note": "DD",
       "title": "SimBinder-IF: Structure-Aware Antibody Affinity Optimization via Efficient Preference Learning.",
       "source": "PubMed — Bioinformatics (Oxford, England)"
+    },
+    "https://doi.org/10.1016/j.nbt.2026.02.010": {
+      "note": "DD",
+      "title": "Harnessing AI to decode protein kinases: Structural, functional, and therapeutic design perspectives.",
+      "source": "PubMed — New biotechnology"
     }
   }
 }
