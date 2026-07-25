@@ -2878,5 +2878,12 @@
       "title": "Artificial intelligence in impurity prediction: current landscape, challenges, and future directions.",
       "source": "PubMed — Journal of computer-aided molecular design"
     }
+  },
+  "2026-07-25": {
+    "https://doi.org/10.1093/bioinformatics/btag548": {
+      "note": "DD",
+      "title": "SimBinder-IF: Structure-Aware Antibody Affinity Optimization via Efficient Preference Learning.",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
+    }
   }
 }
