@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    208.75,
+    438.71,
+    1076.24,
+    1304.14,
+    1511.74,
+    1755.74,
+    1937.68,
+    2165.22,
+    2376.59,
+    2628.56
+  ],
+  "items": [
+    {
+      "title": "GoMA-DTA: A Gene Ontology-Guided Multimodal Attention Fusion Model for Drug-Target Affinity Prediction.",
+      "url": "https://doi.org/10.1109/TNNLS.2026.3713190",
+      "source": "PubMed — IEEE transactions on neural networks and learning systems",
+      "one_liner": "Accurate prediction of drug-target affinity (DTA) is essential for accelerating drug discovery. Although pretrained protein language models have achieved significant progress, existing methods predominantly focus on bottom-up sequence patterns and lack explicit constraints from high-level biological functions. We propose GoMA-DTA, a framework integrating ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SimBinder-IF: Structure-Aware Antibody Affinity Optimization via Efficient Preference Learning.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag548",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Antibody therapeutic efficacy depends on high-affinity target engagement, yet laboratory affinity maturation is slow and costly. Most protein language models (PLMs) lack explicit training for high affinity, and current preference optimization methods introduce computational overhead without clear affinity improvements. Therefore, structure-awa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Harnessing AI to decode protein kinases: Structural, functional, and therapeutic design perspectives.",
+      "url": "https://doi.org/10.1016/j.nbt.2026.02.010",
+      "source": "PubMed — New biotechnology",
+      "one_liner": "Recent advances in Artificial Intelligence (AI) are reshaping kinase research by uncovering complex regulatory mechanisms and accelerating drug discovery. These advances have enabled the capture of elusive allosteric transitions and transient cryptic pockets by exploring dynamic conformational landscapes, revealing features critical for understanding liga...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Redistribution of sidechain-sidechain interactions govern ligand-specific binding affinity changes in missense Shank1 PDZ mutants",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.03.662971",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Shank proteins represent a family of abundant scaffolds in the postsynaptic density. Their dysfunctions had been identified as possible causes behind autism spectrum disorders and various types of cancer. The remarkably promiscuous PDZ domain of the Shank family is highly conserved through isoforms, and contains a unique dynamic segment, the {beta}2-{beta...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Physics-constrained learning framework for trustworthy microrobot navigation autonomy.",
+      "url": "https://doi.org/10.1126/sciadv.aef7326",
+      "source": "PubMed — Science advances",
+      "one_liner": "Machine learning has become an emerging paradigm for microrobotics, enabling autonomous micro-/nanorobot navigation in complex and highly disturbed environments without requirements of precise models. However, the state-of-the-art learning-based methods adopt \"black-box\" neural networks (NNs), which raises critical concerns about the trustworthiness of th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A hybrid CNN-machine learning model for anxiety screening with mandala coloring patterns: Feature extraction and classification performance.",
+      "url": "https://doi.org/10.1016/j.actpsy.2026.107497",
+      "source": "PubMed — Acta psychologica",
+      "one_liner": "Traditional anxiety assessments typically rely on self-report questionnaires and often emphasize somatic symptoms, potentially overlooking nuanced behavioral indicators. This study presents a hybrid convolutional neural network (CNN) and machine learning (ML) model to classify visual features of coloring accuracy, color transitions, color entropy, and sym...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence-assisted mining of polyethylene terephthalate hydrolases.",
+      "url": "https://doi.org/10.1016/j.nbt.2026.03.010",
+      "source": "PubMed — New biotechnology",
+      "one_liner": "Polyethylene terephthalate (PET) hydrolases efficiently hydrolyze the ester bonds in PET, converting it into valuable monomers or oligomers, offering a sustainable biological solution to global PET plastic pollution. However, the large-scale development of high-performance PET hydrolases remains challenging due to limitations in traditional enzyme resourc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fundus image analysis of retinitis pigmentosa using artificial intelligence.",
+      "url": "https://doi.org/10.1371/journal.pone.0354452",
+      "source": "PubMed — PloS one",
+      "one_liner": "Retinitis pigmentosa (RP) is a group of inherited retinal diseases that are caused by genetic defects that lead to progressive photoreceptor loss and eventual blindness. Early diagnosis would be helpful for effective management of the disease; however, many patients stay unaware of early symptoms. Meanwhile, fundus images are widely obtained during routin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-Guided Identification of 2-Arylbenzothiazole as disruptors for the Oncogenic MTDH-SND1 Protein-Protein Interaction.",
+      "url": "https://doi.org/10.1016/j.abb.2026.110949",
+      "source": "PubMed — Archives of biochemistry and biophysics",
+      "one_liner": "The protein-protein interaction (PPI) between metadherin (MTDH) and staphylococcal nuclease and tudor domain-containing 1 (SND1) drives oncogenic signaling and tumor progression in multiple cancer types, yet remains an underexploited therapeutic target. Here, we report an integrated computational-experimental strategy to identify small-molecule disruptors...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multiway Autoregressive Network: A Dynamic Graph Representation Framework for Temporal Link Prediction.",
+      "url": "https://doi.org/10.1109/TNNLS.2026.3711317",
+      "source": "PubMed — IEEE transactions on neural networks and learning systems",
+      "one_liner": "Understanding how links form and predicting future link states is of great importance in social, traffic, and many other complex temporal networks. These temporal networks are typically governed by multiple evolutionary mechanisms. However, existing dynamic graph representation methods, especially dynamic graph neural networks (DGNNs), are constrained by ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A hybrid convolutional-transformer neural network model for photovoltaic fault detection and localization.",
+      "url": "https://doi.org/10.1038/s41598-026-57859-7",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Energy retention from losses is the primary goal of fault detection methodology for photovoltaic (PV) solar systems. A fault detection model should be designed effectively to minimize power and cost waste. We propose a novel fault detection and localization method that leverages deep learning techniques for PV systems. The model is a hybrid semantic segme...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Perfluorohexane sulfonate (PFHxS) modulates conformational transitions, ligand-binding functions and aggregation of human serum albumin.",
+      "url": "https://doi.org/10.1016/j.etap.2026.105115",
+      "source": "PubMed — Environmental toxicology and pharmacology",
+      "one_liner": "Perfluorohexane sulfonate (PFHxS), a persistent short-chain member of perfluoroalkyl substances (PFAS) family, exhibits a long biological half-life and widespread human exposure, raising toxicological concerns. Human serum albumin (HSA), the most abundant plasma protein, regulates transport of xenobiotics, including PFAS, yet the effects of PFHxS binding ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HIT-MAP: A scalable approach to multimodal mapping of subcellular organization.",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101534",
+      "source": "PubMed — Cell reports methods",
+      "one_liner": "Multimodal mapping of subcellular protein organization through imaging and interaction proteomics has been mostly confined to large consortia, owing to high per-target costs, reliance on target-specific antibodies or libraries of epitope-tagged cDNAs, and the lack of unified pipelines for coordinated data acquisition. Here, we present HIT-MAP (high-throug...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Invasive pneumococcal disease unmasks monoclonal immunoglobulins and antibody deficiencies: a multicenter prospective study in adults.",
+      "url": "https://doi.org/10.1038/s41598-026-61992-8",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Immunoglobulins (Ig) are essential for protection against invading pneumococci but are not routinely analyzed in patients with invasive pneumococcal disease (IPD). In this prospective study, we assessed the prevalence of monoclonal Ig (M protein) and analyzed Ig concentrations in sera from 156 adult IPD patients (median age 70 years). Patients were sample...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Video summarization based on multi-scale feature fusion.",
+      "url": "https://doi.org/10.1371/journal.pone.0353773",
+      "source": "PubMed — PloS one",
+      "one_liner": "Video summarization aims to identify the important segments of a video and form a concise representation, enabling users to quickly grasp the core information. Existing graph-based video summarization methods suffer from insufficient modeling of multi-scale feature interactions and difficulties in balancing local and global features. To address this issue...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multi-view graph-regularized deep metric subspace clustering network.",
+      "url": "https://doi.org/10.1371/journal.pone.0354307",
+      "source": "PubMed — PloS one",
+      "one_liner": "Multi-view subspace clustering has progressed significantly by using deep neural networks to handle nonlinear data representations. A recent advancement, the Multi-view Self-Expressive Subspace Clustering (MSESC) network, achieves markedly higher computational efficiency by substituting the traditional self-expression layer with a deep metric learning app...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Selection profiles in RNA viruses reflect the characteristics of viruses more than individual proteins.",
+      "url": "https://doi.org/10.1371/journal.ppat.1014457",
+      "source": "PubMed — PLoS pathogens",
+      "one_liner": "Proteins that are exposed on the surface of a virus are frequently subject to strong selection to escape from neutralizing antibodies. To investigate whether surface-exposed (SE) and non-exposed (NE) proteins encoded by RNA viruses exhibit different patterns of evolution under selection, we analyzed 244 protein-coding genes from 28 species of RNA viruses ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Proteome-wide Mendelian randomization identifies causal plasma proteins in frontotemporal dementia.",
+      "url": "https://doi.org/10.1007/s10072-026-09249-0",
+      "source": "PubMed — Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+      "one_liner": "BACKGROUND: Frontotemporal dementia (FTD) is a genetically and clinically heterogeneous neurodegenerative disorder with no disease-modifying treatments. Plasma proteomic signatures offer a promising avenue for uncovering disease mechanisms and developing targeted interventions. METHODS: We conducted protein-wide Mendelian randomization meta-analysis to ex...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
