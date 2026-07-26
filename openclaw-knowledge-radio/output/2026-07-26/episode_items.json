@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    145.32,
+    213.16,
+    400.93,
+    591.27,
+    761.96,
+    962.47,
+    1128.55,
+    1290.74,
+    1505.03,
+    1797.03
+  ],
+  "items": [
+    {
+      "title": "Computational Design of a Broad-Spectrum Multi-Epitope mRNA Vaccine Candidate for Mammarenaviruses.",
+      "url": "https://doi.org/10.1007/s12010-026-05832-5",
+      "source": "PubMed — Applied biochemistry and biotechnology",
+      "one_liner": "Mammarenaviruses cause serious diseases such as Lassa fever and Argentine hemorrhagic fever that threaten global public health; however, vaccines and therapeutic options remain limited. Therefore, developing a broadly effective vaccine against mammarenaviruses is a priority. In this study, we systematically analyzed the main structural protein sequences o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pollen-Based Artificial Enzyme With Efficient Biocatalysis and Immune-Priming to Prevent Primary and Secondary Wound Infection.",
+      "url": "https://doi.org/10.1002/adma.74304",
+      "source": "PubMed — Advanced materials (Deerfield Beach, Fla.)",
+      "one_liner": "Bacterial infection poses a significant threat to clinical treatment due to the emergence of drug resistance and the high risk of recurrence. Here, we report the de novo design of a spiky pollen-based vanadium artificial enzyme particle (VAE-Pollen) that integrates potent reactive oxygen species (ROS)-catalytic activity with immune priming to prevent both...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PCIPG2.0: Multi-omics fusion and structure-aware graph autoencoding for protein complex identification.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag552",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Protein complexes execute cellular functions, yet identifying them from protein-protein interaction (PPI) networks remains challenging because interactomes are incomplete and purely topology-driven clustering often lacks mechanistic interpretability. Here we present PCIPG 2.0, an unsupervised framework that explicitly addresses two major bottl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Food peptides and the immune system: A review of their effects on macrophages, lymphocytes, and cytokine production.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.153691",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Food-derived bioactive peptides (FDBPs) are short amino acid sequences encrypted within dietary proteins that can be released during digestion, food processing or fermentation and exert immunomodulatory effects. This review critically examines recent evidence on the interactions between FDBPs and the immune system, with particular emphasis on macrophages,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Vascular signals coordinate cerebellar circuitry development.",
+      "url": "https://doi.org/10.1016/j.celrep.2026.117732",
+      "source": "PubMed — Cell reports",
+      "one_liner": "Neural circuit assembly requires precise coordinated interactions between developing neurons and the vasculature; yet, the instructive signals provided by endothelial cells remain largely unknown. Here, we find a vascular-to-neural signaling axis that orchestrates postnatal cerebellar development. Endothelial-specific deletion of the adapter protein Dab1 ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Elevation of anticancer drug-induced cytotoxicity by velpatasvir through downregulation of claudin-14 expression in human colorectal cancer cells.",
+      "url": "https://doi.org/10.1016/j.ejphar.2026.179183",
+      "source": "PubMed — European journal of pharmacology",
+      "one_liner": "Claudin-14 (CLDN14) is a tight junction protein that contributes to the development of chemoresistant phenotypes in human colorectal cancer (CRC) cells. CLDN14 may represent a potential therapeutic target for CRC. In this study, we identified velpatasvir (VEL), a clinically approved hepatitis C virus nonstructural protein 5A (NS5A) inhibitor, as a potent ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Prevalent phenotypic mutation impairs binding of broadly neutralizing antibodies to influenza hemagglutinin",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740633",
+      "source": "bioRxiv — microbiology",
+      "one_liner": "Mistakes during protein synthesis, such as transcription errors, occur often and lead to non-inheritable amino acid replacements generally known as phenotypic mutations. We recently used a consensus approach in high-throughput sequencing to determine the error landscape for influenza-hemagglutinin mRNA. We found single-site errors to occur with widely dif...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep learning for automated instance segmentation of residual roots in panoramic radiographs using mask R-CNN: A retrospective diagnostic accuracy study.",
+      "url": "https://doi.org/10.1097/MD.0000000000049876",
+      "source": "PubMed — Medicine",
+      "one_liner": "BACKGROUND: This study aimed to evaluate the efficacy of Mask regions with convolutional neural network (R-CNN) for the automated detection and segmentation of residual dental roots in panoramic radiographs and to compare its diagnostic performance against the semantic segmentation benchmark, U-shaped network (U-Net). METHODS: A retrospective dataset comp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Intrafilament nucleotide exchange in a prokaryotic actin homolog",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740542",
+      "source": "bioRxiv — microbiology",
+      "one_liner": "Polymerisation and disassembly govern the cellular functions of cytoskeletal proteins. In canonical nucleotide-dependent polymers such as actin and tubulin, nucleotide exchange occurs in soluble subunits but not within intact protofilaments. By contrast, the assembly dynamics and nucleotide dependency of the prokaryotic actin homolog MreB, whose polymeriz...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Graph-Based White Matter Tractometry: Methods, Applications, and the Path to Validation.",
+      "url": "https://doi.org/10.1007/s12021-026-09804-2",
+      "source": "PubMed — Neuroinformatics",
+      "one_liner": "Graph-based white matter tractometry represents bundles as networks, preserving spatial topology that traditional along-tract profiles collapse. This enables the detection of distributed pathology patterns organized across connected regions. The field is at a critical juncture: methods are proliferating rapidly, but validation infrastructure lags. We syst...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Sulfate ester motifs of carrageenan govern the assembly and functional properties of tea protein carriers.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.150540",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Incorporation of carrageenan (Car) offers an effective approach to modulate the assembly and functionality of protein-based nanocomplexes; however, the role of Car sulfate ester motifs has not been fully clarified. Here, κ-Car, ι-Car, and λ-Car with distinct sulfate content and distributions were used to construct Car/TP-Cur nanocomplexes. The sulfate est...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Post-translational modification of proteins in the human testis development pathway.",
+      "url": "https://doi.org/10.1093/humupd/dmag016",
+      "source": "PubMed — Human reproduction update",
+      "one_liner": "BACKGROUND: The foetal testes produce the androgens necessary to masculinise the developing embryo and support the maturation of germ cells, that will eventually develop into sperm, thus ensuring future reproductive capacity. The testes develop from the bi-potential gonads in a highly orchestrated process resulting in the differentiation of a complex tiss...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "KIF1A-mediated trafficking is required for neuronal autophagy in human neurons",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740140",
+      "source": "bioRxiv — neuroscience",
+      "one_liner": "Mutations in the molecular motor protein KIF1A result in a spectrum of neurodevelopmental and neurodegenerative disorders termed KIF1A-Associated Neurological Disorder (KAND). KIF1A mutations variably disrupt synaptic vesicle trafficking, but the effects of KIF1A mutations on other trafficking pathways remain unexplored. Autophagy is a conserved pathway r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Strain-specific epistasis shapes fitness landscapes of APOBEC3G antagonism by HIV-1 Vif proteins.",
+      "url": "https://doi.org/10.1126/sciadv.aed4872",
+      "source": "PubMed — Science advances",
+      "one_liner": "Host immune factors shape viral evolution. The HIV-1 viral infectivity factor (Vif) protein counteracts host Apolipoprotein B Messenger RNA Editing Enzyme Catalytic Polypeptide-like 3 (A3G) to ensure productive infection. Using deep mutational scanning across two divergent HIV-1 Vif proteins, we systematically mapped and compared the mutational landscapes...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Knowledge-driven interpretable neural networks for mechanistic insight.",
+      "url": "https://doi.org/10.1101/gr.281686.125",
+      "source": "PubMed — Genome research",
+      "one_liner": "Analyzing omics data in the context of pathway knowledge is critical for understanding the molecular mechanisms underlying pathological changes. However, current pathway analysis methods do not model the detailed mechanistic nature of biological interactions, limiting the understanding of pathway behavior to a relatively shallow level. To address this iss...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "House price prediction using a hybrid GRU-MLP based on binary whale optimization algorithm and ant colony optimization for hyperparameter tuning.",
+      "url": "https://doi.org/10.1038/s41598-026-62854-z",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Accurate house price prediction is essential for real estate valuation, investment planning, and intelligent property decision-support systems. This study proposes an optimized hybrid deep learning framework that integrates a Gated Recurrent Unit and Multilayer Perceptron model with the Binary Whale Optimization Algorithm for feature selection and Ant Col...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "EDNRA Forms a Positive Feedback Loop with the Hippo/YAP Axis to Drive Triple-Negative Breast Cancer Progression.",
+      "url": "https://doi.org/10.1002/advs.76784",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Sustained Hippo/Yes-associated protein (YAP) activation drives triple-negative breast cancer (TNBC), but druggable upstream regulators remain unclear. We investigated G protein-coupled receptors (GPCRs) as membrane inputs for YAP activation. TCGA-based Hippo/YAP signature analysis, marketed-drug GPCR annotation, and siRNA screening using connective tissue...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Live-imaging of endogenous neurofascins reveals glial adhesion shapes developing nodes of Ranvier",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740328",
+      "source": "bioRxiv — neuroscience",
+      "one_liner": "The organisation of myelinated axons into specialised domains is essential for saltatory conduction and depends on the polarised distribution of neuronal and glial cell-adhesion molecules, including neurofascins. However, how these domains assemble and refine in vivo remains unclear, as longitudinal imaging of endogenous proteins within intact nervous sys...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    }
+  ]
+}
