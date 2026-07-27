@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    236.23,
+    429.18,
+    711.56,
+    936.58,
+    1123.95,
+    1305.74,
+    1465.63,
+    1644.76,
+    1827.2,
+    2095.69
+  ],
+  "items": [
+    {
+      "title": "Screening and identification of novel milk-derived α-glucosidase inhibitory peptides: insights from molecular docking, molecular dynamics modeling, and network pharmacology.",
+      "url": "https://doi.org/10.1002/jsfa.70897",
+      "source": "PubMed — Journal of the science of food and agriculture",
+      "one_liner": "BACKGROUND: Milk-derived α-glucosidase-inhibiting peptides are attracting increasing attention from the scientific community because of their exceptional biological activity and excellent safety profile. However, the differences in inhibitory activity among peptides from various milk protein sources remain unclear. In this study, a novel α-glucosidase inh...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Biologically informed neural network models are robust to spurious interactions via self-pruning.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag556",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Computational models of cellular networks hold promise to uncover disease mechanisms and guide therapeutic strategies. Biology-informed neural networks (BINNs) is an emerging approach to create such models by combining the predictive power of deep learning with prior knowledge, a vital aspect of biological research. The architectures of BINN's...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Tandem kinase proteins and kinase-fusion architectures in plant immune system.",
+      "url": "https://doi.org/10.1016/j.biotechadv.2026.108991",
+      "source": "PubMed — Biotechnology advances",
+      "one_liner": "Tandem kinase proteins (TKPs) and kinase fusion proteins (KFPs) have emerged as a major class of intracellular immune receptors that complement classical pattern-recognition receptors (PRRs) and nucleotide-binding leucine-rich repeat (NLR) sensors in plants. These receptors integrate active kinases, pseudokinases, and diverse integrated domains to create ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A novel myopathy with autophagic vacuoles associated with biallelic variants in CLN8.",
+      "url": "https://doi.org/10.1111/bpa.70128",
+      "source": "PubMed — Brain pathology (Zurich, Switzerland)",
+      "one_liner": "Autophagic vacuoles in muscle fibers are a characteristic finding in several muscle diseases and usually indicate perturbed lysosomal protein degradation. Some of these are associated with defects in proteins directly involved in autophagy and lysosomal degradation. The gene CLN8 encodes an endoplasmic reticulum transmembrane protein, previously associate...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural Organization of the Nvj3-Mdm1 Complex Reveals a Conserved Lipid-Compatible Contact Site Module.",
+      "url": "https://doi.org/10.1177/25152564261471395",
+      "source": "PubMed — Contact (Thousand Oaks (Ventura County, Calif.))",
+      "one_liner": "Membrane contact sites are organized by protein assemblies that physically couple organelles and coordinate lipid metabolism, yet the structural principles that enable lipid exchange across these junctions remain poorly defined. At the nuclear-vacuolar junction (NVJ) in budding yeast, the tethering protein Mdm1 and its binding partner Nvj3 form a complex ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PLCβs are recruited to the plasma membrane in macrophages by both Gβγ and Gαq",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.28.702352",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "PLC{beta} enzymes cleave PIP2 from the plasma membrane, producing IP3 and DAG, which regulate intracellular Ca2+ levels and protein kinase C activity, respectively. They are regulated by GPCR signaling through the G proteins G{beta}{gamma} and Gq and have been shown to function as coincidence detectors for dual stimulation of Gq and Gi-coupled receptors v...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Glycoprotein nonmetastatic B as a pharmacological target in cancer: structural mechanisms, druggability, and therapeutic translation.",
+      "url": "https://doi.org/10.1016/j.bcp.2026.118289",
+      "source": "PubMed — Biochemical pharmacology",
+      "one_liner": "The malignant progression of cancer depends not only on oncogenic driver mutations but also on the adaptive rewiring of organelle stress responses that sustain cell survival under hostile tumor microenvironment (TME) conditions. Among these, the hijacking of lysosomal homeostasis has emerged as a critical vulnerability and a driver of therapeutic resistan...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rapid motility arrest of the Lyme disease spirochete, Borrelia burgdorferi, by vaccine-induced OspA antibodies",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740573",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Outer surface protein A (OspA)-based Lyme disease vaccines elicit antibodies that inhibit transmission of infectious Borrelia burgdorferi spirochetes from ticks to humans, although the mechanism by which this occurs is unclear. Here we demonstrate using high-resolution, single-cell fluorescence video microscopy that B. burgdorferi motility is arrested wit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "PLOD2 promotes colorectal cancer progression and immune escape via attenuating CD8",
+      "url": "https://doi.org/10.1016/j.intimp.2026.117190",
+      "source": "PubMed — International immunopharmacology",
+      "one_liner": "Colorectal cancer (CRC) remains a leading cause of cancer-related morbidity worldwide. Although immunotherapy has shown promise in improving outcomes for some patients, the response is variable, largely due to the complex dynamics of the tumor microenvironment (TME). The protein PLOD2, which is often overexpressed in CRC tissues, has been implicated in pr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PROGRESS Study: Longitudinal analysis of antioxidant status and its relationship with heat shock proteins in children with chronic kidney disease.",
+      "url": "https://doi.org/10.1007/s00467-026-07488-z",
+      "source": "PubMed — Pediatric nephrology (Berlin, Germany)",
+      "one_liner": "BACKGROUND: Chronic kidney disease (CKD) progresses via complex mechanisms, including oxidative stress and impaired antioxidant defenses. We aimed to investigate longitudinal changes in serum and urinary levels of superoxide dismutase (SOD), catalase, and glutathione in children with CKD, and to assess their relationship with heat shock proteins (HSPs), w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Decoding Anxiety: Plasma Lipids and Proteins as Causal Agents.",
+      "url": "https://doi.org/10.1016/j.bbr.2026.116402",
+      "source": "PubMed — Behavioural brain research",
+      "one_liner": "Anxiety disorders represent a major psychiatric burden, yet their molecular underpinnings remain poorly understood. While observational studies have linked circulating lipids and proteins to mental health, causal inference is hampered by confounding and reverse causation. Here, we leveraged two-sample Mendelian randomization (MR) to systematically evaluat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Characterization of NPR-14 in the Regulation of Sleep-Like Behaviour in Caenorhabditis elegans",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.21.739920",
+      "source": "bioRxiv — genetics",
+      "one_liner": "Sleep-like quiescence is an evolutionarily conserved state essential for physiological homeostasis; however, its dysregulation can lead to sleep disorders such as narcolepsy, which can be caused by abnormal neuropeptide signaling. In Caenorhabditis elegans, the G-protein-coupled receptor NPR-14 belongs to the orexin/allatotropin receptor family and has be...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Thioredoxin interacting protein (TXNIP), a redox regulator, mediates the EPAC-RAP1 signaling dependency of primary melanoma.",
+      "url": "https://doi.org/10.1038/s41388-026-03895-6",
+      "source": "PubMed — Oncogene",
+      "one_liner": "Progression of cutaneous primary melanoma that arises from melanocytes leads to lethal metastatic disease. Molecular mechanisms that control the growth of primary melanoma in the skin and promote progression are not fully understood. Previously we showed that RAP guanine exchange factors EPAC1/2 (Exchange Proteins Activated by cyclic AMP) promote the grow...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Receptor-interacting Protein Kinase 1 Regulates Microglial Polarization via the Csf3-JAK2/STAT3 Axis in Lipopolysaccharide-Induced inflammation and Lysolecithin-Induced Demyelination.",
+      "url": "https://doi.org/10.1016/j.brainresbull.2026.112056",
+      "source": "PubMed — Brain research bulletin",
+      "one_liner": "In numerous demyelinating diseases, brain tissue exhibits excessive inflammatory responses that promote the activation of immune cells, thereby exacerbating cellular damage and amplifying inflammatory cascades. Emerging evidence highlights receptor-interacting protein kinase 1 (RIPK1) is a pivotal regulator of neuroinflammation, and its dysregulation cont...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Supramolecular Polymer-Surfactant Co-Assemblies for Multivalent HSV-1 Inhibition.",
+      "url": "https://doi.org/10.1002/anie.8702628",
+      "source": "PubMed — Angewandte Chemie (International ed. in English)",
+      "one_liner": "Supramolecular assemblies are of fundamental importance for cellular life and bio-interactive materials. The structure and function of these assemblies are decisively influenced by the design of their molecular components. In this work, we present a modular synthetic strategy for six novel bio-functional surfactants with a sulfonate headgroup (termed Supr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-enabled lyophilization of advanced biologics: process intelligence, quality assessment, and formulation opportunities.",
+      "url": "https://doi.org/10.1016/j.ijpharm.2026.127227",
+      "source": "PubMed — International journal of pharmaceutics",
+      "one_liner": "Lyophilization is a key stabilization strategy for advanced biologics, including protein therapeutics, nucleic-acid-based products, extracellular vesicles, and other highly labile biopharmaceutical systems. However, the development of lyophilized biologic products remains constrained by the intrinsic complexity of coupled heat and mass transfer, limited r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Upregulation of PTEN mediated by FTO-m6A-YTHDF2 improves airway epithelial barrier damage and inflammation in asthma by inhibiting endoplasmic reticulum stress.",
+      "url": "https://doi.org/10.1016/j.yexcr.2026.115131",
+      "source": "PubMed — Experimental cell research",
+      "one_liner": "Phosphatase and tensin homolog deleted on chromosome ten (PTEN) alleviates airway remodeling in asthmatic mice by inhibiting CD38 protein expression. Dysregulation of PTEN expression mediated by N6-methyladenosine (m6A) regulators is involved in the progression of a variety of diseases. However, whether the dysregulated expression of PTEN in asthma is reg...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo-Designed Peptide-Engineered Multimodal Platform for Post-Ischemic Stroke Tissue Repair.",
+      "url": "https://doi.org/10.1002/adma.74330",
+      "source": "PubMed — Advanced materials (Deerfield Beach, Fla.)",
+      "one_liner": "Orchestrating tissue regeneration in complex pathologies like post-ischemic stroke requires materials that can precisely regulate multiple signaling pathways. A central challenge is engineering a single platform integrating mechanical, electrical, and biochemical cues to redirect these pathological networks. Here, we present a computation-driven, multimod...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evolution-Aware MSA Reasoning for Subsampling via Factor Graphs",
+      "url": "https://arxiv.org/abs/2607.22314",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.22314v1 Announce Type: new \nAbstract: Multiple Sequence Alignments (MSAs) provide protein language models with explicit evolutionary context, but their large depth makes subsampling unavoidable under limited token budgets. Existing strategies, including random selection, identity-based filtering, and diversity-driven sampling, are effective heu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "LatentFlow: Visual Analytics for Latent Space Analysis in Molecular Graph Neural Networks",
+      "url": "https://arxiv.org/abs/2607.21941",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.21941v1 Announce Type: new \nAbstract: Chemists and materials scientists increasingly use machine learning models, such as graph neural networks (GNNs), to predict properties of molecules and the outcomes of their reactions. Beyond predictive performance, understanding how these models organize chemical information internally in their latent spa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
