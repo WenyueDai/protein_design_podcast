@@ -2895,5 +2895,12 @@
       "title": "Redistribution of sidechain-sidechain interactions govern ligand-specific binding affinity changes in missense Shank1 PD",
       "source": "bioRxiv — molecular biology"
     }
+  },
+  "2026-07-27": {
+    "https://arxiv.org/abs/2607.22314": {
+      "note": "DD",
+      "title": "Evolution-Aware MSA Reasoning for Subsampling via Factor Graphs",
+      "source": "arXiv cs.LG (AI/ML)"
+    }
   }
 }
