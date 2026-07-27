@@ -2130,5 +2130,17 @@
   "2026-07-25|https://doi.org/10.1093/bioinformatics/btag548": {
     "page_id": "3a85f58e-a8c2-8120-ad45-ca3aecfee48b",
     "note": "DD"
+  },
+  "2026-07-25|https://doi.org/10.1016/j.nbt.2026.02.010": {
+    "page_id": "3a85f58e-a8c2-81dd-b3a0-c12bc5d34368",
+    "note": "DD"
+  },
+  "2026-07-25|https://www.biorxiv.org/content/10.1101/2025.07.03.662971": {
+    "page_id": "3a85f58e-a8c2-81d5-b67e-f183ec859d95",
+    "note": "DD"
+  },
+  "2026-07-27|https://arxiv.org/abs/2607.22314": {
+    "page_id": "3aa5f58e-a8c2-81c5-aa71-fdbd1bd629f3",
+    "note": "DD"
   }
 }
