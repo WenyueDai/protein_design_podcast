@@ -2933,6 +2933,11 @@
       "note": "DD",
       "title": "HELM-BERT: Topology-Aware Representations for Chemically Modified Peptides.",
       "source": "PubMed — Journal of chemical information and modeling"
+    },
+    "https://arxiv.org/abs/2503.14549": {
+      "note": "DD",
+      "title": "Sampling Decisions: Exact Path-Space Correction, Prior Cancellation and Local-Boltzmann Guidance",
+      "source": "arXiv cs.LG (AI/ML)"
     }
   }
 }
