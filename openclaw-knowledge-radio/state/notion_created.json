@@ -2158,5 +2158,17 @@
   "2026-07-28|https://doi.org/10.1093/gigascience/giag080": {
     "page_id": "3ab5f58e-a8c2-8131-9bc3-f83dfb6cbc7b",
     "note": "DD"
+  },
+  "2026-07-28|https://doi.org/10.1021/acs.jmedchem.6c00089": {
+    "page_id": "3ab5f58e-a8c2-8133-9060-d8988755405b",
+    "note": "DD"
+  },
+  "2026-07-28|https://doi.org/10.1021/acs.jcim.6c00451": {
+    "page_id": "3ab5f58e-a8c2-81a0-b7fc-c025b47c2e86",
+    "note": "DD"
+  },
+  "2026-07-28|https://arxiv.org/abs/2503.14549": {
+    "page_id": "3ab5f58e-a8c2-81b5-8c7f-d58509710f0d",
+    "note": "DD"
   }
 }
