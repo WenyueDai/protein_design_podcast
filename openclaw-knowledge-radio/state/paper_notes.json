@@ -2923,6 +2923,11 @@
       "note": "DD",
       "title": "MPLID (Membrane Protein-Lipid Interaction Database): A Large-Scale Experimental Resource of Residue-Level Protein-Lipid ",
       "source": "PubMed — GigaScience"
+    },
+    "https://doi.org/10.1021/acs.jmedchem.6c00089": {
+      "note": "DD",
+      "title": "Predicting Ligand Binding Modes by Scaffold-Guided Structure Refinement.",
+      "source": "PubMed — Journal of medicinal chemistry"
     }
   }
 }
