@@ -2908,6 +2908,11 @@
       "note": "DD",
       "title": "Self-Assembly of Virus-like Nanoparticles for Nucleic Acid Delivery Based on De Novo Designed α-Helix Peptides.",
       "source": "PubMed — Langmuir : the ACS journal of surfaces and colloids"
+    },
+    "https://arxiv.org/abs/2607.23518": {
+      "note": "DD",
+      "title": "Chamaileon: Cross-Context Binder Design with Contextualized Modeling and Mixed Sampling",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
