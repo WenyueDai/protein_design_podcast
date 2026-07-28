@@ -2913,6 +2913,11 @@
       "note": "DD",
       "title": "Chamaileon: Cross-Context Binder Design with Contextualized Modeling and Mixed Sampling",
       "source": "arXiv q-bio.BM"
+    },
+    "https://doi.org/10.1038/s41551-026-01748-x": {
+      "note": "DD",
+      "title": "A PET reporter ligand for quantitative imaging of gene expression in the brain.",
+      "source": "PubMed — Nature biomedical engineering"
     }
   }
 }
