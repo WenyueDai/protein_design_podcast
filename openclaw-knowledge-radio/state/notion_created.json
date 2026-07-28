@@ -2150,5 +2150,13 @@
   "2026-07-28|https://arxiv.org/abs/2607.23518": {
     "page_id": "3ab5f58e-a8c2-8142-96ce-cea91c8ae47c",
     "note": "DD"
+  },
+  "2026-07-28|https://doi.org/10.1038/s41551-026-01748-x": {
+    "page_id": "3ab5f58e-a8c2-81cc-ba32-fc76a9b8832f",
+    "note": "DD"
+  },
+  "2026-07-28|https://doi.org/10.1093/gigascience/giag080": {
+    "page_id": "3ab5f58e-a8c2-8131-9bc3-f83dfb6cbc7b",
+    "note": "DD"
   }
 }
