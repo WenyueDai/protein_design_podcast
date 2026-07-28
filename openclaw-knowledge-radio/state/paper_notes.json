@@ -2928,6 +2928,11 @@
       "note": "DD",
       "title": "Predicting Ligand Binding Modes by Scaffold-Guided Structure Refinement.",
       "source": "PubMed — Journal of medicinal chemistry"
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00451": {
+      "note": "DD",
+      "title": "HELM-BERT: Topology-Aware Representations for Chemically Modified Peptides.",
+      "source": "PubMed — Journal of chemical information and modeling"
     }
   }
 }
