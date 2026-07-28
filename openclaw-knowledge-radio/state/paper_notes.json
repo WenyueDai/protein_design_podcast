@@ -2902,5 +2902,12 @@
       "title": "Evolution-Aware MSA Reasoning for Subsampling via Factor Graphs",
       "source": "arXiv cs.LG (AI/ML)"
     }
+  },
+  "2026-07-28": {
+    "https://doi.org/10.1021/acs.langmuir.6c01598": {
+      "note": "DD",
+      "title": "Self-Assembly of Virus-like Nanoparticles for Nucleic Acid Delivery Based on De Novo Designed α-Helix Peptides.",
+      "source": "PubMed — Langmuir : the ACS journal of surfaces and colloids"
+    }
   }
 }
