@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    192.74,
+    345.18,
+    526.91,
+    1191.22,
+    1417.4,
+    1455.98,
+    1508.18,
+    1591.94,
+    1722.08,
+    1995.18
+  ],
+  "items": [
+    {
+      "title": "PWO1 and TRB proteins coordinate chromatin regulation to prevent premature differentiation and ectopic lignin deposition in Arabidopsis",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740627",
+      "source": "bioRxiv — plant biology",
+      "one_liner": "The Arabidopsis PWWP-DOMAIN INTERACTOR OF POLYCOMBS1 (PWO1) and Telomere Repeat-Binding Proteins 1-3 (TRB1-3, TRBs) associate with distinct and shared protein complexes involved in epigenetic regulation, yet their cooperative roles in chromatin control and plant development remain largely unexplored. Here, we show that the interaction between PWO1 and TRB...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "DeepGCL: Multi-View Graph Contrastive Learning for Enhanced Drug-Target Binding Affinity Prediction Through Protein Pocket-Drug Interaction Modeling.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3717176",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "Drug-target binding affinity (DTA) prediction plays a critical role in drug discovery. Although recent approaches have demonstrated the importance of incorporating protein pocket information, they still struggle to jointly model local atomic-level interactions and global sequence contexts, as well as capture their intricate cross-modal dependencies, withi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Shear Stress Modeling and Machine Learning for Nanomedicine Development: A Mechanistic Pathway to Pharmacokinetic Prediction.",
+      "url": "https://doi.org/10.1021/acsnano.6c05350",
+      "source": "PubMed — ACS nano",
+      "one_liner": "Clinical translation of nanomedicines remains constrained by a persistent gap between static preclinical assays and the dynamic shear environment of the human vasculature. This review argues that fluid shear stress is an underappreciated contributor to clinical attrition, acting alongside well-established factors including biomarker-target mismatch, enhan...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Discovery of a phenazine-thiol conjugase from sparse data using genome-informed machine learning.",
+      "url": "https://doi.org/10.1073/pnas.2607571123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Machine learning has enabled powerful biological discoveries using models trained on large datasets. However, for many important biological questions, such as identifying enzymes that transform understudied substrates, sparsity of training data is often a major bottleneck. Here, using phenazine natural products as a case study, we show that integrating ge...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Self-Assembly of Virus-like Nanoparticles for Nucleic Acid Delivery Based on De Novo Designed α-Helix Peptides.",
+      "url": "https://doi.org/10.1021/acs.langmuir.6c01598",
+      "source": "PubMed — Langmuir : the ACS journal of surfaces and colloids",
+      "one_liner": "Efficient and safe delivery of nucleic acids remains a major challenge for clinical translation of gene therapies. Here, we report de novo-designed α-helical peptides that coassemble with lipids and nucleic acids to form core-shell, virus-like nanoparticles (VLNs). The peptides combine a cationic N-terminus for nucleic acid binding, an anionic C-terminus ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular mechanism of lead exposure induced atrial fibrillation: A systematic study based on network toxicology, machine learning, and in vivo and in vitro experiments.",
+      "url": "https://doi.org/10.1016/j.ecoenv.2026.120570",
+      "source": "PubMed — Ecotoxicology and environmental safety",
+      "one_liner": "Lead is a ubiquitous environmental toxic metal. Lead exposure is closely linked to an increased risk of atrial fibrillation (AF), yet its molecular mechanism remains incompletely understood. Here, we conducted an integrated study using network toxicology, machine learning, molecular docking, and in vivo and in vitro experiments to explore lead-induced AF....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Qualitative and quantitative analysis of pharmaceutical content by terahertz spectroscopy and machine learning algorithms.",
+      "url": "https://doi.org/10.1039/d6ay00262e",
+      "source": "PubMed — Analytical methods : advancing methods and applications",
+      "one_liner": "Process analytical technology (PAT) plays an essential role in pharmaceutical manufacturing by enabling effective quality control and improving production efficiency. Terahertz (THz) spectroscopy has attracted considerable attention due to its advantages of high biosafety, distinctive spectral fingerprints, and excellent quantitative performance. However,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Emerging Trends in Artificial Intelligence-Driven Drug Discovery: Balancing Chemical Design and Pharmacological Properties for Cancer Therapy.",
+      "url": "https://doi.org/10.1002/med.70086",
+      "source": "PubMed — Medicinal research reviews",
+      "one_liner": "Traditional cancer drug discovery encounters challenges, including lengthy synthesis durations, high costs, and a 90% failure rate in clinical trials, primarily due to inadequate chemical design and drug properties. Artificial intelligence (AI) provides powerful computational tools to overcome these issues by speeding up target identification, predicting ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence for early detection of diabetic retinopathy: A vision transformer-based approach.",
+      "url": "https://doi.org/10.1371/journal.pone.0350854",
+      "source": "PubMed — PloS one",
+      "one_liner": "BACKGROUND: Early identification of diabetic retinopathy (DR), which is a primary cause of vision impairment globally, is a crucial phasis for effective intervention and treatment. Traditional screening workflows rely on manual diagnosis by ophthalmologists, which remains the gold standard but can be time-consuming and subject to variability due to human ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Chamaileon: Cross-Context Binder Design with Contextualized Modeling and Mixed Sampling",
+      "url": "https://arxiv.org/abs/2607.23518",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.23518v1 Announce Type: cross \nAbstract: The rapid evolution of generative models has unlocked new potentials in protein binder design, a pivotal task in structural biology, by facilitating end-to-end generation via joint sequence-structure modeling or hallucination. However, existing approaches are predominantly implemented under a single-targe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A PET reporter ligand for quantitative imaging of gene expression in the brain.",
+      "url": "https://doi.org/10.1038/s41551-026-01748-x",
+      "source": "PubMed — Nature biomedical engineering",
+      "one_liner": "The lack of brain penetrant and biologically stable positron emission tomography reporter systems hampers the development of neurological disease models and the monitoring of gene delivery because existing approaches depend on endogenous receptors that vary unpredictably in pathology. HaloTag, a fully exogenous protein label that forms rapid and irreversi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Homeostatic Noise Buffering in Biomolecular Condensates Hinges on Phase Multiplicity Modulated by Interfacial and Droplet Size Effects",
+      "url": "https://arxiv.org/abs/2607.23382",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.23382v1 Announce Type: new \nAbstract: Specific mixing or demixing of molecular species is a characteristic feature of condensed intracellular membraneless compartments. How sequence patterns of intrinsically disordered proteins (IDPs) fundamentally impact subcompartmentalization of biomolecular condensates and their role in buffering against co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "MPLID (Membrane Protein-Lipid Interaction Database): A Large-Scale Experimental Resource of Residue-Level Protein-Lipid Contacts.",
+      "url": "https://doi.org/10.1093/gigascience/giag080",
+      "source": "PubMed — GigaScience",
+      "one_liner": "BACKGROUND: Membrane proteins constitute approximately 20-30% of all proteomes and represent over 60% of current drug targets. Although protein-lipid interactions play important structural and regulatory roles in membrane-associated proteins, most existing structural resources focus on identifying whether a residue lies within a membrane region, typically...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enediyne Chimeras for Targeted NAMPT Degradation: Enhancing Cytotoxicity via a Radical Clock.",
+      "url": "https://doi.org/10.1021/acs.joc.6c01358",
+      "source": "PubMed — The Journal of organic chemistry",
+      "one_liner": "Based on a novel targeted protein degradation platform, Protein-Radical-Oxidation Targeting Enediyne Chimera (PROTEC), a series of chimeric enediyne compounds targeting the oncogenic protein nicotinamide phosphoribosyltransferase (NAMPT) were designed and synthesized. These compounds feature different linker lengths and cyclopropane modifications at the a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting Ligand Binding Modes by Scaffold-Guided Structure Refinement.",
+      "url": "https://doi.org/10.1021/acs.jmedchem.6c00089",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "Efficient structure-based drug design relies on knowledge of a ligand's binding pose and its specific interactions─information that is often not available experimentally. Despite the plethora of binding mode prediction methods─including cofolding─achieved accuracies are often insufficient. Here, we present \"Scaffold-Guided Structure Refinement\", leveragin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HELM-BERT: Topology-Aware Representations for Chemically Modified Peptides.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00451",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Chemically modified and macrocyclic peptides are increasingly important therapeutics, yet current molecular representation models do not natively represent chemical modification and covalent topology in a unified way. Atom-level strings obscure macrocyclic connectivity, whereas protein sequence models cannot encode noncanonical residues and explicit cross...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "BRCA2 and RAD54B FxPP motifs Bind DMC1 Filaments through Persistent and Transient Interfaces",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740592",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "During meiosis, double-strand DNA breaks are programmed to initiate homologous recombination. The DMC1 recombinogenic filament is central to the repair of these breaks. However, the three-dimensional structures of the protein-protein interfaces regulating the assembly and activity of this filament have not been described yet. We and others previously repo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Isatin as a privileged scaffold for kinase inhibition: recent advances in anti-cancer research.",
+      "url": "https://doi.org/10.1080/17568919.2026.2706110",
+      "source": "PubMed — Future medicinal chemistry",
+      "one_liner": "Protein kinases are key therapeutic targets in anticancer drug discovery due to their central roles in regulating cell proliferation, survival, and signaling pathways. Among diverse heterocyclic scaffolds, isatin (indole-2,3-dione) has emerged as a privileged framework for the development of potent kinase inhibitors due to its structural versatility and f...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Variational Quantum Conditional Boltzmann Machines for Time-Series Forecasting: Architectures, Symmetric Hyperparameter Evaluation, and a Nonlinear Benchmark",
+      "url": "https://arxiv.org/abs/2607.24065",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.24065v1 Announce Type: cross \nAbstract: In this study, we developed and evaluated four conditional energy-based forecasting architectures: a classical Gaussian-Bernoulli CRBM, a hybrid quantum-classical QCRBM, a full-register QQRBM, and a lag-feature QFeatureQRBM with complete derivations of their conditional distributions, Contrastive-Divergen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Sampling Decisions: Exact Path-Space Correction, Prior Cancellation and Local-Boltzmann Guidance",
+      "url": "https://arxiv.org/abs/2503.14549",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2503.14549v3 Announce Type: replace \nAbstract: How can a cheap but biased sequential, finite-horizon sampler over a discrete space be corrected so that its terminal output follows a prescribed Gibbs distribution? We formulate Sampling Decisions as a path-space relative-entropy projection on a growing autoregressive state graph. The unique prior-rela...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
