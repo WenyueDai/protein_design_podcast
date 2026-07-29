@@ -1,0 +1,297 @@
+{
+  "timestamps": [
+    0.0,
+    215.68,
+    448.12,
+    617.12,
+    824.36,
+    953.04,
+    1124.28,
+    1319.61,
+    1458.57,
+    1653.3,
+    1872.8
+  ],
+  "items": [
+    {
+      "title": "Why haven't organoids solved all of drug discovery?",
+      "url": "https://www.owlposting.com/p/why-havent-organoids-solved-all-of",
+      "source": "Owl Posting (Abhishaike Mahajan)",
+      "one_liner": "5.8k words, 26 minutes reading time",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "machine-learning",
+        "biology",
+        "substack",
+        "author"
+      ]
+    },
+    {
+      "title": "Hierarchical Graph Representation Learning From a Statistical Perspective for Generalizable and Interpretable Protein-Ligand Binding Affinity Prediction.",
+      "url": "https://doi.org/10.1109/TCBBIO.2026.3717609",
+      "source": "PubMed — IEEE transactions on computational biology and bioinformatics",
+      "one_liner": "Protein-ligand binding affinity (PLA) prediction aims to guide rational drug design by estimating the strength of interaction. The effectiveness of the representation learning of protein and ligand is key to successful PLA prediction. To this end, attention mechanism, as a powerful architectural paradigm, has been introduced and gradually emerged as the p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI proteomics: from protein identification to virtual cells.",
+      "url": "https://doi.org/10.1038/s41592-026-03085-y",
+      "source": "PubMed — Nature methods",
+      "one_liner": "Artificial intelligence (AI) is transforming scientific research, including proteomics. In this Perspective, we highlight key mass spectrometry (MS)-based proteomics areas where AI is driving innovation, ranging from protein identification to building AI virtual cells. These include improving peptide and protein identification and quantification; characte...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning models identify prognostic factors in systemic lupus erythematosus patients with epstein-barr virus infection.",
+      "url": "https://doi.org/10.1007/s10067-026-08291-9",
+      "source": "PubMed — Clinical rheumatology",
+      "one_liner": "OBJECTIVE: To identify poor prognostic factors in Epstein-Barr virus (EBV)-positive systemic lupus erythematosus (SLE) using interpretable machine-learning (ML) models. METHOD: We retrospectively analysed 217 EBV-positive SLE in-patients (2018-2022). Clinical and laboratory variables were compared between favorable and poor prognosis groups. Seven ML algo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hybrid Convolutional-Gated Recurrent Neural Network for Robust Mobile Health Activities Classification.",
+      "url": "https://doi.org/10.1155/ijta/1465162",
+      "source": "PubMed — International journal of telemedicine and applications",
+      "one_liner": "Mobile health has become a popular option for patients to monitor and analyze their body activities and vital signs using their mobile devices, such as smartphones and smartwatches. In addition, the healthcare community has begun using artificial intelligence (AI) models to automate the diagnosis of abnormal conditions and diseases, particularly in real-t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ViralMap: predicting features in viral proteins from primary sequence.",
+      "url": "https://doi.org/10.1128/jvi.00757-26",
+      "source": "PubMed — Journal of virology",
+      "one_liner": "Modern viral vaccines are designed to elicit an immune response against viral proteins that mediate infection, making those proteins important targets for characterization and engineering. To improve vaccine efficacy, the proteins often require changes to specific residues or domains to enhance immunogenicity and induce a protective response. These engine...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mechanistic insights into macromolecular recognition at the PP2A-B55α regulatory groove from structure-based modeling and molecular dynamics.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.153792",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Protein phosphatase 2 A (PP2A) achieves signaling specificity through regulatory B subunits, but the chemical and structural determinants of regulatory-subunit recognition surfaces remain incompletely defined. The first PP2A-B55α complex structure identified a regulatory groove on the β-propeller surface, spatially separated from the catalytic site and oc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Persistent Manifold Learning of Protein Properties",
+      "url": "https://arxiv.org/abs/2607.25115",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.25115v1 Announce Type: new \nAbstract: Predicting how tightly two biomolecules bind remains a major challenge, in part because different interaction classes present dissimilar interfaces, from compact metal-coordinated pockets to broad, featureless protein surfaces. We introduce persistent manifold learning (PML), a novel computational framework...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Sensing the needs: Molecular basis of miRNA regulatory role of ELAVL protein HuR.",
+      "url": "https://doi.org/10.1016/j.bbamcr.2026.120200",
+      "source": "PubMed — Biochimica et biophysica acta. Molecular cell research",
+      "one_liner": "Regulation of miRNAs in mammalian cells-including their expression, activity, transport, storage, and export-is vital for the control of gene expression and cellular function. This process is affected by external stimuli, such as stress or pathogen exposure, and regulated by interactions among miRNAs, target mRNAs, and RNA-binding proteins. Human ELAVL1 H...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beyond the N-terminus: Emerging regulatory roles of the middle and C-terminal domains of cardiac myosin binding protein-C.",
+      "url": "https://doi.org/10.1016/j.yjmcc.2026.07.013",
+      "source": "PubMed — Journal of molecular and cellular cardiology",
+      "one_liner": "Cardiac myosin binding protein-C (cMyBP-C) is a key regulator of sarcomere structure and contractile function that modulates actomyosin interactions to control the speed and strength of cardiac muscle contraction and relaxation. As an integral part of the sarcomeric machinery, this modular protein has been extensively studied; however, the regulatory cont...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A conserved sequence insert of fibrillins is involved in plastoglobule association and lipid binding.",
+      "url": "https://doi.org/10.1093/pcp/pcag047",
+      "source": "PubMed — Plant & cell physiology",
+      "one_liner": "Plastoglobule lipid droplets of chloroplasts serve complex roles affecting plant development, stress tolerance, and photosynthesis. They harbor a set of ~40 proteins that collectively dictate plastoglobule functions. Due to the monolayer structure of plastoglobules, which encompasses a neutral lipid core, these proteins must associate monotopically on the...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fractionated proteomics identifies a protein network mitigating resistance exercise-induced damage in human skeletal muscle.",
+      "url": "https://doi.org/10.1038/s41467-026-75501-y",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Resistance exercise (RE) improves strength and muscle mass, with multiple benefits for human health. However, intense RE also induces acute myofibrillar damage. The molecular mechanisms that preserve, mark, degrade, and restore damaged proteins to keep skeletal muscle working under RE are incompletely understood. Based on repeated sampling of human skelet...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HFG-Net: High-frequency guided multi-view graph convolution and dynamic spatio-temporal fusion for ASD diagnosis.",
+      "url": "https://doi.org/10.1088/1741-2552/ae9190",
+      "source": "PubMed — Journal of neural engineering",
+      "one_liner": "Autism Spectrum Disorder (ASD) is a highly heterogeneous neurodevelopmental condition characterized by significant inter-subject variability in electroencephalogram (EEG) features. Existing deep learning approaches, such as Convolutional Neural Networks (CNNs) and Graph Convolutional Networks (GCNs), often fail to fully capture intrinsic spatio-temporal d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "COMPASS: A Computational Pipeline to Identify Linkers Predicting Ubiquitinable PROTAC-Induced Ternary Complexes.",
+      "url": "https://doi.org/10.1002/cmdc.70385",
+      "source": "PubMed — ChemMedChem",
+      "one_liner": "PROteolysis TArgeting Chimeras (PROTACs) are bifunctional molecules designed to induce targeted protein degradation by forming a transient ternary complex between an E3 ubiquitin ligase and a protein of interest (POI), leading to the E3-mediated ubiquitination of the POI and its subsequent proteasomal degradation. Although PROTACs have emerged as highly p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SNX-BAR proteins 5 and 6 are required for NCOA7-AS antiviral activity against influenza A virus.",
+      "url": "https://doi.org/10.1016/j.jbc.2026.113372",
+      "source": "PubMed — The Journal of biological chemistry",
+      "one_liner": "Interferon-induced antiviral proteins act on the first line of defence against viruses, including influenza A virus (IAV). Among those, the short isoform of Nuclear Receptor Coactivator 7 (NCOA7-AS) has been shown to inhibit IAV entry and more especially the fusion between endosomal and viral membranes. Ectopic expression of NCOA7-AS leads to the increase...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Cerebral Organoid Model of Familial Alzheimer's Disease Using Amyloid Precursor Protein Mutation, Val669Leu (",
+      "url": "https://doi.org/10.15283/ijsc25044",
+      "source": "PubMed — International journal of stem cells",
+      "one_liner": "Various animal and cellular Alzheimer's disease (AD) models harboring familial AD (fAD) mutations have been developed and widely used for AD research. In this study, we established an AD cerebral organoid (CO) model using a novel Val669Leu (",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Atomic Uncertainty Pinpoints Critical Failure Structures for Trustworthy Molecular Property Prediction.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00973",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Accurate prediction of molecular properties is essential for accelerating drug discovery, yet current deep learning methods generally lack reliable uncertainty estimates, particularly at the atomic level. A limitation of current approaches is the reliance on global molecular uncertainty, which frequently masks localized ambiguities by averaging the uncert...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProNA3D: Distance-Based Analysis of Nucleic Acid-Containing Interfaces",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.16.719043",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Biomolecular interactions are central to many essential cellular processes, but RNA-containing complexes remain challenging to resolve structurally, even as experimental methods and AI-based prediction have expanded structural coverage. Tools for the integrated analysis of complex interfaces remain limited. We present ProNA3D, a tool that provides a unifi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unveiling the Structural Determinants of PFAS Toxicity: A Graph Neural Network and Interpretability Analysis.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00925",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "The rapid proliferation of per- and polyfluoroalkyl substances (PFASs) necessitates high-throughput tools to assess safety and prevent regrettable substitution. However, conventional toxicological testing is resource-intensive, while standard computational methods often lack the mechanistic transparency required for rational molecular design. This study p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "LC-SEPLM: long-range contact-supervised adaptation for sequence-only protein representation learning",
+      "url": "https://arxiv.org/abs/2607.22777",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.22777v1 Announce Type: new \nAbstract: Protein language models learn transferable sequence representations. However, because they primarily model contextual dependencies along amino-acid sequences, their training objectives do not explicitly constrain the model to learn three-dimensional residue contacts formed after folding . Here, we introduce...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
