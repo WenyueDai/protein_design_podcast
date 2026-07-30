@@ -1,0 +1,297 @@
+{
+  "timestamps": [
+    0.0,
+    153.07,
+    216.47,
+    370.6,
+    987.46,
+    1137.84,
+    1308.24,
+    1482.14,
+    1568.97,
+    1729.26,
+    2322.25
+  ],
+  "items": [
+    {
+      "title": "Work Hard, Play Hard: Balancing Sport and Studies at Oxford",
+      "url": "https://www.blopig.com/blog/2026/07/work-hard-play-hard-balancing-sport-and-studies-at-oxford/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "I have always been involved in sport, having played football for Bristol Rovers and at county level when I was younger. That continued after arriving at Oxford, although in several different forms. In my first year, I ran the London Marathon for Alzheimer’s Research UK. In my second, I rowed with my college, and more […]",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "Deep Contrastive Learning for High-Throughput Prediction of Drug Resistance Mutations from Sequences.",
+      "url": "https://doi.org/10.1002/advs.202514899",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Mutation-induced drug resistance challenges both pandemic surveillance and drug discovery. While experimental assays are resource-intensive, current computational predictions remain limited by the scarcity of 3D mutant protein structures. We present DeepMutDTA, a structure-independent model pre-trained on 1.5 million data points to predict drug-target aff...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Depletion-induced interactions modulate nanoscale protein diffusion in polymeric crowder solutions.",
+      "url": "https://doi.org/10.1073/pnas.2524733123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Macromolecular crowding plays a crucial role in modulating protein dynamics in cellular and in vitro environments. Polymeric crowders such as dextran and Ficoll are known to induce entropic forces, including depletion interactions, that promote structural organization, yet their nanoscale consequences for protein dynamics remain poorly understood. Here, w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Miniaturizing and modifying natural proteins with Raygun.",
+      "url": "https://doi.org/10.1038/s41586-026-10842-8",
+      "source": "PubMed — Nature",
+      "one_liner": "Proteins have evolved over billions of years through coordinated substitutions, insertions and deletions, yet computational protein design cannot fully replicate nature's ability to engineer new proteins from existing templates. Protein language models",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An AI-enabled structural atlas decodes kinase specificity across the human proteome.",
+      "url": "https://doi.org/10.1038/s41587-026-03239-5",
+      "source": "PubMed — Nature biotechnology",
+      "one_liner": "Of the 1.8 million serine/threonine/tyrosine residues in the human proteome, only 6% bear experimental validation of phosphorylation, and only 5% of these have been mapped to a kinase. Here we present KinoPlex, a computational framework that integrates predicted protein structures and kinase recognition motifs to assign phosphorylation potential and kinas...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Stepwise increasing input to machine learning models predicting 30-day AMI or death in emergency department chest-pain patients.",
+      "url": "https://doi.org/10.1159/crd/absag001",
+      "source": "PubMed — Cardiology",
+      "one_liner": "Introduction This study evaluated the performance of neural network (NN) models with stepwise increasing input for identifying acute myocardial infarction (AMI) or death within 30 days among emergency department (ED) chest-pain patients. Methods Data from 40 312 chest-pain patients were used to train NNs with increasing information in five steps. Step 1: ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Prediction of formaldehyde emissions from wood-based panels containing amino plastic resins using non-linear regression analysis and machine learning.",
+      "url": "https://doi.org/10.1016/j.chemosphere.2026.145042",
+      "source": "PubMed — Chemosphere",
+      "one_liner": "Determining formaldehyde emissions is a key component of source control for wood-based panels. The non-linear WKI_2 equation, a modified form of the Andersen equation, is frequently used to deduce material-related emission parameters from measured test chamber concentrations and boundary conditions such as temperature (T), relative humidity (RH), air exch...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rethinking pathology image analysis through shuffling.",
+      "url": "https://doi.org/10.1038/s44385-026-00096-4",
+      "source": "PubMed — npj biomedical innovations",
+      "one_liner": "Pathological examination is the current gold standard in cancer diagnosis, yet artificial intelligence (AI) methods still struggle to capture the multi-scale heterogeneity of tumor morphology across patients, tissues, and magnifications. Here, we introduce the PAthoentity Shuffle Strategy (PASS), a principled framework that explicitly models pathoentities...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Diffusion models for virtual populations and pharmacometric simulations.",
+      "url": "https://doi.org/10.1007/s10928-026-10054-7",
+      "source": "PubMed — Journal of pharmacokinetics and pharmacodynamics",
+      "one_liner": "To evaluate diffusion model-based artificial intelligence approaches for generating virtual populations with physiological determinants of drug dosing (PDODD) and pharmacokinetic (PK) profiles. A denoising diffusion probabilistic model (DDPM) was applied to a 31-variable dataset of PDODD covariates (18 continuous, 13 binary) from the National Health and N...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification of key biomarkers for ferroptosis in diabetic kidney disease using machine learning and WGCNA.",
+      "url": "https://doi.org/10.1016/j.mce.2026.112877",
+      "source": "PubMed — Molecular and cellular endocrinology",
+      "one_liner": "OBJECTIVE: Early detection of diabetic kidney disease (DKD) remains challenging because currently available clinical markers mainly reflect established renal injury rather than early pathogenic changes. Ferroptosis has been increasingly implicated in DKD development, we aimed to identify ferroptosis-related molecular signatures and candidate diagnostic bi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep learning-based prediction of drug-target interactions between antiviral drugs and SARS-CoV-2 proteins using an image-based representation approach.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109264",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Drug repurposing offers a time-efficient strategy for identifying therapeutics against emerging pathogens such as SARS-CoV-2. In this study, we apply MPS2IT-DTI (Molecule and Protein Sequence to Image Transformer for Drug-Target Interaction), a deep learning framework that represents molecular (SMILES) and protein (FASTA) sequences as images using k-mer f...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Coevolution-driven reconstruction of multi-taxa siderophore interaction networks reveals topological diversity of microbial exploitation",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.28.741125",
+      "source": "bioRxiv — systems biology",
+      "one_liner": "Microbial communities are shaped by secreted metabolites that mediate ecological interactions, yet predicting these interactions from genomic sequences remains difficult, because the specific recognition between co-functional metabolites (CFMs), such as siderophores, and their receptor proteins (Rec) cannot be inferred from gene annotation alone. This dif...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Heptameric transmembrane assembly of the CRISPR-Cas13b regulator Csx27.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.153975",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "The type VI-B CRISPR-Cas13 system is an RNA-guided immune pathway in which the Cas13b effector is negatively regulated by the accessory protein Csx27. However, the structural and biochemical basis of Csx27 function remains poorly defined. Here, we characterize Bergeyella zoohelcum Csx27 as a membrane associated oligomeric protein. Bioinformatic prediction...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Helicolysins emerge as a new family of metzincin metallopeptidases in host-pathogen interactions.",
+      "url": "https://doi.org/10.1016/j.jmb.2026.169962",
+      "source": "PubMed — Journal of molecular biology",
+      "one_liner": "The Helicobacter pylori Hom family of outer-membrane proteins (OMPs) has been implicated in virulence-related processes. Here, we present a structural and functional characterization of HomA from H. pylori strain 26695. Comparative in vivo analyses of the wild-type strain and a homA deletion mutant demonstrate a role for HomA in focal adhesion kinase phos...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GPCR-SLM: Small Language Model-Based Classification of GPCRs Using Knowledge Distillation Technique.",
+      "url": "https://doi.org/10.1109/TCBBIO.2026.3718339",
+      "source": "PubMed — IEEE transactions on computational biology and bioinformatics",
+      "one_liner": "Accurate protein family classification is essential since proteins within the same family share conserved structural domains and biochemical functions that deter mine their biological roles. G protein-coupled receptors (GPCRs) represent one of the largest and most diverse protein families in eukaryotes, serving as targets for ap proximately 35% of FDA-app...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification and binding-site mapping of RNA-binding proteins interacting with microRNA precursors in Arabidopsis",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.28.741191",
+      "source": "bioRxiv — plant biology",
+      "one_liner": "MicroRNAs (miRNAs) play key roles in modulating gene expression. Upon transcription, primary miRNA transcripts (pri-miRNAs or MIRNAs) fold into stem-loop structures. Endonucleolytic cleavage releases a miRNA/miRNA* duplex from the stem, which is subsequently matured. In higher plants, the pri-miRNA hairpins vary widely in length and structure. Pri-miRNA p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Transdermal delivery of biologics.",
+      "url": "https://doi.org/10.1016/j.jconrel.2026.115214",
+      "source": "PubMed — Journal of controlled release : official journal of the Controlled Release Society",
+      "one_liner": "Biologics, including peptides, proteins, antibodies, vaccines and nucleic acid-based therapeutics, have transformed the management of chronic, metabolic, inflammatory, oncological and infectious diseases. Despite their clinical success, their wider use remains constrained by invasive administration routes, poor patient acceptability and formulation challe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Construction of a translational whole-body physiologically based pharmacokinetic model to investigate the biodistribution of lipid nanoparticle-based mRNA therapeutics for intracellular protein targets.",
+      "url": "https://doi.org/10.1007/s10928-026-10052-9",
+      "source": "PubMed — Journal of pharmacokinetics and pharmacodynamics",
+      "one_liner": "Lipid nanoparticle (LNP)-based messenger RNA (mRNA) therapeutics enable in vivo production of diverse protein modalities, but their translation is complicated by multiscale pharmacokinetics encompassing tissue transport, cellular uptake, and intracellular processing. We developed a platform translational whole-body physiologically based pharmacokinetic (P...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Allosteric Inhibition Modulates SHP2 Diffusion Behavior from Rotational to Translational via C-SH2 Domain Stabilization.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01099",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "The rotational and translational diffusion behaviors of proteins are closely related to the processes of contact and complex formation between proteins. Previous studies have indicated that allosteric inhibitors of SH2 domain-containing phosphatase 2 (SHP2) could suppress its activation induced by the PD-1 protein. Nevertheless, the underlying mechanism g...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Graph Signal Diffusion Models for Wireless Resource Allocation",
+      "url": "https://arxiv.org/abs/2604.05175",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2604.05175v2 Announce Type: replace-cross \nAbstract: We consider constrained ergodic resource optimization in wireless networks with graph-structured interference. We train a diffusion model policy to match expert conditional distributions over resource allocations. By leveraging a primal-dual (expert) algorithm, we generate primal iterates that ser...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
