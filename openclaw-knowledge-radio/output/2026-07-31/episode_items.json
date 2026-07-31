@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    209.9,
+    437.1,
+    693.47,
+    927.25,
+    1183.37,
+    1349.06,
+    1529.01,
+    2146.86,
+    2332.45,
+    2545.88
+  ],
+  "items": [
+    {
+      "title": "Innovative approaches to therapeutic target discovery amid the global challenge of antimicrobial resistance.",
+      "url": "https://doi.org/10.1007/s10822-026-00905-3",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "Antimicrobial resistance is a constant threat to global public health, requiring innovative strategies for therapeutic target identification. Hence, this narrative review discusses the application of structural modeling and artificial intelligence in the functional prediction of proteins encoded by multidrug-resistant bacterial genomes. Tools such as Alph...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Descriptive power and predictive limits of a discrete Hasimoto--DNLS model of protein backbone structure",
+      "url": "https://arxiv.org/abs/2602.13160",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2602.13160v2 Announce Type: replace \nAbstract: Determining 3D protein structure from sequence remains a fundamental biophysical challenge. The C$_\\alpha$ backbone's discrete Frenet geometry maps, via a Hasimoto transform, to a complex scalar field $\\psi=\\kappa\\,e^{i\\sum\\tau}$ obeying a discrete nonlinear Schr\\\"odinger equation (DNLS), whose solitons...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "The promise of deep urine proteomics for diagnosis of cancer, neurologic, and metabolic diseases.",
+      "url": "https://doi.org/10.1371/journal.pone.0354808",
+      "source": "PubMed — PloS one",
+      "one_liner": "INTRODUCTION: Urine offers a noninvasive and low-cost source of disease biomarkers, yet most proteomic studies have targeted single conditions. Using deep proteomic profiling and machine learning, we evaluated whether urinary protein signatures distinguish early-stage cancer, neurologic, and metabolic diseases from healthy controls. METHODS: This case-con...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Three-class obstructive sleep apnea severity assessment: a parallel AHI and ODI explainable artificial intelligence framework using craniofacial-enriched clinical data.",
+      "url": "https://doi.org/10.1007/s11325-026-03774-0",
+      "source": "PubMed — Sleep & breathing = Schlaf & Atmung",
+      "one_liner": "BACKGROUND: Machine learning models for Obstructive Sleep Apnea (OSA) diagnosis have largely inherited some structural limitations: reliance on generic, opportunistically collected feature sets; use of the Apnea-Hypopnea Index (AHI) as the sole ground truth; poor performance in multi-class severity grading; and predictions that offer clinicians no mechani...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A synergistic deep learning and machine learning framework for screening heterocyclic compounds against ALDH1A1.",
+      "url": "https://doi.org/10.1007/s11030-026-11682-4",
+      "source": "PubMed — Molecular diversity",
+      "one_liner": "Aldehyde dehydrogenase 1A1 (ALDH1A1) has emerged as a promising therapeutic target because of its critical roles in cancer stem cell maintenance and chemoresistance. However, the development of highly selective ALDH1A1 inhibitors remains challenging because of the extensive structural conservation shared with the closely related isoforms ALDH2 and ALDH1A2...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advances in Artificial Intelligence and Machine Learning for Toxicity Prediction in Computational Toxicology: A Comprehensive Review.",
+      "url": "https://doi.org/10.1080/15376516.2026.2712550",
+      "source": "PubMed — Toxicology mechanisms and methods",
+      "one_liner": "Over the past three decades, artificial intelligence (AI) and machine learning (ML) have revolutionized computational toxicology, providing powerful tools for predicting chemical toxicity and supporting safer assessments for human health and the environment. This review offers a critical 30-year synthesis (1995-2025) that distinguishes itself from narrowe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Radiographic legal age estimation based on third molar development using Machine-learning algorithms.",
+      "url": "https://doi.org/10.1371/journal.pone.0354704",
+      "source": "PubMed — PloS one",
+      "one_liner": "BACKGROUND: Age assessment plays an important role in forensic sciences to aid in criminal or civil matters. Third molars continue developing during the legal age of adulthood. Dental age estimation based on radiographic examination is an operator-dependent procedure. The aim was to test the performance of supervised machine learning (SML) to classify ind...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Microbiota-Gut-Brain Axis in Neuropsychiatric Disorders: Mechanisms, Advances, and Clinical Applications.",
+      "url": "https://doi.org/10.1016/j.brainresbull.2026.112062",
+      "source": "PubMed — Brain research bulletin",
+      "one_liner": "Neuropsychiatric disorders are increasingly recognized as systemic conditions arising from dynamic interactions within the gut-brain-immune network. The Microbiota-Gut-Brain Axis (MGBA) serves as a central regulatory system orchestrating neurodevelopment, neural homeostasis, and immune-metabolic balance. This review summarizes evidence across seven major ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A machine learning model for real-time total nitrogen monitoring in Tampa Bay.",
+      "url": "https://doi.org/10.1016/j.marpolbul.2026.120184",
+      "source": "PubMed — Marine pollution bulletin",
+      "one_liner": "Total Nitrogen (TN) concentration is a critical water quality indicator for the health of Tampa Bay, as excessive nitrogen loading is a primary driver of eutrophication, harmful algal blooms, and the degradation of seagrass habitats. TN has been monitored through monthly water sampling since the 1970s along with other water quality variables. While the tr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Can Artificial intelligence meaningfully shorten drug discovery timelines? Current evidence, roadblocks and future directions.",
+      "url": "https://doi.org/10.1080/17460441.2026.2711722",
+      "source": "PubMed — Expert opinion on drug discovery",
+      "one_liner": "INTRODUCTION: Artificial intelligence (AI) is increasingly proposed as a means of shortening drug-discovery timelines, although its practical impact varies across the discovery and development process. A critical review is needed to distinguish the stages in which AI can improve search, prioritization, and decision-making from those that remain limited by...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-free, site-resolved contrastive learningextends small-molecule discovery beyond the reachof structure-based modeling",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.28.741295",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Virtual screening asks which molecules, among an enormous space of drug-like chemistry, are worth synthesizing and testing against a protein target. Most modern methods answer by building and scoring an explicit three-dimensional pose through molecular docking, or the co-folding models that now approach experimental accuracy. Building these poses presumes...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-aware prediction of functional non-synonymous variants in a maize EMS mutant library.",
+      "url": "https://doi.org/10.1016/j.molp.2026.07.024",
+      "source": "PubMed — Molecular plant",
+      "one_liner": "Ethyl methanesulfonate (EMS) mutagenesis is widely used to generate genetic variation for gene function studies. Previous studies have traditionally focused on stop-gained mutations, because these variants usually disrupt protein-coding capacity and produce readily detectable phenotypes. Thus, non-synonymous mutations with more moderate effects are often ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Characterization of PduU Reveals a Modular Tool for Tuning Microcompartment Permeability",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741414",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Bacterial microcompartments (MCPs) are versatile proteinaceous organelles that compartmentalize metabolic pathways, offering promising scaffolds for synthetic biology and metabolic engineering. However, designing customized nanobioreactors requires distinguishing structurally indispensable shell proteins from those that can be modified or deleted to tune ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Theta-Defensin Proteins: Conformational Variability and Environmental Effects.",
+      "url": "https://doi.org/10.34133/csbj.0182",
+      "source": "PubMed — Computational and structural biotechnology journal",
+      "one_liner": "Theta-defensins are a unique class of cyclic antimicrobial peptides known for their exceptional structural stability and broad-spectrum antimicrobial activity. Despite their therapeutic potential in mammals, the effects of solvent environments and specific mutations on their conformational stability remain poorly understood. This paper employs all-atom mo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beyond Generic Signal Peptides: ApexSP Enables Cargo-Specific Secretion Design",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741461",
+      "source": "bioRxiv — synthetic biology",
+      "one_liner": "Recombinant proteins are widely used in biopharmaceuticals, industrial manufacturing, and molecular diagnostics; however, efficient secretion remains a major bottleneck limiting their large scale production. As core elements controlling protein entry into secretion pathways, signal peptides do not function solely based on their own sequences, but rather d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "From Pan-Life Phase Insights to PhaseHub: Analyzing Protein Condensate Complexity.",
+      "url": "https://doi.org/10.1016/j.molp.2026.07.019",
+      "source": "PubMed — Molecular plant",
+      "one_liner": "Intracellular biomolecular condensation forms multicomponent signaling hubs that regulate development, stress responses, and environmental adaptation. While the molecular grammar encoded within scaffold proteins defines the basal associative features driving condensation, heterotypic condensates are intrinsically dynamic, multicomponent, and far-from-equi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Data-derived prototype profiles with GRPF-PPN for interpretable student stress prediction from psychometric tabular data.",
+      "url": "https://doi.org/10.1016/j.actpsy.2026.107513",
+      "source": "PubMed — Acta psychologica",
+      "one_liner": "Student stress prediction requires models that are both accurate and interpretable. This study proposes GRPF-PPN, a Gated Residual Prototype-Fusion Psycho-Prototypical Network for classifying student stress from psychometric tabular data. The model combines feature-wise gating, residual representation learning, class-associated prototypes, and neural-prot...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "α2δ-1 regulates synaptic AMPA receptor trafficking and LTP through distinct pre- and postsynaptic functions.",
+      "url": "https://doi.org/10.1016/j.nbd.2026.107553",
+      "source": "PubMed — Neurobiology of disease",
+      "one_liner": "Activity-dependent trafficking of AMPA receptors (AMPARs) and subsequent long-term synaptic strengthening underlie different forms of learning and memory. The AMPAR subunit GluA1 amino-terminal domain (ATD, a. k. a. NTD) plays a critical role in synaptic AMPAR trafficking and LTP. The GluA1 ATD accounts for almost half the proteins' size and protrudes sig...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems",
+      "url": "https://arxiv.org/abs/2607.28553",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.28553v1 Announce Type: new \nAbstract: Predicting the 3D structures of atomic systems is fundamental to advancing material science and drug discovery. While flow-matching models (, FlowDPO) have recently shown promise in this domain, their performance relies heavily on alignment with ground-truth coordinates via supervised preference learning. H...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Semi-Supervised Learning for Molecular Graphs via Ensemble Consensus",
+      "url": "https://arxiv.org/abs/2607.28304",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.28304v1 Announce Type: new \nAbstract: Machine learning is transforming molecular sciences by accelerating property prediction, simulation, and the discovery of new molecules and materials. Acquiring labeled data in these domains is often costly and time-consuming, whereas large collections of unlabeled molecular data are readily available. Stan...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
