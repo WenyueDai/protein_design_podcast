@@ -1,0 +1,282 @@
+{
+  "timestamps": [
+    0.0,
+    222.93,
+    375.45,
+    554.05,
+    785.43,
+    983.91,
+    1096.92,
+    1250.54,
+    1471.65,
+    1650.83,
+    1853.29
+  ],
+  "items": [
+    {
+      "title": "AF-CALVADOS: AlphaFold-guided simulations of multi-domain proteins at the proteome level.",
+      "url": "https://doi.org/10.1002/pro.70694",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Deep-learning methods have transformed our ability to predict the three-dimensional structures of folded proteins from sequence, and coarse-grained simulations have made it possible to study intrinsically disordered proteins at the proteome scale. More than half of human proteins, however, contain mixtures of disordered regions and one or more folded doma...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pocket restraints guided by B-cell epitope prediction improve Chai-1 antibody-antigen structure modeling.",
+      "url": "https://doi.org/10.1002/pro.70730",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "The accurate prediction of antibody-antigen (AbAg) complexes is a key challenge for computational immunology, with applications in therapeutic antibody design and diagnostics. Current deep learning methods have the potential to generate high-confidence AbAg structures. However, these methods often fail to predict the correct AbAg structure, placing the an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Chromatin and genomic instability in the cochlea contributing to age-related hearing loss: Insights from in vitro and in vivo models.",
+      "url": "https://doi.org/10.1016/j.heares.2026.109691",
+      "source": "PubMed — Hearing research",
+      "one_liner": "Age-related hearing loss (ARHL) is one of the most common causes of hearing impairment in older adults. However, the cellular and molecular mechanisms underlying ARHL remain unclear. Chromatin and genomic instability, including DNA damage, heterochromatin loss, and telomere attrition, are hallmarks of aging. In the present study, we investigated DNA damag...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PETIMOT: a novel framework for inferring protein motions from sparse data using SE(3)-equivariant graph neural networks.",
+      "url": "https://doi.org/10.1107/S2059798326006054",
+      "source": "PubMed — Acta crystallographica. Section D, Structural biology",
+      "one_liner": "Proteins move and deform to ensure their biological functions. Despite significant progress in protein structure prediction, approximating conformational ensembles under physiological conditions remains a fundamental open problem. This paper presents a novel perspective on the problem by directly targeting continuous compact representations of protein mot...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "IHGCN-PLA: An interpretable heterogeneous graph convolutional network for protein-ligand binding affinity prediction with multimodal interaction fusion.",
+      "url": "https://doi.org/10.1016/j.jbi.2026.105061",
+      "source": "PubMed — Journal of biomedical informatics",
+      "one_liner": "Protein-ligand binding affinity prediction is fundamental to computer-aided drug discovery, enabling accelerated therapeutic development at reduced costs. Despite advances in graph neural network architectures, existing methods inadequately integrate heterogeneous molecular representations, limiting their ability to model the complex multimodal nature of ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Gene Ontology graph embeddings with Dynamic Thresholding based Deep Neural Networks for Multi-label protein subcellular localization prediction.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109022",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Protein subcellular localization is key to understanding cellular function. Traditional methods are slow, prompting the use of machine learning and deep learning to enhance prediction accuracy. This study aims to leverage these approaches for more efficient and accurate localization prediction. This study presents a novel two-step approach for protein loc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "RINAMI: Residue-attributed interpretable neural network for predicting absolute folding free energy by merging structure and sequence information.",
+      "url": "https://doi.org/10.1002/pro.70717",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Recent advances in de novo protein design have enabled the generation of diverse novel proteins. However, a fundamental challenge remains: even when an amino acid sequence is designed with the target structure as the most stable conformation, there is currently no reliable computational method for assessing whether the target structure is sufficiently sta...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De novo design of a peptide ligand for specific affinity purification of human complement C1q.",
+      "url": "https://doi.org/10.1016/j.chroma.2026.467307",
+      "source": "PubMed — Journal of chromatography. A",
+      "one_liner": "Affinity purification is an essential technique for isolating highly purified proteins. However, the generation of affinity ligands requires significant time and financial investment. To address these limitations, we present a novel affinity chromatography method using in silico-designed cyclic peptides as ligands. Complement C1q (C1q), a plasma protein t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Engineering selective amyloid precursor protein inhibitors by machine learning and deep mutational scanning.",
+      "url": "https://doi.org/10.1002/pro.70712",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Deep mutational scanning (DMS) has proven effective for mapping protein-protein interactions (PPIs), but it cannot provide complete coverage of the mutation landscape, particularly for multi-mutant variants. To address this limitation, we trained machine-learning (ML) models on previously generated DMS data for a stabilized amyloid precursor protein inhib...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein structure characters in the light of phylogenetic systematics.",
+      "url": "https://doi.org/10.1093/gbe/evag168",
+      "source": "PubMed — Genome biology and evolution",
+      "one_liner": "Protein structure characters have great potential for improving phylogenetic inference, especially for deep nodes where amino acid sequences are highly diverged. The combination of AlphaFold structure predictions and Foldseek's \"3Di\" structural alphabet makes it relatively easy to conduct model-based phylogenetic inference that includes a partition of slo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing machine learning-based binder design with high-throughput screening: A comparison of mRNA and yeast display technologies.",
+      "url": "https://doi.org/10.1002/pro.70696",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Recent advances in machine learning (ML)-based protein design methods have enabled the rapid in silico generation of large libraries of miniprotein binders with minimal manual input. While computational design capacity has scaled rapidly, experimental validation methods have lagged, creating a bottleneck in binder discovery pipelines. Here, we apply mRNA ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Prolines in linkers of multi-domain proteins: Intrinsic regulators of misfolding and aggregation.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014588",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Proline is a chemically unique amino acid that influences protein structure and slows peptide-bond formation during translation. While its enrichment in intrinsically disordered regions is well known, the functional importance of its organization along protein sequences remains unclear. Here, we performed a proteome-wide analysis of inter-domain linkers i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Persistent sheaf Laplacian analysis of protein stability and solubility changes upon mutation.",
+      "url": "https://doi.org/10.1002/pro.70700",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Genetic mutations frequently disrupt protein structure, stability, and solubility, acting as primary drivers for a wide spectrum of diseases. Despite the critical importance of these molecular alterations, existing computational models often lack interpretability and fail to integrate essential physicochemical interactions. To overcome these limitations, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Contrastive Learning-Powered Ultrafast Genome-Wide Virtual Screening: The Rise of DrugCLIP.",
+      "url": "https://doi.org/10.1002/ddr.70351",
+      "source": "PubMed — Drug development research",
+      "one_liner": "Virtual screening (VS) stands as a cornerstone of early-stage drug discovery, yet long-standing hurdles-including prohibitive computational cost and limited cross-target generalization-have long restricted its genome-wide application, especially with the rapid expansion of AlphaFold-predicted protein structures. Over the past 2 years, contrastive learning...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Discovery of Hsp70 inhibitors for allosteric dissociation of the Hsp70/BAG3 complex via structure-based de novo design.",
+      "url": "https://doi.org/10.1016/j.bmc.2026.118682",
+      "source": "PubMed — Bioorganic & medicinal chemistry",
+      "one_liner": "Protein-protein interaction (PPI) with cochaperones could induce conformational changes of Hsp70. The Hsp70/BAG3 PPI shows tumor specificity and could be regarded as potential targets for cancer therapy. In this paper, a de novo structure-based design was carried out based on the analysis of conformational changes of Hsp70 in terms of the allosteric disso...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Applications and limitations of AI tools in enzyme design.",
+      "url": "https://doi.org/10.1002/pro.70698",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Enzymes catalyze various different chemical reactions often with high efficiency and selectivity compared to synthetic catalysts. Advances in protein engineering over the past decades have allowed researchers to design enzymes, improving their catalytic performance and adapting them for specific or entirely novel chemical reactions. However, the need for ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predictive bioactivity modeling and structural binding analysis for the identification of potential SMYD3 modulators.",
+      "url": "https://doi.org/10.1007/s11030-026-11533-2",
+      "source": "PubMed — Molecular diversity",
+      "one_liner": "SMYD3 is a lysine methyltransferase involved in epigenetic regulation and oncogenic transcription, making it an attractive yet challenging therapeutic target. This study presents an integrated computational workflow combining machine learning based quantitative structure-activity relationship (QSAR) modelling, external bioactivity prediction, molecular do...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational design of blue melanin by motif-scaffolding a pentapeptide-repeat protein.",
+      "url": "https://doi.org/10.1002/pro.70718",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Blue coloration in natural and synthetic melanins arises from light reflection rather than absorption, that is, structural rather than pigmentary color. Producing melanin with blue pigmentary color is challenging as it requires the formation of long, homogeneous melanin polymer from tyrosine (Tyr) amino acid. Here, we describe a bottom-up design strategy ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Is AI Reasoning Right for the Wrong Reasons?",
+      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+      "source": "Quanta Magazine",
+      "one_liner": "The idea that artificial intelligence can “reason” is more intuitive than ever. But intuitions can be wrong, and the science is far from settled. The post Is AI Reasoning Right for the Wrong Reasons? first appeared on",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}

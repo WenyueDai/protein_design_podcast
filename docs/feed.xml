@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jul 2026 06:01:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 05:43:07 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-08-01</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-01/podcast_2026-08-01.mp3</guid>
+      <pubDate>Sat, 01 Aug 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-01/podcast_2026-08-01.mp3" length="16251549" type="audio/mpeg" />
+      <description>The first shift that jumps out is how we now treat the messy reality of most human proteins rather than pretending they are tidy, single‑domain folds. | A second shift appears in antibody modelling, where the field has moved from hoping a generic deep‑learning model will guess the right orientation to using biological priors to steer the search. | A third shift links nuclear chemistry to sensory decline, moving the conversation from “hair‑cell wear and tear” to genome stability in the cochlea.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The first shift that jumps out is how we now treat the messy reality of most human proteins rather than pretending they are tidy, single‑domain folds. | A second shift appears in antibody modelling, where the field has moved from hoping a generic deep‑learning model will guess the right orientation to using biological priors to steer the search. | A third shift links nuclear chemistry to sensory decline, moving the conversation from “hair‑cell wear and tear” to genome stability in the cochlea.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-07-31</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-31/podcast_2026-07-31.mp3</guid>
       <pubDate>Fri, 31 Jul 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-31/podcast_2026-07-31.mp3" length="20545317" type="audio/mpeg" />
-      <description>Today’s collection of papers nudges a few long‑held assumptions in protein science toward a more nuanced view, and each shift is anchored in a concrete number or experiment that a designer can actually use. | The second paper flips the script on a beautiful mathematical idea that many have hoped could directly predict folding from sequence. | The third paper demonstrates how a deep proteomic sweep of urine can move biomarker discovery from single‑plex assays to a systems‑level readout.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-31/podcast_2026-07-31.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today’s collection of papers nudges a few long‑held assumptions in protein science toward a more nuanced view, and each shift is anchored in a concrete number or experiment that a designer can actually use. | The second paper flips the script on a beautiful mathematical idea that many have hoped could directly predict folding from sequence. | The third paper demonstrates how a deep proteomic sweep of urine can move biomarker discovery from single‑plex assays to a systems‑level readout.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-25/podcast_2026-05-25.mp3</guid>
       <pubDate>Mon, 25 May 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-25/podcast_2026-05-25.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-05-24</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-24/podcast_2026-05-24.mp3</guid>
-      <pubDate>Sun, 24 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-24/podcast_2026-05-24.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
