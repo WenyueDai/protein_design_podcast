@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    176.78,
+    346.65,
+    986.34,
+    1094.65,
+    1272.41,
+    1441.73,
+    1598.13,
+    1748.97,
+    2408.2,
+    2535.56
+  ],
+  "items": [
+    {
+      "title": "Development of a fluorescence immunochromatographic assay based on quantum dot labeling for detection of pseudorabies virus gB protein.",
+      "url": "https://doi.org/10.1016/j.jim.2026.114092",
+      "source": "PubMed — Journal of immunological methods",
+      "one_liner": "Pseudorabies virus (PRV) remains a major threat to the global swine industry, and the development of rapid, sensitive, and reliable diagnostic methods is critical for effective disease control. In this study, we developed and validated a quantum dot-based fluorescent immunochromatographic strip assay (QDs-FICS) for the rapid detection of PRV glycoprotein ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GraESM-FuseDTA: adaptive gated multimodal fusion of graph neural networks and protein language models for robust drug-target affinity prediction.",
+      "url": "https://doi.org/10.1007/s00210-026-05732-9",
+      "source": "PubMed — Naunyn-Schmiedeberg's archives of pharmacology",
+      "one_liner": "Accurate drug-target affinity prediction is essential for virtual screening, lead compound prioritization, and drug repositioning, especially under cold-start scenarios involving unseen compounds, unseen targets, or unseen drug-target combinations. However, existing methods still face limitations in transferable molecular representation, contextual protei...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence-based photographic detection of pink esthetic score attributes using a hybrid deep learning segmentation pipeline: a method development study.",
+      "url": "https://doi.org/10.1038/s41598-026-62229-4",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "This study aimed to develop and internally validate a novel anatomy-driven artificial intelligence (AI) system for automated postoperative Pink Esthetic Score (PES) evaluation from intraoral photographs. Unlike most existing AI approaches, which rely on end-to-end prediction, the proposed pipeline derives PES attributes from anatomically grounded measurem...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De novo design of proteinaceous binders targeting the LEDGF PWWP domain.",
+      "url": "https://doi.org/10.1002/pro.70726",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Lens epithelium-derived growth factor p75 (LEDGF/p75) is a chromatin reader that recognizes di- or trimethylated Lys36 of histone H3 (H3K36me2/3)-modified nucleosomes and is implicated in diverse diseases, including cancer and human immunodeficiency virus (HIV) infection. Inhibiting the interaction between the Pro-Trp-Trp-Pro (PWWP) domain of LEDGF and ch...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Opposing Effects of Periplasmic Chaperones on Protein Folding.",
+      "url": "https://doi.org/10.1016/j.jmb.2026.169966",
+      "source": "PubMed — Journal of molecular biology",
+      "one_liner": "Protein translocation across the bacterial SecYEG channel involves mechanical constraints arising from ATP-driven SecA activity, geometric confinement within the translocon, and folding of the emerging polypeptide on the periplasmic side. Periplasmic chaperones assist substrate maturation during this process, but how they influence protein folding under f...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multi-omics analysis reveals the aging mechanism during Baobaoqu storage for the production of Wuliangye Baijiu.",
+      "url": "https://doi.org/10.1016/j.fochx.2026.104232",
+      "source": "PubMed — Food chemistry: X",
+      "one_liner": "The quality of Baobaoqu directly influences the quality of Baijiu. In this study, metatranscriptomics, metaproteomics and metabolomics were utilized, combining machine learning with a multi-layer perception neural network model and the Shapley additive explanations approach, to analyze the metabolic mechanisms in Baobaoqu of varying quality. The results i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "4-Nonylphenol mediated tumor progression and immune modulation through CDK2: Computational and experimental validation.",
+      "url": "https://doi.org/10.1016/j.jes.2025.10.046",
+      "source": "PubMed — Journal of environmental sciences (China)",
+      "one_liner": "As an endocrine-disrupting chemical, 4-nonylphenol (4-NP) has been found above safe limits in global water systems and associated with cancer progression. This multidisciplinary study systematically investigated the carcinogenic mechanisms of 4-NP by integrating network toxicology, machine learning, molecular docking simulations, single-cell RNA sequencin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TcrDesign: de novo design of epitope-specific full-length T cell receptors.",
+      "url": "https://doi.org/10.1007/s11427-025-3232-5",
+      "source": "PubMed — Science China. Life sciences",
+      "one_liner": "T cell receptors (TCRs) are essential for adaptive immune recognition. Recently, computational tools have been developed to predict the interactions between TCR and epitope, and artificial intelligence models have been proposed to generate the complementarity determining region 3 (CDR3) region of β chain TCR. However, de novo design of experimentally vali...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning paradigms in natural and engineered water systems: From proof-of-concept to trustworthy deployment.",
+      "url": "https://doi.org/10.1016/j.watres.2026.125932",
+      "source": "PubMed — Water research",
+      "one_liner": "Machine learning is increasingly used to model and manage water systems, from rivers and aquifers to treatment plants and distribution networks. Yet many studies remain proof-of-concept: models are trained on sparse or siloed data, behave as black boxes and rarely connect to operational decisions. Here we review representative applications across natural ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "htrSPRanalysis: An open source R package for expedited analysis of high-throughput binding kinetics data.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014581",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Surface plasmon resonance (SPR) enables label-free detection of binding kinetics and has been widely applied to the biophysical characterization of molecular interactions such as antibody-antigen binding. With the advent of high-throughput SPR (HT-SPR) instruments, hundreds of binding interactions can be detected simultaneously, combining the details of k...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The \"A-B-C\" Classification Reveals Outcome Trajectories in Patients With Hepatocellular Carcinoma Under Atezolizumab/Bevacizumab.",
+      "url": "https://doi.org/10.1016/j.cgh.2025.11.018",
+      "source": "PubMed — Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+      "one_liner": "BACKGROUND & AIMS: We aimed to identify subgroups of patients with unresectable hepatocellular carcinoma (HCC) using a non a priori, data-driven machine learning approach to uncover subgroups with distinct profiles across a range of clinical and tumor-related endpoints. METHODS: This international study across 12 centers included patients with unresectabl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine Learning of Personal Repertoires From Public T Cell Receptors.",
+      "url": "https://doi.org/10.1111/imr.70145",
+      "source": "PubMed — Immunological reviews",
+      "one_liner": "The T-cell receptor (TCR) repertoire records an individual's immunological history, but most unique CDR3 sequences in any one person are private and uninformative about anyone else. A small subset, however, recurs predictably across unrelated donors. These public TCRβ sequences are independently generated by multiple mechanisms: enrichment by thymic posit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Based Ultrasound Screening for Antenatal Detection of Placenta Accreta Spectrum.",
+      "url": "https://doi.org/10.1016/j.ajogmf.2026.102079",
+      "source": "PubMed — American journal of obstetrics & gynecology MFM",
+      "one_liner": "BACKGROUND: Placenta Accreta Spectrum is a leading cause of maternal morbidity and mortality and is increasing in incidence, yet only 30-50% of cases are diagnosed antenatally in some cases. While ultrasonographic findings may inform risk of Placenta Accreta Spectrum, multiple factors may lead to inconclusive or misdiagnosis. OBJECTIVE: We hypothesized th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Diagnosis of Leukemia from Bone Marrow Flow Cytometry Data Using Deep Learning and Explainable Artificial Intelligence.",
+      "url": "https://doi.org/10.1016/j.ajpath.2026.03.011",
+      "source": "PubMed — The American journal of pathology",
+      "one_liner": "Leukemia is a life-threatening blood cancer requiring rapid and accurate diagnosis to improve patient survival. Although flow cytometry offers powerful multiparametric analysis, manual interpretation remains slow, subjective, and, thus, prone to error. This study presents an automated diagnostic system using deep learning to analyze bone marrow flow cytom...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Application and challenges of chimeric antigen receptor T cell therapy in the treatment of acute myeloid leukemia (Review).",
+      "url": "https://doi.org/10.3892/ol.2026.15716",
+      "source": "PubMed — Oncology letters",
+      "one_liner": "Chimeric antigen receptor (CAR) T cell therapy is a rapidly evolving form of targeted immunotherapy that merges the antigen-recognition specificity of monoclonal antibodies with the potent cytotoxic function of T cells. While it has achieved remarkable clinical success in B cell hematologic malignancies, its application to acute myeloid leukemia (AML) rem...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence: Catalyzing a new era in pancreatic cancer cure.",
+      "url": "https://doi.org/10.1016/j.canlet.2026.218558",
+      "source": "PubMed — Cancer letters",
+      "one_liner": "Pancreatic ductal adenocarcinoma (PDAC) remains one of the most lethal human cancers, mostly due to its insidious onset that consequently leads to diagnosis at advanced stages. The complex biology of PDAC limits effective therapeutic options, yet over 90% of cases harbor KRAS mutations, making it a compelling therapeutic target. KRAS had a notorious histo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pitfalls and Emerging Trends in AI-driven Pathological Analysis of Metastatic Brain Tumors.",
+      "url": "https://doi.org/10.21873/anticanres.18318",
+      "source": "PubMed — Anticancer research",
+      "one_liner": "The integration of artificial intelligence (AI) and computational pathology has the potential to refine prognostic stratification in patients with metastatic brain tumors (MBTs). However, current AI models, which are trained predominantly on extracranial tissues, encounter significant challenges in the unique intracranial microenvironment. Unlike previous...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De novo design of potent CRISPR-Cas13 inhibitors.",
+      "url": "https://doi.org/10.1038/s41589-025-02136-3",
+      "source": "PubMed — Nature chemical biology",
+      "one_liner": "CRISPR-Cas systems are transformative tools for gene editing that can be tuned or controlled by anti-CRISPRs (Acrs)-phage-derived inhibitors that regulate CRISPR-Cas activity. However, Acrs that can inhibit biotechnologically relevant CRISPR systems are relatively rare and challenging to discover. To overcome this limitation, we describe a highly successf...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
