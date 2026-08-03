@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Aug 2026 06:02:12 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 06:06:26 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-08-03</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-03/podcast_2026-08-03.mp3</guid>
+      <pubDate>Mon, 03 Aug 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-03/podcast_2026-08-03.mp3" length="13579773" type="audio/mpeg" />
+      <description>The field is moving from treating protein shape‑shifting as a rare curiosity to treating it as a design problem that can be tackled with data‑driven models. | A second shift is evident in the way we go after RNA‑binding proteins. | In retinal disease diagnostics, the reliance on small, labelled cohorts is being replaced by foundation models that leverage heterogeneous imaging.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field is moving from treating protein shape‑shifting as a rare curiosity to treating it as a design problem that can be tackled with data‑driven models. | A second shift is evident in the way we go after RNA‑binding proteins. | In retinal disease diagnostics, the reliance on small, labelled cohorts is being replaced by foundation models that leverage heterogeneous imaging.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-08-02</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-02/podcast_2026-08-02.mp3</guid>
       <pubDate>Sun, 02 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-02/podcast_2026-08-02.mp3" length="22444293" type="audio/mpeg" />
-      <description>Today’s papers collectively push the field toward richer, more multimodal ways of seeing and shaping biological molecules, moving from single‑readout assays and subjective scores toward integrated computational‑experimental pipelines that capture both structure and context. | A second shift emerges in drug‑target affinity prediction, where the GraESM‑FuseDTA framework fuses a graph neural network that encodes the 3‑D topology of small molecules with an ESM‑style protein language model that captures evolutionary patterns across sequences. | The third shift is visible in clinical imaging, where a hybrid deep‑learning pipeline automates the Pink Esthetic Score for dental implants.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-02/podcast_2026-08-02.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today’s papers collectively push the field toward richer, more multimodal ways of seeing and shaping biological molecules, moving from single‑readout assays and subjective scores toward integrated computational‑experimental pipelines that capture both structure and context. | A second shift emerges in drug‑target affinity prediction, where the GraESM‑FuseDTA framework fuses a graph neural network that encodes the 3‑D topology of small molecules with an ESM‑style protein language model that captures evolutionary patterns across sequences. | The third shift is visible in clinical imaging, where a hybrid deep‑learning pipeline automates the Pink Esthetic Score for dental implants.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-27/podcast_2026-05-27.mp3</guid>
       <pubDate>Wed, 27 May 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-27/podcast_2026-05-27.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-05-26</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-26/podcast_2026-05-26.mp3</guid>
-      <pubDate>Tue, 26 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-26/podcast_2026-05-26.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

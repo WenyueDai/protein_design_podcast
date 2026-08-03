@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    93.72,
+    168.59,
+    362.2,
+    614.02,
+    641.0,
+    865.44,
+    1083.36,
+    1110.54,
+    1347.59,
+    1589.55
+  ],
+  "items": [
+    {
+      "title": "Benchmarking Deep Learning Predictions of Mutation-Induced Fold Switching",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.02.742283",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Many proteins are known to adopt multiple distinct folded states which are often associated with key functional behavior. A predictive understanding of the properties of such fold-switching or metamorphic proteins can provide insights into protein dynamics and energetics, and enable the design of complex protein functions and molecular machines. Recently ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design, synthesis, and biological evaluation of novel HuR inhibitors.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.154382",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "A series of novel HuR inhibitors were designed and synthesized. Evaluation of HuR binding affinity and antitumor activity against MDA-MB-231 cells demonstrated that most compounds exhibited potent HuR engagement and pronounced antitumor effects. Notably, compound 7a displayed a Kᵢ of 0.098 μM for HuR binding and an IC",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Classification of Inherited Retinal Diseases Using Artificial Intelligence Models for Fundus Autofluorescence and Ultrawide Retinal Images.",
+      "url": "https://doi.org/10.1155/joph/8810684",
+      "source": "PubMed — Journal of ophthalmology",
+      "one_liner": "BACKGROUND/OBJECTIVES: Inherited retinal diseases (IRDs) are a leading cause of blindness in working-age adults. Although artificial intelligence (AI) shows potential for disease classification, progress is limited by small datasets, reliance on labelled data and limited integration of multiple imaging modalities. RETFound, a foundation model pretrained o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Validation of a QuPath-Based Artificial Intelligence Workflow for Plasma Cell Quantification on CD138 Immunohistochemistry in an Indian Hematopathology Cohort.",
+      "url": "https://doi.org/10.1016/j.clml.2026.06.009",
+      "source": "PubMed — Clinical lymphoma, myeloma & leukemia",
+      "one_liner": "INTRODUCTION: Plasma cell percentage on CD138 immunohistochemistry of bone marrow trephine biopsies is fundamental to the diagnosis and risk stratification of plasma cell neoplasms, yet manual visual estimation is subject to inter-observer variability. We report a single-center pilot validation of an AI-assisted whole-section workflow using the open-sourc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-based design of peptide inhibitors targeting the SPSB2-iNOS interaction: a computational approach to modulating nitric oxide signaling.",
+      "url": "https://doi.org/10.1080/07391102.2026.2710745",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "Dysregulation of inducible nitric oxide synthase (iNOS) plays a central role in inflammatory diseases, cancer, and neurodegeneration due to excessive nitric oxide (NO) production. Suppressor of Cytokine Signaling Box Protein 2 (SPSB2) is a key negative regulator of iNOS through selective protein-protein interactions. Targeting the SPSB2-iNOS interface off...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TransDTAP: A multimodal transformer architecture for drug-target affinity prediction using sequence and biochemical properties.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109010",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Accurate drug-target affinity (DTA) prediction is essential for virtual screening and early-stage drug discovery. We propose TransDTAP, a multimodal Transformer-based architecture that integrates ligand SMILES sequences, protein amino-acid sequences, molecular physicochemical descriptors, and protein biochemical features within a unified regression framew...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GFP-like protein scaffolds for antigen grafting: Soluble and stable neoantigen display in mammalian-compatible platforms.",
+      "url": "https://doi.org/10.1016/j.bioadv.2026.214839",
+      "source": "PubMed — Biomaterials advances",
+      "one_liner": "Subunit vaccines are often limited by poor solubility and structural instability, affecting their ability to induce strong immune responses. Scaffold-based antigen display offers a promising solution, but translating designs into stable, scalable proteins remains challenging. Here, we present a pipeline for selecting and inserting tumor-derived peptide se...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Variant characterization in the intrinsically disordered human proteome.",
+      "url": "https://doi.org/10.1038/s41594-026-01846-z",
+      "source": "PubMed — Nature structural & molecular biology",
+      "one_liner": "Variant effect prediction remains a key challenge in precision medicine. Computational models are increasingly successful in the characterization of missense variants in folded protein regions. However, 37% of all annotated missense variants reside in the 25% of the proteome that is intrinsically disordered, lacking positional sequence conservation and st...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fibulin-1 is Required for Microvascular Integrity in the Developing Brain and Retina.",
+      "url": "https://doi.org/10.1016/j.ydbio.2026.07.017",
+      "source": "PubMed — Developmental biology",
+      "one_liner": "Vascularization of the central nervous system and the postnatal retina proceeds through angiogenic growth that relies in part on the basement membrane (BM) to support endothelial cell-cell interactions and maintain barrier integrity during vessel formation. In addition to the core structural components of the BM, matricellular proteins are present as mino...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GEMO: A Deep Learning Method for Brain Fiber Classification and Tract Segmentation Using Geometrical and Morphological Features.",
+      "url": "https://doi.org/10.1016/j.acra.2026.07.024",
+      "source": "PubMed — Academic radiology",
+      "one_liner": "RATIONALE AND OBJECTIVES: Diffusion-weighted magnetic resonance imaging (dMRI) is often used to study brain structure. One of the important applications made possible by dMRI is streamline tractography that is utilized for structural connectivity evaluation and neurosurgical planning. Reliable localization of brain fibers can considerably enhance the outc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A novel pan class-I glucose transporter inhibitor DRB18 exhibits synergistic effects in vitro and in vivo with paclitaxel against human non-small cell lung cancer",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.12.15.628558",
+      "source": "bioRxiv — cancer biology",
+      "one_liner": "Cancer cells depend on glucose for biomass synthesis, cell proliferation, and drug resistance. Glucose transporter (GLUT) transcripts as well as proteins are upregulated in human lungs and other cancers and are negatively correlated with patient survival, particularly GLUT1 and GLUT3. Thus, inhibiting GLUT function has been an attractive anticancer strate...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification of non-hydroxamate histone deacetylase 8 inhibitors using deep learning-based screening of two-dimensional molecular images.",
+      "url": "https://doi.org/10.1016/j.bmc.2026.118694",
+      "source": "PubMed — Bioorganic & medicinal chemistry",
+      "one_liner": "Histone deacetylase 8 (HDAC8) is a zinc-dependent enzyme that deacetylates proteins and is involved in cancer development, making its inhibition a potential anticancer strategy. Most reported HDAC8 inhibitors contain a hydroxamate zinc-binding group; however, hydroxamate moieties have been associated with potential mutagenicity, motivating the search for ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MolSight: A Graph-Aware Vision-Language Model for Unified Chemical Image Understanding",
+      "url": "https://arxiv.org/abs/2607.01982",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2607.01982v2 Announce Type: replace-cross \nAbstract: Using molecular large language models (LLMs) as a unified framework for understanding molecular structures and functions is emerging as a new trend in tasks such as molecular design and drug discovery. However, these models struggle to fully capture the visual representation of molecular structure...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "In silico docking and molecular dynamics simulation analysis of phytochemicals targeting human metapneumovirus fusion protein.",
+      "url": "https://doi.org/10.1007/s40203-026-00716-2",
+      "source": "PubMed — In silico pharmacology",
+      "one_liner": "UNLABELLED: Human Metapneumovirus (HMPV) continues to be a major cause of respiratory infections around the world, despite the availability of many treatment options and the existence of effective vaccines against other respiratory viruses such as influenza and parainfluenza virus. Since the virus poses a significant public health threat, yet there are no...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Targeting GPR18: Structural modelling, ligand discovery, and therapeutic potential in neuroinflammatory disorders.",
+      "url": "https://doi.org/10.1016/j.bcp.2026.118038",
+      "source": "PubMed — Biochemical pharmacology",
+      "one_liner": "GPR18, a class A G protein-coupled receptor once considered an orphan with unclear links to the endocannabinoid system (ECS), is increasingly recognized as a pharmacologically relevant component of the extended ECS. Structural, pharmacological, and functional evidence increasingly support the positioning of GPR18 within the extended ECS, with closer align...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo Autogenic Engineered Living Functional Materials.",
+      "url": "https://doi.org/10.1002/adma.74312",
+      "source": "PubMed — Advanced materials (Deerfield Beach, Fla.)",
+      "one_liner": "Autogenic engineered living materials (ELMs) enable the in situ production and engineering of native extracellular matrix (ECM). However, existing autogenic ELMs remain limited in scope and functionality. Here, we present a versatile platform for de novo autogenic functional ELMs, leveraging protein mining, computational modeling, and synthetic biology. B...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Gut Microbiota-Neuroimmune Axis Regulates Eosinophil Extracellular Traps and Their Role in Cancer Immunotherapy.",
+      "url": "https://doi.org/10.1111/imm.70181",
+      "source": "PubMed — Immunology",
+      "one_liner": "The gut microbiota functions as a metabolically active microbial ecosystem that engages in bidirectional communication with the host nervous and immune systems, thereby contributing to homeostasis and disease pathogenesis. Eosinophil extracellular traps (EETs)-web-like structures composed of DNA and granule proteins released by activated eosinophils-exert...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Apolipoprotein A-I as a Molecular Target of the Immunomodulatory Peptide Jusvinza: Mechanistic Insights From Affinity and In Silico Studies.",
+      "url": "https://doi.org/10.1002/psc.70113",
+      "source": "PubMed — Journal of peptide science : an official publication of the European Peptide Society",
+      "one_liner": "Jusvinza is an immunomodulatory pharmaceutical drug developed for the treatment of rheumatoid arthritis. Its active ingredient is an altered peptide ligand-derived from a T-cell epitope of the human 60-kDa heat shock protein-referred to as CIGB-814. Jusvinza has also proven effective in reducing hyperinflammation in COVID-19. However, molecular targets of...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fisher Information, Training and Bias in Fourier Regression Models",
+      "url": "https://arxiv.org/abs/2510.06945",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2510.06945v2 Announce Type: replace \nAbstract: Motivated by the growing interest in quantum machine learning, in particular quantum neural networks (QNNs), we study how recently introduced evaluation metrics based on the Fisher information matrix (FIM) are effective for predicting their training and prediction performance. We exploit the equivalence...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A Novel XAI-Enhanced Quantum Adversarial Networks for Velocity Dispersion Modeling in MaNGA Galaxies",
+      "url": "https://arxiv.org/abs/2510.24598",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2510.24598v2 Announce Type: replace \nAbstract: Current quantum machine learning approaches often face challenges balancing predictive accuracy, robustness, and interpretability. To address this, we propose a novel quantum adversarial framework that integrates a hybrid quantum neural network (QNN) with classical deep learning layers, guided by an eva...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

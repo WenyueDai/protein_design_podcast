@@ -1,12 +1,12 @@
 <svg xmlns='http://www.w3.org/2000/svg' width='1400' height='1400' viewBox='0 0 1400 1400'>
 <defs>
   <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
-    <stop offset='0%' stop-color='hsl(3,70%,55%)'/>
-    <stop offset='100%' stop-color='hsl(154,75%,35%)'/>
+    <stop offset='0%' stop-color='hsl(148,70%,55%)'/>
+    <stop offset='100%' stop-color='hsl(100,75%,35%)'/>
   </linearGradient>
 </defs>
 <rect width='100%' height='100%' fill='url(#g)'/>
-<circle cx='1355' cy='300' r='184' fill='hsla(1,85%,39%,0.45)'/><circle cx='978' cy='830' r='89' fill='hsla(90,85%,47%,0.45)'/><circle cx='168' cy='281' r='103' fill='hsla(357,85%,51%,0.45)'/><circle cx='980' cy='1257' r='143' fill='hsla(203,85%,51%,0.45)'/><circle cx='563' cy='928' r='107' fill='hsla(32,85%,68%,0.45)'/><circle cx='236' cy='1387' r='66' fill='hsla(26,85%,46%,0.45)'/><circle cx='898' cy='1389' r='83' fill='hsla(15,85%,43%,0.45)'/><circle cx='572' cy='1254' r='131' fill='hsla(195,85%,69%,0.45)'/><circle cx='1065' cy='197' r='210' fill='hsla(62,85%,42%,0.45)'/><circle cx='369' cy='93' r='244' fill='hsla(356,85%,47%,0.45)'/><circle cx='259' cy='524' r='140' fill='hsla(190,85%,60%,0.45)'/><circle cx='1356' cy='1218' r='179' fill='hsla(52,85%,48%,0.45)'/><circle cx='822' cy='1144' r='60' fill='hsla(253,85%,62%,0.45)'/><circle cx='282' cy='291' r='91' fill='hsla(161,85%,63%,0.45)'/><circle cx='832' cy='402' r='159' fill='hsla(148,85%,51%,0.45)'/><circle cx='1349' cy='538' r='150' fill='hsla(86,85%,45%,0.45)'/><circle cx='1038' cy='1218' r='103' fill='hsla(7,85%,68%,0.45)'/><circle cx='1315' cy='323' r='144' fill='hsla(115,85%,41%,0.45)'/>
+<circle cx='45' cy='1110' r='79' fill='hsla(163,85%,35%,0.45)'/><circle cx='1012' cy='663' r='102' fill='hsla(136,85%,37%,0.45)'/><circle cx='582' cy='953' r='143' fill='hsla(46,85%,58%,0.45)'/><circle cx='1016' cy='1055' r='67' fill='hsla(195,85%,41%,0.45)'/><circle cx='39' cy='850' r='101' fill='hsla(337,85%,66%,0.45)'/><circle cx='863' cy='1366' r='143' fill='hsla(123,85%,58%,0.45)'/><circle cx='149' cy='1262' r='156' fill='hsla(11,85%,52%,0.45)'/><circle cx='411' cy='804' r='73' fill='hsla(25,85%,57%,0.45)'/><circle cx='766' cy='177' r='173' fill='hsla(182,85%,48%,0.45)'/><circle cx='387' cy='663' r='237' fill='hsla(279,85%,66%,0.45)'/><circle cx='196' cy='1160' r='234' fill='hsla(17,85%,60%,0.45)'/><circle cx='24' cy='712' r='181' fill='hsla(136,85%,40%,0.45)'/><circle cx='294' cy='319' r='156' fill='hsla(302,85%,58%,0.45)'/><circle cx='185' cy='105' r='116' fill='hsla(228,85%,66%,0.45)'/><circle cx='229' cy='757' r='232' fill='hsla(236,85%,40%,0.45)'/><circle cx='763' cy='1376' r='217' fill='hsla(48,85%,66%,0.45)'/><circle cx='1050' cy='796' r='251' fill='hsla(96,85%,42%,0.45)'/><circle cx='833' cy='150' r='172' fill='hsla(185,85%,54%,0.45)'/>
 <rect x='80' y='980' width='1240' height='280' rx='32' fill='rgba(0,0,0,0.35)'/>
 <text x='120' y='1090' fill='white' font-size='92' font-family='Arial, Helvetica, sans-serif' font-weight='700'>Protein Design Podcast</text>
 <text x='120' y='1170' fill='white' font-size='46' font-family='Arial, Helvetica, sans-serif'>Auto-generated Daily Episode</text>
