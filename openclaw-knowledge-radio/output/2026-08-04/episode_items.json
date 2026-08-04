@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    139.6,
+    249.35,
+    364.98,
+    632.94,
+    822.17,
+    1071.62,
+    1127.97,
+    1282.86,
+    1888.76,
+    2064.82
+  ],
+  "items": [
+    {
+      "title": "Dynamics-informed RFdiffusion for",
+      "url": "https://doi.org/10.1080/07391102.2025.2609688",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "Protein-protein interaction surfaces pose a significant challenge for therapeutic design, particularly for oncogenes like KRAS, which have historically been considered challenging to target due to their lack of well-defined binding pockets. Although",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Done EAZY: An Automated Procedure for 89Zr-Radiolabeling and Size-Exclusion Chromatography Purification of Nanoliposomal Anticancer Therapeutics.",
+      "url": "https://doi.org/10.1021/acs.molpharmaceut.6c00129",
+      "source": "PubMed — Molecular pharmaceutics",
+      "one_liner": "Liposomal nanomedicines offer a clinically proven platform for enhanced drug delivery, yet their behavior in vivo remains difficult to characterize. Noninvasive positron emission tomography (PET) imaging with radiolabeled liposomes enables quantitative insight into their biodistribution and pharmacokinetics, supporting the rational design and clinical tra...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A cardiac-related, promoter-proximal, regulatory element shapes chromatin and JAG1 transcription.",
+      "url": "https://doi.org/10.26508/lsa.202503597",
+      "source": "PubMed — Life science alliance",
+      "one_liner": "R7 is a promoter‑proximal regulatory element upstream of the JAG1 transcription start site that exhibits enhancer‑like activity and is required for maintaining JAG1 expression in AC16 cardiomyocytes; loss of R7 reduces JAG1 transcription, disrupts local chromatin interactions and accessibility, and impairs cell‑cycle progression, viability, and apoptosis, phenotypes that are partially rescued by restoring JAG1 expression.\n\nMETHOD / APPROACH:\nScreened ±100 kb around the JAG1 locus with the R‑panel enhancer prediction pipeline, yielding 19 candidate fragments merged into 10 regions (R1‑R10).",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evolutionary Curriculum Learning Improves Biological Sequence Modeling",
+      "url": "https://arxiv.org/abs/2608.00697",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2608.00697v1 Announce Type: cross \nAbstract: Variational autoencoders (VAEs) trained on multiple sequence alignments (MSAs) have emerged as powerful generative models for biological sequences, with applications ranging from disease variant prediction to functional RNA design. However, standard biological VAE training treats all sequences as exchange...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Artificial intelligence-based diagnostic model for identifying PTPRZ1-MET fusion in a clinically defined secondary glioblastoma cohort.",
+      "url": "https://doi.org/10.1186/s43556-026-00529-x",
+      "source": "PubMed — Molecular biomedicine",
+      "one_liner": "Glioblastoma (GBM) is an aggressive and highly lethal brain tumor. Secondary glioblastoma (sGBM), which arises through malignant progression from lower-grade diffuse glioma, represents a clinically and biologically distinct subset of GBM. In this disease context, the protein tyrosine phosphatase receptor type Z1-mesenchymal-epithelial transition factor (P...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting and analyzing the dielectric constant of polyvinyl alcohol reinforced with different nanofillers using machine learning modeling.",
+      "url": "https://doi.org/10.1186/s11671-026-04832-y",
+      "source": "PubMed — Discover nano",
+      "one_liner": "Polyvinyl alcohol (PVA) is a widely used polymer in many applications. The nanoparticles' incorporation into the polyvinyl alcohol structure can significantly modify the electrical characteristics by benefiting the properties of both polymer and nanofillers. Although the dielectric constant of PVA-based nanocomposites has been comprehensively measured, no...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning for precision prediction of antimicrobial peptide activity and spectrum.",
+      "url": "https://doi.org/10.1016/j.biotechadv.2026.109002",
+      "source": "PubMed — Biotechnology advances",
+      "one_liner": "The accelerating global crisis of antibiotic resistance demands new therapeutic paradigms, and antimicrobial peptides (AMPs) have emerged as promising candidates owing to their broad activity and reduced propensity for resistance development. However, despite rapid progress in AMP discovery and generation, the accurate prediction of antimicrobial potency ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cell-specific Cahn-Hilliard models predict condensed fates of the chromosomal passenger complex.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014568",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Biomolecular condensates create dynamic subcellular compartments that alter systems-level properties of the networks surrounding them. Standard reaction-diffusion models of systems biology cannot define where these compartments emerge nor track how they evolve. One alternative physicochemical model of soluble and condensed states in space and time is the ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational design of antimicrobial peptide nanopores.",
+      "url": "https://doi.org/10.1038/s41589-026-02269-z",
+      "source": "PubMed — Nature chemical biology",
+      "one_liner": "Antibiotic resistance is a global health threat, driving the need for new molecules that kill bacteria via nontraditional mechanisms. Here, we present a computational de novo design strategy for α-helical peptides that self-assemble into large, stable and membrane-spanning nanopores with antimicrobial activity, including in vivo efficacy against drug-resi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Contrastive learning unites sequence and structure in a global representation of protein space.",
+      "url": "https://doi.org/10.1073/pnas.2532702123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Establishing a coherent mapping of the relationships among all known proteins is crucial for elucidating processes of protein emergence and evolution. Yet the capacity to fully capture relationships of protein similarity is complicated by the nonstraightforward interplay between sequence and structure; indeed, proteins with unrelated sequences can adopt s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural and functional characterization of a conserved cryptic epitope on SARS-CoV-2 spike S2 subunit.",
+      "url": "https://doi.org/10.1371/journal.ppat.1014391",
+      "source": "PubMed — PLoS pathogens",
+      "one_liner": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has undergone extensive evolution since its emergence in 2019, underscoring the continuous need for vaccines and therapeutics effective against multiple variants of concern (VOCs). The S2 subunit of the viral spike (S) glycoprotein is highly conserved among sarbecoviruses, making it an attractiv...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Funnel-like protein energy landscapes emerge from functional evolution under thermal fluctuations",
+      "url": "https://arxiv.org/abs/2608.01143",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2608.01143v1 Announce Type: cross \nAbstract: Proteins perform biological functions by folding into specific native structures that are stabilized by funnel-like energy landscapes shaped through evolution. We investigate whether such foldable proteins can emerge solely from selection for function, without any direct selection for foldability. Using a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "PG-LLM: Benchmarking General-Purpose Language Models for Protein Variant Ranking",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.27.741045",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "eneral-purpose language models are being increasingly utilized in protein-design workflows, yet their ability to evaluate variant effects remains unclear. To answer this question, we introduce PG-LLM, a benchmark built on ProteinGym to evaluate general-purpose language models on 217 protein-variant prioritization tasks. Each task follows the same format: ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Efficient discovery of an agonistic anti-OX40 nanobody by epitope-directed approach to address enrichment-driven epitope bias.",
+      "url": "https://doi.org/10.1136/jitc-2025-014419",
+      "source": "PubMed — Journal for immunotherapy of cancer",
+      "one_liner": "BACKGROUND: Conventional antibody discovery approaches that do not account for enrichment-driven biases, such as epitope immunogenicity, PCR amplification bias, or protein expression efficiency, may result in under-representation of rare yet functionally relevant clones, necessitating labor-intensive in vitro screening to identify agonistic antibodies amo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural Basis of a Novel Heme Binding Bacterial One-Component Switch",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.15.711900",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "One-component systems (OCSs) integrate sensory and effector functions within a single protein, enabling rapid gene expression changes in response to environmental cues. Here, we characterized a novel heme binding OCS protein, FG214, from Fimbriimonas ginsengisoli, a redox-regulated helix-turn-helix transcription factor in which heme iron ligand state cont...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evaluation Methods for Inference-Time Retrieval-Augmented and Graph Retrieval-Augmented Large Language Models in Health Care: Scoping Review.",
+      "url": "https://doi.org/10.2196/90046",
+      "source": "PubMed — Journal of medical Internet research",
+      "one_liner": "BACKGROUND: Inference-time retrieval augmentation is increasingly used to improve the traceability and verifiability of large language model (LLM) applications in health care. Evaluation practices for text-based retrieval-augmented generation (RAG) and graph-structured RAG (GraphRAG) systems remain heterogeneous, which limits comparison across studies and...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HIPK2 exhibits context dependent dualistic effects and combinatorial inhibition of HIPK2-NLK-MAPK11 axis manifests synergism against gastric cancer.",
+      "url": "https://doi.org/10.1007/s13577-026-01429-6",
+      "source": "PubMed — Human cell",
+      "one_liner": "Homeodomain-interacting protein kinase 2 (HIPK2) can function either as a tumour suppressor or promoter in cancer. Understanding key features of HIPK2 context dependent effects in cancer could lead to novel therapeutic strategies. Our investigation of HIPK2 expression in gastric cancer (GC) showed it to be down regulated.HIPK2 manifested context dependent...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification of ZINC database-derived antitrypanosomal candidates targeting Trypanosoma congolense lysosomal-α-mannosidase using computational, biochemical and in vivo methods.",
+      "url": "https://doi.org/10.1016/j.exppara.2026.109156",
+      "source": "PubMed — Experimental parasitology",
+      "one_liner": "Animal African Trypanosomiasis (AAT), primarily caused by Trypanosoma congolense, continues to threaten livestock productivity across sub-Saharan Africa. The persistence of the disease is largely driven by antigenic variation of Variant Surface Glycoproteins (VSGs), which enable immune evasion. Lysosomal α-D-mannosidase (LDM) suggestively plays a key role...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CoSynFlow: Conformal Symplectic Neural Flows for Cross-System Prediction of Dissipative Hamiltonian Dynamics",
+      "url": "https://arxiv.org/abs/2608.00571",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.00571v1 Announce Type: new \nAbstract: Learning solution operators for differential equations is a central problem in scientific machine learning. However, many neural operator methods optimize prediction accuracy without explicitly enforcing the geometric structure of the dynamics. Structure-preserving models such as SympNets and Symplectic Neu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "xMICD: Explainable Representation of Multiple ICD Codes",
+      "url": "https://arxiv.org/abs/2608.00935",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.00935v1 Announce Type: new \nAbstract: Electronic Health Records (EHRs) are widely used for clinical risk prediction using machine learning. International Classification of Diseases (ICD) codes provide structured information about patient diagnoses, but representing them effectively remains challenging. Existing approaches often face a trade-off...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
