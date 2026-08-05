@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    166.87,
+    389.32,
+    1048.5,
+    1074.39,
+    1223.91,
+    1947.46,
+    2113.24,
+    2710.67,
+    3255.52,
+    3874.26
+  ],
+  "items": [
+    {
+      "title": "Expanding Protein Structure Prediction into Conformational State Space",
+      "url": "https://arxiv.org/abs/2608.02866",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2608.02866v1 Announce Type: new \nAbstract: Recent AI advances have enabled protein structure prediction at near-experimental accuracy, largely solving the problem of identifying a dominant conformation from sequence. Many proteins, however, function as dynamic systems populating multiple conformational states with activity emerging from shifts in re...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.02.742339",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "De novo design of protein binders targeting extended, multi-site interaction surfaces remains difficult for current generative methods, which often produce limited structural diversity and predominantly helical topologies. Here, we advance diffusion-based binder design by guiding protein backbone generation through ''seeds,'' which are PDB-derived fragmen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Blind Spot in Alignment: Quantifying Biosecurity Risks in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.02684",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.02684v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are accelerating biological research, yet this same capability poses a critical biosecurity threat: models that assist in protein engineering can equally be prompted to generate predicted toxin-like sequences, potentially lowering the barrier to biological misuse. Current safety...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Artificial intelligence empowers full-stack histopathological diagnosis and prognosis of renal cell tumor: a multi-center study with external validation.",
+      "url": "https://doi.org/10.1186/s12916-026-05110-5",
+      "source": "PubMed — BMC medicine",
+      "one_liner": "BACKGROUND: The rapid advancement of digital pathology has opened unprecedented opportunities for intelligent diagnosis in renal cell tumor. However, there remains a significant gap in the availability of reliable deep learning models capable of comprehensive kidney cancer detection, classification, grading, and survival prediction. METHOD: This study ret...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MC-SNN: Multicenter Stochastic Neural Network for Adversarially Robust Learning.",
+      "url": "https://doi.org/10.1109/TCYB.2026.3717080",
+      "source": "PubMed — IEEE transactions on cybernetics",
+      "one_liner": "Enhancing the adversarial robustness of deep neural networks (DNNs) has become a prominent topic in the field of reliable artificial intelligence. Existing methods, no matter with standard training (ST) or adversarial training (AT), usually adopt a regular learning mode that induces a single center for each class of samples in the logit layer. However, du...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Quantitative retrieval of soil total nitrogen content from airborne hyperspectral data combining spectral transformations and machine learning algorithms.",
+      "url": "https://doi.org/10.1016/j.envres.2026.125390",
+      "source": "PubMed — Environmental research",
+      "one_liner": "Soil total nitrogen (STN) plays a vital role in nutrient cycling and ecosystem restoration in mining areas. Accurate monitoring of STN in reclaimed soils is essential for assessing soil fertility and guiding ecological rehabilitation. Compared with chemical analysis, hyperspectral technology enables rapid and non-destructive prediction of soil physicochem...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Toward the prevention of clinically manifest Parkinson's disease.",
+      "url": "https://doi.org/10.1007/s00702-026-03240-x",
+      "source": "PubMed — Journal of neural transmission (Vienna, Austria : 1996)",
+      "one_liner": "Parkinson's disease (PD) is the fastest growing neurological disorder worldwide and is projected to affect unprecedented numbers of individuals by 2050. At the same time, PD research is undergoing a profound conceptual transformation. Advances in molecular neuropathology, genetics, biomarker science, artificial intelligence, multimodal imaging, digital me...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dynamic conformations of fluorophores on self-labeling protein tags.",
+      "url": "https://doi.org/10.1016/j.bpj.2026.06.033",
+      "source": "PubMed — Biophysical journal",
+      "one_liner": "Self-labeling protein tags (SLPs) enable protein-specific conjugation of synthetic fluorophores for versatile bioimaging, yet their rational engineering has largely relied on static structural models. Here, we reveal that crystal structures of SLP-dye complexes generally bear packing artifacts due to strong π-π interactions of dyes, frequently failing to ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Kinesin-5/Cut7 C-terminal tail phosphorylation influence on motor regulation through multi-scale molecular modeling.",
+      "url": "https://doi.org/10.1016/j.bpj.2026.06.032",
+      "source": "PubMed — Biophysical journal",
+      "one_liner": "Kinesin-5 motor proteins play a vital role in mitotic spindle formation by generating essential forces during cell division that are necessary for proper chromosome segregation. Previous studies have confirmed the fundamental role of direct binding interactions between the tail and motor domains in kinesin-5-driven microtubule sliding. Post-translational ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Extrahepatic, cell-specific delivery of LNPs through competitive inhibition of ApoE-mediated uptake",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.727812",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Targeted lipid nanoparticles (LNPs) for extrahepatic drug delivery are limited by apolipoprotein E (ApoE)-mediated hepatic accumulation. We developed NanoPilot, a modular fusion protein platform comprising antibodies and anchors blocking the low density lipoprotein receptor (LDLR) ApoE binding site, to block LNP liver uptake and redirect to target cells. ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "SARS-CoV-2 NSP8-Derived Peptide Effectively Suppresses the Activity of Helicase NSP13.",
+      "url": "https://doi.org/10.34133/csbj.0174",
+      "source": "PubMed — Computational and structural biotechnology journal",
+      "one_liner": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) nonstructural protein 13 (NSP13) is a multifunctional helicase that plays a central role in viral RNA replication and suppression of host innate immunity. Beyond its essential function within the replication-transcription complex (RTC), NSP13 antagonizes type I interferon (IFN-I) signaling throu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "NanoBiT screening identifies the azaoxafluorene VT11 as potent tau interaction inhibitor.",
+      "url": "https://doi.org/10.1038/s41598-026-65368-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Tauopathies are neurodegenerative disorders characterized by accumulating misfolded, insoluble tau protein aggregates in neurons or glial cells. In this study, we screened the Spectrum Collection and other compound libraries for inhibitors of tau self-interaction using a structural complementation reporter system (NanoLuciferase Binary Technology). Result...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A measurement-driven graph learning framework for Wideband oscillation localization in power systems.",
+      "url": "https://doi.org/10.1371/journal.pone.0355190",
+      "source": "PubMed — PloS one",
+      "one_liner": "Wideband oscillations in converter-dominated power systems exhibit complex multi-band characteristics, strong nonstationarity, and weak spatial coherence, posing significant challenges to conventional oscillation source localization methods that are primarily designed for narrowband low-frequency scenarios. In particular, medium- and high-frequency compon...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Tau spreading coordinates intercellular lipid flux enhancing neuronal resilience to lipid toxicity",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.30.741734",
+      "source": "bioRxiv — neuroscience",
+      "one_liner": "The presence of intrinsically disordered proteins (IDPs) in the extracellular environment of the brain suggests that protein disorder may serve functions beyond those confined to the intracellular space. Tau, a prototypical IDP linked to tauopathies, a class of neurodegenerative diseases, is continuously released and spreads between cells in the brain, ye...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of a Long-Acting FAPI Dimer Albb-2FAPI for Diagnosis and Therapy of FAP-Positive Tumors.",
+      "url": "https://doi.org/10.1021/acs.molpharmaceut.6c00178",
+      "source": "PubMed — Molecular pharmaceutics",
+      "one_liner": "Fibroblast activation protein (FAP)-targeted radiotheranostics show strong promise for cancer imaging and therapy, yet their clinical translation is limited by the trade-off between rapid tumor targeting and insufficient systemic residence time. To address this challenge, we report the design and evaluation of 177Lu-Albb-2FAPI, a long-acting dimeric FAPI ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Spatial proteomics guided by H&E-based AI reveals recurrence-risk niches in triple-negative breast cancer",
+      "url": "https://arxiv.org/abs/2608.03145",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.03145v1 Announce Type: cross \nAbstract: Deep learning models can predict cancer recurrence from H&E stained slides, but the localized molecular states underlying these predictions remain largely obscured. Here, we developed an outcome informed spatial pathology framework in TNBC that integrates AI generated recurrence risk heatmaps with mas...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Neutrophils-Nitroblue Tetrazolium staining: A potential novel marker of women infertilely?",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.02.742324",
+      "source": "bioRxiv — pathology",
+      "one_liner": "Rationale: Oxidative stress, resulting from an imbalance between the production of reactive oxygen species (ROS) and antioxidant defence mechanisms, disrupts cellular redox homeostasis and contributes to damage of biomolecules, including nucleic acids, proteins and lipids. Such disturbances can impair intracellular signalling pathways and have been implic...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A method for comparing inferred evolutionary accumulation dynamics across covariates and model structures",
+      "url": "https://arxiv.org/abs/2608.02781",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.02781v1 Announce Type: new \nAbstract: In this note we describe a method for comparing inferred dynamics in evolutionary accumulation models (EvAMs). These models involve the acquisition of multiple, potentially codependent, binary features over time -- for example, mutations in cancer development, or phenotypes in evolutionary biology. As the s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "PatTree: a novel approach for automated creation of multimodal, graph-based patient representations for medical classification tasks",
+      "url": "https://arxiv.org/abs/2608.02692",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.02692v1 Announce Type: new \nAbstract: Access to holistic, multimodal data improves the performance of Artificial Intelligence (AI) in medical classification tasks compared to utilizing single modalities or data sources. However, the inherent heterogeneity and complexity of clinical real-world data pose significant challenges to structured data ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Design-Time Optimization of Deep Neural Networks for Intermittent Learning on Microcontrollers",
+      "url": "https://arxiv.org/abs/2608.03589",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.03589v1 Announce Type: new \nAbstract: We present a method for designing deep neural networks (DNNs) for intermittent, energy-autonomous, on-device learning on microcontroller units (MCUs). In mobile applications where the energy can run out, e.g., when solar-powered, executing artificial intelligence (AI) faces a technical issue as learning can...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

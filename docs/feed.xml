@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Aug 2026 05:52:03 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 05:51:09 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-08-05</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-05/podcast_2026-08-05.mp3</guid>
+      <pubDate>Wed, 05 Aug 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-05/podcast_2026-08-05.mp3" length="28861677" type="audio/mpeg" />
+      <description>The field is waking up to the fact that proteins are not static statues but restless ensembles, and today’s papers push that realization into three different corners of our work. | One idea that keeps coming up is to marry the seed‑guided diffusion approach from the binder paper with the conformational‑state‑space mindset of the perspective piece. | Another thread pulls from the safety work.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field is waking up to the fact that proteins are not static statues but restless ensembles, and today’s papers push that realization into three different corners of our work. | One idea that keeps coming up is to marry the seed‑guided diffusion approach from the binder paper with the conformational‑state‑space mindset of the perspective piece. | Another thread pulls from the safety work.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-08-04</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-04/podcast_2026-08-04.mp3</guid>
       <pubDate>Tue, 04 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-04/podcast_2026-08-04.mp3" length="16105221" type="audio/mpeg" />
-      <description>The papers today collectively push the field away from static, structure‑first thinking toward approaches that embrace dynamics, automation, regulatory nuance, evolutionary context and data‑driven diagnostics. | If I were to turn today’s insights into a new project, I would start by marrying the evolutionary curriculum learning trick from paper 4 with the dynamics‑aware RFdiffusion pipeline hinted at in paper 1. | Second, I would borrow the R‑panel enhancer screen and dual‑luciferase read‑out from paper 3 to hunt for regulatory switches that drive the MET‑PCDHGA3‑FAM3C signature seen in the ZM‑positive glioblastoma of paper 5.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-04/podcast_2026-08-04.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The papers today collectively push the field away from static, structure‑first thinking toward approaches that embrace dynamics, automation, regulatory nuance, evolutionary context and data‑driven diagnostics. | If I were to turn today’s insights into a new project, I would start by marrying the evolutionary curriculum learning trick from paper 4 with the dynamics‑aware RFdiffusion pipeline hinted at in paper 1. | Second, I would borrow the R‑panel enhancer screen and dual‑luciferase read‑out from paper 3 to hunt for regulatory switches that drive the MET‑PCDHGA3‑FAM3C signature seen in the ZM‑positive glioblastoma of paper 5.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-31/podcast_2026-05-31.mp3</guid>
       <pubDate>Sun, 31 May 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-31/podcast_2026-05-31.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-05-30</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-30/podcast_2026-05-30.mp3</guid>
-      <pubDate>Sat, 30 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-30/podcast_2026-05-30.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
