@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    109.39,
+    694.26,
+    895.14,
+    1095.27,
+    1240.4,
+    1428.5,
+    1605.5,
+    1763.25,
+    1959.85,
+    2202.56
+  ],
+  "items": [
+    {
+      "title": "Allosteric effects of CDR-H3 mutations modulate binding and neutralization of a conserved SARS-CoV-2 RBD-targeting antibody.",
+      "url": "https://doi.org/10.1128/spectrum.04127-25",
+      "source": "PubMed — Microbiology spectrum",
+      "one_liner": "UNLABELLED: SARS-CoV-2 antigenic evolution continues to erode the activity of first-generation monoclonal antibodies, underscoring the value of antibodies that recognize conserved features within the spike receptor-binding domain (RBD). As a model for breadth-oriented engineering, we assessed the RBD-directed antibody XG83, which has a CDRH3-dominated par...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Arnold: A multi-task, multi-embodiment muscle transformer policy",
+      "url": "https://arxiv.org/abs/2508.18066",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2508.18066v2 Announce Type: replace-cross \nAbstract: Controlling high-dimensional and nonlinear musculoskeletal models of the human body is a foundational scientific challenge. Recent machine learning breakthroughs have heralded in-silico policies that master individual skills like reaching, object manipulation and locomotion in musculoskeletal syst...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "The Cost of Binarizing Survival Outcomes in Clinical Prognostic Modeling",
+      "url": "https://arxiv.org/abs/2608.04046",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.04046v1 Announce Type: new \nAbstract: Survival analysis is an established framework for analyzing time-to-event data, yet many clinical machine learning studies still binarize the outcome before model training. This practice excludes censored patients, collapses temporal information into a single threshold, and can affect which features are sel...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A machine learning-derived aging-related gene signature for diagnosing HCV cirrhosis: Insights into immune microenvironment and therapeutic targets.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109297",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "BACKGROUND: While direct-acting antiviral (DAA) therapies effectively cure most chronic hepatitis C virus (HCV) infections, patients with pre-existing cirrhosis remain at risk for disease progression. Cellular senescence and immune dysregulation drive persistent liver injury post-clearance, but reliable biomarkers and therapeutic targets remain scarce. ME...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence for anticancer drug discovery from natural products of macroalgae and sponges: A systematic review.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109280",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Marine natural products (MNPs) from macroalgae and marine sponges have inspired clinically important anticancer agents, including the cytarabine pharmacophore and the eribulin scaffold, while cyanobacterial dolastatin chemistry supplies the auristatin payloads of several marine-inspired antibody-drug conjugates (ADCs) such as brentuximab vedotin. Artifici...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DiConSite: A Unified Topology-Adaptive Architecture for Protein Binding Site Prediction Across Ligand Modalities.",
+      "url": "https://doi.org/10.1109/TPAMI.2026.3720695",
+      "source": "PubMed — IEEE transactions on pattern analysis and machine intelligence",
+      "one_liner": "Accurate identification of protein binding sites is essential for understanding biological mechanisms and advancing drug design. However, many structure-based predictors rely on spatial graphs whose topology remains fixed throughout message passing, making them sensitive to structural noise and difficult to transfer across ligand modalities. To address th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ARF-GNN: Adaptive receptive field graph neural network for protein function prediction.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109286",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Protein function prediction is one of the core challenges in bioinformatics, which plays a key role in resolving cellular mechanisms and driving drug discovery. A core challenge in this field is that protein function depends on both local structural motifs and long-range spatial interactions, and traditional Graph neural networks (GNNS) are limited by fix...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MAGNETIC: Multilayer Attention and Graph Neural Network Diffusion for Effective Drug-Target Interaction Prediction.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3720334",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "Drug target interaction (DTI) prediction is a critical task in drug discovery, as it has the potential to accelerate the identification of promising drug-target interactions, thus leading to more efficient and focused wet lab validations. Our central premise is that modeling DTI as a multilayer attributed heterogeneous graph and learning layer-specific re...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Ubiquitin family as novel protein partners for molecular glues.",
+      "url": "https://doi.org/10.1038/s44386-026-00059-0",
+      "source": "PubMed — npj drug discovery",
+      "one_liner": "Molecular glues are small molecules that induce ternary complexes between a protein of interest and a partner protein, creating therapeutic mechanisms distinct from traditional inhibitors. This minireview examines binding-site architectures of clinically tested molecular glues and extends these insights to ubiquitin-family partner proteins. Structural ana...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A novel dimerization site in non-structural protein 5A of hepatitis C virus regulates viral replication fitness.",
+      "url": "https://doi.org/10.1371/journal.ppat.1014239",
+      "source": "PubMed — PLoS pathogens",
+      "one_liner": "We previously found that high genome replication fitness of the hepatitis C virus (HCV) was associated with severe disease in immunocompromised patients. Elevated replication fitness was mediated by accumulation of mutations in the replication enhancing domain (ReED) within domain (D) 2 of non-structural protein (NS) 5A. NS5A is a partially unstructured p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dynamic regulation-based stabilizing mutations are highly effective for designing RSV pre-fusion F mRNA vaccines.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.153958",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "Respiratory syncytial virus (RSV) is a leading cause of respiratory tract infections and poses a serious threat to young children, older adults, and immunocompromised individuals. We previously designed a pre-fusion stabilized F protein (pre-F), TriM-5, using a dynamic regulation mechanism, and produced a recombinant protein-based vaccine candidate that e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Surfactant-associated proteins perturb lipid membrane architecture: insights from nanoplasmonic sensing and differential scanning calorimetry.",
+      "url": "https://doi.org/10.1039/d6an00532b",
+      "source": "PubMed — The Analyst",
+      "one_liner": "This study investigates the biophysical interactions between pulmonary surfactant proteins (SP) and model lipid membranes. Using a combination of state-of-the-art nanoplasmonic sensing (NPS) and micro differential scanning calorimetry (MicroCal DSC), the effects of surfactant protein B (SP-B), surfactant protein C (SP-C), and their mixture on the structur...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of a structurally distinct TopBP1 inhibitor that enhances PARP blockade and reverses osimertinib resistance.",
+      "url": "https://doi.org/10.1126/sciadv.aeg1996",
+      "source": "PubMed — Science advances",
+      "one_liner": "Therapeutic resistance remains a major challenge in cancer treatment, driven by compensatory signaling and stress response pathways that sustain tumor survival. Topoisomerase IIβ-binding protein 1 (TopBP1), a multifunctional scaffold protein with nine BRCT domains, integrates replication stress signaling with oncogenic networks and is frequently overexpre...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multidimensional Protein Corona Analysis Toward Predictive Nano-Bio Interface Design.",
+      "url": "https://doi.org/10.1002/smtd.70947",
+      "source": "PubMed — Small methods",
+      "one_liner": "Nanoparticles entering biological fluids are rapidly coated by proteins and other biomolecules, converting their synthetic surfaces into biologically active nano-bio interfaces. These coronas regulate colloidal stability, immune recognition, cellular uptake, biodistribution, pharmacokinetics, cargo delivery, and toxicity. Yet a protein list obtained by ma...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multiview Clustering via Enhanced Multiorder Bipartite Graph Learning.",
+      "url": "https://doi.org/10.1109/TNNLS.2026.3718273",
+      "source": "PubMed — IEEE transactions on neural networks and learning systems",
+      "one_liner": "Although existing bipartite graph-based multiview clustering (MVC) methods effectively exploit the structural relationships within multiview data, they exhibit three major limitations: 1) they primarily focus on direct similarities between data points and anchors, neglecting underlying neighborhood structures; 2) most existing methods fail to capture high...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Short linear motifs-underexplored players driving",
+      "url": "https://doi.org/10.1128/spectrum.00724-26",
+      "source": "PubMed — Microbiology spectrum",
+      "one_liner": "Pathogens infect hosts by interacting with host proteins and exploiting their functions to their advantage. Short linear motifs, small functional regions within intrinsically disordered protein regions, are common mediators of host-pathogen protein interactions. While motifs have been more extensively studied in viruses and bacteria, the extent to which e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Some novel benzimidazole and benzoxazole methyl ester derivatives as BCL2 inhibitors and BAX activators: Synthesis, anticancer activity and in silico evaluation.",
+      "url": "https://doi.org/10.1016/j.ejmech.2026.119204",
+      "source": "PubMed — European journal of medicinal chemistry",
+      "one_liner": "Discovering novel anticancer drugs with high efficacy and minimal toxicity is of great importance in anticancer drug research and development. Apoptosis is a critical regulatory mechanism in cancer progression mediated by BCL2 family proteins and BAX, which together play a key role in the regulation of programmed cell death. In this study, a series of som...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural basis for monobody OP-4 binding to open-form adenylate kinase",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.04.742914",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Monobodies are fibronectin type-III-based binding proteins that specifically bind target proteins and regulate their functions. We previously identified monobodies that selectively recognize either the OPEN or CLOSED conformation of adenylate kinase (Adk), revealing that monobodies can discriminate distinct conformational states of a target protein. Howev...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fundamentals of quantum Boltzmann machine learning with visible and hidden units",
+      "url": "https://arxiv.org/abs/2512.19819",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.19819v2 Announce Type: replace-cross \nAbstract: One of the primary applications of classical Boltzmann machines is generative modeling, wherein the goal is to tune the parameters of a model distribution so that it closely approximates a target distribution. Training relies on estimating the gradient of the relative entropy between the target an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning",
+      "url": "https://arxiv.org/abs/2608.04285",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.04285v1 Announce Type: cross \nAbstract: Neurosymbolic AI systems that integrate machine learning and symbolic reasoning are rapidly gaining attention. They complement the data-intensive statistical approaches of neural networks and language models with symbolic reasoning algorithms to function in high-stakes domains or in low-data regimes that ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

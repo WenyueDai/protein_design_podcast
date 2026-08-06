@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 05:51:09 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 05:50:50 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-08-06</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-06/podcast_2026-08-06.mp3</guid>
+      <pubDate>Thu, 06 Aug 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-06/podcast_2026-08-06.mp3" length="18075861" type="audio/mpeg" />
+      <description>Today’s papers reveal a handful of conceptual shifts that should change how we approach protein and antibody design. | We need to write section 2/11: &quot;If I were designing a project inspired by today&#x27;s papers&quot;. | We need to reference specifics from papers: Paper 1: CDR-H3 mutations allosteric effects on antibody XG83 binding and neutralization.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Today’s papers reveal a handful of conceptual shifts that should change how we approach protein and antibody design. | We need to write section 2/11: &quot;If I were designing a project inspired by today&#x27;s papers&quot;. | We need to reference specifics from papers: Paper 1: CDR-H3 mutations allosteric effects on antibody XG83 binding and neutralization.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-08-05</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-05/podcast_2026-08-05.mp3</guid>
       <pubDate>Wed, 05 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-05/podcast_2026-08-05.mp3" length="28861677" type="audio/mpeg" />
-      <description>The field is waking up to the fact that proteins are not static statues but restless ensembles, and today’s papers push that realization into three different corners of our work. | One idea that keeps coming up is to marry the seed‑guided diffusion approach from the binder paper with the conformational‑state‑space mindset of the perspective piece. | Another thread pulls from the safety work.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-05/podcast_2026-08-05.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The field is waking up to the fact that proteins are not static statues but restless ensembles, and today’s papers push that realization into three different corners of our work. | One idea that keeps coming up is to marry the seed‑guided diffusion approach from the binder paper with the conformational‑state‑space mindset of the perspective piece. | Another thread pulls from the safety work.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-01/podcast_2026-06-01.mp3</guid>
       <pubDate>Mon, 01 Jun 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-01/podcast_2026-06-01.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-05-31</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-31/podcast_2026-05-31.mp3</guid>
-      <pubDate>Sun, 31 May 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-05-31/podcast_2026-05-31.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
