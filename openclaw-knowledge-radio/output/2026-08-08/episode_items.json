@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    260.97,
+    496.67,
+    795.47,
+    1007.67,
+    1239.75,
+    1469.76,
+    1638.98,
+    1778.75,
+    1978.16,
+    2265.9
+  ],
+  "items": [
+    {
+      "title": "Assessing Structural Prediction Accuracy for Nanobody-Small Molecule Complexes.",
+      "url": "https://doi.org/10.1093/protein/gzag021",
+      "source": "PubMed — Protein engineering, design & selection : PEDS",
+      "one_liner": "Generative models have transformed structural bioinformatics, enabling antibody and nanobody design against protein epitopes; however, nanobody engineering for small molecule sensing remains largely experimental. In this work, we evaluate seven state-of-the-art structure predictors, AlphaFold3, Chai-1, Boltz-2×, RoseTTAFold3, Protenix, FlowDock and OmegaF...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Safety First: Input Screening for Protein Design Tools",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.04.740855",
+      "source": "bioRxiv — synthetic biology",
+      "one_liner": "As biological AI models become more powerful, practical biosecurity approaches are needed to support beneficial applications while reducing misuse risks. Sequence-similarity-based screening approaches are no longer adequate to safeguard biological AI models because these models can design molecules with novel sequences and structures. Therefore, a screeni...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Novel Insights into the Human Hsc70 Structure by Cross-Linking Mass Spectrometry and Molecular Modeling.",
+      "url": "https://doi.org/10.1021/acs.jproteome.6c00037",
+      "source": "PubMed — Journal of proteome research",
+      "one_liner": "Heat shock cognate protein 70 (Hsc70) is a 71 kDa molecular chaperone belonging to the Hsp70 family of heat shock proteins. These proteins act as ATP-dependent molecular machines that assist protein folding under both physiological and stress conditions such as hypoxia, heat shock, and pH fluctuations. In addition to general chaperone functions, Hsc70 per...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Optimizing broadly neutralizing antibodies via all-atom interaction modeling and pre-trained language models",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.20.700456",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Antibody optimization is a fundamental challenge, and the identification of antibody-antigen interactions is crucial in the optimization process. However, current methods cannot accurately predict antibody antigen interactions, providing limited functional guidance to improve the time-consuming and costly traditional optimization techniques. Here, we pres...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Interpretable machine learning for gallstone risk prediction: an ensemble stacking approach with SHAP analysis.",
+      "url": "https://doi.org/10.1080/10255842.2026.2714840",
+      "source": "PubMed — Computer methods in biomechanics and biomedical engineering",
+      "one_liner": "Gallstone disease is a gastrointestinal condition requiring accessible, low-cost screening tools. We developed an interpretable ensemble stacking model for noninvasive gallstone prediction using bioimpedance/laboratory data from 319 individuals (157 patients, 162 controls) with 38 features. Bayesian-optimized SVM, logistic regression, and decision tree mo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The past, present, and future of FRET-guided structural modeling.",
+      "url": "https://doi.org/10.1016/j.sbi.2026.103349",
+      "source": "PubMed — Current opinion in structural biology",
+      "one_liner": "Biomolecules' conformational landscapes span multiple timescales and structural populations, challenging traditional structural biology methods that predominantly capture static states. Over the past three decades, Förster resonance energy transfer (FRET) has evolved from a qualitative molecular ruler into a quantitative framework for integrative structur...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Intelligent malware detection on Android smartphones via a hybrid approach using gradient boosting and convolutional neural network.",
+      "url": "https://doi.org/10.1038/s41598-026-47985-7",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Malware is malicious software that infiltrates systems without user consent. Effective detection involves identifying such software and distinguishing it from benign programs. While machine learning has shown promise in malware detection, many existing techniques demand extensive feature engineering and representation, leading to higher computation times ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Directed evolution of a stem-helix-targeting antibody enables MERS-CoV cross-neutralization through enhanced binding affinity.",
+      "url": "https://doi.org/10.1371/journal.ppat.1014393",
+      "source": "PubMed — PLoS pathogens",
+      "one_liner": "Broadly neutralizing antibodies (bnAbs) targeting conserved regions of the betacoronavirus spike are important for pan-betacoronavirus protection and pandemic preparedness. Here, we report the isolation of a human monoclonal antibody, CC65.1, from a SARS-CoV-2 convalescent donor that targets the conserved S2 stem helix region. CC65.1 neutralizes various s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Decoding how macronutrients influence depressive symptoms: Combined insights from regression, nonlinear modeling, and machine learning: a cross-sectional study using NHANES data.",
+      "url": "https://doi.org/10.1097/MD.0000000000050112",
+      "source": "PubMed — Medicine",
+      "one_liner": "Dietary management is an essential component of comprehensive depression care;however, studies simultaneously evaluating multiple macronutrients and their associations with depressive symptoms are limited. Data from National Health and Nutrition Examination Survey 2005 to 2023 were analyzed. Multiple linear regression, logistic regression, restricted cubi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence-Driven Natural Product Drug Discovery: From Computational Genome Mining to Clinical Translation.",
+      "url": "https://doi.org/10.1002/med.70098",
+      "source": "PubMed — Medicinal research reviews",
+      "one_liner": "Natural products (NPs) have historically yielded numerous therapeutic agents, yet their integration into modern drug discovery has been constrained by chemical complexity, low abundance, laborious dereplication, and limited target annotation. Convergence of multi-omics technologies with high-resolution structural and biological data has created unpreceden...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Microbial lipases: advances in metagenomics and artificial intelligence for enzyme discovery and engineering.",
+      "url": "https://doi.org/10.1007/s00203-026-05074-3",
+      "source": "PubMed — Archives of microbiology",
+      "one_liner": "Microbial lipases are versatile biocatalysts with high catalytic efficiency, substrate specificity, stability, and ability to catalyze a wide range of processes under mild environmental conditions, which make them highly valuable in various industrial and biotechnological applications. However, traditional methods of enzyme discovery and engineering rely ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting Readmissions or Post-Discharge Mortality After Cardiac Surgery with Machine Learning Using an Australian Database.",
+      "url": "https://doi.org/10.1016/j.hlc.2026.02.020",
+      "source": "PubMed — Heart, lung & circulation",
+      "one_liner": "AIM: This study aimed to create machine learning algorithms using the Australian & New Zealand Society of Cardiac & Thoracic Surgeons (ANZSCTS) Database that can predict readmissions or post-discharge mortality within 30 days of cardiac surgery. METHOD: Data from 54 public and private Australian hospitals from January 2017 to December 2021 were included i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Stabilization of prefusion hMPV F improves manufacturability and protective immunity across hMPV lineages.",
+      "url": "https://doi.org/10.1016/j.virs.2026.08.002",
+      "source": "PubMed — Virologica Sinica",
+      "one_liner": "Human metapneumovirus (hMPV) is a major cause of pediatric acute lower respiratory tract infections (ALRTIs), yet vaccine development has been hindered by the intrinsic metastability of the prefusion F glycoprotein (pre-F). Here, we used a structure-based design strategy to stabilize hMPV pre-F while preserving neutralization-sensitive epitopes. By applyi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A hybrid deep learning framework for WT or mutant peptide prediction using p53 mutation data.",
+      "url": "https://doi.org/10.1515/sagmb-2025-0078",
+      "source": "PubMed — Statistical applications in genetics and molecular biology",
+      "one_liner": "p53 is a tumor suppressor protein that maintains genome integrity. Single amino acid variations (SAVs), especially hotspot mutations (such as R175 and R248), are closely associated with oncogenic transformation and weaken DNA-binding and transcriptional regulatory capabilities. To identify deleterious SAVs for understanding disease mechanisms and key cell...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unified Sampling and Ranking for Protein Docking With DFMDock.",
+      "url": "https://doi.org/10.1002/prot.70160",
+      "source": "PubMed — Proteins",
+      "one_liner": "Recent diffusion-based approaches to protein-protein docking typically decouple structure generation from decoy ranking. We introduce DFMDock (Denoising Force Matching for Docking), a unified diffusion model that integrates generative sampling and energy-based ranking through physically motivated supervision. DFMDock predicts both denoising forces and a s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "S-layer (Glyco)protein lattices: Biophysical principles of antifouling at prokaryotic interfaces.",
+      "url": "https://doi.org/10.1017/S0033583526100213",
+      "source": "PubMed — Quarterly reviews of biophysics",
+      "one_liner": "Surface layer (S-layer) lattices, composed of proteins and glycoproteins, constitute one of the most abundant and conserved supramolecular structures in the prokaryotic world. These self-assembling, two-dimensional arrays represent a major evolutionary investment, often accounting for up to 10% of total cellular protein synthesis. Despite enormous sequenc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Trypanosomal MICOS Is Assembled on Non-Respiring Mitochondrial Crista Precursors and Associates With Two Integral Microproteins.",
+      "url": "https://doi.org/10.1111/mmi.70105",
+      "source": "PubMed — Molecular microbiology",
+      "one_liner": "The mitochondrial contact site and cristae organizing system (MICOS) is a multiprotein complex that shapes crista junctions and maintains inner and outer membrane contacts. MICOS coordinates the assembly of electron transport chain complexes, a prerequisite for cellular respiration. Indeed, MICOS is lost in eukaryotes that dispensed with cellular respirat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advanced assay design for characterizing anti-drug antibody responses in clinical serum samples.",
+      "url": "https://doi.org/10.1080/17576180.2026.2712128",
+      "source": "PubMed — Bioanalysis",
+      "one_liner": "Monitoring anti-drug antibody (ADA) responses is critical for evaluating the safety and efficacy of protein therapeutics. While traditional three-tiered testing (screening, confirmation, titration) reliably identifies ADA incidence, onset and magnitude, modern, complex biologics necessitate adapting our assessment strategies. Consequently, advanced assay ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SEAM: Global consistency beyond local accuracy in scientific machine learning",
+      "url": "https://arxiv.org/abs/2608.05702",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.05702v1 Announce Type: new \nAbstract: Scientific machine learning commonly validates models at the level of a subdomain, a benchmark split, or an explanation for one prediction. Yet such local checks cannot establish whether the resulting explanations can be assembled into one globally admissible explanation. We introduce Scientific Explanation...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "ASAT: Adaptive Scoring and Thresholding with Human Feedback for Robust Out-of-Distribution Detection",
+      "url": "https://arxiv.org/abs/2505.02299",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2505.02299v2 Announce Type: replace \nAbstract: Machine Learning (ML) models are trained on in-distribution (ID) data but often encounter out-of-distribution (OOD) inputs during deployment---posing serious risks in safety-critical domains. Recent works have focused on designing scoring functions to quantify OOD uncertainty, with score thresholds typi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
