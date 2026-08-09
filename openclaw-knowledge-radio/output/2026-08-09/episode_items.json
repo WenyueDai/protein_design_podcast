@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    187.22,
+    390.83,
+    562.91,
+    772.74,
+    959.93,
+    1122.77,
+    1311.33,
+    1523.85,
+    1687.84,
+    1999.66
+  ],
+  "items": [
+    {
+      "title": "Structural interplay of the redox co-chaperone CnoX to GroEL/ES chaperonin.",
+      "url": "https://doi.org/10.26508/lsa.202603764",
+      "source": "PubMed — Life science alliance",
+      "one_liner": "Protein folding by the bacterial chaperonin GroEL/ES relies on ATP-driven conformational cycles that promote substrate encapsulation and folding. Under oxidative stress, the redox-active co-chaperone CnoX protects oxidized proteins and associates with GroEL, yet the structural basis of its interaction with the GroEL/ES remains incompletely understood. Usi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Causal graph neural networks for healthcare.",
+      "url": "https://doi.org/10.1038/s41551-026-01742-3",
+      "source": "PubMed — Nature biomedical engineering",
+      "one_liner": "Healthcare artificial intelligence systems often degrade in performance when deployed across institutions, with documented performance drops and perpetuation of discriminatory patterns embedded in data. This brittleness comes, in part, from learning statistical associations rather than causal mechanisms. Causal graph neural networks address this by combin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Robust Nonvolatile Memory and Synaptic Emulation via Dual-Mode Modulation in ReS",
+      "url": "https://doi.org/10.1002/smll.75080",
+      "source": "PubMed — Small (Weinheim an der Bergstrasse, Germany)",
+      "one_liner": "The integration of optical sensing with neuromorphic computing offers a promising pathway to overcome the von Neumann bottleneck in data-intensive artificial intelligence applications. However, realizing robust nonvolatile storage with synergistic electrical and optical modulation in 2D devices remains a challenge. Here, we demonstrate a high-performance ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Clonal",
+      "url": "https://doi.org/10.26508/lsa.202603812",
+      "source": "PubMed — Life science alliance",
+      "one_liner": "LIMD1, a tumour suppressor located at chromosome 3p21.3, is frequently lost in non-small-cell lung cancer, yet its role in tumour-immune interactions remains unclear. Here, we show LIMD1 loss increases PD-L1 protein abundance across multiple lung cancer models and primary airway epithelial cells. Mechanistically, LIMD1 restrains PD-L1 through post-transcr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SpyTag-Embedded Protein Nanoparticles Enable pH-Dependent Protein Loading.",
+      "url": "https://doi.org/10.1007/s12033-026-01601-1",
+      "source": "PubMed — Molecular biotechnology",
+      "one_liner": "Functional protein particles are emerging as versatile biomaterials with applications spanning nano-designs, drug delivery and biocatalysis. Their inherent biocompatibility, structural stability, and genetic modularity, when combined with nanoscale engineering, allow for the design of customizable systems with diverse functionalities. However, the reliabl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Alternative splicing expands and remodels the breast cancer proteoform landscape",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.30.722115",
+      "source": "bioRxiv — cancer biology",
+      "one_liner": "Alternative splicing generates transcript diversity, but how much reaches the translated proteome and how it reshapes protein regulation remain unclear. Here, we develop 3DisoGalaxy, an atlas integrating transcript reconstruction, ribosome profiling, structural modelling and regulatory annotation in breast cancer. We find that 58,292 of 90,929 transcripts...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exploring the BICC1 Interactome in HEK293T Cells: Insights Into RNA-Mediated Protein Networks and Biomolecular Condensates.",
+      "url": "https://doi.org/10.1096/fba.2026-00035",
+      "source": "PubMed — FASEB bioAdvances",
+      "one_liner": "Bicaudal C Homolog 1 (BICC1) is a conserved RNA-binding protein that, in mammals, has been primarily associated with polycystic kidney disease and renal organogenesis. However, its role in other disease contexts, including cancer, remains poorly understood. In this study, we characterized the BICC1 interactome, with emphasis on its dependence on RNA and t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SlSPL10, a Transcription Factor That Suppresses Lateral Bud Outgrowth in Tomato.",
+      "url": "https://doi.org/10.1093/pcp/pcag117",
+      "source": "PubMed — Plant & cell physiology",
+      "one_liner": "Lateral bud outgrowth critically determines tomato plant architecture, canopy structure, photosynthate distribution, and fruit yield. SQUAMOSA promoter binding protein-like (SPL) transcription factors regulate multiple developmental processes; however, the role of SlSPL10 in controlling lateral bud outgrowth remains unknown. In this study, we used tomato ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A signal sequence multi-leucine motif regulates VEGF receptor signaling.",
+      "url": "https://doi.org/10.1016/j.jbc.2026.113406",
+      "source": "PubMed — The Journal of biological chemistry",
+      "one_liner": "Signal sequences (SS) target newly synthesized proteins to the endoplasmic reticulum and, eventually, the plasma membrane. Discoidin, CUB, and LCCL domain containing 2 (DCBLD2) is a transmembrane protein with an unusually long SS that interacts with vascular endothelial growth factor receptor (VEGFR)-2 and promotes VEGF-induced endothelial cell signaling,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "When Multimodal Fusion Fails: Contrastive Alignment as a Necessary Stabilizer for TCR-Peptide Binding Prediction.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag573",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Multimodal learning is often assumed to improve predictive performance by combining complementary views, yet in biological applications auxiliary modalities are frequently imperfect, incomplete, or derived from upstream predictors and heuristics. We study this issue in TCR-peptide binding prediction, where sequence embeddings from pretrained p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Modular APEX Biosensor Enables Sensitive and Visualized Monitoring of Viral Protease Activity.",
+      "url": "https://doi.org/10.1016/j.virs.2026.08.001",
+      "source": "PubMed — Virologica Sinica",
+      "one_liner": "Viral proteases are key targets for the development of broad-spectrum antiviral drugs development. However, screening platform capable of accurately assessing inhibitor activity within physiologically relevant cellular environments remain urgently needed. Traditional methods, such as fluorescent protein assays and Förster resonance energy transfer (FRET),...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A review of exosome isolation based on membrane protein recognition: Methods, performance, and challenges.",
+      "url": "https://doi.org/10.1016/j.aca.2026.345477",
+      "source": "PubMed — Analytica chimica acta",
+      "one_liner": "BACKGROUND: Exosomes participate in physiological and pathological processes such as intercellular communication, immune regulation, and tumor initiation and progression, holding significant potential in early disease diagnosis, therapeutic target identification, and drug delivery system development. However, the isolation of exosomes presents significant...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Disrupting the cockroach circadian clock through RNAi-mediated knockdown of clock proteins",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.27.720303",
+      "source": "bioRxiv — physiology",
+      "one_liner": "Endogenous circadian clocks control circadian rhythms in physiology and behavior. The predominant hypothesis of biological timing suggests that the responsible master clock for all endogenous circadian rhythms is constituted by an evolutionary conserved transcriptional-translational feedback loop (TTFL) clock consisting of positive feedforward and negativ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Chemoselective Bioconjugation Reveals Norepinephrinylation (NEylation) as a Widespread Post-Translational Modification in Cells",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.11.731782",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Norepinephrine (NE) is a key neurotransmitter and hormone involved in diverse physiological and pathological processes. Beyond its canonical non-covalent signaling through binding adrenergic receptors, NE also induces protein post-translational modifications (PTMs), representing an emerging regulatory mechanism. Two major forms of NE-derived PTMs have bee...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A High-Potential Redox Landscape Bump Enhances Electron Bifurcation Efficiency.",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c02919",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "Electron bifurcation (EB) is an elegant mechanism that underpins biological energy transduction and catalysis. EB proteins separate electron pairs from a common source, delivering them to high- and low-potential acceptor pools, typically at low thermodynamic cost. The EB enzyme NADH-dependent ferredoxin-NADP+ oxidoreductase I (NfnI) contains a conspicuous...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "BdXTH27 negatively regulates root development by modulating cell elongation in Brachypodium distachyon.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.153988",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "The xyloglucan endotransglucosylase/hydrolase (XTH) family is a key group of enzymes involved in cell wall remodeling. We previously identified BdXTH27, an XTH family member in Brachypodium distachyon, which encodes a cell wall-localized protein highly expressed in roots. To elucidate the potential mechanism underlying BdXTH27-mediated root development, w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DigestedProteinDB: A Compact and Scalable Key-Value Database for In Silico Peptide Digestion and Mass-Based Search.",
+      "url": "https://doi.org/10.1021/acs.jproteome.6c00152",
+      "source": "PubMed — Journal of proteome research",
+      "one_liner": "Efficient comparison of experimental peptide masses with theoretical values is a central step in mass spectrometry (MS)-based proteomics, microbial biotyping, and MS imaging. Such analyses increasingly require fast and scalable access to large collections of in silico-digested peptides derived from large-scale and continuously evolving protein-sequence da...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Decoding Calcium Signaling: Functional Roles of Calmodulin and Calmodulin‑Like Proteins in Plant Development and Stress Responses.",
+      "url": "https://doi.org/10.1111/pce.70802",
+      "source": "PubMed — Plant, cell & environment",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
