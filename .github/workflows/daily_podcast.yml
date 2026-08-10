@@ -62,6 +62,13 @@ jobs:
           NOTION_DATABASE_ID: 3165f58ea8c280498f72c770028aec0d
         run: python tools/process_missed_papers.py
 
+      - name: Auto-add all papers to Deep Dive if owner labeled nothing today
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: 3165f58ea8c280498f72c770028aec0d
+          RUN_DATE: ${{ github.event.inputs.run_date }}
+        run: python tools/auto_deepdive.py
+
       - name: Determine weekly/monthly schedule flags
         id: sched
         run: |
