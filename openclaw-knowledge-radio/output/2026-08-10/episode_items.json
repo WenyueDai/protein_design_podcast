@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    164.95,
+    349.05,
+    595.72,
+    798.01,
+    964.59,
+    1237.94,
+    1468.53,
+    1644.5,
+    1892.94,
+    2155.02
+  ],
+  "items": [
+    {
+      "title": "Site-specific recombinases and their essential role in synthetic biology.",
+      "url": "https://doi.org/10.1016/j.biotechadv.2026.109005",
+      "source": "PubMed — Biotechnology advances",
+      "one_liner": "Site-specific recombinases, enzymes that bind to specific DNA attachment sites and catalyze DNA rearrangement reactions resulting in permanent and heritable genetic modifications, have emerged as powerful tools in synthetic biology. Their broad applications in genome engineering, genetic circuit design, DNA assembly, and computational design have signific...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Scalable Extraction of Information on Protein-Protein Interactions using Topological Data Analysis",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.06.743405",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein-protein interactions (PPIs) govern a wide range of cellular functions. The ability to predict PPI interfaces from protein molecular surfaces is important for understanding protein function and enabling therapeutic discovery. While recent advances in structure-based learning, particularly molecular-surface geometric deep learning frameworks, have d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Production of a novel black soldier fly larvae (Hermetia illucens) protein hydrolysate-zinc chelate: Characterization, chelation mechanism, and zinc solubility.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.150711",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Zinc (Zn) is an essential trace element for humans and animals, meanwhile, as a novel raw material, the low-molecular-weight black soldier fly leave (BL) peptide can bind to Zn efficiently. The present study prepared a novel BL protein hydrolysate-Zn (BLPH-Zn) chelate to develop multifunctional Zn supplements. Briefly, the composition of BLPH was first an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cardiovascular Diseases and Cancer: Convergent Proteostasis Networks at the Crossroads of Mechanisms and Therapeutic Opportunities.",
+      "url": "https://doi.org/10.1002/mco2.70892",
+      "source": "PubMed — MedComm",
+      "one_liner": "Cancer and cardiovascular diseases, the primary causes of mortality globally, are increasingly understood as biologically interconnected rather than distinct pathologies. Recent evidence indicates that protein homeostasis (proteostasis) functions as a crucial molecular link connecting tumor progression, therapeutic resistance, cardiac remodeling, and trea...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Semaglutide attenuates a proteomics-based dementia risk signature in older adults with overweight or obesity and cardiovascular disease without diabetes: A post hoc analysis of the SELECT phase 3 trial.",
+      "url": "https://doi.org/10.1002/dad2.70432",
+      "source": "PubMed — Alzheimer's & dementia (Amsterdam, Netherlands)",
+      "one_liner": "INTRODUCTION: Plasma proteomics detect multi-pathway biological changes preceding dementia onset. The Dementia SomaSignal Test (dSST) is a validated 25-protein score predicting 5- and 20-year all-cause dementia risk. Preclinical and clinical data suggest glucagon-like peptide-1 receptor agonists may have neuroprotective effects. METHODS: In a post hoc ana...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mapping interaction of assembly factor Rpn14 with the proteasome base reveals a bipartite interface and implies ordered remodeling of intersubunit contacts during proteasome biogenesis.",
+      "url": "https://doi.org/10.1016/j.jmb.2026.169978",
+      "source": "PubMed — Journal of molecular biology",
+      "one_liner": "The 26S proteasome is the largest known protease and an essential mediator of targeted protein degradation, a transformative therapeutic modality for human diseases. Assembly of the 26S proteasome from its 66 cognate subunits depends on nine dedicated assembly chaperones. These chaperones generally function by stabilizing fragile assembly intermediates an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Nucleolar integrity in isolated nucleoli is governed by electrostatic interactions and altered by disease-associated proteins.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.154406",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "The nucleolus is a biomolecular condensate maintained by multivalent intermolecular interactions. However, the physicochemical interactions that preserve the nucleolar integrity remain poorly understood. We established an isolated nucleolus assay to investigate the mechanisms that maintain nucleolar integrity. Increasing the ionic strength or adding basic...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Biallelic titin truncation disrupts sarcomere assembly and function in patient-derived iPSC-cardiomyocytes.",
+      "url": "https://doi.org/10.1016/j.yjmcc.2026.08.001",
+      "source": "PubMed — Journal of molecular and cellular cardiology",
+      "one_liner": "Biallelic titin truncation variants (TTNtvs) are linked to severe cardiac and skeletal muscle diseases, due to unclear mechanisms. Using induced pluripotent stem cell-derived cardiomyocytes from a biallelic TTNtv patient with dilated cardiomyopathy, we investigated sarcomere structure/function. Only the longest of the TTNtvs was detected as protein, and t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deciphering the bitterness contribution of Zanthoxylum bungeanum Maxim and its masking mechanism.",
+      "url": "https://doi.org/10.1002/jsfa.70966",
+      "source": "PubMed — Journal of the science of food and agriculture",
+      "one_liner": "BACKGROUND: Zanthoxylum bungeanum Maxim. (Z. bungeanum) is widely applied in the processing of stewed beef with spices (SBS) to improve sensory quality, yet the processing-induced interactions between its flavonol glycosides and myofibrillar protein (MP) and their role in taste modulation remain poorly understood. In particular, the structural basis and b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Plant cysteine proteases in meat processing: A review of applications to improve texture and nutritional functionality.",
+      "url": "https://doi.org/10.1016/j.meatsci.2026.110193",
+      "source": "PubMed — Meat science",
+      "one_liner": "Tenderness and nutritional quality are critical determinants of meat value and consumer acceptance. This review discusses applications of plant cysteine proteases primarily for improving meat texture, with emphasis on their effects on myofibrillar, sarcoplasmic, and connective tissue proteins. Factors governing artificial meat tenderization, including enz...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Towards a molecular understanding of the role of helix 8 in GPCR trafficking.",
+      "url": "https://doi.org/10.1016/j.jmb.2026.169979",
+      "source": "PubMed — Journal of molecular biology",
+      "one_liner": "Helix 8 in G protein-coupled receptors (GPCRs) has recently been linked to receptor internalization (Schmidt et al.,2025, Sci. Adv. 11, eadv1499), but the molecular basis of this relationship remains unclear. Here, we examined a proposed mechanism in which helix 8 functions as a surface-active amphipathic element that promotes membrane binding, senses mem...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Confinement-driven states and activity-induced escape of semiflexible polymers in soft traps.",
+      "url": "https://doi.org/10.1140/epje/s10189-026-00618-3",
+      "source": "PubMed — The European physical journal. E, Soft matter",
+      "one_liner": "We investigate the dynamics of an actively driven semiflexible polymer confined by a soft harmonic potential. Our study is inspired by in-vitro motility assays where cytoskeletal filaments are propelled by motor proteins under controlled confinement. Using coarse-grained simulations that couple polymer elasticity with stochastic motor attachment, detachme...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exploring PDLIM2 as a prognostic biomarker and therapeutic target in lung adenocarcinoma.",
+      "url": "https://doi.org/10.1038/s41416-026-03570-3",
+      "source": "PubMed — British journal of cancer",
+      "one_liner": "BACKGROUND: While PDZ-LIM domain-containing protein (PDLIM2) suppresses lung cancer, its clinical significance and therapeutic potential remain to be fully explored. METHODS: Next-generation sequencing and immunohistochemistry of programmed death ligand 1 (PD-L1) were performed on lung adenocarcinoma (LUAD) tissues from 15,765 patients. PDLIM2 gene therap...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mechanism of non-emulsifying system establishment by NaCl soaking-microwave combined with hexanoic acid in aqueous enzymatic extraction of peanut oil.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.150734",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Application of aqueous enzymatic extraction (AEE) for peanut oil is hindered by severe emulsification. This study investigated the synergistic effects of NaCl-soaking-microwave (SMW) pretreatment and hexanoic acid (HA) on non-emulsifying AEE and elucidated the mechanisms. SMW disrupted oil body membrane, induced interfacial protein degradation, altered se...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Engineered protein circuits for cancer therapy",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.04.16.647665",
+      "source": "bioRxiv — synthetic biology",
+      "one_liner": "A central challenge in cancer therapy is selectively killing cancer cells while minimizing resistance. Here, we engineer modular protease-based protein circuits that sense mutant RAS, the most frequently mutated oncogene in cancer, and conditionally activate cell death. Delivered transiently as mRNA in lipid nanoparticles (LNPs), circuits selectively elim...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "An Explanatory Deep Learning Pipeline for the Prediction and Visualization of Spatially Resolved Biomarker Expression in Triple-Negative Breast Cancer.",
+      "url": "https://doi.org/10.1016/j.ajpath.2026.07.007",
+      "source": "PubMed — The American journal of pathology",
+      "one_liner": "Histopathologic evaluation remains central to cancer diagnosis and treatment planning, yet the molecular programs underlying distinct tissue morphologies aren't routinely accessible in clinical workflows. Spatial transcriptomic/proteomic platforms provide region-specific molecular measurements but are limited by cost, throughput, and scalability. Most com...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SARS-CoV-2 nucleocapsid protein drives pulmonary injury by enhancing GRP75-dependent ER-mitochondria tethering and reprogramming of alveolar macrophages.",
+      "url": "https://doi.org/10.1016/j.lfs.2026.124625",
+      "source": "PubMed — Life sciences",
+      "one_liner": "AIMS: To determine whether the SARS-CoV-2 nucleocapsid (N) protein promotes lung injury by augmenting GRP75-dependent endoplasmic reticulum (ER)-mitochondria tethering and reprogramming alveolar macrophages (AMϕs). MATERIALS AND METHODS: MAMs, ER, and mitochondria were isolated from mouse lungs. Bone marrow-derived and RAW264.7 macrophages were stimulated...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Carboxymethyl Chitosan Promotes Osteogenesis Via p38/VEGFR2 and Shows Translational Potential in Sinus Floor Elevation.",
+      "url": "https://doi.org/10.1016/j.identj.2026.109799",
+      "source": "PubMed — International dental journal",
+      "one_liner": "BACKGROUND: To explore the osteogenic promotion of carboxymethyl chitosan (CMCS), clarify the signalling pathways involved and preliminarily evaluate the translational potential of CMCS in transcrestal sinus floor elevation. METHODS: Overlapping targets were identified by integrating potential CMCS targets and bone regeneration-related genes, and protein-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
