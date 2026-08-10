@@ -2,10 +2,10 @@
 """
 tools/auto_deepdive.py
 
-Runs after the daily episode is generated. If the owner has not manually
-labeled any papers for today in the Deep Dive Notes database (because they
-were busy), this script auto-adds every paper from today's episode as a stub
-so the weekly/monthly summaries still have material to work with.
+Runs at the start of each daily pipeline. Checks whether the owner labeled
+any papers in the Deep Dive Notes database for *yesterday*. If not (because
+they were busy), auto-adds every paper from yesterday's episode as a stub so
+the weekly/monthly summaries still have material to work with.
 
 Papers added here are marked Source = "Auto" so the owner can tell them apart
 from ones they personally annotated.
@@ -13,14 +13,14 @@ from ones they personally annotated.
 Env vars:
   NOTION_API_KEY      — same integration token used throughout the pipeline
   NOTION_DATABASE_ID  — Deep Dive Notes database ID (default hardcoded)
-  RUN_DATE            — date override (YYYY-MM-DD), defaults to today
+  RUN_DATE            — date override (YYYY-MM-DD); yesterday = this date - 1
 """
 from __future__ import annotations
 
 import json
 import os
 import sys
-from datetime import date as _date
+from datetime import date as _date, timedelta
 from pathlib import Path
 
 import requests
@@ -38,9 +38,11 @@ PACKAGE_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_DIR  = PACKAGE_DIR / "output"
 
 
-def _today() -> str:
+def _check_date() -> str:
+    """Return yesterday's date — the day the owner had time to label papers."""
     run_date = os.environ.get("RUN_DATE", "").strip()
-    return run_date if run_date else _date.today().isoformat()
+    base = _date.fromisoformat(run_date) if run_date else _date.today()
+    return (base - timedelta(days=1)).isoformat()
 
 
 def _count_entries_for_date(date: str) -> int:
@@ -58,7 +60,6 @@ def _count_entries_for_date(date: str) -> int:
             print(f"[auto_deepdive] Notion query error {r.status_code}: {r.text}", flush=True)
             return -1
         data = r.json()
-        # If there's at least one result or the next_cursor indicates more, owner labeled something
         count = len(data.get("results", []))
         if data.get("has_more"):
             count += 1
@@ -82,9 +83,9 @@ def _load_episode_items(date: str) -> list[dict]:
 
 
 def _add_paper(item: dict, date: str) -> bool:
-    title  = item.get("title", "")[:2000]
-    url    = item.get("url", "")
-    source = item.get("source", "")
+    title     = item.get("title", "")[:2000]
+    url       = item.get("url", "")
+    source    = item.get("source", "")
     one_liner = item.get("one_liner", "")
 
     body = {
@@ -100,7 +101,7 @@ def _add_paper(item: dict, date: str) -> bool:
                 "callout": {
                     "icon": {"type": "emoji", "emoji": "🤖"},
                     "rich_text": [{"type": "text", "text": {
-                        "content": "Auto-added (owner had no labels today). Add your notes below."
+                        "content": "Auto-added (owner had no labels that day). Add your notes below."
                     }}],
                     "color": "gray_background",
                 },
@@ -146,26 +147,26 @@ def main():
         print("[auto_deepdive] NOTION_API_KEY not set — skipping", flush=True)
         return
 
-    today = _today()
-    print(f"[auto_deepdive] Checking Deep Dive labels for {today}", flush=True)
+    check_date = _check_date()
+    print(f"[auto_deepdive] Checking Deep Dive labels for {check_date} (yesterday)", flush=True)
 
-    count = _count_entries_for_date(today)
+    count = _count_entries_for_date(check_date)
     if count < 0:
         print("[auto_deepdive] Could not query Notion — skipping auto-add", flush=True)
         return
     if count > 0:
-        print(f"[auto_deepdive] {count} paper(s) already labeled today — nothing to do", flush=True)
+        print(f"[auto_deepdive] {count} paper(s) already labeled for {check_date} — nothing to do", flush=True)
         return
 
-    print("[auto_deepdive] No labels found — auto-adding all papers from today's episode", flush=True)
-    items = _load_episode_items(today)
+    print(f"[auto_deepdive] No labels found for {check_date} — auto-adding all papers", flush=True)
+    items = _load_episode_items(check_date)
     if not items:
-        print("[auto_deepdive] No episode items found for today — skipping", flush=True)
+        print(f"[auto_deepdive] No episode items found for {check_date} — skipping", flush=True)
         return
 
     print(f"[auto_deepdive] Adding {len(items)} papers to Deep Dive Notes...", flush=True)
-    ok = sum(1 for item in items if _add_paper(item, today))
-    print(f"[auto_deepdive] Done — {ok}/{len(items)} papers added", flush=True)
+    ok = sum(1 for item in items if _add_paper(item, check_date))
+    print(f"[auto_deepdive] Done — {ok}/{len(items)} papers added for {check_date}", flush=True)
 
 
 if __name__ == "__main__":
