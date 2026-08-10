@@ -38,9 +38,12 @@ PACKAGE_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_DIR  = PACKAGE_DIR / "output"
 
 
-def _today() -> str:
+def _check_date() -> str:
+    """Return yesterday's date — the day the owner had time to label papers."""
+    from datetime import timedelta
     run_date = os.environ.get("RUN_DATE", "").strip()
-    return run_date if run_date else _date.today().isoformat()
+    base = _date.fromisoformat(run_date) if run_date else _date.today()
+    return (base - timedelta(days=1)).isoformat()
 
 
 def _count_entries_for_date(date: str) -> int:
@@ -146,26 +149,26 @@ def main():
         print("[auto_deepdive] NOTION_API_KEY not set — skipping", flush=True)
         return
 
-    today = _today()
-    print(f"[auto_deepdive] Checking Deep Dive labels for {today}", flush=True)
+    check_date = _check_date()
+    print(f"[auto_deepdive] Checking Deep Dive labels for {check_date} (yesterday)", flush=True)
 
-    count = _count_entries_for_date(today)
+    count = _count_entries_for_date(check_date)
     if count < 0:
         print("[auto_deepdive] Could not query Notion — skipping auto-add", flush=True)
         return
     if count > 0:
-        print(f"[auto_deepdive] {count} paper(s) already labeled today — nothing to do", flush=True)
+        print(f"[auto_deepdive] {count} paper(s) already labeled for {check_date} — nothing to do", flush=True)
         return
 
-    print("[auto_deepdive] No labels found — auto-adding all papers from today's episode", flush=True)
-    items = _load_episode_items(today)
+    print(f"[auto_deepdive] No labels found for {check_date} — auto-adding all papers", flush=True)
+    items = _load_episode_items(check_date)
     if not items:
-        print("[auto_deepdive] No episode items found for today — skipping", flush=True)
+        print(f"[auto_deepdive] No episode items found for {check_date} — skipping", flush=True)
         return
 
     print(f"[auto_deepdive] Adding {len(items)} papers to Deep Dive Notes...", flush=True)
-    ok = sum(1 for item in items if _add_paper(item, today))
-    print(f"[auto_deepdive] Done — {ok}/{len(items)} papers added", flush=True)
+    ok = sum(1 for item in items if _add_paper(item, check_date))
+    print(f"[auto_deepdive] Done — {ok}/{len(items)} papers added for {check_date}", flush=True)
 
 
 if __name__ == "__main__":
