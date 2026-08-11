@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    143.64,
+    357.42,
+    520.5,
+    760.26,
+    1292.6,
+    1485.89,
+    1718.06,
+    2284.77,
+    2441.82,
+    2651.7
+  ],
+  "items": [
+    {
+      "title": "Structure-Agnostic Protein-Ligand Binding Affinity Prediction via Hierarchical Representation Alignment.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag599",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: To enable real-world protein-ligand affinity prediction, not only out-of-distribution generalization but also robustness to variable structural availability and quality should be considered in model design. RESULTS: We present AlignNet, a hierarchical representation alignment framework that mitigates intra- and inter-molecular heterogeneity to...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The sweet spot in protein design-Where deep learning meets first principles.",
+      "url": "https://doi.org/10.1002/1873-3468.70429",
+      "source": "PubMed — FEBS letters",
+      "one_liner": "This Perspective explores recent methods and prospective ideas for developing hybrid AI-physics-based pipelines for protein and antibody de novo design. We argue that the highest-confidence candidates emerge where deep learning and first-principles models agree, a \"sweet spot\" that balances generative flexibility with thermodynamic realism. For example, a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01697",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Designing protein sequences with favorable predicted energetic properties is an important challenge in protein inverse folding, because many existing deep learning methods are primarily trained by maximizing sequence recovery and do not explicitly incorporate energy-related preferences during generation. In this work, we propose EnerBridge-DPO, an energy-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ARID-sf: A Physics-Informed Deep Learning Scoring Function to Improve Antibody-Antigen Docking Model Ranking.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c00836",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Accurate prediction of antibody-antigen (Ab-Ag) complexation is crucial for understanding immune responses, diagnostics, and the development of therapeutic antibodies. While molecular docking generates conformations, current scoring functions struggle to identify near-native poses, particularly for Ab-Ag interactions. We present ARID-sf (Antibody-antigen ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-based prediction of subjective cognitive impairment levels in cancer survivors using demographic predictors.",
+      "url": "https://doi.org/10.1080/23279095.2026.2716173",
+      "source": "PubMed — Applied neuropsychology. Adult",
+      "one_liner": "OBJECTIVES: Cancer-related cognitive impairment is a decline in cognitive functioning following cancer treatment that negatively affects survivors' quality of life. Self-report tools such as the Cognitive Failure Questionnaire (CFQ) offer a rapid and cost-effective method for early detection of subjective cognitive difficulties. This study aimed to develo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProteoMapper: Alignment-aware identification and quantitative analysis of contextual motif-domain patterns in protein families.",
+      "url": "https://doi.org/10.1371/journal.pone.0348861",
+      "source": "PubMed — PloS one",
+      "one_liner": "Understanding how sequence patterns relate to conserved protein domains is fundamental for interpreting protein function and organization. Although numerous tools support motif detection and domain annotation, assessing their positional relationships across multiple sequence alignments typically requires combining outputs from separate analyses. Here, we ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multimodal graph-based classification of esophageal motility disorders.",
+      "url": "https://doi.org/10.1007/s11548-026-03760-7",
+      "source": "PubMed — International journal of computer assisted radiology and surgery",
+      "one_liner": "PURPOSE: Diagnosing esophageal motility disorders, including dysphagia, pose significant challenges due to the complexity of high-resolution impedance manometry (HRIM) data and variability in clinical interpretation. Thiswork explores the feasibility of a multimodal machine learning (ML)-based classification approach that combines HRIM recordings with pat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Revealing Crystallization Mechanism of Gallium Arsenide by Machine Learning Molecular Dynamics Simulation.",
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c02471",
+      "source": "PubMed — Inorganic chemistry",
+      "one_liner": "Due to its characteristics of high electron mobility, moderate band gap, excellent radiation resistance, and high-frequency performance, gallium arsenide (GaAs) is widely used as an important semiconductor material in microelectronics and optoelectronics. Here, we systematically investigated the crystallization mechanism of GaAs by machine learning molecu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Can Match Domain Experts in Evidence Extraction and Critical Appraisal of Microbial Oncogenesis Research Publications",
+      "url": "https://arxiv.org/abs/2608.07250",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.07250v1 Announce Type: new \nAbstract: Confirmed oncogenic microbes contribute significantly to cancer burden. Identifying novel microbial oncogenicity could yield strategies that will reduce disease burdens. However, relevant evidence is dispersed and infeasible for humans to comprehensively synthesize. LLMs may enable scalable, expert-level sy...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Computational Characterization of Ligand Recognition and Inhibition in a 1,4-Dioxane-Degrading Propane Monooxygenase.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01081",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "1,4-Dioxane is a widespread groundwater contaminant frequently co-occurring with chlorinated solvents. The group-6 propane monooxygenase (PRM) from Mycobacterium dioxanotrophicus PH-06 degrades dioxane efficiently, yet the molecular determinants underlying its broad substrate spectrum and inhibition behavior remain unresolved. Here, we combined AlphaFold2...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The molecular landscape of chordoma: Current frontiers from multi-omics to artificial intelligence.",
+      "url": "https://doi.org/10.1016/j.bbcan.2026.189678",
+      "source": "PubMed — Biochimica et biophysica acta. Reviews on cancer",
+      "one_liner": "Chordoma is a rare and aggressive malignant bone tumor of the axial skeleton that has historically challenged clinicians due to its complex anatomical locations and a high recurrence rate of up to 85%. This review synthesizes the most recent advances in chordoma research and offers an overview of how multi-omics, advanced immunology, and artificial intell...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Attention-driven YOLOv11n-DeiT model for enhanced detection of tomato leaf diseases.",
+      "url": "https://doi.org/10.1038/s41598-026-64897-8",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The tomato plant is considered one of the most important crops in the world, yet it is vulnerable to various diseases that affect crop quality and agricultural productivity. These challenges have driven the need for an efficient and intelligent plant disease detection system. With the development of computer vision and artificial intelligence, this propos...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Lineage-specific retention of the plastid tilS-trnI(CAU) module and its variable relationship with codon usage evolution in green algae.",
+      "url": "https://doi.org/10.1093/gbe/evag199",
+      "source": "PubMed — Genome biology and evolution",
+      "one_liner": "Plastid genomes retain a reduced but essential translation system inherited from cyanobacterial ancestors, but the evolutionary constraints shaping their diversification remain poorly resolved. One key component ensuring translational fidelity is the tRNAIle-lysidine system, mediated by tRNAIle-lysidine synthetase (TilS), which enables accurate decoding o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CMAF-DDI: A Knowledge-Enhanced Cross-Modal Fusion Method Leveraging Protein Representation for Multi-Class Drug-Drug Interactions.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3722418",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "Accurate prediction of drug-drug interactions (DDIs) is crucial for medication safety and personalized treatment. Most existing methods primarily exploit molecular graphs or biomedical knowledge graphs, while target protein sequence information is often underused. This paper proposes CMAF-DDI, a multi-class DDI prediction framework that integrates protein...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HiHPO: Multimodal Hierarchical Graph Learning for Predicting Missing Protein-Phenotype Associations.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3722695",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "Understanding protein-phenotype associations is essential for elucidating disease mechanisms and supporting phenotype-driven diagnosis. Although the Human Phenotype Ontology (HPO) provides a standardized framework for phenotypic description, protein-HPO annotations remain incomplete and continuously evolving, posing challenges for robust computational pre...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Zinc finger protein arrays in an epoxy-functionalized, pump-free microfluidic device for amplification-free, colorimetric detection of double-stranded DNA.",
+      "url": "https://doi.org/10.1039/d6an00224b",
+      "source": "PubMed — The Analyst",
+      "one_liner": "Rapid pathogen detection is essential during the early stages of disease treatment, as timely identification directly influences the selection of appropriate therapeutic agents. Zinc finger domains can be engineered into customizable proteins capable of binding specific target sequences in double-stranded DNA. When coupled with sequence-enabled reassembly...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Conformational analysis of an SRCRD-derived peptide on hydroxyapatite surfaces using dispersive calcium phosphate particles.",
+      "url": "https://doi.org/10.1039/d6cp02217k",
+      "source": "PubMed — Physical chemistry chemical physics : PCCP",
+      "one_liner": "Hydroxyapatite (HAp), the major inorganic component of vertebrate bone and teeth, strongly interacts with organic molecules such as proteins, while the structural basis of protein binding to HAp remains unclear. Using solution NMR combined with HAp dispersive particles (DPs), we analyzed a peptide derived from a scavenger receptor cysteine-rich domain (SR...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Inhibition of the Lysosomal Amino Acid Sensor SLC38A9 by the Membrane Microprotein SPAR",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.07.743590",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Long noncoding RNAs encode for microproteins that regulate cellular functions. Small regulatory peptide of amino acid response (SPAR) is a microprotein in the lysosome that responds to amino acid availability of the cell. In this study, we investigated the interactions between SPAR and SLC38A9, a lysosomal amino acid transporter and receptor involved in t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "ED-CSP: Crystal Structure Prediction from Electron Diffraction",
+      "url": "https://arxiv.org/abs/2608.06448",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.06448v1 Announce Type: new \nAbstract: Recovering a periodic 3D crystal structure from sparse, unindexed electron diffraction (ED) observations is a challenging generative inverse problem. Existing ED-based learning methods mainly predict crystallographic labels, reconstruct structures from indexed reflections, or retrieve candidates from finite...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "CrystalGRPO: Target-Aligned and Coverage-Preserving Reinforcement Learning for Flow-Based Crystal Structure Prediction",
+      "url": "https://arxiv.org/abs/2608.06582",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.06582v1 Announce Type: new \nAbstract: Flow-based generative models can efficiently produce candidate structures for crystal structure prediction (CSP), but their pretrained objectives do not directly optimize downstream target recovery. Reinforcement-learning post-training offers a flexible solution, yet existing approaches rely primarily on en...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
