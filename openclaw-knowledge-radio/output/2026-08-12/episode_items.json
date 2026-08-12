@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    216.88,
+    327.18,
+    536.08,
+    707.02,
+    859.25,
+    1128.02,
+    1318.0,
+    1559.32,
+    1753.91,
+    2026.11
+  ],
+  "items": [
+    {
+      "title": "Computationally Guided Hapten Design Enables a Multicolor Immunochromatographic Assay for the Simultaneous Detection of Three Spirocyclic Tetronic/Tetramic Acid Derivative Insecticides in Environment and Agricultural Samples.",
+      "url": "https://doi.org/10.1021/acs.analchem.6c03319",
+      "source": "PubMed — Analytical chemistry",
+      "one_liner": "The widespread application and environmental persistence of three spirocyclic tetronic/tetramic acid derivatives (STADs)─spirodiclofen (SDF), spiromesifen (SMF), and spirotetramat (STM)─have raised sustained concerns regarding their residue accumulation, potential ecotoxicity, and risks to human health, underscoring the urgent need for rapid detection met...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Alignment-free prediction of cross-reactivity in influenza A (H3N2) anticipates antigenic drift.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014628",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Since its introduction in 1968, Influenza A (H3N2) has undergone continuous antigenic evolution, necessitating frequent vaccine updates. To predict antigenicity and characterize antigenic drift without multiple sequence alignments, we present FluEmbed, a computational framework that leverages protein language models. FluEmbed accurately quantified the ant...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A functional investigation of antibody Fc-FcRn variant binding guided by in silico free energy perturbation methods.",
+      "url": "https://doi.org/10.1016/j.jmb.2026.169982",
+      "source": "PubMed — Journal of molecular biology",
+      "one_liner": "Accurate calculation of energy changes upon mutation is a key requirement for the effective use of computational methods in protein design. In this study, we applied free energy perturbation (FEP) calculations to predict the effects of mutations on the binding free energy between the immunoglobulin G (IgG) antibody fragment-crystallizable (Fc) region and ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fused framework for predicting binding affinity to ɑ-synuclein using three-dimensional molecular graphs and attention.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109292",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "The aberrant aggregation of α‑synuclein (α‑syn) is a pathological hallmark of synucleinopathies, driving the need for small‑molecule inhibitors that block its oligomerization and fibrillization. In computer‑aided drug discovery, accurate affinity prediction remains critical for early‑stage screening. However, current deep learning models predominantly rel...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Acoustic Ejection Native Mass Spectrometry for High-Throughput Protein-Ligand Screening.",
+      "url": "https://doi.org/10.1016/j.slasd.2026.100330",
+      "source": "PubMed — SLAS discovery : advancing life sciences R & D",
+      "one_liner": "Native mass spectrometry (nMS) enables direct analysis of non-covalent protein-ligand interactions, providing information on binding affinity, stoichiometry, and protein oligomeric state. In drug discovery, nMS is widely used for mechanistic protein-ligand characterization and for confirming hits identified by orthogonal biochemical or biophysical assays....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Corrigendum to \"Explainable electronic medical record-based machine learning to predict 1-year incident Protein-Energy wasting in non-dialysis chronic kidney disease: A single-center development study'' [Clin Nutr ESPEN 74 (2026) 103346].",
+      "url": "https://doi.org/10.1016/j.clnesp.2026.104992",
+      "source": "PubMed — Clinical nutrition ESPEN",
+      "one_liner": "Not stated in source text\nMETHOD / APPROACH: Not stated in source text.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Improving Binding Free Energy Predictions with Swap Monte Carlo for Water Sampling.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00178",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Water molecules located within and surrounding the binding cavity can substantially affect ligand binding affinity. Proper sampling of these water molecules ensures that their contributions to the free energy landscape are accurately accounted for. In the pursuit of more accurate binding free energy calculations, we have developed a novel Swap Monte Carlo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence in lumbar radiography: bridging deep learning and clinical practice in low-resource environments.",
+      "url": "https://doi.org/10.1136/bmjhci-2025-101693",
+      "source": "PubMed — BMJ health & care informatics",
+      "one_liner": "BACKGROUND: Artificial intelligence (AI) has increasingly been applied to medical imaging, yet its role in lumbar spine radiography, particularly in low-resource settings, remains underexplored. OBJECTIVE: To evaluate recent developments in AI-based approaches for lumbar spine radiography and their clinical applicability in resource-constrained environmen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Detection of Galactofuranose-Containing Antigens Associated With Aspergillus Extracellular Vesicles in Urine: The Biological Basis of a New Diagnostic for Aspergillosis.",
+      "url": "https://doi.org/10.1093/infdis/jiag360",
+      "source": "PubMed — The Journal of infectious diseases",
+      "one_liner": "BACKGROUND: Establishing diagnosis of pulmonary infections caused by Aspergillus spp., invasive aspergillosis (IA), is difficult. We developed a urinary assay (MycoMEIA-Aspergillus) that deploys novel monoclonal antibodies (mAbs). We describe the biology of urinary antigens and performance as an aid to diagnose IA. METHODS: Urine samples from people with ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Solving High-Dimensional Population Balance Equations via Dynamics-Preserving Autoencoders",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.09.743783",
+      "source": "bioRxiv — systems biology",
+      "one_liner": "High-dimensional population balance equations (PBEs) provide a natural framework for modeling heterogeneous cell populations, but their direct numerical solution becomes computationally prohibitive when the internal state space contains many molecular variables. We propose a hybrid mechanistic-machine learning framework for reducing and simulating PBEs de...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evaluating Retrieval-Augmented Large Language Models on Anesthesiology Board-Style Questions: Benchmark Study.",
+      "url": "https://doi.org/10.2196/97902",
+      "source": "PubMed — JMIR formative research",
+      "one_liner": "BACKGROUND: Open-source, mid-scale large language models (LLMs) have emerged as scalable, privacy-preserving alternatives to ultra-large foundation models (eg, GPT-4) in health care systems. Techniques such as retrieval-augmented generation (RAG) enable sub-100-billion-parameter models to address highly specialized medical domains such as anesthesiology. ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Remote Sensing-Based Hybrid Statistical and Machine Learning Ensemble Modeling of Yellowfin Tuna Catch in the Western Equatorial Indian Ocean",
+      "url": "https://arxiv.org/abs/2608.10003",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.10003v1 Announce Type: new \nAbstract: Yellowfin tuna (Thunnus albacares) is an economically important pelagic species in the Indian Ocean, but its monthly catch variability is difficult to predict because reported catch is influenced by ocean productivity, thermal habitat, monsoon seasonality, fishing-ground characteristics, and fleet behavior....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Development of therapeutic PD-1 monoclonal antibodies for treatment of canine tumor.",
+      "url": "https://doi.org/10.1016/j.vetimm.2026.111189",
+      "source": "PubMed — Veterinary immunology and immunopathology",
+      "one_liner": "The use of monoclonal antibodies to block PD-1 binding to its ligand PD-L1 as a strategy for cancer treatment has already proven successful in the clinical management of human cancers. However, the clinical application of anti-PD-1 monoclonal antibodies in canine cancer immunotherapy still requires systematic and in-depth research. In this study, an anti-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Constructing a novel chimeric multiepitope vaccine against Simian immunodeficiency virus accessory proteins: Using hybrid deep learning algorithms and bioinformatics-driven tools.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109316",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Simian immunodeficiency virus (SIV), the evolutionary precursor of HIV, mirrors HIV in viral organization, transmission patterns, and disease progression in rhesus macaques. Because of these parallels, SIV serves as a practical model for exploring preventative strategies. This study aimed to examine SIV accessory proteins-Nef, Vif, Vpr, and Vpx-for their ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "UniDrug-LLM: A Reliability-Aware Multimodal LLM-based Framework for Drug Discovery.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3722692",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "Biomedical drug discovery spans heterogeneous modalities-molecular structures, knowledge graphs(KG), structure-aware features (3D molecular conformation and protein physicochemical geometry), and textual annotations-yet existing methods suffer from modality isolation, incomplete relational supervision, and uneven per-sample reliability, limiting generaliz...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "\"Dynamic protein changes in aversive taste conditioning: insights from GAP-43 and synaptophysin in memory retrieval and extinction\".",
+      "url": "https://doi.org/10.1016/j.nlm.2026.108204",
+      "source": "PubMed — Neurobiology of learning and memory",
+      "one_liner": "Understanding the neural mechanisms underlying the formation, retrieval, and extinction of taste memory is crucial for elucidating learning and memory processes. Using the conditioned taste aversion (CTA) model, we investigated the roles of the amygdala and gustatory cortex (GC), key structures consistently implicated in taste memory. Our study focused on...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Edge-aware GAT-based protein binding sites prediction.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014552",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Accurate identification of protein binding sites is crucial for understanding biomolecular interaction mechanisms and for the rational design of drug targets. Traditional predictive methods often struggle to balance prediction accuracy with computational efficiency when capturing complex spatial conformations. To address this challenge, we propose an Edge...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "KAN-based symbolic QSPR modeling for molecular property prediction.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109296",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Molecular property prediction faces a persistent trade-off between predictive accuracy and model interpretability. Graph neural networks achieve high accuracy through end-to-end learning from molecular graphs, but their predictions are difficult to interpret. Traditional QSPR methods produce interpretable linear equations, yet cannot capture nonlinear str...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beyond Fixed Luminance: Towards Panchromatic and Orthochromatic Image Colorization",
+      "url": "https://arxiv.org/abs/2608.10798",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.10798v1 Announce Type: cross \nAbstract: Most image colorization systems operate in $Lab$ space by predicting chroma ($ab$) while preserving an input-derived luminance channel ($L$). While effective on standard benchmarks, this fixed-luminance design restricts brightness changes and becomes unreliable when grayscale formation deviates from natur...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A Systematic Sample Size Analysis of ML-Based Path Loss Prediction for LPWAN",
+      "url": "https://arxiv.org/abs/2608.11083",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.11083v1 Announce Type: cross \nAbstract: Low Power Wide Area Networks like LoRa are increasingly deployed for smart city applications, requiring accurate path loss prediction for effective network planning. Traditional (empirical) propagation models often exhibit limited accuracy in these scenarios. We investigate machine learning models for LoR...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
