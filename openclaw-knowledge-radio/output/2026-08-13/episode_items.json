@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    167.2,
+    359.32,
+    600.13,
+    746.1,
+    911.48,
+    1056.38,
+    1314.79,
+    1472.9,
+    1714.52,
+    2313.08
+  ],
+  "items": [
+    {
+      "title": "A Bacillus thuringiensis ΔcdsR-based expression system for insecticidal proteins identified using AlphaFold3.",
+      "url": "https://doi.org/10.1016/j.tibtech.2026.07.023",
+      "source": "PubMed — Trends in biotechnology",
+      "one_liner": "Environmentally friendly biopesticides, such as those based on the bacterium Bacillus thuringiensis (Bt), have an important role to play in Integrated Pest Management systems. An increasingly diverse range of pesticidal proteins is being discovered, led by advances in genome sequencing and the bioinformatic identification of candidate genes. In this work,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Probing and steering biology across Boltz-1s trunk-diffusion boundary",
+      "url": "https://arxiv.org/abs/2608.11475",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.11475v1 Announce Type: new \nAbstract: AlphaFold3-class structure predictors pair a representational trunk, which processes sequence and context, with a diffusion module, which generates atomic coordinates. How biological information changes as it crosses this architectural boundary remains poorly understood. We analyze per-residue activations f...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Synthetic sequence alignments as programmable probes of learned conformational landscapes in deep learning protein structure predictors.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag605",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Proteins rely on conformational flexibility for biological function, yet predicting alternative states remains a major challenge in structural biology. Although deep learning models like AlphaFold2, AlphaFold3, and RoseTTAFold2 excel at static structure prediction, what these networks actually learn about underlying conformational landscapes r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "STRUMP-I: Structure-Based Machine Learning Approach to pMHC-I Binding Prediction Using Force Field Energy Features.",
+      "url": "https://doi.org/10.34133/csbj.0201",
+      "source": "PubMed — Computational and structural biotechnology journal",
+      "one_liner": "The adaptive immune system monitors cellular integrity by recognizing short peptides from intracellular proteins presented on major histocompatibility complex class I (MHC-I) molecules, collectively termed peptide-MHC complexes (pMHC), enabling detection of foreign or mutated proteins. With the rising importance of immunotherapies targeting cancer neoanti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MSCA-PLA: multi-scale cross-attention with differentiable pooling for protein-ligand binding affinity prediction.",
+      "url": "https://doi.org/10.1007/s11030-026-11698-w",
+      "source": "PubMed — Molecular diversity",
+      "one_liner": "Accurately predicting protein-ligand binding affinity is essential for drug discovery. However, protein-ligand binding involves not only pairwise atomic contacts but also synergistic effects between atomic clusters; meanwhile, adaptively identifying which atoms can form effective atomic clusters to drive protein-ligand interactions remains a key challenge...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A unified predictor of protein stability changes across all mutation types",
+      "url": "https://doi.org/10.1039/d6sc02103d",
+      "source": "PubMed — Chemical science",
+      "one_liner": "Prediction of protein stability change caused by amino acid substitutions or indels (insertions/deletions) is crucial for protein engineering. While current models excel at single-point substitutions, they struggle with multi-point mutations and indels due to simplistic additivity assumptions and the inability to model backbone conformational changes. To ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Task- and dataset-specific information in protein language models",
+      "url": "https://arxiv.org/abs/2608.12090",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2608.12090v1 Announce Type: cross \nAbstract: Protein language models (PLMs) have transferred the latest advances from natural language processing to computational biology. These models, trained on large corpora of protein sequence data, are widely used to translate amino acid sequences into latent-space embeddings, ready for use in diverse downstrea...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Precision meets plasticity: engineering and neurobiological frontiers of low-intensity focused ultrasound neuromodulation.",
+      "url": "https://doi.org/10.1016/j.neuroscience.2026.08.015",
+      "source": "PubMed — Neuroscience",
+      "one_liner": "Low-intensity focused ultrasound (LIFU) is emerging as a promising non-invasive tool for neuromodulation, with the potential to reach deep brain structures implicated in psychiatric and neurodegenerative disorders. Despite its rapid development, the translation of LIFU into reliable clinical applications remains limited by incomplete understanding of its ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Adaptive multi-modal dynamic graph neural networks: enhancing structure modeling and discriminability for waste classification.",
+      "url": "https://doi.org/10.1016/j.wasman.2026.115797",
+      "source": "PubMed — Waste management (New York, N.Y.)",
+      "one_liner": "In waste classification, existing methods often struggle to fully integrate visual and semantic cues and lack robustness in structural modeling. In this paper, we propose an adaptive multi-modal dynamic graph neural network framework that fuses features from a 50-layer residual network (ResNet50) and the CLIP vision transformer (base/32) (CLIP ViT-B/32), ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Drug sensitivity prediction across cancer types using graph isomorphism networks and biological pathway features: A dual-branch deep learning approach.",
+      "url": "https://doi.org/10.1371/journal.pone.0354669",
+      "source": "PubMed — PloS one",
+      "one_liner": "Drug sensitivity prediction is an important issue within the precision medicine field. IC50, which is the molar drug dose needed to decrease the viability of cells by half compared to the drug-free control, is the main pharmacodynamics parameter used for drug sensitivity analysis in large-scale pharmacogenomics screenings. Computational estimation of IC50...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Engineering Antibodies into Targeted Chimeras: From Recognition Modules to Programmable Degraders.",
+      "url": "https://doi.org/10.1002/advs.77142",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Targeted chimeras have reshaped therapeutic design by converting target recognition into active degradation. As one of the most clinically established therapeutic modalities, antibodies provide high affinity and specificity to the protein of interest. Antibody-associated targeted chimeras (AbTACs) are emerging as an important class of biologic degraders f...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Regulation and dysregulation at a critical hematopoietic junction: The human WASP-WIP complex.",
+      "url": "https://doi.org/10.1016/j.jsb.2026.108354",
+      "source": "PubMed — Journal of structural biology",
+      "one_liner": "The complex formed between Wiskott-Aldrich syndrome protein (WASP) and WASP-Interacting Protein (WIP) is a potent regulator of cytoskeletal changes in hematopoietic cells. Mutations in the WASP N-terminal domain cause the primary immunodeficiencies Wiskott-Aldrich syndrome (WAS) and X-linked thrombocytopenia (XLT). Using NMR we determine the structure of ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural basis of α-synuclein and DJ-1 complex.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154021",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "The structure of α-synuclein is predominantly α-helical when bound to cellular membranes. However, under pathological or destabilizing conditions, this α-helical structure transitions into β-sheet-rich conformations, promoting protein aggregation and formation of Lewy bodies (LBs) in neurodegenerative disorders such as Parkinson's disease dementia (PDD), ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Physicochemical Basis of Protein Evolution: Property-Informed Evolutionary Models (PRIME).",
+      "url": "https://doi.org/10.1093/molbev/msag200",
+      "source": "PubMed — Molecular biology and evolution",
+      "one_liner": "Standard probabilistic models of coding sequence evolution effectively identify where and when selection acts but remain agnostic to the mechanistic realization of these forces. We introduce PRIME (PRoperty Informed Models of Evolution), a framework of codon-level maximum likelihood methods-including global (G-PRIME), episodic (E-PRIME), and site-specific...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Clinical and pathophysiological roles of YKL-40 in obstructive airway diseases.",
+      "url": "https://doi.org/10.5387/fms.26-00034",
+      "source": "PubMed — Fukushima journal of medical science",
+      "one_liner": "YKL-40 (chitinase-3-like protein 1) has emerged as a biomarker associated with inflammation and tissue remodeling. YKL-40 is produced by multiple cell types, including macrophages, neutrophils, and airway structural cells, and has been implicated in chronic inflammatory and remodeling processes. While the exact biological role of YKL-40 remains unclear, i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MSstatsResponse: Semi-parametric statistical model enhances detection of drug-protein interactions in chemoproteomics experiments.",
+      "url": "https://doi.org/10.1016/j.mcpro.2026.101637",
+      "source": "PubMed — Molecular & cellular proteomics : MCP",
+      "one_liner": "Chemoproteomics is a popular approach for the identification of small molecule-protein interactions in biological systems. Several chemoproteomics workflows leverage functionalized chemical probes and mass spectrometry to measure protein engagement through direct protein enrichment or competition using a range of small molecule concentrations. Statistical...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HGKAN: Hypergraph Kolmogorov-Arnold Networks for Interpretable Prediction of Herb-Symptom Associations.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3714720",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "With the increasing availability of large-scale traditional Chinese medicine (TCM) data, accurate prediction of herb-symptom associations (HSAs) has become a crucial task in natural drug discovery. Existing computational approaches mainly employ graph neural networks (GNNs) to model herb-symptom relationships in biological information networks. However, t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Deep Learning Model for Prediction of Unknown Gene Functionality: Gene Bio-BERT.",
+      "url": "https://doi.org/10.1002/pmic.70173",
+      "source": "PubMed — Proteomics",
+      "one_liner": "The Human Genome Project (HGP) was a large international research effort that timelined between 1990 and 2003, marking the successful mapping of the entire human genome. Despite the promising performance of deep learning models, especially LLMs like Bio-BERT and ProtBERT on well-annotated datasets. Bio-BERT is a pre-trained language model designed for bio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "How to Spend Your Oracle Budget: Practical Guidance for Protein Structure Prediction Models",
+      "url": "https://arxiv.org/abs/2608.12192",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.12192v1 Announce Type: cross \nAbstract: Foundation models for protein structure prediction remain unreliable on certain targets. External oracles can flag and correct these failures, but biological oracles are expensive, making oracle budget a critical constraint. Existing guidance methods, such as FK-steering, DPO, and Best K-of-N sampling, di...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Robust Ambiguity Detection (RAD) From Model- and Feature-Space Consistency",
+      "url": "https://arxiv.org/abs/2608.11541",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.11541v1 Announce Type: new \nAbstract: Machine learning models should be robust, in the sense of remaining predictively consistent under permissible variations. A model's predictions should ideally remain unchanged when it is replaced by a functionally equivalent one, or when its inputs are subject to minor, admissible perturbations. If such cha...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
