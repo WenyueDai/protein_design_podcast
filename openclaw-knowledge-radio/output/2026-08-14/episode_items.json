@@ -1,0 +1,294 @@
+{
+  "timestamps": [
+    0.0,
+    163.36,
+    372.3,
+    578.29,
+    752.43,
+    950.09,
+    1111.78,
+    1340.01,
+    1551.52,
+    1803.3
+  ],
+  "items": [
+    {
+      "title": "Computational and artificial intelligence-guided discovery of potential therapeutic candidates targeting Ml0099 protein of Mycobacterium leprae.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109329",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Despite a global decline in incidence, leprosy remains a major public health concern, with India accounting for over 55% of cases worldwide, highlighting the unmet need to characterize hypothetical proteins of M. leprae as novel therapeutic targets against emerging drug-resistant strains. The three-dimensional homology structure and characteristics of ML0...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AbAgKer: A Unified Semi-Supervised Framework for Antigen-Antibody Binding Affinity and Kinetics Prediction.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag606",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: The rapid advancement of generative artificial intelligence has enabled the high-throughput design of therapeutic antibody candidates. However, the precise evaluation of these candidates remains a significant challenge due to the scarcity of high-quality activity data and the structural flexibility of antibody complementarity-determining regio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Discovery of a potent TDP1 inhibitor through machine learning-driven predictive modeling combined with structure-based virtual screening and experimental validation.",
+      "url": "https://doi.org/10.1039/d6ra05057c",
+      "source": "PubMed — RSC advances",
+      "one_liner": "Tyrosyl-DNA phosphodiesterase I (TDP1) repairs topoisomerase I (TOP1)-mediated DNA damage and is a promising anticancer target, particularly in combination with TOP1 inhibitors. However, the discovery of potent and drug-like TDP1 inhibitors remains challenging due to the limited structural diversity of known active compounds. Here, we developed an integra...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Construction of chemical looping gasification model based on machine learning: focusing on performance prediction, feature importance and parameter optimization.",
+      "url": "https://doi.org/10.1016/j.wasman.2026.115795",
+      "source": "PubMed — Waste management (New York, N.Y.)",
+      "one_liner": "Chemical looping gasification (CLG) is a promising biomass conversion technology, but its complex multi-factor coupling mechanisms hinder optimal condition screening. This study developed an integrated framework combining machine learning, Shapley Additive exPlanations (SHAP) interpretability analysis, and particle swarm optimization algorithm to address ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Real-time artificial intelligence-based anatomy recognition in single-port transvesical enucleation of the prostate.",
+      "url": "https://doi.org/10.1111/bju.70424",
+      "source": "PubMed — BJU international",
+      "one_liner": "OBJECTIVES: To evaluate the feasibility and accuracy of an artificial intelligence (AI) model to assist surgeons through automated real-time detection and segmentation of key anatomical structures during robot-assisted single-port transvesical enucleation of the prostate (STEP). PATIENTS AND METHODS: This retrospective single-centre study utilised surgica...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Censoring chemical data to mitigate dual use risk.",
+      "url": "https://doi.org/10.1039/d5dd00512d",
+      "source": "PubMed — Digital discovery",
+      "one_liner": "Machine learning models have dual use potential, potentially serving both beneficial and malicious purposes. The development of open-source models in chemistry has specifically surfaced dual use concerns around toxicological data and chemical warfare agents. We discuss a chain risk framework identifying three misuse pathways and corresponding mitigation s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence-based grading of human cataracts: A feasibility study.",
+      "url": "https://doi.org/10.1371/journal.pone.0355969",
+      "source": "PubMed — PloS one",
+      "one_liner": "This feasibility study developed and validated an AI algorithm for automatic classification of human lens opacification (cataracts) using anterior segment optical coherence tomography (OCT). The dataset comprised 1,802 unprocessed OCT images from 901 eyes, with cataract severity graded by slit-lamp examination using the Lens Opacities Classification Syste...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-Derived Score to Predict Effort Intolerance and Adverse Outcome across the Heart Failure Spectrum.",
+      "url": "https://doi.org/10.1016/j.cardfail.2026.07.027",
+      "source": "PubMed — Journal of cardiac failure",
+      "one_liner": "AIMS: To develop and externally validate an artificial intelligence (AI)-driven model to predict effort intolerance (i.e., peak oxygen uptake [VO₂] <16 mL/kg/min) in patients at risk or with established heart failure (HF). METHODS: We enrolled a consecutive sample of adults referred for dyspnea or suspected HF. The derivation cohort (Pisa, Italy) included...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "From regulatory approval to clinical practice: real-world eligibility for anti-amyloid monoclonal antibodies in an Italian dementia-care network.",
+      "url": "https://doi.org/10.1016/j.tjpad.2026.100655",
+      "source": "PubMed — The journal of prevention of Alzheimer's disease",
+      "one_liner": "Not stated in source text\nMETHOD / APPROACH: Not stated in source text.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An efficient ranking deep neural network algorithm for the prediction of Ca2+ binding sites of the protein.",
+      "url": "https://doi.org/10.1371/journal.pone.0355853",
+      "source": "PubMed — PloS one",
+      "one_liner": "The Ca2+ binding sites of proteins are critical for their function, particularly in processes such as signal transduction, enzyme regulation, and structural stability. In this study, the calcium-binding sites of NtEhCaBP1 (Entamoeba histolytica calcium-binding protein). This paper proposes Statistical Ranking Deep Learning (SR-ML) to estimate the binding ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Recent advances in cryoelectron tomography and applications to parasitology.",
+      "url": "https://doi.org/10.1016/j.sbi.2026.103357",
+      "source": "PubMed — Current opinion in structural biology",
+      "one_liner": "Cryo-electron tomography (cryo-ET) has emerged as a transformative technique for visualizing the native ultrastructure of eukaryotic parasites, from proteins to cellular architecture. Recent technical advances in sample preparation, data collection, and computational analysis have enabled unprecedented insights into structural cell biology of medically im...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Toxicological Knowledge-Guided Graph Learning for Interpretable and Generalizable Molecular Toxicity Prediction.",
+      "url": "https://doi.org/10.1021/acs.jmedchem.6c01790",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "Early identification of toxic liabilities is essential for improving drug safety and reducing attrition. However, structure-based deep learning models often generalize poorly to new chemical scaffolds and provide limited biological mechanistic insight. To address this, we introduce Toxicological Knowledge-guided Graph-based Learning (TKGL), a multiview fr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Shedding light on neural learning to rank models for anticancer drug prioritization.",
+      "url": "https://doi.org/10.1371/journal.pone.0345854",
+      "source": "PubMed — PloS one",
+      "one_liner": "Learning to Rank (LeToR) methods have gained increasing attention in drug response prediction, offering a direct way to prioritize effective treatments for cancer cell lines. In this study, we systematically benchmark six ranking loss functions, including state-of-the-art listwise methods, and five types of molecular representations across two large-scale...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of an Indirect Competitive ELISA Based on σC Protein for Detection of Antibodies Against Avian Reovirus.",
+      "url": "https://doi.org/10.1016/j.jviromet.2026.115450",
+      "source": "PubMed — Journal of virological methods",
+      "one_liner": "Avian reovirus (ARV) causes viral arthritis in poultry, and emerging variants in China demand improved serosurveillance. We developed an indirect competitive ELISA (ic-ELISA) using a monoclonal antibody against recombinant σC protein. After optimization (coating antigen 6.0μg/mL, mAb 1:4000, blocking 90min, serum 60min, mAb 90min), the cut-off percent inh...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Genetic analysis of inflammatory proteins following BCG vaccination in Danish children.",
+      "url": "https://doi.org/10.1016/j.biopha.2026.119848",
+      "source": "PubMed — Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+      "one_liner": "The Bacillus Calmette-Guérin (BCG) vaccine, primarily designed for tuberculosis, exerts non-specific immunological effects that vary considerably among children. Limited knowledge exists regarding genetic variants that can impact immune responses post-vaccination. Understanding the genetic factors influencing the immune response in children following BCG ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The phytoplasma effector, Phyllogen, structurally mimics host plant MADS transcription factors.",
+      "url": "https://doi.org/10.1016/j.jbc.2026.113449",
+      "source": "PubMed — The Journal of biological chemistry",
+      "one_liner": "Phytoplasmas are obligate plant pathogens that include species causing severe developmental abnormalities in diverse plant families. Phytoplasma infections may result in dwarfism, witches' broom, virescence and phyllody, the conversion of reproductive organs into leaf-like structures. Phyllody is due to the activity of phytoplasma effector proteins, calle...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A proposed thaumatin-like protein (TLP) syndrome: Sensitization patterns, reaction severity, and multiple-fruit reactivity in Thai and Austrian banana-allergic adult cohorts.",
+      "url": "https://doi.org/10.1016/j.alit.2026.07.004",
+      "source": "PubMed — Allergology international : official journal of the Japanese Society of Allergology",
+      "one_liner": "BACKGROUND: Banana allergy varies geographically, but molecular sensitization patterns and fruit co-reactivity remain incompletely defined. METHODS: We analyzed adults with IgE-mediated banana allergy from Thailand (n = 169) and Austria (n = 70) using banana extract-specific IgE (ImmunoCAP), ALEX (a multiplex allergen-specific IgE macroarray), and complem...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Growth costs of protein allocation in models of growing cells",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.21.719900",
+      "source": "bioRxiv — systems biology",
+      "one_liner": "Microbial growth depends on how cells allocate their limited proteome among competing functions. Although many proteins are expressed near levels that maximize growth, deviations from these optima are common and can impose substantial fitness costs. Modeling the growth costs of suboptimal protein allocation remains challenging because protein expression i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-preserving uncertainty quantification for GENERIC dynamics",
+      "url": "https://arxiv.org/abs/2608.12624",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.12624v1 Announce Type: new \nAbstract: Structure-preserving machine learning embeds physical structure directly into model architectures, yet uncertainty quantification (UQ) for such hard-constrained models remains limited because standard UQ methods may violate the encoded admissibility conditions, require architectural modifications, or impose...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Security and Detectability Analysis of Unicode Text Watermarking Methods against Large Language Models",
+      "url": "https://arxiv.org/abs/2512.13325",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.13325v2 Announce Type: replace-cross \nAbstract: Securing digital text is becoming increasingly relevant due to the widespread use of large language models. Individuals' fear of losing control over data when it is being used to train such machine learning models or when distinguishing model-generated output from text written by humans. Digital w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
