@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    191.9,
+    292.34,
+    474.25,
+    688.06,
+    898.59,
+    1056.48,
+    1201.63,
+    1421.39,
+    1607.29,
+    1758.66
+  ],
+  "items": [
+    {
+      "title": "Metabolic Labeling of Phosphatidylethanolamine Lipids in Cells Using Clickable Ethanolamine Analogs.",
+      "url": "https://doi.org/10.1002/cbic.70501",
+      "source": "PubMed — Chembiochem : a European journal of chemical biology",
+      "one_liner": "Phosphatidylethanolamine (PE) is the second most abundant phospholipid in mammalian cells. The cone-shaped structure of PE positions this lipid to act as a cornerstone of signaling events, such as those involving protein-protein and lipid-protein interactions, as it has been shown to promote conformational changes in both protein and lipid-based membrane ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of adaptive activation functions with curvature and range modulation for abstract image feature learning in complex CNNs for cross-domain applications.",
+      "url": "https://doi.org/10.1371/journal.pone.0355613",
+      "source": "PubMed — PloS one",
+      "one_liner": "Deep learning architectures comprise hierarchies in modern machine learning studies, and these are not only full of semantic depth; they are also structured systematically by a sequence of nonlinear transformations. In particular, in convolutional neural networks, the activation functions are the canonical nonlinear construction blocks that control the ex...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Covalently functionalized MoS",
+      "url": "https://doi.org/10.1016/j.bios.2026.118714",
+      "source": "PubMed — Biosensors & bioelectronics",
+      "one_liner": "Precise detection of amino acids is critical for proteomics and molecular recognition. Nanopore sensing enables label-free single-molecule analysis but often lacks sufficient spatial resolution to control translocation dynamics and resolve protein structure function relationships. Here, we employ all-atom Molecular Dynamics simulations to investigate Cyst...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fusion of IgG antibodies to albumin inhibits transport across the placenta.",
+      "url": "https://doi.org/10.1126/sciimmunol.aee5151",
+      "source": "PubMed — Science immunology",
+      "one_liner": "Immunoglobulin G (IgG)-based monoclonal antibodies are effective therapies for cancer, autoimmune diseases, and migraine. However, they are actively transported across the placenta by the neonatal Fc receptor (FcRn), limiting their use during pregnancy. Using mouse models and an ex vivo human placental perfusion system, we show that although FcRn binds al...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning and AI for cancer research and care: a review of applications, limitations, and future directions.",
+      "url": "https://doi.org/10.1186/s43046-026-00399-y",
+      "source": "PubMed — Journal of the Egyptian National Cancer Institute",
+      "one_liner": "Machine learning (ML) is transforming cancer research and care by enabling analysis of complex, high-dimensional datasets spanning genomics, transcriptomics, proteomics, imaging, and clinical records. By improving risk stratification, accelerating detection and diagnosis, and supporting treatment selection, ML has the potential to enhance survival outcome...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "EGA-DTA: An Energetic-Geometric Augmented Graph Neural Network With Target-Conditional Gating for DTA Prediction.",
+      "url": "https://doi.org/10.1109/TCBBIO.2026.3724188",
+      "source": "PubMed — IEEE transactions on computational biology and bioinformatics",
+      "one_liner": "Drug-target affinity (DTA) prediction plays an important role in virtual screening. However, many graph-based DTA models represent molecular bonds solely as discrete bond types and combine drug and protein features through simple concatenation. We propose EGA-DTA, a graph neural network augmented with energetic and geometric edge features and target-condi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computationally Evidence-Grounded Sequence-First Design of Peptide Binders.",
+      "url": "https://doi.org/10.1002/advs.77125",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Peptide binders provide a versatile modality for modulating protein targets that are poorly addressed by small molecules, but their discovery is constrained by sample-intensive screening or reliance on structural templates. Sequence-first generation offers a scalable alternative for targets lacking stable or representative structures, yet existing approac...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-aware deep learning enhances m6A prediction and reveals cell type-associated RNA structural signatures.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014649",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "N6-methyladenosine (m6A), the most abundant mRNA modification in eukaryotes, plays essential roles in gene regulation and disease pathogenesis. Computational prediction of m6A sites offers a scalable alternative to costly experimental approaches, yet current methods rely predominantly on linear sequence features. This overlooks potentially informative RNA...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Canonical Antibodies Adopt Distinct Binding Modes to Recognize Viral Glycan Shields.",
+      "url": "https://doi.org/10.1002/advs.77172",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Viral entry glycoproteins are often shielded from immune recognition by dense N-linked glycans that limit antibody access to protein epitopes. While glycan-reactive antibodies with unusual architectures have been described, how canonical Y-shaped antibodies engage these glycan-rich surfaces remains poorly defined. Here, we characterize two human antibodie...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Discovery of novel METTL3 inhibitors: design, synthesis, and",
+      "url": "https://doi.org/10.1039/d6ra02851a",
+      "source": "PubMed — RSC advances",
+      "one_liner": "Methyltransferase-like protein 3 (METTL3) is a promising therapeutic target for Acute Myeloid Leukemia (AML). To discover novel METTL3 inhibitors, we designed a series of compounds by hybridizing the natural product Genistein and the non-nucleoside METTL3 inhibitor STM2457. Among the 31",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Investigating the Cellular Activity and Differential Gene Expression of Human Astrocytes in Interaction with Protein Composite Nanofibers.",
+      "url": "https://doi.org/10.1007/s11064-026-04855-y",
+      "source": "PubMed — Neurochemical research",
+      "one_liner": "Collagen is a major extracellular matrix component, and soy protein has been reported to influence cellular and immune-related processes. Nanofiber scaffolds incorporating collagen and soy protein isolate (SPI) may provide a platform for modulating cell-material interactions in neural systems. In this study, we fabricated electrospun nanofibers composed o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "RASA2 Promotes Pancreatic Cancer Metastasis by Activating TGFβ-Dependent Non-canonical Hedgehog Signaling.",
+      "url": "https://doi.org/10.1158/0008-5472.CAN-26-0333",
+      "source": "PubMed — Cancer research",
+      "one_liner": "KRAS mutations are a major driver of pancreatic ductal adenocarcinoma (PDAC). RASA2, a RAS GTPase-activating protein, modulates KRAS protein levels in wild-type contexts, suggesting it could play a potential role in PDAC. Here, we systematically investigated the biological function and molecular mechanisms of RASA2 in PDAC. Integrative analyses of multipl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hierarchical geometric deep learning enables scalable analysis of molecular dynamics.",
+      "url": "https://doi.org/10.1063/5.0332913",
+      "source": "PubMed — The Journal of chemical physics",
+      "one_liner": "Molecular dynamics simulations can generate atomically detailed trajectories of complex systems, but analyzing these dynamics can be challenging when systems lack well-established quantitative descriptors (features). Learning features directly from simulation data would obviate manual feature engineering, and graph neural networks are promising architectu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting specificity of TCR-pMHC interactions using machine-learning and biophysical models.",
+      "url": "https://doi.org/10.1016/j.cels.2026.101700",
+      "source": "PubMed — Cell systems",
+      "one_liner": "Understanding T cell receptor (TCR) discrimination of MHC-presented epitope peptides (pMHCs) remains challenging. While machine-learning (ML)-based predictions of TCR specificity have gained attention, their capacity to generalize to unseen peptides is often misinterpreted. Using a proprietary cancer patient dataset, we show that ML methods succeed in pre...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Altered Complement and Tubular Mitochondrial Proteins Are Linked to Graft Loss in DSA+ Antibody-Mediated Rejection.",
+      "url": "https://doi.org/10.1681/ASN.0000001224",
+      "source": "PubMed — Journal of the American Society of Nephrology : JASN",
+      "one_liner": "BACKGROUND: Antibody-mediated rejection (AMR) is the main driver of late kidney allograft loss. Anti-HLA donor-specific antibodies (DSA) are strongly associated with AMR. However, 30-60% of DSA+ patients do not develop AMR, raising the possibility of local tissue adaptations to DSA. METHODS: We performed unbiased proteomic analysis on glomeruli and tubulo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Detection of nitrogen content in wheat leaves based on visible/near-infrared spectroscopy sensing.",
+      "url": "https://doi.org/10.1039/d6ay00991c",
+      "source": "PubMed — Analytical methods : advancing methods and applications",
+      "one_liner": "Nitrogen is an important element present in vital substances such as plant proteins and chlorophyll, the content of which directly reflects the nutrient status of crops, and provides a theoretical basis for crop nutrient diagnosis, growth monitoring and yield potential prediction. Taking the chip-level visible/near-infrared spectral sensor AS7263 as the d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multimodal deep learning with a joint uncertainty quantification scheme for drug-target interaction prediction.",
+      "url": "https://doi.org/10.1007/s11030-026-11692-2",
+      "source": "PubMed — Molecular diversity",
+      "one_liner": "AI-driven prediction of drug-target interaction (DTI) has emerged as a critical component in modern drug discovery and development. However, this approach is constrained by model and data uncertainties, which substantially affect its reliability and accuracy in DTI prediction. To overcome these limitations, we introduce EUQTri-DTI, a novel evidence-guided...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification of vaccine candidates by immunization with a complex pool of recombinant VLPs.",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129027",
+      "source": "PubMed — Vaccine",
+      "one_liner": "Identifying the regions of a protein that can be readily translated into an effective vaccine remains a major challenge in epitope-focused vaccine design, especially when a protein is poorly characterized. Here, we describe an immune-driven strategy for epitope identification which uses the immune system to reveal regions within a candidate protein capabl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "OC-Distill: Ontology-aware Contrastive Learning with Cross-Modal Distillation for ICU Risk Prediction",
+      "url": "https://arxiv.org/abs/2604.16878",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2604.16878v4 Announce Type: replace \nAbstract: Early prediction of severe clinical deterioration and remaining length of stay can enable timely intervention and better resource allocation in high-acuity settings such as the ICU. This has driven the development of machine learning models that leverage continuous streams of vital signs and other physi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Multi-perspective Imbalance-Conscious 6G Beamforming Optimization and Performance",
+      "url": "https://arxiv.org/abs/2608.12929",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.12929v1 Announce Type: new \nAbstract: The study presents a systematic machine learning (ML) study of 6G-IoT beamforming optimization (6GBO) using supervised and unsupervised approaches. We compared the predictive power of network, environmental, device, and vision feature groups for 6GBO. Additionally, it addressed other unsupervised perspectiv...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
