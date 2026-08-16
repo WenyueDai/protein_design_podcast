@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    188.11,
+    343.58,
+    578.34,
+    826.3,
+    1001.48,
+    1223.26,
+    1412.9,
+    1558.1,
+    1770.47,
+    2016.8
+  ],
+  "items": [
+    {
+      "title": "Nuclear speckle-associated perispeckle networks partition active chromatin into gene expression niches.",
+      "url": "https://doi.org/10.1016/j.celrep.2026.117799",
+      "source": "PubMed — Cell reports",
+      "one_liner": "A subset of genes, reproducibly positioned adjacent to nuclear speckles (NS), amplify their expression only with NS contact. However, genome-wide gene expression differences inversely correlate with differences in NS distance. To resolve this paradox, we hypothesized the existence of additional \"niches\" away from, but spatially correlated with NS, that wo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "UNKAI: A Protein Functional Identity Prediction Model Based on ESM-C Latent Representations and the Attention Mechanism.",
+      "url": "https://doi.org/10.34133/csbj.0206",
+      "source": "PubMed — Computational and structural biotechnology journal",
+      "one_liner": "The rapid advancement of genome sequencing technologies has led to the accumulation of a vast number of protein sequences in public databases. However, a substantial proportion of these proteins remain functionally uncharacterized. Concurrently, the expansion of protein sequence data has enabled the development of protein language models (pLMs). By distil...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computationally Assisted Peptide Screening to Identify Sequences from Reported Peptides to Achieve Enhance Abilities in Supporting Adhesion and Self-Renewal of Human Pluripotent Stem Cell Cultures.",
+      "url": "https://doi.org/10.1021/acsabm.6c01059",
+      "source": "PubMed — ACS applied bio materials",
+      "one_liner": "Peptides that support the adhesion and pluripotency maintenance of human pluripotent stem cells (hPSCs) play a critical role in the culture and growth of hPSCs on peptide-displaying surfaces. We designed a number of optimized peptide sequences based on the interaction between RGD sequences and integrin receptors. In this study, AlphaFold-based structure p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Model Gateway: Management platform for model-driven drug discovery.",
+      "url": "https://doi.org/10.1016/j.drudis.2026.104767",
+      "source": "PubMed — Drug discovery today",
+      "one_liner": "Pharmaceutical drug discovery demands machine learning (ML) infrastructure that goes beyond general-purpose Machine Learning Operations: inference-time composition of multiple models for multiparameter optimization, version management for physics-based models without serialized ML artifacts, enterprise compound library precomputation and governance struct...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hybrid ensemble machine learning algorithms for landscape ecological vulnerability assessment to riverbank erosion.",
+      "url": "https://doi.org/10.1007/s10661-026-15778-0",
+      "source": "PubMed — Environmental monitoring and assessment",
+      "one_liner": "Riverbank erosion is a catastrophic geomorphological hazard that poses severe ecological and socio-economic challenges across densely populated floodplains. This study advances a machine learning (ML) framework that integrates individual and bagging-classifier approaches using random forest (RF), multilayer perceptron (MLP) and bagging classifiers to asse...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Targeting Melanoma-Specific Tyrosinase Disrupts Cytoskeleton Dynamics for Precision Apoptosis Induction by a De Novo Designed Cyclic Peptide.",
+      "url": "https://doi.org/10.1002/mco2.70902",
+      "source": "PubMed — MedComm",
+      "one_liner": "Melanoma remains highly aggressive and refractory to conventional therapies, with current treatments often limited by toxicity and acquired resistance, underscoring the urgent need for targeted strategies with improved safety and durable efficacy. Here, we report a tyrosinase-guided cyclic peptide, c-RGDKYQ, that exploits the overexpression of tyrosinase ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A hybrid framework combining microwave sensing and deep learning for real-time soil volumetric water content estimation.",
+      "url": "https://doi.org/10.1038/s41598-026-65948-w",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "This study introduces an integrated, non-destructive method for real-time soil moisture measurement using a 2.4 GHz microwave/RF sensing system combined with machine learning. It overcomes the limitations of traditional gravimetric techniques, which are destructive, energy-intensive, and have a 24-hour delay, by providing quick, on-site estimates of volum...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence in Liver Transplantation: A Systematic Review.",
+      "url": "https://doi.org/10.1016/j.jss.2026.07.039",
+      "source": "PubMed — The Journal of surgical research",
+      "one_liner": "INTRODUCTION: Artificial intelligence (AI) is increasingly recognized as a transformative paradigm within transplantation medicine, offering advanced computational approaches capable of integrating heterogeneous clinical, biological, imaging, and molecular datasets to improve predictive accuracy and decision-making. Liver transplantation represents a uniq...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Conformational flexibility of soybean lipoxygenase is coupled to crystal solvent content in serial crystallography",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.30.729005",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "X-ray crystallography is increasingly employed to study protein conformational ensembles under physiological conditions, but the effects of the crystal lattice on protein motions remains understudied. Here, we report the structure determination of soybean lipoxygenase-1 (SLO) from microcrystal slurries using serial femtosecond crystallography (SFX) at the...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Studying the effect of conserved tyrosine phosphorylation within SH2 domains",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744714",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "SH2 domains are phosphotyrosine-binding modules that play a critical role in cell signaling by mediating protein-protein interactions. While tyrosine phosphorylation has been shown to impact SH2 domain function in signaling, the specific effects of phosphorylation at different sites within the domain remain poorly understood. In this study, we selected tw...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "N-Acetyltransferase 10 (NAT10) at the crossroads of metabolism, immunology, and cancer biology.",
+      "url": "https://doi.org/10.1007/s10555-026-10369-4",
+      "source": "PubMed — Cancer metastasis reviews",
+      "one_liner": "The multi-functional protein N-acetyltransferase 10 (NAT10), highly conserved from bacteria to human, is a versatile enzyme with an N-acetyltransferase domain, an RNA helicase domain, and a tRNA-binding domain, known for its ability to acetylate proteins and multiple RNA species. Specifically, NAT10 was reported to catalyze the N4-acetylcytidine (ac4C) mo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-based TCR-pMHC binding prediction and generalization to unseen peptides.",
+      "url": "https://doi.org/10.1038/s44386-026-00064-3",
+      "source": "PubMed — npj drug discovery",
+      "one_liner": "The interaction between T-cell receptors (TCRs) with the peptide-bound major histocompatibility complex (MHC) intricately impacts the functional specificity of T-cell-mediated adaptive immune response. Consequently, implication in immunotherapy has contributed to the ever-growing computational methods for TCR recognition, which have recently attracted str...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Membrane Protein Clustering as a Key Determinant of Endocytosis: Natural Mechanisms, Nonintentional Transporter Internalization, and Engineered Multivalent Nanocarriers.",
+      "url": "https://doi.org/10.1021/acs.jmedchem.6c00602",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "Membrane protein clustering frequently precedes endocytosis, but its functional role differs across protein classes. Here, a multivalency-aware framework is proposed, in which clustering acts as a thresholding mechanism that governs internalization and postentry fate. For receptors, clustering operates as an intentional signaling strategy that recruits en...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Discovery, Synthesis, and Biological Evaluation of 1,3,4,5-Tetrahydro-6H-pyrano[4,3-c]isoquinolin-6-one Derivatives as Novel and Highly Selective PARP1 Inhibitors.",
+      "url": "https://doi.org/10.1021/acs.jmedchem.6c00295",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "Developing highly selective PARP1 inhibitors is a promising strategy to improve the therapeutic window compared with dual PARP1/2 inhibitors. Through structure-guided design and optimization, we developed (R)-A17, a novel, highly selective PARP1 inhibitor featuring a unique tricyclic scaffold. It demonstrates nanomolar enzymatic potency (PARP1 IC50 = 2.4 ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Large scale proteomic analyses of HR-pQCT-derived bone loss at the radius and tibia in older men.",
+      "url": "https://doi.org/10.1093/jbmr/zjag120",
+      "source": "PubMed — Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+      "one_liner": "Although bone loss progresses rapidly in older adults, its biological drivers are poorly understood, and effective biomarkers are not available. We used large-scale discovery proteomics to identify serum proteins associated with bone loss, and to develop predictive signatures, in older men (mean age 84 yr). Rates of distal radial and tibial bone loss were...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advances in Cyclic Peptides Targeting G Protein-Coupled Receptors.",
+      "url": "https://doi.org/10.1002/cbic.70498",
+      "source": "PubMed — Chembiochem : a European journal of chemical biology",
+      "one_liner": "Peptide-responsive G protein-coupled receptors (GPCRs) often recognize endogenous peptide ligands through extended receptor interfaces, providing opportunities for peptide-based ligands to engage receptor contacts that conventional small molecules struggle to access effectively. In this context, cyclic peptides are more than stabilized peptide analogs: th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein-protein interactions in Escherichia coli: Using cross-linking/mass spectrometry (XLMS) to reveal our current knowledge gaps in interactomes.",
+      "url": "https://doi.org/10.1016/j.jprot.2026.105682",
+      "source": "PubMed — Journal of proteomics",
+      "one_liner": "Protein-protein interactions (PPIs) are fundamental to cellular processes and often define phenotypes more accurately than protein abundance alone. Despite their importance, confidently identifying direct physical interactions remains challenging. Even in the benchmark organism Escherichia coli, our survey of the IntAct database reveals that only 8% of re...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Massively Parallel, Single-Molecule Assessment of Synthetic Fidelity and Drug-Like Properties in a DNA-Encoded Library.",
+      "url": "https://doi.org/10.1021/acs.jmedchem.6c01722",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "DNA-encoded libraries (DELs) are powerful drug discovery tools, enabling rapid hit generation against immobilized protein targets. However, translating these hits is often hampered by synthetic inefficiency and, for libraries of \"beyond-Rule-of-5\" compounds such as macrocyclic peptides, by enrichment of poorly cell-permeable members. Here we introduce LC-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
