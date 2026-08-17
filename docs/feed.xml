@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2026 03:17:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 03:22:43 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-08-17</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-17/podcast_2026-08-17.mp3</guid>
+      <pubDate>Mon, 17 Aug 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-17/podcast_2026-08-17.mp3" length="20334357" type="audio/mpeg" />
+      <description>Today’s papers collectively shift how we think about moving from design to manufacturable biologics, about screening emergent functions in cell‑free systems, about imaging‑based quality control, about AI‑assisted surgical planning, and about the hidden dynamics of drug targets. | Thinking about the hydroxyapatite chromatography work on disassembled capsid proteins, I wonder if we could push that purification principle further by coupling it directly to in‑line assembly of virus‑like particles. | Moving to the PUREdrop microfluidic platform, its ability to compartmentalize cell‑free expression in ~20 µl droplets made me think about screening for proteins that need a lipid environment to function, like membrane‑associated enzymes.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Today’s papers collectively shift how we think about moving from design to manufacturable biologics, about screening emergent functions in cell‑free systems, about imaging‑based quality control, about AI‑assisted surgical planning, and about the hidden dynamics of drug targets. | Thinking about the hydroxyapatite chromatography work on disassembled capsid proteins, I wonder if we could push that purification principle further by coupling it directly to in‑line assembly of virus‑like particles. | Moving to the PUREdrop microfluidic platform, its ability to compartmentalize cell‑free expression in ~20 µl droplets made me think about screening for proteins that need a lipid environment to function, like membrane‑associated enzymes.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-08-16</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-16/podcast_2026-08-16.mp3</guid>
       <pubDate>Sun, 16 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-16/podcast_2026-08-16.mp3" length="16902765" type="audio/mpeg" />
-      <description>Today’s batch of papers points to a few quiet but meaningful shifts in how we think about linking sequence, structure and function in biological systems. | A second shift appears in the UNKAI paper, which tackles the flood of uncharacterized sequences in public databases. | Third, the peptide‑screening study shows how structure‑guided design can move beyond simple motif grafting.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-16/podcast_2026-08-16.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today’s batch of papers points to a few quiet but meaningful shifts in how we think about linking sequence, structure and function in biological systems. | A second shift appears in the UNKAI paper, which tackles the flood of uncharacterized sequences in public databases. | Third, the peptide‑screening study shows how structure‑guided design can move beyond simple motif grafting.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-16/podcast_2026-06-16.mp3</guid>
       <pubDate>Tue, 16 Jun 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-16/podcast_2026-06-16.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-06-15</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-15/podcast_2026-06-15.mp3</guid>
-      <pubDate>Mon, 15 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-15/podcast_2026-06-15.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

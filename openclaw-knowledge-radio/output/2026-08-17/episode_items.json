@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    192.28,
+    497.68,
+    719.99,
+    907.38,
+    1157.62,
+    1762.82,
+    1939.63,
+    2046.42,
+    2230.31,
+    2490.03
+  ],
+  "items": [
+    {
+      "title": "Purification of Disassembled Capsid Protein by Hydroxyapatite Chromatography Enhances Virus-Like Particle Recovery.",
+      "url": "https://doi.org/10.1002/bit.70346",
+      "source": "PubMed — Biotechnology and bioengineering",
+      "one_liner": "Virus-like particles (VLPs) are a promising modality with extensive applications in prophylactic and therapeutic vaccine design. Human Papillomavirus (HPV) vaccines are one such example where VLP vaccine applications have led to the successful reduction in HPV-associated diseases, such as cervical cancer. Current purification approaches utilize hydroxyapa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Automated synthetic cell-based screening for designed proteins with emergent functions.",
+      "url": "https://doi.org/10.1038/s41467-026-76787-8",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Designing minimal biological systems with emergent functions such as spatiotemporal self-organization is a central goal of bottom-up synthetic biology. While computational optimization and design show promise in accelerating functional protein engineering through Design-Build-Test-Learn cycles, screening libraries for complex functions remains a major cha...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Developing machine learning models with pharmaceutically relevant microscopy images to improve classification of multi particulate systems for parenteral delivery.",
+      "url": "https://doi.org/10.1016/j.ijpharm.2026.127313",
+      "source": "PubMed — International journal of pharmaceutics",
+      "one_liner": "This study evaluates the development and performance of convolutional neural network (CNN) models for classifying subvisible particles in parenteral products using a comprehensive and pharmaceutically relevant particle image library. Specifically, representative morphologies of glass lamellae were curated for the first time and incorporated into the parti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Validation of artificial intelligence-assisted CBCT analysis for predicting inferior alveolar nerve proximity to impacted mandibular third molars: a diagnostic accuracy study.",
+      "url": "https://doi.org/10.1186/s12903-026-08690-z",
+      "source": "PubMed — BMC oral health",
+      "one_liner": "OBJECTIVES: This study aimed to evaluate the diagnostic accuracy of an artificial intelligence (AI)-assisted cone-beam computed tomography (CBCT) analysis system for predicting the spatial proximity of the inferior alveolar nerve (IAN) to impacted mandibular third molars (M3M), using expert radiologist assessment as the reference standard. METHODS: A retr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Intrinsic conformational dynamics of apo HIV-2 protease reveal two dynamical stages and multiple closed flap states.",
+      "url": "https://doi.org/10.1080/07391102.2026.2713125",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "HIV-2 protease (PR2) is a homodimeric protein essential for viral maturation and represents a key therapeutic target. Structural studies of PR2 report a semi-open apo form and closed ligand-bound conformations. However, these static structural observations do not fully capture the intrinsic dynamics of PR2. Here, we use molecular dynamics simulations to i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Chemocarrier-Enabled Peptide Inhibition of MYC-Cofactor Interactions in Plants.",
+      "url": "https://doi.org/10.1021/acschembio.6c00523",
+      "source": "PubMed — ACS chemical biology",
+      "one_liner": "Direct chemical inhibition of transcription factor (TF)-cofactor interactions in plants remains challenging because their large protein-protein interfaces are poorly suited to conventional small molecules, while peptide-based inhibitors are limited by inefficient intracellular delivery. In our previous work, we demonstrated that peptide inhibitors can dis...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A hybrid MVDA-neural network model with auxiliary learning for pharmaceutical quality by design under small-sample constraints.",
+      "url": "https://doi.org/10.1016/j.ejpb.2026.115215",
+      "source": "PubMed — European journal of pharmaceutics and biopharmaceutics : official journal of Arbeitsgemeinschaft fur Pharmazeutische Verfahrenstechnik e.V",
+      "one_liner": "Quality by Design (QbD) is a systematic approach that builds quality into pharmaceutical products from early development. Within this framework, multivariate data analysis (MVDA), implemented here as a second-order polynomial response-surface model, has long served as the core modeling technique. However, this fixed functional form is limited in capturing...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Loss of CD44 re-educates pancreatic cancer-associated fibroblasts modulating their fibrotic and immunosuppressive functions.",
+      "url": "https://doi.org/10.1038/s41419-026-09155-5",
+      "source": "PubMed — Cell death & disease",
+      "one_liner": "Pancreatic tumors are characterized by a prominent desmoplastic stroma that can account for up to 90% of the tumor. Given the marked upregulation of CD44, a family of transmembrane glycoproteins, in pancreatic cancer-associated fibroblasts (CAFs), we investigated its role in regulating myofibroblastic and inflammatory CAF phenotypes. Conditional deletion ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Systems-level multi-omics dissection of syndromic and idiopathic autism reveals distinct regulatory architectures, candidate molecular signatures, and potential therapeutic targets.",
+      "url": "https://doi.org/10.1016/j.compbiomed.2026.111822",
+      "source": "PubMed — Computers in biology and medicine",
+      "one_liner": "Biological systems operate as self-organizing information networks in which genetic, epigenetic, and regulatory interactions collectively determine functional outcomes. Autism encompasses a heterogeneous set of neurodevelopmental conditions, including syndromic and idiopathic subtypes. Despite extensive gene discovery efforts, how these autism subtypes di...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Reprogramming pain signaling through photopharmacology.",
+      "url": "https://doi.org/10.1016/j.tips.2026.07.005",
+      "source": "PubMed — Trends in pharmacological sciences",
+      "one_liner": "Pain remains a major clinical challenge because current analgesics lack spatiotemporal precision and frequently induce systemic adverse effects, tolerance, and dependence. Recent advances in photopharmacology have enabled reversible optical control of ion channels, G protein-coupled receptors, and neural circuits involved in nociceptive processing, provid...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Plasma proteins and irritable bowel syndrome: A proteome-wide Mendelian randomization study.",
+      "url": "https://doi.org/10.1097/MD.0000000000050229",
+      "source": "PubMed — Medicine",
+      "one_liner": "Irritable bowel syndrome (IBS) is a complex disorder with unclear etiology and underlying mechanisms. This research aimed to identify possible plasma proteins linked to IBS using a proteome-wide Mendelian randomization (MR) analysis. We performed a bidirectional two-sample MR analysis to investigate the causal relationship between 4907 plasma proteins and...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predictive analytics for supply chain resilience in urban infrastructure networks using graph convolutional networks.",
+      "url": "https://doi.org/10.1371/journal.pone.0345444",
+      "source": "PubMed — PloS one",
+      "one_liner": "Urban infrastructure networks underpin modern supply chain operations, yet their vulnerability to disruptions poses significant challenges to urban resilience; understanding and predicting such disruptions requires analytical frameworks that jointly leverage network topology and flow dynamics. This study proposes a three-stage framework integrating comple...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The impact of silicone oil on the formation of free fatty acids particles.",
+      "url": "https://doi.org/10.1016/j.xphs.2026.104465",
+      "source": "PubMed — Journal of pharmaceutical sciences",
+      "one_liner": "Silicone oil is a ubiquitous presence throughout the life cycle of biopharmaceutical products, originating from manufacturing processes and primary packaging like pre-filled syringes. While its role in protein aggregation is well-studied, its impact on degradants like free fatty acids (FFAs) remains poorly understood. The only prior study on this topic co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hepatocyte necroptosis triggers macrophage NOD-like receptor family pyrin domain-containing 3 inflammasome activation in N, N-dimethylformamide-induced liver injury.",
+      "url": "https://doi.org/10.1016/j.tox.2026.154568",
+      "source": "PubMed — Toxicology",
+      "one_liner": "N,N-dimethylformamide is a widely used industrial solvent and a well-recognized occupational hepatotoxicant, which can induce multiple forms of hepatocyte death. However, whether necroptosis, a receptor-interacting protein kinase (RIPK)-dependent programmed necrotic cell death, is the predominant form in N,N-dimethylformamide-induced hepatotoxicity remain...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Extracellular CIRP Dysregulates Microglial Efferocytosis in Acute Ischemic Stroke via the TLR4/miR-155/MafB Axis.",
+      "url": "https://doi.org/10.1002/advs.77053",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Efferocytosis, the phagocytic clearance of dying cells, by microglia is crucial for limiting neuroinflammation and promoting resolution in ischemic stroke. Extracellular cold-inducible RNA-binding protein (eCIRP) is an inflammatory mediator that impairs macrophage bacterial phagocytosis in sepsis and radiation injury, but its role in microglial efferocyto...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A fully inductive inference protocol for population GNNs in single-subject brain disorder diagnosis.",
+      "url": "https://doi.org/10.1016/j.compbiomed.2026.111819",
+      "source": "PubMed — Computers in biology and medicine",
+      "one_liner": "Population graph-based Graph Neural Networks (GNNs) have demonstrated superior performance in brain disease diagnosis by modeling inter-subject relationships. However, most existing approaches rely on a transductive setting that achieves high performance on known subjects but suffers from significant performance degradation when applied to unseen subjects...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TOLLIP suppresses picornavirus internalization by targeting and degrading VP1 protein through selective autophagy.",
+      "url": "https://doi.org/10.1080/15548627.2026.2715275",
+      "source": "PubMed — Autophagy",
+      "one_liner": "Foot-and-mouth disease virus (FMDV) represents a major threat to global livestock production. The capsid protein VP1 is crucial for infection; however, the host factors and mechanisms responsible for VP1 restriction remain poorly understood. We previously identified the host chaperone DNAJA3 as a host restriction factor that inhibits FMDV infection by pro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beyond the full-length toxin: The metalloprotease domain of Pictolysin-III retains key functional properties and cellular activity.",
+      "url": "https://doi.org/10.1016/j.biopha.2026.119854",
+      "source": "PubMed — Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+      "one_liner": "Snake venom metalloproteinases are major determinants of viperid venom pathology, but the specific contribution of their metalloprotease domain to toxin function remains insufficiently defined. Here, we produced and characterized the metalloprotease domain of Pictolysin-III, a P-III metalloproteinase from Bothrops pictus, using two heterologous expression...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
