@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    158.3,
+    360.74,
+    542.0,
+    677.53,
+    841.06,
+    1056.91,
+    1277.49,
+    1447.94,
+    1652.99,
+    1902.25
+  ],
+  "items": [
+    {
+      "title": "Cryo-EM of a nucleotide-polymerizing ribozyme enables its predictive improvement",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744467",
+      "source": "Rhiju Das (bioRxiv)",
+      "one_liner": "Ribozymes capable of self-replication from nucleotides would have been central to the hypothesized RNA World. The leading laboratory models for such molecules were converted from a class I ligase by in vitro evolution but then developed without 3D structures. Here, scaffolded cryo-EM of the substrate-free tC19Z RNA polymerase ribozyme at 3.1 [A] resolution shows how this conversion was achieved. A",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "author"
+      ]
+    },
+    {
+      "title": "Quantum-Enhanced Transfer Learning for IDR Binding Partner Prediction.",
+      "url": "https://doi.org/10.1109/TCBBIO.2026.3724278",
+      "source": "PubMed — IEEE transactions on computational biology and bioinformatics",
+      "one_liner": "Intrinsically Disordered Regions (IDRs) play essential roles in cellular processes through interactions with proteins, nucleic acids, lipids, and metal ions, yet predicting their binding partners remains challenging for understanding protein function and drug discovery. However, current computational methods including protein language models face performa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational navigation of constrained multidimensional protein fitness landscapes.",
+      "url": "https://doi.org/10.1002/1873-3468.70442",
+      "source": "PubMed — FEBS letters",
+      "one_liner": "Protein engineering relies heavily on computational characterization of constrained protein fitness landscapes, in which only a limited fraction of sequence space corresponds to stable and functional biomolecules. Advances in structural biology and machine learning are progressively shifting protein design strategies from empirical optimization toward mul...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A public generalizable AI tool for automated segmentation of coronal brain tissue slabs for 3D neuropathology.",
+      "url": "https://doi.org/10.1371/journal.pone.0355740",
+      "source": "PubMed — PloS one",
+      "one_liner": "Advances in image registration and machine learning have recently enabled volumetric analysis of postmortem brain tissue from conventional photographs of coronal slabs, which are routinely collected in brain banks and neuropathology laboratories around the world. One caveat of this methodology is the requirement of segmentation of the tissue from the back...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure- and deep learning-guided engineering of a size-minimized CRISPR/Cas.",
+      "url": "https://doi.org/10.1111/febs.70707",
+      "source": "PubMed — The FEBS journal",
+      "one_liner": "Multidomain proteins play central roles in cellular regulation, yet their intrinsic flexibility and structural instability often hinder optimization for biotechnological applications. Here, we present an integrated structure-guided and deep learning-assisted engineering strategy that combines structure modeling with Protein Message Passing Neural Network ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "READ: A Retrieval-Alignment Diffusion Framework for Structure-based Drug Design",
+      "url": "https://arxiv.org/abs/2506.14488",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2506.14488v2 Announce Type: replace \nAbstract: Structure-based drug design (SBDD) models are central to modern pharmaceutical research, enabling the rational exploration of protein-ligand interactions at atomic resolution. However, most existing approaches frame molecular generation as an isolated optimization or a one-to-one matching task, overlook...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "AI-designed prion-capping proteins provide evidence that prion fibril ends are replication-competent surfaces that contribute to prion seeding activity and infectivity.",
+      "url": "https://doi.org/10.1128/mbio.00831-26",
+      "source": "PubMed — mBio",
+      "one_liner": "UNLABELLED: End-elongation of amyloid fibrils is a prevailing theory to explain prion replication, but direct experimental evidence for this phenomenon is limited by the lack of research tools. To serve as molecular probes for prion fibril termini, here, we designed protein binders against high-resolution structures of infectious prion fibrils using a dif...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural rearrangements of PDGFRβ in the membrane upon activation by the viral oncoprotein E5.",
+      "url": "https://doi.org/10.1073/pnas.2603552123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "The transmembrane protein E5 from bovine papillomavirus is the shortest naturally occurring oncoprotein. As a dimer, it activates the platelet-derived growth factor receptor β (PDGFRβ) in a ligand-independent manner by specific helix-helix interactions within the lipid bilayer. For both proteins, we determined the detailed orientations of their transmembr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Quantitative Modeling of TLR Signaling Reveals Missing Negative Feedback Guiding Identification of TANK-IKKε Checkpoint",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742528",
+      "source": "bioRxiv — systems biology",
+      "one_liner": "Toll-like receptor (TLR) signaling must be activated rapidly and then terminated to support host defense without sustained inflammation. We developed a rule-based model of mouse macrophage TLR4 signaling at the molecular-interaction level using measured protein copy numbers, RNA-seq-based abundance estimates, literature- and structure-informed reaction ra...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Peptide-Functionalized Gold Nanoparticles Targeting PD-L1: Design via a Molecular Dynamic Driven Approach and Further Experimental Validation.",
+      "url": "https://doi.org/10.1021/acsabm.6c01076",
+      "source": "PubMed — ACS applied bio materials",
+      "one_liner": "The development of theranostic tools for the early detection and localization of tumors represents a major challenge in oncology. Among emerging strategies, the targeting of Programmed Death Ligand-1 (PD-L1), a key immune checkpoint protein overexpressed in many tumor types, has gained significant attention. In this work, we report design and development ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural Insights and Inhibitor Discovery for Kyasanur Forest Disease Virus NS5 Methyltransferase",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744817",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Kyasanur Forest Disease Virus (KFDV) NS5 methyltransferase (MTase) protein is the essential enzyme that involve in the cap methylation of viral RNA, viral replication and immune evasion, and therefore it's an important protein of interest for antiviral research and drug design. In the present work, we successfully resolved the three-dimensional crystal st...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Precisely Engineering Biomimetic Nanoparticles via Controlled Cell Membrane Coating.",
+      "url": "https://doi.org/10.1002/smll.75272",
+      "source": "PubMed — Small (Weinheim an der Bergstrasse, Germany)",
+      "one_liner": "Cell membrane-coated nanoparticles (CMNPs) represent an advanced class of biomimetic nanomaterials that integrate the functional complexity of natural cell membranes with the tunable properties of synthetic nanoparticle cores. By inheriting native membrane proteins, lipids, and glycans, CMNPs exhibit attractive properties such as enhanced immune evasion, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HI-JEPA: A World Model of Molecular Organization Learned from Measured Proximity",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744901",
+      "source": "bioRxiv — systems biology",
+      "one_liner": "Proteins act through the company they keep. Which molecules occupy the same nanoscale neighborhood in intact tissue determines what can physically interact, and disease rearranges those neighborhoods before it changes anything a sequence records. That quantity (measured proximity between molecular species in unperturbed tissue) has never been acquired bro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "VIA1 is a conserved regulator of thylakoid membrane integrity that acts through VIPP1.",
+      "url": "https://doi.org/10.1073/pnas.2605816123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Thylakoid membranes are indispensable for oxygenic photosynthesis, yet the mechanisms that protect these membranes from photooxidative damage remain poorly understood. By screening poorly characterized proteins induced during the chloroplast unfolded protein response, we identify VIA1 as an essential factor for preserving thylakoid integrity under high li...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Epidemiological characteristics and structural-functional implications of spike protein variations in a bovine coronavirus isolate from diarrheic calves.",
+      "url": "https://doi.org/10.1080/21505594.2026.2712736",
+      "source": "PubMed — Virulence",
+      "one_liner": "Bovine coronavirus (BCoV) is an important pathogen associated with enteric disease in calves, contributing to significant economic losses worldwide. To provide an updated overview of BCoV epidemiology, we conducted a systematic review and meta-analysis of studies published up to October 2025. Seventy-two eligible studies comprising 29,045 samples from nin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Production of membrane-embedded Bcl-2 proteins - Use of cell-free synthesis in continuous exchange for co-translational insertion of Bcl-2 proteins in lipid bilayer nanodiscs.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.15.745005",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "The BCL-2 family proteins are key regulators of apoptosis, functionally divided in pro- and anti-apoptotic proteins, with a third group acting as regulators. Their ability to partition between the cytosol and intra-cellular membranes (essentially the mitochondrial outer membrane) is a primary regulator of their functions. A second contributor is their abi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Two dipeptide repeat proteins are produced from mammalian telomeric RNA previously thought to be a long non-coding RNA.",
+      "url": "https://doi.org/10.1080/15476286.2026.2705075",
+      "source": "PubMed — RNA biology",
+      "one_liner": "Studies of neurological diseases caused by the expansion of nucleotide repeats led to the discovery that RNA can undergo translation by ribosomes in the absence of canonical AUG start signals, a process termed repeat-associated non-ATG translation (RAN). This discovery suggested that RNA transcribed from mammalian telomeres, termed TERRA, could generate R...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Expanding indications of immune checkpoint inhibitors: a decade of success going strong.",
+      "url": "https://doi.org/10.1080/14712598.2026.2719890",
+      "source": "PubMed — Expert opinion on biological therapy",
+      "one_liner": "INTRODUCTION: Immune checkpoint inhibitors (ICIs) have transformed oncology by targeting cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) and programmed cell death protein 1/programmed death-ligand 1 (PD-1/PD-L1), thereby enabling responses across multiple malignancies. Despite these advances, benefits remain limited in many cancers. AREAS COVERED: A ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Process Bigraphs and the Architecture of Compositional Systems Biology",
+      "url": "https://arxiv.org/abs/2512.23754",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2512.23754v2 Announce Type: replace \nAbstract: Building multiscale biological models requires the integration of independently developed submodels, which means moving shared variables between them and coordinating when each submodel runs. Existing tools typically address isolated biological mechanisms with specific numerical methods, rarely specify ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "SPEAR: Structure Property Explainability with Attention Regularization",
+      "url": "https://arxiv.org/abs/2608.13826",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.13826v1 Announce Type: cross \nAbstract: Machine learning is increasingly used to learn structure property relationships from spectroscopic and diffraction data, yet its adoption in materials discovery is often limited by poor interpretability of model predictions. Although attention mechanisms are frequently treated as inherently explainable, u...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

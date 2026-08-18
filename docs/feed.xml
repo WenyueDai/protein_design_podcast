@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 03:22:43 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 03:38:20 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-08-18</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-18/podcast_2026-08-18.mp3</guid>
+      <pubDate>Tue, 18 Aug 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-18/podcast_2026-08-18.mp3" length="16265229" type="audio/mpeg" />
+      <description>The episode opens with a structural breakthrough that turns a long‑standing hypothesis into a tangible design principle. | Moving from structured RNAs to the floppy regions that dominate many signaling proteins, a new paper introduces a quantum‑enhanced transfer learning framework for predicting the partners of intrinsically disordered regions. | The next contribution tackles the combinatorial explosion that plagues protein engineering: a computational method for navigating constrained multidimensional fitness landscapes.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The episode opens with a structural breakthrough that turns a long‑standing hypothesis into a tangible design principle. | Moving from structured RNAs to the floppy regions that dominate many signaling proteins, a new paper introduces a quantum‑enhanced transfer learning framework for predicting the partners of intrinsically disordered regions. | The next contribution tackles the combinatorial explosion that plagues protein engineering: a computational method for navigating constrained multidimensional fitness landscapes.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-08-17</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-17/podcast_2026-08-17.mp3</guid>
       <pubDate>Mon, 17 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-17/podcast_2026-08-17.mp3" length="20334357" type="audio/mpeg" />
-      <description>Today’s papers collectively shift how we think about moving from design to manufacturable biologics, about screening emergent functions in cell‑free systems, about imaging‑based quality control, about AI‑assisted surgical planning, and about the hidden dynamics of drug targets. | Thinking about the hydroxyapatite chromatography work on disassembled capsid proteins, I wonder if we could push that purification principle further by coupling it directly to in‑line assembly of virus‑like particles. | Moving to the PUREdrop microfluidic platform, its ability to compartmentalize cell‑free expression in ~20 µl droplets made me think about screening for proteins that need a lipid environment to function, like membrane‑associated enzymes.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-17/podcast_2026-08-17.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today’s papers collectively shift how we think about moving from design to manufacturable biologics, about screening emergent functions in cell‑free systems, about imaging‑based quality control, about AI‑assisted surgical planning, and about the hidden dynamics of drug targets. | Thinking about the hydroxyapatite chromatography work on disassembled capsid proteins, I wonder if we could push that purification principle further by coupling it directly to in‑line assembly of virus‑like particles. | Moving to the PUREdrop microfluidic platform, its ability to compartmentalize cell‑free expression in ~20 µl droplets made me think about screening for proteins that need a lipid environment to function, like membrane‑associated enzymes.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-17/podcast_2026-06-17.mp3</guid>
       <pubDate>Wed, 17 Jun 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-17/podcast_2026-06-17.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-06-16</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-16/podcast_2026-06-16.mp3</guid>
-      <pubDate>Tue, 16 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-16/podcast_2026-06-16.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
