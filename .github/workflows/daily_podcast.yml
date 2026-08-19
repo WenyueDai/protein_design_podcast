@@ -40,6 +40,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Install ffmpeg
+        timeout-minutes: 5
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Run daily pipeline
