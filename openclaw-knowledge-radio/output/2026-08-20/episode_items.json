@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    166.15,
+    353.63,
+    597.68,
+    833.19,
+    1146.53,
+    1342.15,
+    1523.83,
+    1679.15,
+    1858.07,
+    2174.6
+  ],
+  "items": [
+    {
+      "title": "Overcoming Antagonistic epistasis in DAAO Engineering via Mechanism-Guided Multidimensional Feature Analysis.",
+      "url": "https://doi.org/10.1021/acs.jafc.6c03008",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "Antagonistic epistasis often limits enzyme engineering by causing activity loss when beneficial mutations are combined. Here, we present a mechanism-guided multidimensional feature analysis (MDFA) strategy integrating rational design, structural partitioning, machine learning, and computational simulations to optimize D-amino acid oxidase (DAAO) for D-pho...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Toward understanding the drivers of antibody-antigen binding.",
+      "url": "https://doi.org/10.1016/j.bpj.2026.02.008",
+      "source": "PubMed — Biophysical journal",
+      "one_liner": "Antibody therapeutics are capable of binding to target antigens with a high degree of specificity and affinity. Gaining an understanding of how antibody-antigen interactions are governed can provide valuable insights that may assist with rational paratope design and epitope prediction. In this work, we apply the FTMap algorithm to systematically character...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning prediction model for the sewing thread consumption.",
+      "url": "https://doi.org/10.1371/journal.pone.0356367",
+      "source": "PubMed — PloS one",
+      "one_liner": "This study aims to provide rapid and precise methods for industrial users to predict the amount of sewing thread required to sew garments using different stitches of class 600. To avoid unused stocks, sewing consumption for each stitch was computed using the Extra Trees machine learning method. Multiple machine learning models including Extra Trees, Suppo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of High-Affinity Monoclonal Antibodies for Aflatoxin M1 Detection in Milk.",
+      "url": "https://doi.org/10.1021/acs.jafc.6c07668",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "Aflatoxin M1 (AFM1) in milk poses significant health risks due to its carcinogenicity and resistance to thermal processing. Here, we applied a computer-aided hapten design strategy integrating density functional theory, molecular docking, and molecular dynamics simulations to engineer four AFM1 haptens with tailored spacer arms (C2, C4, C6, and phenyl). A...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Empirical mode decomposition and interpretable machine learning for preterm birth classification from electrohysterography",
+      "url": "https://arxiv.org/abs/2608.17643",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.17643v1 Announce Type: cross \nAbstract: Preterm birth (PTB) remains a major global health problem, and reliable non-invasive risk assessment remains difficult. Electrohysterography (EHG) records uterine electrical activity from the maternal abdomen and may support PTB assessment, but performance can be inflated when segments from the same recor...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Mimic antibodies: leveraging ligand mimicry for epitope-targeted antibody discovery.",
+      "url": "https://doi.org/10.1080/19420862.2026.2719289",
+      "source": "PubMed — mAbs",
+      "one_liner": "Antibodies are renowned for their ability to bind diverse targets with high affinity and specificity, yet identifying binders with predefined epitope specificity remains a major challenge. In this study, we investigate the concept of mimic antibodies-antibodies that recapitulate the binding mode of a target's cognate ligand. Through a systematic analysis ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evaluating LLM Accuracy in Predicting Peruvian Meal Nutrition.",
+      "url": "https://doi.org/10.1016/j.tjnut.2026.101786",
+      "source": "PubMed — The Journal of nutrition",
+      "one_liner": "BACKGROUND: Artificial intelligence applications have been developed to predict the nutrient content of meals. However, none have been evaluated in the context of Peruvian cuisine, characterized by diverse ingredients and recipes. We assessed whether large language models (LLMs) could predict the nutritional content of Peruvian meals. METHODS: Using a dat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The role of artificial intelligence in developing meal plans in outpatient dietetics: A feasibility and proof of concept study.",
+      "url": "https://doi.org/10.1002/ncp.70169",
+      "source": "PubMed — Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition",
+      "one_liner": "BACKGROUND: Personalized meal planning by registered dietitian nutritionists (RDNs) is time-intensive. Large language models (LLMs) may automate drafting meal plans, but their nutritional accuracy in clinical practice is uncertain. METHODS: In this proof-of-concept study, five outpatient RDNs and four LLMs (Gemini, CoPilot, ChatGPT 4.0, and customized Cha...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "From life history to proteome via mutagenesis: an ecological footprint in genome evolution",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744874",
+      "source": "bioRxiv — evolutionary biology",
+      "one_liner": "Species differ in longevity, physiology, and social organization, and these properties expose them to distinct endogenous and environmental mutagens. Mutational spectra generated by these processes can shape downstream molecular evolution, influencing synonymous nucleotide composition, codon usage, and even amino acid composition. Tracing this signal from...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "EquiPocket: an E(3)-Equivariant Geometric Graph Neural Network for Ligand Binding Site Prediction",
+      "url": "https://arxiv.org/abs/2302.12177",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2302.12177v5 Announce Type: replace \nAbstract: Predicting the binding sites of target proteins plays a fundamental role in drug discovery. Most existing deep-learning methods consider a protein as a 3D image by spatially clustering its atoms into voxels and then feed the voxelized protein into a 3D CNN for prediction. However, the CNN-based methods ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Supervised Learning of Phosphopeptide Sequence Constraints Enables Global Prediction of SH2 Domain Binding",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.744962",
+      "source": "bioRxiv — systems biology",
+      "one_liner": "Tyrosine kinase signaling for cell development and homeostasis in multicelluar organisms and a major biochemical contribution is by driving interactions between phosphorylated tyrosines (pY) and SH2 domain containing proteins. This assembly is so important to driving cell outcomes that a wide variety of experimental and computational approaches have been ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "DeltaGNN: Graph Neural Network With Information Flow Control.",
+      "url": "https://doi.org/10.1109/TPAMI.2026.3725398",
+      "source": "PubMed — IEEE transactions on pattern analysis and machine intelligence",
+      "one_liner": "Graph Neural Networks (GNNs) are popular deep learning models designed to process graph-structured data through recursive neighborhood aggregations in the message passing process. When applied to semi-supervised node classification, the message-passing enables GNNs to understand short-range spatial interactions, but also causes them to suffer from over-sm...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Allosteric prediction via convolutional neural networks and protein structural and dynamical features.",
+      "url": "https://doi.org/10.1016/j.bpj.2025.12.011",
+      "source": "PubMed — Biophysical journal",
+      "one_liner": "Allostery is the phenomenon whereby a binding event or covalent modification at one site in a protein modulates function at a distal site, thus changing a protein's functional state. As such, it is a ubiquitous aspect of protein functional regulation. Computationally predicting allosteric states is important as part of the broader challenge of functional ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Modality-chain reasoning enables multimodal protein modelling and design",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.21.665832",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Reasoning has emerged as a central capability of large language models, yet how it should be formulated for scientific foundation models remains unclear because scientific knowledge is distributed across interdependent, domain-specific representations. Here we introduce modality-chain reasoning, which organizes representations into ordered computational c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Graph-theoretic active learning for the closed-loop discovery of stochastic heterogeneous composites.",
+      "url": "https://doi.org/10.1371/journal.pone.0353692",
+      "source": "PubMed — PloS one",
+      "one_liner": "The inverse design of resilient infrastructure materials is hindered by the combinatorial complexity inherent in optimizing stochastic, heterogeneous microstructures. Traditional Euclidean deep learning architectures, such as Convolutional Neural Networks (CNNs), fail to efficiently encode the sparse, non-local topology of disordered porous media, resulti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cells as Single-Molecule Protein Proximity Networks",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.06.19.660329",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Cellular functions depend on dynamic interactions of proteins and their spatial organisation. While transcriptomic and proteomic methods of molecular parts-lists have enabled single-cell profiling based on abundance, scalable technologies allowing high-resolution measurements of protein organization and interactions at scale are lacking. Here we present t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Readout of intrinsic and induced DNA shape by homeodomain transcription factor complexes.",
+      "url": "https://doi.org/10.1016/j.bpj.2026.03.036",
+      "source": "PubMed — Biophysical journal",
+      "one_liner": "Homeodomain transcription factors (TFs) recognize their DNA targets through both sequence-specific base contacts and readout of local DNA shape. Although intrinsic DNA structure is encoded by nucleotide sequence, it also undergoes protein-induced structural deformation upon binding. Yet, the interplay between intrinsic and protein-induced DNA shape remain...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CA-GCN: A Causality-Aware Graph Coupling Network for Multimodal Learning of Brain Connectivity.",
+      "url": "https://doi.org/10.1109/TCBBIO.2026.3725309",
+      "source": "PubMed — IEEE transactions on computational biology and bioinformatics",
+      "one_liner": "Understanding the coupling relationship between structural connectivity (SC) and functional connectivity (FC) is essential for advancing our knowledge of individual brain function and organization. Recent deep learning techniques, particularly graph neural networks (GNNs), have shown strong potential in modeling SC-FC coupling relationships. However, exis...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Nonlocal Transition Kernel for Efficient Learning of Restricted Boltzmann Machines",
+      "url": "https://arxiv.org/abs/2608.17450",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.17450v1 Announce Type: cross \nAbstract: Learning restricted Boltzmann machines (RBMs) is computationally challenging because it requires expectations whose exact evaluation is generally intractable. The expectations are typically evaluated using a sampling approximation based on blocked Gibbs sampling (BGS), which is a local Markov chain Monte ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Evaluating and improving crop-yield forecasting methods during extreme drought",
+      "url": "https://arxiv.org/abs/2608.17971",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.17971v1 Announce Type: new \nAbstract: The impact of climate variability on food production has led to the creation of various forecasting models that uses machine learning (ML), numerical weather predictors (NWP) or a hybrid of ML-NWP models to identify structural and physical relationships between meteorological drivers and crop growth, in ord...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
