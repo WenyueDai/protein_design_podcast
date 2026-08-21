@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    168.48,
+    344.87,
+    550.14,
+    619.11,
+    887.93,
+    1183.34,
+    1361.68,
+    1556.06,
+    1801.04,
+    2054.74
+  ],
+  "items": [
+    {
+      "title": "AlphaFold 3 prediction of TCR mimic Fv - pMHC complex structures and their validation and optimization.",
+      "url": "https://doi.org/10.1080/19420862.2026.2719263",
+      "source": "PubMed — mAbs",
+      "one_liner": "Monoclonal antibody-derived chimeric antigen receptors (CAR) that mimic T‑cell receptors (TCR) on binding to peptide-major histocompatibility complex (pMHC) and activating T‑cell functions hold great promise for the development of effective immunotherapy. This study applied AlphaFold 3 (AF3) to model the quaternary structures of TCR mimic antibody variabl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "BoltzOmics: Predicting genetic variant effects on drug binding with Boltz-2.",
+      "url": "https://doi.org/10.1016/j.isci.2026.116797",
+      "source": "PubMed — iScience",
+      "one_liner": "A mechanistic understanding of how genetic variants alter drug-receptor binding is central to precision medicine, drug response prediction, and drug development. Yet, experimental mutation-drug profiling remains slow and expensive, while existing computational approaches often trade accuracy for scalability. We developed BoltzOmics, an interactive, open-s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HCGT-PL: a heterogeneous contrastive graph transformer unifying protein-ligand affinity prediction and structure-based virtual screening.",
+      "url": "https://doi.org/10.1039/d5sc09548d",
+      "source": "PubMed — Chemical science",
+      "one_liner": "Structure-based virtual screening and binding affinity prediction remain challenging due to solvation/entropy effects, protein flexibility, and induced fit. We present a Heterogeneous Contrastive Graph Transformer for Protein-Ligand (HCGT-PL) framework. Each complex is represented as a directed heterogeneous graph with multiple node and relation types; re...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CLDN18.2 antibody design with protein language models: A deep learning optimization framework.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014499",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "CLDN18.2 is a promising tumor-specific antigen; however, the development of therapeutic antibodies against it is challenged by the need for simultaneous optimization of affinity and developability. To address this, we present cdrGPT, a deep learning framework based on GPT-2 for de novo generation of complementarity-determining region H3 (CDRH3) sequences....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PyMOL plugin for Protein Circuit Topology",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.21.683762",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Circuit Topology (CT) provides a fundamental framework for analysing folded polymer chains, with applications in functional annotation, protein engineering and drug development. We present a protein CT analysis plugin for PyMOL v3.1.6.1 with a graphical user interface (GUI), automatic installation, and novel features developed through integration with PyM...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A systematic evaluation framework for universal antibody-antigen binding affinity prediction and candidate recommendation.",
+      "url": "https://doi.org/10.1016/j.isci.2026.116522",
+      "source": "PubMed — iScience",
+      "one_liner": "Predicting antigen-antibody binding is essential to drug discovery and protein engineering. For",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multitask Bayesian Neural Networks for Multiparameter Protein Engineering",
+      "url": "https://arxiv.org/abs/2608.18604",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2608.18604v1 Announce Type: new \nAbstract: Simultaneously engineering multiple protein properties remains a major challenge. Existing machine learning-based pipelines for protein engineering often model properties separately, failing to capture their dependencies and trade-offs. Here, we systematically evaluate how Bayesian parameterization on Multi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Semantic knowledge improves molecular machine learning for chemical toxicity prediction.",
+      "url": "https://doi.org/10.1016/j.isci.2026.116937",
+      "source": "PubMed — iScience",
+      "one_liner": "Quantitative structure-activity relationship (QSAR) modeling predicts chemical activity from structural and physico-chemical molecular properties. Beyond molecular structure, a growing body of semantic knowledge-often represented as knowledge graphs, in which biomedical entities are linked by interpretable relations reflecting scientific evidence-can info...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A blinded, prospective benchmark of in silico antibody discovery anchored to experimental affinity and developability.",
+      "url": "https://doi.org/10.1038/s41587-026-03238-6",
+      "source": "PubMed — Nature biotechnology",
+      "one_liner": "Experimentally validated prospective, blinded benchmarks are needed to separate durable advances from hype in computational antibody design. Here AIntibody, a challenge inspired by the Critical Assessment of Structure Prediction, tests 511 artificial intelligence (AI)-designed or predicted antibodies from 29 organizations on three tasks: in silico affinit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GenEx: A Graph-Based Representational Paradigm for SARS-CoV-2 Variant Detection via Codon Co-occurrence Networks",
+      "url": "https://arxiv.org/abs/2608.18238",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.18238v1 Announce Type: cross \nAbstract: Genomic analysis on viruses such as SARS-CoV-2 variants: Beta, Gamma, Delta, and Omicron is heavily dominated by classical bioinformatics methods, including Sequence Alignment, Phylogenetic Analysis, and Mutation Frequency Statistics. These approaches use pairwise codon or nucleotide distance matrices to ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A generalizability analysis framework for bias resilience in convolution neural network and transformer models for diabetic retinopathy screening.",
+      "url": "https://doi.org/10.1371/journal.pone.0351225",
+      "source": "PubMed — PloS one",
+      "one_liner": "Automated diabetic retinopathy (DR) screening has seen extensive research progress, yet its clinical adoption remains limited, largely due to insufficient attention to model generalizability across diverse populations and imaging conditions. Existing studies often overlook the role of dataset biases, arising from demographic, acquisition, and preprocessin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep learning for nanoscience scanning electron microscope image classification.",
+      "url": "https://doi.org/10.1038/s41598-026-63864-7",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Materials science investigates the relationships between a material's structure, properties, and fabrication processes. Recently, artificial intelligence (AI) and deep learning (DL) techniques have significantly enhanced the ability to analyze complex visual data, particularly in scanning electron microscopy (SEM) images. These approaches enable the detec...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Streamlining analysis and design of two-dimensional electronic spectroscopy using machine learning.",
+      "url": "https://doi.org/10.1063/5.0348486",
+      "source": "PubMed — The Journal of chemical physics",
+      "one_liner": "Two-dimensional electronic spectroscopy (2DES) offers unique insights into the coupling between electronic and nuclear motion and dynamics, making it a key technique in diverse fields, including materials science and biology. Obtaining 2DES data requires a series of measurements that involve multiple pulses to construct the full picture-a time-consuming t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multisite Threonine Phosphorylation in the SPT5 C-Terminal Region 1 Enables Sequence-Dependent Regulation without Global Structural Remodeling.",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c03886",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "Phosphorylation of intrinsically disordered regions (IDRs) is widely viewed as a mechanism for encoding regulatory information through structural transitions, as exemplified by the RNA polymerase II C-terminal domain (CTD), where phosphorylation induces local conformational changes such as proline isomerization. However, whether this paradigm extends to o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-assisted endoscopic detection of Helicobacter pylori infection in atrophic gastritis: a multicenter diagnostic study.",
+      "url": "https://doi.org/10.1007/s00464-026-13064-1",
+      "source": "PubMed — Surgical endoscopy",
+      "one_liner": "BACKGROUND: Convolutional neural network (CNN)-based artificial intelligence systems have demonstrated promise in detecting Helicobacter pylori (Hp) infection in patients with preserved gastric mucosa; however, their performance in atrophic gastritis (AG), a precancerous condition with complex mucosal changes that can obscure typical endoscopic features, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Biallelic loss of RB1 in hepatocellular carcinoma as synthetic lethal target for artificial intelligence-guided therapy.",
+      "url": "https://doi.org/10.1038/s41392-026-02815-0",
+      "source": "PubMed — Signal transduction and targeted therapy",
+      "one_liner": "The retinoblastoma (RB1) gene is a critical tumor suppressor that regulates cell cycle progression and genomic stability. Although RB1 alterations have been reported in hepatocellular carcinoma (HCC), the biological and clinical consequences of biallelic RB1 inactivation (RB1-Bi) remain poorly defined. We performed a comprehensive allele-specific genomic ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HFGuidedDesign:",
+      "url": "https://doi.org/10.1039/d6sc02631a",
+      "source": "PubMed — Chemical science",
+      "one_liner": "Cyclic peptides are promising scaffolds for targeting protein surfaces due to their unique structural and functional advantages. However, the limited availability of cyclic peptide-protein complex structures severely restricts the design of target-specific cyclic peptides. Here, we introduce HFGuidedDesign, a",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Emergence of neutralizing RBD antibodies following Omicron infection with limited activity against ancestral SARS-CoV-2.",
+      "url": "https://doi.org/10.1016/j.isci.2026.117166",
+      "source": "PubMed — iScience",
+      "one_liner": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) evolution reduces the efficacy of prophylactic vaccines and monoclonal antibody (mAb) therapies. To evaluate potency and breadth, receptor binding domain (RBD)-targeting neutralizing mAbs were identified from patient B cells using an Omicron KP3.1.1 Spike (S) protein bait. MAbs exhibiting the gr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Off-Manifold Collapse in Guided Protein Language Models",
+      "url": "https://arxiv.org/abs/2608.18597",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.18597v1 Announce Type: new \nAbstract: Protein language models are widely used priors for protein sequence design, and a growing body of work controls them at inference time as an alternative to fine-tuning. Such guidance faces a dilemma: mild enough to preserve natural activation statistics, it barely moves the property; strong enough to move i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Structured Latent Space Modeling over Multi-Scale Temporal Patches for Multivariate Time Series Forecasting",
+      "url": "https://arxiv.org/abs/2607.19404",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2607.19404v2 Announce Type: replace \nAbstract: Existing patching and multi-scale methods advance multivariate time series forecasting but treat learned representations as transient byproducts of prediction, lacking explicit mechanisms that enforce structural consistency across temporal scales. We propose M2Patch, a CNN-based architecture that organi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

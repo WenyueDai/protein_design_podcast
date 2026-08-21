@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 03:14:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 03:29:38 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-08-21</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-21/podcast_2026-08-21.mp3</guid>
+      <pubDate>Fri, 21 Aug 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-21/podcast_2026-08-21.mp3" length="17873349" type="audio/mpeg" />
+      <description>The field is moving from treating structure prediction as a static end‑point to using those models as active design engines, and today’s papers show how that shift is already reshaping antibody and drug discovery workflows. | At the same time, the BoltzOmics effort shows that predicting how a genetic variant perturbs drug binding no longer requires a fresh free‑energy calculation for every mutation; by wrapping Boltz‑2 in an interactive framework they can scan dozens of clinically relevant alleles in minutes, turning what used to be a weeks‑long mutagenesis campaign into a rapid computational screen that flags variants likely to cause resistance or toxicity before a single assay is run. | The HCGT‑PL work pushes this idea further for small‑molecule discovery: instead of training separate models for affinity prediction and virtual screening, a single heterogeneous contrastive graph transformer learns to distinguish binders from decoys while simultaneously regressing on Kd values, and because the graph explicitly encodes solvation, entropy and induced‑fit terms, it captures effects that older fingerprint‑based methods routinely miss, giving medicinal chemists a more reliable ranking of compounds straight from the protein structure.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field is moving from treating structure prediction as a static end‑point to using those models as active design engines, and today’s papers show how that shift is already reshaping antibody and drug discovery workflows. | At the same time, the BoltzOmics effort shows that predicting how a genetic variant perturbs drug binding no longer requires a fresh free‑energy calculation for every mutation; by wrapping Boltz‑2 in an interactive framework they can scan dozens of clinically relevant alleles in minutes, turning what used to be a weeks‑long mutagenesis campaign into a rapid computational screen that flags variants likely to cause resistance or toxicity before a single assay is run. | The HCGT‑PL work pushes this idea further for small‑molecule discovery: instead of training separate models for affinity prediction and virtual screening, a single heterogeneous contrastive graph transformer learns to distinguish binders from decoys while simultaneously regressing on Kd values, and because the graph explicitly encodes solvation, entropy and induced‑fit terms, it captures effects that older fingerprint‑based methods routinely miss, giving medicinal chemists a more reliable ranking of compounds straight from the protein structure.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-08-20</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-20/podcast_2026-08-20.mp3</guid>
       <pubDate>Thu, 20 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-20/podcast_2026-08-20.mp3" length="18790197" type="audio/mpeg" />
-      <description>The papers today collectively push us toward a more mechanistic, data‑efficient way of engineering proteins and interpreting biological signals, showing that insight often comes from combining physical understanding with smart machine learning rather than relying on brute‑force screening alone. | If I were designing a project inspired by today’s papers I would start by asking how the MDFA framework that rescued DAAO from antagonistic epistasis could be transplanted onto antibody engineering the idea being that combining affinity‑matured mutations often fails because of hidden negative interactions a small test would be to take a published anti‑PD‑1 affinity map run FTMap to locate the top three energetic hot spots then use MDFA to predict the effect of all possible single and double mutants at those sites expressing the top five predicted doubles in HEK cells and measuring binding by SPR success would look like a double mutant whose observed KD is within two‑fold of the additive prediction meaning the epistatic penalty is under 0.5 kcal mol⁻¹ if more than half of the tested doubles show a greater than two‑fold loss I would pause and reconsider whether the structural partitioning step is capturing the right degrees of freedom for antibodies | Another direction is to borrow the Extra Trees regression that predicted sewing thread consumption with MAE 4.24 cm and R² 0.974 and apply it to developability scoring the hypothesis is that a handful of sequence‑derived features — charge patchiness hydrophobicity patterns and glycosylation motifs — can be fed into an Extra Trees model to predict aggregation propensity measured by OD₃₅₀ after forced stress the smallest experiment would curate 200 antibodies with published aggregation data train on 150 and test on 50 success would be an MAE below 0.05 OD units and an R² above 0.8 on the holdout set if the error stays above 0.15 OD units I would stop and look for richer structural inputs</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-20/podcast_2026-08-20.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The papers today collectively push us toward a more mechanistic, data‑efficient way of engineering proteins and interpreting biological signals, showing that insight often comes from combining physical understanding with smart machine learning rather than relying on brute‑force screening alone. | If I were designing a project inspired by today’s papers I would start by asking how the MDFA framework that rescued DAAO from antagonistic epistasis could be transplanted onto antibody engineering the idea being that combining affinity‑matured mutations often fails because of hidden negative interactions a small test would be to take a published anti‑PD‑1 affinity map run FTMap to locate the top three energetic hot spots then use MDFA to predict the effect of all possible single and double mutants at those sites expressing the top five predicted doubles in HEK cells and measuring binding by SPR success would look like a double mutant whose observed KD is within two‑fold of the additive prediction meaning the epistatic penalty is under 0.5 kcal mol⁻¹ if more than half of the tested doubles show a greater than two‑fold loss I would pause and reconsider whether the structural partitioning step is capturing the right degrees of freedom for antibodies | Another direction is to borrow the Extra Trees regression that predicted sewing thread consumption with MAE 4.24 cm and R² 0.974 and apply it to developability scoring the hypothesis is that a handful of sequence‑derived features — charge patchiness hydrophobicity patterns and glycosylation motifs — can be fed into an Extra Trees model to predict aggregation propensity measured by OD₃₅₀ after forced stress the smallest experiment would curate 200 antibodies with published aggregation data train on 150 and test on 50 success would be an MAE below 0.05 OD units and an R² above 0.8 on the holdout set if the error stays above 0.15 OD units I would stop and look for richer structural inputs</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-19/podcast_2026-06-19.mp3</guid>
       <pubDate>Fri, 19 Jun 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-19/podcast_2026-06-19.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-06-18</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-18/podcast_2026-06-18.mp3</guid>
-      <pubDate>Thu, 18 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-18/podcast_2026-06-18.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
