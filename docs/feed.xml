@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 03:29:38 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 03:12:05 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-08-22</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-22/podcast_2026-08-22.mp3</guid>
+      <pubDate>Sat, 22 Aug 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-22/podcast_2026-08-22.mp3" length="17290989" type="audio/mpeg" />
+      <description>Today’s batch of papers nudges several fields away from the idea that computational predictions or model systems can be taken at face value, and instead shows where they actually deliver concrete, usable insight when paired with the right experimental grounding. | A second shift appears in the AI‑driven minibinder work, where the pipeline that couples RFdiffusion scaffolds, ProteinMPNN side‑chain design and an AlphaFold2 pAE filter produced a 2.4 % hit rate in mammalian‑cell surface display for PD‑L1, far outperforming the sparse signals seen for CD276. | In nephrology, AlphaFold and RoseTTAFold have moved kidney proteins from “black boxes” to usable scaffolds, enabling mechanistic readings of autosomal‑dominant polycystic kidney disease, cystinosis and Alport syndrome, yet the review cautions that direct variant classification or stability predictions from these models agree only modestly with mutagenesis data, particularly for gain‑of‑function alleles, reminding designers to treat AI structures as hypotheses that need cryo‑ET, crosslinking MS or dynamics simulations for validation.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Today’s batch of papers nudges several fields away from the idea that computational predictions or model systems can be taken at face value, and instead shows where they actually deliver concrete, usable insight when paired with the right experimental grounding. | A second shift appears in the AI‑driven minibinder work, where the pipeline that couples RFdiffusion scaffolds, ProteinMPNN side‑chain design and an AlphaFold2 pAE filter produced a 2.4 % hit rate in mammalian‑cell surface display for PD‑L1, far outperforming the sparse signals seen for CD276. | In nephrology, AlphaFold and RoseTTAFold have moved kidney proteins from “black boxes” to usable scaffolds, enabling mechanistic readings of autosomal‑dominant polycystic kidney disease, cystinosis and Alport syndrome, yet the review cautions that direct variant classification or stability predictions from these models agree only modestly with mutagenesis data, particularly for gain‑of‑function alleles, reminding designers to treat AI structures as hypotheses that need cryo‑ET, crosslinking MS or dynamics simulations for validation.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-08-21</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-21/podcast_2026-08-21.mp3</guid>
       <pubDate>Fri, 21 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-21/podcast_2026-08-21.mp3" length="17873349" type="audio/mpeg" />
-      <description>The field is moving from treating structure prediction as a static end‑point to using those models as active design engines, and today’s papers show how that shift is already reshaping antibody and drug discovery workflows. | At the same time, the BoltzOmics effort shows that predicting how a genetic variant perturbs drug binding no longer requires a fresh free‑energy calculation for every mutation; by wrapping Boltz‑2 in an interactive framework they can scan dozens of clinically relevant alleles in minutes, turning what used to be a weeks‑long mutagenesis campaign into a rapid computational screen that flags variants likely to cause resistance or toxicity before a single assay is run. | The HCGT‑PL work pushes this idea further for small‑molecule discovery: instead of training separate models for affinity prediction and virtual screening, a single heterogeneous contrastive graph transformer learns to distinguish binders from decoys while simultaneously regressing on Kd values, and because the graph explicitly encodes solvation, entropy and induced‑fit terms, it captures effects that older fingerprint‑based methods routinely miss, giving medicinal chemists a more reliable ranking of compounds straight from the protein structure.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-21/podcast_2026-08-21.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The field is moving from treating structure prediction as a static end‑point to using those models as active design engines, and today’s papers show how that shift is already reshaping antibody and drug discovery workflows. | At the same time, the BoltzOmics effort shows that predicting how a genetic variant perturbs drug binding no longer requires a fresh free‑energy calculation for every mutation; by wrapping Boltz‑2 in an interactive framework they can scan dozens of clinically relevant alleles in minutes, turning what used to be a weeks‑long mutagenesis campaign into a rapid computational screen that flags variants likely to cause resistance or toxicity before a single assay is run. | The HCGT‑PL work pushes this idea further for small‑molecule discovery: instead of training separate models for affinity prediction and virtual screening, a single heterogeneous contrastive graph transformer learns to distinguish binders from decoys while simultaneously regressing on Kd values, and because the graph explicitly encodes solvation, entropy and induced‑fit terms, it captures effects that older fingerprint‑based methods routinely miss, giving medicinal chemists a more reliable ranking of compounds straight from the protein structure.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-20/podcast_2026-06-20.mp3</guid>
       <pubDate>Sat, 20 Jun 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-20/podcast_2026-06-20.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-06-19</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-19/podcast_2026-06-19.mp3</guid>
-      <pubDate>Fri, 19 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-19/podcast_2026-06-19.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

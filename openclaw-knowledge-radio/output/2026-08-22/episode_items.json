@@ -1,0 +1,297 @@
+{
+  "timestamps": [
+    0.0,
+    194.32,
+    420.95,
+    606.56,
+    840.2,
+    966.41,
+    1149.84,
+    1332.16,
+    1552.96,
+    1783.07,
+    2044.09
+  ],
+  "items": [
+    {
+      "title": "Where have organoids actually been useful?",
+      "url": "https://www.owlposting.com/p/where-have-organoids-actually-been",
+      "source": "Owl Posting (Abhishaike Mahajan)",
+      "one_liner": "6k words, 27 minutes reading time",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "machine-learning",
+        "biology",
+        "substack",
+        "author"
+      ]
+    },
+    {
+      "title": "Ion chromatography-ultra-high-resolution mass spectrometry reveals EZH2-driven reprogramming of nucleic acid and protein methylation.",
+      "url": "https://doi.org/10.1016/j.aca.2026.345653",
+      "source": "PubMed — Analytica chimica acta",
+      "one_liner": "ENHANCER OF ZESTE: homolog 2 (EZH2), a histone H3K27 trimethyltransferase, is a key epigenetic regulator frequently dysregulated in cancer. To determine its impact on nucleotide biosynthesis and nucleic acid methylation in intact cells requires highly sensitive, isomer-resolving analytical workflows. We developed a targeted ion chromatography-ultra-high-r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI Structural Biology in Nephrology: Powerful Scaffolds, Fragile Certainties.",
+      "url": "https://doi.org/10.1681/ASN.0000001254",
+      "source": "PubMed — Journal of the American Society of Nephrology : JASN",
+      "one_liner": "Artificial intelligence (AI)-based protein structure prediction has rapidly entered nephrology, providing plausible atomic models for channels, transporters, receptors and scaffolds that previously lacked structural information. AlphaFold and RoseTTAFold now underpin mechanistic interpretations of inherited kidney diseases, including autosomal-dominant po...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-enabled discovery and biochemical optimization of minibinders targeting cancer cell-surface proteins.",
+      "url": "https://doi.org/10.1038/s41467-026-76760-5",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Experimental validation and functional optimization remain bottlenecks in AI-based protein design. We present a scalable workflow for developing AI-designed minibinders against cancer-associated surface proteins. Screening thousands of designs using mammalian cell-surface display identifies several high-affinity PD-L1 minibinders but far fewer for CD276 (...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Co-evolution-guided engineering of monensin biosynthetic monooxygenase MonCI reveals mechanistic basis for concurrent stability and catalytic enhancement.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154119",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Improving enzyme stability without compromising catalytic activity remains a major challenge in protein engineering. Here, we present a co-evolution-guided strategy to enhance both thermostability and catalytic performance of the flavin-dependent monooxygenase MonCI, an enzyme involved in monensin biosynthesis. By combining sequence covariation analysis w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-augmented discovery of autophagy regulators through mechanistic interpretation of multiomics data.",
+      "url": "https://doi.org/10.1080/15548627.2026.2719421",
+      "source": "PubMed — Autophagy",
+      "one_liner": "Yu Xue: xueyu@hust.edu.cn Large-scale multiomics profiling has delineated dynamic molecular landscapes during autophagy, yet translating these complex datasets into mechanistic regulatory insights remains a major challenge. In our recent work, we developed LyMOI, a hybrid artificial intelligence workflow that combines graph-based deep learning and a large...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Longitudinal Bayesian Learning of Continuous Disease Position across the Alzheimer's Disease Continuum",
+      "url": "https://arxiv.org/abs/2608.19436",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.19436v1 Announce Type: cross \nAbstract: Alzheimer's disease (AD) progresses as a continuous biological process, whereas most existing neuroimaging-based artificial intelligence methods remain limited to discrete diagnosis or clinical score prediction from cross-sectional imaging. In this work, we propose Disease Continuum Positioning (DCP), a l...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "PEtab SciML: an exchange format for specifying and training dynamic scientific machine learning models",
+      "url": "https://arxiv.org/abs/2608.20184",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.20184v1 Announce Type: new \nAbstract: Summary: Dynamic scientific machine learning (SciML) models that combine mechanistic ordinary differential equations (ODEs) with machine learning (ML) components have applications ranging from learning unknown biological processes to integrating auxiliary data modalities into dynamic modelling. To enable re...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Stochastic mutation as a mechanism for the emergence of SARS-CoV-2 new variants -- A Scientific Conjecture on Artificial Intelligence Paradigm",
+      "url": "https://arxiv.org/abs/2502.10471",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2502.10471v4 Announce Type: replace \nAbstract: The article summaries authors' researches on spreading dynamics of COVID 19 by use of the method of continuously asking and answering questions. Scientific conjecture provides the logical starting point and the important driving force of scientific research. The present article also proposes a scientifi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Computational methods, clinical evidence, and translational readiness for artificial intelligence for HER2 assessment using silver in situ hybridization (SISH).",
+      "url": "https://doi.org/10.1186/s13058-026-02363-z",
+      "source": "PubMed — Breast cancer research : BCR",
+      "one_liner": "Accurate determination of human epidermal growth factor receptor 2 (HER2) gene amplification is a cornerstone of precision oncology in breast cancer and an expanding range of solid tumors. While immunohistochemistry (IHC) remains the first-line screening modality, in situ hybridization (ISH) techniques are essential for resolving equivocal cases and provi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Umamifusion: attention-enhanced multimodal fusion of graph and sequence features for umami peptide identification.",
+      "url": "https://doi.org/10.1007/s11030-026-11699-9",
+      "source": "PubMed — Molecular diversity",
+      "one_liner": "Umami peptides are a class of functional biomolecules that significantly enhance food flavor, holding substantial application value in the food industry and nutritional science. Traditional prediction methods rely heavily on manual feature engineering, failing to adequately capture the complex semantic information and spatial structural characteristics of...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Immuno-Informatics Design of Multi-Epitope Vaccine Candidate Against",
+      "url": "https://doi.org/10.1002/hsr2.72957",
+      "source": "PubMed — Health science reports",
+      "one_liner": "BACKGROUND AND AIMS: Bovine anaplasmosis is an intracellular tick-borne, non-contagious disease caused by gram-negative bacteria of the family Anaplasmataceae and order Rickettsia. METHODS: The development and design of a multiepitope vaccine construct targeting the major surface protein-4 (MSP-4) antigen were accomplished using an immunoinformatic approa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dual Engineering of the Hydrophobic Core and Functional Loop Reshapes the Conformational Energy Landscape for Significantly Enhanced Xylanase Activity and Thermostability.",
+      "url": "https://doi.org/10.1021/acs.jafc.6c07704",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "The industrial application of enzyme catalysts is often constrained by the trade-off between thermostability and catalytic activity. Here, a region-focused engineering strategy was applied to a thermophilic GH10 xylanase to simultaneously improve both properties. The strategy integrates qProtein-guided hydrophobic cluster design for scaffold stabilization...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Large language models enhance annotation of enzymes in metagenomes.",
+      "url": "https://doi.org/10.1126/sciadv.aee4389",
+      "source": "PubMed — Science advances",
+      "one_liner": "Metagenomic data have notable biological potential, but their functional interpretation is frequently impeded by incomplete protein function annotations. Accurate enzyme annotation is essential for elucidating the metabolic capabilities of microbial communities within metagenomic datasets. To address this challenge, we developed FEDKEA, an enzyme annotati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Biological language models uncover hidden bacterial antiviral immunity repertoires.",
+      "url": "https://doi.org/10.1016/j.tim.2026.07.009",
+      "source": "PubMed — Trends in microbiology",
+      "one_liner": "Biological language models, including protein and genomic language models, are accelerating the discovery of bacterial antiviral defenses by identifying defense-associated proteins that lack detectable homology to known systems. These approaches reveal a vast, previously unexplored repertoire of defense-associated genes and suggest that antiviral defense-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational approaches for flavivirus drug discovery: targeting structural and non-structural proteins.",
+      "url": "https://doi.org/10.1039/d6md00108d",
+      "source": "PubMed — RSC medicinal chemistry",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo-Designed Bifunctional Proteins for Targeted Protein Degradation.",
+      "url": "https://doi.org/10.1021/jacs.6c07593",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "In targeted protein degradation (TPD), specific subcellular proteins are removed by routing them to the ubiquitin-proteasome, autophagy, or lysosome machinery. For instance, proteolysis-targeting chimeras (PROTACs) are synthetic heterobifunctional small molecules that simultaneously bind the target and an E3 ubiquitin ligase to drive ubiquitination and de...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Intracellular protein binders for imaging, control and future therapeutics.",
+      "url": "https://doi.org/10.1038/s41551-026-01768-7",
+      "source": "PubMed — Nature biomedical engineering",
+      "one_liner": "Intracellular protein dysregulation underlies many cancers, neurodegenerative disorders and infectious diseases, yet a substantial fraction of the human proteome remains inaccessible to conventional small-molecule drugs or extracellular antibodies. Genetically encoded intracellular binders, including nanobodies, DARPins, affibodies and de novo-designed sc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fluorescence-Gated Flow Cytometry Approach for Measuring Lipid Flippase Activity in Mammalian Cells.",
+      "url": "https://doi.org/10.1007/s00232-026-00392-5",
+      "source": "PubMed — The Journal of membrane biology",
+      "one_liner": "P4‑ATPase lipid flippases establish transbilayer lipid asymmetry in eukaryotic membranes, with increasing evidence indicating a role for interacting partners in regulating flippase activity. However, assessing interactor‑dependent effects on flippase activity in mammalian cells is complicated by heterogeneous protein expression and background lipid transp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SAGE-XGBoost: Spatially Augmented Graph Embeddings--Machine Learning Framework for Natural Hazards Susceptibility Mapping under Data Scarcity",
+      "url": "https://arxiv.org/abs/2608.19672",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.19672v1 Announce Type: new \nAbstract: Natural hazard susceptibility mapping is often constrained by limited labeled data, reducing the generalizability of conventional machine learning and limiting the applicability of complex deep learning models. This study proposes SAGE (Spatially Augmented Graph Embeddings), a structurally informed feature-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
