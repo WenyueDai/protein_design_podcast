@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    149.01,
+    865.31,
+    1094.17,
+    1306.26,
+    1491.99,
+    1640.86,
+    1831.41,
+    1992.57,
+    2211.11,
+    2361.85
+  ],
+  "items": [
+    {
+      "title": "AlphaConformers: Structure-guided sampling enables prediction of multiple protein conformations",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745512",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Proteins are dynamic molecules capable of adopting multiple conformations. However, AlphaFold2 predominantly generates models around a single conformation, usually representing a ligand-bound state. To address this limitation, we developed AlphaConformers, a structure-guided pipeline that steers AlphaFold2 toward alternative conformations. It is based on ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evaluating machine learning and neural network architectures for forensic sex estimation using mandibular ramus and notch features on panoramic radiographs.",
+      "url": "https://doi.org/10.1007/s00414-026-03970-3",
+      "source": "PubMed — International journal of legal medicine",
+      "one_liner": "Estimating a biological profile, such as sex, is a fundamental step in forensic identification when primary identifiers are unavailable for direct individual comparison. In forensic scenarios involving advanced decay, specific taphonomic alterations, or midfacial blunt force impacts, the mandibular ramus serves as a valuable anatomical marker due to its d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-driven predictive modelling of residual stress of HVOF thermal sprayed carbon-based composite coatings using physics-informed neural networks.",
+      "url": "https://doi.org/10.1038/s41598-026-61240-z",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The residual stress is an important factor affecting the performance, durability and failure behaviour of High Velocity Oxy-Fuel (HVOF) sprayed based composite coating of carbon. Finite element analysis (FEA) and other conventional numerical methods are computationally demanding and constrained by assumptions, whereas machine learning (ML) models without ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Characterization of Full-Length Antibody Complexes Through HDX-Mass Spectrometry Coupled With NMR Spectroscopy: New Insight Into Avelumab/PD-L1 Interaction.",
+      "url": "https://doi.org/10.1002/anie.1540355",
+      "source": "PubMed — Angewandte Chemie (International ed. in English)",
+      "one_liner": "Recombinant biomacromolecules have significantly transformed pharmaceuticals, in particular monoclonal antibodies (mAbs) that target key areas in oncology, immunology, inflammation, and neurodegenerative diseases. Developing biotherapeutics requires a detailed understanding of their biological properties. This, in turn, brings about the importance of char...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development and Independent Validation of a Machine Learning-Based Non-Invasive Venous Waveform Analysis for Heart Failure (NIVA",
+      "url": "https://doi.org/10.1016/j.cardfail.2026.08.010",
+      "source": "PubMed — Journal of cardiac failure",
+      "one_liner": "BACKGROUND: Hemodynamic-guided management improves outcomes in heart failure (HF), but implantable pulmonary artery pressure monitoring is limited by cost and invasiveness. Non-Invasive Venous Waveform Analysis for Heart Failure (NIVA OBJECTIVES: To describe the development and multicenter validation of the NIVA METHODS: In this prospective, multicenter s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence in medical education: Performance of ChatGPT versus medical students on medical examination.",
+      "url": "https://doi.org/10.1097/MD.0000000000050323",
+      "source": "PubMed — Medicine",
+      "one_liner": "Attention toward Chat Generative Pre-trained Transformer (ChatGPT) has greatly increased, including in the medical field, but concerns about its problem-solving ability, accuracy, reliability, and limitations in medical problems always coexist. This study aimed to evaluate ChatGPT's performance in solving a medical school examination. We used 50-question ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Distinct Molten-Globule Conformations in an Interacting Protein Domain Resolved by",
+      "url": "https://doi.org/10.1002/anie.4052471",
+      "source": "PubMed — Angewandte Chemie (International ed. in English)",
+      "one_liner": "Recently, the application of deep learning to structural data deposited in the Protein Data Bank has enabled the reliable and accurate prediction of 3D folded structures of proteins from their sequences. However, this approach is not applicable to highly dynamic proteins, where multiple structures interconvert. Furthermore, the mechanistic details of prot...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mapping pathogenic patterns in membrane transporters from the GLUT transporter family",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735151",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Significance Missense mutations can lead to pathological effects in human cells. Predictive methods that account for structural context, such as AlphaMissense, can provide pathogenicity scores. The accumulation of pathogenicity hotspots can reveal important structural features within individual proteins of protein families, such as GLUT transporters. Mapp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Siteomix: a PyMOL plugin for the detection, alignment, and similarity analysis of protein‒ligand binding sites.",
+      "url": "https://doi.org/10.1007/s10822-026-00913-3",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "The analysis of structural similarity among protein active sites is fundamental to understanding functional relationships between proteins and plays a critical role in structure-based drug design. Detailed characterization of protein‒ligand binding site similarity requires not only fast and accurate computational workflows but also effective platforms for...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Optimizing Functional-Domain Integrity of Circular Ribonucleic Acid With Improved Vaccine Immunogenicity by circDesign Algorithm.",
+      "url": "https://doi.org/10.1002/anie.4782087",
+      "source": "PubMed — Angewandte Chemie (International ed. in English)",
+      "one_liner": "Synthetic circular mRNA (hereafter referred to as circRNA) reduces susceptibility to exonuclease-mediated degradation by its covalently closed circular structure, enabling prolonged protein expression for therapeutic applications. In this circular format, protein expression from engineered circRNAs is achieved mainly through cap-independent translation in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular Glue and Phosphorylation-Dependent 14-3-3 Recruitment to p53 with an Engineered Interaction Cassette.",
+      "url": "https://doi.org/10.1021/acschembio.6c00482",
+      "source": "PubMed — ACS chemical biology",
+      "one_liner": "The tumor suppressor p53 is regulated by phosphorylation-dependent protein-protein interactions, including via binding to 14-3-3 adaptor proteins, which can tune p53 activity. Molecular glue (MG)-induced stabilization of 14-3-3/client interactions offers an attractive strategy to probe such networks, but cellular engagement is often constrained by context...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Methylene blue-modified hexagonal boron nitride nanostructured immunosensor for early detection of HPV16 E6 oncoprotein.",
+      "url": "https://doi.org/10.1007/s00604-026-08340-9",
+      "source": "PubMed — Mikrochimica acta",
+      "one_liner": "Human papillomavirus type 16 E6 oncoprotein is a clinically significant biomarker for cervical cancer because its persistent expression drives malignant transformation. To address the need for ultrasensitive detection of oncogenic HPV16 E6 protein, we engineered an electrochemical immunosensor based on methylene blue-functionalized hexagonal boron nitride...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Distinct subcellular localizations of DUF1218 proteins in Marchantia polymorpha and Nicotiana benthamiana reveal two different plasmodesmata-targeting mechanisms",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.17.745377",
+      "source": "bioRxiv — plant biology",
+      "one_liner": "Plasmodesmata are membrane-lined channels connecting plant cells to facilitate intercellular transport of molecules. Although many plasmodesmata-localized proteins have evolved throughout plant evolution, whether they use a conserved targeting system remains unclear. In the bryophyte Marchantia polymorpha, we identified two DUF1218-domain proteins homolog...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Highly Stringent Split Intein-Mediated DHFR Selectable Marker Enables Efficient Development of High-Producing CHO Cells for Therapeutic Proteins.",
+      "url": "https://doi.org/10.1021/acssynbio.6c00133",
+      "source": "PubMed — ACS synthetic biology",
+      "one_liner": "The dihydrofolate reductase (DHFR)-based selection system widely used to develop Chinese hamster ovary (CHO) cell lines for the production of therapeutic proteins is limited by low selection stringency, reliance on stepwise gene amplification, and restricted capacity for efficient multigene selection. In this study, we developed a highly stringent split D...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advances in Mass Spectrometry-Based Proteomics for Kidney Disease Biomarker Discovery and Clinical Translation.",
+      "url": "https://doi.org/10.1002/mas.70041",
+      "source": "PubMed — Mass spectrometry reviews",
+      "one_liner": "The high prevalence and substantial burden of kidney diseases necessitate advanced approaches to elucidate molecular mechanisms and promote precision medicine. Mass spectrometry (MS)-based proteomics has evolved into a widely used analytical platform, delivering high-sensitivity, high-throughput protein profiling capabilities that have contributed substan...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "[Prediction and verification of therapeutic drugs for triple-negative breast cancer using a knowledge graph-based drug repurposing model].",
+      "url": "https://doi.org/10.12122/j.issn.1673-4254.2026.08.22",
+      "source": "PubMed — Nan fang yi ke da xue xue bao = Journal of Southern Medical University",
+      "one_liner": "OBJECTIVES: To construct a knowledge graph-based drug repurposing model for predicting potential therapeutic drugs for triple-negative breast cancer (TNBC). METHODS: Drug-target interaction (DTI) affinity data were collected from the BindingDB database and filtered (including data of Kd, Ki, EC RESULTS: In the DTI affinity prediction task, KGNN outperform...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "FusionPHI: A phage-host interaction prediction network model based on attention-driven multi-modal feature fusion.",
+      "url": "https://doi.org/10.1371/journal.pone.0356238",
+      "source": "PubMed — PloS one",
+      "one_liner": "Phage therapy has become an important strategy against the crisis of antibiotic resistance for its potential to specifically target pathogenic bacteria. However, the narrow host range of phage makes the screening of precise matches of clinical strains inefficient, while existing computational tools are difficult to capture the dynamics of phage-host inter...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identifying Ice-Philic Protein Patches to Inform the Ice-Binding Sites of Antifreeze Proteins.",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c03191",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "Antifreeze proteins (AFPs) inhibit ice growth and recrystallization by binding to ice crystals via specific regions on their surface, known as ice-binding sites (IBS). Although the IBS of certain AFPs display regularly spaced threonine residues that are matched well with the molecular spacings in ice crystals, the IBS of other AFPs lack such structural si...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
