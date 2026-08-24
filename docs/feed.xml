@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Aug 2026 03:15:40 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 03:16:24 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-08-24</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-24/podcast_2026-08-24.mp3</guid>
+      <pubDate>Mon, 24 Aug 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-24/podcast_2026-08-24.mp3" length="17985789" type="audio/mpeg" />
+      <description>Today’s batch of papers reveals a quiet but consequential shift from viewing proteins as static entities to appreciating how their sequence‑encoded features, cellular context, and structural plasticity dictate function. | The second contribution flips the narrative around urinary proteins. | The third paper, a review of Gram‑positive S‑layers, underscores that these crystalline surface coats are far more than inert armor.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Today’s batch of papers reveals a quiet but consequential shift from viewing proteins as static entities to appreciating how their sequence‑encoded features, cellular context, and structural plasticity dictate function. | The second contribution flips the narrative around urinary proteins. | The third paper, a review of Gram‑positive S‑layers, underscores that these crystalline surface coats are far more than inert armor.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-08-23</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-23/podcast_2026-08-23.mp3</guid>
       <pubDate>Sun, 23 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-23/podcast_2026-08-23.mp3" length="19715973" type="audio/mpeg" />
-      <description>Today’s batch of papers reveals a quiet but pervasive move away from single‑point, static descriptions toward richer, multi‑scale representations that blend data with first‑principles knowledge. | We need to write section 2/11: &quot;If I were designing a project inspired by today&#x27;s papers&quot;. | We have 5 papers: Paper1 AlphaConformers (structure-guided sampling to predict multiple protein conformations).</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-23/podcast_2026-08-23.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today’s batch of papers reveals a quiet but pervasive move away from single‑point, static descriptions toward richer, multi‑scale representations that blend data with first‑principles knowledge. | We need to write section 2/11: &quot;If I were designing a project inspired by today&#x27;s papers&quot;. | We have 5 papers: Paper1 AlphaConformers (structure-guided sampling to predict multiple protein conformations).</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-22/podcast_2026-06-22.mp3</guid>
       <pubDate>Mon, 22 Jun 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-22/podcast_2026-06-22.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-06-21</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-21/podcast_2026-06-21.mp3</guid>
-      <pubDate>Sun, 21 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-21/podcast_2026-06-21.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
