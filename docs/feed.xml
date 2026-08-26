@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 03:17:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 03:23:32 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-08-26</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-26/podcast_2026-08-26.mp3</guid>
+      <pubDate>Wed, 26 Aug 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-26/podcast_2026-08-26.mp3" length="16432197" type="audio/mpeg" />
+      <description>The first shift we see is how lipid nanoparticles are no longer crafted by endless trial‑and‑error but by machine‑learning pipelines that predict which ionizable lipid will work best before a single tube is made. | A third shift concerns the genetics of Chiari 1 malformation. | The fourth shift is about engineering genome editors when you have almost no mutational data.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The first shift we see is how lipid nanoparticles are no longer crafted by endless trial‑and‑error but by machine‑learning pipelines that predict which ionizable lipid will work best before a single tube is made. | A third shift concerns the genetics of Chiari 1 malformation. | The fourth shift is about engineering genome editors when you have almost no mutational data.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-08-25</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-25/podcast_2026-08-25.mp3</guid>
       <pubDate>Tue, 25 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-25/podcast_2026-08-25.mp3" length="17632389" type="audio/mpeg" />
-      <description>The first thing that jumps out today is how the field’s confidence in deep learning is being tested where it matters most — RNA. | Shifting from prediction to measurement, a new FRET ligation assay using fluorescent proteins for bacterial sortase enzymes gives engineers a real‑time readout of that ping‑pong reaction. | That theme of tweaking sortase for better performance continues with a study on mutation‑induced heterogeneity of the β7‑β8 loop of Staphylococcus aureus class A sortase.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-25/podcast_2026-08-25.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The first thing that jumps out today is how the field’s confidence in deep learning is being tested where it matters most — RNA. | Shifting from prediction to measurement, a new FRET ligation assay using fluorescent proteins for bacterial sortase enzymes gives engineers a real‑time readout of that ping‑pong reaction. | That theme of tweaking sortase for better performance continues with a study on mutation‑induced heterogeneity of the β7‑β8 loop of Staphylococcus aureus class A sortase.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-24/podcast_2026-06-24.mp3</guid>
       <pubDate>Wed, 24 Jun 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-24/podcast_2026-06-24.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-06-23</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-23/podcast_2026-06-23.mp3</guid>
-      <pubDate>Tue, 23 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-23/podcast_2026-06-23.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

@@ -1,0 +1,299 @@
+{
+  "timestamps": [
+    0.0,
+    239.01,
+    465.81,
+    685.62,
+    835.54,
+    1032.2,
+    1208.35,
+    1391.61,
+    1598.73,
+    1821.88,
+    1936.5
+  ],
+  "items": [
+    {
+      "title": "Beyond the Vaccine: AI’s Expanding Role in LNP mediated Drug Delivery",
+      "url": "https://www.blopig.com/blog/2026/08/beyond-the-vaccine-ais-expanding-role-in-lnp-mediated-drug-delivery/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "Lipid nanoparticles (LNPs) have evolved from a specialised drug-delivery technology into a cornerstone of modern medicine. Their success became evident during the COVID-19 pandemic, enabling the delivery of the mRNA used in the Pfizer-BioNTech and Moderna vaccines. However, their applications extend far beyond vaccination, as LNPs can also deliver siRNA, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "Claude now watermarks its text: here’s what is actually happening under the hood",
+      "url": "https://www.blopig.com/blog/2026/08/claude-now-watermarks-its-text-heres-what-is-actually-happening-under-the-hood/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "On 11 August Anthropic announced that every Claude model released after 2 August 2026 will watermark the text it produces. Not just in the chat app: the watermark lives at the model level, so it is there whether the text came through the API, Claude Code, Cowork, or anything else built on top. A follow-up […]",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "De novo chromatin remodelling variants in sporadic Chiari 1 malformation.",
+      "url": "https://doi.org/10.1093/brain/awag282",
+      "source": "PubMed — Brain : a journal of neurology",
+      "one_liner": "Chiari 1 malformation (CM1) is the most common congenital malformation of the human hindbrain. Although prior studies have implicated chromatin-remodeling genes in CM1, the de novo genetic architecture and underlying neurodevelopmental mechanisms remain incompletely defined. To investigate the molecular genetics of a novel familial form of CM1 linked with...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Adaptive model-guided protein evolution with sparse data optimizes compact eukaryotic genome editors.",
+      "url": "https://doi.org/10.1038/s41587-026-03272-4",
+      "source": "PubMed — Nature biotechnology",
+      "one_liner": "Efficient protein engineering is constrained by vast sequence space and limited experimental throughput, particularly for protein families that lack large mutational datasets. Here we combine Fanzor2 (Fz2) ortholog discovery, ωRNA scaffold engineering and EvoMax, a model-guided prioritization strategy for sparse-data engineering of compact eukaryotic Fz2 ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning for functional outcome prediction after vestibular schwannoma surgery: a systematic review and diagnostic test accuracy meta-analysis.",
+      "url": "https://doi.org/10.1007/s11060-026-05747-5",
+      "source": "PubMed — Journal of neuro-oncology",
+      "one_liner": "PURPOSE: Machine learning (ML) models have been increasingly applied to predict postoperative facial nerve dysfunction and hearing preservation after vestibular schwannoma (VS) surgery. However, reported performance varies substantially, and the overall diagnostic accuracy and clinical reliability of these models remain uncertain. We conducted a systemati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fc-engineering for improved cancer immunotherapy.",
+      "url": "https://doi.org/10.1042/BST20250554",
+      "source": "PubMed — Biochemical Society transactions",
+      "one_liner": "Monoclonal antibodies have revolutionized cancer therapy, with approved therapeutics belonging predominantly to the immunoglobulin G (IgG) class. These IgGs mediate antitumor effects predominantly through engagement of Fcγ receptors on immune cells. This engagement results in therapy-activating Fc effector functions such as antibody-dependent cellular cyt...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A physics-driven machine learning framework for predicting XRD patterns, magnetization, and magnetocaloric response in rare-earth-doped double perovskite oxides.",
+      "url": "https://doi.org/10.1039/d6ra04290b",
+      "source": "PubMed — RSC advances",
+      "one_liner": "Rare-earth-doped double perovskite oxides have recently emerged as highly promising materials for magnetic refrigeration, owing to their remarkable structural complexity and strongly correlated magnetic behaviors. Accurately predicting their physical properties from experimental data remains a key challenge for accelerating materials discovery and costly ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine Learning Models for Predicting Permanent Pacemaker Implantation After Transcatheter Aortic Valve Replacement: A Scoping Review.",
+      "url": "https://doi.org/10.1097/CRD.0000000000001428",
+      "source": "PubMed — Cardiology in review",
+      "one_liner": "Permanent pacemaker (PPM) implantation has been reported in up to 26% of patients undergoing transcatheter aortic valve replacement (TAVR). Machine learning (ML) models have increasingly been developed to predict the need for PPM after TAVR, offering the potential to improve preprocedural risk stratification and optimize perioperative management. We condu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Tetrix: A novel Tetris-based paradigm for neuroimaging research and clinical applications.",
+      "url": "https://doi.org/10.3758/s13428-026-03150-6",
+      "source": "PubMed — Behavior research methods",
+      "one_liner": "Tetris is a widely used computer game, not only for entertainment purposes but increasingly in cognitive and clinical neuroscience research. Despite its frequent application in experiments, the neural mechanisms underlying gameplay remain insufficiently understood. Prior work suggests that cognitive control during complex visuospatial tasks, like Tetris, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-powered medicinal chemistry and translational drug development.",
+      "url": "https://doi.org/10.1039/d5cs01469g",
+      "source": "PubMed — Chemical Society reviews",
+      "one_liner": "Medicinal chemistry sits at the center of modern drug discovery, yet translating molecular designs into approved medicines remains slow, expensive, and prone to high attrition across the pipeline from target identification to clinical validation. Artificial intelligence (AI) is beginning to reshape this landscape by enabling large-scale integration, inter...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "[Teaching reform and practice of a project-based graduate course Bioinformatics in the era of artificial intelligence].",
+      "url": "https://doi.org/10.13345/j.cjb.260078",
+      "source": "PubMed — Sheng wu gong cheng xue bao = Chinese journal of biotechnology",
+      "one_liner": "The rapid development of big data and artificial intelligence (AI) necessitates highly skilled and innovative talents in bioinformatics and the change of conventional teaching for postgraduates. In this study, we identified key challenges in the current teaching of Bioinformatics and developed and implemented a hands-on teaching framework centered on huma...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PepLLM: ESM-Guided Llama for Structured Protein-Peptide Binding Interface Analysis",
+      "url": "https://arxiv.org/abs/2608.21367",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2608.21367v1 Announce Type: new \nAbstract: Protein-peptide interactions are central to cellular regulation and peptide-based drug discovery, yet existing computational methods mainly focus on interaction classification, binding-site prediction, or peptide binder generation. These formulations provide limited insight into the physicochemical mechanis...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Retracing the origin and evolution of a cryptic antimicrobial peptide within mammalian lactoferrin.",
+      "url": "https://doi.org/10.1371/journal.pbio.3003932",
+      "source": "PubMed — PLoS biology",
+      "one_liner": "Antimicrobial peptides (AMPs) constitute key components of innate immunity across the tree of life. Canonical AMPs are typically translated as small proteins and secreted from host cells to act against microbes. However, cryptic AMP-like domains are also embedded within diverse proteins not classically associated with antimicrobial function. How such embe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A",
+      "url": "https://doi.org/10.1016/j.jconrel.2026.115298",
+      "source": "PubMed — Journal of controlled release : official journal of the Controlled Release Society",
+      "one_liner": "Fibroblast activation protein (FAP) is a promising theranostic target in stroma-rich malignancies. However, conventional FAP inhibitors exhibit rapid tumor washout, limiting their application in targeted radionuclide therapy. To address this limitation, we rationally designed two novel FAP-targeted radioligands, FAPI-RuiJ01 and FAPI-RuiJ02, by integrating...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pre-clinical efficacy of a C4BP hexameric IgG Fc fusion protein against Neisseria gonorrhoeae.",
+      "url": "https://doi.org/10.1371/journal.pone.0350782",
+      "source": "PubMed — PloS one",
+      "one_liner": "Gonorrhea is the second most common bacterial sexually transmitted infection and affects about 80 million people worldwide annually. The causative agent, Neisseria gonorrhoeae, has become resistant to almost every antibiotic used for its treatment. There is no licensed vaccine against gonorrhea. Therefore, there is an urgent need to develop novel preventi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Myelin Oligodendrocyte Glycoprotein Antibodies in Breast Milk in a Lactating Woman With Severe Enterovirus-Associated MOGAD.",
+      "url": "https://doi.org/10.1212/NXI.0000000000200637",
+      "source": "PubMed — Neurology(R) neuroimmunology & neuroinflammation",
+      "one_liner": "OBJECTIVES: Myelin oligodendrocyte glycoprotein antibody (MOG-IgG)-associated disease (MOGAD) is a distinct neuroinflammatory disorder, which may be preceded by infections. Transmission of MOG-IgG from blood into breast milk has not been reported previously. METHODS: We present the case of a 38-year-old lactating woman with a severe manifestation of MOGAD...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Genetically encoded tools for tracking metabolites in live cells.",
+      "url": "https://doi.org/10.1042/BST20250115",
+      "source": "PubMed — Biochemical Society transactions",
+      "one_liner": "Biosensors enable the in situ measurement of metabolites in living systems over time and space. Fully genetically encoded metabolite biosensors (fGEMBs) use fluorescent proteins (FPs) linked to ligand binding domains (LBDs) to transduce the ligand binding event to a measurable change in the fluorescence behavior of the FP. Because these sensors are geneti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Circulating CTRP-1 levels are elevated in women with polycystic ovary syndrome: A case-control study.",
+      "url": "https://doi.org/10.1371/journal.pone.0356461",
+      "source": "PubMed — PloS one",
+      "one_liner": "OBJECTIVE: To investigate circulating C1q/TNF-related protein-1 (CTRP-1) levels in women with polycystic ovary syndrome (PCOS) and evaluate its potential association with metabolic and reproductive features of the syndrome. METHODS: A prospective cross-sectional case-control study was conducted between October 2021 and March 2022 including 96 women (48 wi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Periodontal Bacteria Proteomics in Thrombi from Ischemic Stroke Patients.",
+      "url": "https://doi.org/10.1007/s12975-026-01493-y",
+      "source": "PubMed — Translational stroke research",
+      "one_liner": "OBEJECTIVE: To characterize periodontal bacterial proteins in ischemic stroke thrombi and explore differences according to stroke etiology. METHODS: Thrombotic samples were obtained from nine severe periodontal patients with acute ischemic stroke (large-artery atherosclerosis, cardioembolic and undetermined source; 3 patients per stroke subtype) during me...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PHASE: encoding global protein ensembles with local Hamiltonians and all-atom backmapping",
+      "url": "https://arxiv.org/abs/2608.23490",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2608.23490v1 Announce Type: new \nAbstract: Protein function is governed by conformational ensembles, which can be viewed as high-dimensional probability distributions over molecular conformations. Yet the statistical organization of these distributions is often represented only implicitly, either through collections of simulation trajectories or wit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    }
+  ]
+}
