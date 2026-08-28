@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 12:56:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 14:31:37 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-08-28</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-28/podcast_2026-08-28.mp3</guid>
+      <pubDate>Fri, 28 Aug 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-28/podcast_2026-08-28.mp3" length="19480845" type="audio/mpeg" />
+      <description>We need to write section 1/11: &quot;What actually mattered today&quot;. | We have five papers: 1) Interpreting Latent Protein Language Model Features with Geometric Annotations (ESM-2 SAE + geometric annotations). | We need to extract concrete details from notes.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>We need to write section 1/11: &quot;What actually mattered today&quot;. | We have five papers: 1) Interpreting Latent Protein Language Model Features with Geometric Annotations (ESM-2 SAE + geometric annotations). | We need to extract concrete details from notes.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-08-27</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-27/podcast_2026-08-27.mp3</guid>
       <pubDate>Thu, 27 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-27/podcast_2026-08-27.mp3" length="17252373" type="audio/mpeg" />
-      <description>Today’s batch of papers shows two complementary shifts in how we think about learning from protein data. | Second, a preprint introducing the ORBIT framework reveals that conventional prediction metrics can hide important changes in how representations encode interactions. | Together these works push us to look beyond end‑to‑end performance numbers and ask what the learned representations actually capture — whether it is basic biophysics or specific orders of interaction — and to design architectures and probing tools that make those hidden structures visible.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-27/podcast_2026-08-27.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today’s batch of papers shows two complementary shifts in how we think about learning from protein data. | Second, a preprint introducing the ORBIT framework reveals that conventional prediction metrics can hide important changes in how representations encode interactions. | Together these works push us to look beyond end‑to‑end performance numbers and ask what the learned representations actually capture — whether it is basic biophysics or specific orders of interaction — and to design architectures and probing tools that make those hidden structures visible.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-26/podcast_2026-06-26.mp3</guid>
       <pubDate>Fri, 26 Jun 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-26/podcast_2026-06-26.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-06-25</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-25/podcast_2026-06-25.mp3</guid>
-      <pubDate>Thu, 25 Jun 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-06-25/podcast_2026-06-25.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

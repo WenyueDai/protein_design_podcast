@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    642.24,
+    827.56,
+    1020.44,
+    1280.58,
+    1434.99,
+    1562.95,
+    1733.56,
+    1906.1,
+    2152.72,
+    2407.3
+  ],
+  "items": [
+    {
+      "title": "Interpreting Latent Protein Language Model Features with Geometric Annotations",
+      "url": "https://arxiv.org/abs/2608.26419",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.26419v1 Announce Type: new \nAbstract: Protein language models (pLMs) encode information about protein sequences which enable downstream tasks such as structure prediction, but their internal representations are not well understood. Sparse autoencoders (SAEs) provide a promising tool to disentangle latent pLM representations into interpretable f...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Universal pipeline for high-resolution GPCR structure determination",
+      "url": "https://www.nature.com/articles/s41594-026-01869-6",
+      "source": "Nature Structural & Molecular Biology",
+      "one_liner": "Nature Structural & Molecular Biology, Published online: 28 August 2026; doi:10.1038/s41594-026-01869-6 Kojima et al. introduce NOAH–ARK1, a universal pipeline combining computational screening and a de novo designed fusion protein to reduce construct optimization effort and enable...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "structural-biology",
+        "protein",
+        "journal"
+      ]
+    },
+    {
+      "title": "RegimeFormer: A Large Protein Model of Global Perturbation Regimes",
+      "url": "https://arxiv.org/abs/2608.26586",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.26586v1 Announce Type: new \nAbstract: Protein language models organize sequence and structure at scale, but a global representation of how proteins respond to mutation remains lacking. We present RegimeFormer, a large protein perturbation model coupled to RegimeAtlas, constructed by harmonizing and indexing 202,556,313 non-redundant protein seq...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Preface to 'advancing uncertainty quantification in artificial intelligence systems using conformal prediction'.",
+      "url": "https://doi.org/10.1098/rsta.2025.0067",
+      "source": "PubMed — Philosophical transactions. Series A, Mathematical, physical, and engineering sciences",
+      "one_liner": "As artificial intelligence (AI) systems are being widely deployed in safety-critical and high-stakes applications (e.g. medical diagnosis, autonomous vehicles, financial risk assessment), there is a growing demand for providing reliable and trustworthy machine predictions. However, since AI models become more complex in structure (a prominent example bein...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Fair Energy Comparison of Spiking and Artificial Neural Networks on a General-Purpose Microcontroller.",
+      "url": "https://doi.org/10.1142/S0129065727500092",
+      "source": "PubMed — International journal of neural systems",
+      "one_liner": "Energy efficiency is a key constraint for deploying machine learning models on resource-limited internet of things (IoT) and edge devices. Spiking Neural Networks (SNNs) are often proposed as an energy-efficient alternative to conventional Artificial Neural Networks (ANNs) due to their event-driven computation paradigm. However, direct and fair energy com...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification of suicidal ideation in major depressive disorder: A machine learning approach with multimodal digital features.",
+      "url": "https://doi.org/10.1371/journal.pdig.0001615",
+      "source": "PubMed — PLOS digital health",
+      "one_liner": "Current detection models for suicidal ideation (SI) among depressed patients have primarily relied on clinical and biological features. This study aims at enhancing the real-world applicability of these models by using multimodal digital features. Patients self-administered the Hospital Anxiety and Depression Scale (HADS) and 20-item Toronto Alexithymia S...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep Learning Versus LASSO-Based Machine Learning for 1-Year Survival After Surgery for Spinal Metastases: A JASA Multicenter Prospective Cohort Analysis.",
+      "url": "https://doi.org/10.1097/BRS.0000000000005843",
+      "source": "PubMed — Spine",
+      "one_liner": "STUDY DESIGN: Multicenter prospective cohort study; secondary analysis. OBJECTIVE: To evaluate predictors associated with 1-year survival after surgery for spinal metastases by comparing a comprehensive 50-variable deep learning (DL) model with a previously published 5-variable LASSO-based machine learning (ML) model and applying DL-based permutation feat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "EGFR S442 ectodomain mutation confers cetuximab resistance that can be overcome by ERBB2 blockade with trastuzumab-deruxtecan.",
+      "url": "https://doi.org/10.1016/j.canlet.2026.218607",
+      "source": "PubMed — Cancer letters",
+      "one_liner": "Epidermal growth factor receptor (EGFR) is an oncogenic driver in multiple cancers and a therapeutic target of tyrosine kinase inhibitors and neutralizing monoclonal antibodies. However, resistance to EGFR-targeted therapies, particularly the anti-EGFR antibody cetuximab, remains a clinical challenge in colorectal (CRC) and head and neck (HNSCC) cancers. ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GRAS: Guided Reduced-Variance Proposals and Adaptive Selection for Training-Free Reward Alignment in Discrete Diffusion",
+      "url": "https://arxiv.org/abs/2608.26585",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.26585v1 Announce Type: cross \nAbstract: Discrete diffusion models have become a strong, widely adopted class of generators for sequence data, and steering them toward a downstream reward at inference time, without any retraining, is increasingly important. Such training-free steering is done by gradient guidance, by search, or by combining the ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Structural biology of retron-mediated immunity against phage.",
+      "url": "https://doi.org/10.1515/hsz-2026-0145",
+      "source": "PubMed — Biological chemistry",
+      "one_liner": "Retrons recently emerged as widespread anti-phage systems in which a dedicated reverse transcriptase (RT) produces multicopy single-stranded DNA (msDNA) that regulates associated effector proteins. Once regarded as peculiar retroelements of unknown function, retrons are now understood to operate as modular defense platforms in which the RT-msDNA module ma...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Autism mutations rewire protein interaction networks to drive neurodevelopmental pathology.",
+      "url": "https://doi.org/10.1126/science.ady4523",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "Systematic mapping of protein-protein interaction (PPI) networks and determining how causal mutations rewire them in autism spectrum disorder (ASD) provide a powerful framework for uncovering disease mechanisms and therapeutic opportunities. Using affinity purification-mass spectrometry, we systematically mapped PPIs for 100 high-confidence ASD genes, unc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Correction: AI-guided prefusion stabilization of the human coronavirus OC43 spike protein enables universal embecovirus antigen design.",
+      "url": "https://doi.org/10.1371/journal.ppat.1014550",
+      "source": "PubMed — PLoS pathogens",
+      "one_liner": "[This corrects the article DOI: 10.1371/journal.ppat.1013998.].",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Spatiotemporal 4D Whole-cell Modeling of a Minimal Autotroph Reveals Central Carbon Metabolism Regulated Locally by Protein Megacomplexes via Post-translational Modifications under Light Disturbance.",
+      "url": "https://doi.org/10.1016/j.bpj.2026.08.020",
+      "source": "PubMed — Biophysical journal",
+      "one_liner": "Photosynthetic microorganisms rely on multiple central-carbon-metabolism pathways to adapt to fluctuating light and energy availability across diel cycles. Mechanistic insight into the regulatory dynamics of this adaptation requires integrating processes that operate across disparate timescales, from rapid redox-dependent post-translational modifications ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GASA/snakin proteins in plants: structural conservation, phylogenomic expansion, and functional diversity.",
+      "url": "https://doi.org/10.1007/s11103-026-01752-4",
+      "source": "PubMed — Plant molecular biology",
+      "one_liner": "Plant GASA/Snakin proteins (GASA: Gibberellic Acid-Stimulated Arabidopsis) constitute a family of secreted cysteine-rich peptides. The family is defined by 12 highly conserved cysteine residues forming up to six disulfide bonds within a thermostable helical scaffold. Phylogenetically restricted to vascular plants, the family ranges from 10 members in rice...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-based discovery of diphenylpyrazines as disruptors of the Skp2-Cks1 protein-protein interaction: computational insights and biochemical validation.",
+      "url": "https://doi.org/10.1007/s10822-026-00926-y",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "The Skp2-Cks1 protein-protein interaction is essential for recognition of phosphorylated p27 and contributes to SCF",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MSPPGT: A Multi-Scale Pyramid Pooling-Based Graph Transformer Framework for Neuropsychiatric Disorder Diagnosis.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3727760",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "Graph Neural Networks (GNNs) model functional connectivity patterns between brain regions via neighborhood information aggregation. However, most GNN based methods primarily focus on short-range dependencies between brain regions, making it difficult to mine the full-scale functional connectivity patterns of the entire brain. While Transformer captures lo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Conformational stability of lysozyme in choline chloride-polyol aqueous deep eutectic solvents (ADES).",
+      "url": "https://doi.org/10.1063/5.0340158",
+      "source": "PubMed — The Journal of chemical physics",
+      "one_liner": "Naturally occurring deep eutectic solvents (NADES) offer a tunable microenvironment for biomolecular stabilization. Yet, the atomistic mechanisms governing the protein-solvent interactions remain poorly understood. Here, we present microsecond-long atomistic molecular dynamics simulations investigating lysozyme (Lys) stability in Choline Chloride (ChCl)-p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational Characterization of Pathogenic LMNA Missense Variants: Structural Instability, Altered Binding, and Conformational Dynamics.",
+      "url": "https://doi.org/10.1155/humu/2444803",
+      "source": "PubMed — Human mutation",
+      "one_liner": "BACKGROUND: Mutations in the METHODS: An integrated multistep in silico framework was employed to investigate the structural and functional consequences of RESULTS: Evo2-based screening of the full LMNA coding sequence identified 50 high-priority loss-of-function variants, of which N456D, N456T, and G465D were retained for structural investigation based o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Tensorion: A Tensor-Aware Generalization of the Muon Optimizer",
+      "url": "https://arxiv.org/abs/2606.25975",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.25975v2 Announce Type: replace \nAbstract: Common first-order optimizers, such as Adam, implicitly treat each parameter block as an unstructured vector, which disregards the multilinear weight structure present in many modern machine learning models. Recent work has shown that exploiting matrix structure can improve optimization dynamics. A nota...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Gaussian Processes and Reproducing Kernel Hilbert Spaces: Connections and Equivalences",
+      "url": "https://arxiv.org/abs/2506.17366",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2506.17366v2 Announce Type: replace-cross \nAbstract: This monograph studies the relations between two approaches using positive definite kernels: probabilistic methods using Gaussian processes, and non-probabilistic methods using reproducing kernel Hilbert spaces (RKHS). They are widely studied and used in machine learning, statistics, and numerical...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
