@@ -1,0 +1,282 @@
+{
+  "timestamps": [
+    0.0,
+    165.12,
+    385.91,
+    608.82,
+    696.54,
+    889.64,
+    1046.83,
+    1224.36,
+    1408.07,
+    1630.45,
+    1906.16
+  ],
+  "items": [
+    {
+      "title": "Identification of differential topologically associating domains from low sequencing depth and pseudo-bulk chromatin contact maps.",
+      "url": "https://doi.org/10.1101/gr.281535.125",
+      "source": "PubMed — Genome research",
+      "one_liner": "Topologically associating domains (TADs) are fundamental units of 3D genome architecture that shape gene regulation. Comparative analyses of TADs across biological conditions have revealed their involvement in development and disease. However, accurately identifying differential TADs from low sequencing depth and pseudo-bulk chromatin contact maps remains...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DyAb: sequence-based antibody design and property prediction in a low-data regime.",
+      "url": "https://doi.org/10.1080/19420862.2026.2717460",
+      "source": "PubMed — mAbs",
+      "one_liner": "Protein therapeutic design and property prediction are frequently hampered by data scarcity. Here we propose a model, DyAb, that addresses these issues by leveraging a pair-wise representation to predict differences in binding affinity, rather than absolute values. DyAb is built on top of a pre-trained protein language model and achieves a Spearman rank c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Directed Evolution in Codon Space",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742557",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Directed evolution is commonly used in protein engineering, where mature molecules are routinely improved through iterative local search of amino acid space. Here, we extend this principle to coding DNA. We developed a language-model-guided framework that iteratively refined industry-optimized coding sequences of clinical-stage therapeutics through synony...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-assisted design of a dendritic cell nanovaccine inducing twin immunity against monkeypox.",
+      "url": "https://doi.org/10.1016/j.jconrel.2026.115311",
+      "source": "PubMed — Journal of controlled release : official journal of the Controlled Release Society",
+      "one_liner": "The global emergence of monkeypox virus (MPXV) has created an urgent need for effective vaccines that induce robust immune responses. Here, we report a biomimetic nano-vaccine platform based on engineered dendritic cell membrane vesicles displaying M1R (M1R-CMVs), designed via genetic engineering with machine learning-assisted preliminary screening of phy...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De novo design of RNA pseudoknots with deep learning.",
+      "url": "https://doi.org/10.1126/science.aeg6829",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "RNA design has been hindered by the limited accuracy of three-dimensional (3D) structure prediction. In this study, we show that intricate RNA structures can be generated with current deep learning tools through accurate de novo design of pseudoknot secondary structures. In an Eterna competition involving 57 pseudoknots, generative artificial intelligence...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mental bootstrapping enables human-level concept learning in self-supervised deep models.",
+      "url": "https://doi.org/10.1126/sciadv.aea7202",
+      "source": "PubMed — Science advances",
+      "one_liner": "How agents acquire abstract concepts from sparse, diverse examples-often without explicit supervision-remains a central problem in cognitive science and artificial intelligence. Human studies suggest that this ability depends on mental bootstrapping, the gradual construction of complex concepts from simpler partial structures. Building on this idea, we de...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning framework for predicting ESDD on high-voltage glass insulators with SHAP-based feature optimization.",
+      "url": "https://doi.org/10.1371/journal.pone.0354892",
+      "source": "PubMed — PloS one",
+      "one_liner": "This paper introduces the use of machine learning (ML) models to predict the severity of pollution on high-voltage outdoor glass insulators using equivalent salt deposit density (ESDD). Four ML models, including Support Vector Machines (SVM), Neural Networks (NN), Extremely Randomized Trees (ERT), and Gaussian Process Regression (GPR), were applied to tra...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advancing waste-to-energy systems in institutional settings: Machine learning models for sustainable energy recovery from municipal solid waste at university campuses.",
+      "url": "https://doi.org/10.1016/j.wasman.2026.115829",
+      "source": "PubMed — Waste management (New York, N.Y.)",
+      "one_liner": "Municipal solid waste (MSW) generation in university campuses across sub-Saharan Africa presents a critical management challenge and an underutilised energy recovery opportunity, compounded by structural information gaps including population undercounting and inadequate compositional data. This study applies an integrated machine learning (ML) framework t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Metal binding site alignment enables network-driven discovery of recurrent geometries across sequence-divergent proteins and drug off-targets.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014636",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Metal-binding sites (MBSs) are critical determinants of protein stability and biological function, yet methods for comparing their local binding environments lag behind those for whole-structure alignment. Here, we represent MBSs as atomic point clouds surrounding bound metal ligands and align them with a fine-tuned iterative closest point algorithm. Appl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural insights into the outer membrane proteins PorA, OMP50 and Cj0034c from native Campylobacter jejuni membranes.",
+      "url": "https://doi.org/10.1371/journal.pbio.3003961",
+      "source": "PubMed — PLoS biology",
+      "one_liner": "Bacterial outer membrane proteins (OMPs) are critical players in host-pathogen interactions and environmental adaptation. Here we describe the newly developed \"Gradient Enrichment of Native Targets from Lipid Environments\" (GENTLE) methodology and use this approach to elucidate the structures of Campylobacter jejuni OMPs directly from native, detergent-so...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GPCR-GO: Relation-aware graph learning for predicting Gene Ontology terms of G protein-coupled receptors.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014718",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "G protein-coupled receptors (GPCRs) are central membrane receptors and major therapeutic targets. However, predicting GPCR function remains difficult because experimentally annotated receptors are scarce, functional labels follow a long-tailed distribution, and structural information remains underused. Here, we present GPCR-GO, a relation-aware heterogene...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Minimal-alphabet proteins by evolution, engineering, and design.",
+      "url": "https://doi.org/10.1016/j.tibs.2026.08.002",
+      "source": "PubMed — Trends in biochemical sciences",
+      "one_liner": "Research on the structural and functional potential of minimal amino acid alphabets is shifting from reductive 'pruning' of extant proteins to bottom-up exploration of combinatorial sequence space. This review highlights the experimental and computational toolkits driving this transition. We discuss how solid-phase peptide synthesis, genetically encoded l...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Electron diffraction captures high-resolution structures from in vivo protein nanocrystals of Bacillus thuringiensis",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.06.24.661318",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Bacillus thuringiensis is one of the most widely used biopesticides worldwide. This is owing to the highly-specific pesticidal-proteins various strains produce in the form of nanocrystals. Structure determination from such crystals remains difficult because their small size makes them unsuitable for conventional X-ray crystallography. Here we explore two ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Single-atom inhibition of oncogenic drivers through cysteine coordination",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747489",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Small-molecule inhibitors rely on molecular recognition within suitable binding pockets, leaving many disease-associated proteins difficult to target. Here, we introduce the concept of a single-atom inhibitor in which gold (Au) engages critical cysteine residues of oncogenic drivers to suppress their activity. We used an AI-assisted few-shot learning appr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Small molecules for genetically encoded control and imaging of protein proximity.",
+      "url": "https://doi.org/10.1016/j.cbpa.2026.102760",
+      "source": "PubMed — Current opinion in chemical biology",
+      "one_liner": "Many cellular processes are regulated through the conditional association of existing proteins, motivating methods that provide precise spatial control over protein proximity. Controlling and imaging protein proximity in living cells has traditionally relied on separate tools: chemical actuators to induce protein interactions and fluorescent reporters to ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dockformer: A Transformer-Based Molecular Docking Paradigm for Large-Scale Virtual Screening.",
+      "url": "https://doi.org/10.1109/TNNLS.2026.3725736",
+      "source": "PubMed — IEEE transactions on neural networks and learning systems",
+      "one_liner": "Molecular docking is a critical step in drug development, enabling the virtual screening of compound libraries to identify potential ligands for specific therapeutic target proteins. However, the computational cost of traditional docking methods scales proportionally with the size of the compound library, making high-throughput screening computationally p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Efficient brain delivery and sustained retention of antibodies via dual targeting of blood-brain barrier and intra-brain proteins.",
+      "url": "https://doi.org/10.1080/19420862.2026.2724587",
+      "source": "PubMed — mAbs",
+      "one_liner": "Efficient delivery of therapeutic antibodies to the brain has been increasingly achieved using receptor-mediated transcytosis (RMT) approaches such as transferrin receptor (TfR)-mediated shuttle systems. Moreover, a strategy for enhancing brain retention has recently emerged as a focus of attention to overcome the rapid clearance of TfR shuttles from the ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Balancing spatial resolution and proteome depth in LC-MS based spatialproteomics",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747491",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Spatial proteomics aims to resolve protein composition within intact tissues, yet extraction-based liquid chromatography-mass spectrometry (LC-MS) workflows face an inherent trade-off: smaller sampling units increase spatial specificity, whereas larger sampling units provide greater proteome depth and robustness. As analytical sensitivity improves, sampli...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Does Computer Science Need Computers?",
+      "url": "https://www.quantamagazine.org/does-computer-science-need-computers-20260828/",
+      "source": "Quanta Magazine",
+      "one_liner": "The theoretical side of the field doesn’t require computing machines. But many questions would never have been posed without them. The post Does Computer Science Need Computers? first appeared on",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
