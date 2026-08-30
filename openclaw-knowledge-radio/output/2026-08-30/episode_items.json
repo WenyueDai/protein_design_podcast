@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    198.19,
+    454.84,
+    658.98,
+    851.31,
+    1017.48,
+    1200.17,
+    1385.49,
+    1538.27,
+    1774.02,
+    2029.35
+  ],
+  "items": [
+    {
+      "title": "Advanced modeling techniques in hydrophobic interaction chromatography (HIC).",
+      "url": "https://doi.org/10.1016/j.chroma.2026.467108",
+      "source": "PubMed — Journal of chromatography. A",
+      "one_liner": "Hydrophobic Interaction Chromatography (HIC) is widely used in biopharmaceutical downstream processing for protein separation under mild and aqueous conditions. Accurate modeling of HIC for optimizing monoclonal antibody (mAb) monomer and aggregate separation remains challenging, primarily due to complex resin-protein interactions across diverse operating...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Chromatin remodeling protein CHD4 regulates axon guidance of spiral ganglion neurons in developing cochlea",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.01.31.578202",
+      "source": "bioRxiv — neuroscience",
+      "one_liner": "Spiral ganglion neurons (SGNs) are the primary afferent neurons that convey auditory information from the cochlea to the central nervous system. Pathogenic variants of human chromodomain helicase DNA-binding protein 4 (CHD4) cause Sifrim-Hitz-Weiss (SIHIWES) syndrome, a neurodevelopmental disorder associated with hearing loss. Here, we identified expressi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mapping agricultural fragility in India through a yield gap vulnerability framework: a national-scale machine learning assessment.",
+      "url": "https://doi.org/10.1016/j.jenvman.2026.130802",
+      "source": "PubMed — Journal of environmental management",
+      "one_liner": "In India, regional yield gaps continue to widen despite increased agricultural productivity, owing to socioeconomic inequality and climate variability. This study develops a novel Yield Gap Vulnerability (YGV) framework to measure agricultural fragility at the district-level by integrating agricultural, hydrological, meteorological, and socioeconomic indi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advancing hirschsprung disease diagnosis: a systematic review of the development and application of artificial intelligence in histopathological analysis.",
+      "url": "https://doi.org/10.1007/s00383-026-06576-3",
+      "source": "PubMed — Pediatric surgery international",
+      "one_liner": "Hirschsprung's disease (HD) is characterised by absence of ganglion cells in the distal large intestine, requiring accurate histopathological diagnosis. Conventional diagnostic methods are time-consuming, subjective, and demand specialised expertise. While artificial intelligence (AI) shows promise for improving diagnostic capacity, its clinical utility r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "In silico pharmacological evaluation of a multi-epitope vaccine candidate targeting the G1 and G2 glycoproteins of Oropouche virus via TLR3 interaction.",
+      "url": "https://doi.org/10.1007/s00210-026-05862-0",
+      "source": "PubMed — Naunyn-Schmiedeberg's archives of pharmacology",
+      "one_liner": "Oropouche virus (OROV) is an emerging arbovirus associated with increasing outbreaks with no approved vaccine and antiviral therapies currently availaible. In this study, an in silico pharmacological approach was employed to design and evaluate a multi-epitope vaccine candidate targeting the G1 glycoprotein of OROV. Antigenicity screening identified G1 as...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Learning precise segmentation of neurofibrillary tangles from rapid manual point annotations.",
+      "url": "https://doi.org/10.1038/s41598-026-61605-4",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "Accumulation of abnormal tau protein into neurofibrillary tangles (NFTs) is a pathologic hallmark of Alzheimer disease (AD). Accurate detection of NFTs in tissue samples can reveal relationships with clinical, demographic, and genetic features through deep phenotyping. However, expert manual analysis is time-consuming, subject to observer variability, and...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Universal pipeline for high-resolution GPCR structure determination.",
+      "url": "https://doi.org/10.1038/s41594-026-01869-6",
+      "source": "PubMed — Nature structural & molecular biology",
+      "one_liner": "G protein-coupled receptors (GPCRs) regulate human physiology and are major drug targets. Although cryo-electron microscopy has accelerated GPCR structural biology, inactive-state structures remain difficult because current fusion-based strategies often require extensive experimental screening to identify rigid constructs suitable for high-resolution reco...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Genetic dissection of Mycobacteriophage D29 host lysis reveals two lysis regulators and a novel lipoprotein that regulate the lysis event and are localized to distinct regions of the genome",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747656",
+      "source": "bioRxiv — microbiology",
+      "one_liner": "Phage D29 infects Mycobacterium smegmatis mc2 155 and has a non-canonical lysis cassette that encodes two endolysin proteins (Lysin A and Lysin B) and a single two transmembrane domain (TMD) protein, LysA2a similar to F1 cluster phage LysF1a. A 1TMD LysF1b homolog, LysA2b, is encoded by a gene found downstream of the tape measure. Exogenous expression of ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "The complement system in the pathophysiology and treatment of depression: From synaptic pruning to pharmacological targeting.",
+      "url": "https://doi.org/10.1016/j.phrs.2026.108419",
+      "source": "PubMed — Pharmacological research",
+      "one_liner": "Major depressive disorder remains unsatisfactorily addressed by monoaminergic antidepressants, and the search for mechanistically novel targets has converged on the immune system. Among these, the complement system offers a defined molecular route through which locally synthesized complement proteins may tag synapses for microglial engulfment. Preclinical...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cloning and characterization of intermediate Homer1E of human skeletal muscle.",
+      "url": "https://doi.org/10.1007/s10974-026-09738-x",
+      "source": "PubMed — Journal of muscle research and cell motility",
+      "one_liner": "HOMER proteins are scaffolding proteins critically involved in intracellular signaling, calcium homeostasis, receptor trafficking and synaptic plasticity. Three human HOMER genes (HOMER1, HOMER2, HOMER3) are expressed in both neurons and skeletal muscle fibers. HOMER1 long isoforms multimerize via their carboxy-terminal coiled-coil domain, forming signali...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Myostatin in fish: current understanding of its characterization, function, and signaling pathways.",
+      "url": "https://doi.org/10.1007/s10695-026-01780-3",
+      "source": "PubMed — Fish physiology and biochemistry",
+      "one_liner": "Myostatin (Mstn), a secretory protein from the transforming growth factor-β (TGF-β) superfamily, is mostly present in skeletal muscle across vertebrates. The mstn gene exhibits a conserved genomic structure consisting of three exons and two introns in both teleost fish and mammals. Unlike mammals which typically possess a single mstn copy, most fish speci...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DNA-Peptide Crosslinks Placed at Codon 249 of the p53 Tumor Suppressor Gene Induce G to A Transitions in Human Cells.",
+      "url": "https://doi.org/10.1002/cbic.70507",
+      "source": "PubMed — Chembiochem : a European journal of chemical biology",
+      "one_liner": "Anticancer nitrogen mustard drugs including cyclophosphamide, mechlorethamine and chlorambucil induce covalent DNA-protein cross-links (DPCs) by sequentially alkylating the N7 position of guanine in DNA and amino acid residues within proteins. In cells, DPCs are proteolytically processed to yield corresponding peptide-DNA cross-links (DpCs), allowing poly...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Aquaporin-1 facilitates the transport of hydrogen peroxide and nitric oxide during endothelium-dependent vasorelaxation.",
+      "url": "https://doi.org/10.1016/j.vph.2026.107692",
+      "source": "PubMed — Vascular pharmacology",
+      "one_liner": "Aquaporins (AQPs) are transmembrane proteins that primarily transport water, but certain isoforms also facilitate the diffusion of small neutral signaling molecules, such as hydrogen peroxide (H",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "KS79356, a novel kynureninase inhibitor, suppresses triple-negative breast cancer progression by attenuating the TNF-α/NFκB-CD44-Akt signaling axis.",
+      "url": "https://doi.org/10.1007/s12032-026-03377-5",
+      "source": "PubMed — Medical oncology (Northwood, London, England)",
+      "one_liner": "Kynureninase (KYNU), a hydrolase in tryptophan metabolism, has been implicated in cancer progression. However, the therapeutic relevance of targeting KYNU-mediated inflammatory signaling in triple-negative breast cancer (TNBC) remains poorly defined High-throughput virtual screening (HTVS) of the ChemBridge library, combined with protein-ligand interactio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The PINK1-VCP-p47 pathway protects against tau-induced dendritic shrinkage in cortical neurons through interaction with STIP1.",
+      "url": "https://doi.org/10.1016/j.nbd.2026.107592",
+      "source": "PubMed — Neurobiology of disease",
+      "one_liner": "Microtubule associated protein tau (tau) contributes to the pathogenesis of AD and some forms of Frontotemporal Lobar Dementia wherein dendritic simplification is strongly related to cognitive dysfunction. Loss of function mutations in PTEN-induced kinase 1 (PINK1) cause recessive early-onset Parkinson's disease with dementia, and reduced wild-type PINK1 ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Functional analysis of Sec14-family proteins in the filamentous fungus aspergillus nidulans.",
+      "url": "https://doi.org/10.1016/j.fgb.2026.104115",
+      "source": "PubMed — Fungal genetics and biology : FG & B",
+      "one_liner": "Filamentous fungi rely on polarized hyphal growth, a process fundamentally driven by vesicular transport. Sec14, a conserved phosphatidylinositol/phosphatidylcholine transfer protein first identified in Saccharomyces cerevisiae, and its Sec14-like SFH proteins have been implicated in multiple trafficking- and/or lipid-linked processes in diverse yeasts an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Programmable protein degraders enable selective knockdown of pathogenic β-catenin subpopulations in vitro and in vivo.",
+      "url": "https://doi.org/10.1126/sciadv.aec8271",
+      "source": "PubMed — Science advances",
+      "one_liner": "Aberrant activation of Wnt signaling results in unregulated accumulation of cytosolic β-catenin, which subsequently enters the nucleus and promotes transcription of genes that contribute to cellular proliferation and malignancy. Here, we sought to eliminate pathogenic β-catenin from the cytosol using designer ubiquibodies (uAbs), chimeric proteins compose...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Extracellular protein catabolism drives regulated nitrogen handling and ammonia buffering in acute myeloid leukemia",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747222",
+      "source": "bioRxiv — cancer biology",
+      "one_liner": "Acute myeloid leukemia (AML) cells exhibit pronounced metabolic plasticity, yet how amino acid supply is coordinated to sustain leukemic metabolism remains poorly understood. Here, we show that AML cells catabolize extracellular proteins as a major source of amino acids through lysosomal degradation of albumin. This proteocatabolic activity supports anabo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    }
+  ]
+}
