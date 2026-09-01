@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    156.84,
+    283.65,
+    480.28,
+    662.34,
+    828.7,
+    1008.5,
+    1185.45,
+    1343.92,
+    1531.91,
+    1660.09
+  ],
+  "items": [
+    {
+      "title": "A simple probabilistic AlphaFold interaction score.",
+      "url": "https://doi.org/10.1002/pro.70760",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "AlphaFold has enabled large-scale prediction of protein-protein and protein-nucleic acid complexes, but ranking and assessing the quality of predicted models remain challenging. Existing confidence scores are often highly parametrized and provide limited interpretability. We introduce a simple geometric framework that converts AlphaFold-predicted aligned ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "FoldKit: A Python library for efficient storage and retrieval of co-folding predictions",
+      "url": "https://arxiv.org/abs/2608.28788",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.28788v1 Announce Type: new \nAbstract: AlphaFold 3 (AF3) enables structure prediction of biomolecular complexes through co-folding multiple interacting molecules, making it increasingly useful for de novo protein design and for large-scale studies of protein-protein, protein-peptide, and other biomolecular interactions. However, systematic co-fo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Predicting membrane protein localization by deep learning on structure and chemistry.",
+      "url": "https://doi.org/10.1002/pro.70747",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "It has been known since at least the 1980's that the structure and chemistry of membranes and membrane proteins are matched. Exploiting this fact, a graph neural network model of proteins was trained on experimentally determined membrane protein structures to predict the native membrane environment of transmembrane domains from their structure. The algori...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design of programmable molecular interfaces for synthetic biology and therapeutic applications.",
+      "url": "https://doi.org/10.1016/j.cbpa.2026.102759",
+      "source": "PubMed — Current opinion in chemical biology",
+      "one_liner": "De novo protein design is reshaping how synthetic biology specifies and controls molecular function. Recent advances in generative modeling, sequence design and structure prediction enable molecular interactions to be created from scratch, reducing reliance on natural solutions and extensive experimental screening. These approaches support the design of c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An ensemble learning framework for protein stability prediction with enhanced recognition of stabilizing mutations.",
+      "url": "https://doi.org/10.1002/pro.70728",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Accurately predicting mutation-induced protein stability changes remains a central challenge in structural bioinformatics. Existing methods exhibit a strong bias toward destabilizing mutations, leading to limited performance for stabilizing mutations and constraining their utility in protein engineering. Here, we address this limitation through two comple...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Minidomains from evolution for scaffold engineering.",
+      "url": "https://doi.org/10.1016/j.biotechadv.2026.108904",
+      "source": "PubMed — Biotechnology advances",
+      "one_liner": "Protein engineering is a powerful approach that has enabled the development of novel drugs and biotechnologies. Recent advances in genome annotation and computational prediction have shifted attention toward smaller, non-antibody scaffolds - miniproteins - typically fewer than 100 amino acids. Despite their small size, these molecules exhibit remarkable s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Soluble protein analog selection engine (SPASE): An automated AI-powered server to improve protein engineering workflows.",
+      "url": "https://doi.org/10.1002/pro.70733",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "The design of proteins with desired biophysical properties, such as high solubility and low aggregation propensity, is crucial for various biotechnological and biomedical applications. While deep learning-based methods like ProteinMPNN have shown remarkable success in protein sequence design, their direct output may not always exhibit optimal solubility a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Toward De Novo Protein Design from Natural Language",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.08.01.606258",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Programming biological function--designing bespoke proteins that execute specific tasks on demand--is a foundational goal of molecular engineering. Yet, current protein design paradigms remain fundamentally limited, typically requiring either an existing protein to evolve from, or deep, family-specific expertise to guide the design process. Here we introd...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Facile, high-throughput protein purification enabled by high-efficiency protease elution.",
+      "url": "https://doi.org/10.1002/pro.70746",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "While advances in artificial intelligence have made protein design widely accessible, protein production and characterization remain a bottleneck. Protease-cleavable affinity tags are commonly used to improve yield and purity of recombinant proteins, but tag removal adds labor and complexity. Previous attempts to use a selective protease to elute cleaved ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Engineered antibodies preserve structural and functional recognition of Plasmodium falciparum circumsporozoite protein.",
+      "url": "https://doi.org/10.1002/pro.70738",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Long-lasting and highly effective malaria vaccines or monoclonal antibodies (mAbs) remain urgently needed, as current interventions show age-dependent benefits rather than broad protection across all ages. Recently, two highly protective human mAbs 224 (IGHV3-49/IGLV1-40) and 7088 (IGHV3-33/IGKV1-5), encoded by distinct germline genes, were re-engineered ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational hybrid approach of PBPK simulation and CGCNN models for human intravenous pharmacokinetics.",
+      "url": "https://doi.org/10.1016/j.bmc.2026.118731",
+      "source": "PubMed — Bioorganic & medicinal chemistry",
+      "one_liner": "In drug discovery, it is not sufficient for a lead compound to exhibit high binding affinity for the target protein alone. It is equally important to predict an optimal pharmacokinetic (PK) profile that reflects the physicochemical properties of the compound. In this study, we aimed to predict human PK by jointly employing physiologically based pharmacoki...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting viscosity of ionic liquids using structure-based models.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109462",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "Due to the tunability of ILs' structure, there are many ion pairs with a wide range of viscosity. Thus, machine learning methods are used to efficiently predict the viscosity of ILs and establish accurate structure-property relationships. Structure-based models were built to predict dynamic viscosity in ionic liquids (ILs) using two approaches: an artific...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Microscopy image segmentation using a fine-tuned machine learning model with limited training dataset.",
+      "url": "https://doi.org/10.1111/jmi.70162",
+      "source": "PubMed — Journal of microscopy",
+      "one_liner": "Manual annotation of microscopic images of thin tissue sections remains time-consuming step limiting the throughput of diagnostic analysis. We present a novel automated approach using the total intensity image as an input to a U-Net architecture of Convolutional Neural Network with a pretrained ResNet-34 encoder for image segmentation. The network was tra...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-guided computational design of DNA tweezers for predicted recognition of the primary glioblastoma biomarkers S100A4 and midkine.",
+      "url": "https://doi.org/10.1016/j.bbrep.2026.102720",
+      "source": "PubMed — Biochemistry and biophysics reports",
+      "one_liner": "Glioblastoma multiforme (GBM) is among the most aggressive malignant brain tumors and is characterized by severe infiltration into surrounding brain tissue, rendering early detection exceedingly difficult with current diagnostic imaging methods. Chosen biomarkers S100A4, with a role in cell motility and tumor metastasis, and midkine (MDK), connected to tu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predictive modeling of heavy metal pollution and ecological risk for sustainable water quality management in the NY-NJ harbor system.",
+      "url": "https://doi.org/10.1007/s10661-026-15832-x",
+      "source": "PubMed — Environmental monitoring and assessment",
+      "one_liner": "Evaluating and forecasting surface water quality is essential for protecting aquatic ecosystems and improving water resource management. This study introduces a novel paradigm that integrates machine learning (ML) with the potential ecological risk index (PERI) to dynamically forecast, rather than statically assess, ecological risks from heavy metal conta...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GANs in Peptide Drug Discovery: From De Novo Design to Multi-Property Optimization and Clinical Translation.",
+      "url": "https://doi.org/10.1007/s12602-026-11195-4",
+      "source": "PubMed — Probiotics and antimicrobial proteins",
+      "one_liner": "Peptide drugs are vital for treating intractable diseases, yet traditional discovery is limited by huge sequence space and poor pharmacokinetics. Generative Adversarial Networks (GANs) and related variants (CGAN, WGAN-GP, MPOGAN) are increasingly used as auxiliary computational tools for peptide drug discovery, primarily for de novo sequence exploration a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence for predicting 30-day mortality after emergency laparotomy.",
+      "url": "https://doi.org/10.1007/s00068-026-03319-w",
+      "source": "PubMed — European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+      "one_liner": "PURPOSE: Accurate pre-operative risk prediction in emergency laparotomy (EL) is essential for appropriate resource allocation and improve patient outcomes. This study aimed to establish the accuracy of an artificial intelligence (AI) model in predicting 30-day mortality after EL using a national dataset. METHODS: Data was extracted from the Australian and...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational design and experimental validation of fast oligonucleotide-sensing allosteric ribozymes with predefined oligonucleotide binding sites.",
+      "url": "https://doi.org/10.1016/j.biosystems.2026.105886",
+      "source": "PubMed — Bio Systems",
+      "one_liner": "Ribozymes can be engineered to function as molecular switches that exhibit different Boolean logic functions. Here, we describe two novel algorithmic pipelines for the design of YES and NOT Boolean-function oligonucleotide-sensing allosteric ribozymes bearing a predefined oligonucleotide-binding site sequence, capable of targeting known sequence RNA molec...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hyper-Fold: Exploring the Expressive Limit of Sequence-Geometry Learning for Proteins via Hypergraph Modeling",
+      "url": "https://arxiv.org/abs/2608.29207",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.29207v1 Announce Type: cross \nAbstract: Protein structure modeling rests on a single computational primitive: the interaction between what a residue is (sequence content) and where it sits (three-dimensional geometry). What is the expressive limit of this layer class? We show that the complete bilinear operator over content-geometry outer produ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "MolLedger: An Additive Graph Neural Network with Chemically Grounded ADME Attributions",
+      "url": "https://arxiv.org/abs/2608.30636",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.30636v1 Announce Type: new \nAbstract: Optimizing absorption, distribution, metabolism, and excretion (ADME) is an important part of small molecule drug discovery. Many machine learning models have been built to predict ADME properties to facilitate this optimization process, but explaining model predictions is challenging. We propose a new grap...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
