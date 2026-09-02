@@ -1,0 +1,297 @@
+{
+  "timestamps": [
+    0.0,
+    191.83,
+    382.77,
+    565.16,
+    1190.05,
+    1264.25,
+    1444.99,
+    1607.61,
+    1790.75,
+    1987.48,
+    2228.84
+  ],
+  "items": [
+    {
+      "title": "A Low Containment CCHFV Entry Screening Platform Identifies Compounds with Antiviral Activity against Authentic CCHFV",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747751",
+      "source": "Pranam Chatterjee (bioRxiv)",
+      "one_liner": "Backgrounds Crimean-Congo hemorrhagic fever virus (CCHFV) is a tick-borne nairovirus that can cause severe human disease in the endemic areas, and no licensed antiviral is broadly available. Antiviral discovery is constrained by the requirement to study authentic CCHFV under biosafety level 4 (BSL-4) containment, creating a need for lower-containment platforms. Here, we evaluated whether a CCHFV g",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "author"
+      ]
+    },
+    {
+      "title": "The cost of a better pose: balancing GNINA sampling and runtime",
+      "url": "https://www.blopig.com/blog/2026/09/the-cost-of-a-better-pose-balancing-gnina-sampling-and-runtime/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "If you have ever set up a docking experiment or tuned a docking workflow for GNINA, you may have found yourself asking: What are the “best” settings for running GNINA? Unfortunately, there is no single objectively correct answer. The optimal settings will depend on the input data, the goal of the docking experiment, and the […]",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "Improving RNA Secondary Structure Prediction Through Expanded Training Data.",
+      "url": "https://doi.org/10.1261/rna.081259.126",
+      "source": "PubMed — RNA (New York, N.Y.)",
+      "one_liner": "In recent years, deep-learning has revolutionized protein structure prediction, achieving remarkable speed and accuracy. RNA structure prediction, however, has lagged behind. Although several methods have shown moderate success in predicting RNA secondary and tertiary structures, none have reached the accuracy observed with contemporary protein models. Th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Immunochromatographic test for rapid simultaneous detection of prostate-specific-antigen and α-amylase.",
+      "url": "https://doi.org/10.1016/j.scijus.2026.101497",
+      "source": "PubMed — Science & justice : journal of the Forensic Science Society",
+      "one_liner": "The detection of biological fluids such as semen and saliva is crucial in forensic investigations. However, no existing immunochromatographic test allows the simultaneous detection of these two body fluids, which means that if a sample is suspected to contain a mixture of these, multiple tests must be performed, thereby consuming the biological trace. To ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cryptic Binding Site Prediction Using Equivariant Graph Neural Networks with Kolmogorov-Arnold Networks.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3729577",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "Cryptic binding sites (CBSs) are crucial functional sites that become accessible following conformational changes by ligand binding. They play a significant role in expanding the scope of druggable targets and revealing the dynamic regulatory mechanisms of proteins. Most existing computational methods rely on holo (ligand-bound) structures and struggle to...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De novo pan-rhodamine binders for fluorescence microscopy from mammalian cells to extremophiles.",
+      "url": "https://doi.org/10.1016/j.cell.2026.08.007",
+      "source": "PubMed — Cell",
+      "one_liner": "Fluorescent imaging in live cells is a cornerstone of life sciences. While natural fluorescent proteins have been engineered to enhance individual features, no existing tag combines ideal properties into a single system: high brightness, reversible binding, compact size, and stability across diverse conditions. Here, we achieve this through de novo design...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "From rules to foundation models: a comprehensive review of machine learning approaches for siRNA design.",
+      "url": "https://doi.org/10.1093/nargab/lqag099",
+      "source": "PubMed — NAR genomics and bioinformatics",
+      "one_liner": "Small interfering RNAs (siRNAs) are a clinically validated therapeutic modality with eight FDA-approved drugs, yet designing effective siRNAs remains computationally challenging due to complex dependencies on sequence composition, thermodynamic properties, target-site accessibility, and off-target interactions. Over two decades, computational approaches h...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mirror-Peptidizer: In Silico Mirror-Image Screening Enables De Novo Design of D-Peptide Binders without D-Protein Synthesis.",
+      "url": "https://doi.org/10.34133/research.1420",
+      "source": "PubMed — Research (Washington, D.C.)",
+      "one_liner": "D-peptides are attractive therapeutic modalities because they are generally more resistant to proteolysis than their L-counterparts, yet systematic design of target-binding D-peptides remains nontrivial. Here, we report Mirror-Peptidizer, an end-to-end in silico mirror-image screening workflow that generates D-peptide binders without requiring chemical sy...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CARE: Multimodal Alignment Learning for Ophthalmic Imaging via Joint Optimal-Transport Soft Matching and Graph Neural ODE Refinement.",
+      "url": "https://doi.org/10.1007/s10278-026-02184-8",
+      "source": "PubMed — Journal of imaging informatics in medicine",
+      "one_liner": "Medical artificial intelligence (AI) has shown great potential for the early screening and accurate diagnosis of fundus diseases. However, diagnostic methods based on single-modality retinal images still have clear limitations. Two-dimensional (2D) fundus images, including color fundus photography (CFP) and near-infrared (NIR) fundus images, capture super...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Discovery of novel acridine based inhibitors of Bruton's tyrosine kinase (BTK) via pharmacophore modeling and machine learning-driven virtual screening followed by molecular dynamic studies.",
+      "url": "https://doi.org/10.1007/s10822-026-00912-4",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "Bruton's Tyrosine Kinase (BTK) has been recently recognized as an important drug design target for treating B-cell malignancies. Unfortunately, drug resistance is making the treatment of B-cell malignancies challenging. In this study, we employed a dual machine learning drug design approach that involves two parallel branches: the QSAR-GFA modeling (Branc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of a drug delivery vehicle protein exhibiting high binding affinity and low leakage of the anti-cancer drug SN-38.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154313",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Drug leakage from delivery vehicles is a major limitation of drug delivery systems (DDSs) for cancer chemotherapy because premature release of loaded drugs reduces therapeutic efficacy and increases off-target toxicity. We previously developed a DDS for the poorly water-soluble anti-cancer drug SN-38 using lipocalin-type prostaglandin D synthase (L-PGDS)....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "LENS: A mammography-specific hybrid CNN-Transformer with lesion-aware evidence modeling.",
+      "url": "https://doi.org/10.1371/journal.pone.0350720",
+      "source": "PubMed — PloS one",
+      "one_liner": "BACKGROUND: Artificial Intelligence (AI) models for mammography classification is prone to shortcut learning because diagnostically relevant evidence is typically sparse, localized, and easily dominated by non-lesion background context. This study aimed to develop a mammography-specific framework that integrates lesion-focused evidence with global image r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Growth Hormone Treatment Response and Machine Learning-Based Prediction in Idiopathic GHD and ISS: Analysis of the Korean LG Growth Study.",
+      "url": "https://doi.org/10.1111/cen.70163",
+      "source": "PubMed — Clinical endocrinology",
+      "one_liner": "OBJECTIVE: Individual responses to recombinant human growth hormone (rhGH) therapy vary widely among children with idiopathic growth hormone deficiency (iGHD) and idiopathic short stature (ISS), making accurate prediction of treatment outcomes clinically important. This study aimed to develop and compare machine learning (ML)-based and conventional statis...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence-assisted design of MAGE-A4 ×CD16 T-cell receptor-like natural killer cell engagers.",
+      "url": "https://doi.org/10.1080/19420862.2026.2717991",
+      "source": "PubMed — mAbs",
+      "one_liner": "The cancer-testis antigen MAGE-A4 is an attractive immunotherapy target due to its high expression in various malignancies and restricted expression in normal tissues. Peptides derived from intracellular MAGE-A4 are presented on the cell surface by HLA-A*02:01, enabling targeting by T-cell receptor (TCR)-like molecules. We identified a TCR-like antibody r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence-assisted identification of skin lesions associated with chronic venous insufficiency.",
+      "url": "https://doi.org/10.1016/j.jvsv.2026.102612",
+      "source": "PubMed — Journal of vascular surgery. Venous and lymphatic disorders",
+      "one_liner": "OBJECTIVE: This study aimed to develop and validate a deep learning framework to classify chronic venous insufficiency - related skin lesions and differentiate them from other lower-extremity dermatological conditions using dermoscopic images. METHODS: We retrospectively analyzed 677 high-resolution dermoscopic images from 248 patients, all histopathologi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advances in prime editing: Molecular innovations, Large-fragment engineering, and AI-driven design.",
+      "url": "https://doi.org/10.1016/j.bidere.2026.100104",
+      "source": "PubMed — Biodesign research",
+      "one_liner": "Prime editing has rapidly emerged as a versatile and precise genome engineering technology capable of introducing targeted substitutions, insertions, and deletions without requiring double-strand breaks or donor DNA templates. Since its initial development, substantial progress has been achieved through iterative innovations in core components, including ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "KF-Outlined Recognition Model to Rebuild the Geological Topology Change of Metro Tunnel Face.",
+      "url": "https://doi.org/10.1109/TCYB.2026.3726305",
+      "source": "PubMed — IEEE transactions on cybernetics",
+      "one_liner": "In this article, a spatiotemporal recognition model was proposed to nondestructively map the geological condition of metro tunnel, avoiding the low generality problem of the existing machine learning (ML) methods operating on the correlative dynamic parameters of inaccuracy theory. Specifically, first, a temporal estimator based on weighted least square m...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Annotation-efficient medical image segmentation via cross-latent graphs and vector-quantized memory.",
+      "url": "https://doi.org/10.1016/j.media.2026.104145",
+      "source": "PubMed — Medical image analysis",
+      "one_liner": "Medical image segmentation plays a vital role in computer-assisted diagnosis, yet the heavy reliance on large-scale pixel-level annotations limits its scalability in real-world clinical applications. To alleviate this bottleneck, we propose a framework for annotation-efficient medical segmentation that leverages sparse supervision from scribbles and point...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Costs and use of antimigraine drugs in Italy: a ten-year analysis of national data.",
+      "url": "https://doi.org/10.1007/s10198-026-01977-6",
+      "source": "PubMed — The European journal of health economics : HEPAC : health economics in prevention and care",
+      "one_liner": "BACKGROUND: Migraine is a highly prevalent neurological disorder associated with substantial disability and economic burden. Considering the recent introduction of anti-calcitonin gene-related peptide (CGRP) monoclonal antibodies (mAbs), expenditure analysis are needed to evaluate a rapidly evolving therapeutic field. Therefore, we analyzed national pharm...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-driven proteomic profiling reveals seminal plasma biomarkers linking trihalomethane exposure to impaired sperm quality.",
+      "url": "https://doi.org/10.1016/j.ecoenv.2026.120319",
+      "source": "PubMed — Ecotoxicology and environmental safety",
+      "one_liner": "The decline in sperm quality has emerged as a major public health concern with significant implications for male fertility and population sustainability. However, high-accuracy biomarkers for sperm quality are lacking, and the environmental drivers remain obscure. Trihalomethanes (THMs), ubiquitous disinfection by-products in drinking water, have been lin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
