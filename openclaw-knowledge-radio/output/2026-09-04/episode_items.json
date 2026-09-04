@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    161.9,
+    778.79,
+    922.81,
+    1075.86,
+    1145.36,
+    1354.7,
+    1521.67,
+    1722.02,
+    1991.39,
+    2253.15
+  ],
+  "items": [
+    {
+      "title": "Comprehensive evaluation of AlphaFold/OpenFold prediction of experimentally unresolved proteins through novel metrics.",
+      "url": "https://doi.org/10.1093/bib/bbag461",
+      "source": "PubMed — Briefings in bioinformatics",
+      "one_liner": "Predicting accurate protein structures is essential for understanding molecular mechanisms, interpreting the impact of sequence variation, and supporting translational applications ranging from drug discovery to clinical genomics. Recent advances in deep-learning-based predictors such as AlphaFold2, OpenFold, and AlphaFold3 have transformed structural bio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Histone H3K9 methylation and Heterochromatin Protein 1 do not limit DNA accessibility in living S. pombe cells",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.694020",
+      "source": "bioRxiv — genomics",
+      "one_liner": "Chromatin is intrinsically repressive, limiting access to DNA, implying a major regulatory role. Studies with nuclei support this model. However, we have shown previously that genomic DNA is completely accessible in living budding yeast and human cells, except for centromeric chromatin. The fission yeast, Schizosaccharomyces pombe, provides a tractable mo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "De novo designed single-domain antibodies protect against lethal cobra venom neurotoxicity in vivo",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748349",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Generative protein design can now rapidly produce de novo binders with high affinity and functional activity against a wide range of targets, including lethal snake venom toxins. However, so far most reported successes rely on new-to-nature scaffolds with limited therapeutic precedent. Single-domain antibodies (VHHs) offer a clinically validated alternati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Therapeutic antibodies targeting G protein-coupled receptors.",
+      "url": "https://doi.org/10.1016/j.tips.2025.12.004",
+      "source": "PubMed — Trends in pharmacological sciences",
+      "one_liner": "G protein-coupled receptors (GPCRs) constitute the largest family of membrane proteins and are involved in numerous physiological and pathological processes. Therapeutic antibodies targeting GPCRs, including monoclonal antibodies (mAbs), single-domain antibodies (sdAbs), and antibody-drug conjugates (ADCs), represent a promising class of biologics with hi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Roles of Individual Pigments in Ultrafast Excitation Dynamics of Light-Harvesting Phycobiliproteins Revealed by Recombinant Techniques and Two-Dimensional Electronic Spectroscopy.",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c03553",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "Phycobiliproteins serve as highly efficient light-harvesting antennae in cyanobacteria, yet the molecular factors governing their ultrafast energy relaxation and coherence dynamics remain incompletely understood. In this study, we investigate the role of pigment arrangement and pigment-protein interactions by combining recombinant protein engineering with...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advances in Machine Learning for Directed Evolution: A Five-Year Retrospective",
+      "url": "https://arxiv.org/abs/2609.03046",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2609.03046v1 Announce Type: new \nAbstract: The last five-plus years have seen many protein engineering disciplines transformed by advances in machine learning (ML), but the same cannot be said for directed evolution. Reflecting on a previously co-authored perspective, I discuss why I believe this to be the case, arguing that a disconnect between the...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Balanced DNA interpolation improves learning of genetic distance-informed embeddings in plants.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014722",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "In taxonomic research, traditional phylogenetic tree- and structure-based analyses of genetic data are increasingly complemented by machine-learning-based identification and representation learning. Although the amount of DNA data needed to train state-of-the-art machine learning models often exceeds what can realistically be collected and sequenced in bi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Contrastive learning of adverse events to provide effective and interpretable vector representations for machine-assisted pharmacovigilance.",
+      "url": "https://doi.org/10.1093/bib/bbag463",
+      "source": "PubMed — Briefings in bioinformatics",
+      "one_liner": "Post-marketing surveillance is crucial for drug safety, yet the tools of pharmacovigilance rely solely on text-based data that may limit contemporary machine learning methodologies in the support of decision-making. With the recent surge of employing large language models (LLMs) for text-based tasks, there also arises an unmet need for a different approac...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence-guided engineering of precision ocular therapeutics.",
+      "url": "https://doi.org/10.1097/ICU.0000000000001251",
+      "source": "PubMed — Current opinion in ophthalmology",
+      "one_liner": "PURPOSE OF REVIEW: This review surveys recent advances in artificial intelligence-guided small molecule discovery and gene therapy, with a focus on generative and foundation models, and their translational applications to ophthalmic therapeutics. RECENT FINDINGS: A unifying theme across recent work is the shift from artificial intelligence as a screening ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Colorectal Lesion diagnosis using transformer and deep learning with multiscale feature interface.",
+      "url": "https://doi.org/10.1371/journal.pone.0357664",
+      "source": "PubMed — PloS one",
+      "one_liner": "Colorectal cancer is the third most common malignancy worldwide. Manual screening requires expertise and resources. However, advancements in AI (artificial intelligence) have reduced the computation burden and time. Machine and deep learning have recently been used to diagnose colorectal lesions. The requirement of handcrafted features makes machine learn...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Identification of Biological Stains at Crime Scenes: A Promising Role for Proteomics and Machine Learning",
+      "url": "https://arxiv.org/abs/2609.03521",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2609.03521v1 Announce Type: new \nAbstract: Forensic body fluid identification is crucial for reconstructing crime scene events. While DNA analysis provides individualization, it lacks information about the fluid's origin. We developed and evaluated three complementary proteomic approaches using LC-HRMS/MS to identify blood, saliva, semen, urine, and...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Impact of Phosphorylation on the Conformational Landscape and Aggregation Behavior of Aβ40: A Comprehensive Computational Study.",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c02971",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "Phosphorylation of amyloid-β (Aβ40) at Ser8 and Ser26 exerts opposing effects on fibril formation: Ser8 phosphorylation promotes aggregation, whereas Ser26 phosphorylation strongly inhibits it. Using replica exchange with solute tempering (REST2) simulations and coarse-grained modeling, we reveal the atomic-level mechanisms underlying these effects. Ser26...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "What is AI? An introduction for clinicians.",
+      "url": "https://doi.org/10.31128/AJGP-01-25-7540",
+      "source": "PubMed — Australian journal of general practice",
+      "one_liner": "BACKGROUND: Artificial intelligence (AI) is thought by many to likely underpin the next revolution in clinical medicine. The rapidly evolving terminology in AI - including terms such as 'generative AI', 'machine learning' and 'natural language processing' - can present a barrier to clinical adoption. OBJECTIVE: The aim of this article is to give a non-tec...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Retrieval-Augmented Residual Graph Neural Network for Protein-Protein Interaction Site Prediction.",
+      "url": "https://doi.org/10.1109/TNNLS.2026.3727640",
+      "source": "PubMed — IEEE transactions on neural networks and learning systems",
+      "one_liner": "Accurate prediction of protein-protein interaction sites (PPISs) plays a crucial role in understanding protein function, elucidating disease mechanisms, and facilitating drug target discovery. Although conventional approaches based on sequence or structural features have shown promising results, they still face several challenges. These challenges include...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PCIPG: A comprehensive framework for protein complex identification based on a probabilistic graphical model.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014698",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Protein complexes are molecular machines that execute essential cellular functions, but their computational identification remains challenging. Existing protein complex identification methods largely rely on PPI network topology, functional annotations, or protein-level biochemical evidence. Although these approaches have recovered many biologically meani...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
+      "url": "https://arxiv.org/abs/2609.03377",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2609.03377v1 Announce Type: cross \nAbstract: Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Developing generative models capable of understanding this intrinsically multi-modal relationship is crucial for fields like drug d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Nanoemulsion adjuvanted COBRA HA vaccine enhances protective antibody titers against H1N1 and H3N2 influenza viruses.",
+      "url": "https://doi.org/10.1080/21645515.2026.2721876",
+      "source": "PubMed — Human vaccines & immunotherapeutics",
+      "one_liner": "Adjuvants can enhance the elicited immune responses to recombinant hemagglutinin (HA) proteins following intramuscular vaccination. In this study, computationally optimized broadly reactive antigen (COBRA) designed HA proteins were adjuvanted with the W805EC oil-in-water nanoemulsion (\"NE01\") and used to vaccinate mice. The elicited influenza-specific hum...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MAXTIA: A high-throughput platform for rapid functional epitope mapping by kinetic screening of mutant libraries.",
+      "url": "https://doi.org/10.1002/pro.70769",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Accurate identification of epitope residues is essential for developing biopharmaceuticals and understanding the mechanisms of immune recognition. However, experimental approaches for residue-level epitope mapping remain time-consuming and labor-intensive, while accurate computational prediction of protein-protein interfaces remains challenging. Here, we ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "When Vision Meets Graphs: A Survey on Graph Reasoning and Learning",
+      "url": "https://arxiv.org/abs/2609.03816",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.03816v1 Announce Type: cross \nAbstract: Graphs are a fundamental data structure underlying many problems in the natural and social sciences. Over the past decade, Graph Neural Networks (GNNs) have dominated graph machine learning, supported by solid theoretical foundations. Yet scientists often understand graph structure through vision: chemist...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "DuaDeep-SeqAffinity: Dual-Branch Deep Learning for Tri-Stream Sequence-Based Antibody--Antigen Affinity Prediction",
+      "url": "https://arxiv.org/abs/2512.22007",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.22007v2 Announce Type: replace \nAbstract: DuaDeep-SeqAffinity is a sequence-only deep learning framework that predicts antibody--antigen binding affinity directly from primary amino acid sequences, avoiding the cost and scarcity of resolved three-dimensional structures. The antigen and the antibody heavy and light chains are processed as three ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
