@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    149.8,
+    287.39,
+    481.36,
+    739.98,
+    970.83,
+    1176.84,
+    1447.75,
+    1652.56,
+    1892.0,
+    2089.09
+  ],
+  "items": [
+    {
+      "title": "ABAG-Rank: Improving Model Selection of AlphaFold Antibody-Antigen Complexes by Learning to Rank.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag663",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: AlphaFold has transformed structural biology with an unprecedented accuracy in modelling protein structures and their interactions with biomolecules, with AlphaFold3 (AF3) achieving state-of-the-art performance. However, AF3 and other methods often struggle to accurately predict the structure of protein complexes that lack strong co-evolutiona...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DyProL: Dynamic Ensemble Representation Learning for Protein-Nucleic Acid Binding Site Prediction.",
+      "url": "https://doi.org/10.1002/advs.77501",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Protein-nucleic acid interactions play central roles in gene regulation and cellular function, and extensive efforts have been devoted to predicting nucleic acid binding sites from protein structures. However, protein-nucleic acid recognition is inherently dynamic, whereas most existing computational approaches rely on single static conformations, limitin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "FlavorGPN: a graph neural network for multi-label molecular flavor prediction.",
+      "url": "https://doi.org/10.1007/s11030-026-11702-3",
+      "source": "PubMed — Molecular diversity",
+      "one_liner": "Predicting chemosensory attributes from chemical structures is a fundamental task in cheminformatics and molecular modeling. When applied to flavor specifically, this task becomes particularly challenging due to the structural diversity of flavor molecules and the complex, multi-label nature of human sensory perception. Traditional machine learning method...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Systematic discovery of circular permutations across the protein universe using CIRPIN.",
+      "url": "https://doi.org/10.1073/pnas.2605178123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Protein structure search has been revolutionized by deep learning methods that can rapidly search massive databases. However, current structure search tools often miss proteins related by topological rearrangements, particularly circular permutation, wherein proteins share highly similar structure but differ in the positioning of their termini. We introdu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "In silico identification of flavonoid inhibitors targeting cholera toxin from Vibrio cholerae: Molecular docking, ADMET profiling, and molecular dynamics simulation.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109387",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "An integrated computational strategy was used to identify potential inhibitors of the NAD (+)-arginine ADP-ribosyl transferase of cholera toxin. The target protein structure was obtained from the UniProt database and validated using PROCHECK. The potential binding pockets were predicted using DeepSite. A total of 50 flavonoids were screened using structur...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Free energy perturbation and machine learning-assisted identification of novel molecules for the Mycobacterium tuberculosis KasA protein: a fragment-based drug design approach.",
+      "url": "https://doi.org/10.1007/s11030-026-11726-9",
+      "source": "PubMed — Molecular diversity",
+      "one_liner": "KasA is an essential enzyme of Mycobacterium tuberculosis (Mtb). It plays a critical role in synthesizing long-chain mycolic acids, the major components of the bacterial cell wall, by regulating the FAS-I and FAS-II fatty acid synthesis pathways. Inhibiting KasA offers a promising strategy for treating tuberculosis (TB). This study used fragment-based dru...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rapid cell-free antibody fragment production and binding analysis via fluorescence correlation.",
+      "url": "https://doi.org/10.1016/j.ymeth.2026.08.007",
+      "source": "PubMed — Methods (San Diego, Calif.)",
+      "one_liner": "This study presents a workflow for rapid production and functional characterization of antibody fragments using an E. coli-based cell-free protein synthesis (CFPS) system. We quantified binding interactions by fluorescence correlation spectroscopy (FCS), which enabled determination of dissociation constants (K",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks.",
+      "url": "https://doi.org/10.1021/acs.jproteome.6c00302",
+      "source": "PubMed — Journal of proteome research",
+      "one_liner": "Large-scale proteomics relies heavily on target-decoy competition for false discovery rate estimation in peptide identification, and the performance of this strategy depends strongly on the design of the decoy database. Classical generators such as reversal and shuffling remain widely used. Here, we introduce the first protein language model-based (PLM) d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Nursing Process Data for Health Care Cost Prediction Using Machine Learning: Longitudinal Study.",
+      "url": "https://doi.org/10.2196/93638",
+      "source": "PubMed — JMIR nursing",
+      "one_liner": "BACKGROUND: Machine learning (ML) has been demonstrated to enhance health care cost prediction by handling high-dimensional data and identifying complex patterns. However, current risk-adjustment models rarely incorporate structured nursing information derived from the nursing process. This information captures care needs and human responses to health pro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Large Language Models for Heterogeneous Data Mining in Liver Disease: Framework Development and Retrospective Validation Study.",
+      "url": "https://doi.org/10.2196/92921",
+      "source": "PubMed — Journal of medical Internet research",
+      "one_liner": "BACKGROUND: Differentiating among liver disease entities such as autoimmune liver disease (AILD), drug-induced liver injury (DILI), and chronic hepatitis B (CHB) remains clinically challenging due to overlapping clinical manifestations and nonspecific laboratory findings. Conventional machine learning (ML) approaches rely mainly on structured laboratory d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The fitness landscape of a form II rubisco in a photosynthetic bacterium guides engineering of oxygen tolerance.",
+      "url": "https://doi.org/10.1126/sciadv.aee9222",
+      "source": "PubMed — Science advances",
+      "one_liner": "Ribulose-1,5-bisphosphate carboxylase/oxygenase (rubisco) is an important but challenging protein engineering target. Fast and selective rubiscos could enhance photosynthesis in plants and accelerate biobased production processes. To facilitate engineering of rubisco, we applied an in vivo screen that couples rubisco activity to growth rate of the photoau...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Few-shot neuromorphic vision in a nonlinear photonic network laser.",
+      "url": "https://doi.org/10.1126/sciadv.aec6546",
+      "source": "PubMed — Science advances",
+      "one_liner": "With the growing prevalence of artificial intelligence (AI), demand increases for hardware that mimics the brain's ability to extract structure from limited data. In the retina, ganglion cells detect features from sparse inputs via lateral inhibition, where neurons antagonistically suppress activity of neighboring cells. Biological neurons exhibit diverse...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An expert-based assessment of the quality, reliability, understandability, and readability of ChatGPT responses on cerebral palsy.",
+      "url": "https://doi.org/10.1007/s00381-026-07444-0",
+      "source": "PubMed — Child's nervous system : ChNS : official journal of the International Society for Pediatric Neurosurgery",
+      "one_liner": "PURPOSE: In recent years, artificial intelligence-based language models have emerged as a means of rapid access to health-related information. This study aimed to evaluate the quality, reliability, understandability, and readability of ChatGPT's responses to frequently asked questions by families of children with cerebral palsy (CP). METHODS: Responses ge...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unmasking bias in the evidence ecosystem: a panoramic analysis of 311,751 meta-analyses using an artificial intelligence agent-based approach.",
+      "url": "https://doi.org/10.7189/jogh.16.03029",
+      "source": "PubMed — Journal of global health",
+      "one_liner": "Traditional secondary meta-analysis workflows are highly labour-intensive, time-consuming, and difficult to update in real time. Currently, there is a lack of comprehensive artificial intelligence frameworks capable of automating the entire meta-analysis workflow, including literature screening, data extraction, and quality assessment. Furthermore, a larg...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProtPen Combines Sequence- and Structure-based Approaches to Facilitate Protein Function Predictions on a Proteome-wide Scale.",
+      "url": "https://doi.org/10.1021/acs.jproteome.6c00074",
+      "source": "PubMed — Journal of proteome research",
+      "one_liner": "Proteins of unknown function represent a significant gap in our understanding of biological processes, encompassing large portions of the proteomes of many organisms, especially prokaryotes. Addressing this gap is critical to understanding the biology and pathogenicity of such organisms. We introduce ProtPen, an open-source pipeline that facilitates prote...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computationally guided multi-epitope vaccine design targeting oncoprotein BZLF1, EBNA1, LMP1, and LMP2 for of EBV associated gastric cancer.",
+      "url": "https://doi.org/10.1186/s43046-026-00407-1",
+      "source": "PubMed — Journal of the Egyptian National Cancer Institute",
+      "one_liner": "BACKGROUND: Epstein-Barr virus (EBV)-associated gastric cancer (EBVaGC) is distinct molecular subtype of gastric cancer for which effective preventive and targeted therapeutic strategies remain limited. This study aimed to design and evaluate multiepitope vaccine candidates targeting four EBV proteins critically involved in this disease, namely BZLF1, EBN...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design and experimental characterization of specificity-switching mutational paths of WW domains",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.08.693000",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Specific interactions between proteins and other biomolecules are ubiquitous in cellular processes.How specificity is encoded in the protein sequence and can be modified through a minimal set of concerted mutations is a complex issue. In this work, we focus on the WW protein domain, whose variants specifically bind to different classes of proline-rich pep...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Similarity-Adaptive interaction routing for Drug-Target affinity prediction.",
+      "url": "https://doi.org/10.1016/j.jbi.2026.105100",
+      "source": "PubMed — Journal of biomedical informatics",
+      "one_liner": "Drug-target affinity (DTA) prediction is an important task in computer-aided drug discovery. Existing methods usually use a fixed drug-protein interaction strategy. This design is hard to adapt to heterogeneous samples. It is also limited in cold-start and low-similarity scenarios. This study proposes SIGMA-DTA, a similarity-guided adaptive interaction mo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}

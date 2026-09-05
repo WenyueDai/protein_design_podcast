@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 07:29:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 06:59:19 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-09-05</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-05/podcast_2026-09-05.mp3</guid>
+      <pubDate>Sat, 05 Sep 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-05/podcast_2026-09-05.mp3" length="17654997" type="audio/mpeg" />
+      <description>The papers together sketch a quiet but decisive move away from treating biological molecules as static, isolated objects toward embracing their inherent flexibility, context‑dependence and combinatorial complexity. | Building on the motivation behind ABAG‑Rank, I wonder whether a learning‑to‑rank framework could rescue AlphaFold’s struggles with transient immune complexes where the antibody only contacts the antigen for a split second during affinity maturation. | Taking a cue from DyProL’s dynamic ensemble idea, I’d like to see if representing a transcription factor as an ensemble of conformations derived from normal mode analysis improves prediction of its RNA‑binding sites compared to a single static structure.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The papers together sketch a quiet but decisive move away from treating biological molecules as static, isolated objects toward embracing their inherent flexibility, context‑dependence and combinatorial complexity. | Building on the motivation behind ABAG‑Rank, I wonder whether a learning‑to‑rank framework could rescue AlphaFold’s struggles with transient immune complexes where the antibody only contacts the antigen for a split second during affinity maturation. | Taking a cue from DyProL’s dynamic ensemble idea, I’d like to see if representing a transcription factor as an ensemble of conformations derived from normal mode analysis improves prediction of its RNA‑binding sites compared to a single static structure.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-09-04</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-04/podcast_2026-09-04.mp3</guid>
       <pubDate>Fri, 04 Sep 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-04/podcast_2026-09-04.mp3" length="18763725" type="audio/mpeg" />
-      <description>The first shift that jumps out is how we think about structure prediction for the dark parts of proteins. | A second shift concerns chromatin and DNA access. | The third shift is about the scaffolds we choose for de novo binders.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-04/podcast_2026-09-04.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The first shift that jumps out is how we think about structure prediction for the dark parts of proteins. | A second shift concerns chromatin and DNA access. | The third shift is about the scaffolds we choose for de novo binders.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-07/podcast_2026-07-07.mp3</guid>
       <pubDate>Tue, 07 Jul 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-07/podcast_2026-07-07.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-07-06</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-06/podcast_2026-07-06.mp3</guid>
-      <pubDate>Mon, 06 Jul 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-06/podcast_2026-07-06.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
