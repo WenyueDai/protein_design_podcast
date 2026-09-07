@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    630.55,
+    936.83,
+    1118.17,
+    1271.17,
+    1539.89,
+    1754.09,
+    1928.85,
+    2131.77,
+    2404.79,
+    2643.3
+  ],
+  "items": [
+    {
+      "title": "Cell cycle control of chromatin creates a therapeutic window for epigenetic therapy in tumors",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.748889",
+      "source": "bioRxiv — cancer biology",
+      "one_liner": "The relationship between cell cycle length and differentiation competence is well established in developmental biology, particularly in embryonic stem cells, where a short G1 phase maintains pluripotency and G1 lengthening permits lineage commitment. Whether this principle operates in cancer cells, where the cell cycle is deregulated and G1 is frequently ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Coarse composition suffices: tabular in-context learning for multi-activity antimicrobial peptide profiling",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747591",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Antimicrobial peptides (AMPs) often act against multiple pathogen classes, making multi-label activity prediction a more realistic screening target than binary antimicrobial classification. The ESCAPE benchmark formalizes this setting, but leading approaches typically rely on multimodal, structure-conditioned deep models that are costly to train and tune....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cytokine fusion proteins for solid tumor therapy: mechanistic insights and clinical advances.",
+      "url": "https://doi.org/10.1186/s13045-026-01842-2",
+      "source": "PubMed — Journal of hematology & oncology",
+      "one_liner": "Cytokine fusion proteins are engineered biologics that combine functional modules, such as cytokines, antibodies, or albumin-binding domains, into a single molecular entity. These agents have emerged as promising therapeutic platforms for treating solid tumors. However, their clinical translation remains constrained by the need to achieve potent antitumor...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DeepPROTECTNeo: A Context-aware Personalized and Reverse Vaccinology-guided Deep Learning Framework for Immunogenicity Prediction",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.01.04.631301",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Background: The development of personalized cancer vaccines relies on accurately identifying neoepitopes capable of eliciting strong immune responses. T cell receptor (TCR)-epitope interactions are fundamental to cancer immunotherapy. Traditional computational approaches focus primarily on epitope-major histocompatibility complex (MHC) binding, often over...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Towards AI-Driven Nanomedicine Discovery: A Benchmark and Multimodal Learning Framework for Nano Self-Assembly Prediction",
+      "url": "https://arxiv.org/abs/2609.04278",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2609.04278v1 Announce Type: new \nAbstract: Nano self-assembly organizes molecular components into bioactive nanoscale structures. Self-assembled nanoparticles (NAPs) derived from Chinese herbal formulas and applications such as anti-lung-cancer therapy demonstrate the substantial potential of self-assembly for nanomedicine discovery. Yet discovery s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A High-Throughput Assay to Identify Specific Nascent Chain Inhibitors",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749102",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "\"Undruggable\" proteins without surface-accessible binding sites pose significant challenges to target-based drug discovery. Innovative approaches are needed to tackle these proteins. One promising strategy is targeting them in their nascent chain form at the ribosome, where they have a different conformation than in the folded form. A systematic approach ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unraveling berberine's multi-target mechanism in combating early-stage masld: a network pharmacology and in vitro study.",
+      "url": "https://doi.org/10.1007/s10616-026-01057-w",
+      "source": "PubMed — Cytotechnology",
+      "one_liner": "UNLABELLED: Metabolic dysfunction-associated steatotic liver disease (MASLD) poses a global health burden with limited therapies. Berberine (BBR) shows promise against MASLD, but its molecular mechanisms remain unclear. Network pharmacology predicted BBR-MASLD intersecting targets, followed by protein-protein interaction (PPI) network construction, GO/KEG...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular design and delivery of extracellular and membrane protein degradation chimeras.",
+      "url": "https://doi.org/10.1016/j.addr.2026.115959",
+      "source": "PubMed — Advanced drug delivery reviews",
+      "one_liner": "Extracellular and membrane-associated proteins constitute a substantial therapeutic target space that remains largely inaccessible to intracellular degradation strategies based on the ubiquitin-proteasome system. Membrane and extracellular targeted protein degradation (meTPD) addresses this limitation by coupling target recognition to degradation-competen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep Learning-Driven Peptide Classification in Biological Nanopores",
+      "url": "https://arxiv.org/abs/2509.14029",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2509.14029v2 Announce Type: replace-cross \nAbstract: Nanopore-based single-molecule sensing is a promising route to fast, low-cost disease diagnosis and protein sequencing: as an analyte such as a peptide or protein traverses a nanoscale pore, it modulates the ionic current, producing a resistive pulse whose signature is determined by the analyte's ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Self-Supervised Pretraining of Molecular Graph Encoders with LeJEPA",
+      "url": "https://arxiv.org/abs/2609.04261",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2609.04261v1 Announce Type: new \nAbstract: Self-supervised pretraining has transformed language and vision, but its value for molecular graph neural networks remains contested. We ask whether pretraining on a large unlabelled corpus improves molecular property prediction. We adapt LeJEPA, a predictor-free joint-embedding predictive architecture regu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Circular RNAs and SIRT1 in post-transcriptional regulation and human disease.",
+      "url": "https://doi.org/10.1016/j.bbadis.2026.168451",
+      "source": "PubMed — Biochimica et biophysica acta. Molecular basis of disease",
+      "one_liner": "Circular RNAs (circRNAs) have emerged as stable post-transcriptional regulators that influence gene expression, cellular adaptation, and disease pathogenesis through mechanisms including microRNA (miRNA) interaction, RNA-binding protein modulation, and signaling-network regulation. Generated through the back-splicing process that produce covalently closed...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "BpCYCD3;1 regulates organ growth by activating the cell cycle module in white birch.",
+      "url": "https://doi.org/10.1016/j.plantsci.2026.113406",
+      "source": "PubMed — Plant science : an international journal of experimental plant biology",
+      "one_liner": "Cyclin D proteins are key regulators of cell cycle progression and plant growth. Here, we identified BpCYCD3;1, a CYCD3 family member in birch, and investigated its function. Phylogenetic and sequence analyses showed that BpCYCD3;1 is evolutionarily conserved and contains canonical cell cycle-related domains. Promoter and expression analyses suggested res...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The inflammasome adaptor protein ASC present differential intracellular and extracellular functions to trigger immunometabolic dysregulation and dysbiosis during obesity.",
+      "url": "https://doi.org/10.1016/j.metabol.2026.156766",
+      "source": "PubMed — Metabolism: clinical and experimental",
+      "one_liner": "BACKGROUND: High-fat diets activate intestinal inflammasomes, promoting dysbiosis, metabolic dysfunction, and inflammation. The apoptosis speck-like protein with a caspase activation domain (ASC) is a key adaptor for inflammasome activation, but its role in diet-induced metabolic alterations remains unclear. METHODS: We investigated the metabolic and infl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Recombinant AflQ: a novel fungal-derived protein with potent antibacterial properties.",
+      "url": "https://doi.org/10.1007/s10529-026-03783-9",
+      "source": "PubMed — Biotechnology letters",
+      "one_liner": "Mycotoxins, especially aflatoxins produced by fungi of the genus Aspergillus, threaten global food security and public health due to their carcinogenic and immunosuppressive effects. To exploit Key enzymatic steps in the aflatoxin biosynthetic pathway for therapeutic applications, the aflQ gene (also Known ordA) -wich encodes acytochrome P450 monooxygenas...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GIN-CRC-Pareto: A graph-based pareto-optimized multi-task learning framework to identify miRNA-target interactions in colorectal cancer.",
+      "url": "https://doi.org/10.1016/j.jbi.2026.105099",
+      "source": "PubMed — Journal of biomedical informatics",
+      "one_liner": "BACKGROUND: Colorectal cancer (CRC) ranks as the third highest incidence among malignancies for human and the second most common cause of cancer-related mortality in the United States. Accumulating evidence has established microRNAs (miRNAs) as critical regulators of cancer development and therapeutic response. Understanding miRNA-mRNA interactions is cri...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "pH-responsive synthetic cells for controlled protein synthesis and release",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.16.688650",
+      "source": "bioRxiv — synthetic biology",
+      "one_liner": "Lipid membrane-bound synthetic cells provide programmable, cell-like compartments for on-demand biomolecule production. However, most cell-free gene expression systems in synthetic cells are regulated by user-imposed cues rather than signals associated with environmental or physiological states. Here, we present an acidity-transducing synthetic cell that ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Co-profiling of exosomal proteins and microRNAs using single microbead confinement for breast cancer diagnosis.",
+      "url": "https://doi.org/10.1016/j.bios.2026.119196",
+      "source": "PubMed — Biosensors & bioelectronics",
+      "one_liner": "Tumor-derived exosomes (TEXs) hold immense promise as biomarkers for cancer diagnosis, but sensitive and accurate identification is hindered by their intrinsic heterogeneity and extreme scarcity. Co-profiling of exosomal protein and microRNA (miRNA) at the single-molecule level may greatly enhance the precision of cancer diagnosis and prognosis. Herein, w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An endoplasmic reticulum-targeted near-infrared fluorescent probe for monitoring viscosity in fatty liver diseases.",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.110003",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "Alterations in endoplasmic reticulum (ER) luminal viscosity perturb molecular diffusion and protein-folding kinetics, underlying ER stress and the pathogenesis of metabolic liver disorders such as nonalcoholic fatty liver disease. Herein, we developed ER-XCC, a NIR fluorescent probe that selectively targets the ER for real-time viscosity monitoring in fat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evaluating Large Language Models for Forced Outage Risk Prediction: Benefits and Comparison to Machine Learning",
+      "url": "https://arxiv.org/abs/2609.04272",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.04272v1 Announce Type: new \nAbstract: This study examines the ability of large language models (LLMs) to predict the risk of weather-related forced outages in the distribution grid in a zero-shot framework, without labeled training data. The problem is formulated as a binary severity classification task across three forecast horizons (3h, 6h, 1...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "ProToMEx: Rapid, Interpretable Explanations via Structured Representations",
+      "url": "https://arxiv.org/abs/2609.04265",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.04265v1 Announce Type: new \nAbstract: Existing post-hoc explainers for machine learning classifiers primarily focus on feature attribution, assigning importance scores to individual features. While valuable, this approach struggles to articulate the complex, combinatorial patterns that often drive a model's decision-making process. To overcome ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
