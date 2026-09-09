@@ -1,0 +1,297 @@
+{
+  "timestamps": [
+    0.0,
+    162.84,
+    782.99,
+    952.6,
+    1222.16,
+    1392.46,
+    1582.25,
+    1761.6,
+    1968.78,
+    2157.61,
+    2397.27
+  ],
+  "items": [
+    {
+      "title": "Asimov Press is Back",
+      "url": "https://www.asimov.press/p/back",
+      "source": "Asimov Press",
+      "one_liner": "We are returning with a renewed focus on original reporting, investigations, and thesis-driven philanthropy.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biology",
+        "science-writing",
+        "substack",
+        "author"
+      ]
+    },
+    {
+      "title": "Deep learning-based structural prediction (AlphaFold 3) of shrimp IMNV RdRp and identification of seaweed-derived metabolites for antiviral intervention in aquaculture.",
+      "url": "https://doi.org/10.1016/j.virusres.2026.199796",
+      "source": "PubMed — Virus research",
+      "one_liner": "Infectious Myonecrosis Virus (IMNV) remains a major global threat to shrimp aquaculture, causing severe economic losses due to the lack of approved antiviral therapeutics. In this study, an advanced in silico approach was employed, utilizing a deep learning-based prediction of AlphaFold 3 protein structures and large-scale virtual screening of seaweed-der...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A cross-kingdom interactome predicted by AlphaFold3 reveals a DNF2-centered interface required for symbiotic accommodation",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749384",
+      "source": "bioRxiv — plant biology",
+      "one_liner": "Legumes convert atmospheric nitrogen into ammonium through symbiotic bacteria housed in root nodules, yet the molecular interactions between rhizobial and host proteins inside nodules remain poorly understood. Here we employed AlphaFold3 to construct a cross-kingdom interactome between Medicago truncatula and its symbiont Sinorhizobium meliloti. Screening...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Bayesian reweighting of α-synuclein ensembles reveals local-global discrepancies between chemical shifts and chain dimensions.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154363",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "α-Synuclein is an intrinsically disordered protein whose ensemble is shaped by both local structural preferences and global chain dimensions. Here, we combined BioMatics/AlphaFold2/AFflecto-derived structures with molecular dynamics simulations to generate a pool of α-synuclein conformations. Predicted chemical shifts were reweighted against experimental ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Ensemble Learning of Machine Learning Force Fields.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00021",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "The predictive fidelity of machine learning force fields (MLFFs) is often limited by the epistemic uncertainty and architectural biases of individual models. Here, we introduce ensemble learning of machine learning force fields (EL-MLFFs), a model-agnostic framework that utilizes a graph neural network (GNN) to integrate predictions from diverse base MLFF...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing prediction accuracy for enzyme activity engineering through sequence co-evolution and epistatic relationship modeling.",
+      "url": "https://doi.org/10.1093/nar/gkag879",
+      "source": "PubMed — Nucleic acids research",
+      "one_liner": "Conventional enzyme engineering strategies, such as directed evolution with structure-based analysis, are limited by laborious workflows and by the need to screen extensive enzyme libraries. Computational models based on multiple sequence alignment, such as SCANEER, have streamlined these engineering strategies, enabling the successful prediction of singl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational design, structural modeling and immune evaluation of an amastin-based multi-epitope vaccine candidate against leishmaniasis.",
+      "url": "https://doi.org/10.1016/j.humimm.2026.112066",
+      "source": "PubMed — Human immunology",
+      "one_liner": "Leishmaniasis is a neglected tropical disease caused by protozoan parasites of the genus Leishmania. Currently, no licensed human vaccine is available and increasing drug resistance continues to compromise the disease control. The present study aimed to computationally design and evaluate a multi-epitope vaccine candidate targeting the conserved amastin p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enabling Biomolecular Simulations with Neural Network Potentials in GROMACS.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00808",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Neural network potentials (NNPs) are rapidly changing the landscape of state-of-the-art molecular dynamics (MD) simulations. To make full use of this development, the community needs flexible, easy-to-use interfaces firmly integrated with existing methodologies. To address this, we present an interface for hybrid machine learning/molecular mechanics (ML/M...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MAGNN-DTA: Cross-Modal Mutual Attention Graph Neural Networks for Drug-Target Affinity Prediction.",
+      "url": "https://doi.org/10.1109/TCBBIO.2026.3732146",
+      "source": "PubMed — IEEE transactions on computational biology and bioinformatics",
+      "one_liner": "Drug-Target Affinity (DTA) prediction is a crucial step in discovering and developing new pharmaceuticals. However, existing approaches remain limited in modeling multimodal features and capturing cross-modal interactions, often failing to fully characterize complementary information of drugs and proteins at the sequence, structural, and topological level...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cryo-EM structure of TGFBIp fibrils driven by a corneal dystrophy-linked mutation enables design of peptide inhibitors of aggregation.",
+      "url": "https://doi.org/10.1073/pnas.2607937123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Corneal dystrophy is a heterogeneous group of diseases which manifests clinically by progressive corneal opacity and diminishing visual acuity. A group of corneal dystrophies are linked to autosomal dominant mutations in transforming growth factor β-induced protein (TGFBIp) and characterized by extracellular amyloid-positive deposits of unknown molecular ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural insights into actin severing and capping by gelsolin.",
+      "url": "https://doi.org/10.1016/j.str.2026.08.009",
+      "source": "PubMed — Structure (London, England : 1993)",
+      "one_liner": "Gelsolin is a calcium-dependent actin-binding protein composed of six homologous domains (G1-G6) and regulates cytoskeletal dynamics. Here, we present the 2.89 Å cryo-EM structure of two G1-G3s bound to a four-subunit actin filament fragment formed after phalloidin-stabilized filamentous-actin (F-actin) was treated with full-length gelsolin. The two G1-G3...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Reversible homodimerization of a small leucine-rich proteoglycan PRELP modulates the interactions with TGFβ1 and IGFI-R.",
+      "url": "https://doi.org/10.1016/j.jbc.2026.113523",
+      "source": "PubMed — The Journal of biological chemistry",
+      "one_liner": "Small leucine-rich proteoglycans (SLRPs) are responsible for various biological functions via their multiple interactions with various proteins. Although some SLRPs form homodimers, it remains unclear how homodimerization affects the molecular functions of SLRPs. Herein, we report the molecular basis and functional significance of homodimerization of PREL...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "From Enhanced Sampling to Human-Readable Representations of Protein Dynamics.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00914",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Understanding protein conformational dynamics is essential for elucidating biological function but remains challenging due to the wide range of time scales and the complexity of collective motions. Enhanced sampling methods overcome time scale limitations of conventional molecular dynamics, yet their effectiveness depends on the choice of collective varia...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cryo-EM structure-based discovery of etravirine as a specific inhibitor of PRMT5/pICln protein-protein interaction for prostate cancer treatment.",
+      "url": "https://doi.org/10.1080/14756366.2026.2727844",
+      "source": "PubMed — Journal of enzyme inhibition and medicinal chemistry",
+      "one_liner": "Protein arginine methyltransferase 5 (PRMT5) is overexpressed in many cancers and correlates with poor patient survival. In prostate cancer, PRMT5 cooperates with its cofactor pICln to promote tumour growth by epigenetically activating androgen receptor (AR) expression. Using a near-atomic cryo-EM structure of PRMT5/MEP50/pICln complex, we identified a pr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Alchemical Free-Energy Framework for Multiresidue Reoptimization of Antimicrobial Peptide-Membrane Affinity.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c01030",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Antimicrobial peptide (AMP) design is commonly guided by sequence-level descriptors such as cationicity, hydrophobicity, and amphipathicity. However, this design paradigm often relies on empirical intervention or machine-learning prediction, lacks direct support from rigorous quantitative thermodynamic data, and remains difficult to apply to the optimizat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular basis and therapeutic potential of sortase A inhibitors as new antibiotics against MDR pathogens.",
+      "url": "https://doi.org/10.1098/rsob.250415",
+      "source": "PubMed — Open biology",
+      "one_liner": "Attaching proteins to the cell surface presents a technical challenge to Gram-positive bacteria. A class of enzymes called sortases solves this challenge by covalently anchoring proteins, including an arsenal of virulence factors, to the cell wall. Most Gram-positive bacteria have multiple critical factors that are anchored in this manner and, coupled wit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Modeling long-range dependencies in knee joint contact mechanics: topology diffusion, global routing, and their hybridization.",
+      "url": "https://doi.org/10.1007/s11517-026-03675-0",
+      "source": "PubMed — Medical & biological engineering & computing",
+      "one_liner": "Finite element analysis of knee joint contact mechanics is computationally expensive, which has motivated the development of graph neural network surrogate models. However, effectively representing long-range dependencies in joint mechanical responses remains challenging. Topology diffusion and global routing capture nonlocal interactions through differen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Expanding Macrocyclic Topology through Cysteine-to-N-Terminal Cyclisation Enables Covalent Peptide Inhibitor Discovery",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749435",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Macrocyclic peptides are an attractive therapeutic modality capable of engaging challenging protein targets while retaining many favourable drug-like properties. Their high-affinity binding also provides an ideal framework for proximity-driven covalent inhibition through incorporation of latent electrophiles. Phage display enables the high-throughput scre...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Mechanism of R2ab-mediated Attachment to Polystyrene Surfaces in Staphylococcus epidermidis.",
+      "url": "https://doi.org/10.1016/j.jbc.2026.113533",
+      "source": "PubMed — The Journal of biological chemistry",
+      "one_liner": "The staphylococcal autolysin protein hydrolyzes cell wall peptidoglycans. The R2ab repeats of autolysin guide the catalytic domain by binding to cell wall components and mediate attachment to abiotic surfaces during biofilm formation on polystyrene. Characterizing protein interactions with surfaces is a significant challenge in understanding bacterial att...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI Has Solved One of Math’s $1 Million Millennium Prize Problems",
+      "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+      "source": "Quanta Magazine",
+      "one_liner": "Mathematicians at OpenAI showed that the Navier-Stokes equations, which describe how fluids flow, can sometimes “blow up.” But the massive result is not without controversy. The post AI Has Solved One of Math’s $1...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}

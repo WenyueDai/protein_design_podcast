@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 07:27:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 07:23:28 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-09-09</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-09/podcast_2026-09-09.mp3</guid>
+      <pubDate>Wed, 09 Sep 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-09/podcast_2026-09-09.mp3" length="19997181" type="audio/mpeg" />
+      <description>Asimov Press is back with a model that tries to turn a good science story into real‑world progress, and that shift matters because it pairs fact‑checked reporting with concrete support — microgrants, workshops, dinners and fundraising help — so that an article about, say, broad‑spectrum prophylactics can actually lead to a $50 million UK program, as happened with Brian Wang’s piece. | Meanwhile, AlphaFold3 is being put to work on a shrimp virus. | In the legume‑rhizobium symbiosis, researchers built a cross‑kingdom interactome between Medicago truncatula and Sinorhizobium meliloti with AlphaFold3 and found that a DNF2‑centered interface is required for proper nodule formation.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Asimov Press is back with a model that tries to turn a good science story into real‑world progress, and that shift matters because it pairs fact‑checked reporting with concrete support — microgrants, workshops, dinners and fundraising help — so that an article about, say, broad‑spectrum prophylactics can actually lead to a $50 million UK program, as happened with Brian Wang’s piece. | Meanwhile, AlphaFold3 is being put to work on a shrimp virus. | In the legume‑rhizobium symbiosis, researchers built a cross‑kingdom interactome between Medicago truncatula and Sinorhizobium meliloti with AlphaFold3 and found that a DNF2‑centered interface is required for proper nodule formation.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-09-08</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-08/podcast_2026-09-08.mp3</guid>
       <pubDate>Tue, 08 Sep 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-08/podcast_2026-09-08.mp3" length="21407901" type="audio/mpeg" />
-      <description>Today’s batch of papers nudges several corners of protein science toward a more integrated, predictive mindset. | A second shift appears in the codon‑optimization work that couples a transformer with contrastive learning to boost human protein expression. | Third, the soluble Vpu–calmodulin study highlights a previously overlooked interaction: a cytosolic form of the HIV‑1 Vpu protein binding Ca²⁺‑loaded calmodulin with measurable affinity, a finding that could reroute how we think about Vpu’s role in viral trafficking.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-08/podcast_2026-09-08.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today’s batch of papers nudges several corners of protein science toward a more integrated, predictive mindset. | A second shift appears in the codon‑optimization work that couples a transformer with contrastive learning to boost human protein expression. | Third, the soluble Vpu–calmodulin study highlights a previously overlooked interaction: a cytosolic form of the HIV‑1 Vpu protein binding Ca²⁺‑loaded calmodulin with measurable affinity, a finding that could reroute how we think about Vpu’s role in viral trafficking.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-11/podcast_2026-07-11.mp3</guid>
       <pubDate>Sat, 11 Jul 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-11/podcast_2026-07-11.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-07-10</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-10/podcast_2026-07-10.mp3</guid>
-      <pubDate>Fri, 10 Jul 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-10/podcast_2026-07-10.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
