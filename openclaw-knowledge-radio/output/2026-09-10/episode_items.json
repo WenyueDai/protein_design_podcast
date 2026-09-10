@@ -1,0 +1,299 @@
+{
+  "timestamps": [
+    0.0,
+    247.6,
+    450.83,
+    632.89,
+    787.18,
+    968.07,
+    1148.57,
+    1360.7,
+    1538.39,
+    1680.16,
+    1902.7
+  ],
+  "items": [
+    {
+      "title": "OPunting 2026",
+      "url": "https://www.blopig.com/blog/2026/09/opunting-2026/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "On 16th July, fresh after England’s clean defeat to Argentina, OPIG took to the high seas. The OPIGlets pooled our resources and procured punts from many different berths. Organised by Admiral Alexander Hasson, we departed from the Cherwell boathouse and shipped out upriver to the Vicky Arms. Bushes were clipped, banks were mounted, and dignity [\b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "One Year Down: Wisdom from a Former OPIG Newbie",
+      "url": "https://www.blopig.com/blog/2026/09/one-year-down-wisdom-from-a-former-opig-newbie/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "With a new cohort of PhD students arriving imminently and my first year coming to a close, I am about to achieve an important milestone: I will no longer be the newest full-time OPIGlet in the group! Naturally, this makes me extremely qualified to impart wisdom. In all seriousness, the first year of a PhD […]",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "Supervised Protein Structure Classification Using Topological Persistence With DeltaFold.",
+      "url": "https://doi.org/10.1002/prot.70163",
+      "source": "PubMed — Proteins",
+      "one_liner": "Recent advances in protein structure prediction have considerably increased the number of available structures, underscoring the need for scalable and accurate methods to compare and classify this huge amount of data. Current approaches based on sequence alignment or structural superposition often lack sensitivity and/or are computationally expensive. Her...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Foldseek-Interface reveals a protein interface universe far from complete",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746585",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein-protein interactions mediate a vast range of cellular functions, requiring diverse modes of binding. While recent years have seen major efforts to chart and classify the protein structure universe, we lack comparable methods to assess and cluster that diversity in interface structure at interactome scale. Here, we present Foldseek-Interface, a met...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Balanced regulation of UvsX activity and thermostability based on active learning.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154387",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Recombinase polymerase amplification (RPA) enables isothermal nucleic acid detection. However, the key enzyme UvsX of RPA exhibits suboptimal efficiency at low-temperature conditions and low template concentration. Here, we employed a directed engineering strategy combining energy-based screening and protein language models (PLMs). Through semi rational d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Advanced data driven models based on machine learning for detection of faults and failures in solar based renewable energy systems.",
+      "url": "https://doi.org/10.1038/s41598-026-70796-9",
+      "source": "PubMed — Scientific reports",
+      "one_liner": "The rapid expansion of renewable energy systems demands reliable fault detection and prediction to ensure operational efficiency and grid stability. This study presents a novel framework that integrates Extended Kalman Filter (EKF) state estimation with uncertainty-aware graph learning for photovoltaic (PV) array fault detection and localization. Raw sens...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "LAMBDA: a prophage detection benchmark for genomic language models.",
+      "url": "https://doi.org/10.1093/nargab/lqag103",
+      "source": "PubMed — NAR genomics and bioinformatics",
+      "one_liner": "Transformer-based genomic sequence models represent an emerging frontier in computational biology. Yet, their embeddings have not yet shown the same level of predictive power as natural and protein language models, highlighting a gap between current implementations and theoretical promise. Existing benchmarks for DNA language models primarily focus on cla...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evaluation of machine learning models for predicting mastitis in dairy cows using dielectric properties and other milk quality parameters.",
+      "url": "https://doi.org/10.1016/j.rvsc.2026.106391",
+      "source": "PubMed — Research in veterinary science",
+      "one_liner": "Early and accurate detection of mastitis is essential for improving udder health, milk quality and dairy farm productivity. This study evaluated machine learning models for estimating somatic cell count (SCC) from physico-chemical milk parameters integrated with dielectric properties and for assigning SCC derived udder health categories. A total of 982 lo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Carrier-Lattice Coupling Drives Oxidative Degradation in Mixed Tin-Lead Halide Perovskites: Machine Learning Combined with Nonadiabatic Molecular Dynamics.",
+      "url": "https://doi.org/10.1021/jacs.6c10222",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "Mixed Sn-Pb halide perovskites exhibit excellent optoelectronic properties but suffer rapid degradation due to the facile oxidation of Sn2+ to Sn4+. Here, we establish a multiscale framework to uncover how cation ordering, surface defect chemistry, hole localization, and carrier dynamics collectively drive the initiation of Sn oxidation in FAPb0.5Sn0.5I3 ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Application of machine learning techniques to automate speech mispronunciation detection in children and adolescents.",
+      "url": "https://doi.org/10.1590/1678-7765-2026-0078",
+      "source": "PubMed — Journal of applied oral science : revista FOB",
+      "one_liner": "INTRODUCTION: Speech sound disorders (SSDs) are common in children and can affect academic and psychosocial outcomes. Clinical identification relies on expert auditory-perceptual assessment, which is time-intensive and may vary across raters. Automated screening tools could support triage when access to specialists is limited. OBJECTIVE: This study aimed ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Combinatorial Lid-Domain Engineering and Computational Design Enable Simultaneous Enhancement of Activity and Thermostability of D-Allulose 3-Epimerase.",
+      "url": "https://doi.org/10.1021/acs.jafc.6c08333",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "d-Allulose is a promising low-calorie rare sweetener; however, its industrial production is limited by the insufficient catalytic activity and thermostability of d-allulose 3-epimerases (DAEases). In this study, a combinatorial engineering strategy integrating lid-domain modulation and computational design was developed to improve enzyme performance. Lid ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cross-docking and redocking reveal distinct determinants of success in physics-based and AI-driven binding pose prediction in protein-ligand complexes.",
+      "url": "https://doi.org/10.1039/d6ra05440d",
+      "source": "PubMed — RSC advances",
+      "one_liner": "Protein-ligand pose prediction is central to structure-based drug discovery, yet the relative performance of physics-based and AI-driven methods under realistic cross-docking conditions remains insufficiently characterized. Here, we compare physics-based docking methods (AutoDock4, AutoDock Vina, and DOCK 6) with data-driven approaches, including the deep...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Novel Sleep-Promoting Peptides from Sea Cucumbers Targeting the GABAa Receptor Identified by a Multitechnique Approach of Proteolysis Simulation, Molecular Docking, and Pharmacophore Modeling.",
+      "url": "https://doi.org/10.1021/acs.jafc.6c03771",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "The study aimed to screen novel sleep-promoting oligopeptides from sea cucumbers. Proteolysis simulation, conducted on proteins that do not represent the primary structural components of the sea cucumber body wall, confirmed that alcalase and chymotrypsin were optimal for preparing sea cucumber oligopeptides. Two novel sleep-promoting peptides, Leu-Phe-Al...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Proximity labeling puts ZFP36L1 as central hub for posttranscriptional regulation networks in T cells.",
+      "url": "https://doi.org/10.26508/lsa.202603825",
+      "source": "PubMed — Life science alliance",
+      "one_liner": "Effective T cell responses against pathogens require a rapid yet tightly controlled remodeling of the proteome, and RNA binding proteins (RBPs) are key in this process. For instance, the RBP ZFP36L1 prevents excessive protein production and thereby limits immunopathology. ZFP36L1 is primarily known to mediate mRNA decay, but it can also regulate other pro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Membrane Proteins at Scale: Automated Copolymer Nanodisc Purification for Structure and Function",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.09.05.674548",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Membrane proteins remain among the most important yet least accessible classes of drug targets. Conventional detergents can remove native lipids, destabilizing proteins and limiting downstream biochemistry and structural biology. Amphiphilic copolymers offer a powerful alternative, directly extracting membrane proteins in their native lipid environment, b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Impact of Proline-Rich Salivary Proteins on Interactions between Catechin and Polysaccharides.",
+      "url": "https://doi.org/10.1021/acs.jafc.6c07975",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "The modulation of interactions between catechin and two structurally distinct wine polysaccharides (mannan and pectin) by proline-rich salivary proteins (PRPs) was investigated using saturation transfer difference nuclear magnetic resonance (STD NMR). Mannan-catechin interactions, driven by CH-π stacking and hydrophobic effects, were weakened by both acid...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Potassium substitution compensates for saltiness loss by regulating the microstructure and promoting sodium diffusion in κ-carrageenan-myofibrillar protein composite gels under low ionic strength.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154423",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "This study investigated the effects of KCl substitution for NaCl on the structural properties, Na",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Precision covalent chemistry: Advances in selectivity-driven covalent drug design over the past five years.",
+      "url": "https://doi.org/10.1016/j.ejmech.2026.119314",
+      "source": "PubMed — European journal of medicinal chemistry",
+      "one_liner": "Covalent inhibitors bind tightly and persistently to protein targets via covalent links with nucleophilic amino acids, yet unintended covalent modification of irrelevant proteins creates major safety risks and restricts their clinical use. To tackle this issue, researchers have shifted from reactivity-centered design to selectivity-prioritized engineering...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural and Functional Perspectives of α-L-Rhamnosidase in Glycoside Biotransformation, Therapeutic Applications, and Enzyme Engineering.",
+      "url": "https://doi.org/10.1021/acs.jafc.6c08020",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "α-L-Rhamnosidase is a glycoside hydrolase (GH) that cleaves α-L-rhamnosidic bonds in diverse natural substrates, including oligosaccharides, glycoproteins, flavonoids, and glycolipids that contain terminal L-rhamnose. Owing to its broad substrate specificity, it has attracted growing interest in biotechnology, food processing, pharmaceuticals, and natural...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An atlas of non-redundant sequences and structures of transcription factor assemblies across domains of life.",
+      "url": "https://doi.org/10.1016/j.jsb.2026.108369",
+      "source": "PubMed — Journal of structural biology",
+      "one_liner": "Transcription factors (TFs) regulate gene expression by controlling the recruitment of transcriptional machinery to regulatory regions of the genome. Nearly 10% of the human genome encodes TFs, making them one of the largest protein families. Despite their central roles in gene regulation, TFs are historically considered challenging therapeutic targets du...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
