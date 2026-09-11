@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 07:54:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 07:28:29 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-09-11</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-11/podcast_2026-09-11.mp3</guid>
+      <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-11/podcast_2026-09-11.mp3" length="16982469" type="audio/mpeg" />
+      <description>The first shift comes from a maize meiosis protocol that moves crossover detection from low‑resolution genetic maps or cytological spreads to genome‑wide, base‑pair‑level profiling using chromatin immunoprecipitation‑sequencing. | A second shift appears in the work on de novo BCMA binders for chimeric antigen receptors. | A third shift is evident in the HighMorph framework for cyclic peptide design.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The first shift comes from a maize meiosis protocol that moves crossover detection from low‑resolution genetic maps or cytological spreads to genome‑wide, base‑pair‑level profiling using chromatin immunoprecipitation‑sequencing. | A second shift appears in the work on de novo BCMA binders for chimeric antigen receptors. | A third shift is evident in the HighMorph framework for cyclic peptide design.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-09-10</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-10/podcast_2026-09-10.mp3</guid>
       <pubDate>Thu, 10 Sep 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-10/podcast_2026-09-10.mp3" length="16074621" type="audio/mpeg" />
-      <description>The first shift comes from a surprisingly human source: a blog post from the Oxford Protein Informatics Group recounting a punting outing on the Cherwell. | The second shift is more explicit: a former OPIG newbie’s reflection on her first PhD year argues that adding personal structure, regular breaks, community involvement, and outside hobbies boosts productivity and well‑being. | A third shift appears in the work on supervised protein structure classification using topological persistence with DeltaFold.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-10/podcast_2026-09-10.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The first shift comes from a surprisingly human source: a blog post from the Oxford Protein Informatics Group recounting a punting outing on the Cherwell. | The second shift is more explicit: a former OPIG newbie’s reflection on her first PhD year argues that adding personal structure, regular breaks, community involvement, and outside hobbies boosts productivity and well‑being. | A third shift appears in the work on supervised protein structure classification using topological persistence with DeltaFold.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-13/podcast_2026-07-13.mp3</guid>
       <pubDate>Mon, 13 Jul 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-13/podcast_2026-07-13.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-07-12</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-12/podcast_2026-07-12.mp3</guid>
-      <pubDate>Sun, 12 Jul 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-12/podcast_2026-07-12.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
