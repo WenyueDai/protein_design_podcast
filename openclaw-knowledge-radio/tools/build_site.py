@@ -1352,6 +1352,7 @@ function _updateOwnerUI() {{
     document.body.classList.remove('owner-mode');
   }}
   _renderOwnerAlert(_bakedOwnerAlert);
+  _updateNoteButtons();
 }}
 
 // ── Save feedback to GitHub ───────────────────────────────────────────────
