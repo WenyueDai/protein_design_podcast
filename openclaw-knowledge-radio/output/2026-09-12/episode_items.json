@@ -1,0 +1,282 @@
+{
+  "timestamps": [
+    0.0,
+    203.49,
+    480.98,
+    668.0,
+    864.54,
+    1025.67,
+    1207.46,
+    1402.89,
+    1488.9,
+    1703.8,
+    1763.72
+  ],
+  "items": [
+    {
+      "title": "Multi-state Structure Prediction of G Protein-Coupled Receptor Proteins via Prompting on AlphaFold.",
+      "url": "https://doi.org/10.34133/csbj.0179",
+      "source": "PubMed — Computational and structural biotechnology journal",
+      "one_liner": "G protein-coupled receptors (GPCRs), an essential family of transmembrane proteins, widely participate in signal transduction in organisms and have long been recognized as a major class of therapeutic targets. In structure-based drug design, high-resolution structures of GPCRs in both active and inactive states are essential for designing agonists and ant...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A unifying principle of chromatic coding across biological and artificial systems.",
+      "url": "https://doi.org/10.1126/sciadv.aec6658",
+      "source": "PubMed — Science advances",
+      "one_liner": "Color is a defining feature of human vision, yet its integration with spatial structure across stages of the visual system is still not fully understood. Classical accounts assumed that color provides little spatial information, being represented coarsely and separately from luminance. Here, we show that the spatial selectivity of color is not fixed, but ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Functional alignment of protein language models via reinforcement learning",
+      "url": "https://www.nature.com/articles/s41467-026-77557-2",
+      "source": "Nature - Protein Engineering",
+      "one_liner": "Not stated in source text\n\nMETHOD / APPROACH:\nNot stated in source text.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-engineering",
+        "nature",
+        "topic"
+      ]
+    },
+    {
+      "title": "Bridging the accuracy-speed divide in reactive molecular dynamics with QuantaMind MD.",
+      "url": "https://doi.org/10.1126/sciadv.aeg3595",
+      "source": "PubMed — Science advances",
+      "one_liner": "Simulating chemical reactivity remains a central challenge in molecular dynamics, historically constrained by the trade-off between ab initio accuracy and classical efficiency. We present QuantaMind, a machine learning force field (MLFF) framework that attains density functional theory (DFT)-level accuracy, enabling fully reactive simulations of complex m...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence applications in out-of-hospital cardiac arrest: an analysis of emerging research trends.",
+      "url": "https://doi.org/10.1186/s12245-026-01376-x",
+      "source": "PubMed — International journal of emergency medicine",
+      "one_liner": "BACKGROUND: Out-of-hospital cardiac arrest (OHCA) remains a major public health challenge despite advances in emergency medical services (EMS) and resuscitation systems. Artificial intelligence (AI), including machine learning (ML), deep learning (DL), and artificial neural networks, is increasingly being investigated for applications spanning cardiac arr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Analog neural network-based wireless receiver.",
+      "url": "https://doi.org/10.1126/sciadv.aeg7153",
+      "source": "PubMed — Science advances",
+      "one_liner": "Traditional wireless receivers underperform in complex propagation environments and in the presence of nonlinear interference. Although data-driven artificial intelligence models offer a promising alternative, their implementation on conventional digital processing platforms is often limited by energy consumption and latency. Here, we present an analog wi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Necessity of a Dual-Engine Paradigm: Resolving the Robustness-Adaptability Trade-off in Anomaly Detection.",
+      "url": "https://doi.org/10.1109/TPAMI.2026.3733282",
+      "source": "PubMed — IEEE transactions on pattern analysis and machine intelligence",
+      "one_liner": "The trade-off between model-driven robustness and data-driven adaptability is a fundamental challenge in machine learning, particularly for anomaly detection in non-stationary environments. Here, we prove mathematically that no single-engine architecture can overcome a detection completeness lower bound- any monolithic model must sacrifice either robustne...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "State-of-the-Art Artificial Intelligence Frameworks and Models for Diagnostic Veterinary Anatomy.",
+      "url": "https://doi.org/10.1016/j.aanat.2026.153377",
+      "source": "PubMed — Annals of anatomy = Anatomischer Anzeiger : official organ of the Anatomische Gesellschaft",
+      "one_liner": "BACKGROUND: Artificial intelligence (AI) is increasingly being used in diagnostic veterinary anatomy to assist with medical-image interpretation, anatomical segmentation, disease recognition, and quantitative morphometric measurements. Even so, evidence specific to this area remains fragmented, particularly with regard to the performance of individual AI ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Modular Surface Engineering of Feline Parvovirus Virus-Like Particles for Antigen Presentation and Receptor-Mediated Cell Targeting",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750088",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Virus-like particles (VLPs) are non-infectious, multiprotein nanostructures that mimic the architecture of viruses while lacking genetic material. Their structural versatility and safety profile make them promising platforms for biomedical applications, including vaccine development, targeted drug delivery, and diagnostics. Among various functionalization...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Contrasting dynamic and mechanistic signatures of Class 3 and Class 4 neutralizing antibodies targeting SARS-CoV-2 spike protein: dissecting molecular determinants of neutralization mechanisms using a multi-pronged computational approach.",
+      "url": "https://doi.org/10.1039/d6cp02673g",
+      "source": "PubMed — Physical chemistry chemical physics : PCCP",
+      "one_liner": "Neutralizing antibodies targeting the SARS-CoV-2 spike receptor-binding domain (RBD) exhibit distinct patterns of potency, breadth, and resilience, yet the molecular mechanisms underlying these differences remain incompletely understood. Here, we employ an integrated computational framework combining structural analysis, conformational dynamics, mutationa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beyond Structural Representations: A Semantic-Relational Graph Neural Network for Polypharmacy Side Effect Prediction.",
+      "url": "https://doi.org/10.1007/s12539-026-00877-w",
+      "source": "PubMed — Interdisciplinary sciences, computational life sciences",
+      "one_liner": "The concurrent use of several medications, known as polypharmacy, has increased in prevalence, especially among older adults with complex health conditions. Despite its effectiveness, this therapeutic strategy increases the risk of Polypharmacy Side Effects (PSEs), leading to substantial clinical and economic burden. Recent deep learning methods have inte...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structures of MeCP2 bound to nucleosomes reveal distinct mechanisms of Rett syndrome mutations",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750195",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Methyl-CpG binding protein 2 (MeCP2) is a chromatin-associated regulator essential for neuronal gene regulation, and pathogenic mutations in MeCP2 cause Rett syndrome (RTT). However, the mechanisms governing MeCP2 engagement on chromatin and the effects of RTT mutations on nucleosome interactions remain poorly understood. We determined cryo-EM structures ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fragile X syndrome-linked mutations impair FMRP accumulation in neuronal transport granules",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750051",
+      "source": "bioRxiv — neuroscience",
+      "one_liner": "RNA granules are biomolecular condensates that are reversibly formed through multivalent interactions among mRNAs and RNA-binding proteins (RBPs). RNA granules include stress granules and neuronal transport granules, which share common components and functions in translational regulation. Fragile X messenger ribonucleoprotein (FMRP) is an RBP encoded by F...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Characterization of a monoclonal antibody recognizing a conserved linear neutralizing epitope of pseudorabies virus gB protein.",
+      "url": "https://doi.org/10.1007/s00203-026-05094-z",
+      "source": "PubMed — Archives of microbiology",
+      "one_liner": "Pseudorabies virus (PRV), an α-herpesvirus, infects a variety of mammals. It is mainly prevalent in domestic pigs but can also infect humans, posing significant public health risks. The glycoprotein B (gB), a crucial structural protein involved in viral entry and immune recognition, is a key target for neutralizing antibodies of PRV. This study expressed ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PrEditR: A protein-centric platform for CRISPR-mediated base editor sgRNA design",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.15.725600",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Motivation: Post-translational modifications (PTMs) are critical to protein activity, yet the biological role of most known modification sites remains uncharacterized. CRISPR-mediated phenotypic screens using base editors offer a powerful approach to dissecting PTM function at scale. However, existing sgRNA design tools for base editing applications are D...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Stage-specific expression and localization of ETRAMP4 during gametocyte development in the malaria parasite Plasmodium falciparum.",
+      "url": "https://doi.org/10.1016/j.parint.2026.103390",
+      "source": "PubMed — Parasitology international",
+      "one_liner": "The early transcribed membrane protein 4 (ETRAMP4) is one of 14 predicted members of the ETRAMP family in the malaria parasite Plasmodium. All characterized ETRAMP proteins localize to the parasitophorous vacuole membrane (PVM) and associated membranous structures during the early stages of parasite infection of erythrocytes; and are thought to participat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Crystal structure and glycan-binding ability of galectin domain of OsGALT1.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.154571",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "N- linked glycan structures vary across different organisms, and Lewis A glycan represents a unique N-glycoform in plants. The GT31 enzyme GALT1 catalyzes Lewis A glycan synthesis by transferring galactose from UDP-galactose to the terminal GlcNAc of N-glycan branches. Structurally, the plant GALT1 protein is characterized by the presence of both a galact...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dissecting affinity determinants of benzotriazine-based ligands at sigma-1 receptor: a multilevel molecular dynamics analysis.",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.110490",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "The sigma-1 receptor (S1R) is a chaperone protein involved in several physiological and pathological processes and represents an attractive target for the development of neuroactive and anticancer agents. Among S1R ligands, 3,3-disubstituted 3,4-dihydro-1,2,4-benzotriazines constitute a pharmacologically relevant but mechanistically underexplored scaffold...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
+      "url": "https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911/",
+      "source": "Quanta Magazine",
+      "one_liner": "The mystery of the flipping foraminifera may conceal a rarely observed evolutionary process playing out across the planet. The post Why Do These Fossil Shells Flip Their Spirals Every Few Millennia? first a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
