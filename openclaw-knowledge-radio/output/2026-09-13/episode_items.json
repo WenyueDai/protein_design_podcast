@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    227.23,
+    457.96,
+    652.96,
+    784.28,
+    1057.08,
+    1244.88,
+    1417.53,
+    1639.86,
+    1817.77,
+    2031.78
+  ],
+  "items": [
+    {
+      "title": "BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.",
+      "url": "https://doi.org/10.34133/csbj.0220",
+      "source": "PubMed — Computational and structural biotechnology journal",
+      "one_liner": "Human leukocyte antigen (HLA) molecules participate in cellular immune responses by binding to peptide fragments derived from antigens. Exploring this process is crucial to understanding the mechanisms and underlying factors that regulate the cellular immune system. Due to the extreme polymorphism of HLA, the peptides obtained from mass spectrometry of el...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "FANTASIA suite: a reproducible and configurable framework for embedding-based functional annotation of proteins.",
+      "url": "https://doi.org/10.1093/nargab/lqag106",
+      "source": "PubMed — NAR genomics and bioinformatics",
+      "one_liner": "Embedding-based annotation transfer is increasingly used for protein function inference due to protein language models capture sequence, structural, and functional signals that may extend beyond conventional pairwise similarity. However, systematic application of these approaches requires control over model choice, reference composition, lookup parameters...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Antibody CDR-H3 loop flexibility: Insights from X-ray crystallography, structural bioinformatics, and the limits of current deep learning methods.",
+      "url": "https://doi.org/10.1016/j.jsb.2026.108368",
+      "source": "PubMed — Journal of structural biology",
+      "one_liner": "Complementarity Determining Regions (CDRs) in antibodies, and in particular the CDR-H3 loop, often display conformational plasticity that is essential for their function. Due to this flexibility, the structural investigation of antibody-antigen binding cannot exclusively rely on experimental techniques that only provide snapshots of unbound and bound stat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein Language Model Embeddings Recover Evolutionary and Functional Organization Across the Ras Superfamily.",
+      "url": "https://doi.org/10.1007/s00239-026-10349-w",
+      "source": "PubMed — Journal of molecular evolution",
+      "one_liner": "The Ras protein superfamily comprises small GTPases that share a conserved G-domain but differ in flanking regions, regulation, and cellular roles. Because existing classifications rely mainly on G-domain phylogeny, this superfamily provides a useful test case for assessing whether protein language model embeddings recover biologically meaningful sequence...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "VoiceNet: A Responsible Artificial Intelligence Multilingual Speech Framework for Gender and Age Classification.",
+      "url": "https://doi.org/10.3791/73464",
+      "source": "PubMed — Journal of visualized experiments : JoVE",
+      "one_liner": "Accurate gender and age classification from voice data is important for personalized, secure, and ethical human-computer interaction (HCI). With the growing use of large pretrained speech models such as wav2vec 2.0, there is a need to leverage these representations responsibly for multilingual and privacy-aware demographic inference. This study proposes V...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A deep learning framework for histopathological classification of canine testicular tumours.",
+      "url": "https://doi.org/10.1016/j.tvjl.2026.106878",
+      "source": "PubMed — Veterinary journal (London, England : 1997)",
+      "one_liner": "Testicular neoplasms are common in dogs, and their histopathological classification may be challenging in selected cases, particularly when morphological patterns overlap, with potential implications for diagnostic consistency and case management. In this study, we propose an artificial intelligence (AI)-based computational pathology approach for the auto...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.11.737889",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "De novo peptide sequencing detects peptides directly from tandem mass spectra without a protein sequence database, and deep learning has substantially advanced its performance. Casanovo, one such widely used model, is distributed as a Python command-line program. Consequently, installation, GPU and dependency configuration, and manual parameterization can...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design of Multi-Epitope Cancer Vaccine Targeting p53 Tumor Antigen using Myotis lucifugus Sequencers: An Immunoinformatics Approach.",
+      "url": "https://doi.org/10.1007/s12010-026-05901-9",
+      "source": "PubMed — Applied biochemistry and biotechnology",
+      "one_liner": "The p53 tumor suppressor protein is dysregulated in more than 50% of human cancers, representing an attractive target for immunotherapy. However, immune tolerance to the self-antigen limits the effectiveness of traditional p53-based vaccines. The presented study is based on a comprehensive in silico approach to design a multi-epitope cancer vaccine using ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Microalgae protein-carboxymethyl chitosan complexes assembled via hydrogen bonding and hydrophobic interactions for enhanced emulsion stability and retarded lipid digestion.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154480",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Microalgal protein (MP) is a sustainable food resource that is nutritionally rich and environmentally friendly, but it has poor structural stability and limited emulsifying capacity, restricting its application in complex food systems. This study investigated the potential of MP-carboxymethyl chitosan (CMCS) complexes to stabilize emulsions under environm...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An ultralow-background far-red light-responsive optogenetic tool based on an engineered biliverdin-binding domain.",
+      "url": "https://doi.org/10.1038/s41592-026-03223-6",
+      "source": "PubMed — Nature methods",
+      "one_liner": "The robustness and broad applicability of an optogenetic tool depends heavily on the properties of the underlying photoreceptor protein and its cognate binding partner-the light-responsive 'core'. Current red light optogenetic systems for mammalian cells rely on phytochrome-based photoreceptors: large (70-kDa) proteins that act as dimers, enforcing dimeri...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "High-Throughput Technologies for Targeted Covalent Drug Discovery: Recent Advances and Perspectives.",
+      "url": "https://doi.org/10.1002/chem.71680",
+      "source": "PubMed — Chemistry (Weinheim an der Bergstrasse, Germany)",
+      "one_liner": "Covalent drugs have attracted increasing attention in modern drug discovery because of their prolonged target engagement, enhanced pharmacological efficacy, and potential to address traditionally challenging protein targets. The rapid development of electrophilic warhead chemistry, chemical biology methods, and high-throughput screening technologies has s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Genome-wide CRISPRi screen in human iNeurons identifies novel negative mTOR regulator genes associated with focal cortical dysplasia.",
+      "url": "https://doi.org/10.1016/j.nbd.2026.107602",
+      "source": "PubMed — Neurobiology of disease",
+      "one_liner": "Focal cortical dysplasia (FCD) is a common cause of focal epilepsy that typically results from brain mosaic mutations in the mTOR cell signaling pathway. To identify new potential FCD genes, we developed an in vitro CRISPRi screen in human neurons and used FACS enrichment based on the FCD biomarker, phosphorylated S6 ribosomal protein (pS6). Using whole-g...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep learning-based CT model for non-invasive prediction of tertiary lymphoid structures in pancreatic cancer: a multicenter study with prospective validation in an immunochemotherapy cohort.",
+      "url": "https://doi.org/10.1136/jitc-2026-015705",
+      "source": "PubMed — Journal for immunotherapy of cancer",
+      "one_liner": "BACKGROUND: Pancreatic ductal adenocarcinoma (PDAC) remains one of the most lethal malignancies. Tertiary lymphoid structures (TLS) have emerged as key components of the tumor immune microenvironment, associated with improved survival and enhanced immunotherapy response. However, non-invasive detection of TLS remains a significant clinical challenge. OBJE...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mechanistic insights into Mfd inhibition by pharmacophore-guided ligands using molecular and steered molecular dynamics simulations.",
+      "url": "https://doi.org/10.1080/07391102.2026.2729828",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "Antimicrobial resistance remains difficult to control because many bacteria rely on DNA repair pathways that help them survive antibiotic stress. One of the key players in this response is the Mutation Frequency Decline protein (Mfd), a transcription repair coupling factor that supports mutagenesis and persistence. Targeting Mfd therefore represents a pro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Expanding the E3 Ligase Landscape: From Small Molecule to Biological Targeted Protein Degradation.",
+      "url": "https://doi.org/10.1007/164_2026_842",
+      "source": "PubMed — Handbook of experimental pharmacology",
+      "one_liner": "Targeted protein degradation (TPD), particularly proteolysis-targeting chimeras (PROTACs), has emerged as a powerful strategy for eliminating disease-associated proteins through the ubiquitin-proteasome system. However, current PROTACs rely heavily on a limited number of E3 ligases, mainly CRBN and VHL, due to the scarcity of suitable ligands. This review...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Gradient-based Optimization for mRNA Sequence Design.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag667",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Designing mRNA coding sequences that simultaneously optimize RNA accessibility in the translation initiation region and codon adaptation while preserving the encoded protein requires navigating a vast discrete combinatorial space. The inherently discrete nature of codon choices prevents direct application of gradient-based optimization, despit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Super compensatory substitutions restore protein function and confer mutational robustness",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.01.11.631697",
+      "source": "bioRxiv — evolutionary biology",
+      "one_liner": "Compensatory mutations can mitigate the fitness costs of deleterious mutations, yet their distribution, structural contexts, and evolutionary roles remain poorly characterized. Here, we systematically analyzed a public deep mutational scanning (DMS) dataset comprising ~400,000 amino acid variants of imidazole glycerol-phosphate dehydratase (IGPD), with su...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "MutexaGPT: an intuition-to-design translator for physics-based enzyme engineering.",
+      "url": "https://doi.org/10.1038/s43588-026-01049-y",
+      "source": "PubMed — Nature computational science",
+      "one_liner": "Physical intuition about how enzyme structure and dynamics shape function has guided successful engineering efforts, yet a systematic approach is still lacking for translating these qualitative and abstract 'thoughts' into quantitative, actionable principles for enzyme design. Here we introduce MutexaGPT, an open-access, multi-agent large language model p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}

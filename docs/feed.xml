@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2026 07:15:44 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 07:29:55 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-09-13</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-13/podcast_2026-09-13.mp3</guid>
+      <pubDate>Sun, 13 Sep 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-13/podcast_2026-09-13.mp3" length="17426373" type="audio/mpeg" />
+      <description>Today’s batch of papers nudges the field toward a more nuanced, context‑aware view of how sequence information translates into function, and it does so by pairing concrete methodological advances with clear biological examples. | Second, the study of antibody CDR‑H3 loops reminds us that crystal structures are static snapshots, yet the loops that confer antigen specificity are intrinsically pliable. | Third, the BeitAI‑pHLA work tackles the notorious polymorphism of HLA molecules by framing peptide binding as a multi‑instance learning problem: each peptide‑HLA pair is represented as a bag of possible binding registers, and a protein language model supplies the sequence‑level features.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>Today’s batch of papers nudges the field toward a more nuanced, context‑aware view of how sequence information translates into function, and it does so by pairing concrete methodological advances with clear biological examples. | Second, the study of antibody CDR‑H3 loops reminds us that crystal structures are static snapshots, yet the loops that confer antigen specificity are intrinsically pliable. | Third, the BeitAI‑pHLA work tackles the notorious polymorphism of HLA molecules by framing peptide binding as a multi‑instance learning problem: each peptide‑HLA pair is represented as a bag of possible binding registers, and a protein language model supplies the sequence‑level features.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-09-12</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-12/podcast_2026-09-12.mp3</guid>
       <pubDate>Sat, 12 Sep 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-12/podcast_2026-09-12.mp3" length="16007133" type="audio/mpeg" />
-      <description>Today’s batch of papers shows how a few concrete shifts are reshaping the way we think about protein structure, dynamics, and even the broader impact of AI in biomedical research. | One project that comes to mind is taking the prompting strategy they used to coax AlphaFold into sampling multiple GPCR conformations and applying it to design covalent inhibitors that only react in the active state. | Another direction is to borrow the unifying principle of chromatic coding from the color‑vision paper and build a hybrid optogenetic sensor that reports both membrane voltage and local pH by shifting its excitation spectrum.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-12/podcast_2026-09-12.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Today’s batch of papers shows how a few concrete shifts are reshaping the way we think about protein structure, dynamics, and even the broader impact of AI in biomedical research. | One project that comes to mind is taking the prompting strategy they used to coax AlphaFold into sampling multiple GPCR conformations and applying it to design covalent inhibitors that only react in the active state. | Another direction is to borrow the unifying principle of chromatic coding from the color‑vision paper and build a hybrid optogenetic sensor that reports both membrane voltage and local pH by shifting its excitation spectrum.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-15/podcast_2026-07-15.mp3</guid>
       <pubDate>Wed, 15 Jul 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-15/podcast_2026-07-15.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-07-14</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-14/podcast_2026-07-14.mp3</guid>
-      <pubDate>Tue, 14 Jul 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-14/podcast_2026-07-14.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
