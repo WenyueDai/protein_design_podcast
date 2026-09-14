@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    209.42,
+    303.64,
+    516.2,
+    697.98,
+    924.96,
+    1107.46,
+    1337.16,
+    1543.02,
+    1743.06,
+    2341.38
+  ],
+  "items": [
+    {
+      "title": "Systematic benchmarking of AlphaFold and SWISS-MODEL kinase structures for structure-based drug discovery.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109571",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "Accurate protein structure prediction is fundamental to structure-based drug discovery. However, the practical performance of deep learning-based models such as AlphaFold compared with traditional homology modeling approaches like SWISS-MODEL remains incompletely evaluated in realistic drug-design workflows. Here, we systematically benchmark AlphaFold2 an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Intramolecular determinants of Retinoid X receptor involved in heterodimeric interactions with its partner PXR: Implications in receptor dynamics and mitotic chromatin interactions.",
+      "url": "https://doi.org/10.1016/j.lfs.2026.124677",
+      "source": "PubMed — Life sciences",
+      "one_liner": "AIMS: Retinoid X Receptor (RXR) is a central nuclear receptor (NR) that functions as an obligate heterodimeric partner for multiple NRs, including Pregnane X Receptor (PXR), to regulate diverse target gene expression. While subcellular localization of NRs is critical for cellular function, select NRs have been reported to associate with mitotic chromatin,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Agentic-AI-ready genome-wide poxvirus-host interaction screen refined by a protein language model",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750412",
+      "source": "bioRxiv — systems biology",
+      "one_liner": "Recent mpox outbreaks highlight the necessity to understand the interactions between poxviruses and the human host. These can be discovered systematically through screening for host genes involved in infection at the single-cell level using RNA interference. However, off-target effects and assay noise obscure true gene-phenotype relationships, hampering t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting Collision Cross Sections with GRACE: Geometric Residual Adduct Conditioning via Early-fusion",
+      "url": "https://arxiv.org/abs/2609.12223",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2609.12223v1 Announce Type: cross \nAbstract: Collision cross section (CCS), derived from ion mobility mass spectrometry, is a common descriptor for molecular annotation. Prediction is challenging for machine learning models because it reflects the size, shape, and ionization state of a gas-phase molecular ion. Most predictors either ignore explicit ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Machine learning-assisted optimization of a BK7/Ag/As₂S₃/graphene surface plasmon resonance biosensor for high-sensitivity urine glucose detection.",
+      "url": "https://doi.org/10.1016/j.saa.2026.128775",
+      "source": "PubMed — Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+      "one_liner": "Blood glucose monitoring remains challenging due to the invasiveness of finger-prick methods, enzyme instability in electrochemical sensors, and the limitations of laboratory-based techniques for continuous real-time detection. This study presents a theoretically optimized multilayer surface plasmon resonance (SPR) biosensor based on a BK7 prism/silver/ar...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-Guided Identification of GPR84 Ligand Candidates With Potential Immunomodulatory Activities.",
+      "url": "https://doi.org/10.1002/cmdc.70488",
+      "source": "PubMed — ChemMedChem",
+      "one_liner": "GPR84, a medium-chain fatty acid (MCFA)-sensing G protein-coupled receptor, plays a significant role in immune regulation. Despite its therapeutic potential, structurally diverse and well-characterized chemical probes of GPR84 remain limited. In the current study, we developed a novel structure-guided and dual-route pipeline to explore and prioritize smal...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Towards reconstruction of the human interactome from positive and negative experimental evidence",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750397",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein-protein interactions (PPIs) have been detected and reported in the millions, but while they are used in many different contexts for better understanding cellular processes in health and disease, the knowledge of the human PPI network is far from complete, containing many false positive measurements and being highly biased. Both to chart the extent...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Platform for Repeated Electric Field Stimulation of Organotypic Spinal Cord Slice Cultures Enables Comparison of Myelin Basic Protein Signal Across Stimulation Paradigms.",
+      "url": "https://doi.org/10.1016/j.jneumeth.2026.110908",
+      "source": "PubMed — Journal of neuroscience methods",
+      "one_liner": "BACKGROUND: Electric field (EF) stimulation is a promising strategy to promote repair in the central nervous system (CNS). The cellular mechanisms underlying CNS repair induced by multi-day subthreshold EF stimulation remain poorly understood, in part because systematic exploration of stimulation parameter space is challenging in animal models. Rat organo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Micron-scale lactoferrin proteinosomes potentiate immune activation and chemo-immunotherapy in breast cancer.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154404",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Efficient uptake by antigen-presenting cells (APCs) is critical for the immunostimulatory performance of protein-based adjuvants, yet soluble proteins often suffer from poor cellular internalization and transient immune activation. Here, we report a hierarchical micron-scale assembly strategy to construct lactoferrin proteinosomes (LPs) via interfacial se...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The insect effector CSPs activate an atypical plant TNL immune receptor.",
+      "url": "https://doi.org/10.1007/s00299-026-03972-w",
+      "source": "PubMed — Plant cell reports",
+      "one_liner": "CSP-mediated activation of RCSP involves noncanonical structural and catalytic mechanisms-including BB-loop deletion, α5α6-loop insertion, and atypical catalytic residues within the RCSP-TIR domain. Chemosensory proteins (CSPs), a conserved effector family in phloem-feeding insects such as aphids and the brown planthopper (Nilaparvata lugens), induce dwar...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "IGFBP7 promotes sepsis-induced multiple organ dysfunction by enhancing OGDH-mediated succinate accumulation.",
+      "url": "https://doi.org/10.1016/j.jare.2026.09.013",
+      "source": "PubMed — Journal of advanced research",
+      "one_liner": "INTRODUCTION: Sepsis is a life-threatening systemic inflammatory syndrome frequently complicated by multiple organ dysfunction, yet the molecular mechanisms driving organ failure during sepsis remain poorly understood. Insulin-like growth factor-binding protein 7 (IGFBP7) has been implicated in various organ diseases; however, its role in sepsis-induced m...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Inhibition of YAP signaling suppresses fibrosis and posterior capsular opacification in preclinical models of cataract surgery.",
+      "url": "https://doi.org/10.1016/j.cellsig.2026.112889",
+      "source": "PubMed — Cellular signalling",
+      "one_liner": "PURPOSE: A frequent fibrotic sequela following cataract intervention is posterior capsular opacification (PCO), which is primarily triggered by lens epithelial cells (LECs) undergoing epithelial-mesenchymal transition (EMT). The objective of this research was to examine how yes-associated protein (YAP) modulates EMT in LECs and to determine the contributi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Microtubule posttranslational modifications provide unique recognition patterns for associated proteins.",
+      "url": "https://doi.org/10.1038/s44318-026-00908-8",
+      "source": "PubMed — The EMBO journal",
+      "one_liner": "Microtubules are key components of the eukaryotic cytoskeleton involved in vital functions in virtually every cell. Among the emerging molecular mechanisms to adapt microtubules to their diverse functions is the biochemical diversification of tubulin molecules by posttranslational modifications (PTMs) and differential gene expression, a concept known as t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Explainable Multi-planar Multi-slice Learning for Efficient 3D MRI Knee Osteoarthritis Classification.",
+      "url": "https://doi.org/10.1007/s10278-026-02251-0",
+      "source": "PubMed — Journal of imaging informatics in medicine",
+      "one_liner": "Accurate multi-class grading of knee osteoarthritis (OA) from magnetic resonance imaging (MRI) remains challenging due to subtle inter-class differences and high structural similarity between adjacent Kellgren-Lawrence (KL) grades. While deep convolutional neural networks have shown promise in OA classification, existing approaches often rely on large par...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The Calcium-Sensing Receptor in Chronic Kidney Disease-Mineral and Bone Disorder: Structural Biology, Biased Signaling, Osteoimmune Crosstalk, and Therapeutic Implications.",
+      "url": "https://doi.org/10.1016/j.ejphar.2026.179338",
+      "source": "PubMed — European journal of pharmacology",
+      "one_liner": "The calcium-sensing receptor (CaSR) is a Family C G protein-coupled receptor (GPCR) that functions as a principal sensor of extracellular calcium ions ([Ca",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Open-Source R Shiny Dashboard (Global Burden of Disease Analysis Suite) for Multimethod Burden of Disease Research: Development and Evaluation Study.",
+      "url": "https://doi.org/10.2196/98718",
+      "source": "PubMed — JMIR medical informatics",
+      "one_liner": "BACKGROUND: The Global Burden of Disease (GBD) study provides the most comprehensive global burden estimates available, but translating GBD data downloads into structured analyses requires an integrated, multimethod workflow spanning trend estimation, changepoint detection, demographic decomposition, frontier benchmarking, and health inequality measuremen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hybrid feature engineering for resource-efficient Arrhythmia detection in electrocardiogram signals: An interpretable, separability-driven framework.",
+      "url": "https://doi.org/10.1016/j.compbiomed.2026.111933",
+      "source": "PubMed — Computers in biology and medicine",
+      "one_liner": "Deep neural networks dominate automated arrhythmia detection, yet their reported performance often relies on intra-patient evaluation, which allows models to exploit patient-specific morphology rather than learn disease-related patterns. Such shortcuts are unavailable in deployed edge monitors, motivating a fundamental question: is arrhythmia detection pr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Bombyx mori silk fibroin alleviates alcohol-induced liver injury via modulation of the gut-liver axis.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154496",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Alcohol-induced liver disease (ALD) remains a major global health burden with limited therapeutic options. Modulating the gut microbiota has emerged as a promising strategy for ameliorating ALD. Bombyx mori silk fibroin (SF), an animal-derived protein with demonstrated gut microbiota-modulating properties, has shown potential in metabolic disease models, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PLSP (Pre-hoc Liminal Space Profiling): OOD Prediction over Detection -- An Anticipatory Approach for Machine Learning Model Reliability",
+      "url": "https://arxiv.org/abs/2609.12225",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.12225v1 Announce Type: new \nAbstract: Out-of-Distribution (OOD) data poses a significant threat to machine learning models, often leading to model failure during deployment. All existing OOD detection methods are post-hoc, relying on evaluation metrics such as accuracy and AUC-ROC during inference to indirectly assess the model's response to OO...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "DiffusionOPD: A Unified Perspective of On-Policy Distillation in Diffusion Models",
+      "url": "https://arxiv.org/abs/2605.15055",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2605.15055v2 Announce Type: replace \nAbstract: Reinforcement learning has emerged as a powerful tool for improving diffusion-based text-to-image models, but existing methods are largely limited to single-task optimization. Extending RL to multiple tasks is challenging: joint optimization suffers from cross-task interference and imbalance, while casc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
