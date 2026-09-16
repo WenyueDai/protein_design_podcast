@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 07:57:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 07:43:48 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-09-16</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-16/podcast_2026-09-16.mp3</guid>
+      <pubDate>Wed, 16 Sep 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-16/podcast_2026-09-16.mp3" length="15585405" type="audio/mpeg" />
+      <description>The field used to rely on antibody‑based readouts to measure how well a drug degrades its target, but today’s work on MALT1 shows that a reagent‑free LC‑MS/MS assay can give absolute protein numbers and degradation percentages without any binding reagent, letting a lead compound be ranked by a DC50 of 5.2 nM in monkey splenocytes and an in vivo degradation of 77.9 % at a single dose. | In cirrhosis research, the assumption that liver disease mainly alters protein expression is being expanded by a glycomics study that profiled 46 serum and 23 IgG N‑glycan peaks using HILIC‑UPLC in just ten healthy controls, seventeen alcohol‑related cirrhosis patients, seven PSC cases and four HCC cases; they found specific increases in agalactosylated (GP4, GP5, GP6) and bisecting GlcNAc‑containing structures and decreases in sialylated traits, changes that correlated with MELD‑Na scores. | AI‑driven drug‑target interaction prediction is moving beyond static docking scores toward learning representations from raw sequences and structures; the review highlights how models now treat proteins and small molecules as graphs or language tokens, enabling the prediction of interactions for targets with no experimental structures—a shift that lets designers prioritize compounds for orphan receptors or splice variants where traditional docking would fail.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field used to rely on antibody‑based readouts to measure how well a drug degrades its target, but today’s work on MALT1 shows that a reagent‑free LC‑MS/MS assay can give absolute protein numbers and degradation percentages without any binding reagent, letting a lead compound be ranked by a DC50 of 5.2 nM in monkey splenocytes and an in vivo degradation of 77.9 % at a single dose. | In cirrhosis research, the assumption that liver disease mainly alters protein expression is being expanded by a glycomics study that profiled 46 serum and 23 IgG N‑glycan peaks using HILIC‑UPLC in just ten healthy controls, seventeen alcohol‑related cirrhosis patients, seven PSC cases and four HCC cases; they found specific increases in agalactosylated (GP4, GP5, GP6) and bisecting GlcNAc‑containing structures and decreases in sialylated traits, changes that correlated with MELD‑Na scores. | AI‑driven drug‑target interaction prediction is moving beyond static docking scores toward learning representations from raw sequences and structures; the review highlights how models now treat proteins and small molecules as graphs or language tokens, enabling the prediction of interactions for targets with no experimental structures—a shift that lets designers prioritize compounds for orphan receptors or splice variants where traditional docking would fail.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-09-15</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-15/podcast_2026-09-15.mp3</guid>
       <pubDate>Tue, 15 Sep 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-15/podcast_2026-09-15.mp3" length="23589837" type="audio/mpeg" />
-      <description>The field is moving from static, single‑model outputs toward tools that let us steer predictions and compare alternatives in real time. | Complementing that control, a new web server called Alpha&amp;ESMhFolds stores side‑by‑side predictions from AlphaFold2 and ESMFold for every human protein, letting a researcher instantly see where the two diverge — say, a loop region that AlphaFold2 models with high confidence while ESMFold flags as low‑confidence — and decide which model to trust for a particular assay. | When no single co‑folding model dominates across all complexes, a strategy emerges that treats each model’s internal representation as a piece of a puzzle.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-15/podcast_2026-09-15.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The field is moving from static, single‑model outputs toward tools that let us steer predictions and compare alternatives in real time. | Complementing that control, a new web server called Alpha&amp;ESMhFolds stores side‑by‑side predictions from AlphaFold2 and ESMFold for every human protein, letting a researcher instantly see where the two diverge — say, a loop region that AlphaFold2 models with high confidence while ESMFold flags as low‑confidence — and decide which model to trust for a particular assay. | When no single co‑folding model dominates across all complexes, a strategy emerges that treats each model’s internal representation as a piece of a puzzle.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-18/podcast_2026-07-18.mp3</guid>
       <pubDate>Sat, 18 Jul 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-18/podcast_2026-07-18.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-07-17</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-17/podcast_2026-07-17.mp3</guid>
-      <pubDate>Fri, 17 Jul 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-17/podcast_2026-07-17.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

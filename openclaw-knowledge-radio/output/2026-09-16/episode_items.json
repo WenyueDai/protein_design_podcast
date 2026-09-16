@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    164.4,
+    417.47,
+    591.92,
+    771.03,
+    902.0,
+    1078.42,
+    1239.09,
+    1397.58,
+    1568.7,
+    1787.43
+  ],
+  "items": [
+    {
+      "title": "A Novel Assay Platform for Targeted Protein Degradation Monitoring: Case Study of Antibody Free Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS) for MALT1 Target Quantification.",
+      "url": "https://doi.org/10.1208/s12248-026-01287-y",
+      "source": "PubMed — The AAPS journal",
+      "one_liner": "The mucosa-associated lymphoid tissue lymphoma translocation protein 1 (MALT1) is a central regulator of inflammatory signaling downstream of immunoreceptor tyrosine-based activation motif-containing receptors and G protein-coupled receptors (GPCRs). MALT1 has been investigated as a drug target in inflammation and cancer by inhibitors and targeted degrada...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Epigenetic regulation and chromatin organization in cystic fibrosis airways.",
+      "url": "https://doi.org/10.1016/j.jcf.2026.08.013",
+      "source": "PubMed — Journal of cystic fibrosis : official journal of the European Cystic Fibrosis Society",
+      "one_liner": "Cystic fibrosis (CF) is caused by pathogenic variants of the Cystic Fibrosis Transmembrane Conductance Regulator (CFTR) gene. CF in the airways is associated with dehydrated and hyperconcentrated mucus, impaired mucociliary transport, and inflammation. Although CF is a genetic disorder, CFTR sequence variations alone may not fully explain its phenotypic v...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dysregulation of the serum and IgG N-glycome in decompensated cirrhosis and its association with Model for End-Stage Liver Disease-Sodium (MELD-Na).",
+      "url": "https://doi.org/10.1371/journal.pone.0357709",
+      "source": "PubMed — PloS one",
+      "one_liner": "BACKGROUND AND AIMS: N-glycans modulate glycoprotein structure and function and are altered during chronic inflammation. We sought to define the extent of serum and IgG N-glycan disruption in patients with decompensated liver cirrhosis from alcohol-related liver disease (ALD), primary sclerosing cholangitis (PSC), and ALD-related hepatocellular carcinoma ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-Driven Drug-Target Interaction Prediction: From Data Representation to Model Design.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01920",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Drug-target interaction (DTI) prediction is central to drug discovery, target identification, and drug repurposing. With the rapid growth of biomedical data and advances in artificial intelligence (AI), DTI prediction has shifted from docking, similarity-based inference, and hand-crafted features toward data-driven representation learning and interaction ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Nab-paclitaxel fused with the de novo designed receptor binder exhibits enhanced tumor targeting and therapeutic efficacy.",
+      "url": "https://doi.org/10.1016/j.jconrel.2026.115355",
+      "source": "PubMed — Journal of controlled release : official journal of the Controlled Release Society",
+      "one_liner": "Chemotherapy has been widely used in cancer treatment, but most of the chemotherapeutic drugs rely mainly on passive accumulation due to lack of target specificity, which may lead to systemic toxicity and limited clinical utility. Recent advances in artificial intelligence-based protein design provide new opportunities for developing precision therapeutic...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational design and experimental validation of peptide inhibitors targeting the p53-COP1 interaction to suppress p53 ubiquitination.",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.110184",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "Breast cancer, as one of the most prevalent malignant tumors among women, is a leading cause of female mortality. Inhibiting the ubiquitination of p53 protein would be helpful to control the development and progression of breast cancer, as p53 is crucial for regulating cell proliferation, DNA damage repair, and apoptosis. Herein, peptide inhibitors were d...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Chemically Interpretable Explanations for Molecular Property Prediction via Fragment-Level Shapley Values.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01425",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Machine learning has emerged as a powerful approach for molecular property prediction and drug discovery. However, the black-box nature of many machine learning models limits their interpretability, trustworthiness, and adoption in interdisciplinary research settings. This is especially the case in molecular machine learning, where explanations of model p...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A hybrid statistical-machine learning framework for optimization, prediction, and model-fitting of xylose and total sugar production from sugarcane bagasse using recombinant Escherichia coli-mediated hydrolysis.",
+      "url": "https://doi.org/10.1007/s00203-026-05178-w",
+      "source": "PubMed — Archives of microbiology",
+      "one_liner": "Efficient conversion of lignocellulosic biomass utilizing microbes to release fermentable sugars remains a major challenge. This study reports the integrated process involving Trichoderma reesei for pretreatment and recombinant whole-cell Escherichia coli expressing endo-β-1,4-xylanase for hydrolysis. Maximum cellulase activity 178.61 ± 1.98 IU/g dry subs...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Sequence optimization targeting mRNA stability enhances monoclonal antibody titers in CHO cells.",
+      "url": "https://doi.org/10.1016/j.nbt.2026.09.004",
+      "source": "PubMed — New biotechnology",
+      "one_liner": "This study presents a DNA sequence optimization approach that integrates mRNA stability as a tunable design parameter to enhance monoclonal antibody expression in Chinese hamster ovary (CHO) cells. A comprehensive combinatorial library of synonymous coding-sequence variants of an IgG1 light chain was integrated as single copies at a defined genomic locus ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Is AI Capable of Real-World Drug Discovery?",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01513",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Small-molecule drug discovery frequently operates in regimes where slight structural changes have large consequences. These are situations in which current artificial intelligence (AI) methods, trained on mass data, may perform poorly. For a substantial fraction of drug-discovery projects, limited biological understanding and sparse data further constrain...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Toward Imbalanced Molecular Property Regression: A Benchmark Study and Interval-Aware Mixture of Experts.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01847",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Molecular property prediction is a key task in AI-driven drug discovery, yet the prevalence and impact of label imbalances in molecular property regression remain poorly understood. Through a systematic benchmark of widely used molecular property data sets, we show that target values are often highly imbalanced and that prediction errors are consistently ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Sentiment classification optimization based on improved Senti-BERT and BiLSTM-Attention.",
+      "url": "https://doi.org/10.1371/journal.pone.0358103",
+      "source": "PubMed — PloS one",
+      "one_liner": "This study focuses on the problem of insufficient accuracy in sentiment classification in complex texts and multimodal scenarios. A sentiment classification optimization method is proposed, which integrates a bidirectional encoder representation Transformer model for sentiment analysis (Senti-BERT)and a bidirectional Long Short-Term Memory with Attention ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Bioactive Gold Plasmonic Interfaces Meet Artificial Intelligence: Advancing Saliva-Based Surface-Enhanced Raman Spectroscopy Diagnostics.",
+      "url": "https://doi.org/10.1002/smll.75720",
+      "source": "PubMed — Small (Weinheim an der Bergstrasse, Germany)",
+      "one_liner": "Bioactive gold plasmonic nanostructures are enabling non-invasive saliva diagnostics by amplifying weak Raman signals and converting complex biofluid chemistry into information-rich spectral fingerprints. This Review examines saliva-based Raman and surface-enhanced Raman spectroscopy (SERS) integrated with artificial intelligence (AI) from a bioactive-mat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An AI-Driven Chemogenomics Knowledgebase for Human-Transmissible Pathogens: A Platform for Antimicrobial Drug Discovery.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c02102",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Emerging infectious diseases (EIDs) pose a critical threat to global biosecurity. Integrating bio/chemical information and artificial intelligence would bring new strategies for antimicrobial drug discovery. Herein, the Human Pathogenic Microorganisms Chemogenomics Knowledgebase (HPM-CKB) is presented as the largest domain-specific resource, consolidating...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Reimagining computational macromolecular modeling: AI-driven approaches.",
+      "url": "https://doi.org/10.1016/j.bpj.2025.11.028",
+      "source": "PubMed — Biophysical journal",
+      "one_liner": "Macromolecules, such as proteins, antibodies, nanobodies, and other affinity binders, play essential roles in therapeutic and diagnostic applications due to their high specificity and functionality. Understanding their structure is critical for deciphering their biological activity and drug discovery; however, the inherent complexity of these molecules po...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SemVac: A Semantic Vaccinology Paradigm Powered by LLMs for Antigen Discovery",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.13.737696",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Reverse vaccinology identifies vaccine antigens from pathogen genomes, yet existing methods rely mainly on sequence and structure and overlook the functional and immunological knowledge recorded in the published literature. We introduce semantic vaccinology, a paradigm in which large language models (LLMs) reason over literature-derived protein descriptio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "GPCR Ligand Bioactivity Prediction with Physics-Informed Dual-State Query Learning",
+      "url": "https://arxiv.org/abs/2609.16468",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2609.16468v1 Announce Type: new \nAbstract: Predicting the bioactivity profiles of small molecules against G protein-coupled receptors (GPCRs) is a challenge in drug discovery. Although deep learning has accelerated the prediction of binding affinities, existing approaches often struggle to distinguish between functional efficacies because they negle...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "MSR-ARN: A Multiscale Residual Attentive Deep Learning Framework for Chemical Space-Guided Prediction of Selective MMP-12 Inhibitors.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01234",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Matrix metalloproteinase-12, also known as macrophage metalloelastase, plays a critical role in extracellular matrix remodelling and is strongly implicated in various pathological conditions, including cancer, inflammatory disorders, cardiovascular diseases, and pulmonary dysfunction. Consequently, the identification of potent and selective MMP-12 inhibit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Formalized Hopfield Networks and Boltzmann Machines",
+      "url": "https://arxiv.org/abs/2512.07766",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.07766v2 Announce Type: replace \nAbstract: Neural networks are widely used, yet their analysis and verification remain challenging. We present a Lean~4 formalization covering both deterministic and stochastic models. We first formalize Hopfield networks -- recurrent networks that store patterns as stable states -- and prove their convergence, an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Structure-Aware Masking for Protein Representation Learning",
+      "url": "https://arxiv.org/abs/2605.16581",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2605.16581v2 Announce Type: replace \nAbstract: Masked language modeling (MLM) is the standard objective for training protein language models, typically implemented by randomly masking individual residues at a fixed rate (e.g., 15%). This practice implicitly assumes that all sequence positions contribute equally to representation learning. In downstr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
