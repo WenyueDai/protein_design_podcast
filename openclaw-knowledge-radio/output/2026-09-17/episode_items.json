@@ -1,0 +1,297 @@
+{
+  "timestamps": [
+    0.0,
+    210.64,
+    428.63,
+    644.77,
+    850.74,
+    1026.68,
+    1309.03,
+    1463.76,
+    1643.2,
+    1851.97,
+    2125.02
+  ],
+  "items": [
+    {
+      "title": "Finally solving drug discovery with a Fly",
+      "url": "https://www.blopig.com/blog/2026/09/finally-solving-drug-discovery-with-a-fly/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "As I was sitting down this morning, trying to enjoy my rather excellent breakfast, I was suddenly attacked by a fly. Unfortunately for me, my lazy hand swats proved no match for the nimble little thing, who was evidently pretty hungry too. And as I watched the acrobatics this tiny creature could effortlessly pull off […]",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "3D chromatin remodeling during domestication defines novel targets for crop improvement.",
+      "url": "https://doi.org/10.1016/j.cell.2026.08.038",
+      "source": "PubMed — Cell",
+      "one_liner": "Three-dimensional (3D) genome folding shapes gene regulation, yet the genetic underpinnings linking 3D genome evolution to phenotypic innovation during domestication remain elusive. Using population-scale Hi-C profiling of 34 semi-wild and 267 cultivated allotetraploid cottons, we generated a pan-3D genome atlas capturing extensive diversity in topologica...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AlphaBridge: Tools for the analysis of predicted biomolecular complexes.",
+      "url": "https://doi.org/10.1016/j.str.2026.08.011",
+      "source": "PubMed — Structure (London, England : 1993)",
+      "one_liner": "Artificial intelligence (AI)-powered protein structure prediction transformed how scientists explore macromolecular function. AI-based prediction of macromolecular complexes is increasingly used for evaluating the likelihood of proteins forming complexes with other proteins, nucleic acids, lipids, sugars, or small-molecule ligands. Efficient tools are nee...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo Design of Miniprotein Inhibitors of Bacterial Adhesins",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.08.18.670751",
+      "source": "bioRxiv — microbiology",
+      "one_liner": "The rise of multidrug-resistant bacterial infections necessitates the discovery of novel antimicrobial strategies. Here, we show that protein design provides a generalizable means of generating new antimicrobials by neutralizing the function of bacterial adhesins, which are virulence factors critical in host-pathogen interactions. We de novo designed high...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "DeepEffector: A Protein Language Model-Driven Deep Learning Framework for Effector Prediction in Fungi and Oomycetes.",
+      "url": "https://doi.org/10.1093/plphys/kiag691",
+      "source": "PubMed — Plant physiology",
+      "one_liner": "Crop diseases caused by fungal and oomycete pathogens threaten sustainable agricultural production, and the efficient identification of pathogen effectors is essential for understanding virulence mechanisms and developing disease-resistant crops. However, the rapid evolutionary diversification of effectors often obscures conserved motifs, limiting the eff...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Constructing Legal Knowledge Graphs and Tracing Bias in Medical Artificial Intelligence Based on Graph Neural Networks.",
+      "url": "https://doi.org/10.3791/72648",
+      "source": "PubMed — Journal of visualized experiments : JoVE",
+      "one_liner": "In medical artificial intelligence (AI) legal compliance analysis, this paper addresses the ambiguity in liability determination caused by the semantic fragmentation of multi-source heterogeneous legal texts and difficulties in tracing algorithmic biases. It constructs a knowledge graph construction and bias propagation path detection method based on grap...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Antibody sequence diversity identified through multiple in-parallel NGS-based phage display panning campaigns.",
+      "url": "https://doi.org/10.1016/j.jbiotec.2026.09.012",
+      "source": "PubMed — Journal of biotechnology",
+      "one_liner": "Monoclonal antibodies (mAbs) are crucial for developing assays to support vaccine development. Our in-house tool antibody generation involves phage panning using HuCAL Platinum human Fab library. To understand the antibody sequence diversity and reproducibility, we performed four parallel panning campaigns against a virus-like particle antigen (VLP, L1 pr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exploring Nile Red and machine learning for microplastics detection in Tridacna maxima.",
+      "url": "https://doi.org/10.1371/journal.pone.0357014",
+      "source": "PubMed — PloS one",
+      "one_liner": "Small Island Developing States (SIDS) face unique challenges for microplastics (MPs) monitoring due to limited infrastructure and resources. In this context, we propose and test innovative approaches toward a standardized, low-cost methodology for quantifying MPs in SIDS. We evaluate the giant clam T. maxima as a bio-integrator, combining Nile red (NR) fl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A machine learning framework for noise-driven DNA sequencing in solid-state nanopores.",
+      "url": "https://doi.org/10.1039/d6nr02139e",
+      "source": "PubMed — Nanoscale",
+      "one_liner": "Solid-state nanopore devices have emerged as a promising platform for electrical signal based single molecule DNA sequencing with atomic-scale precision. However, stochastic noise in solid-state nanopores severely obscures signal quality, impeding nucleotide identification accuracy. Here, we have systematically examined the impact of noise on transverse t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting non-specific binding of VHHs using machine learning models with cluster-aware validation.",
+      "url": "https://doi.org/10.1080/19420862.2026.2732787",
+      "source": "PubMed — mAbs",
+      "one_liner": "Propensity for nonspecific binding-also known as polyreactivity-is a serious developability risk factor for biotherapeutic candidates. To minimize this risk, drug companies are increasingly relying on",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Decoding Extrahepatic Targeting of Lipid Nanoparticles with Interpretable Machine Learning",
+      "url": "https://arxiv.org/abs/2609.17721",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2609.17721v1 Announce Type: new \nAbstract: Lipid nanoparticles (LNPs) have transformed RNA medicine, yet their clinical utility remains constrained by predominant hepatic accumulation after systemic administration. Redirecting LNPs to extrahepatic tissues requires understanding of how lipid chemistry and formulation composition jointly govern in viv...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Computational design and evaluation of Factor Xa inhibitory peptides derived from the Tamarind Kunitz inhibitor reactive loop.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.154318",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "Blood coagulation is a crucial process, and its dysregulation can lead to life-threatening conditions. Factor Xa (FXA) is a well-established therapeutic target for the management of vascular diseases, as it acts as a converging point of both intrinsic and extrinsic coagulation pathways. Currently available FXA inhibitors display major side effects and tox...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Microwave diffractive neural network chips for sensing and computing.",
+      "url": "https://doi.org/10.1126/sciadv.aeg8394",
+      "source": "PubMed — Science advances",
+      "one_liner": "Electromagnetic diffractive neural networks (DNNs) enable ultra-low-power, low-latency artificial intelligence (AI) inference, yet optical implementations suffer from fabrication and scalability limits, and metasurface microwave systems remain bulky. We present a chip-scale microwave diffractive neural network (MDNN) fabricated in a GaAs semiconductor pro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-informed theoretical modeling defines principles governing avidity in bivalent protein interactions.",
+      "url": "https://doi.org/10.1016/j.jbc.2026.113559",
+      "source": "PubMed — The Journal of biological chemistry",
+      "one_liner": "In signaling cascades, signaling proteins often encode multiple domains or motifs, which presents the possibility for avidity -- where multivalent binding drastically increases interaction strength and duration. However, predicting and validating multivalent interactions that interact with avidity is a challenge. Here, we integrate mechanistic modeling, s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Quantum Dot-Antifreeze Protein Hybrids for Enhanced Ice Recrystallization Inhibition.",
+      "url": "https://doi.org/10.1021/acsami.6c10222",
+      "source": "PubMed — ACS applied materials & interfaces",
+      "one_liner": "Antifreeze proteins (AFPs) suppress ice growth by binding specific crystallographic planes, and their activity can be enhanced through multivalent display, where multiple AFPs simultaneously engage ice surfaces via multimerized constructs or nanoparticle scaffolds. However, the structural features of these scaffolds-and how they govern the degree of enhan...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PKP-Diffmol: A Physicochemical Knowledge-Prompt Encoding and Latent Diffusion Framework for Molecular Property Prediction.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01547",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Molecular representations that capture both chemical information and property-relevant differences are essential for reliable molecular property prediction in drug discovery and toxicity assessments. Fragment-level SMILES representation learning is effective at modeling substructure semantics, but structural reconstruction objectives alone do not explicit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A novel ERα-targeted hydrophobic tag degrader, overcomes tamoxifen resistance via unfolded protein response-induced apoptosis and homologous recombination repair inhibition in breast cancer.",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.110129",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "Breast cancer (BC), predominantly ERα-positive, often develops resistance to endocrine therapy. We designed 20a, a novel ERα degrader based on the OBHSA scaffold with a hydrophobic amantadine tag. This compound demonstrates potent efficacy against both tamoxifen-sensitive and -resistant BC models in vitro and in vivo, with minimal systemic toxicity. Struc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TvTPPIMI: A Boundary-Aware Dual-View Framework for Predicting PPI-Modulator Interactions.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01921",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Protein-protein interactions (PPIs) regulate essential cellular processes and represent an important class of therapeutic targets; however, discovering effective modulators of PPIs remains a formidable challenge. Although deep learning approaches have been widely explored for PPI modulator discovery, many rely on simplified representations that obscure in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProteoCast: a web server to predict, validate, and interpret missense variant effects.",
+      "url": "https://doi.org/10.1016/j.jmb.2026.169657",
+      "source": "PubMed — Journal of molecular biology",
+      "one_liner": "Understanding how mutations affect protein function remains critical yet challenging, particularly for variants in clinical databases lacking experimental characterisation and for intrinsically disordered regions. Current computational approaches often operate as black boxes, providing predictions without sufficient transparency or quality assessment of t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "METALICA: METAdynamics and repLICA exchange for enhanced diffusion sampling",
+      "url": "https://arxiv.org/abs/2609.17823",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.17823v1 Announce Type: cross \nAbstract: Many proteins function through transitions between conformational states, yet rare states are rarely sampled by diffusion models trained on an equilibrium ensemble, demanding better sampling methods. We introduce METALICA, which implements Metadynamics on a pretrained diffusion model via Replica Exchange....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
