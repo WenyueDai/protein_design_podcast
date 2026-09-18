@@ -1,0 +1,297 @@
+{
+  "timestamps": [
+    0.0,
+    167.61,
+    276.74,
+    460.64,
+    707.07,
+    968.96,
+    1138.27,
+    1360.39,
+    1550.7,
+    1742.99,
+    1956.8
+  ],
+  "items": [
+    {
+      "title": "\"SpudCell will replicate continuously by 2030\" | Kate Adamala",
+      "url": "https://www.asimov.press/p/spudcell-adamala",
+      "source": "Asimov Press",
+      "one_liner": "SpudCell is a synthetic phospholipid liposome that can ingest nutrients, grow, and divide for at least five generations, but it is not considered alive because it lacks the robustness to replicate continuously; the authors argue that with further engineering it could achieve perpetual replication by ~2030 and thereby expand life’s chemistry, enable new medicines, and help biologize the economy.\n\nMETHOD / APPROACH:\n- Constructed a two‑component phospholipid liposome as the cell membrane.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biology",
+        "science-writing",
+        "substack",
+        "author"
+      ]
+    },
+    {
+      "title": "FoldaVirus, a knowledge-based icosahedral capsid prediction tool using AlphaFold.",
+      "url": "https://doi.org/10.1073/pnas.2613741123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Coat protein (CP) tertiary structures and their capsid organization of spherical viruses are generally well conserved within each virus family. While AlphaFold successfully predicts the tertiary structures of individual CPs, their association to form proper quaternary assemblies cannot be easily accomplished. Here, we report a generalized methodology and ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Allosteric Pocket Prediction Based on Multi-modal Protein Language Models and Ensemble Learning.",
+      "url": "https://doi.org/10.1109/TCBBIO.2026.3734697",
+      "source": "PubMed — IEEE transactions on computational biology and bioinformatics",
+      "one_liner": "Allosteric regulation plays a crucial role in modulating protein function, and allosteric pockets represent promising targets for drug discovery. However, identifying allosteric pockets remains challenging due to their structural and evolutionary diversity. In this study, we propose AlloPoc, a novel framework that integrates multi-modal protein language m...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Toward autonomous science with agentic artificial intelligence.",
+      "url": "https://doi.org/10.1016/j.cell.2026.08.052",
+      "source": "PubMed — Cell",
+      "one_liner": "Artificial intelligence (AI) in biomedicine has evolved from pattern-recognition for medical image analysis to generative models like AlphaFold that predict protein structures. Tools such as Elicit, GPT-Rosalind, and Claude Science now bridge prediction and reasoning through literature synthesis, domain-tuned models, and agentic workbenches. Three recent ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "FunVFPred: Predicting fungal virulence factors using a unified representation learning model.",
+      "url": "https://doi.org/10.1016/j.isci.2026.117217",
+      "source": "PubMed — iScience",
+      "one_liner": "Fungal virulence factors (VFs) are proteins that support host colonization, tissue invasion, immune modulation, and disease progression. Identifying candidate VFs across pathogenic fungi can help characterize mechanisms underlying fungal-host interactions and prioritize proteins for experimental investigation. We developed FunVFPred, a machine learning fr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning and deep learning-based prediction of hypertension and analysis of its major risk factors in Bangladesh.",
+      "url": "https://doi.org/10.1371/journal.pone.0358471",
+      "source": "PubMed — PloS one",
+      "one_liner": "BACKGROUND: Hypertension is a leading cause of cardiovascular morbidity and mortality in Bangladesh. This study examined its prevalence, risk factors, and predictive modeling using machine learning (ML) and deep learning (DL) approaches. METHOD: We analyzed cross-sectional data from the 2022 Bangladesh Demographic and Health Survey, which included 14,283 ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence-assisted lead optimization in drug discovery: bridging computational advances and translational challenges.",
+      "url": "https://doi.org/10.1007/s00044-026-03616-4",
+      "source": "PubMed — Medicinal chemistry research : an international journal for rapid communications on design and mechanisms of action of biologically active agents",
+      "one_liner": "Lead optimization is a resource-intensive stage of drug discovery requiring the simultaneous optimization of potency, selectivity, pharmacokinetics, safety, and synthetic feasibility. Although artificial intelligence (AI) and machine learning (ML) have substantially advanced predictive modeling, virtual screening, de novo molecular design, and multiparame...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Leakage-safe machine learning evaluation of viral T-cell IFN-gamma response prediction using IEDB data.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109416",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "OBJECTIVE: To benchmark leakage-aware machine-learning methods for ranking viral T-cell peptides by qualitative interferon-gamma (IFN-gamma) assay outcome in public Immune Epitope Database (IEDB) records. METHODS: Recovered curated IEDB records were evaluated with exact peptide-disjoint, edit-distance < =2 component-disjoint, and publication-year temporal...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The reasonable effectiveness of domain adaptation for inference of introgression",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.01.17.633659",
+      "source": "bioRxiv — evolutionary biology",
+      "one_liner": "Supervised machine learning approaches have proven powerful in population genetics. To use such approaches, training data with known inputs and outputs are required. Since such data are generally unavailable in population genetics, researchers typically rely on simulations under the models of interest to train machine learning algorithms. While powerful, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multimodal large language models for bladder tumor detection in cystoscopy: a retrospective benchmarking study.",
+      "url": "https://doi.org/10.1007/s00345-026-06761-y",
+      "source": "PubMed — World journal of urology",
+      "one_liner": "PURPOSE: Cystoscopic assessment is central to bladder cancer diagnosis, yet visual interpretation remains variable. Existing artificial intelligence approaches often depend on data-intensive models that are often difficult to deploy in routine practice. We evaluated whether multimodal large language models (MLLMs), including smaller and more efficient arc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Amyloid-beta-targeting monoclonal antibodies in early Alzheimer's disease: a cochrane review summary and appraisal for the neurological community.",
+      "url": "https://doi.org/10.1007/s10072-026-09401-w",
+      "source": "PubMed — Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+      "one_liner": "BACKGROUND: Seven amyloid-beta-targeting monoclonal antibodies have been trialled in early Alzheimer's disease. They differ in epitope and in how much plaque they clear; only two have traditional approval. A 2026 Cochrane Review pooled all seven as one class. We ask what that average tells us about any one drug. METHODS: We summarise the review in mild co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Bridging machine learning and evolutionary optimization of threshold specific dosages of Nisin to suppress MRSA biofilm.",
+      "url": "https://doi.org/10.1007/s10482-026-02423-6",
+      "source": "PubMed — Antonie van Leeuwenhoek",
+      "one_liner": "Methicillin resistant Staphylococcus aureus (MRSA), a Gram-positive potent biofilm forming pathogen responsible for minor skin infection to life-threatening sepsis due to its resistance towards traditional antibiotics. The biofilm forming ability of this organism serves as a primary driver of this resistance, rendering traditional therapeutic strategies c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence in toxicology: current advances, challenges and future directions.",
+      "url": "https://doi.org/10.1007/s00204-026-04551-4",
+      "source": "PubMed — Archives of toxicology",
+      "one_liner": "Toxicology has traditionally relied on in vivo animal studies and in vitro assays to assess the safety of drugs, chemicals and environmental contaminants. These approaches are constrained by cost, duration, ethical concerns and difficulties in cross-species extrapolation. Artificial intelligence (AI) offers an alternative paradigm in which safety-relevant...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Asymmetric cross-reactivity of nuclear receptors reveals an evolutionary buffer between estrogen and androgen signaling.",
+      "url": "https://doi.org/10.1016/j.isci.2026.117289",
+      "source": "PubMed — iScience",
+      "one_liner": "Nuclear receptor ligand interaction landscapes remain incompletely characterized, particularly at the scale of entire receptor families. We used Boltz-2, a structure-based deep learning framework for protein-ligand affinity prediction, to perform an unbiased survey of endogenous hormones across all human nuclear receptors. This analysis revealed an asymme...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-guided discovery and engineering of miniature CRISPR-Cas12m for epigenome editing.",
+      "url": "https://doi.org/10.1038/s41594-026-01890-9",
+      "source": "PubMed — Nature structural & molecular biology",
+      "one_liner": "CRISPR-based epigenome editing represents a programmable strategy to precisely modulate gene expression, holding promise for therapeutic applications. However, the large size of dCas proteins substantially impedes delivery using adeno-associated virus (AAV) vectors. Here, through iterative bioinformatics analysis, structure-guided predictions and function...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Target-level interpretability and diagnostic framework for molecular docking behavior in antimicrobial resistance research using probe ligands.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109572",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "Molecular docking is widely used to examine ligand interactions with antimicrobial resistance (AMR)-associated proteins, but favorable docking scores do not necessarily indicate mechanistically meaningful binding poses. This study developed a target-level diagnostic framework to determine when structure-based docking outputs are interpretable, conditional...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Lacuna: Cryptic Binding Pocket Discovery via Conformational Ensemble Analysis",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744956",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Lacuna, an open-source Python tool for discovering cryptic binding pockets: sites that are absent or too small to detect in a protein's unbound structure and open only during conformational fluctuation. Most binding-site predictors score a single static structure, which is precisely the structure in which a cryptic site is invisible. Lacuna instead genera...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Genolator enables protein function interpretation using a multimodal large language model fusing genomic and structural interpretation with natural language interaction.",
+      "url": "https://doi.org/10.1186/s13059-026-04274-w",
+      "source": "PubMed — Genome biology",
+      "one_liner": "BACKGROUND: Decoding the genetic code to unveil its genome functionality is a monumental task which would greatly advance the understanding of disease mechanisms and development of targeted treatments. Although large language models (LLMs) have transformed natural language processing across diverse domains, translating the complex language of DNA into hum...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Efflux pump gene ABCA as targets for deep learning-based de novo inhibitors in invasive aspergillosis caused by Aspergillus fumigatus.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109410",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "This study aims to design and evaluate novel therapeutic binders targeting the ATP-binding region of the AbcA efflux transporter protein in Aspergillus fumigatus. By inhibiting ATP binding, these binders seek to prevent AbcA-mediated azole resistance and restore the effectiveness of antifungal treatments. The research employed a variety of computational m...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Epidemiological Causal Graph Identification: Challenges, Identifiability and Algorithms",
+      "url": "https://arxiv.org/abs/2609.20676",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.20676v1 Announce Type: new \nAbstract: Causal discovery from observational data is fundamental to statistics and machine learning, yet determining causal direction without interventions necessitates structural assumptions. Existing identifiability research primarily focuses on continuous variables under additive noise models, often neglecting mi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
