@@ -1,0 +1,282 @@
+{
+  "timestamps": [
+    0.0,
+    167.28,
+    355.72,
+    523.88,
+    701.14,
+    1330.47,
+    1532.86,
+    1708.58,
+    1905.62,
+    2106.9,
+    2370.22
+  ],
+  "items": [
+    {
+      "title": "Linear antibody epitope prediction using AlphaFold2.",
+      "url": "https://doi.org/10.7554/eLife.98369",
+      "source": "PubMed — eLife",
+      "one_liner": "Defining the binding epitopes of antibodies is essential for understanding how they bind to their antigens and perform their molecular functions. However, while determining linear epitopes of monoclonal antibodies can be accomplished utilizing well-established empirical procedures, these approaches are generally labor- and time-intensive, and costly. To t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular simulations of chromatin-associated biomolecular condensates.",
+      "url": "https://doi.org/10.1016/j.sbi.2026.103378",
+      "source": "PubMed — Current opinion in structural biology",
+      "one_liner": "Biomolecular condensates are central to nuclear organisation, and molecular simulations have most advanced our understanding of the molecular interactions that drive their formation and phase behaviour. Coarse-grained, physicochemically specific models are now able to reproduce phase diagrams, material properties, and sequence-phase space relationships wi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Developing SCL2205: A Protein Sequence-based Spatial Modelling Dataset for the Protein Language Model Frontier.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag666",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Deep learning (DL) has substantially advanced protein subcellular localisation (SCL) prediction, yet its potential remains constrained by suboptimal input preparation and limited high-quality reference data. Furthermore, existing state-of-the-art (SoTA) predictors suffer from performance metric inflation due to unmitigated training-to-testing ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "VirPLM: Antigenic prediction of influenza A/H3N2 viruses with a fine-tuned protein language model.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag692",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Human influenza A/H3N2 viruses undergo rapid antigenic evolution primarily driven by the hemagglutinin subunit 1 (HA1). Within HA1, amino acid substitutions under immune pressure cause antigenic drift, necessitating frequent updates to vaccine strains. While hemagglutination inhibition (HI) assays remain the gold standard for assessing antigen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo Design of Multivalent α/β-Peptides Mimicking Transcription Factors Targeting the CBP KIX Domain.",
+      "url": "https://doi.org/10.1002/chem.71218",
+      "source": "PubMed — Chemistry (Weinheim an der Bergstrasse, Germany)",
+      "one_liner": "Protein-protein interactions that regulate gene expression in the nucleus are increasingly recognized as potential therapeutic targets but present unique challenges. Effective targeting requires molecules capable of interacting with large protein surfaces while remaining small enough to pass through the nuclear pore, for which peptidomimetics are promisin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Prospecting the protein design landscape.",
+      "url": "https://doi.org/10.1002/1873-3468.70459",
+      "source": "PubMed — FEBS letters",
+      "one_liner": "Generative AI has driven remarkable breakthroughs in protein design, enabling the rapid, computationally guided creation of high-affinity binders against diverse targets. While remarkable experimental success has been demonstrated, the confidence metrics used to filter and evaluate designs remain optimized for static protein interfaces and can fail when a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence as a Discovery Engine for Routine Molecular Techniques: Extracting Biological Insight from Western Blotting, ELISA, Immunostaining, and Immunoprecipitation.",
+      "url": "https://doi.org/10.1007/s12013-026-02171-4",
+      "source": "PubMed — Cell biochemistry and biophysics",
+      "one_liner": "Artificial intelligence (AI) is transforming how routine molecular techniques are interpreted, moving beyond traditional statistics such as band intensity, protein concentration, and visual scoring. This review examines how AI enhances the analytical capacity of four widely used methods: Western blotting, ELISA, Immunostaining, and Immunoprecipitation-Mas...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo Design and Structural Optimization of Mn(salen)-Based Artificial Metalloenzymes for Asymmetric Sulfoxidation.",
+      "url": "https://doi.org/10.1002/anie.5852828",
+      "source": "PubMed — Angewandte Chemie (International ed. in English)",
+      "one_liner": "Artificial metalloenzymes (ArMs) exhibit exceptional selectivity, yet extending their reactivity beyond native cofactors remains a major challenge. While previous designs using native protein scaffolds to incorporate nonnative cofactors have been reported, de novo protein design enables tailored scaffolds that incorporate nonnative cofactors, unlocking tr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Development of a method to measure protein diffusivities in hyaluronic acid solutions based on a UV-Vis spectrophotometer.",
+      "url": "https://doi.org/10.1016/j.xphs.2026.104507",
+      "source": "PubMed — Journal of pharmaceutical sciences",
+      "one_liner": "Protein diffusion within hyaluronic acid (HA)-rich extracellular matrices can be important for subcutaneous and intravitreal routes of administration. Current techniques for measuring protein diffusivities in HA solutions often require specialized instrumentation and/or complex experimental setups, hindering their widespread application in pharmaceutical ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mucoadhesive recombinant human catalase for dry eye disease: From protein engineering to first-in-human study.",
+      "url": "https://doi.org/10.1016/j.medj.2026.101298",
+      "source": "PubMed — Med (New York, N.Y.)",
+      "one_liner": "BACKGROUND: Oxidative stress caused by excess reactive oxygen species (ROS) plays a key role in the progression of dry eye disease (DED), yet no approved DED therapy directly eliminates ROS. Here, we develop an antioxidant biologic with enhanced ocular-surface retention by thiol engineering of recombinant human catalase (hCAT) as a new ROS-scavenging eye ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Machine-Learning Based Approach to the Evaluation of the Critical Scaling Behavior of Anisotropic Spin Systems.",
+      "url": "https://doi.org/10.1088/1361-648X/aea9de",
+      "source": "PubMed — Journal of physics. Condensed matter : an Institute of Physics journal",
+      "one_liner": "Computational models adequately representing phase transitions and evaluating the critical system parameters are essential for the understanding of the properties of a wide range of materials.Here we propose a machine learning (ML)-based approach to the identification of the critical point in anisotropic spin systems. Our approach implies training of a co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "OpenAntigens: a structure-aware database for antigen construct design across the human cell-surface and secreted proteome",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.30.741735",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Choosing which region of a protein to express remains poorly standardized in antibody discovery, recombinant reagent generation, structural biology and computational binder design. For human cell-surface and secreted proteins, this requires reconciling topology, processing, predicted and experimental structure, modifications, interaction partners, ortholo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Anagrelide remodels the PDE3A-SLFN12 interactome to associate with translation initiation machinery in cancer cell lines.",
+      "url": "https://doi.org/10.1016/j.mcpro.2026.101663",
+      "source": "PubMed — Molecular & cellular proteomics : MCP",
+      "one_liner": "Phosphodiesterase 3A (PDE3A) modulators such as anagrelide induce complex formation between PDE3A and Schlafen 12 (SLFN12), selectively killing cancer cells that co-express both proteins. As PDE3A forms isoform- and cell type-specific signalosome complexes across multiple subcellular compartments, the effects of its modulation are expected to depend stron...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hepatitis B virus proteome analysis identifies apolipoprotein C1 facilitating particle production and virus entry.",
+      "url": "https://doi.org/10.1097/HEP.0000000000001864",
+      "source": "PubMed — Hepatology (Baltimore, Md.)",
+      "one_liner": "BACKGROUND AIMS: Antiviral therapies targeting hepatitis B virus (HBV) suppress viral replication, but rarely achieve functional cure. Understanding HBV-host cell interaction is crucial for developing novel therapeutic approaches. Here, we report host cell proteins associated with HBV virions and filamentous subviral particles (fSVPs) and characterize one...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cell type-selective targeting by heterobifunctional protein binders via in-cell enrichment.",
+      "url": "https://doi.org/10.1038/s41467-026-77460-w",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Non-catalytic heterobifunctional protein binders promise to expand the range of therapeutic options by establishing complexes between key target proteins and accessory presenter proteins equipped with additional properties. Here, we systematically investigate the rational design of such molecules, explore the biochemical basis of complex formation and det...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protocol for assessing protein expression levels and localization during fission yeast cytokinesis.",
+      "url": "https://doi.org/10.1016/j.xpro.2026.104839",
+      "source": "PubMed — STAR protocols",
+      "one_liner": "The fission yeast Schizosaccharomyces pombe is a genetically tractable model that shares mechanisms for cytokinesis with higher eukaryotes. Here, we present a protocol for analyzing fission yeast cytokinesis proteins. We include steps for gene targeting by homologous recombination, functionality tests by genetic interactions, and imaging by high-spatiotem...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Combinatorial deep mutational scanning uncovers protein superbinders and molecular determinants of epistasis.",
+      "url": "https://doi.org/10.1016/j.molcel.2026.08.017",
+      "source": "PubMed — Molecular cell",
+      "one_liner": "Traditional deep mutational scanning (DMS) encodes every single amino-acid substitution from a wild-type sequence. We hypothesize that combinatorial DMS (CDMS) libraries, incorporating all mutations in all combinations, can enable the discovery of high-affinity protein (super)binders by capturing epistatic, non-linear amino-acid interactions. Here, we int...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Universal donor plasmids for biallelic degron-tagging in mammalian cells and organoids",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.14.751494",
+      "source": "bioRxiv — synthetic biology",
+      "one_liner": "Degron tags enable rapid, tuneable and reversible control of protein expression, and have become a critical tool for target validation and elucidating biological mechanisms. Tag engineering uses genome editing to generate biallelic gene fusions, though this process remains laborious and requires new donor vectors to be generated for each locus. Here, we h...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mathematicians Build Long-Awaited Graph Sandwich",
+      "url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/",
+      "source": "Quanta Magazine",
+      "one_liner": "The proof of a decades-old conjecture has given researchers a new way to understand complex networks. The post Mathematicians Build Long-Awaited Graph Sandwich first appeared on",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
