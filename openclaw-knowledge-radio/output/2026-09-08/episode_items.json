@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    254.04,
+    489.52,
+    659.12,
+    907.5,
+    1117.95,
+    1357.2,
+    1580.3,
+    1744.5,
+    2008.88,
+    2636.77
+  ],
+  "items": [
+    {
+      "title": "ProRB: a structure-free unified framework for joint prediction and design of protein-RNA interactions.",
+      "url": "https://doi.org/10.1093/nar/gkag870",
+      "source": "PubMed — Nucleic acids research",
+      "one_liner": "While protein-RNA interactions are fundamental to post-transcriptional processes, achieving a holistic understanding of their regulatory logic remains challenging. Current computational models often treat binding affinity, interface mapping, and RNA design as isolated tasks, thereby failing to provide a unified perspective of the protein-RNA interactome. ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing protein expression in humans through codon optimization with transformer and contrastive learning.",
+      "url": "https://doi.org/10.1016/j.omtn.2026.102991",
+      "source": "PubMed — Molecular therapy. Nucleic acids",
+      "one_liner": "Following the success of COVID-19 vaccines and therapies, mRNA-based therapeutics have attracted significant attention. Codon optimization is crucial for improving translation efficiency and mRNA stability, both of which are necessary for developing effective mRNA vaccines and drugs. Traditional approaches often rely on codon usage tables and other freque...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Quantitative and amino acid sequence analysis of soluble HIV-1 Vpu and calmodulin interactions",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718738",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "HIV-1 Vpu supports viral adaptation through host-protein interactions. Although mainly membrane-associated, we recently identified a soluble Vpu form that forms a stable complex with Ca2+-bound calmodulin (Ca2+-CaM), potentially influencing Vpu trafficking. Here, to determine the binding affinity and identify regions of soluble Vpu involved in CaM binding...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence-enabled induced-proximity drug discovery: Designing productive molecular associations.",
+      "url": "https://doi.org/10.1016/j.drudis.2026.104796",
+      "source": "PubMed — Drug discovery today",
+      "one_liner": "Induced proximity is changing drug discovery by turning molecular association into a therapeutic design principle. Rather than blocking a single active site, proximity-based agents can degrade, stabilize, relocalize or rewire disease-relevant proteins. This review examines how artificial intelligence is beginning to support that transition, from prioritiz...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Memristor-based echo state network for ECG classification: optimizing accuracy and efficiency with different architectures.",
+      "url": "https://doi.org/10.1007/s11571-026-10537-w",
+      "source": "PubMed — Cognitive neurodynamics",
+      "one_liner": "Electrocardiogram (ECG) signal classification is a crucial task in automated cardiac monitoring and early disease detection. Conventional machine learning and deep learning methods often face challenges related to high computational costs, large data requirements and difficulty in handling real-time ECG analysis. In this work, we have proposed three memri...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Efficient removal of Ni, Al, and As from water using Micrococcus yunnanensis: batch experiments and explainable machine learning.",
+      "url": "https://doi.org/10.1007/s10532-026-10371-1",
+      "source": "PubMed — Biodegradation",
+      "one_liner": "In this study, a bacterial strain of Micrococcus yunnanensis was isolated from the discharge water of an organized industrial zone wastewater treatment plant and used in the bioremoval of Al, Ni, and As. The effects of different experimental conditions such as initial metal concentration, pH, temperature, contact time, and biomass concentration on metal b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Global, regional, and national prevalence of second-hand smoke and attributable disease burden in 204 countries and territories, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023.",
+      "url": "https://doi.org/10.1016/S2468-2667(26)00168-4",
+      "source": "PubMed — The Lancet. Public health",
+      "one_liner": "BACKGROUND: Second-hand smoke (SHS) exposure remains a major source of morbidity and mortality among non-smokers. This study presents the first dedicated Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) publication to systematically quantify SHS prevalence and evaluate its effect as a global risk factor across a broader range of outcomes....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Large language model-driven knowledge graph learning for herb-macromolecule interaction prediction and functional analysis.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154371",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "The rapid accumulation of biological macromolecule data has created an urgent need for computational methods capable of characterizing the functional roles of macromolecular targets in complex therapeutic systems. Traditional Chinese medicine represents a typical scenario, in which multiple herbal components may coordinately regulate diverse protein targe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Immunoinformatics Approach for the Designing of a Novel mRNA Vaccine Candidate Against Trypanosoma brucei.",
+      "url": "https://doi.org/10.1007/s11686-026-01388-w",
+      "source": "PubMed — Acta parasitologica",
+      "one_liner": "BACKGROUND: Trypanosoma brucei causes Human African Trypanosomiasis (HAT), which has a devastating impact on an individual's health. Currently, there is no FDA-approved vaccine for HAT prevention. Therefore, reverse vaccinology approaches were utilized to design an mRNA vaccine candidate. METHODS: Variant surface glycoprotein, heat shock protein 70, and v...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evolutionary characterization and structure-guided discovery of the β-barrel assembly machinery in Treponema pallidum subsp. pallidum reveals a putative BamD-like protein.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154347",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Gram-negative bacteria rely on the β-barrel assembly machinery (BAM) for the biogenesis of their outer membrane proteins (OMPs). In most bacterial species, the BAM complex consists of BamA together with several accessory proteins, including BamD, a highly conserved and indispensable component. However, no BAM complex components have previously been recogn...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cancer-associated synonymous mutations target mRNA structures and protein activity.",
+      "url": "https://doi.org/10.1016/j.trecan.2026.08.005",
+      "source": "PubMed — Trends in cancer",
+      "one_liner": "The role of adaptive mRNA structures in regulating gene expression in mammalian cells remains poorly understood. Synonymous mutations have been linked to a range of diseases, including cancer, yet their impact on cell biology remains largely unexplored. This opinion focuses on how cancer-associated synonymous mutations (CASMs) in the TP53 mRNA disrupt sig...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-guided prior-driven implicit neural representations for time-of-flight PET image reconstruction.",
+      "url": "https://doi.org/10.1088/1361-6560/aea398",
+      "source": "PubMed — Physics in medicine and biology",
+      "one_liner": "OBJECTIVE: Positron emission tomography (PET) reconstruction is an ill-posed inverse problem, particularly under low-count conditions where noise severely degrades image quality and quantitative accuracy. Although supervised learning approaches have demonstrated strong denoising capability, their performance often depends on large paired datasets and may ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Relaxation Processes in Freeze-Dried Monoclonal Antibody-Sucrose Formulations: The Role of Water Content.",
+      "url": "https://doi.org/10.1021/acs.molpharmaceut.6c00350",
+      "source": "PubMed — Molecular pharmaceutics",
+      "one_liner": "Residual water in freeze-dried protein formulations plays a critical role in molecular relaxation behavior. In a previous study (Kumar et al., Mol Pharmaceutics 2025, 22, 4125-4136), we examined the impact of sucrose concentration on native structure retention in monoclonal antibody (mAb)-sucrose systems. The present work investigates how residual water c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular Mechanism of Lipid Recognition and Membrane-Guided Gating in Plant Minimal START Proteins",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740216",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "The hydrophobic nature of lipids requires specialized transport mechanisms, and one such non-vesicular transport mechanism involves START (StAR-related lipid transfer) domain proteins. START domains either occur as a part of multidomain proteins or occur solo as in minimal START proteins. Unlike well-studied multidomain variants, plant minimal START prote...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Missense mutations in the SNCA gene: Molecular mechanisms and clinical implications.",
+      "url": "https://doi.org/10.1016/j.mcn.2026.104116",
+      "source": "PubMed — Molecular and cellular neurosciences",
+      "one_liner": "The SNCA gene on chromosome 4 encodes the alpha-synuclein (αSyn) protein, which plays a central role in the pathogenesis of synucleinopathies, including Parkinson's disease (PD), dementia with Lewy bodies (DLB), and multiple system atrophy (MSA). While αSyn has established roles in synaptic vesicle dynamics and neuronal signaling, alterations in SNCA regu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular Glue Degraders in Early Development for Cancer Therapy.",
+      "url": "https://doi.org/10.1002/med.70104",
+      "source": "PubMed — Medicinal research reviews",
+      "one_liner": "Molecular glue degraders are an emerging class of small molecule allosteric modulators that induce or stabilize protein-protein interactions, enabling targeted degradation of previously intractable proteins. By redirecting E3 ligases to recognize neosubstrates, proteins that are not typically recognized by a specific E3 ubiquitin ligase, they expand the s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Comprehensive Evaluation and Explainable Interpretation of Peptide-HLA Binding Prediction Tools.",
+      "url": "https://doi.org/10.1093/gpbjnl/qzag096",
+      "source": "PubMed — Genomics, proteomics & bioinformatics",
+      "one_liner": "Accurate prediction of peptide binding to human leukocyte antigen class I (HLA-I) molecules is critical for advancing immunological research, particularly in vaccine design and immunotherapy. However, limitations in model performance, interpretability, and dataset quality impede the widespread adoption of existing predictive tools. Here, we present a comp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Physical Adaptive Material Motor Unit Neural Network: A Hygromorph Composite Material Machine.",
+      "url": "https://doi.org/10.1002/advs.77473",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Advances in novel materials science enable structures to function as intelligent machines by embedding memory and learning capabilities directly into materials. Our work introduces a physical adaptive material motor unit neural network, leveraging a new generation of controllable actuators composed of wood- and carbon black-based composites, sensitive to ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    160.7,
+    454.91,
+    625.48,
+    795.25,
+    953.79,
+    1205.74,
+    1382.8,
+    1611.88,
+    1786.55,
+    1994.55
+  ],
+  "items": [
+    {
+      "title": "3D Geometric Equivariant Graph Neural Networks with Contrastive Learning for Protein-Ligand Binding Affinity Prediction.",
+      "url": "https://doi.org/10.1007/s12539-026-00867-y",
+      "source": "PubMed — Interdisciplinary sciences, computational life sciences",
+      "one_liner": "Protein-Ligand Binding Affinity (PLBA) prediction is a key task in computer aided drug design, underpinning virtual screening, lead optimization, and drug repurposing. Despite recent advances in deep learning, many existing methods fail to fully exploit three-dimensional (3D) geometric information and remain sensitive to conformational variability. To add...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hierarchical Graph Representation Learning for Protein-Protein Interaction Site Prediction.",
+      "url": "https://doi.org/10.1007/s12539-026-00868-x",
+      "source": "PubMed — Interdisciplinary sciences, computational life sciences",
+      "one_liner": "Precisely identifying protein-binding locations is essential for advancing protein engineering and pharmaceutical discovery. However, due to the intrinsically hierarchical nature of protein data, extracting deep representations from such data remains a difficult task. Furthermore, issues such as class imbalance and uneven topological distribution of inter...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Examine neural network models for protein sequencing based features prediction.",
+      "url": "https://doi.org/10.1007/s10822-026-00921-3",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "Protein functions are essential for understanding life at the molecular level. High-throughput sequencing generates vast amounts of raw protein sequences, but only about 1 percent have been carefully annotated with their functions. The experimental research needed to annotate these functions is costly and time-consuming, and lags behind the rapid growth i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Interpreting Protein Language Model Embeddings via Orthogonal Projection for Protein Fitness Prediction",
+      "url": "https://arxiv.org/abs/2608.25548",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.25548v1 Announce Type: cross \nAbstract: Recently, there has been a growing adoption of protein language models (PLMs) in biomedical science. Their embeddings provide a rich numerical representation of protein sequences which achieve state-of-the-art performance on several downstream tasks including protein fitness prediction. However, PLM embed...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Beyond Tokens: Probing Higher-Order Epistasis in Learned Protein Representations",
+      "url": "https://arxiv.org/abs/2608.24953",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.24953v1 Announce Type: new \nAbstract: Protein fitness landscapes contain nonlinear interactions in which mutation effects depend on other residues. We introduce ORBIT, an Order-Resolved Benchmarking of Interaction Transformations framework that separates interaction presence, representation accessibility, and functional recovery. ORBIT first va...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Uncertainty quantification using conformal prediction for mesh-based simulations.",
+      "url": "https://doi.org/10.1098/rsta.2025.0076",
+      "source": "PubMed — Philosophical transactions. Series A, Mathematical, physical, and engineering sciences",
+      "one_liner": "Machine learning surrogates for computational fluid dynamics (CFD) achieve substantial speedups but lack uncertainty quantification (UQ). We develop a post hoc conformal prediction (CP) framework that wraps any trained graph neural network (GNN) surrogate to produce prediction sets with coverage near-nominal levels. Using MeshGraphNet on two benchmark dat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe]-Hydrogenase.",
+      "url": "https://doi.org/10.1002/anie.6395554",
+      "source": "PubMed — Angewandte Chemie (International ed. in English)",
+      "one_liner": "[NiFe]-Hydrogenases display remarkable catalytic efficiency for H",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Monoclonal Antibody Adsorption at Fluid-Fluid Interfaces: Experimental and Computational Approaches for Interfacial Characterization.",
+      "url": "https://doi.org/10.1016/j.xphs.2026.104468",
+      "source": "PubMed — Journal of pharmaceutical sciences",
+      "one_liner": "Monoclonal antibodies (mAbs) frequently encounter fluid-fluid interfaces, such as air-water and oil-water boundaries, during manufacturing, storage, and administration, where adsorp-tion can trigger structural perturbations, aggregation, and loss of efficacy. Despite extensive experimental and computational efforts, a unified understanding that connects m...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Designability of RNA Targets with Up to Two Length-2 Helices",
+      "url": "https://arxiv.org/abs/2608.25194",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2608.25194v1 Announce Type: cross \nAbstract: RNA inverse folding asks for an RNA sequence whose prescribed secondary structure is the unique maximum-base-pair compatible fold. In the four-letter Watson-Crick model (A-U and C-G pairs only, no pseudoknots, and zero minimum base-pair span), Hales et al. introduced a separated-coloring certificate and a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Propensity Straight-Through Gradients for Discrete Stochastic Systems",
+      "url": "https://arxiv.org/abs/2608.25631",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.25631v1 Announce Type: new \nAbstract: Continuous-time Markov chains (CTMCs) provide the backbone for modeling discrete stochastic dynamics across applied, physical, and biological sciences. Their integration with modern gradient-based machine learning, however, is limited by the hard categorical event selection intrinsic to Gillespie-type simul...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Deep Learning-Based Classification of NIFTP and Invasive Encapsulated Follicular Variant of Papillary Thyroid Carcinoma Using Gross Pathology Images.",
+      "url": "https://doi.org/10.1007/s10278-026-02236-z",
+      "source": "PubMed — Journal of imaging informatics in medicine",
+      "one_liner": "Non-invasive follicular thyroid neoplasm with papillary-like nuclear features (NIFTP) and invasive encapsulated follicular variant of papillary thyroid carcinoma (IEFVPTC) are diagnostically challenging thyroid neoplasms with overlapping clinical and molecular characteristics. Although artificial intelligence has shown promise for diagnostic support in ra...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Identification of Vital Genes Common to Dilated and Hypertrophic Cardiomyopathy Using Machine Learning and Bioinformatics.",
+      "url": "https://doi.org/10.14744/AnatolJCardiol.2026.5935",
+      "source": "PubMed — Anatolian journal of cardiology",
+      "one_liner": "BACKGROUND: Heart failure (HF) is a complex clinical syndrome and a leading cause of hospitalization and mortality worldwide, with significantly increasing mortality rates over time. Dilated cardiomyopathy (DCM) and hypertrophic cardiomyopathy (HCM) are 2 major myocardial diseases that can lead to progressive HF. Dilated cardiomyopathy is characterized by...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "[Multi-modal tumor boundary clustering recognition based on artificial intelligence virtual cells and near-infrared surgical field].",
+      "url": "https://doi.org/10.7507/1001-5515.202512069",
+      "source": "PubMed — Sheng wu yi xue gong cheng xue za zhi = Journal of biomedical engineering = Shengwu yixue gongchengxue zazhi",
+      "one_liner": "In order to accurately identify tumor boundaries and improve diagnostic efficiency, this study proposes a multi-modal tumor boundary identification method based on artificial intelligence virtual cells and saliency near-infrared spectrum imaging, and uses this to construct the \"Golden Eyes 3.0\" intelligent navigation system. The system integrates the arti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "BixBench3: Benchmarking AI agents on research-study-scale computational biology tasks",
+      "url": "https://arxiv.org/abs/2608.25286",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.25286v1 Announce Type: cross \nAbstract: Artificial intelligence (AI) promises to accelerate biological research by automating computational analyses. Yet the ability of AI agents to carry out computational biology at the scale of complete research studies has not been systematically evaluated. Here we introduce BixBench3, a benchmark that measu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Challenges and opportunities in type III secretion system effector prediction.",
+      "url": "https://doi.org/10.1098/rsob.250485",
+      "source": "PubMed — Open biology",
+      "one_liner": "Type III secretion system effectors (T3SEs) are small bacterial proteins with big biological roles. They act as central molecular mediators of interactions between Gram-negative bacteria and eukaryotic hosts, spanning pathogenic, symbiotic and environmental contexts. Over the past three decades, T3SE discovery has progressed from genome-independent experi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Topogenic sequence recognition at TIM complexes revealed by a stendomycin-bound structure.",
+      "url": "https://doi.org/10.1038/s41589-026-02304-z",
+      "source": "PubMed — Nature chemical biology",
+      "one_liner": "In the mitochondrial inner membrane (IM), topogenesis of imported proteins is mediated by TIM23 and TIM22 complexes. TIM23 translocates soluble polypeptides across the IM into the matrix, whereas TIM22 inserts polytopic membrane proteins into the IM. Although functionally distinct, both rely on homologous subunits, Tim17 in TIM23 and Tim22 in TIM22. The u...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Adaptive Feature Selection for Hybrid EfficientNet-Residual Learning with Margin-Based Classification for Bone Fracture Detection (AFS-HERMS).",
+      "url": "https://doi.org/10.1007/s10278-026-02216-3",
+      "source": "PubMed — Journal of imaging informatics in medicine",
+      "one_liner": "Automated bone-fracture detection from radiographic images remains a challenging task due to variations in anatomical structures, imaging conditions, and class imbalance. While deep convolutional neural networks have demonstrated strong performance in medical image analysis, conventional end-to-end architectures often suffer from limited generalization. T...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GCRV S5 and Host EGR1 RNAs Form Chimeric RNA S5-AGUGA-EGR1: A Novel Mechanism Regulating Viral Gene Expression and Host Antiviral Response.",
+      "url": "https://doi.org/10.1016/j.fsi.2026.111683",
+      "source": "PubMed — Fish & shellfish immunology",
+      "one_liner": "Viral transcripts generate chimeric RNAs through fusion with host transcripts, modulating viral infection and host immune responses. Grass carp hemorrhagic disease, caused by grass carp reovirus (GCRV), represents a severe disorder threatening grass carp aquaculture. Previous research on GCRV-host interactions focused on viral and host protein crosstalk, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Unsupervised Anatomical Feature Learning via Diffusion Models: Enhanced Medical Image Segmentation with Denoising Diffusion Probabilistic Models",
+      "url": "https://arxiv.org/abs/2608.25693",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.25693v1 Announce Type: cross \nAbstract: Acquiring pixel-level annotations for medical image segmentation is a severe bottleneck. Traditional U-Net architectures, while effective, learn local texture patterns and lack awareness of global anatomical structures, leading to boundary delineation failures in low-data regimes. This research paper prop...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "MetaSieve: Faster Relational Deep Learning through SQL-Based Metapath Selection",
+      "url": "https://arxiv.org/abs/2608.25903",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.25903v1 Announce Type: cross \nAbstract: Relational Deep Learning (RDL) is an effective approach to machine learning over multi-table relational databases. In RDL, a database is modeled as a graph in which each row is a node and each foreign-key relation is an edge, and a graph neural network (GNN) is trained on this graph. Training a GNN requir...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

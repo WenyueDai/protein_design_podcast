@@ -1,0 +1,300 @@
+{
+  "timestamps": [
+    0.0,
+    185.11,
+    383.94,
+    553.86,
+    740.72,
+    887.52,
+    1074.55,
+    1236.43,
+    1421.61,
+    1614.85,
+    2283.92
+  ],
+  "items": [
+    {
+      "title": "Predicting ADME Properties with Machine Learning: 82% of the Performance From Two Descriptors",
+      "url": "https://www.blopig.com/blog/2026/09/predicting-adme-properties-with-machine-learning-82-of-the-performance-from-two-descriptors/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "A Nature survey of ~1500 scientists reported that more than 70% had failed to reproduce another scientist’s experiments, and 50% had failed to replicate their own (Baker, 2016). This study wasn’t specific to machine learning, but the crisis has its own flavour in computational drug discovery. One aspect of this is that available datasets have ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "Is the race for AGI a scam? Are the tech bros con men or visionaries?",
+      "url": "https://www.blopig.com/blog/2026/09/are-the-tech-bros-con-men-or-visionaries/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "In research, it can be tough even for experts to tell fact from fiction. This is especially true for more speculative fields like AI. It can feel like every model is “State-of-the-Art” and that AGI (whatever that means) will be “6 months away” for at least the next 6 months. How do we know we […]",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "Project Cybersyn: Bayesian Socialist Algocracy in 1970s Chile",
+      "url": "https://www.blopig.com/blog/2026/09/project-cybersyn/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "Palantir and Peter Thiel have found themselves in the headlines a lot this year, very often in the same sentence as the word “surveillance”. The idea behind Palantir is a simple one: give one company, or one control room, a real-time algorithmic view of how a government or an economy is actually functioning, and let […]",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "Mutate 'Em All and See If You Can Sort 'Em Out",
+      "url": "https://www.science.org/content/blog-post/mutate-em-all-and-see-if-you-can-sort-em-out",
+      "source": "In the Pipeline (Derek Lowe)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "author"
+      ]
+    },
+    {
+      "title": "Amyloid-β-regulated gene circuits for programmable Alzheimer's disease therapy",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.03.12.642808",
+      "source": "bioRxiv — bioengineering",
+      "one_liner": "Alzheimer's disease (AD) is a neurodegenerative disease characterized in part by the accumulation of the protein amyloid-{beta} (A{beta}). Monoclonal antibodies (mAbs) that target A{beta} for clearance from the brain have received FDA approval; however, these therapies are accompanied by serious side effects, and their cognitive benefit for patients remai...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence is reshaping neuroscience across scales.",
+      "url": "https://doi.org/10.1016/j.conb.2026.103265",
+      "source": "PubMed — Current opinion in neurobiology",
+      "one_liner": "Across every scale at which we study the brain, from folded proteins and single neurons to cortical populations and the moving body, artificial intelligence (AI) has shifted from a bespoke tool into a driver of measurement and, increasingly, a generative engine for hypotheses. Here, I review recent progress (and open challenges) in applying AI for neurosc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multimodal Graph Neural Networks and Evolutionary Knowledge Fusion for Secure and Explainable Governance in Intelligent IoT Interactive Media Systems.",
+      "url": "https://doi.org/10.1177/2167647X261481454",
+      "source": "PubMed — Big data",
+      "one_liner": "This research proposes a secure, explainable, and context-aware governance framework for blockchain-based digital media contracts in multimodal artificial intelligence-enabled AIoT interactive systems. As digital licensing, NFT copyright management, royalty distribution, and cross-chain content circulation become increasingly embedded in smart media ecosy...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MicroNucML enables machine learning-based micronuclei segmentation and micronuclei-nuclei association.",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101573",
+      "source": "PubMed — Cell reports methods",
+      "one_liner": "Micronuclei (MN) are structures containing small DNA fragments that arise from mitotic errors or failed DNA repair and serve as markers of genome instability. MN are typically quantified manually or with threshold methods, which can be tedious and inaccurate, leading to variable success and throughput. By employing a two-phase labeling approach that uses ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Towards Unified Neurosymbolic Reasoning on Knowledge Graphs.",
+      "url": "https://doi.org/10.1109/TPAMI.2026.3729969",
+      "source": "PubMed — IEEE transactions on pattern analysis and machine intelligence",
+      "one_liner": "Knowledge Graph (KG) reasoning has received significant attention in the fields of artificial intelligence and knowledge engineering, owing to its ability to autonomously deduce new knowledge and consequently enhance the availability and precision of downstream applications. However, current methods predominantly concentrate on a single form of neural or ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Brain cognition gaps reveal associations with dopamine and factors related to brain health through artificial intelligence prediction of functional connectome.",
+      "url": "https://doi.org/10.7554/eLife.104053",
+      "source": "PubMed — eLife",
+      "one_liner": "A key question in human neuroscience is to understand how individual differences in brain function relate to cognitive differences. However, the optimal condition of brain function to study between-person differences in cognition remains unclear. While many studies have developed objective biomarkers to accurately predict intelligence and general cognitio...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enrichment Performance Assessment of Extracellular Vesicles Using Different Functionalized Magnetic Materials and Application in Urinary Proteomics of Prostate Cancer.",
+      "url": "https://doi.org/10.1021/acsami.6c12149",
+      "source": "PubMed — ACS applied materials & interfaces",
+      "one_liner": "Extracellular vesicles (EVs) are lipid bilayer nanovesicles that mediate intercellular communication and hold significant potential for clinical applications. Although material-based isolation strategies offer promising alternatives to conventional methods, their relative performances have not been systematically evaluated. In this study, we conducted a c...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-empowered electrochemical nanobiosensors: towards intelligent diagnostics and data analysis.",
+      "url": "https://doi.org/10.1039/d6cc03189g",
+      "source": "PubMed — Chemical communications (Cambridge, England)",
+      "one_liner": "Electrochemical nanobiosensors now produce not only scalar analytical readouts but also voltammetric waveforms, impedance spectra, transistor transfer curves, images, and longitudinal streams whose interpretation is affected by matrix interference, fouling, drift, fabrication variability, and population heterogeneity. This Review introduces a mechanism-in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Upcycling Vegetable Waste Into Functional Food Ingredients via Synergistic Microbial Engineering and Artificial Intelligence.",
+      "url": "https://doi.org/10.1111/1541-4337.70611",
+      "source": "PubMed — Comprehensive reviews in food science and food safety",
+      "one_liner": "The escalating generation of global vegetable waste represents a critical loss of bioactive resources, necessitating a paradigm shift from passive disposal to active nutrient upcycling. However, the industrial conversion of this heterogeneous biomass into standardized functional food ingredients is currently impeded by significant techno-economic barriers...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence in drug discovery for fungal diseases: a scoping review.",
+      "url": "https://doi.org/10.1016/j.artmed.2026.103461",
+      "source": "PubMed — Artificial intelligence in medicine",
+      "one_liner": "BACKGROUND: Fungal diseases represent a global health threat, with high mortality rates and growing antifungal resistance demanding new therapeutic strategies. Artificial intelligence (AI) has emerged as a key methodology to accelerate the costly and time-consuming process of drug discovery. OBJECTIVES: To map the available evidence on the applications of...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ContrastQA: A label-guided graph contrastive learning-based approach for protein complex structure quality assessment.",
+      "url": "https://doi.org/10.1002/pro.70734",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Despite recent progress, the Estimation of Model Accuracy (EMA) for protein complexes remains less advanced compared to that for protein monomers. A key challenge lies in effectively integrating both interface-specific and global structural information to accurately assess the quality of protein complexes. Here, we introduce ContrastQA, the first EMA fram...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AResKGLM: a graph-grounded language-model framework for interpretable multi-hop antimicrobial resistance reasoning.",
+      "url": "https://doi.org/10.1093/bib/bbag456",
+      "source": "PubMed — Briefings in bioinformatics",
+      "one_liner": "Antimicrobial resistance (AMR) threatens microbiology and microbiome bioinformatics because resistance phenotypes are shaped by interactions among genes, mobile genetic elements, and functional environments across microbial communities. Prioritizing resistance determinants requires models that reason across knowledge graphs (KGs) linking genes, proteins, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multiobjective learning and design of bacteriophage specificity.",
+      "url": "https://doi.org/10.1016/j.cels.2026.101712",
+      "source": "PubMed — Cell systems",
+      "one_liner": "Proteins are often optimized for single functions during design and engineering without the consideration of other functionalities that may interfere with the intended outcome. Here, we apply deep learning to understand and design the multifunctional host-targeting landscape of the T7 bacteriophage receptor-binding protein for enhanced infectivity, predef...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pro4S: Prediction of protein solubility by fusing sequence, structure, and surface.",
+      "url": "https://doi.org/10.1002/pro.70749",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Protein solubility is a critical physicochemical property influencing protein stability, therapeutic efficacy, and overall developability in drug discovery. However, traditional experimental methods for assessing solubility are often resource-intensive and time-consuming. To address these limitations, computational approaches leveraging artificial intelli...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A general approach to unraveling structural changes of food proteins using atomistic model-based SAXS.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.149940",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Small-angle X-ray scattering (SAXS) is widely used to probe macromolecular structures in solution, but conventional analysis often relies on low-resolution models that overlook chemical and molecular details essential for understanding protein behavior in biological and food systems. We present a methodology that integrates high-resolution SAXS modeling w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Functional customization of peptide linkers in fusion proteins through multimodal deep learning approach.",
+      "url": "https://doi.org/10.1016/j.synbio.2026.02.003",
+      "source": "PubMed — Synthetic and systems biotechnology",
+      "one_liner": "Peptide linkers are critical modulators of function in fusion proteins, a foundational technology in modern bioengineering. However, the rational customization of linkers for specific applications remains challenging, hindered by an insufficient understanding of the relationship between linker sequences and fused protein function. In this study, we system...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}

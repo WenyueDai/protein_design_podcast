@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    167.28,
+    385.24,
+    564.64,
+    754.54,
+    947.69,
+    1103.76,
+    1268.64,
+    1433.06,
+    1655.94,
+    1805.05
+  ],
+  "items": [
+    {
+      "title": "RegimeFormer: A Large Protein Model of Global Perturbation Regimes",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747182",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein language models organize sequence and structure at scale, but a global representation of how proteins respond to mutation remains lacking. We present RegimeFormer, a large protein perturbation model coupled to RegimeAtlas, constructed by harmonizing and indexing 202,556,313 non-redundant protein sequences across the tree of life. A diversity-prese...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "ESM2-Kcr: a novel model combining protein language model and deep learning methods for predicting lysine crotonylation sites.",
+      "url": "https://doi.org/10.1007/s10822-026-00934-y",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "Lysine crotonylation (Kcr) is a vital posttranslational modification that plays a significant role in diverse biological processes such as DNA replication, the cell cycle, spermatogenesis, and embryonic stem cell differentiation. Abnormal Kcr levels are associated with multiple diseases including cancer, neurological disorders, and metabolic diseases, mak...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CIR-DDG: backbone-agnostic residual correction of antibody-antigen affinity changes with explicit cross-chain geometry",
+      "url": "https://arxiv.org/abs/2608.27530",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.27530v1 Announce Type: new \nAbstract: Motivation: Accurate prediction of mutation-induced protein--protein binding free-energy changes is important for antibody affinity maturation, yet scarce labels and complex interface geometry limit generalization. Heterogeneous predictors may process three-dimensional complexes without preserving the cross...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Neuromorphic architectures as numerical solvers for computational neuroscience",
+      "url": "https://arxiv.org/abs/2608.28387",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.28387v1 Announce Type: cross \nAbstract: Neuromorphic computing is closely associated with spiking neuronal networks. However, an alternative class of so-called \"rate-based\" models arising from computational neuroscience and machine learning forgoes spiking interactions and instead relies on continuous coupling between neurons. Existing neuromor...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "aiDIVA - hybrid AI for rare disease diagnostics using evidence-based, machine learning and language models.",
+      "url": "https://doi.org/10.1038/s41525-026-00611-x",
+      "source": "PubMed — NPJ genomic medicine",
+      "one_liner": "Genome sequencing enables accurate detection of genetic variants and is transforming rare disease diagnostics. While data generation is scalable, prioritization and clinical interpretation remain challenging, often requiring expert manual classification. AI-driven decision support systems are therefore needed to assist in causal variant identification or ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Isolation and characterisation of Nipah virus neutralising candidate therapeutic monoclonal antibodies from an mRNA-immunised pig",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.745669",
+      "source": "bioRxiv — immunology",
+      "one_liner": "Nipah virus (NiV) is a highly pathogenic zoonotic paramyxovirus with epidemic potential. Despite the threat NiV poses, no therapeutics are licensed to treat infection. Studies have shown that monoclonal antibodies (mAb) can protect animals against NiV and the related Hendra virus (HeV). The best studied mAb, m102.4, has been used to treat infected patient...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Chemi-Proteome Language Attention Network Empowers Fragment-Based Ligand Interactome and Binding Sites Discovery with Evidence",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747036",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Deep learning has accelerated drug discovery, yet most existing models are trained using in vitro affinity datasets and consequently remain disconnected from the cellular context in which functional ligand-protein interactions occur. This limitation hinders the ability to reflect the complexity of native interactomes and characterize biological responses ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Vipsania: Unsupervised Deep Gene Finding",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747235",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Scaling the structural annotation of protein-coding genes to all eukaryotic genomes remains a major challenge. While recent deep learning methods rival evidence-based pipelines without requiring RNA-seq or alignments, they are entirely supervised. They depend on large, high-quality training sets from diverse genomes, leaving many basal eukaryotic clades w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Amyloid Polymorphism of Lysozyme Governs Cross-Seeding of Insulin Aggregation",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747312",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Amyloid fibrils are highly ordered protein aggregates characterized by a conserved cross-{beta}-sheet architecture despite originating from structurally diverse precursor proteins. Growing evidence suggests that interactions between different amyloidogenic proteins can modulate aggregation pathways through heterologous cross-seeding; however, the influenc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Associations of C-reactive protein-triglyceride glucose-related indices with mortality across glycemic states: a nationwide prospective cohort study.",
+      "url": "https://doi.org/10.1016/j.diabres.2026.113541",
+      "source": "PubMed — Diabetes research and clinical practice",
+      "one_liner": "BACKGROUND: The associations and comparative discrimination of indices integrating inflammation, insulin resistance, and body shape within glycemic-status strata remain uncertain. METHODS: We included 13,867 adults from the 1999-2010 and 2015-2018 National Health and Nutrition Examination Survey. Complex-survey weighted Cox models evaluated CTI, CTI-BMI, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Quantifying molecular specificity in excipient-driven antibody solubilization.",
+      "url": "https://doi.org/10.1080/19420862.2026.2722444",
+      "source": "PubMed — mAbs",
+      "one_liner": "Excipients are widely used to suppress the self-association of therapeutic proteins, yet their mechanisms of action are not well understood and often assumed to be nonspecific. Here we show that excipient-mediated solubilization of therapeutic antibodies is markedly molecularly specific. Using a high-throughput combinatorial droplet microfluidic platform,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Recombinant Toxoplasma gondii expressing FIPV spike protein S1 subunit: A proof-of-concept approach against toxoplasmosis and feline infectious peritonitis.",
+      "url": "https://doi.org/10.1016/j.actatropica.2026.108297",
+      "source": "PubMed — Acta tropica",
+      "one_liner": "Feline infectious peritonitis virus (FIPV) is a lethal feline pathogen with no widely effective prophylactic vaccine available. To address this unmet need, we explored the feasibility of using Toxoplasma gondii (whose definitive host is felids) as a live delivery platform to develop a bivalent vector vaccine. We generated a transgenic T. gondii strain eng...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dark energy: the cost of function in protein evolution",
+      "url": "https://arxiv.org/abs/2608.27711",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2608.27711v1 Announce Type: new \nAbstract: The evolutionary fate of proteins is driven by both folding stability and biological function, dual constraints that often conflict, creating frustration and imposing functional costs beyond stability. These costs can be captured by a \"dark energy\": the difference between the evolutionary energy of protein ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A thermodynamic framework for mapping elastic recoil mechanism across the human proteome",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747957",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "The folding thermodynamics of proteins are dominated by two opposing forces, the loss in backbone entropy and the packing of hydrophobic groups. The same forces are major contributors to the extension thermodynamics of elastic proteins with the distinction that both processes act in concert, favoring the higher chain and solvent entropy of a relaxed confo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Conserved protein folds underpin the diversification of secreted proteins in a fungal pathogen.",
+      "url": "https://doi.org/10.1186/s12866-026-05518-2",
+      "source": "PubMed — BMC microbiology",
+      "one_liner": "BACKGROUND: During host colonization, fungal plant pathogens secrete effector-like proteins that alter host cell physiology and target plant-associated microbes. However, rapid evolution and low sequence conservation hinder the study and characterization of these proteins. The fungus Zymoseptoria passerinii infects Hordeum spp. and includes lineages adapt...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DLST Succinylation-Mediated Mitochondrial Metabolic Remodeling and Cuproptosis Resistance Promote Malignant Progression of Lung Adenocarcinoma.",
+      "url": "https://doi.org/10.1002/advs.77528",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Metabolic remodeling is one of the hallmarks of malignant tumors, and post-translational modifications of proteins, such as succinylation, play an important role in the process of metabolic remodeling by regulating the function of metabolic enzymes. However, the role of succinylation modifications of key mitochondrial metabolic enzymes in lung adenocarcin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SANS ankyrin repeats mediate non-classical nuclear import and dictate distinct pathogenic mechanisms.",
+      "url": "https://doi.org/10.1111/febs.70708",
+      "source": "PubMed — The FEBS journal",
+      "one_liner": "Mutations in the USH1G gene, which encodes the scaffold protein SANS, cause type-I Usher syndrome, a severe inherited disorder involving both hearing and vision loss. Although SANS has been implicated in nuclear pre-mRNA splicing, the molecular determinants of its nuclear import and their relevance to USH1G pathogenesis remain incompletely understood. Her...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Validation of SARS-CoV-2 neutralization assay using VSV-based pseudovirus system.",
+      "url": "https://doi.org/10.1016/j.ab.2026.116239",
+      "source": "PubMed — Analytical biochemistry",
+      "one_liner": "The gold standard for SARS-CoV-2 neutralization assays involves wild-type virus, which requires Biosafety Level 3 (BSL-3) containment. To improve safety and accessibility, pseudovirus-based neutralization assays utilizing non-replicating particles like Vesicular Stomatitis Virus (VSV) expressing the SARS-CoV-2 spike protein can be conducted under BSL-2 co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Can Subgraph Explanations Be Weaponized to Steal Graph Neural Networks?",
+      "url": "https://arxiv.org/abs/2605.30470",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2605.30470v2 Announce Type: replace \nAbstract: Graph Machine Learning as a Service (GMLaaS) platforms increasingly implement explainability interfaces to meet regulatory transparency requirements. However, this transparency creates exploitable vulnerabilities for model extraction attacks. We present the first model extraction attack specifically des...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Self-Explainable Multi-Label Graph Neural Network for Correlated Evidence Attribution",
+      "url": "https://arxiv.org/abs/2608.27574",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.27574v1 Announce Type: new \nAbstract: Multi-label graph learning intends to capture the intrinsic complexity of real-world applications, where one sample is often related to multiple groups or consists of multiple objects. To date, a handful of multi-label graph learning methods exist, but none of them integrate training-time interpretation cap...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

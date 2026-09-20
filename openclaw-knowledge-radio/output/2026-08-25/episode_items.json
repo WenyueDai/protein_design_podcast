@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    177.43,
+    381.35,
+    574.98,
+    794.67,
+    1013.96,
+    1238.3,
+    1462.6,
+    1682.46,
+    1859.22,
+    2077.52
+  ],
+  "items": [
+    {
+      "title": "Limits of deep-learning-based RNA prediction methods.",
+      "url": "https://doi.org/10.1093/nar/gkag813",
+      "source": "PubMed — Nucleic acids research",
+      "one_liner": "In recent years, tremendous advances have been made in predicting protein structures and protein-protein interactions, but progress on RNA structure, alone or in complex with other macromolecules, has lagged behind despite recent methodological developments. It remains unclear whether reported gains in accuracy generalize to novel RNA structures. Here, we...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A FRET Ligation Assay using Fluorescent Proteins for Bacterial Sortase Enzymes",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746329",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Bacterial sortases are widely used in sortase-mediated ligation (SML) experiments for various protein engineering applications. The power of these enzymes to bind and cleave a specific recognition motif, followed by ligation to another substrate using a ping-pong reaction mechanism has numerous applications in vaccine and antibody/nanobody drug conjugate ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Probiotic-Derived Antimicrobial Proteins and Peptides: Molecular Mechanisms, Clinical Applications, and Future Therapeutic Perspectives.",
+      "url": "https://doi.org/10.1007/s12602-026-11180-x",
+      "source": "PubMed — Probiotics and antimicrobial proteins",
+      "one_liner": "Increased antimicrobial resistance and the shortage of new drugs in the pipeline are driving interest in alternative approaches to treating infectious diseases. Probiotic microorganisms, particularly lactic acid bacteria, produce a variety of antimicrobial proteins and peptides (PAPs), such as bacteriocins and caseinolytic fragments, that act in ways dist...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mutation-induced heterogeneity of the β7-β8 loop of the Staphylococcus aureus class A sortase leading to enhanced catalytic efficiency characterized by NMR and enzyme kinetics",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746310",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Bacterial sortase enzymes are cysteine transpeptidases at the surface of Gram-positive bacteria that ligate substrates to the cell wall. In addition, these enzymes are powerful tools in protein engineering applications via sortase-mediated ligation (SML) due to their covalent attachment of two substrates, with one containing a pentapeptide recognition mot...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Site-specific phosphorylation affects the structure and interactions of the Ycf1p R region.",
+      "url": "https://doi.org/10.1073/pnas.2532795123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Many ATP-binding cassette (ABC) proteins function in active transport of solutes across biological membranes. At minimum, ABC proteins contain two repeats of a transmembrane domain (TMD) and a nucleotide binding domain (NBD). In many ABC proteins, the TMD-NBD halves are connected by an intrinsically disordered linker that regulates the activity of the ABC...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "High-Confidence Pseudolabeling-Enhanced Multiorder Dynamic Sparse Graph Aggregation Network for Semi-Supervised Hyperspectral Change Detection.",
+      "url": "https://doi.org/10.1109/TNNLS.2026.3724649",
+      "source": "PubMed — IEEE transactions on neural networks and learning systems",
+      "one_liner": "In recent years, graph convolutional networks (GCNs) have received extensive interest in semi-supervised hyperspectral image change detection (HSI-CD), which aims to achieve more robust change feature learning and difference discrimination with the help of the constructed graph structure. However, existing methods typically utilize superpixels to reduce t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rice Orange Leaf Phytoplasma Imp Protein Blocks G-M Interaction by Binding Glycoprotein G to Suppress Rice Stripe Mosaic Virus Infection.",
+      "url": "https://doi.org/10.1111/pce.70839",
+      "source": "PubMed — Plant, cell & environment",
+      "one_liner": "Plants frequently encounter multiple pathogens concurrently, yet the molecular bases of pathogen-pathogen interactions during mixed infections remain largely unresolved. Here we show that co-infection of rice by Rice orange leaf phytoplasma (ROLP) and Rice stripe mosaic virus (RSMV) markedly suppresses RSMV proliferation in both host plants and the insect...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Massively parallel characterization of RNA G-quadruplex stability and molecular recognition.",
+      "url": "https://doi.org/10.1093/nar/gkag821",
+      "source": "PubMed — Nucleic acids research",
+      "one_liner": "RNA G-quadruplexes (rG4s) have been implicated as important regulators of RNA metabolism and are promising targets for RNA-targeted therapeutics. rG4s typically require a canonical (G≥2N1-7)4 motif, but the sequence features that affect rG4 stability and recognition by RNA-binding proteins (RBPs) and rG4-binding ligands are not fully understood. To interr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Harmonic Torsional Diffusion for Protein-Ligand Flexible Docking",
+      "url": "https://arxiv.org/abs/2608.20366",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2608.20366v1 Announce Type: new \nAbstract: Molecular docking requires reasoning jointly about ligand pose and protein flexibility. Most diffusion-based docking models predict torsional updates with generic Euclidean heads that ignore the periodic geometry of angular variables. This mismatch is especially limiting in flexible docking, where ligand co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Bionic Protein Bond Constraint-Reinforced and Enriched Multifunctional Hydrogel Coating for Invasive Medical Devices.",
+      "url": "https://doi.org/10.1002/smll.75191",
+      "source": "PubMed — Small (Weinheim an der Bergstrasse, Germany)",
+      "one_liner": "Dual-targeted strategies addressing both infection and trauma from invasive devices are imperative. Herein, we developed a bionic protein bond constraint strategy to construct multifunctional quaternary ammonium hydrogel coatings (BEAC). Inspired by the secondary bonds stabilizing the protein tertiary structure, BEAC was synthesized by integrating acryloy...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing Enzyme Activity With Mutation Combinations Guided by Few-Shot Learning and Causal Inference.",
+      "url": "https://doi.org/10.1002/anie.7768514",
+      "source": "PubMed — Angewandte Chemie (International ed. in English)",
+      "one_liner": "Designing enzyme sequences to enhance product yield represents a fundamental challenge in metabolic engineering. Here, we established a workflow that integrates computational predictions with efficient experimental iteration to obtain outsized gains in product yield. Based on causal inference and examination of published datasets, we realized and ultimate...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Navigating the oligomeric landscape of the periplasmic stress response protease-chaperone DegP with charge detection mass spectrometry",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746289",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "DegP is a periplasmic protease-chaperone essential for protein quality control and virulence factor trafficking in Gram-negative bacteria. In its apo form, DegP adopts a dynamic ensemble of oligomers derived from trimer building blocks through two competing self-assembly pathways. Upon engaging client proteins, apo DegP oligomers redistribute into discret...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "MOGAD-Like Encephalitic Syndromes Without MOG Antibodies in Children.",
+      "url": "https://doi.org/10.1212/NXI.0000000000200635",
+      "source": "PubMed — Neurology(R) neuroimmunology & neuroinflammation",
+      "one_liner": "BACKGROUND AND OBJECTIVES: Although acute disseminated encephalomyelity (ADEM) can be myelin oligodendrocyte glycoprotein-IgG (MOG-IgG) positive or negative, it is unclear whether other MOG-antibody-associated disease (MOGAD)-like encephalitis syndromes occur without MOG-IgG. We aimed to define the frequency, clinico-radiologic features, outcomes, and ant...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction",
+      "url": "https://arxiv.org/abs/2608.21349",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.21349v1 Announce Type: new \nAbstract: Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, without explicitly modeling the molecular changes expected under treatment. We propose PerturbRx, a treatment-cond...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Histone modification cross talk between a host and pathogen.",
+      "url": "https://doi.org/10.1073/pnas.2611585123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Bacterial pathogens modulate host cell physiology by secreting effector proteins that rewire host signaling pathways. A subset of these effectors directly modify host chromatin to reprogram gene expression and promote infection. While these enzymes are thought to function autonomously, the extent to which the host epigenetic landscape regulates their acti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Zinc increases stress granule formation by promoting RNA condensation.",
+      "url": "https://doi.org/10.1016/j.celrep.2026.117870",
+      "source": "PubMed — Cell reports",
+      "one_liner": "During cellular stress, mRNAs are condensed into stress granules through the action of G3BP1 and G3BP2. How intracellular conditions affect RNA-protein condensation in stress granules is still unclear. Herein, we present several observations that cells modulate intracellular zinc concentrations to reduce the direct impact of zinc on RNA condensation. We s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The AtRNC1-AtWTF1 protein complex is essential for chloroplast group Ⅱ intron splicing, ribosome biogenesis, and embryo development in Arabidopsis.",
+      "url": "https://doi.org/10.1007/s11103-026-01756-0",
+      "source": "PubMed — Plant molecular biology",
+      "one_liner": "The splicing of group Ⅱ introns in chloroplasts is essential for photosynthesis and plant development and relies on a series of nucleus-encoded RNA-binding proteins. Here, we demonstrate that two Arabidopsis proteins, ribonuclease Ⅲ-domain protein AtRNC1 and the Plant organelle RNA recognition (PORR) protein AtWTF1, are essential for chloroplast function....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DIR12 Confers Rice Salt Tolerance by Mediating Lignin Deposition in Root Diffusion Barrier.",
+      "url": "https://doi.org/10.1111/pce.70831",
+      "source": "PubMed — Plant, cell & environment",
+      "one_liner": "Soil salinity severely threatens rice production worldwide, and root lignification-mediated apoplastic barrier formation is a key adaptive mechanism for rice salt tolerance. Here, we characterised DIR12, a plasma mnm embrane-localised dirigent-like protein in rice, which is transcriptionally induced by salt stress and highly expressed in root and stem tis...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Minimax Optimality of Score-Entropy Discrete Diffusion",
+      "url": "https://arxiv.org/abs/2608.20635",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.20635v1 Announce Type: cross \nAbstract: Discrete diffusion models have demonstrated strong performance across a range of datasets, including natural language data and graph-structured data. Among many variants, score-entropy discrete diffusion (SEDD) has achieved particularly strong empirical results. In SEDD, new samples are generated by itera...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Structure is information: structural identifiability mappings for machine learning with partially observed dynamical systems",
+      "url": "https://arxiv.org/abs/2502.04131",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2502.04131v2 Announce Type: replace \nAbstract: The successful application of modern machine learning for time series classification is often hampered by limitations in quality and quantity of available training data. To overcome these limitations, domain knowledge can be leveraged in the form of parameterised mechanistic dynamical models, whereby ti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

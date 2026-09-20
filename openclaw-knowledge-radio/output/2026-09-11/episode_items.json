@@ -1,0 +1,295 @@
+{
+  "timestamps": [
+    0.0,
+    229.96,
+    511.91,
+    681.32,
+    880.62,
+    1057.49,
+    1251.07,
+    1449.24,
+    1648.19,
+    1840.62,
+    1952.19
+  ],
+  "items": [
+    {
+      "title": "Detecting Meiotic Crossing-Overs in Maize Using Chromatin Immunoprecipitation-Sequencing (ChIP-seq).",
+      "url": "https://doi.org/10.1101/pdb.prot108741",
+      "source": "PubMed — Cold Spring Harbor protocols",
+      "one_liner": "During meiosis, homologous chromosomes engage in reciprocal exchanges of segments in a process known as crossing over (CO). About 85% of CO events in maize are products of the class I pathway. Class I COs are interference-sensitive, meaning that the formation of one CO reduces the likelihood of another CO forming close by. This protocol describes a chroma...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Sequence and structural determinants of efficacious de novo chimaeric antigen receptors.",
+      "url": "https://doi.org/10.1038/s41551-026-01790-9",
+      "source": "PubMed — Nature biomedical engineering",
+      "one_liner": "Advances in generative protein design using artificial intelligence (AI) have enabled the rapid development of binders against heterogeneous targets, including tumour-associated antigens. Despite extensive biochemical characterization, these novel protein binders have had limited evaluation in candidate therapeutics, including chimaeric antigen receptor (...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "HighMorph: De Novo Cyclic Peptide Sequence Design via Protein-Protein Interaction Recapitulation.",
+      "url": "https://doi.org/10.1021/acs.jmedchem.6c01926",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "Cyclic peptides have emerged as a compelling class of bioactive scaffolds, but de novo design of target-binding cyclic peptides from protein structures remains challenging. Here, we present HighMorph, an interaction-guided framework that combines protein-protein interaction information with artificial intelligence for rational cyclic peptide design. HighM...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI-Guided Discovery of Natural-Product-Inspired Scaffolds as Dual P-gp/BCRP Inhibitors to Overcome Cancer Multidrug Resistance.",
+      "url": "https://doi.org/10.1021/acs.jmedchem.6c02170",
+      "source": "PubMed — Journal of medicinal chemistry",
+      "one_liner": "ATP-binding cassette (ABC) transporters ABCB1/P-glycoprotein (P-gp) and ABCG2/breast cancer resistance protein (BCRP) drive multidrug resistance (MDR) by limiting intracellular chemotherapy accumulation, and are coexpressed in cancers with overlapping substrates. Here, we combine marine natural product fragment mining, artificial intelligence (AI)-based m...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Spacer-engineered donor DNA enhances CRISPR-Cas9-mediated knockin to establish a chemical knockdown platform for endogenous proteins.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154428",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Precise installation of functional protein domains at endogenous loci is a powerful approach for interrogating protein functions, but its broad application is limited by the low efficiency of homology-directed repair (HDR)-mediated knockin during Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-Cas9 gene editing. Here, we investigated a ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MCKG-SL: Knowledge graph-based multi-feature cross-aggregation synthetic lethality prediction for KRAS gene.",
+      "url": "https://doi.org/10.1016/j.artmed.2026.103519",
+      "source": "PubMed — Artificial intelligence in medicine",
+      "one_liner": "KRAS (Kirsten rat sarcoma viral oncogene homolog) is the most commonly mutated oncogene in human cancer. Targeting synthetic lethal (SL) partners in the setting of oncogenic KRAS is an alternative therapeutic strategy for KRAS-mutant malignancies. However, existing SL prediction algorithms are limited by incomplete understanding of complex biological syst...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Agreement between artificial intelligence and periodontists in the detection of periodontal bone loss on panoramic radiographs.",
+      "url": "https://doi.org/10.1007/s00784-026-07128-8",
+      "source": "PubMed — Clinical oral investigations",
+      "one_liner": "OBJECTIVES: To evaluate the agreement between radiographic bone level measurements generated by a deep learning model and those derived from expert periodontist annotations on panoramic radiographs. MATERIALS AND METHODS: In this retrospective single-center radiographic study, periodontal bone loss was segmented by a YOLOv8x-based deep learning model and ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "18S rRNA 3' end cleavage by the phosphorylated endoribonuclease NOB1 is interconnected with early small subunit biogenesis.",
+      "url": "https://doi.org/10.1261/rna.081089.126",
+      "source": "PubMed — RNA (New York, N.Y.)",
+      "one_liner": "Processing of the precursor ribosomal RNAs (pre-rRNAs) is a key aspect of ribosomal subunit assembly that is closely coordinated with other maturation events. The ribonucleases that mediate pre-rRNA cleavages require regulation to ensure that their activities are exerted in a timely manner. Post-translational modifications can influence protein functions,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep-Learning Artificial Intelligence Model for Tooth Restorability Using Radiographic Assessment.",
+      "url": "https://doi.org/10.1016/j.identj.2026.111115",
+      "source": "PubMed — International dental journal",
+      "one_liner": "INTRODUCTION AND AIM: Evidence-based decision-making in determining whether to preserve or extract a tooth is essential for maintaining long-term function and aesthetics. However, such decisions are often subjective and influenced by the clinician's experience. This study aimed to develop and evaluate a deep learning-based artificial intelligence model to...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-assisted mRNA vaccine pharmacovigilance: a systematic review of multi-source real-world data.",
+      "url": "https://doi.org/10.1186/s12911-026-03832-3",
+      "source": "PubMed — BMC medical informatics and decision making",
+      "one_liner": "BACKGROUND: The rapid deployment of mRNA vaccines during the COVID-19 pandemic exposed limitations in traditional pharmacovigilance systems, including delayed reporting, high underreporting rates, and inability to calculate true incidence. Machine learning (ML) offers new pathways to overcome these challenges by integrating multi-source real-world data. M...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Plasma GFAP and language-network tau mediate the effect of amyloid burden on semantic fluency: A mediation analysis.",
+      "url": "https://doi.org/10.1002/dad2.70475",
+      "source": "PubMed — Alzheimer's & dementia (Amsterdam, Netherlands)",
+      "one_liner": "INTRODUCTION: Amyloid burden may relate to semantic fluency through tau and astrocytic pathways, but their contributions remain unclear. METHODS: In this cross-sectional study, we analyzed 210 Alzheimer's Disease Neuroimaging Initiative (ADNI) participants with amyloid positron emission tomography (PET), tau PET, plasma glial fibrillary acidic protein (GF...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Immunolocalization of Meiotic Proteins in Maize.",
+      "url": "https://doi.org/10.1101/pdb.prot108739",
+      "source": "PubMed — Cold Spring Harbor protocols",
+      "one_liner": "Meiosis is an important generator of genetic diversity in plants. Maize, with its large and conspicuous chromosomes, is an attractive model for cytological studies of meiosis. Immunolocalization employs the antigen-antibody interaction to visualize proteins within cells and tissues using fluorescence microscopy. This technique enables direct observation o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Kv11.1 (hERG) Protein Interaction Networks Connect Endocytic Trafficking to Polygenic Influences on Cardiac Repolarization.",
+      "url": "https://doi.org/10.1016/j.mcpro.2026.101656",
+      "source": "PubMed — Molecular & cellular proteomics : MCP",
+      "one_liner": "Polygenic scores (PGS) capture the combined effect of many common genetic variants on quantitative traits and disease risk, yet their functional consequences at the protein level remain poorly defined. Here, we integrated quantitative and interaction proteomics to resolve how polygenic liability for cardiac repolarization manifests in human cells. We stud...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Targeted RPT of CEACAM5-Expressing Human Xenografts Using an Albumin-Binding Domain-Fused C9 Affibody: Proof-of-Principle Study.",
+      "url": "https://doi.org/10.2967/jnumed.126.272854",
+      "source": "PubMed — Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
+      "one_liner": "The carcinoembryonic antigen cell adhesion molecule 5 (CEACAM5) is highly overexpressed in carcinomas of different origins. Affibody molecules are non-immunoglobulin-based affinity proteins capable of in vivo recognition of cancer-associated targets. Affibody C9 was previously generated to bind selectively to CEACAM5. In an earlier in vivo study, C9 was e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Immunogenicity Assays Used in Support of Marketing Applications of Oligonucleotide Therapeutics.",
+      "url": "https://doi.org/10.1208/s12248-026-01275-2",
+      "source": "PubMed — The AAPS journal",
+      "one_liner": "Oligonucleotide therapeutics (ONT) continue to emerge as a versatile new class of medicines. While relatively small in terms of molecular weight, ONT may trigger formation of anti-drug antibodies (ADA), which in turn may impact pharmacokinetics, pharmacodynamics, efficacy, and safety. Bioanalytical methodology for detection of ADA against protein-based th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Investigation of the molecular mechanism by which triclosan aggravates rheumatoid arthritis using network toxicology.",
+      "url": "https://doi.org/10.1016/j.ecoenv.2026.120783",
+      "source": "PubMed — Ecotoxicology and environmental safety",
+      "one_liner": "This study comprehensively employed network toxicology and experimental validation to systematically investigate the potential mechanisms by which triclosan (TCS) exacerbates rheumatoid arthritis (RA). Through multi-database screening, 173 common targets between TCS and RA were obtained. Combined with protein-protein interaction (PPI) network analysis and...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mechanism of hydroxylation-regulated protein corona on graphdiyne",
+      "url": "https://doi.org/10.1039/d6cp01938b",
+      "source": "PubMed — Physical chemistry chemical physics : PCCP",
+      "one_liner": "We derive coarse-grained interaction potentials for graphdiyne-protein systems by first constructing all-atom force fields, thereby enabling large-scale simulations of protein corona formation on graphdiyne nanomaterials. Using these potentials, we elucidate the molecular mechanism by which surface hydroxylation tunes protein corona composition in human b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Linking cellular metabolism to mitochondrial outer membrane potential.",
+      "url": "https://doi.org/10.1016/j.mito.2026.102218",
+      "source": "PubMed — Mitochondrion",
+      "one_liner": "The voltage-dependent anion channel (VDAC) of the mitochondrial outer membrane (MOM) responds to transmembrane voltage through intrinsic gating and voltage-dependent interactions with cytosolic proteins, such as α-synuclein and β-tubulin. Despite this characteristic voltage sensitivity found in vitro, the existence of a substantial MOM potential (ΔΨ",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "When do cheap embeddings beat protein language models? A theoretically-grounded hashing sketch for biological sequence classification",
+      "url": "https://arxiv.org/abs/2512.10147",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.10147v2 Announce Type: replace \nAbstract: \\textbf{Motivation:} Pre-trained protein language models (PLMs) such as ESM-2 have become the default representation for biological sequence tasks, but they are computationally heavy and require GPUs both for embedding and for fine-tuning. Whether they are actually necessary for sequence \\emph{classific...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Learning structural balance of graphs from quantum spectral features",
+      "url": "https://arxiv.org/abs/2609.11736",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.11736v1 Announce Type: cross \nAbstract: We develop a quantum approach to spectral feature extraction from the density of states (DOS) of a problem-dependent Hamiltonian, and apply it to machine learning on signed graphs. We propose to embed a signed graph as an Ising model instance with positive and negative interactions, and use the standardiz...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}

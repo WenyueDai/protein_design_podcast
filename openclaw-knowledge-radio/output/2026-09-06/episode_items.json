@@ -1,0 +1,269 @@
+{
+  "timestamps": [
+    0.0,
+    152.11,
+    343.38,
+    482.32,
+    678.3,
+    868.35,
+    1061.4,
+    1254.5,
+    1445.58,
+    1641.35,
+    1896.63
+  ],
+  "items": [
+    {
+      "title": "Binding analysis of the response regulator NarL protein to the promoter of the O",
+      "url": "https://doi.org/10.1007/s11033-026-12687-w",
+      "source": "PubMed — Molecular biology reports",
+      "one_liner": "BACKGROUND: Salmonella Typhimurium (STM) is a gram-negative bacterium that causes severe gastrointestinal disorders in both animals and humans. The regulation of DNA repair genes is critical for maintaining genomic stability of the bacteria. O METHODS: In this study, narl gene was cloned in pET32a vector and NarL protein was expressed in Escherichia coli ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Dual-Approach AI for Pediatric Supracondylar Fractures: Multiclass Radiograph Classification with Explainable AI and Diagnostic Meta-analysis of AI-Based Computational Approaches.",
+      "url": "https://doi.org/10.1016/j.acra.2026.08.048",
+      "source": "PubMed — Academic radiology",
+      "one_liner": "RATIONALE AND OBJECTIVES: Pediatric supracondylar fractures (SCFs) are the most common elbow injury in children, yet radiographic diagnosis remains challenging due to complex developmental anatomy, with initially missed fracture rates of 17-77%. Prior artificial intelligence (AI) studies have been limited to binary classification frameworks without Gartla...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GraphPert: A graph autoencoder framework for network-based drug repurposing using transcriptional signatures-A case study on melanoma.",
+      "url": "https://doi.org/10.1016/j.compbiomed.2026.111912",
+      "source": "PubMed — Computers in biology and medicine",
+      "one_liner": "MOTIVATION: Network-based drug repurposing leverages the principle that drug effects propagate through protein-protein interaction (PPI) networks similarly to disease perturbations. Graph-based embedding methods exploit this principle by learning low-dimensional representations that capture the network neighborhood of disease and drug target proteins, ena...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A novel framework for the discovery of MAPK-activated protein kinase 2 (MAPKAPK2) inhibitors using a multi-feature deep learning ensemble.",
+      "url": "https://doi.org/10.1007/s10822-026-00935-x",
+      "source": "PubMed — Journal of computer-aided molecular design",
+      "one_liner": "MAPKAPK2 is a promising therapeutic target in numerous diseases. However, many MAPKAPK2 inhibitors are plagued by low solubility and permeability, and none have advanced through clinical trials. New computational methods utilizing deep learning can speed up inhibitor identification. This study aims to develop and validate a novel framework for MAPKAPK2 in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure and biochemical analyses suggest that PrkA/YeaG protein of Thermus thermophilus functions as a putative molecular chaperone.",
+      "url": "https://doi.org/10.1093/jb/mvag041",
+      "source": "PubMed — Journal of biochemistry",
+      "one_liner": "Protein phosphorylation, a key post-translational modification, is mediated by various protein kinases. The bacterial PrkA/YeaG is recognized as an atypical protein kinase, but its activity remains elusive. This study investigated the structural and functional characteristics of a PrkA/YeaG homologue, TpkB, from Thermus thermophilus HB8. Using cryo-electr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural insights into the bioengineering of heme-containing enzymes.",
+      "url": "https://doi.org/10.1002/1873-3468.70456",
+      "source": "PubMed — FEBS letters",
+      "one_liner": "Heme-containing enzymes represent one of nature's most versatile catalytic platforms, capable of mediating a broad spectrum of redox and group-transfer reactions. This review provides a comprehensive overview of the structural and mechanistic principles that underpin the bioengineering of heme proteins for both natural and abiological transformations. Her...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Loss of UBIQUITIN-PROTEIN LIGASE 3 (UPL3) impairs cellulose-xylan structural organization in Arabidopsis seed mucilage.",
+      "url": "https://doi.org/10.1016/j.plaphy.2026.111711",
+      "source": "PubMed — Plant physiology and biochemistry : PPB",
+      "one_liner": "Arabidopsis thaliana seeds release large capsules of mucilaginous polysaccharides, whose adherence depends not only cellulose and hemicellulose biosynthesis but also their interactions. However, the key proteins regulating the connection within this polysaccharide network in the seed coat mucilage remain unclear and require further investigation. Through ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Sequence-free landscape inference for directed evolution.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014713",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Directed evolution is a method for engineering biological systems or components, such as proteins, wherein desired traits are optimised through iterative rounds of mutagenesis and selection of fit variants. The process of protein directed evolution can be envisaged as navigation over high-dimensional optimisation landscapes with numerous local maxima. The...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A novel method for predicting tunnel blasting dust yield based on numerical inversion and WOA-DELM (Whale Optimization Algorithm-Deep Extreme Learning Machine) neural network.",
+      "url": "https://doi.org/10.1080/15459624.2026.2703500",
+      "source": "PubMed — Journal of occupational and environmental hygiene",
+      "one_liner": "Drilling and blasting during the construction of tunnels generate large amounts of dust. Accurately predicting dust yield helps to formulate effective dust control measures that can be employed to reduce worker exposures. However, current dust yield prediction methods mainly rely on empirical formulas for open-pit blasting, which do not fully account for ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular modeling and quantum chemical calculation study of derived peptides from a Bowman-Birk inhibitor in complexes with trypsin.",
+      "url": "https://doi.org/10.1007/s00894-026-06931-0",
+      "source": "PubMed — Journal of molecular modeling",
+      "one_liner": "CONTEXT: Bowman-Birk inhibitors (BBIs) are cysteine-rich proteins that inhibit trypsin and chymotrypsin proteases. Derived from soybeans, these natural BBIs have been identified as potential anticarcinogenic agents. Recent studies of the black-eyed pea trypsin/chymotrypsin inhibitor (BTCI) demonstrated that peptides derived from the BBI family may retain ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Lysine as a multifunctional excipient for protein-based biopharmaceutical formulations.",
+      "url": "https://doi.org/10.1016/j.ijpharm.2026.127192",
+      "source": "PubMed — International journal of pharmaceutics",
+      "one_liner": "Lysine (Lys) is a nutritionally essential amino acid with a well-established parenteral safety record, yet its potential as a multifunctional excipient for protein-based biopharmaceutical formulation has not been the subject of a dedicated comprehensive review. The physicochemical properties of Lys include bifunctional amine structure, stable cationic cha...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Characterizing CCR2 homodimers using homology-derived and AI-predicted interfaces.",
+      "url": "https://doi.org/10.1016/j.jmb.2026.170013",
+      "source": "PubMed — Journal of molecular biology",
+      "one_liner": "Deciphering the functional roles of G protein-coupled receptors (GPCRs) oligomers requires defining their structural organization, which remains a challenge due to the inherent flexibility of their 7 transmembrane (TM) domains. Here, we focused on determining homodimer interfaces of the chemokine receptor CCR2, a major component of the inflammatory respon...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural determinants of Mac1 inhibition: Lessons from ligand binding patterns.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154249",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "This study comprehensively analyzes how various inhibitors bind to the SARS-CoV-2 macrodomain Mac1, a key protein implicated in hampering the host's immune response following viral infection. In this study we used volume-based metadynamics simulations to investigate the binding mechanisms of ADP-ribose and two Mac1 inhibitors: the adenine-analogue GS-4415...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Discovery of potential new drug targets for cystitis and chronic cystitis: a drug target Mendelian randomization study.",
+      "url": "https://doi.org/10.1016/j.fjurol.2026.103196",
+      "source": "PubMed — The French journal of urology",
+      "one_liner": "BACKGROUND: Acute cystitis is a common bacterial infection, and its progression to chronic forms poses significant challenges due to limitations of antibiotic therapy. We aimed to identify novel drug targets for cystitis using a Mendelian randomization approach. METHODS: We integrated plasma protein data (from DECODE and UKB-PPP) and eQTL data (from eqtlG...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Natural selection on synonymous genetic variation in the major histocompatibility complex",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707394",
+      "source": "bioRxiv — evolutionary biology",
+      "one_liner": "Protein coding DNA sequences harbor synonymous nucleotide variation that does not change amino acid sequences but influences phenotypes via multiple effects on the pathway from gene to protein. Synonymous variation has recently been shown to coevolve between viruses and their natural hosts, but its potential role in host immune defenses has not been explo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design, synthesis, and bioactivity assessment of highly potent isatin-based small-molecules bearing 3-hydrazineyl-6-aryl-1,2,4-triazine moieties as potential c-MET targeting anticancer agents.",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.109990",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "The present study reports the design, synthesis, and biological evaluation of 25 novel isatin-based small molecules bearing 3-hydrazineyl-6-aryl-1,2,4-triazine motifs, generated through anticancer-scaffold hybridization and structure-guided modification of a c-MET inhibitor hit compound 3a. The antiproliferative properties of the target compounds (E1-25) ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Optimizing phage elution for biopanning of plastic materials.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.154187",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "Biopanning of phage-displayed peptides is a useful method for peptide probe discovery and has been applied to multiple plastic targets. The most widely used elution method on plastic targets, acidic glycine buffer, is well-established as a general binding disrupter for protein targets, but a comparative study of elution buffers for plastic targets has nev...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A deep unrolling network based on cartoon texture decomposition for low-dose CT reconstruction.",
+      "url": "https://doi.org/10.1088/1361-6560/aea2ec",
+      "source": "PubMed — Physics in medicine and biology",
+      "one_liner": "OBJECTIVE: Deep unrolling network, as a promising deep learning approach for low-dose computed tomography (LDCT) reconstruction, can efficiently address the issues of severe noise and artifacts in LDCT imaging. However, most existing methods predominantly unrolled the fidelity term to convolutional neural networks (CNNs) while failing to unroll regulariza...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
