@@ -52,6 +52,7 @@ jobs:
           NOTION_DATABASE_ID:   ${{ secrets.NOTION_DATABASE_ID }}
           NOTION_TRANSCRIPT_DATABASE_ID: ${{ secrets.NOTION_TRANSCRIPT_DATABASE_ID }}
           VISITOR_MESSAGE_ENDPOINT: ${{ secrets.VISITOR_MESSAGE_ENDPOINT }}
+          S2_API_KEY:           ${{ secrets.S2_API_KEY }}
           RUN_DATE:             ${{ github.event.inputs.run_date }}
           FORCE_REPUBLISH:      ${{ github.event.inputs.force_republish }}
         run: python run_daily.py
