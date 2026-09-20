@@ -1,0 +1,452 @@
+[
+ {
+  "title": "Sequence-free landscape inference for directed evolution.",
+  "snippet": "Directed evolution is a method for engineering biological systems or components, such as proteins, wherein desired traits are optimised through iterative rounds of mutagenesis and selection of fit variants. The process of protein directed evolution can be envisaged as navigation over high-dimensional optimisation landscapes with numerous local maxima. The...",
+  "label": 1
+ },
+ {
+  "title": "Structural insights into the bioengineering of heme-containing enzymes.",
+  "snippet": "Heme-containing enzymes represent one of nature's most versatile catalytic platforms, capable of mediating a broad spectrum of redox and group-transfer reactions. This review provides a comprehensive overview of the structural and mechanistic principles that underpin the bioengineering of heme proteins for both natural and abiological transformations. Her...",
+  "label": 1
+ },
+ {
+  "title": "Characterizing CCR2 homodimers using homology-derived and AI-predicted interfaces.",
+  "snippet": "Deciphering the functional roles of G protein-coupled receptors (GPCRs) oligomers requires defining their structural organization, which remains a challenge due to the inherent flexibility of their 7 transmembrane (TM) domains. Here, we focused on determining homodimer interfaces of the chemokine receptor CCR2, a major component of the inflammatory respon...",
+  "label": 1
+ },
+ {
+  "title": "Biasing Conformational Sampling in AlphaFold 3 and Boltz-2 via Pair Representation Scaling.",
+  "snippet": "Deep learning has transformed protein structure prediction, yet most systems return a single dominant conformation with little control over the alternative functional states. We introduce pair representation scaling, an inference-time method that biases conformational sampling in diffusion-based structure predictors by multiplying the latent pair represen...",
+  "label": 1
+ },
+ {
+  "title": "Alpha&ESMhFolds: An Updated Web Server for the Comparison, Evaluation, and Annotation of Human AlphaFold2 and ESMFold Models.",
+  "snippet": "The human reference proteome is routinely modeled with predictive tools such as AlphaFold2 and ESMFold. The two methods, based on different procedures, can behave differently depending on the experimental information available for a protein. We previously released a public database that stores pairs of predicted models, allowing us to obtain insights into...",
+  "label": 1
+ },
+ {
+  "title": "Synthesizing State-of-the-Art Structure Predictions from Soup of Co-folding Models",
+  "snippet": "arXiv:2609.15552v1 Announce Type: new \nAbstract: Co-folding models have advanced rapidly, yet no single model consistently performs best across all biomolecular complexes. This raises the question of whether independently trained co-folding models encode complementary information that can be transferred across co-folding models. We introduce SoupFold, whi...",
+  "label": 1
+ },
+ {
+  "title": "Predicting Antibody-Antigen Mutation ΔΔG via Side-Specific Protein Language Models and Paired Geometric Graph Learning.",
+  "snippet": "Mutation-induced changes in binding free energy (ΔΔG) at antibody-antigen interfaces are important for antibody optimization, mutational scanning, and viral immune escape assessment. However, computational prediction remains challenging because antibodies and antigens have distinct sequence backgrounds, mutation effects are often localized at interfaces, ...",
+  "label": 1
+ },
+ {
+  "title": "mCSM-metal: A Deep Learning Resource to Predict Effect of Mutations on Metal Ion Binding.",
+  "snippet": "Metal ions play critical structural, regulatory, and enzymatic roles in proteins, making their binding essential for biological processes. Experimental identification of metal-binding sites is resource-intensive and limited in scalability. Recent advances in protein language models have transformed computational predictions, yet current tools do not addre...",
+  "label": 1
+ },
+ {
+  "title": "DynaBench: Dynamic data for the docking benchmark.",
+  "snippet": "Protein-protein interactions are central to numerous cellular processes, including transport, signaling, and immune response. Structural modeling of protein assemblies typically relies on AlphaFold or docking methods, which produce structural models evaluated against a single experimental reference. While AlphaFold2 and its extension, AlphaFold-Multimer, ...",
+  "label": 1
+ },
+ {
+  "title": "Mutation-Guided Recovery of Ligand-Compatible Holo-Like Conformations in Proteins with Cryptic Pockets.",
+  "snippet": "Cryptic pockets are transient ligand-binding sites that remain hidden in apo protein structures and become accessible only through conformational change, making them difficult to identify and exploit in structure-based ligand discovery. Although recent AI/ML approaches can identify residues associated with cryptic pocket formation, they do not directly yi...",
+  "label": 1
+ },
+ {
+  "title": "AggrescanAI: Prediction of Aggregation-Prone Regions Using Contextualized Embeddings.",
+  "snippet": "Protein aggregation plays a central role in the pathogenesis of many neurodegenerative diseases and poses major challenges in protein engineering. A key driver of this process is the presence of aggregation-prone regions (APRs) within protein sequences. We present AggrescanAI, a deep learning-based tool that predicts residue-level aggregation propensity d...",
+  "label": 1
+ },
+ {
+  "title": "Biocentral: Embedding-based Protein Predictions.",
+  "snippet": "The rise of protein Language Models (pLMs) is reshaping the landscape of protein prediction. Embeddings are powerful protein representations provided by pLMs, but they come at a cost: their generation requires expensive hardware, and leveraging models often requires expert knowledge. To some extent, these hurdles limit the ease of use and benefits of thos...",
+  "label": 1
+ },
+ {
+  "title": "Efficient, Few-Shot Directed Evolution with Energy Rank Alignment.",
+  "snippet": "Directed evolution is a powerful and widely used technique for protein engineering, and reducing the cost of iterated experimental observations has become a major priority for practitioners. A number of recent efforts to use machine-learning-based predictors to improve sequence selection have led to remarkable improvements in efficiency, but the sparse da...",
+  "label": 1
+ },
+ {
+  "title": "Linear antibody epitope prediction using AlphaFold2.",
+  "snippet": "Defining the binding epitopes of antibodies is essential for understanding how they bind to their antigens and perform their molecular functions. However, while determining linear epitopes of monoclonal antibodies can be accomplished utilizing well-established empirical procedures, these approaches are generally labor- and time-intensive, and costly. To t...",
+  "label": 1
+ },
+ {
+  "title": "Developing SCL2205: A Protein Sequence-based Spatial Modelling Dataset for the Protein Language Model Frontier.",
+  "snippet": "MOTIVATION: Deep learning (DL) has substantially advanced protein subcellular localisation (SCL) prediction, yet its potential remains constrained by suboptimal input preparation and limited high-quality reference data. Furthermore, existing state-of-the-art (SoTA) predictors suffer from performance metric inflation due to unmitigated training-to-testing ...",
+  "label": 1
+ },
+ {
+  "title": "VirPLM: Antigenic prediction of influenza A/H3N2 viruses with a fine-tuned protein language model.",
+  "snippet": "MOTIVATION: Human influenza A/H3N2 viruses undergo rapid antigenic evolution primarily driven by the hemagglutinin subunit 1 (HA1). Within HA1, amino acid substitutions under immune pressure cause antigenic drift, necessitating frequent updates to vaccine strains. While hemagglutination inhibition (HI) assays remain the gold standard for assessing antigen...",
+  "label": 1
+ },
+ {
+  "title": "De Novo Design of Multivalent α/β-Peptides Mimicking Transcription Factors Targeting the CBP KIX Domain.",
+  "snippet": "Protein-protein interactions that regulate gene expression in the nucleus are increasingly recognized as potential therapeutic targets but present unique challenges. Effective targeting requires molecules capable of interacting with large protein surfaces while remaining small enough to pass through the nuclear pore, for which peptidomimetics are promisin...",
+  "label": 1
+ },
+ {
+  "title": "Combinatorial deep mutational scanning uncovers protein superbinders and molecular determinants of epistasis.",
+  "snippet": "Traditional deep mutational scanning (DMS) encodes every single amino-acid substitution from a wild-type sequence. We hypothesize that combinatorial DMS (CDMS) libraries, incorporating all mutations in all combinations, can enable the discovery of high-affinity protein (super)binders by capturing epistatic, non-linear amino-acid interactions. Here, we int...",
+  "label": 1
+ },
+ {
+  "title": "Cell type-selective targeting by heterobifunctional protein binders via in-cell enrichment.",
+  "snippet": "Non-catalytic heterobifunctional protein binders promise to expand the range of therapeutic options by establishing complexes between key target proteins and accessory presenter proteins equipped with additional properties. Here, we systematically investigate the rational design of such molecules, explore the biochemical basis of complex formation and det...",
+  "label": 1
+ },
+ {
+  "title": "De Novo Design and Structural Optimization of Mn(salen)-Based Artificial Metalloenzymes for Asymmetric Sulfoxidation.",
+  "snippet": "Artificial metalloenzymes (ArMs) exhibit exceptional selectivity, yet extending their reactivity beyond native cofactors remains a major challenge. While previous designs using native protein scaffolds to incorporate nonnative cofactors have been reported, de novo protein design enables tailored scaffolds that incorporate nonnative cofactors, unlocking tr...",
+  "label": 1
+ },
+ {
+  "title": "Prospecting the protein design landscape.",
+  "snippet": "Generative AI has driven remarkable breakthroughs in protein design, enabling the rapid, computationally guided creation of high-affinity binders against diverse targets. While remarkable experimental success has been demonstrated, the confidence metrics used to filter and evaluate designs remain optimized for static protein interfaces and can fail when a...",
+  "label": 1
+ },
+ {
+  "title": "Binding analysis of the response regulator NarL protein to the promoter of the O",
+  "snippet": "BACKGROUND: Salmonella Typhimurium (STM) is a gram-negative bacterium that causes severe gastrointestinal disorders in both animals and humans. The regulation of DNA repair genes is critical for maintaining genomic stability of the bacteria. O METHODS: In this study, narl gene was cloned in pET32a vector and NarL protein was expressed in Escherichia coli ...",
+  "label": 0
+ },
+ {
+  "title": "Dual-Approach AI for Pediatric Supracondylar Fractures: Multiclass Radiograph Classification with Explainable AI and Diagnostic Meta-analysis of AI-Based Computational Approaches.",
+  "snippet": "RATIONALE AND OBJECTIVES: Pediatric supracondylar fractures (SCFs) are the most common elbow injury in children, yet radiographic diagnosis remains challenging due to complex developmental anatomy, with initially missed fracture rates of 17-77%. Prior artificial intelligence (AI) studies have been limited to binary classification frameworks without Gartla...",
+  "label": 0
+ },
+ {
+  "title": "GraphPert: A graph autoencoder framework for network-based drug repurposing using transcriptional signatures-A case study on melanoma.",
+  "snippet": "MOTIVATION: Network-based drug repurposing leverages the principle that drug effects propagate through protein-protein interaction (PPI) networks similarly to disease perturbations. Graph-based embedding methods exploit this principle by learning low-dimensional representations that capture the network neighborhood of disease and drug target proteins, ena...",
+  "label": 0
+ },
+ {
+  "title": "A novel framework for the discovery of MAPK-activated protein kinase 2 (MAPKAPK2) inhibitors using a multi-feature deep learning ensemble.",
+  "snippet": "MAPKAPK2 is a promising therapeutic target in numerous diseases. However, many MAPKAPK2 inhibitors are plagued by low solubility and permeability, and none have advanced through clinical trials. New computational methods utilizing deep learning can speed up inhibitor identification. This study aims to develop and validate a novel framework for MAPKAPK2 in...",
+  "label": 0
+ },
+ {
+  "title": "Structure and biochemical analyses suggest that PrkA/YeaG protein of Thermus thermophilus functions as a putative molecular chaperone.",
+  "snippet": "Protein phosphorylation, a key post-translational modification, is mediated by various protein kinases. The bacterial PrkA/YeaG is recognized as an atypical protein kinase, but its activity remains elusive. This study investigated the structural and functional characteristics of a PrkA/YeaG homologue, TpkB, from Thermus thermophilus HB8. Using cryo-electr...",
+  "label": 0
+ },
+ {
+  "title": "Loss of UBIQUITIN-PROTEIN LIGASE 3 (UPL3) impairs cellulose-xylan structural organization in Arabidopsis seed mucilage.",
+  "snippet": "Arabidopsis thaliana seeds release large capsules of mucilaginous polysaccharides, whose adherence depends not only cellulose and hemicellulose biosynthesis but also their interactions. However, the key proteins regulating the connection within this polysaccharide network in the seed coat mucilage remain unclear and require further investigation. Through ...",
+  "label": 0
+ },
+ {
+  "title": "A novel method for predicting tunnel blasting dust yield based on numerical inversion and WOA-DELM (Whale Optimization Algorithm-Deep Extreme Learning Machine) neural network.",
+  "snippet": "Drilling and blasting during the construction of tunnels generate large amounts of dust. Accurately predicting dust yield helps to formulate effective dust control measures that can be employed to reduce worker exposures. However, current dust yield prediction methods mainly rely on empirical formulas for open-pit blasting, which do not fully account for ...",
+  "label": 0
+ },
+ {
+  "title": "Molecular modeling and quantum chemical calculation study of derived peptides from a Bowman-Birk inhibitor in complexes with trypsin.",
+  "snippet": "CONTEXT: Bowman-Birk inhibitors (BBIs) are cysteine-rich proteins that inhibit trypsin and chymotrypsin proteases. Derived from soybeans, these natural BBIs have been identified as potential anticarcinogenic agents. Recent studies of the black-eyed pea trypsin/chymotrypsin inhibitor (BTCI) demonstrated that peptides derived from the BBI family may retain ...",
+  "label": 0
+ },
+ {
+  "title": "Lysine as a multifunctional excipient for protein-based biopharmaceutical formulations.",
+  "snippet": "Lysine (Lys) is a nutritionally essential amino acid with a well-established parenteral safety record, yet its potential as a multifunctional excipient for protein-based biopharmaceutical formulation has not been the subject of a dedicated comprehensive review. The physicochemical properties of Lys include bifunctional amine structure, stable cationic cha...",
+  "label": 0
+ },
+ {
+  "title": "Structural determinants of Mac1 inhibition: Lessons from ligand binding patterns.",
+  "snippet": "This study comprehensively analyzes how various inhibitors bind to the SARS-CoV-2 macrodomain Mac1, a key protein implicated in hampering the host's immune response following viral infection. In this study we used volume-based metadynamics simulations to investigate the binding mechanisms of ADP-ribose and two Mac1 inhibitors: the adenine-analogue GS-4415...",
+  "label": 0
+ },
+ {
+  "title": "Discovery of potential new drug targets for cystitis and chronic cystitis: a drug target Mendelian randomization study.",
+  "snippet": "BACKGROUND: Acute cystitis is a common bacterial infection, and its progression to chronic forms poses significant challenges due to limitations of antibiotic therapy. We aimed to identify novel drug targets for cystitis using a Mendelian randomization approach. METHODS: We integrated plasma protein data (from DECODE and UKB-PPP) and eQTL data (from eqtlG...",
+  "label": 0
+ },
+ {
+  "title": "Natural selection on synonymous genetic variation in the major histocompatibility complex",
+  "snippet": "Protein coding DNA sequences harbor synonymous nucleotide variation that does not change amino acid sequences but influences phenotypes via multiple effects on the pathway from gene to protein. Synonymous variation has recently been shown to coevolve between viruses and their natural hosts, but its potential role in host immune defenses has not been explo...",
+  "label": 0
+ },
+ {
+  "title": "Design, synthesis, and bioactivity assessment of highly potent isatin-based small-molecules bearing 3-hydrazineyl-6-aryl-1,2,4-triazine moieties as potential c-MET targeting anticancer agents.",
+  "snippet": "The present study reports the design, synthesis, and biological evaluation of 25 novel isatin-based small molecules bearing 3-hydrazineyl-6-aryl-1,2,4-triazine motifs, generated through anticancer-scaffold hybridization and structure-guided modification of a c-MET inhibitor hit compound 3a. The antiproliferative properties of the target compounds (E1-25) ...",
+  "label": 0
+ },
+ {
+  "title": "Optimizing phage elution for biopanning of plastic materials.",
+  "snippet": "Biopanning of phage-displayed peptides is a useful method for peptide probe discovery and has been applied to multiple plastic targets. The most widely used elution method on plastic targets, acidic glycine buffer, is well-established as a general binding disrupter for protein targets, but a comparative study of elution buffers for plastic targets has nev...",
+  "label": 0
+ },
+ {
+  "title": "A deep unrolling network based on cartoon texture decomposition for low-dose CT reconstruction.",
+  "snippet": "OBJECTIVE: Deep unrolling network, as a promising deep learning approach for low-dose computed tomography (LDCT) reconstruction, can efficiently address the issues of severe noise and artifacts in LDCT imaging. However, most existing methods predominantly unrolled the fidelity term to convolutional neural networks (CNNs) while failing to unroll regulariza...",
+  "label": 0
+ },
+ {
+  "title": "When Do Simple Models Win? Machine Learning Architectures for UV Absorption Prediction.",
+  "snippet": "What determines which machine learning architecture wins for molecular property prediction? We address this question through a controlled comparison of five models spanning four architecture families: fingerprint-based ensembles (Random Forest, XGBoost), a directed message-passing graph neural network (GNN), a bidirectional gated recurrent network (BiGRU)...",
+  "label": 0
+ },
+ {
+  "title": "In-Context Learning Meets Small Molecule Property Prediction: Benchmarking Novel Machine Learning Approaches.",
+  "snippet": "Recently, a new category of machine learning approaches for tabular data has emerged: tabular foundation models (TFM), based on in-context learning. A TFM is a neural network (usually a transformer) pretrained primarily on synthetic data. Its input is an entire data set: features and labels for training records, along with features for the target records....",
+  "label": 0
+ },
+ {
+  "title": "Detection of a Nirsevimab-Resistant RSV-B Variant (F:K68Q) in an Adult with Severe Infection.",
+  "snippet": "INTRODUCTION: Respiratory syncytial virus (RSV) is recognized as a major cause of severe disease in adults, particularly those having cardiorespiratory comorbidities or immunosuppression. The recent deployment of monoclonal antibodies targeting the prefusion F protein could be used in the future to prevent RSV-associated hospitalization and critical illne...",
+  "label": 0
+ },
+ {
+  "title": "Cross-Block Conditioning in Deep Boltzmann Machines for Statistical Data Fusion",
+  "snippet": "arXiv:2609.14934v1 Announce Type: new \nAbstract: Statistical data fusion combines two panels that share a block of covariates but observe disjoint outcome blocks, and in its traditional form no row observes both outcomes at once. That rules out the discriminative criterion one would rather train a Deep Boltzmann Machine with, since multi-prediction traini...",
+  "label": 0
+ },
+ {
+  "title": "The Universe of Universes: Benefit Yield Functions, Implosion Thresholds, and Infrastructure-Aware Optimization in Multi-LLM Systems",
+  "snippet": "arXiv:2609.15314v1 Announce Type: new \nAbstract: We introduce the Universe of Universes (UoU) framework, which treats the full ecosystem of major large language models (LLMs) as a structured retrieval corpus and proposes a compositional Automated Reasoning (AR) and Machine Learning (ML) architecture for cross-model retrieval-augmented generation. The cent...",
+  "label": 0
+ },
+ {
+  "title": "Predicting ADME Properties with Machine Learning: 82% of the Performance From Two Descriptors",
+  "snippet": "A Nature survey of ~1500 scientists reported that more than 70% had failed to reproduce another scientist’s experiments, and 50% had failed to replicate their own (Baker, 2016). This study wasn’t specific to machine learning, but the crisis has its own flavour in computational drug discovery. One aspect of this is that available datasets have ...",
+  "label": 0
+ },
+ {
+  "title": "Is the race for AGI a scam? Are the tech bros con men or visionaries?",
+  "snippet": "In research, it can be tough even for experts to tell fact from fiction. This is especially true for more speculative fields like AI. It can feel like every model is “State-of-the-Art” and that AGI (whatever that means) will be “6 months away” for at least the next 6 months. How do we know we […]",
+  "label": 0
+ },
+ {
+  "title": "Project Cybersyn: Bayesian Socialist Algocracy in 1970s Chile",
+  "snippet": "Palantir and Peter Thiel have found themselves in the headlines a lot this year, very often in the same sentence as the word “surveillance”. The idea behind Palantir is a simple one: give one company, or one control room, a real-time algorithmic view of how a government or an economy is actually functioning, and let […]",
+  "label": 0
+ },
+ {
+  "title": "Amyloid-β-regulated gene circuits for programmable Alzheimer's disease therapy",
+  "snippet": "Alzheimer's disease (AD) is a neurodegenerative disease characterized in part by the accumulation of the protein amyloid-{beta} (A{beta}). Monoclonal antibodies (mAbs) that target A{beta} for clearance from the brain have received FDA approval; however, these therapies are accompanied by serious side effects, and their cognitive benefit for patients remai...",
+  "label": 0
+ },
+ {
+  "title": "Mathematicians Build Long-Awaited Graph Sandwich",
+  "snippet": "The proof of a decades-old conjecture has given researchers a new way to understand complex networks. The post Mathematicians Build Long-Awaited Graph Sandwich first appeared on",
+  "label": 0
+ },
+ {
+  "title": "Universal donor plasmids for biallelic degron-tagging in mammalian cells and organoids",
+  "snippet": "Degron tags enable rapid, tuneable and reversible control of protein expression, and have become a critical tool for target validation and elucidating biological mechanisms. Tag engineering uses genome editing to generate biallelic gene fusions, though this process remains laborious and requires new donor vectors to be generated for each locus. Here, we h...",
+  "label": 0
+ },
+ {
+  "title": "Protocol for assessing protein expression levels and localization during fission yeast cytokinesis.",
+  "snippet": "The fission yeast Schizosaccharomyces pombe is a genetically tractable model that shares mechanisms for cytokinesis with higher eukaryotes. Here, we present a protocol for analyzing fission yeast cytokinesis proteins. We include steps for gene targeting by homologous recombination, functionality tests by genetic interactions, and imaging by high-spatiotem...",
+  "label": 0
+ },
+ {
+  "title": "Hepatitis B virus proteome analysis identifies apolipoprotein C1 facilitating particle production and virus entry.",
+  "snippet": "BACKGROUND AIMS: Antiviral therapies targeting hepatitis B virus (HBV) suppress viral replication, but rarely achieve functional cure. Understanding HBV-host cell interaction is crucial for developing novel therapeutic approaches. Here, we report host cell proteins associated with HBV virions and filamentous subviral particles (fSVPs) and characterize one...",
+  "label": 0
+ },
+ {
+  "title": "Anagrelide remodels the PDE3A-SLFN12 interactome to associate with translation initiation machinery in cancer cell lines.",
+  "snippet": "Phosphodiesterase 3A (PDE3A) modulators such as anagrelide induce complex formation between PDE3A and Schlafen 12 (SLFN12), selectively killing cancer cells that co-express both proteins. As PDE3A forms isoform- and cell type-specific signalosome complexes across multiple subcellular compartments, the effects of its modulation are expected to depend stron...",
+  "label": 0
+ },
+ {
+  "title": "A Machine-Learning Based Approach to the Evaluation of the Critical Scaling Behavior of Anisotropic Spin Systems.",
+  "snippet": "Computational models adequately representing phase transitions and evaluating the critical system parameters are essential for the understanding of the properties of a wide range of materials.Here we propose a machine learning (ML)-based approach to the identification of the critical point in anisotropic spin systems. Our approach implies training of a co...",
+  "label": 0
+ },
+ {
+  "title": "Mucoadhesive recombinant human catalase for dry eye disease: From protein engineering to first-in-human study.",
+  "snippet": "BACKGROUND: Oxidative stress caused by excess reactive oxygen species (ROS) plays a key role in the progression of dry eye disease (DED), yet no approved DED therapy directly eliminates ROS. Here, we develop an antioxidant biologic with enhanced ocular-surface retention by thiol engineering of recombinant human catalase (hCAT) as a new ROS-scavenging eye ...",
+  "label": 0
+ },
+ {
+  "title": "Development of a method to measure protein diffusivities in hyaluronic acid solutions based on a UV-Vis spectrophotometer.",
+  "snippet": "Protein diffusion within hyaluronic acid (HA)-rich extracellular matrices can be important for subcutaneous and intravitreal routes of administration. Current techniques for measuring protein diffusivities in HA solutions often require specialized instrumentation and/or complex experimental setups, hindering their widespread application in pharmaceutical ...",
+  "label": 0
+ },
+ {
+  "title": "Artificial Intelligence as a Discovery Engine for Routine Molecular Techniques: Extracting Biological Insight from Western Blotting, ELISA, Immunostaining, and Immunoprecipitation.",
+  "snippet": "Artificial intelligence (AI) is transforming how routine molecular techniques are interpreted, moving beyond traditional statistics such as band intensity, protein concentration, and visual scoring. This review examines how AI enhances the analytical capacity of four widely used methods: Western blotting, ELISA, Immunostaining, and Immunoprecipitation-Mas...",
+  "label": 0
+ },
+ {
+  "title": "IntelliFold-2: Surpassing AlphaFold 3 via Architectural Refinement and Structural Consistency",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Building antibodies blindfolded: the paradox of de novo design",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Adversarial Sequence Mutations in AlphaFold and ESMFold Reveal Nonphysical Structural Invariance, Confidence Failures, and Concerns for Protein Design",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Overconfident: What Structure Prediction Confidence Scores Tell Us About Binding",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Pairing Large-Scale Binding Affinity Measurements with Antibody-Antigen Structures",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "A  Unified Dataset for Antibody and Nanobody Design Including Sequence, Structure, and Binding Affinity Data",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "A Systematic Benchmark for Peptide Property Prediction",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "AlphaFast: High-throughput AlphaFold 3 via GPU-accelerated MSA construction",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Accurate predictions of disordered protein ensembles with STARLING",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "FLAb tutorial: Benchmarking a protein language model for antibody expression prediction",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "AbEpiTope-1.0: Improved antibody target prediction by use of AlphaFold and inverse folding",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Validation and analysis of 12,000 AI-driven CAR-T designs in the Bits to Binders competition",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Protein Diffusion Models as Statistical Potentials",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "FLIP2: Expanding Protein Fitness Landscape Benchmarks for Real-World Machine Learning Applications",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "AlphaFold Database expands to proteome-scale quaternary structures",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Biophysical trade-offs in antibody evolution are resolved by conformation-mediated epistasis",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "What Molecular ML Can Learn from the Vision Community’s Representation Revolution",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Off-target reactivity in clinical monoclonal antibodies",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "High-Affinity Protein Binder Design via Flow Matching and In Silico Maturation",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Stable de novo protein design via joint conformational landscape and sequence optimization",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Computational design of conformation-biasing mutations to alter protein functions",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Fab–Fc and Fab–Fab interactions of variable strength and valency contribute to the high concentration viscosity of IgG1 antibodies",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Complete humanization of the mouse immunoglobulin loci enables efficient therapeutic antibody discovery",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "How artificial intelligence is reengineering protein engineering",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Decoupling Topology from Geometry: Detecting Large-Scale Conformational Changes via Conformational Scanning",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Decoding Synonymous Codon Selection With a Transformer Model",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Ankh-score produces better sequence alignments than AlphaFold3",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "A Generative Neuro-Symbolic AI for Protein Sequence Design",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Mechanisms of AI Protein Folding in ESMFold",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ },
+ {
+  "title": "Closing the loop: Experimentally validated methods in artificial intelligence–driven protein design",
+  "snippet": "",
+  "label": 1,
+  "from": "owner-reported missed paper"
+ }
+]

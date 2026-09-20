@@ -1,4 +1,5 @@
 import os, json, requests
+import threading
 import time
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -11,6 +12,33 @@ except ImportError:
     _RateLimitError = Exception  # type: ignore
     _NotFoundError = Exception  # type: ignore
     _InternalServerError = Exception  # type: ignore
+
+# ---------------------------------------------------------------------------
+# Which model actually produced the output?
+# `_chat_complete` silently falls back through several free models, so the configured model
+# is often NOT the one that wrote a given page.  Every successful call is recorded here so
+# callers (run_daily -> Notion "Generated with" line, status.json) can report the truth.
+# ---------------------------------------------------------------------------
+_USED_MODELS: List[str] = []
+_USED_MODELS_LOCK = threading.Lock()
+
+
+def reset_used_models() -> None:
+    with _USED_MODELS_LOCK:
+        _USED_MODELS.clear()
+
+
+def get_used_models() -> List[str]:
+    """Distinct models that returned at least one completion since the last reset (first-use order)."""
+    with _USED_MODELS_LOCK:
+        return list(_USED_MODELS)
+
+
+def _record_model(m: str) -> None:
+    with _USED_MODELS_LOCK:
+        if m and m not in _USED_MODELS:
+            _USED_MODELS.append(m)
+
 
 # Cap on how many auto-discovered (unvetted) free models to try once the
 # static config.yaml fallback chain is exhausted, so a bad run can't loop
@@ -151,6 +179,7 @@ def _chat_complete(
                 client, model=m, system=system, user=user,
                 temperature=temperature, max_tokens=max_tokens, retries=retries,
             )
+            _record_model(m)
             if m != model:
                 print(f"[llm] Used fallback model {m!r} (primary {model!r} failed)", flush=True)
             return result
@@ -174,6 +203,7 @@ def _chat_complete(
                 client, model=m, system=system, user=user,
                 temperature=temperature, max_tokens=max_tokens, retries=1,
             )
+            _record_model(m)
             print(f"[llm] Used auto-discovered fallback model {m!r}", flush=True)
             return result
         except Exception as e:
@@ -488,7 +518,20 @@ def build_podcast_script_llm_chunked_with_map(
 # Deep synthesis prompt (11-section intelligence briefing, per-section calls)
 # =========================
 
-SYSTEM_SYNTHESIS_STYLE = """You are an expert scientific podcast host creating a daily intelligence briefing for a computational protein designer. Today's episode does a deep dive on 5 carefully selected papers.
+def _synthesis_system(n_papers: int) -> str:
+    """SYSTEM_SYNTHESIS_STYLE with today's real paper count (it used to say '5' unconditionally)."""
+    n = max(1, int(n_papers))
+    text = SYSTEM_SYNTHESIS_STYLE.replace("{n_papers}", str(n))
+    if n < 4:
+        text += (
+            f"\n\nNOTE: only {n} papers cleared today's relevance bar. Stay strictly with what these "
+            "papers actually show; do not stretch, pad, or pull in unrelated work to fill time. "
+            "Shorter is better than diluted."
+        )
+    return text
+
+
+SYSTEM_SYNTHESIS_STYLE = """You are an expert scientific podcast host creating a daily intelligence briefing for a computational protein designer. Today's episode does a deep dive on {n_papers} carefully selected papers.
 
 VOICE AND STYLE — this is the most important part:
 - Speak naturally, as if you are a brilliant scientist friend thinking aloud over coffee. Pure flowing spoken English — no labels, no structured list items read aloud, no headers spoken as words.
@@ -711,7 +754,7 @@ def build_podcast_script_llm_synthesis(
         seg = _chat_complete(
             client,
             model=model,
-            system=SYSTEM_SYNTHESIS_STYLE,
+            system=_synthesis_system(len(items)),
             user=user,
             temperature=temperature,
             max_tokens=section_max_tokens,

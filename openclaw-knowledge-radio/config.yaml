@@ -35,7 +35,7 @@ excluded_terms:
   - "neurogenesis"
   - "neural circuit"
   # Off-topic physical sciences
-  - "superconductiv"
+  - "superconductiv*"     # trailing * = prefix match; every other term is a WHOLE WORD ("rat" no longer matches "accurate")
   - "quantum network"
   - "quantum optic"
   - "interferometry"
@@ -538,6 +538,11 @@ pubmed:
   max_results_per_term: 30
   bucket: "protein"
   tags: ["pubmed", "journal", "biology"]
+  # true: each term becomes a title/abstract-only query (protein[tiab] AND design[tiab] ...), so PubMed
+  #       stops expanding it with MeSH synonyms (a source of loose hits). NOT tested against the live API and
+  #       [tiab] does no stemming, so it may lower recall; the relevance gate already filters loose hits.
+  # false: original behaviour (unfielded query).
+  strict_queries: false
   search_terms:
     # Cat 1 — Reviews (core design areas)
     - "de novo protein design"
@@ -756,6 +761,26 @@ llm:
   api_key_env: "OPENROUTER_API_KEY"
   temperature: 0.25
   max_output_tokens: 8192
+
+# Topical relevance gate (src/processing/relevance.py). Deterministic, no LLM call.
+# Score = 4*strong + 2*protein_ctx + 1*method_ctx - 3*offtopic  (+1 title combo bonus).
+# Replay it on recorded days with:  python tools/replay_relevance.py -v
+relevance:
+  enabled: true
+  min_score: 4                    # below this a candidate is dropped before the LLM analysis step
+  featured_min_score: 5           # a paper needs at least this to be one of the featured (deep-dive) picks
+  min_featured_for_episode: 3     # fewer featured papers than this => "quiet day" digest, no podcast episode
+  max_candidates_to_analyze: 60   # cap on LLM analysis calls per day (best-scoring first)
+  # Optional vocabulary overrides (lists replace the built-in defaults when set):
+  # strong_terms: []
+  # protein_context_terms: []
+  # method_context_terms: []
+  # offtopic_terms: []
+
+# Deep Dive Notes auto-add (tools/auto_deepdive.py)
+auto_deepdive:
+  only_relevant: true             # only add papers that pass featured_min_score (or were featured)
+  max_per_day: 5
 
 ranking:
   # Papers whose titles contain any of these are treated as absolute priority

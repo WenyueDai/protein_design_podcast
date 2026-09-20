@@ -27,12 +27,16 @@ from src.collectors.pubmed import collect_pubmed_items
 from src.collectors.biorxiv_authors import collect_biorxiv_author_items
 from src.collectors.s2_authors import collect_s2_author_items
 from src.collectors.biorxiv_keywords import collect_biorxiv_keyword_items
-from src.processing.rank import rank_and_limit
+from src.processing.rank import rank_and_limit, apply_relevance_gate, is_protected, LAST_GATE_STATS
+from src.processing import relevance as relevance_mod
 from src.processing.script_llm import (
     build_podcast_script_llm_chunked_with_map,
     build_podcast_script_llm_synthesis,
     TRANSITION_MARKER,
+    reset_used_models,
+    get_used_models,
 )
+from src.processing.article_analysis import get_used_analysis_models
 from src.outputs.tts_edge import (
     tts_segment_to_mp3,
     last_tts_backend,
@@ -180,7 +184,7 @@ def _llm_run_analysis(ranked: List[Dict[str, Any]], errors: List[str], cfg: Dict
 
 
 def _notify_slack(date: str, ranked: List[Dict[str, Any]], cfg: Dict[str, Any],
-                  errors: List[str] | None = None) -> None:
+                  errors: List[str] | None = None, quiet_day: bool = False, n_featured: int = 0) -> None:
     """Post a summary + run analysis to Slack via Incoming Webhook."""
     import urllib.request
     webhook = os.environ.get("SLACK_WEBHOOK_URL", "").strip()
@@ -202,11 +206,19 @@ def _notify_slack(date: str, ranked: List[Dict[str, Any]], cfg: Dict[str, Any],
 
     items_block = "\n".join(lines) if lines else "_(no items)_"
     total = len(ranked)
-    text = (
-        f":studio_microphone: *Knowledge Radio — {date}*\n"
-        f"{total} papers & news selected | <{SITE_URL}|Listen on GitHub Pages>\n\n"
-        f"*Top picks:*\n{items_block}"
-    )
+    if quiet_day:
+        text = (
+            f":shushing_face: *Knowledge Radio — {date} — quiet day*\n"
+            f"Only {n_featured} strongly relevant paper(s), so no episode today. "
+            f"{total} item(s) passed the relevance check (digest is in Notion).\n\n"
+            f"*Top items:*\n{items_block}"
+        )
+    else:
+        text = (
+            f":studio_microphone: *Knowledge Radio — {date}*\n"
+            f"{total} papers & news selected | <{SITE_URL}|Listen on GitHub Pages>\n\n"
+            f"*Top picks:*\n{items_block}"
+        )
 
     if errors:
         err_block = "\n".join(f"⚠ {e}" for e in errors[:5])
@@ -272,7 +284,15 @@ def main() -> int:
         except Exception:
             _idx = {}
         _items_done = (out_dir / "episode_items.json").exists()
-        if today in _idx and _items_done:
+        # A quiet-day digest publishes to Notion only (no MP3 / release), so it never appears in
+        # release_index.json; without this check a second run would post a duplicate digest page.
+        _quiet_done = False
+        try:
+            _st = json.loads((out_dir / "status.json").read_text(encoding="utf-8"))
+            _quiet_done = bool(_st.get("quiet_day")) and _items_done
+        except Exception:
+            pass
+        if (today in _idx and _items_done) or _quiet_done:
             print(
                 f"[run_daily] Episode {today} already published (release_index.json). "
                 "Skipping. Set FORCE_REPUBLISH=true to override.",
@@ -293,6 +313,11 @@ def main() -> int:
         "daily_knowledge": 0,
         "wiki_context": 0,
     }
+
+    _excluded_counts: Counter = Counter()
+    _pre_gate_dropped_n = 0
+    _over_cap_n = 0
+    reset_used_models()
 
     # 1) Collect (or regenerate from cached seed)
     seed_file = data_dir / "items.jsonl"
@@ -394,13 +419,14 @@ def main() -> int:
         _run_seen_urls: set = set()
         for it in items:
             url = (it.get("url") or "").strip()
-            title = (it.get("title") or "")
-            source = (it.get("source") or "")
-            hay = f"{title} {source} {url}".lower()
 
             if not url:
                 continue
-            if any(t in hay for t in excluded_terms):
+            # Whole-word match on title + source only (never the URL).  The old raw substring
+            # test made "rat" drop "Accurate ...", "Generative ...", "Rational design ...".
+            _excl = relevance_mod.should_exclude(it, excluded_terms, cfg)
+            if _excl:
+                _excluded_counts[_excl] += 1
                 continue
             if url in _run_seen_urls:
                 continue
@@ -414,6 +440,26 @@ def main() -> int:
             if not DEBUG_MODE and seen.has(url):
                 continue
             candidates.append(it)
+
+        # Relevance gate BEFORE the expensive fetch + LLM analysis step: drop off-topic candidates
+        # and analyse the best-scoring ones first, capped at max_candidates_to_analyze.
+        _th = relevance_mod.thresholds(cfg)
+        candidates, _pre_dropped = apply_relevance_gate(candidates, cfg)
+        _pre_gate_dropped_n = len(_pre_dropped)
+        candidates.sort(
+            key=lambda c: (not is_protected(c, cfg), -(c.get("relevance") if c.get("relevance") is not None else 99))
+        )
+        _analysis_cap = _th["max_candidates_to_analyze"]
+        _over_cap_n = max(0, len(candidates) - _analysis_cap) if _th["enabled"] else 0
+        if _th["enabled"] and _over_cap_n:
+            candidates = candidates[:_analysis_cap]
+        print(
+            f"[relevance] excluded_terms dropped {sum(_excluded_counts.values())}; "
+            f"relevance gate dropped {_pre_gate_dropped_n}; "
+            f"{_over_cap_n} lower-scoring candidate(s) beyond the analysis cap of {_analysis_cap}; "
+            f"analysing {len(candidates)}",
+            flush=True,
+        )
 
         # Second pass: parallel article extract + analysis
         max_workers = int(cfg.get("fetch_workers", 8))
@@ -538,12 +584,34 @@ def main() -> int:
 
     # In synthesis mode: top N papers go into the deep briefing; the rest are
     # shown on the website greyed-out (available for feedback/notes) but not spoken.
+    _th = relevance_mod.thresholds(cfg)
+
+    def _feature_ok(it: Dict[str, Any]) -> bool:
+        """A paper may be one of the featured picks only if it is clearly on-topic."""
+        if not _th["enabled"]:
+            return True
+        r = it.get("relevance")
+        if r is None:          # context items that are never scored
+            return True
+        if r >= _th["featured_min_score"]:
+            return True
+        # tracked researcher feeds bypass the gate, but still need to look on-topic to be featured
+        return bool(it.get("relevance_protected")) and r >= _th["min_score"]
+
     if synthesis_mode:
-        featured_items = ranked[:featured_count]
-        background_items = ranked[featured_count:]
+        featured_items = [it for it in ranked if _feature_ok(it)][:featured_count]
+        _featured_ids = {id(it) for it in featured_items}
+        background_items = [it for it in ranked if id(it) not in _featured_ids]
     else:
         featured_items = ranked
         background_items = []
+
+    # Quiet day: not enough strongly relevant papers for a real episode.  Publish what passed
+    # the check (Notion digest + Slack) and stop; do NOT pad the episode with loosely related items.
+    _quiet_day = bool(
+        synthesis_mode and _th["enabled"] and not REGEN_FROM_CACHE
+        and len(featured_items) < _th["min_featured_for_episode"]
+    )
 
     # 5a) For synthesis mode: use S2 to fetch full text + recommendations for featured papers
     _s2_recommendations: list = []
@@ -581,6 +649,54 @@ def main() -> int:
             print(f"[s2] Warning: full-text enrichment failed — {_s2_ft_err}", flush=True)
 
     script_path = out_dir / f"podcast_script_{today}_llm.txt"
+
+    if _quiet_day:
+        print(
+            f"[quiet-day] only {len(featured_items)} featured paper(s) "
+            f"(need {_th['min_featured_for_episode']}) — skipping script + TTS, publishing digest only",
+            flush=True,
+        )
+        _featured_ids = {id(it) for it in featured_items}
+        _quiet_list = [
+            {
+                "title": (_it.get("title") or "").strip(),
+                "url": (_it.get("url") or "").strip(),
+                "source": (_it.get("source") or "").strip(),
+                "one_liner": _best_summary(_it),
+                "segment": -1,
+                "timestamp": -1,
+                "highlighted": id(_it) in _featured_ids,
+                "relevance": _it.get("relevance"),
+                "tags": _it.get("tags") or [],
+            }
+            for _it in ranked
+        ]
+        (out_dir / "episode_items.json").write_text(
+            json.dumps({"quiet_day": True, "timestamps": [], "items": _quiet_list}, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        _n_filtered = sum(_excluded_counts.values()) + _pre_gate_dropped_n + int(LAST_GATE_STATS.get("dropped", 0))
+        status = {
+            "date": today,
+            "time": iso_now_local(tz),
+            "quiet_day": True,
+            "n_items_used": len(ranked),
+            "n_featured": len(featured_items),
+            "n_filtered_off_topic": _n_filtered,
+            "collector_counts": collector_counts,
+            "analysis_models_used": get_used_analysis_models(),
+            "output_dir": str(out_dir),
+        }
+        (out_dir / "status.json").write_text(json.dumps(status, indent=2), encoding="utf-8")
+        save_script_to_notion(
+            today, script_path, ranked,
+            quiet_day=True, models=None,
+            featured_urls={(it.get("url") or "").strip() for it in featured_items},
+            n_filtered=_n_filtered,
+        )
+        _notify_slack(today, ranked, cfg, errors=_run_errors, quiet_day=True, n_featured=len(featured_items))
+        return 0
+
     if REGEN_FROM_CACHE and script_path.exists():
         print("[cache] Reusing existing LLM script", flush=True)
         script_text = script_path.read_text(encoding="utf-8")
@@ -642,6 +758,7 @@ def main() -> int:
             "segment": _seg,
             "timestamp": -1,
             "highlighted": _is_featured,
+            "relevance": _it.get("relevance"),
             "tags": _it.get("tags") or [],
         })
     _episode_items_file = out_dir / "episode_items.json"
@@ -772,6 +889,13 @@ def main() -> int:
         "collector_counts": collector_counts,
         "collected_by_source_type": dict(source_type_counts.most_common()),
         "collected_by_source": dict(source_counts.most_common()),
+        "quiet_day": False,
+        "n_featured": len(featured_items),
+        "n_excluded_terms": sum(_excluded_counts.values()),
+        "n_relevance_dropped": _pre_gate_dropped_n + int(LAST_GATE_STATS.get("dropped", 0)),
+        "n_over_analysis_cap": _over_cap_n,
+        "llm_models_used": get_used_models(),
+        "analysis_models_used": get_used_analysis_models(),
         "tts_backend": tts_backend,
         "tts_fallback_reason": tts_fallback_summary,
         "tts_stats": tts_stats,
@@ -780,10 +904,16 @@ def main() -> int:
     (out_dir / "status.json").write_text(json.dumps(status, indent=2), encoding="utf-8")
     print(json.dumps(status, indent=2))
 
-    save_script_to_notion(today, script_path, ranked)
+    _n_filtered = sum(_excluded_counts.values()) + _pre_gate_dropped_n + int(LAST_GATE_STATS.get("dropped", 0))
+    save_script_to_notion(
+        today, script_path, ranked,
+        models=get_used_models(),
+        featured_urls={(it.get("url") or "").strip() for it in featured_items} if synthesis_mode else None,
+        n_filtered=_n_filtered,
+    )
 
     # Save synthesis transcript to dedicated Notion database and record URL
-    _transcript_notion_url = save_transcript_to_notion(today, script_path)
+    _transcript_notion_url = save_transcript_to_notion(today, script_path, models=get_used_models())
     if _transcript_notion_url:
         _transcript_index_file = state_dir / "transcript_notion_index.json"
         try:

@@ -19,8 +19,12 @@ import os
 import re
 import urllib.parse
 import urllib.request
+import sys
 from pathlib import Path
 from typing import Any, Dict, List, Set, Tuple
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from src.processing import relevance as _rel  # noqa: E402
 
 import yaml
 
@@ -77,16 +81,16 @@ def diagnose(
       "low_ranking"        — was fetchable but ranked below the item cap
     """
     url   = (entry.get("url") or "").strip()
-    title = (entry.get("title") or "").strip().lower()
+    title = (entry.get("title") or "").strip()
 
     # 1. Already collected?
     if url and _sha1(url) in seen_ids:
         return "already_collected"
 
-    # 2. Excluded by term filter?
-    for term in (excluded_terms or []):
-        if term.lower() in title:
-            return "excluded_term"
+    # 2. Excluded by term filter?  Uses the same whole-word matcher as run_daily.py (a raw
+    #    substring test here would blame "rat" for "Accurate ...", exactly the bug it was hiding).
+    if _rel.should_exclude({"title": title}, excluded_terms or []):
+        return "excluded_term"
 
     # 3. Source not in RSS?
     if url:
