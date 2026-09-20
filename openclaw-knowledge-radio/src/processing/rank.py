@@ -1,6 +1,9 @@
 import json
+import re
 from pathlib import Path
-from typing import Any, Dict, List, Set
+from typing import Any, Dict, List, Set, Tuple
+
+from src.processing import relevance as _rel
 
 
 def _load_feedback(cfg: Dict[str, Any]) -> tuple:
@@ -187,11 +190,63 @@ def _absolute_title_priority(it: Dict[str, Any], cfg: Dict[str, Any]) -> int:
     kws = r.get("absolute_title_keywords") or []
     if not kws:
         return 1
-    hay = _norm(it.get("title") or "")
+    title = it.get("title") or ""
     for kw in kws:
-        if _norm(kw) in hay:
+        if _title_has_keyword(title, kw):
             return 0
     return 1
+
+
+def _title_has_keyword(title: str, kw: str) -> bool:
+    """
+    Keyword match for landmark titles.  Unlike a raw substring test this does not let
+    "Boltz" hit "Boltzmann" or "Chroma" hit "chromatin", but still accepts version suffixes
+    ("AlphaFold3", "AlphaFold-Multimer", "OpenFold-3") and simple plurals.
+    """
+    words = [re.escape(w) for w in re.split(r"[\s\-]+", (kw or "").strip().lower()) if w]
+    if not words:
+        return False
+    rx = r"(?<![A-Za-z])" + r"[\s\-]+".join(words) + r"(?:s|es)?(?![A-Za-z])"
+    return re.search(rx, title or "", re.I) is not None
+
+
+# -----------------------------
+# Topical relevance gate
+# -----------------------------
+LAST_GATE_STATS: Dict[str, Any] = {"dropped": 0, "kept": 0, "dropped_titles": []}
+
+
+def is_protected(it: Dict[str, Any], cfg: Dict[str, Any]) -> bool:
+    """
+    Sources the owner explicitly asked for bypass the minimum relevance gate:
+    tracked researcher arXiv/bioRxiv feeds and landmark-title matches (AlphaFold, ...).
+    Blogs/substacks are NOT protected: several off-topic posts (AGI, Cybersyn) came in that way.
+    """
+    return _is_researcher_feed(it, cfg) or _absolute_title_priority(it, cfg) == 0
+
+
+def apply_relevance_gate(
+    items: List[Dict[str, Any]], cfg: Dict[str, Any]
+) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+    """
+    Split items into (kept, dropped) using src/processing/relevance.py.
+    Sets it["relevance"] (float) on every scored item.  Pre-built context items
+    (wiki_context / daily knowledge) are never gated.
+    """
+    th = _rel.thresholds(cfg)
+    if not th["enabled"]:
+        return list(items), []
+    kept: List[Dict[str, Any]] = []
+    dropped: List[Dict[str, Any]] = []
+    for it in items:
+        if it.get("kind") == "wiki_context" or it.get("bucket") == "daily":
+            kept.append(it)
+            continue
+        if _rel.passes_gate(it, cfg, protected=is_protected(it, cfg)):
+            kept.append(it)
+        else:
+            dropped.append(it)
+    return kept, dropped
 
 
 def _journal_quality_priority(it: Dict[str, Any], cfg: Dict[str, Any]) -> int:
@@ -304,6 +359,21 @@ def _topic_keyword_priority(it: Dict[str, Any], cfg: Dict[str, Any]) -> int:
     return 1
 
 
+def _relevance_bin(it: Dict[str, Any]) -> int:
+    """
+    Coarse relevance tier, lower is better: <8 -> 0, 8-11 -> -1, 12-15 -> -2, 16+ -> -3 ... capped.
+    Bins (not the raw score) so feedback / journal quality still break ties inside a bin.
+    Items without a score (gate disabled, context items) sit in the middle bin.
+    """
+    r = it.get("relevance")
+    if r is None:
+        return 0
+    try:
+        return -min(4, max(0, int(float(r) // 4) - 1))
+    except (TypeError, ValueError):
+        return 0
+
+
 def _bucket_priority(it: Dict[str, Any]) -> int:
     """
     Keep your existing behavior: steer toward research over general news.
@@ -341,6 +411,16 @@ def rank_and_limit(items: List[Dict[str, Any]], cfg: Dict[str, Any]) -> List[Dic
     10) Fulltext as a small tie-breaker
     11) Longer extracted text as tie-breaker
     """
+    # Relevance gate first: nothing off-topic may consume a slot, however good its source tier.
+    items, _gate_dropped = apply_relevance_gate(items, cfg)
+    LAST_GATE_STATS.update(
+        kept=len(items),
+        dropped=len(_gate_dropped),
+        dropped_titles=[(d.get("title") or "")[:120] for d in _gate_dropped[:50]],
+    )
+    if _gate_dropped:
+        print(f"[rank] relevance gate dropped {len(_gate_dropped)} off-topic item(s), kept {len(items)}", flush=True)
+
     # Limits (keep identical keys / defaults)
     lim = cfg.get("limits", {}) if isinstance(cfg, dict) else {}
     max_total = int(lim.get("max_items_total", 40))
@@ -373,6 +453,7 @@ def rank_and_limit(items: List[Dict[str, Any]], cfg: Dict[str, Any]) -> List[Dic
             _absolute_author_priority(it, cfg),      # 0) ABSOLUTE: researcher arXiv feeds
             _absolute_blog_priority(it),             # 1) ABSOLUTE: blogs/substacks
             _absolute_title_priority(it, cfg),       # 2) ABSOLUTE: landmark titles (AlphaFold etc.)
+            _relevance_bin(it),                      # 2b) topical relevance (coarse bins, before source tier)
             _missed_paper_keyword_priority(it),      # 3) missed paper keywords (user ground truth)
             _feedback_score(it, liked_urls, liked_sources, liked_keyword_counts),  # 4) graded feedback
             _topic_keyword_priority(it, cfg),        # 5) config topic keywords

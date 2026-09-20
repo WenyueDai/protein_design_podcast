@@ -29,6 +29,23 @@ _EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 _DEFAULT_TIMEOUT = 20
 
 
+def _strict_query(term: str) -> str:
+    """
+    Turn "protein binder design" into (protein[tiab] AND binder[tiab] AND design[tiab]).
+
+    An unfielded query is expanded by PubMed's automatic term mapping (MeSH synonyms, "All Fields"),
+    which is why loose hits such as radiograph classifiers or Mendelian-randomisation studies got in.
+    Restricting every word to title/abstract keeps the AND semantics but removes that expansion.
+    Note: [tiab] does no stemming, so "proteins" will not match "protein"; the relevance gate
+    downstream is the safety net, which is why this is opt-in (pubmed.strict_queries).
+    """
+    words = [w for w in term.replace('"', " ").split() if w]
+    if not words:
+        return term
+    parts = [(f'"{w}"[tiab]' if "-" in w else f"{w}[tiab]") for w in words]
+    return "(" + " AND ".join(parts) + ")"
+
+
 def _esearch(
     query: str,
     *,
@@ -208,7 +225,8 @@ def collect_pubmed_items(
     seen_pmids: set = set()
 
     for term in search_terms:
-        query = f"({term}) AND {date_filter}"
+        _q = _strict_query(term) if pubmed_cfg.get("strict_queries", False) else f"({term})"
+        query = f"{_q} AND {date_filter}"
         pmids = _esearch(query, email=email, max_results=max_results)
         if not pmids:
             continue

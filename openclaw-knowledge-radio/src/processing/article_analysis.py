@@ -1,5 +1,6 @@
 import hashlib
 import os
+import threading
 import time
 from pathlib import Path
 from typing import Dict, Any, List, Optional
@@ -54,6 +55,23 @@ Rules:
 - Keep it concise and information-dense.
 """
 DEBUG_MODE = os.environ.get("DEBUG", "false").lower() == "true"
+
+
+# Models that actually produced an analysis this run (fallbacks included).  Analyses served
+# from the on-disk cache are not counted: the cache does not record which model wrote them.
+_USED_MODELS: List[str] = []
+_USED_MODELS_LOCK = threading.Lock()
+
+
+def get_used_analysis_models() -> List[str]:
+    with _USED_MODELS_LOCK:
+        return list(_USED_MODELS)
+
+
+def _record_model(m: str) -> None:
+    with _USED_MODELS_LOCK:
+        if m and m not in _USED_MODELS:
+            _USED_MODELS.append(m)
 
 
 def hash_url(url: str) -> str:
@@ -139,6 +157,7 @@ def analyze_article(
     for m in all_models:
         try:
             analysis = _try_one_model(client, m, url, text)
+            _record_model(m)
             if m != model:
                 print(f"[analysis] Used fallback model {m!r} (primary {model!r} failed)", flush=True)
             cache_file.write_text(analysis, encoding="utf-8")
@@ -162,6 +181,7 @@ def analyze_article(
         try:
             # Single attempt per discovered model — unvetted last resort.
             analysis = _try_one_model(client, m, url, text, max_attempts=1)
+            _record_model(m)
             print(f"[analysis] Used auto-discovered fallback model {m!r}", flush=True)
             cache_file.write_text(analysis, encoding="utf-8")
             return analysis

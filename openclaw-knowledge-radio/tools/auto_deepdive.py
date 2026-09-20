@@ -4,8 +4,14 @@ tools/auto_deepdive.py
 
 Runs at the start of each daily pipeline. Checks whether the owner labeled
 any papers in the Deep Dive Notes database for *yesterday*. If not (because
-they were busy), auto-adds every paper from yesterday's episode as a stub so
-the weekly/monthly summaries still have material to work with.
+they were busy), auto-adds yesterday's best papers as stubs so the weekly/monthly
+summaries still have material to work with.
+
+Only papers that clear the relevance bar (relevance.featured_min_score) are added, best first,
+capped at auto_deepdive.max_per_day.  Previously EVERY item of the episode was added, which put
+off-topic papers into the Deep Dive Notes database and from there into the weekly summary and the
+Speculative Ideas input.  (Set auto_deepdive.only_relevant: false in config.yaml to restore the old
+add-everything behaviour.)
 
 Papers added here are marked Source = "Auto" so the owner can tell them apart
 from ones they personally annotated.
@@ -24,6 +30,7 @@ from datetime import date as _date, timedelta
 from pathlib import Path
 
 import requests
+import yaml
 
 NOTION_API_KEY = os.environ.get("NOTION_API_KEY", "")
 DATABASE_ID    = os.environ.get("NOTION_DATABASE_ID", "3165f58ea8c280498f72c770028aec0d")
@@ -36,6 +43,34 @@ HEADERS = {
 
 PACKAGE_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_DIR  = PACKAGE_DIR / "output"
+sys.path.insert(0, str(PACKAGE_DIR))
+from src.processing import relevance as _rel  # noqa: E402
+
+
+def _load_cfg() -> dict:
+    try:
+        return yaml.safe_load((PACKAGE_DIR / "config.yaml").read_text(encoding="utf-8")) or {}
+    except Exception as e:
+        print(f"[auto_deepdive] could not read config.yaml ({e}) — using defaults", flush=True)
+        return {}
+
+
+def select_items(items: list[dict], cfg: dict) -> list[dict]:
+    """Pick which of yesterday's items to auto-add (pure function, unit-testable)."""
+    ad = cfg.get("auto_deepdive") or {}
+    if not ad.get("only_relevant", True):
+        return items
+    th = _rel.thresholds(cfg)
+    if not th["enabled"]:
+        return items
+    cap = int(ad.get("max_per_day", 5))
+    scored = []
+    for it in items:
+        sc = _rel.score_item(it, cfg)["score"]
+        if sc >= th["featured_min_score"]:
+            scored.append((sc, it))
+    scored.sort(key=lambda x: (-x[0], not x[1].get("highlighted", False)))
+    return [it for _, it in scored[:cap]]
 
 
 def _check_date() -> str:
@@ -101,7 +136,7 @@ def _add_paper(item: dict, date: str) -> bool:
                 "callout": {
                     "icon": {"type": "emoji", "emoji": "🤖"},
                     "rich_text": [{"type": "text", "text": {
-                        "content": "Auto-added (owner had no labels that day). Add your notes below."
+                        "content": "Auto-added (owner had no labels that day; picked for relevance). Add your notes below."
                     }}],
                     "color": "gray_background",
                 },
@@ -158,10 +193,15 @@ def main():
         print(f"[auto_deepdive] {count} paper(s) already labeled for {check_date} — nothing to do", flush=True)
         return
 
-    print(f"[auto_deepdive] No labels found for {check_date} — auto-adding all papers", flush=True)
-    items = _load_episode_items(check_date)
-    if not items:
+    print(f"[auto_deepdive] No labels found for {check_date} — auto-adding relevant papers", flush=True)
+    all_items = _load_episode_items(check_date)
+    if not all_items:
         print(f"[auto_deepdive] No episode items found for {check_date} — skipping", flush=True)
+        return
+    items = select_items(all_items, _load_cfg())
+    print(f"[auto_deepdive] {len(items)} of {len(all_items)} papers clear the relevance bar", flush=True)
+    if not items:
+        print("[auto_deepdive] Nothing relevant enough to add — skipping", flush=True)
         return
 
     print(f"[auto_deepdive] Adding {len(items)} papers to Deep Dive Notes...", flush=True)

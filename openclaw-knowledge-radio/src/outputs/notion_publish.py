@@ -48,9 +48,40 @@ def _rich(text: str, url: str = "") -> Dict[str, Any]:
     return obj
 
 
-def _build_blocks(date: str, items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def _callout(text: str, emoji: str, color: str = "gray_background") -> Dict[str, Any]:
+    return {"object": "block", "type": "callout",
+            "callout": {"icon": {"type": "emoji", "emoji": emoji},
+                        "rich_text": [_rich(text[:1900])], "color": color}}
+
+
+def models_line(models: Optional[List[str]], what: str = "Generated with") -> str:
+    """'Generated with: a, b' -- the models that ACTUALLY answered (fallbacks included)."""
+    ms = [m for m in (models or []) if m]
+    return f"{what}: " + (", ".join(ms) if ms else "no LLM call recorded")
+
+
+def _build_blocks(
+    date: str,
+    items: List[Dict[str, Any]],
+    *,
+    quiet_day: bool = False,
+    models: Optional[List[str]] = None,
+    featured_urls: Optional[set] = None,
+    n_filtered: int = 0,
+) -> List[Dict[str, Any]]:
     """Build Notion blocks for the daily digest from ranked items."""
     blocks: List[Dict[str, Any]] = []
+    featured_urls = featured_urls or set()
+
+    if quiet_day:
+        blocks.append(_callout(
+            "Quiet day: too few strongly relevant papers for a full episode, so there is no podcast today. "
+            f"The {len(items)} item(s) below are the ones that passed the relevance check; nothing was padded in."
+            + (f" {n_filtered} candidate(s) were filtered out as off-topic." if n_filtered else ""),
+            "🔕",
+        ))
+    elif n_filtered:
+        blocks.append(_callout(f"{n_filtered} off-topic candidate(s) were filtered out before ranking.", "🧹"))
 
     def h2(text: str) -> Dict[str, Any]:
         return {"object": "block", "type": "heading_2",
@@ -84,10 +115,17 @@ def _build_blocks(date: str, items: List[Dict[str, Any]]) -> List[Dict[str, Any]
             url = (it.get("url") or "").strip()
             snippet = _strip_html((it.get("one_liner") or it.get("snippet") or "").strip())
             source = (it.get("source") or "").strip()
+            if url and url in featured_urls:
+                title = "★ " + title
             blocks.append(bullet(title, url, snippet, source))
         blocks.append({"object": "block", "type": "paragraph",
                        "paragraph": {"rich_text": []}})
 
+    blocks.append(_callout(
+        "Selection: rule-based relevance score (no LLM). "
+        + (models_line(models, "Script written by") if models else "No podcast script generated."),
+        "🤖",
+    ))
     return blocks
 
 
@@ -144,6 +182,7 @@ def _transcript_blocks(script_text: str) -> List[Dict[str, Any]]:
 def save_transcript_to_notion(
     date: str,
     script_path: Path,
+    models: Optional[List[str]] = None,
 ) -> Optional[str]:
     """
     Save the full synthesis transcript to a dedicated Notion database.
@@ -173,7 +212,7 @@ def save_transcript_to_notion(
         print(f"[notion] Could not read script: {e}", flush=True)
         return None
 
-    blocks = _transcript_blocks(script_text)
+    blocks = [_callout(models_line(models), "🤖")] + _transcript_blocks(script_text)
     first_batch, rest_blocks = blocks[:100], blocks[100:]
 
     try:
@@ -205,6 +244,11 @@ def save_script_to_notion(
     script_path: Path,
     items: List[Dict[str, Any]],
     md_path: Optional[Path] = None,  # kept for backward compat, unused
+    *,
+    quiet_day: bool = False,
+    models: Optional[List[str]] = None,
+    featured_urls: Optional[set] = None,
+    n_filtered: int = 0,
 ) -> Optional[str]:
     """Save the daily digest to Notion. Returns page URL or None."""
     token = os.environ.get("NOTION_TOKEN", "").strip()
@@ -213,7 +257,10 @@ def save_script_to_notion(
         print("[notion] NOTION_TOKEN or NOTION_DATABASE_ID not set — skipping", flush=True)
         return None
 
-    blocks = _build_blocks(date, items)
+    blocks = _build_blocks(
+        date, items, quiet_day=quiet_day, models=models,
+        featured_urls=featured_urls, n_filtered=n_filtered,
+    )
     first_batch, rest_blocks = blocks[:100], blocks[100:]
 
     try:
