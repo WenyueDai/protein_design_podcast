@@ -1,26 +1,27 @@
 {
   "timestamps": [
     0.0,
-    203.78,
-    882.06,
-    1473.78,
-    1648.83,
-    1709.36,
-    2355.77,
-    2577.93,
-    2790.35,
-    2975.27,
-    3195.06
+    208.0,
+    446.1,
+    626.29,
+    894.78,
+    1082.55,
+    1306.08,
+    1494.24,
+    2092.14,
+    2320.16,
+    2475.75
   ],
   "items": [
     {
-      "title": "Viral exploitation of p300/CBP at the virus-cancer interface: Chromatin regulation, oncogenesis, immune evasion, and therapeutic targeting.",
-      "url": "https://doi.org/10.1016/j.ctarc.2026.101448",
-      "source": "PubMed — Cancer treatment and research communications",
-      "one_liner": "The transcriptional coactivators p300 and CREB-binding protein (CBP) integrate chromatin remodeling, enhancer activity, lysine acetylation, immune signaling, and tumor-suppressor control, making them recurrent targets of viral proteins. This narrative review examines p300/CBP at the virus-cancer interface, prioritizing HTLV-1, high-risk HPV, EBV, KSHV, HB...",
+      "title": "Mapping of three novel linear B-cell epitopes on the VP7 protein of epizootic hemorrhagic disease virus with monoclonal antibodies.",
+      "url": "https://doi.org/10.1186/s13567-026-01842-7",
+      "source": "PubMed — Veterinary research",
+      "one_liner": "Epizootic hemorrhagic disease virus (EHDV) is an important Orbivirus transmitted by culicoides midges. EHDV poses a significant threat to ruminant production worldwide. The VP7 protein is a highly conserved, group-specific antigen of EHDV, which serves as a key target for serological diagnosis. In this study, the recombinant VP7 (r-VP7) protein of EHDV-1 ...",
       "segment": -1,
       "timestamp": -1,
       "highlighted": true,
+      "relevance": 12.0,
       "tags": [
         "pubmed",
         "journal",
@@ -28,13 +29,14 @@
       ]
     },
     {
-      "title": "ProtThermoRank: Sequence-based multi-class prediction model for protein thermal stability changes and its application to CcsZ.",
-      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154559",
-      "source": "PubMed — International journal of biological macromolecules",
-      "one_liner": "Protein thermal stability is a key property of industrial enzymes and biopharmaceutical proteins. The rapid and accurate evaluation of thermal stability across large numbers of variants has become a critical step in protein engineering. However, experimental screening of large mutational landscapes remains time-consuming, labor-intensive, and costly. Here...",
+      "title": "Fifteen challenges for generative AI applications to cell biology.",
+      "url": "https://doi.org/10.1016/j.cell.2026.07.004",
+      "source": "PubMed — Cell",
+      "one_liner": "Generative AI (Gen-AI) has shown a remarkable impact in several biological research areas, from protein folding and de novo design to pathogenic mutation prediction. However, it remains unclear whether these molecular-level successes can translate to cellular and multicellular insights relevant to fields ranging from immunology to cancer and neurodegenera...",
       "segment": -1,
       "timestamp": -1,
       "highlighted": true,
+      "relevance": 6.8,
       "tags": [
         "pubmed",
         "journal",
@@ -42,13 +44,14 @@
       ]
     },
     {
-      "title": "Artificial Intelligence for Predictive Mixture Toxicology.",
-      "url": "https://doi.org/10.1016/j.tox.2026.154589",
-      "source": "PubMed — Toxicology",
-      "one_liner": "Human populations and ecosystems are continuously exposed to complex mixtures of environmental contaminants rather than to individual chemicals in isolation. These mixtures include pesticides, metals and metalloids, persistent organic pollutants, endocrine-disrupting chemicals, per- and polyfluoroalkyl substances, pharmaceuticals, plastic-associated compo...",
+      "title": "RaFT-DM: A Residue-Aware Fusion Transformer With Domain-Wise Memory for Accurate Multi-Label Protein Function Prediction.",
+      "url": "https://doi.org/10.1109/TCBBIO.2026.3734966",
+      "source": "PubMed — IEEE transactions on computational biology and bioinformatics",
+      "one_liner": "Accurate protein function prediction via modeling protein sequences as long structured symbolic sequences is essential for understanding cellular mechanisms and guiding drug discovery. However, conventional deep learning models often use global pooling, which weakens domain-specific signals and fails to capture contextual dependencies across domains. Here...",
       "segment": -1,
       "timestamp": -1,
       "highlighted": true,
+      "relevance": 7.0,
       "tags": [
         "pubmed",
         "journal",
@@ -56,27 +59,29 @@
       ]
     },
     {
-      "title": "A functional landscape of human microproteins",
-      "url": "https://www.biorxiv.org/content/10.1101/2024.06.10.598216",
-      "source": "bioRxiv — bioinformatics",
-      "one_liner": "Short open reading frames (sORFs) are widespread yet often poorly annotated, and an increasing number are known to encode functional sORF-encoded peptides (sPEPs, or microproteins). Here, we use a system approach to determine the functions of sPEPs in three tissues: monocytes, skeletal muscle and brain. We first predicted interactions between sPEPs and ca...",
+      "title": "Comparative Genomics-Guided Epitope Prioritization and in Silico Design of a Multi-Epitope DNA Vaccine Candidate Against Megalocytivirus pagrus 1.",
+      "url": "https://doi.org/10.1007/s10126-026-10707-1",
+      "source": "PubMed — Marine biotechnology (New York, N.Y.)",
+      "one_liner": "Megalocytivirus pagrus 1 infection is a World Organisation for Animal Health-listed aquatic animal disease caused by a virus species comprising the RSIV, ISKNV, and TRBIV genogroups. Here, we integrated comparative genomics and immunoinformatics to prioritize a multi-epitope protein construct, pMEV, and to design a DNA vaccine candidate encoding it, with ...",
       "segment": -1,
       "timestamp": -1,
       "highlighted": true,
+      "relevance": 5.4,
       "tags": [
-        "biorxiv",
-        "preprint",
+        "pubmed",
+        "journal",
         "biology"
       ]
     },
     {
-      "title": "A phase 1, randomized, double-blind, placebo-controlled study to evaluate the safety, tolerability, pharmacokinetics, and pharmacodynamics of sipavibart in healthy Japanese adults.",
-      "url": "https://doi.org/10.1016/j.jiac.2026.103078",
-      "source": "PubMed — Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
-      "one_liner": "BACKGROUND: Sipavibart, a recombinant human immunoglobulin G1-based monoclonal antibody against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) spike protein, is approved in Japan for prevention of COVID-19 in immunocompromised individuals. This phase 1 study evaluated the safety and pharmacokinetics (PK) of sipavibart in Japanese individuals...",
+      "title": "Beyond ER-Golgi trafficking: unconventional protein secretion as a new design frontier for synthetic secretion switches in mammalian cells.",
+      "url": "https://doi.org/10.1038/s42003-026-10984-5",
+      "source": "PubMed — Communications biology",
+      "one_liner": "Mammalian gene switches enable programmable cell behavior. However, current switches on transcriptional and translational layers require de novo RNA and protein synthesis, and secreted outputs must additionally undergo folding, post-translational processing, and intracellular trafficking, imposing delays that limit rapid extracellular responses. Rapid sec...",
       "segment": -1,
       "timestamp": -1,
       "highlighted": true,
+      "relevance": 5.2,
       "tags": [
         "pubmed",
         "journal",
@@ -84,13 +89,14 @@
       ]
     },
     {
-      "title": "AASIA: A comprehensive protein structural interactome database for agricultural animals.",
-      "url": "https://doi.org/10.1016/j.jare.2026.09.015",
-      "source": "PubMed — Journal of advanced research",
-      "one_liner": "INTRODUCTION: Agricultural animals are essential for global food production and sustainable agriculture. Improving disease resistance and economically important traits is critical for ensuring food security. Proteome-wide protein-protein interactions (PPIs), termed as interactomes, underlie key biological processes in cells, making them critical for decip...",
+      "title": "Structural Foundation of CTLA-4 antibodies: Emerging Platforms for Next-generation Cancer Immunotherapy.",
+      "url": "https://doi.org/10.1016/j.intimp.2026.117405",
+      "source": "PubMed — International immunopharmacology",
+      "one_liner": "Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) is a critical immune checkpoint receptor that restrains T-cell activation and maintains peripheral tolerance by outcompeting CD28 for shared B7 ligands on antigen-presenting cells (APC). Dysregulation of CTLA-4 signaling is implicated in autoimmune pathologies, lymphoproliferative disorders, and tumor i...",
       "segment": -1,
       "timestamp": -1,
       "highlighted": false,
+      "relevance": 4.0,
       "tags": [
         "pubmed",
         "journal",
@@ -98,13 +104,14 @@
       ]
     },
     {
-      "title": "Computational Modeling and MM-PBSA-Based Molecular Dynamics Investigation of Unexplored tRNA Isoleucine Lysidine Synthetase from Mycobacterium tuberculosis with Hyperbranched Amoxicilloyl-Poly-L-Lysine.",
-      "url": "https://doi.org/10.1007/s00894-026-06925-y",
-      "source": "PubMed — Journal of molecular modeling",
-      "one_liner": "CONTEXT: Integrated in-silico approach employed to characterize tRNA isoleucine lysidine synthetase enzyme (MtTilS; UniProt P9WG52), which is essential for protein synthesis in Mycobacterium tuberculosis and to design Amoxicilloyl-Poly-L-Lysine (APL) compounds as putative inhibitors. MtTilS (323 aa) contained TilS (9-230), substrate-binding (249-323) doma...",
+      "title": "High-speed atomic force microscopy of membrane proteins: From dynamic imaging to integrative structural biology.",
+      "url": "https://doi.org/10.1016/j.sbi.2026.103387",
+      "source": "PubMed — Current opinion in structural biology",
+      "one_liner": "High-speed atomic force microscopy (HS-AFM) enables direct, label-free visualization of membrane proteins in lipid bilayers with nanometer spatial resolution and millisecond temporal resolution. Recent studies revealed transient conformational states, dynamic oligomerization changes, and membrane-mediated organization of membrane proteins that are not rea...",
       "segment": -1,
       "timestamp": -1,
       "highlighted": false,
+      "relevance": 4.0,
       "tags": [
         "pubmed",
         "journal",
@@ -112,13 +119,14 @@
       ]
     },
     {
-      "title": "Towards a better understanding of protein affinity for polystyrene nanoplastics: Investigation of surface charge effects, interaction mechanisms and aggregation kinetics.",
-      "url": "https://doi.org/10.1016/j.colsurfb.2026.116184",
-      "source": "PubMed — Colloids and surfaces. B, Biointerfaces",
-      "one_liner": "This study investigates the mechanisms governing nanoplastic-protein interactions, aggregation, and colloidal stability between bovine serum albumin (BSA) and polystyrene nanoplastics (PS NPls) with opposite surface charges under controlled conditions at pH 7.4. Positively charged amidine latex (180 ± 20 nm) and negatively charged sulfate latex (220 ± 20 ...",
+      "title": "Avian eggshell membrane proteins in bone remodeling and regeneration: molecular mechanisms and therapeutic prospects.",
+      "url": "https://doi.org/10.1080/09205063.2026.2736159",
+      "source": "PubMed — Journal of biomaterials science. Polymer edition",
+      "one_liner": "The need for efficient biomaterials that can promote bone regeneration is driven by the fact that bone defects incurred by illness, trauma, or ageing continue to be a significant clinical challenge. Recently, the avian eggshell membrane (ESM) has drawn interest as a protein-rich, sustainable biomaterial for bone restoration. ESM, which is made up of more ...",
       "segment": -1,
       "timestamp": -1,
       "highlighted": false,
+      "relevance": 4.4,
       "tags": [
         "pubmed",
         "journal",
@@ -126,27 +134,14 @@
       ]
     },
     {
-      "title": "A Bottom-Up Platform for Quantitative Single-ParticleTracking Through Bacterial Biofilm Mimics",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736016",
-      "source": "bioRxiv — biophysics",
-      "one_liner": "Chronic infections persist in large part thanks to protection that biofilms afford their bacterial creators. The extracellular polymeric substance of biofilms is a hydrated matrix of DNA, polysaccharides, and structural proteins, amongst other components, through which nutrients, signalling molecules, and antimicrobial agents must diffuse to reach the bac...",
+      "title": "Isotype-specific optimization of antigen-specific ELISA reveals differential effects of blocking reagents.",
+      "url": "https://doi.org/10.1016/j.jim.2026.114125",
+      "source": "PubMed — Journal of immunological methods",
+      "one_liner": "Accurate detection of antigen-specific antibodies by ELISA requires minimizing nonspecific background, yet blocking conditions are rarely optimized for antibody isotype. Here, we systematically evaluated the impact of blocking reagents on isotype-specific detection of antibodies against influenza A/PR8 hemagglutinin (HA) in mice using an antigen-specific ...",
       "segment": -1,
       "timestamp": -1,
       "highlighted": false,
-      "tags": [
-        "biorxiv",
-        "preprint",
-        "biology"
-      ]
-    },
-    {
-      "title": "A human serum albumin-assisted caged fluorophore probe for fluorescence turn-on detection of hypochlorous acid.",
-      "url": "https://doi.org/10.1039/d6ra06489b",
-      "source": "PubMed — RSC advances",
-      "one_liner": "Fluorescence detection of hypochlorous acid (HOCl), a reactive oxidant that modulates immune responses and inflammation, can be complicated in serum due to nonspecific interactions between fluorescent probes and serum proteins. In particular, human serum albumin (HSA), the most abundant protein in serum, can alter the probe fluorescence by increasing back...",
-      "segment": -1,
-      "timestamp": -1,
-      "highlighted": false,
+      "relevance": 5.2,
       "tags": [
         "pubmed",
         "journal",
@@ -154,13 +149,14 @@
       ]
     },
     {
-      "title": "Cationic trehalose-releasing nanogels complexed with oligonucleotides as putative dual-action nanocarriers.",
-      "url": "https://doi.org/10.1016/j.nano.2026.103026",
-      "source": "PubMed — Nanomedicine : nanotechnology, biology, and medicine",
-      "one_liner": "This study describes a strategy for designing dual-action nanocarriers capable of the co-release of trehalose and electrostatically bound oligonucleotides. Trehalose, reduces toxic protein aggregation and, therefore, may enhance therapeutic results in neurodegenerative diseases. Oligonucleotide therapeutics are gaining recognition for treating neurodegene...",
+      "title": "Improving the Activity of Phi29 DNA Polymerase by SaProt Prediction.",
+      "url": "https://doi.org/10.1002/chem.71224",
+      "source": "PubMed — Chemistry (Weinheim an der Bergstrasse, Germany)",
+      "one_liner": "Phi29 DNA polymerase has broad application value due to its excellent functions such as strand displacement. However, the catalytic efficiency of the natural Phi29 DNA polymerase is low, which greatly limits its application scope. This study attempts to modify Phi29 DNA polymerase using the deep prediction model SaProt to improve its catalytic efficiency....",
       "segment": -1,
       "timestamp": -1,
       "highlighted": false,
+      "relevance": 5.0,
       "tags": [
         "pubmed",
         "journal",
@@ -168,13 +164,14 @@
       ]
     },
     {
-      "title": "Isolation of Bacillus subtilis NJ01 and in silico evaluation of its antimicrobial metabolites as potential inhibitors of the CRN8 effector protein of Phytophthorainfestans.",
-      "url": "https://doi.org/10.1016/j.micpath.2026.108836",
-      "source": "PubMed — Microbial pathogenesis",
-      "one_liner": "Late blight, caused by Phytophthora infestans, is one of the most destructive oomycete diseases affecting global potato and tomato production, leading to annual economic losses exceeding $6 billion. Overreliance on synthetic fungicides has raised serious environmental and resistance-related concerns, highlighting the need for sustainable biological altern...",
+      "title": "Development and application of nbLIBRA-seq for high-throughput discovery of antigen-specific nanobodies.",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101605",
+      "source": "PubMed — Cell reports methods",
+      "one_liner": "Nanobodies are of high interest in many fields of medicine and biotechnology, although nanobody discovery has been limited by laborious screening techniques. Here, we demonstrate the successful adaptation of linking B cell receptor to antigen specificity through sequencing (LIBRA-seq) to immunized alpacas for the rapid identification of antigen-specific n...",
       "segment": -1,
       "timestamp": -1,
       "highlighted": false,
+      "relevance": 7.2,
       "tags": [
         "pubmed",
         "journal",
@@ -182,13 +179,14 @@
       ]
     },
     {
-      "title": "Computational screening of oncogenic genetic variations in tumor suppressor proteins driving gastric cancer pathogenesis.",
-      "url": "https://doi.org/10.1371/journal.pone.0358440",
-      "source": "PubMed — PloS one",
-      "one_liner": "Gastric cancer (GC) is currently the fifth most common cancer globally, often driven by dysregulation of tumor suppressor pathways. While individual studies on genetic variations of proteins are common, a comprehensive systems-level analysis of proteins regulating GC pathways showing both expression dysregulation and high mutation frequency remains unexpl...",
+      "title": "Advances in adropin-mediated signaling pathways and molecular mechanisms: Receptor controversies, tissue-specific evidence, and emerging physiological roles.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.154581",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "BACKGROUND: Adropin, a 76-amino-acid peptide encoded by ENHO, is involved in metabolic balance, endothelial function, and inflammatory regulation. It has been linked to PI3K/Akt, MAPK/ERK1/2, AMPK, Notch, and redox/inflammatory pathways, although the identity of a dedicated receptor and the extent to which these mechanisms are conserved across tissues rem...",
       "segment": -1,
       "timestamp": -1,
       "highlighted": false,
+      "relevance": 4.0,
       "tags": [
         "pubmed",
         "journal",
@@ -196,69 +194,14 @@
       ]
     },
     {
-      "title": "Big Data-Driven Production Scheduling Risk Identification Using a Lightweight Adaptive Graph Attention Network.",
-      "url": "https://doi.org/10.1177/2167647X261487341",
-      "source": "PubMed — Big data",
-      "one_liner": "The advancement of Industry 4.0 and smart manufacturing has led to the generation of high-volume, multisource data that evolve in real-time within production scheduling systems. This poses significant challenges to traditional risk identification methods. Models that ignore topological relationships lack robustness when handling complex dependencies. Blac...",
+      "title": "Epistasis and the changing fitness landscapes of SARS-CoV-2.",
+      "url": "https://doi.org/10.1093/genetics/iyag227",
+      "source": "PubMed — Genetics",
+      "one_liner": "Since its emergence in late 2019, millions of SARS-CoV-2 genomes have been generated as part of global efforts to monitor the evolution and spread of the virus. This unprecedented volume of data provides a unique opportunity to study viral evolution at unparalleled resolution. In particular, individual genomic sites can be observed to have mutated indepen...",
       "segment": -1,
       "timestamp": -1,
       "highlighted": false,
-      "tags": [
-        "pubmed",
-        "journal",
-        "biology"
-      ]
-    },
-    {
-      "title": "Continuous-Time Transformer with Adaptive Mutation-Locking for Early Prediction of Acute Kidney Injury.",
-      "url": "https://doi.org/10.1109/TBME.2026.3735426",
-      "source": "PubMed — IEEE transactions on bio-medical engineering",
-      "one_liner": "OBJECTIVE: Accurate early prediction of acute kidney injury is critical, yet existing deep learning models operate as opaque black boxes that rely on uninterpretable correlations. Therefore, this study develops a transparent temporal attribution architecture to uncover precise pathophysiological triggers. METHODS: We propose the CT-Former framework, which...",
-      "segment": -1,
-      "timestamp": -1,
-      "highlighted": false,
-      "tags": [
-        "pubmed",
-        "journal",
-        "biology"
-      ]
-    },
-    {
-      "title": "Translational dysregulation as a mechanistic driver of cognitive, behavioral, and affective phenotypes in FXS and TSC.",
-      "url": "https://doi.org/10.1016/j.neubiorev.2026.106993",
-      "source": "PubMed — Neuroscience and biobehavioral reviews",
-      "one_liner": "Neurodevelopmental disorders (NDDs) are characterized by a spectrum of cognitive, behavioral, and affective morbidities, reflecting underlying disruptions in neural circuit development. Emerging evidence implicates translational dysregulation of synaptic proteins as a central mechanistic driver of these disordered phenotypes. Translational dysregulation e...",
-      "segment": -1,
-      "timestamp": -1,
-      "highlighted": false,
-      "tags": [
-        "pubmed",
-        "journal",
-        "biology"
-      ]
-    },
-    {
-      "title": "Engineered Caf1 constructs encoding laminin-332 motifs: a novel approach for enhanced cutaneous wound healing.",
-      "url": "https://doi.org/10.1093/bjd/ljag235",
-      "source": "PubMed — The British journal of dermatology",
-      "one_liner": "BACKGROUND: Laminin-332 is a key extracellular matrix (ECM) protein that supports keratinocyte adhesion, migration and re-epithelialization during wound healing. Its loss, as in junctional epidermolysis bullosa, disrupts re-epithelialization, which highlights its therapeutic relevance. However, direct application of full-length laminin or its fragments is...",
-      "segment": -1,
-      "timestamp": -1,
-      "highlighted": false,
-      "tags": [
-        "pubmed",
-        "journal",
-        "biology"
-      ]
-    },
-    {
-      "title": "A randomised, double-blind, placebo-controlled phase I clinical trial to evaluate the safety, tolerability and immunogenicity of three doses of an adjuvanted group B Streptococcus vaccine in older adults aged 55 to 75.",
-      "url": "https://doi.org/10.1016/j.vaccine.2026.129133",
-      "source": "PubMed — Vaccine",
-      "one_liner": "Group B Streptococcus (GBS) disease is an increasing medical burden in adults. The present phase 1 trial evaluated an adjuvanted GBS vaccine (GBS-AlpN) containing N-terminal domains of four alpha-like proteins (AlpNs) (Alp1N, Alp2/3 N, RibN and AlpCN) in 60 healthy adults and 30 with obesity and/or type 2 diabetes (O/D) aged 55 to 75 years of age. Partici...",
-      "segment": -1,
-      "timestamp": -1,
-      "highlighted": false,
+      "relevance": 4.0,
       "tags": [
         "pubmed",
         "journal",
