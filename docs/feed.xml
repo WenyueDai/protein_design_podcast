@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 07:52:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 17:39:15 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -22,10 +22,10 @@
       <title>Daily Podcast 2026-09-20</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-20/podcast_2026-09-20.mp3</guid>
       <pubDate>Sun, 20 Sep 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-20/podcast_2026-09-20.mp3" length="25219965" type="audio/mpeg" />
-      <description>The first shift comes from the p300/CBP review, which moves the field from seeing viral‑driven cancer as mainly a matter of mutational hits to recognizing epigenetic hijacking as a central tactic. | A second shift appears in ProtThermoRank, where the reliance on labor‑intensive thermal‑shift assays for every mutant is being replaced by a sequence‑based multi‑class predictor. | The third shift is evident in the AI for mixture toxicology paper, which pushes risk assessment beyond the old paradigm of evaluating chemicals one‑by‑one.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-20/podcast_2026-09-20.mp3" length="20220093" type="audio/mpeg" />
+      <description>The first shift comes from the EHDV VP7 study, where researchers moved from assuming that diagnostic epitopes on the major capsid protein are highly variable to showing that three novel linear epitopes are conserved across serotypes. | A second shift appears in the protein‑function‑prediction work introducing RaFT‑DM. | The third shift is seen in the Megalocytivirus vaccine paper.</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The first shift comes from the p300/CBP review, which moves the field from seeing viral‑driven cancer as mainly a matter of mutational hits to recognizing epigenetic hijacking as a central tactic. | A second shift appears in ProtThermoRank, where the reliance on labor‑intensive thermal‑shift assays for every mutant is being replaced by a sequence‑based multi‑class predictor. | The third shift is evident in the AI for mixture toxicology paper, which pushes risk assessment beyond the old paradigm of evaluating chemicals one‑by‑one.</itunes:summary>
+      <itunes:summary>The first shift comes from the EHDV VP7 study, where researchers moved from assuming that diagnostic epitopes on the major capsid protein are highly variable to showing that three novel linear epitopes are conserved across serotypes. | A second shift appears in the protein‑function‑prediction work introducing RaFT‑DM. | The third shift is seen in the Megalocytivirus vaccine paper.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
