@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "time": "2026-09-20T18:47:50+01:00",
+  "time": "2026-09-20T18:54:42+01:00",
   "quiet_day": true,
   "n_items_used": 0,
   "n_featured": 0,
@@ -30,40 +30,12 @@
       "newest_entry": "2026-09-16T00:00:00",
       "error": null
     },
-    "Nature (main journal)": {
+    "Nature Structural & Molecular Biology": {
       "http_status": 200,
-      "raw_entries": 75,
+      "raw_entries": 8,
       "kept": 0,
       "newest_entry": "2026-09-18T00:00:00",
       "error": null
-    },
-    "Quanta Magazine": {
-      "http_status": 200,
-      "raw_entries": 5,
-      "kept": 0,
-      "newest_entry": "2026-09-18T13:55:50+00:00",
-      "error": null
-    },
-    "Nature - Protein Engineering": {
-      "http_status": 200,
-      "raw_entries": 30,
-      "kept": 0,
-      "newest_entry": "2026-09-12T00:00:00+00:00",
-      "error": null
-    },
-    "Nature - Antibodies": {
-      "http_status": 200,
-      "raw_entries": 30,
-      "kept": 0,
-      "newest_entry": "2026-09-11T00:00:00+00:00",
-      "error": null
-    },
-    "Structure": {
-      "http_status": 403,
-      "raw_entries": 0,
-      "kept": 0,
-      "newest_entry": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/structure/inpress.rss"
     },
     "Protein Science": {
       "http_status": 403,
@@ -79,12 +51,61 @@
       "newest_entry": null,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.pnas.org/rss/current.xml"
     },
-    "Owl Posting (Abhishaike Mahajan)": {
+    "Nature (main journal)": {
       "http_status": 200,
-      "raw_entries": 20,
+      "raw_entries": 75,
       "kept": 0,
-      "newest_entry": "2026-08-21T14:54:04+00:00",
+      "newest_entry": "2026-09-18T00:00:00",
       "error": null
+    },
+    "Nature - Protein Design": {
+      "http_status": 200,
+      "raw_entries": 30,
+      "kept": 0,
+      "newest_entry": "2026-09-14T00:00:00+00:00",
+      "error": null
+    },
+    "Quanta Magazine": {
+      "http_status": 200,
+      "raw_entries": 5,
+      "kept": 0,
+      "newest_entry": "2026-09-18T13:55:50+00:00",
+      "error": null
+    },
+    "Nature Methods": {
+      "http_status": 200,
+      "raw_entries": 8,
+      "kept": 0,
+      "newest_entry": "2026-09-16T00:00:00",
+      "error": null
+    },
+    "Structure": {
+      "http_status": 403,
+      "raw_entries": 0,
+      "kept": 0,
+      "newest_entry": null,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/structure/inpress.rss"
+    },
+    "Nature - Antibodies": {
+      "http_status": 200,
+      "raw_entries": 30,
+      "kept": 0,
+      "newest_entry": "2026-09-11T00:00:00+00:00",
+      "error": null
+    },
+    "Nature - Protein Engineering": {
+      "http_status": 200,
+      "raw_entries": 30,
+      "kept": 0,
+      "newest_entry": "2026-09-12T00:00:00+00:00",
+      "error": null
+    },
+    "In the Pipeline (Derek Lowe)": {
+      "http_status": 403,
+      "raw_entries": 0,
+      "kept": 0,
+      "newest_entry": null,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.science.org/digital-feed/pipeline"
     },
     "Endpoints News": {
       "http_status": 200,
@@ -100,18 +121,11 @@
       "newest_entry": "2026-09-17T20:28:52+00:00",
       "error": null
     },
-    "In the Pipeline (Derek Lowe)": {
-      "http_status": 403,
-      "raw_entries": 0,
-      "kept": 0,
-      "newest_entry": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.science.org/digital-feed/pipeline"
-    },
-    "Nature - Protein Design": {
+    "Owl Posting (Abhishaike Mahajan)": {
       "http_status": 200,
-      "raw_entries": 30,
+      "raw_entries": 20,
       "kept": 0,
-      "newest_entry": "2026-09-14T00:00:00+00:00",
+      "newest_entry": "2026-08-21T14:54:04+00:00",
       "error": null
     },
     "BLOPIG (Oxford Protein Informatics Group)": {
@@ -119,20 +133,6 @@
       "raw_entries": 10,
       "kept": 0,
       "newest_entry": "2026-09-16T15:31:08+00:00",
-      "error": null
-    },
-    "Nature Structural & Molecular Biology": {
-      "http_status": 200,
-      "raw_entries": 8,
-      "kept": 0,
-      "newest_entry": "2026-09-18T00:00:00",
-      "error": null
-    },
-    "Nature Methods": {
-      "http_status": 200,
-      "raw_entries": 8,
-      "kept": 0,
-      "newest_entry": "2026-09-16T00:00:00",
       "error": null
     },
     "arXiv q-bio.BM": {
