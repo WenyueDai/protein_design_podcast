@@ -317,6 +317,7 @@ def main() -> int:
     _excluded_counts: Counter = Counter()
     _pre_gate_dropped_n = 0
     _over_cap_n = 0
+    rss_diagnostics: Dict[str, Any] = {}
     reset_used_models()
 
     # 1) Collect (or regenerate from cached seed)
@@ -356,7 +357,10 @@ def main() -> int:
         _rss_disabled = sum(1 for s in cfg["rss_sources"] if not s.get("enabled", True))
         if _rss_disabled:
             print(f"[rss] Skipping {_rss_disabled} disabled source(s) (enabled: false)", flush=True)
-        rss_items = collect_rss_items(_rss_sources, tz=tz, lookback_hours=lookback_hours, now_ref=run_anchor)
+        rss_items = collect_rss_items(
+            _rss_sources, tz=tz, lookback_hours=lookback_hours, now_ref=run_anchor,
+            diagnostics=rss_diagnostics,
+        )
         collector_counts["rss"] = len(rss_items)
         items.extend(rss_items)
         if cfg.get("pubmed", {}).get("enabled", False):
@@ -685,6 +689,7 @@ def main() -> int:
             "n_filtered_off_topic": _n_filtered,
             "collector_counts": collector_counts,
             "analysis_models_used": get_used_analysis_models(),
+            "rss_diagnostics": rss_diagnostics,
             "output_dir": str(out_dir),
         }
         (out_dir / "status.json").write_text(json.dumps(status, indent=2), encoding="utf-8")
@@ -889,6 +894,7 @@ def main() -> int:
         "collector_counts": collector_counts,
         "collected_by_source_type": dict(source_type_counts.most_common()),
         "collected_by_source": dict(source_counts.most_common()),
+        "rss_diagnostics": rss_diagnostics,
         "quiet_day": False,
         "n_featured": len(featured_items),
         "n_excluded_terms": sum(_excluded_counts.values()),

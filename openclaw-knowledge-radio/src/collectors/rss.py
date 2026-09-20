@@ -12,6 +12,14 @@ from dateutil import parser as dtparser
 from src.utils.timeutils import cutoff_datetime
 
 _FETCH_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; feedbot/1.0; +https://github.com)"}
+# Some publishers (Cloudflare/CloudFront-fronted, e.g. Endpoints News) block the
+# self-identifying bot UA above but allow an ordinary browser UA through. Only used
+# as a same-request fallback on a 403 — sources that are fine with _FETCH_HEADERS
+# never see this.
+_BROWSER_FALLBACK_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+}
 # arXiv rate limit: 1 request per 3s recommended; use 1 worker + 3.5s delay
 _ARXIV_MAX_WORKERS = 1
 _ARXIV_DELAY = 3.5  # seconds between arXiv requests
@@ -29,16 +37,28 @@ def _fetch_source(
     src: Dict[str, Any],
     cutoff: datetime,
     upper: datetime,
+    diagnostics: Optional[Dict[str, Any]] = None,
 ) -> List[Dict[str, Any]]:
     """Fetch and parse one RSS source. Returns items within the time window.
 
     Uses requests for HTTP fetching so that arXiv API URLs (which redirect
     http→https and require a proper User-Agent) are handled correctly.
     feedparser is used only for parsing the already-fetched content.
+
+    If `diagnostics` is passed, this records per-source fetch/parse outcome
+    into diagnostics[source_name] — raw entry count, how many survived the
+    time-window filter, and the newest entry's date — so a source that is
+    silently always empty (blocked, or a stale/rolling feed) can be told
+    apart from one that's simply had nothing new to report.
     """
     source_name = src.get("name", "?")
     source_url = src.get("url", "")
     is_arxiv = "arxiv" in source_name.lower() or "arxiv" in source_url.lower()
+    diag: Dict[str, Any] = {"http_status": None, "raw_entries": 0, "kept": 0, "newest_entry": None, "error": None}
+
+    def _record():
+        if diagnostics is not None:
+            diagnostics[source_name] = diag
 
     max_attempts = 3 if is_arxiv else 1
     for attempt in range(1, max_attempts + 1):
@@ -48,10 +68,22 @@ def _fetch_source(
                 print(f"[rss] arXiv 429 for {source_name}, backing off {_ARXIV_429_BACKOFF}s (attempt {attempt})", flush=True)
                 time.sleep(_ARXIV_429_BACKOFF)
                 continue
+            if resp.status_code == 403:
+                # Some publishers block the self-identifying bot UA but allow a
+                # browser UA through (e.g. CloudFront rules keyed on UA string).
+                print(f"[rss] {source_name} returned 403, retrying with a browser User-Agent", flush=True)
+                try:
+                    resp = _requests.get(source_url, timeout=30, headers=_BROWSER_FALLBACK_HEADERS)
+                except _requests.RequestException:
+                    pass
+            diag["http_status"] = resp.status_code
             resp.raise_for_status()
             break
         except _requests.RequestException as exc:
             if attempt == max_attempts:
+                diag["http_status"] = getattr(exc.response, "status_code", None)
+                diag["error"] = f"{exc.__class__.__name__}: {exc}"
+                _record()
                 print(
                     f"[rss] Warning: HTTP fetch failed for {source_name}: "
                     f"{exc.__class__.__name__}: {exc}",
@@ -62,6 +94,8 @@ def _fetch_source(
     try:
         feed = feedparser.parse(resp.content)
     except Exception as exc:
+        diag["error"] = f"parse failed: {exc.__class__.__name__}: {exc}"
+        _record()
         print(f"[rss] Warning: parse failed for {source_name}: {exc.__class__.__name__}: {exc}", flush=True)
         return []
     if getattr(feed, "bozo", 0):
@@ -73,6 +107,7 @@ def _fetch_source(
         )
 
     entries = getattr(feed, "entries", []) or []
+    diag["raw_entries"] = len(entries)
     if is_arxiv and not entries:
         print(
             f"[rss] Warning: {source_name} returned 0 feed entries "
@@ -81,6 +116,7 @@ def _fetch_source(
         )
 
     items: List[Dict[str, Any]] = []
+    newest_dt: Optional[datetime] = None
     for e in entries:
         title = (getattr(e, "title", "") or "").strip()
         url = (getattr(e, "link", "") or "").strip()
@@ -93,6 +129,9 @@ def _fetch_source(
                 dt = _parse_dt(v)
                 if dt:
                     break
+
+        if dt is not None and (newest_dt is None or dt > newest_dt):
+            newest_dt = dt
 
         if dt is not None:
             try:
@@ -119,6 +158,10 @@ def _fetch_source(
                 "tags": list(src.get("tags", [])),
             }
         )
+
+    diag["kept"] = len(items)
+    diag["newest_entry"] = newest_dt.isoformat() if newest_dt else None
+    _record()
     return items
 
 
@@ -129,7 +172,11 @@ def collect_rss_items(
     lookback_hours: int,
     now_ref: Optional[datetime] = None,
     max_workers: int = 12,
+    diagnostics: Optional[Dict[str, Any]] = None,
 ) -> List[Dict[str, Any]]:
+    """`diagnostics`, if given, is filled in place with one entry per source name —
+    see `_fetch_source` — so a persistently-empty source can be told apart from a
+    blocked/broken one without digging through CI logs."""
     upper = now_ref or datetime.now(tz)
     cutoff = cutoff_datetime(tz, lookback_hours, now_dt=upper)
     out: List[Dict[str, Any]] = []
@@ -140,7 +187,7 @@ def collect_rss_items(
 
     def _submit_batch(batch, workers):
         with ThreadPoolExecutor(max_workers=workers) as pool:
-            futures = {pool.submit(_fetch_source, src, cutoff, upper): src for src in batch}
+            futures = {pool.submit(_fetch_source, src, cutoff, upper, diagnostics): src for src in batch}
             for fut in as_completed(futures):
                 try:
                     out.extend(fut.result())
