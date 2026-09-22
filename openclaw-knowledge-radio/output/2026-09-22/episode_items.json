@@ -1,0 +1,235 @@
+{
+  "timestamps": [
+    0.0,
+    266.56,
+    509.01,
+    753.95,
+    1001.17,
+    1251.34
+  ],
+  "items": [
+    {
+      "title": "Adapting Boltz-2 with limited experimental activity data improves early enrichment in virtual screening",
+      "url": "https://arxiv.org/abs/2609.24302",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2609.24302v1 Announce Type: new \nAbstract: Virtual screening aims to prioritize active compounds from large chemical libraries within a limited experimental budget. When applying Boltz-2 to virtual screening, a key challenge is how to use limited experimental data from the target assay to improve the prioritization of active compounds. We investigat...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 4.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "AlloPool is a deep learning framework that infers protein allostery from molecular dynamics simulations.",
+      "url": "https://doi.org/10.1371/journal.pbio.3004002",
+      "source": "PubMed — PLoS biology",
+      "one_liner": "Recent advances in artificial intelligence have transformed protein structure prediction and design. However, protein function is governed not only by static structures but also by the conformational dynamics that allow proteins to access distinct functional states. Predicting these dynamic transitions, central to many biological processes, remains challe...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 14.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mechanistic Interpretability of Fine-Tuned Protein Language Models for Nanobody Thermostability Prediction.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag685",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: While Protein Language Models (PLMs) fine-tuned on biophysical data achieve high predictive accuracy, the physical principles underlying their predictions remain obscure. Deciphering these representations offers a unique opportunity to not only interpret model decisions but also to discover novel biophysical insights governing protein properti...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational design of metalloproteases",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.20.689622",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Although significant progress has been made in creating de novo metalloenzymes that hydrolyze activated esters, the energetically demanding cleavage of amide bonds has remained a major challenge for enzyme design: amide bonds are significantly more stable than ester bonds, the amine leaving groups in proteins are not activated, and peptide substrates are ...",
+      "segment": 4,
+      "timestamp": 1001.17,
+      "highlighted": true,
+      "relevance": 10.4,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Modulating innate immune responses to curli fibers through protein engineering.",
+      "url": "https://doi.org/10.1128/iai.00394-26",
+      "source": "PubMed — Infection and immunity",
+      "one_liner": "",
+      "segment": 4,
+      "timestamp": 1001.17,
+      "highlighted": true,
+      "relevance": 8.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De novo design of cysteine proteases",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.21.689808",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Despite advances in de novo enzyme design, success has been largely limited to low energy barrier model reactions. Amide bonds such as those linking amino acids along the peptide backbone are stable for hundreds of years in neutral aqueous solution because of the high energy barrier to hydrolysis. Here we describe the de novo design of enzymes which utili...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 11.0,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "HD-AIP: A Heterogeneous Dual-Stream Alignment-Free Framework for Anti-Inflammatory Peptide Prediction Based on Language Models and CT-Net.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag697",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Anti-inflammatory peptides (AIPs) show therapeutic potential for treating chronic and autoimmune diseases. Computational screening of these peptides remains challenging because their typically short sequences limit traditional feature extraction effectiveness, while homology-based methods incur high computational costs. RESULTS: This study pro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 9.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Towards Accurate Prediction of Mutation-Induced Changes in Protein Structure",
+      "url": "https://arxiv.org/abs/2609.24842",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2609.24842v1 Announce Type: cross \nAbstract: Proteins can possess numerous mutations relative to their wild-type amino acid sequences with minimal impact to their structure and function. However, in other cases, even a single amino acid mutation relative to the wild-type sequence can lead to a large change in structure or even a disease phenotype. W...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.2,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "G protein diffusion states reveal receptor binding dynamics at single-molecule scale.",
+      "url": "https://doi.org/10.1016/j.chembiol.2026.08.013",
+      "source": "PubMed — Cell chemical biology",
+      "one_liner": "G protein-coupled receptors (GPCRs) signal through heterotrimeric G proteins, yet the kinetics of receptor-G protein interactions in cells remain poorly understood. Using single-molecule imaging, we tracked individual Gα",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.06.09.658393",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "A significant portion of disease-causing mutations occur at protein-protein interfaces however, the number of structurally resolved multi-protein complexes is extremely small. Here we present a computational pipeline, PIONEER2, that integrates 3D structural similarity with geometric deep learning to accurately predict protein binding partner-specific inte...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.4,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Retracing the Process of Translation: Proteome-wide mapping of stable transcriptomic predictors of protein abundance in cancer cell lines",
+      "url": "https://arxiv.org/abs/2609.24004",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2609.24004v1 Announce Type: new \nAbstract: Understanding the relationship between gene expression and protein abundance is central to molecular and systems biology. While gene expression reflects transcriptional activity, proteins are the functional molecules that determine cellular phenotypes. However, numerous post-transcriptional and translationa...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Deep learning-driven de novo discovery of binders targeting the transmembrane domain of BamA.",
+      "url": "https://doi.org/10.1007/s00203-026-05218-5",
+      "source": "PubMed — Archives of microbiology",
+      "one_liner": "Antimicrobial resistance (AMR) is an escalating global health threat, with multidrug-resistant Gram-negative bacteria presenting a particularly serious clinical challenge. The unique outer membrane (OM) structure serves as a natural barrier against conventional therapeutics, so that treatment strategies become more complicated. Notably, drug development a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Non-muscle proteins alleviate 118 °C sterilization-induced gel quality deterioration by non-covalently modulating myofibrillar protein conformation and aggregation.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.151222",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "The improvement effects of non-muscle proteins (soy protein isolate (SPI), egg white protein (EWP) and whey protein concentrate (WPC)) on the quality deterioration of high-temperature (118 °C) sterilized surimi gels were systematically compared. Supplementation with 4% SPI, 4% EWP, or 8% WPC effectively alleviated the heat-induced quality deterioration of...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SPID: Distilled Protein Backbone Generation",
+      "url": "https://arxiv.org/abs/2510.03095",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2510.03095v4 Announce Type: replace \nAbstract: Diffusion- and flow-based generative models have recently demonstrated strong performance in protein backbone generation tasks, offering unprecedented capabilities for de novo protein design. However, despite their generation quality, these models are constrained by slow sampling, often requiring hundre...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 12.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution",
+      "url": "https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/",
+      "source": "Quanta Magazine",
+      "one_liner": "Half of our genome is made of transposons — snips of DNA that can move and copy themselves. But they’re more than parasites or genetic junk. The post How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution<...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
