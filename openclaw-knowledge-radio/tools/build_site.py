@@ -324,6 +324,37 @@ def _load_author_sources() -> tuple[set, set]:
         return set(), set()
 
 
+def _load_quiet_days(after_date: str) -> list:
+    """
+    status.json entries newer than the latest *published* episode where the relevance
+    gate didn't clear enough featured papers for a real episode (run_daily.py returns
+    early on those — no mp3, no script, so `episodes` never sees them). Surfaced here so
+    a visitor sees "no episode because X was quiet" instead of a stale date that looks
+    like the pipeline stalled.
+    """
+    out = []
+    if not BASE_OUTPUT.exists():
+        return out
+    for d in BASE_OUTPUT.iterdir():
+        if not d.is_dir() or d.name <= after_date:
+            continue
+        status_file = d / "status.json"
+        if not status_file.exists():
+            continue
+        try:
+            st = json.loads(status_file.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if st.get("quiet_day"):
+            out.append({
+                "date": d.name,
+                "n_items_used": st.get("n_items_used", 0),
+                "n_featured": st.get("n_featured", 0),
+            })
+    out.sort(key=lambda x: x["date"])
+    return out
+
+
 def _build_today_summary(episodes) -> str:
     """Build a compact stats bar from the most recent episode, baked at build time."""
     if not episodes:
@@ -334,6 +365,24 @@ def _build_today_summary(episodes) -> str:
         return ""
     date = ep["date"]
     total = len(items)
+
+    quiet_days = _load_quiet_days(date)
+    quiet_row = ""
+    if quiet_days:
+        latest = quiet_days[-1]
+        if len(quiet_days) == 1:
+            quiet_text = (
+                f"No episode since &mdash; {latest['date']} was a quiet day "
+                f"({latest['n_items_used']} item(s) passed filtering, "
+                f"{latest['n_featured']} reached the depth bar for a full episode)."
+            )
+        else:
+            quiet_text = (
+                f"No episode since &mdash; {len(quiet_days)} quiet day(s) through {latest['date']} "
+                f"(latest: {latest['n_items_used']} item(s) passed filtering, "
+                f"{latest['n_featured']} reached the depth bar for a full episode)."
+            )
+        quiet_row = f'<div class="ts-row ts-dim">&#129323; {quiet_text}</div>'
 
     researcher_sources, blog_sources = _load_author_sources()
 
@@ -353,6 +402,8 @@ def _build_today_summary(episodes) -> str:
     rows = [f'<div class="ts-row"><span class="ts-date">&#128197; {date}</span>'
             f'<span class="ts-sep">·</span>'
             f'<span><strong>{total}</strong> papers in today&rsquo;s episode</span></div>']
+    if quiet_row:
+        rows.append(quiet_row)
 
     if researcher_items:
         # Show each researcher with a count, trim long names
