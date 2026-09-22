@@ -515,7 +515,7 @@ def build_podcast_script_llm_chunked_with_map(
 
 
 # =========================
-# Deep synthesis prompt (11-section intelligence briefing, per-section calls)
+# Deep synthesis prompt (multi-section intelligence briefing, per-section calls)
 # =========================
 
 def _synthesis_system(n_papers: int) -> str:
@@ -549,9 +549,10 @@ VOICE AND STYLE — this is the most important part:
   If a sentence contains no specific name, number, model, dataset, or experimental detail — rewrite it. Use the NOTES_FROM_PIPELINE and KEY RELATED LITERATURE data provided.
 
 REDUNDANCY RULES — critically important for a multi-section podcast:
-- Each section has a distinct purpose. Do NOT repeat what you said in conceptually earlier sections.
-- If you already described what a paper found in a previous context, here just reference it briefly: "as we saw, that paper showed X — but what I want to highlight now is..." then immediately move to the new angle for this section.
+- Each section has a distinct purpose. Do NOT repeat what you said in earlier sections.
+- The prompt below includes an ALREADY COVERED block with the exact text of every earlier section. Read it. If a specific number, name, or description already appears there verbatim, do NOT restate it — refer to it in passing ("as we saw with the RaFT-DM ablation...") and move straight to the new angle. Repeating a stat or method description that's already in the ALREADY COVERED block is the single biggest failure mode for this episode — treat it as a hard constraint, not a style preference.
 - No section should re-summarise the papers from scratch. Every section builds on the last.
+- This section covers multiple angles in one pass (see instructions below) — move between them as a single flowing train of thought, not as separately announced sub-topics.
 
 HARD RULES:
 - Plain text only. No markdown, no asterisks, no dashes at line starts, no colons introducing structured lists.
@@ -561,12 +562,18 @@ HARD RULES:
 - Go straight into the ideas. No catchphrases, no "Welcome back", no "In this section we will cover".
 
 LENGTH:
-- Write 280–380 words per section — tight, no filler, no redundancy with other sections.
+- Write 450–600 words per section — dense, no filler, no redundancy with other sections.
 - Every sentence must carry new information. Cut any sentence that restates something already said.
 """
 
 # (section_title, section_instruction) — one entry per section
 # Each section has a sharply distinct purpose to minimise cross-section redundancy.
+# Consolidated from an earlier 11-section version (2026-09-22): sections that all took a
+# "critically dissect the methodology" angle (clever methods / tensions & skepticism / what
+# an expert notices), and sections that all took a "zoom out" angle (knowledge expansion /
+# history & philosophy / where the field is heading), each collapsed into one section that
+# moves through those angles as a single train of thought instead of three separate full
+# re-groundings of the same handful of papers.
 _SYNTHESIS_SECTIONS: List[Tuple[str, str]] = [
     (
         "What actually mattered today",
@@ -585,20 +592,22 @@ Propose three to five concrete research project ideas. For each, think aloud abo
 Use specific details from the papers' methods as springboards — "the approach they used to generate binders could be adapted to..." rather than generic ideas."""
     ),
     (
-        "Knowledge expansion — connecting to broader science",
-        """This section is about depth of understanding, not recapping what papers did. Do NOT re-summarise the papers' findings — reference them only briefly to ground a bigger point.
+        "Clever methods, fragile assumptions, and what an expert would notice",
+        """This section is a single critical pass over today's papers, moving through three angles as one continuous train of thought — not three separate re-summaries. Do NOT repeat the results already covered in section one; assume the listener knows what was found and go straight to scrutinising it.
 
-For the most important insights, trace their deeper roots: connections to protein physics, evolution, thermodynamics, information theory, statistical mechanics, or machine learning theory. What earlier scientific work does this resemble? Use the KEY RELATED LITERATURE provided — "this echoes what the AlphaFold2 paper showed about contact maps...", "similar to the free energy landscape arguments from the 1990s...". Are these groups rediscovering an old idea with better tools? What general principle does this reflect?
+First, pick the two or three most interesting methods: what specific question was each designed to answer, why would a naive approach fail (a concrete example of what could go wrong), what controls or orthogonal validations make the result convincing, and what you'd steal for your own work.
 
-Help build conceptual intuition. Every paragraph should contain at least one reference to related work or a principle from another field."""
+Then pivot to what's fragile: where does a result rest on a shaky assumption, an unrepresentative test set, or a missing control? Be specific — "they claimed X but the test set only contained Y, which means Z is a plausible alternative explanation" is good, "results may not generalise" is not.
+
+Finally, surface one or two things only an expert would notice that a casual reader would miss — an inflated confidence metric, a failure mode visible in a supplementary figure, a benchmark that favours the method unfairly. Name the figure, the number, the claim."""
     ),
     (
-        "Clever methods and how they proved things",
-        """This section is exclusively about experimental and computational cleverness — not about what was found, but about HOW it was proven. Do NOT repeat the results you covered in section one.
+        "Deeper context: history, theory, and where this is heading",
+        """This section zooms all the way out, moving through past, present, and future as one continuous thread — not three separate essays. Do NOT re-summarise the papers' findings; reference them only briefly to ground a bigger point.
 
-Pick the two or three most interesting methods. For each: what specific question was this method designed to answer, why would a naive approach fail (give a concrete example of what could go wrong), what controls or orthogonal validations make the result convincing, and what you'd steal for your own work. Use specific details — the exact benchmark, the particular ablation, the number of validation experiments.
+Start in the past: for the most important insights, trace their deeper roots — connections to protein physics, evolution, thermodynamics, information theory, statistical mechanics, or ML theory, and a specific historical parallel (using KEY RELATED LITERATURE where relevant — "this echoes what the AlphaFold2 paper showed about contact maps...", "similar to how NMR revealed protein dynamics in the 1980s..."). Is this incremental engineering or a genuine conceptual shift? Be opinionated.
 
-Look for adversarial testing, clever dataset splits, causal inference tricks, stress tests that could have failed but didn't."""
+Then pivot to the future: identify one or two emerging directions these results signal. Distinguish real momentum from hype, name what evidence would confirm the direction is real over the next two to three years, and what you'd watch for."""
     ),
     (
         "New design heuristics I should adopt",
@@ -609,52 +618,12 @@ For each heuristic: state the rule concretely (if X happens, do Y; avoid trustin
 Be direct and opinionated. Do not give generic advice like "validate your results". Extract the specific, surprising, grounded rule that today's papers actually demonstrate."""
     ),
     (
-        "Where the field might be heading",
-        """This section is entirely future-facing — not what the papers did, but what they signal about where biology and machine learning are heading together.
+        "Mental model update and open questions",
+        """This is the closing section. Do NOT re-describe the papers — assume everything has been covered. Speak directly to what you personally would update, then leave the listener with threads to keep pulling on.
 
-Identify two to four emerging directions suggested by today's papers. For each: describe the signal you're seeing with a specific example from today's work, distinguish real momentum from hype (be honest about which this is), name what evidence would confirm the direction is real over the next two to three years, and what you'd watch for.
+Walk through three to five specific things worth revising in your mental model of protein or antibody design — not generic lessons, but concrete updates ("I used to think X was the bottleneck; now I think it's Y because of what the de novo binder paper showed about Z").
 
-Do not repeat paper summaries. Use them only as evidence for a trend argument."""
-    ),
-    (
-        "Tensions, contradictions, and healthy skepticism",
-        """This section is deliberately critical — it protects the listener from being swept up in hype. Do NOT be positive here. Look for problems.
-
-Find places where today's papers disagree with each other, or where individual results rest on fragile assumptions. For each: what exactly is the fragile assumption or the contradiction (be specific — cite a number, a benchmark, a claimed result), what dataset bias or favorable test case could explain the result, what validation step is conspicuously missing, and what it would take to make you genuinely confident.
-
-Be specific and cite the papers. "They claimed X but the test set only contained Y, which means Z is a plausible alternative explanation" is good. "Results may not generalise" is not."""
-    ),
-    (
-        "What an expert protein designer would notice",
-        """This section surfaces non-obvious readings that only come with deep domain experience. Do NOT repeat the surface-level findings from section one.
-
-For two to four observations: what would most readers take away from this paper, and what would an expert actually notice instead. Examples of what to look for: confidence metrics that are probably inflated, hidden assumptions the authors didn't flag, a failure mode visible in a supplementary figure, a result that accidentally reveals a useful design rule while making a different point, a benchmark that favours the method unfairly.
-
-Be specific. Name the figure, the number, the claim. Connect each observation to why it matters for design decisions."""
-    ),
-    (
-        "History and philosophy of science perspective",
-        """This section steps all the way back — not to the papers' results, but to what kind of scientific event today represents.
-
-For each major idea, ask: is this incremental engineering, a conceptual shift, a tool-driven discovery, a data-driven empirical pattern, or a theory-driven prediction that was verified? Give a specific historical parallel — "this resembles how NMR revealed protein dynamics in the 1980s...", "similar to when the first crystal structure of a G-protein-coupled receptor changed the field by...". Use the KEY RELATED LITERATURE where relevant.
-
-Reflect on whether this changes how protein design science is done, or just what is known. Is the field in a phase of paradigm building or paradigm shift? Be opinionated."""
-    ),
-    (
-        "Today's mental model update",
-        """This is the most practically important section. Do NOT re-describe the papers — assume everything has been covered. Speak directly to what you personally would update.
-
-Walk through five specific things worth revising in your mental model of protein or antibody design — not generic lessons, but concrete updates ("I used to think X was the bottleneck; now I think it's Y because of what the de novo binder paper showed about Z"). Then five concrete experiments or workflow changes you'd actually run or try, with enough specificity to be actionable. Then three things these papers make you want to question more carefully.
-
-End with the single most non-obvious insight from today, and the most elegant scientific idea you encountered."""
-    ),
-    (
-        "Personal research expansion notes",
-        """Close the episode with open-ended prompts for continued thinking — not summaries, not conclusions, but questions and threads worth following.
-
-Generate genuine open questions today's papers raise but don't answer. Suggest specific follow-up reading directions (using the KEY RELATED LITERATURE as starting points). Propose metrics worth tracking, failure modes worth building intuitions about, datasets worth knowing, and computational experiments worth running later.
-
-This is intellectually generous and genuinely exploratory. Help the listener leave with more threads to pull on than they arrived with."""
+Then close with genuine open questions today's papers raise but don't answer, one or two specific follow-up reading directions (using KEY RELATED LITERATURE as a starting point), and the single most non-obvious insight from today. Intellectually generous, genuinely exploratory — leave more threads than you arrived with."""
     ),
 ]
 
@@ -668,7 +637,7 @@ def build_podcast_script_llm_synthesis(
     recommendations: Optional[List[Dict]] = None,
 ) -> Tuple[str, List[int]]:
     """
-    Generate a deep 11-section synthesis podcast from the top featured papers.
+    Generate a deep multi-section synthesis podcast from the top featured papers.
 
     Makes one LLM call per section so each gets its own token budget and the
     model can't shortcut the whole script in a single lazy pass.
@@ -687,8 +656,8 @@ def build_podcast_script_llm_synthesis(
     temperature = float(llm_cfg.get("temperature", 0.25))
 
     podcast_cfg = cfg.get("podcast") or {}
-    # Per-section token budget — 700 tokens ≈ 350 words ≈ ~2.5 min narration (11 sections ≈ 30 min)
-    section_max_tokens = int(podcast_cfg.get("synthesis_section_max_tokens", 700))
+    # Per-section token budget — 900 tokens covers the 450-600 word target with headroom
+    section_max_tokens = int(podcast_cfg.get("synthesis_section_max_tokens", 900))
 
     # Build shared paper context block (reused across all section calls)
     blocks: List[str] = []
@@ -736,21 +705,30 @@ def build_podcast_script_llm_synthesis(
         + "\n\n"
     )
 
+    n_sections = len(_SYNTHESIS_SECTIONS)
     sections: List[str] = []
     for idx, (title, instruction) in enumerate(_SYNTHESIS_SECTIONS, 1):
-        prior_note = (
-            f"Sections 1 through {idx - 1} have already been delivered to the listener."
-            " Do not repeat what was already covered — build on it and bring a new angle."
-            if idx > 1 else ""
-        )
+        if idx > 1:
+            prior_text = "\n\n".join(
+                f"[Section {j}: {_SYNTHESIS_SECTIONS[j - 1][0]}]\n{seg}"
+                for j, seg in enumerate(sections, 1)
+            )
+            prior_note = (
+                "ALREADY COVERED — verbatim text of every earlier section. Do not restate any "
+                "specific number, name, or description that appears below; refer to it only in "
+                "passing (\"as we saw with the RaFT-DM ablation...\") and move straight to the "
+                f"new angle for this section:\n\n{prior_text}"
+            )
+        else:
+            prior_note = ""
         user = (
             header
-            + f"You are now writing SECTION {idx}/11: {title}\n\n"
+            + f"You are now writing SECTION {idx}/{n_sections}: {title}\n\n"
             + instruction
             + (f"\n\n{prior_note}" if prior_note else "")
-            + "\n\nUse concrete examples and specific numbers from the paper data. Do not invent details. Write 280–380 words — dense and specific, zero filler."
+            + "\n\nUse concrete examples and specific numbers from the paper data. Do not invent details. Write 450–600 words — dense and specific, zero filler."
         )
-        print(f"[synthesis] Generating section {idx}/11: {title} ...", flush=True)
+        print(f"[synthesis] Generating section {idx}/{n_sections}: {title} ...", flush=True)
         seg = _chat_complete(
             client,
             model=model,

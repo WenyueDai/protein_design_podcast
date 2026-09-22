@@ -607,13 +607,13 @@ wiki_context:
 
 podcast:
   enabled: true
-  target_minutes: 60
+  target_minutes: 25  # 2026-09-22: 6-section synthesis at 450-600 words/section, ~3000-3600 words total
   voice: "en-GB-RyanNeural"
   voice_rate: "+0%"
   tts_chunk_chars: 2800
   synthesis_mode: true           # Deep synthesis of top papers instead of per-paper summaries
   featured_count: 5              # Number of top papers for deep dive; rest shown greyed-out
-  synthesis_section_max_tokens: 2000  # Token budget per section (~1000-1300 words, ~7 min narration)
+  synthesis_section_max_tokens: 900  # ~600 words + headroom; was 2000 (invited padding past the stated word target)
   chunking:
     fulltext_threshold_chars: 2500
     tierA_max: 999
