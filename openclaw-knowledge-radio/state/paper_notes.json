@@ -2945,6 +2945,11 @@
       "note": "DD",
       "title": "Adapting Boltz-2 with limited experimental activity data improves early enrichment in virtual screening",
       "source": "arXiv q-bio.BM"
+    },
+    "https://doi.org/10.1371/journal.pbio.3004002": {
+      "note": "DD",
+      "title": "AlloPool is a deep learning framework that infers protein allostery from molecular dynamics simulations.",
+      "source": "PubMed — PLoS biology"
     }
   }
 }
