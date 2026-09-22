@@ -2955,6 +2955,11 @@
       "note": "DD",
       "title": "Mechanistic Interpretability of Fine-Tuned Protein Language Models for Nanobody Thermostability Prediction.",
       "source": "PubMed — Bioinformatics (Oxford, England)"
+    },
+    "https://www.biorxiv.org/content/10.1101/2025.11.20.689622": {
+      "note": "DD",
+      "title": "Computational design of metalloproteases",
+      "source": "bioRxiv — biochemistry"
     }
   }
 }
