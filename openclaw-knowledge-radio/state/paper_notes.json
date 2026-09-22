@@ -2939,5 +2939,12 @@
       "title": "Sampling Decisions: Exact Path-Space Correction, Prior Cancellation and Local-Boltzmann Guidance",
       "source": "arXiv cs.LG (AI/ML)"
     }
+  },
+  "2026-09-22": {
+    "https://arxiv.org/abs/2609.24302": {
+      "note": "DD",
+      "title": "Adapting Boltz-2 with limited experimental activity data improves early enrichment in virtual screening",
+      "source": "arXiv q-bio.BM"
+    }
   }
 }
