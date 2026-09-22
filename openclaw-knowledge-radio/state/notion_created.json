@@ -2174,5 +2174,21 @@
   "2026-09-22|https://arxiv.org/abs/2609.24302": {
     "page_id": "3e35f58e-a8c2-81d8-bf84-e01c043e4d77",
     "note": "DD"
+  },
+  "2026-09-22|https://doi.org/10.1371/journal.pbio.3004002": {
+    "page_id": "3e35f58e-a8c2-8109-aed2-fbb9a3d48098",
+    "note": "DD"
+  },
+  "2026-09-22|https://doi.org/10.1093/bioinformatics/btag685": {
+    "page_id": "3e35f58e-a8c2-810b-9b0c-ddc99a23ddad",
+    "note": "DD"
+  },
+  "2026-09-22|https://www.biorxiv.org/content/10.1101/2025.11.20.689622": {
+    "page_id": "3e35f58e-a8c2-815e-8847-c062ade0bac6",
+    "note": "DD"
+  },
+  "2026-09-22|https://www.biorxiv.org/content/10.1101/2025.11.21.689808": {
+    "page_id": "3e35f58e-a8c2-8104-8e6d-db50b1f5a31c",
+    "note": "DD"
   }
 }
