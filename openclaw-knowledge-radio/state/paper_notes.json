@@ -2950,6 +2950,11 @@
       "note": "DD",
       "title": "AlloPool is a deep learning framework that infers protein allostery from molecular dynamics simulations.",
       "source": "PubMed — PLoS biology"
+    },
+    "https://doi.org/10.1093/bioinformatics/btag685": {
+      "note": "DD",
+      "title": "Mechanistic Interpretability of Fine-Tuned Protein Language Models for Nanobody Thermostability Prediction.",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
     }
   }
 }
