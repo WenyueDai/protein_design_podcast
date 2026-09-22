@@ -8,6 +8,14 @@ Config section (config.yaml):
     lookback_days: 2
     bucket: "protein"
     tags: ["biorxiv", "preprint", "biology"]
+    categories: ["biochemistry", "bioinformatics", "biophysics",
+                 "synthetic biology", "molecular biology", "systems biology"]
+      # Optional. bioRxiv's /details API has no server-side category filter for a
+      # date-range query, so this is a local post-fetch filter (same idiom as
+      # biorxiv_authors.py's per-author allowed_categories) — it shrinks the pool the
+      # keyword matcher has to scan without costing recall, since protein-design content
+      # doesn't appear in categories like neuroscience or ecology anyway. Omit/empty to
+      # keep the old behaviour (scan every category).
 """
 from __future__ import annotations
 
@@ -67,6 +75,12 @@ def collect_biorxiv_keyword_items(
     lookback_days = int(biorxiv_cfg.get("lookback_days") or max(1, lookback_hours // 24))
     bucket = biorxiv_cfg.get("bucket", "protein")
     tags = list(biorxiv_cfg.get("tags", ["biorxiv", "preprint", "biology"]))
+    # Normalize hyphens/underscores so "molecular-biology" matches "molecular biology"
+    # (same idiom as biorxiv_authors.py's allowed_categories check).
+    allowed_cats = [
+        c.lower().strip().replace("-", " ").replace("_", " ")
+        for c in (biorxiv_cfg.get("categories") or []) if c
+    ]
 
     try:
         papers = fetch_recent_biorxiv_papers(lookback_days=lookback_days)
@@ -74,10 +88,22 @@ def collect_biorxiv_keyword_items(
         print(f"[biorxiv_keywords] API error: {e}", flush=True)
         return []
 
-    print(
-        f"[biorxiv_keywords] Fetched {len(papers)} total papers for local keyword filtering",
-        flush=True,
-    )
+    if allowed_cats:
+        before = len(papers)
+        papers = [
+            p for p in papers
+            if (p.get("category") or "").lower().strip().replace("-", " ").replace("_", " ") in allowed_cats
+        ]
+        print(
+            f"[biorxiv_keywords] Fetched {before} total papers, "
+            f"{len(papers)} in allowed categories for local keyword filtering",
+            flush=True,
+        )
+    else:
+        print(
+            f"[biorxiv_keywords] Fetched {len(papers)} total papers for local keyword filtering",
+            flush=True,
+        )
 
     seen_urls: set[str] = set()
     matched_items: List[Dict[str, Any]] = []

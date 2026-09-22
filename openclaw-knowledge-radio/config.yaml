@@ -545,10 +545,12 @@ pubmed:
   bucket: "protein"
   tags: ["pubmed", "journal", "biology"]
   # true: each term becomes a title/abstract-only query (protein[tiab] AND design[tiab] ...), so PubMed
-  #       stops expanding it with MeSH synonyms (a source of loose hits). NOT tested against the live API and
-  #       [tiab] does no stemming, so it may lower recall; the relevance gate already filters loose hits.
+  #       stops expanding it with MeSH synonyms (a source of loose hits). [tiab] does no stemming, so
+  #       it may lower recall; the relevance gate already filters loose hits either way.
   # false: original behaviour (unfielded query).
-  strict_queries: false
+  # 2026-09-22: trial run — compare pubmed_matches / n_relevance_dropped in status.json over the next
+  # few days against the pre-trial baseline; revert to false if kept-item volume drops noticeably.
+  strict_queries: true
   search_terms:
     # Cat 1 — Reviews (core design areas)
     - "de novo protein design"
@@ -598,6 +600,10 @@ biorxiv_keywords:
   lookback_days: 2
   bucket: "protein"
   tags: ["biorxiv", "preprint", "biology"]
+  # 2026-09-22: local post-fetch filter (protein-design content doesn't live in
+  # neuroscience/ecology/etc.) — cuts the pool the keyword matcher scans, no recall cost.
+  categories: ["biochemistry", "bioinformatics", "biophysics",
+               "synthetic biology", "molecular biology", "systems biology"]
 
 daily_knowledge:
   enabled: false
@@ -609,7 +615,7 @@ podcast:
   enabled: true
   target_minutes: 25  # 2026-09-22: 6-section synthesis at 450-600 words/section, ~3000-3600 words total
   voice: "en-GB-RyanNeural"
-  voice_rate: "+0%"
+  voice_rate: "+15%"  # 2026-09-22: was +0%, silently overriding the code default of +20% (run_daily.py); raises info/minute
   tts_chunk_chars: 2800
   synthesis_mode: true           # Deep synthesis of top papers instead of per-paper summaries
   featured_count: 5              # Number of top papers for deep dive; rest shown greyed-out
