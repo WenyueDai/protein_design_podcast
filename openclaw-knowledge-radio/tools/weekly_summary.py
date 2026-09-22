@@ -61,11 +61,44 @@ NOTION_HEADERS = {
 }
 
 CONFIG_PATH = _Path(__file__).parent.parent / "config.yaml"
+OUTPUT_DIR = _Path(__file__).parent.parent / "output"
 
 
 def _cfg() -> dict:
     with open(CONFIG_PATH) as f:
         return yaml.safe_load(f)
+
+
+def load_week_daily_scripts(start: str, end: str) -> dict[str, str]:
+    """
+    {date: script_text} for every day in [start, end] that produced a real episode.
+
+    Quiet days write no podcast_script_*_llm.txt (run_daily.py returns before script
+    generation), so they're naturally absent here — nothing to load, nothing missed.
+    Reading these directly means the weekly briefing builds on the SAME rich,
+    concrete-example synthesis script_llm.py already produced for the daily episode,
+    instead of re-deriving shallower insights from Deep Dive Notes' bare title/tags/
+    abstract metadata.
+    """
+    from src.processing.script_llm import TRANSITION_MARKER
+    out: dict[str, str] = {}
+    start_dt, end_dt = datetime.fromisoformat(start), datetime.fromisoformat(end)
+    d = start_dt
+    while d <= end_dt:
+        date_str = d.date().isoformat()
+        day_dir = OUTPUT_DIR / date_str
+        script_file = day_dir / f"podcast_script_{date_str}_llm.txt"
+        if not script_file.exists():
+            script_file = day_dir / f"podcast_script_{date_str}_llm_clean.txt"
+        if script_file.exists():
+            try:
+                text = script_file.read_text(encoding="utf-8").replace(TRANSITION_MARKER, "\n")
+                if text.strip():
+                    out[date_str] = text.strip()
+            except Exception:
+                pass
+        d += timedelta(days=1)
+    return out
 
 
 def _slack(msg: str) -> None:
@@ -382,28 +415,56 @@ def main():
         flush=True,
     )
 
-    if not week_papers and not unread_papers:
-        print("[weekly] Deep Dive Notes is empty — nothing to do.", flush=True)
-        _slack(f":pause_button: Deep Dive Notes is empty for {start}→{end} — weekly briefing skipped.")
+    daily_scripts = load_week_daily_scripts(start, end)
+    if not week_papers and not unread_papers and not daily_scripts:
+        print("[weekly] Deep Dive Notes is empty and no daily episodes this week — nothing to do.", flush=True)
+        _slack(f":pause_button: Nothing to summarise for {start}→{end} — weekly briefing skipped.")
         return
 
-    # S2 enrichment
+    # S2 enrichment (best-effort metadata for the backlog + Deep Dive Notes appendix;
+    # the daily-script path below doesn't need it since those already ground themselves).
     if week_papers:
         enrich_papers(week_papers, limit=15)
     if unread_papers:
         enrich_papers(unread_papers, limit=20)
 
     # --- Build prompt ---
-    system = (
-        "You are writing a weekly deep-research briefing for a computational "
-        "protein/antibody designer. Your job: (A) synthesise the week's new papers "
-        "into actionable insights — the user may or may not have fully read them, "
-        "so derive insights from abstracts, titles, tags, and any notes they left; "
-        "(B) recommend exactly what to read next week from their backlog; "
-        "(C) motivate them to keep reading with honest, direct encouragement."
-    )
+    if daily_scripts:
+        system = (
+            "You are writing a weekly deep-research briefing for a computational "
+            "protein/antibody designer. This week's daily podcast episodes already did "
+            "rich, concrete-example synthesis of each day's papers — your job is to "
+            "DISTILL and CROSS-REFERENCE that existing analysis into a week-level view, "
+            "not re-derive it from scratch. (A) pull out the insights, heuristics, and "
+            "methods that most matter across the week, reusing the specific numbers and "
+            "examples already in the daily scripts rather than inventing new framing; "
+            "(B) recommend exactly what to read next week from the backlog; "
+            "(C) motivate them to keep reading with honest, direct encouragement."
+        )
+        week_text = "\n\n".join(
+            f"=== DAILY EPISODE {date} ===\n{text}" for date, text in sorted(daily_scripts.items())
+        )
+        if week_papers:
+            notes_block = "\n\n".join(
+                f"- {p['title']}" + (f" — your notes: {p['notes']}" if p.get("notes") else "")
+                for p in week_papers if p.get("notes")
+            )
+            if notes_block:
+                week_text += (
+                    "\n\n=== YOUR PERSONAL NOTES ON THIS WEEK'S PAPERS (Deep Dive Notes) ===\n"
+                    + notes_block
+                )
+    else:
+        system = (
+            "You are writing a weekly deep-research briefing for a computational "
+            "protein/antibody designer. Your job: (A) synthesise the week's new papers "
+            "into actionable insights — the user may or may not have fully read them, "
+            "so derive insights from abstracts, titles, tags, and any notes they left; "
+            "(B) recommend exactly what to read next week from their backlog; "
+            "(C) motivate them to keep reading with honest, direct encouragement."
+        )
+        week_text = "\n\n".join(_paper_block(p) for p in week_papers) if week_papers else "(no new papers saved this week)"
 
-    week_text = "\n\n".join(_paper_block(p) for p in week_papers) if week_papers else "(no new papers saved this week)"
     unread_text = "\n\n".join(_paper_block(p) for p in unread_papers) if unread_papers else "(backlog is empty)"
 
     read_count = sum(1 for p in week_papers if p["read"])
