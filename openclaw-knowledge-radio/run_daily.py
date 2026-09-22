@@ -35,6 +35,7 @@ from src.processing.script_llm import (
     TRANSITION_MARKER,
     reset_used_models,
     get_used_models,
+    map_items_to_sections,
 )
 from src.processing.article_analysis import get_used_analysis_models
 from src.outputs.tts_edge import (
@@ -705,7 +706,11 @@ def main() -> int:
     if REGEN_FROM_CACHE and script_path.exists():
         print("[cache] Reusing existing LLM script", flush=True)
         script_text = script_path.read_text(encoding="utf-8")
-        _item_segments = [-1] * len(featured_items) if synthesis_mode else list(range(len(ranked)))
+        if synthesis_mode:
+            _cached_sections = [s.strip() for s in script_text.split(TRANSITION_MARKER)]
+            _item_segments = map_items_to_sections(featured_items, _cached_sections)
+        else:
+            _item_segments = list(range(len(ranked)))
     elif synthesis_mode:
         print(f"[script] Synthesis mode: {len(featured_items)} featured, {len(background_items)} greyed-out", flush=True)
         try:
@@ -754,7 +759,10 @@ def main() -> int:
     _episode_items_list: List[Dict[str, Any]] = []
     for _i, _it in enumerate(_all_display_items):
         _is_featured = not synthesis_mode or (_i < len(featured_items))
-        _seg = _item_segments[_i] if (not synthesis_mode and _i < len(_item_segments)) else -1
+        # In synthesis mode only featured_items have a real mapping (background_items are
+        # appended after and were never passed to the script builder) — see
+        # map_items_to_sections in script_llm.py.
+        _seg = _item_segments[_i] if _i < len(_item_segments) else -1
         _episode_items_list.append({
             "title": (_it.get("title") or "").strip(),
             "url": (_it.get("url") or "").strip(),

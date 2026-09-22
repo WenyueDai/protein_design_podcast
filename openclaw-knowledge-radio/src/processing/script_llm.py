@@ -1,4 +1,4 @@
-import os, json, requests
+import os, json, re, requests
 import threading
 import time
 from typing import Any, Dict, List, Optional, Tuple
@@ -628,6 +628,49 @@ Then close with genuine open questions today's papers raise but don't answer, on
 ]
 
 
+_TITLE_STOPWORDS = {
+    "the", "a", "an", "and", "or", "of", "in", "for", "to", "is", "are", "with",
+    "from", "by", "on", "at", "this", "that", "using", "based", "via", "de", "novo",
+    "new", "into", "through", "toward", "towards", "study", "analysis", "approach",
+}
+
+
+def _title_keywords(title: str) -> List[str]:
+    words = re.findall(r"[a-zA-Z]{5,}", (title or "").lower())
+    seen: set = set()
+    out: List[str] = []
+    for w in words:
+        if w not in _TITLE_STOPWORDS and w not in seen:
+            seen.add(w)
+            out.append(w)
+    return out
+
+
+def map_items_to_sections(items: List[Dict[str, Any]], sections: List[str]) -> List[int]:
+    """
+    Best-effort per-paper -> section index, so the site's seek/jump feature works in
+    synthesis mode. Each section is exactly one audio segment (run_daily.py splits
+    script_text on TRANSITION_MARKER to build seg_mp3s, one per section), so this is the
+    finest navigation resolution available.
+
+    The synthesis prose never labels papers explicitly ("PAPER 3") — that's a deliberate
+    style rule for natural narration — so mapping is done by counting how many of a
+    paper's distinctive title words appear in each section's text and picking the section
+    with the strongest match: where that paper gets its most substantial individual
+    treatment, not just wherever it's first (lightly) mentioned.
+    """
+    section_lc = [s.lower() for s in sections]
+    out: List[int] = []
+    for it in items:
+        kws = _title_keywords(it.get("title") or "")
+        if not kws:
+            out.append(0)
+            continue
+        counts = [sum(sec.count(kw) for kw in kws) for sec in section_lc]
+        out.append(max(range(len(counts)), key=lambda i: counts[i]) if any(counts) else 0)
+    return out
+
+
 def build_podcast_script_llm_synthesis(
     *,
     date_str: str,
@@ -646,7 +689,9 @@ def build_podcast_script_llm_synthesis(
     recommendations: papers S2 recommends based on today's featured set —
       related work the pipeline didn't collect, injected as context.
 
-    All featured items map to segment -1.
+    Each featured item maps to whichever section discusses it most (see
+    map_items_to_sections) — that section is one audio segment, so the site's seek/jump
+    feature lands on that paper's most substantial discussion.
     Returns (script_text, item_segments).
     """
     client = _client_from_config(cfg)
@@ -742,5 +787,5 @@ def build_podcast_script_llm_synthesis(
 
     script = f"\n\n{TRANSITION_MARKER}\n\n".join(sections)
 
-    item_segments: List[int] = [-1] * len(items)
+    item_segments = map_items_to_sections(items, sections)
     return script, item_segments
