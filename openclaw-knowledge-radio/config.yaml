@@ -503,7 +503,8 @@ rss_sources:
     url: "https://aalphabio.substack.com/feed"
     tags: ["protein-design", "antibody-design", "substack", "author"]
     bucket: "protein"
-    enabled: false  # 2026-04-23: returns 403 Forbidden
+    # Re-enabled 2026-09-22: the 2026-04-23 403 predates the browser-UA fallback
+    # (src/collectors/rss.py) added later; retest via rss_diagnostics in status.json.
 
   - name: "Owl Posting (Abhishaike Mahajan)"
     url: "https://www.owlposting.com/feed"
@@ -524,6 +525,11 @@ rss_sources:
   - name: "BLOPIG (Oxford Protein Informatics Group)"
     url: "https://www.blopig.com/blog/feed/"
     tags: ["protein-design", "antibody-design", "structural-biology", "author"]
+    bucket: "protein"
+
+  - name: "Some Thoughts on a Mysterious Universe (Mohammed AlQuraishi)"
+    url: "https://moalquraishi.wordpress.com/feed/"
+    tags: ["protein-design", "protein-structure", "protein-language-model", "blog", "author"]
     bucket: "protein"
 
   - name: "In the Pipeline (Derek Lowe)"
