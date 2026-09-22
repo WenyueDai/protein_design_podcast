@@ -114,6 +114,32 @@ class TestScoring(unittest.TestCase):
         self.assertTrue(R.passes_gate(item("Tetris neuroimaging"), None, protected=True))
 
 
+class TestUnnamedToolBonus(unittest.TestCase):
+    """A brand-new tool name that isn't in strong_terms yet should still clear the gate
+    when the title uses the "Name: ..." announcement convention and names a protein-family
+    object, but must NOT rescue unrelated papers that merely share that title shape."""
+
+    def test_novel_tool_name_with_protein_object_passes(self):
+        t = "NovoBind: a diffusion model for peptide binder design"
+        self.assertGreaterEqual(R.score_text(t)["score"], R.thresholds({})["min_score"], t)
+
+    def test_leading_name_without_protein_object_gets_no_bonus(self):
+        # Same "Name: ..." shape, but no protein/antibody/peptide/enzyme/... in the title -
+        # a generic ML tool announcement, not evidence of protein-design relevance.
+        t = "TumorNet: a deep learning model for tumor image classification"
+        self.assertLess(R.score_text(t)["score"], R.thresholds({})["min_score"], t)
+
+    def test_gene_symbol_title_gets_no_bonus(self):
+        # Gene/protein symbols (PrkA, YeaG, ...) also look like coined names, but this
+        # doesn't use the leading "Name: ..." convention, so it must not be boosted.
+        t = "Structure and biochemical analyses suggest that PrkA/YeaG protein of Thermus thermophilus functions as a putative molecular chaperone."
+        self.assertLess(R.score_text(t)["score"], R.thresholds({})["min_score"], t)
+
+    def test_generic_section_header_is_not_treated_as_a_tool_name(self):
+        t = "Correction: AlphaFold-based antibody design pipeline"
+        self.assertIsNone(R._coined_tool_name(t))
+
+
 class TestLabelledSet(unittest.TestCase):
     """In-sample regression checks (see module docstring)."""
 

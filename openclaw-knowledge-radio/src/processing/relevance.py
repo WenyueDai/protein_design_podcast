@@ -29,6 +29,10 @@ score = 4*min(strong, 2) + 2*min(protein_ctx, 2) + 1*min(method_ctx, 2) - 3*min(
 
 where each *_ctx / strong value is the sum of per-term hit weights: a term found
 in the title counts 1.0, a term found only in the abstract snippet counts 0.6.
+
+`strong` also picks up +1.0 when the title opens with a coined "Name: ..." tool
+announcement alongside a protein-family word (protein/antibody/peptide/...), even when
+`Name` isn't in `strong_terms` yet - see the "Unnamed-tool bonus" note below.
 """
 from __future__ import annotations
 
@@ -106,6 +110,32 @@ DEFAULT_HARD_EXCLUDE: List[str] = ["author correction", "in this issue", "retrac
 
 _TITLE_W = 1.0
 _SNIPPET_W = 0.6
+
+# ---------------------------------------------------------------------------
+# Unnamed-tool bonus: new models/tools are coined faster than `strong_terms` can be
+# updated by hand (see tools/process_missed_papers.py). Papers introducing one almost
+# always use the "Name: what it does" title convention ("AlphaFast: High-throughput
+# AlphaFold 3 via ...", "AbEpiTope-1.0: Improved antibody target prediction ..."). That
+# convention alone is not distinctive (gene/protein symbols like "PrkA/YeaG" and
+# unrelated tools like "GraphPert: ... drug repurposing ..." also read this way), so the
+# bonus only fires when the title *also* names a protein-family object (protein,
+# antibody, peptide, enzyme, ...) - checked against the full labelled set in
+# tests/test_relevance.py with zero pass/fail flips and zero new false positives.
+_GENERIC_LEAD_WORDS = {
+    "abstract", "background", "note", "comment", "commentary", "editorial", "update",
+    "review", "perspective", "correction", "erratum", "introduction", "summary",
+    "highlight", "highlights", "preprint", "letter", "reply", "response", "viewpoint",
+}
+_LEADING_NAME_RX = re.compile(r"^\s*([A-Za-z][A-Za-z0-9]*(?:[\-.][A-Za-z0-9]+)*)\s*:\s*\S")
+
+
+def _coined_tool_name(title: str) -> Optional[str]:
+    """Leading 'Name:' / 'Name-1.0:' token, or None if absent / a generic section header."""
+    m = _LEADING_NAME_RX.match(title or "")
+    if not m:
+        return None
+    tok = m.group(1)
+    return None if tok.lower() in _GENERIC_LEAD_WORDS else tok
 
 
 # ---------------------------------------------------------------------------
@@ -195,6 +225,12 @@ def score_text(title: str, snippet: str = "", cfg: Optional[Dict[str, Any]] = No
         sh = _hits(snippet, v[key])
         parts[key] = _weighted(th, sh)
         matched[key] = sorted(set(th) | set(sh))
+    # Unnamed-tool bonus: "Name: ..." title introducing a protein-family object, even
+    # when `Name` itself isn't in `strong_terms` yet. See module notes above.
+    coined = _coined_tool_name(title)
+    if coined and _hits(title, v["protein"]):
+        parts["strong"] += 1.0
+        matched["strong"] = sorted(set(matched["strong"]) | {f"(coined:{coined})"})
     score = (
         4.0 * min(parts["strong"], 2.0)
         + 2.0 * min(parts["protein"], 2.0)
