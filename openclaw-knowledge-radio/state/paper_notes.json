@@ -2965,6 +2965,11 @@
       "note": "DD",
       "title": "De novo design of cysteine proteases",
       "source": "bioRxiv — biochemistry"
+    },
+    "https://arxiv.org/abs/2609.24842": {
+      "note": "DD",
+      "title": "Towards Accurate Prediction of Mutation-Induced Changes in Protein Structure",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
