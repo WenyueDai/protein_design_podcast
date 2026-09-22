@@ -1,0 +1,36 @@
+{
+  "quiet_day": true,
+  "timestamps": [],
+  "items": [
+    {
+      "title": "Cord Blood-Derived Fibroblast Activation Protein-Targeted Chimeric Antigen Receptor Natural Killer Cells Persist in Vivo.",
+      "url": "https://doi.org/10.1111/cas.70539",
+      "source": "PubMed — Cancer science",
+      "one_liner": "Cancer-associated fibroblasts (CAFs) have been recognized as key contributors to tumor progression. Chimeric antigen receptor (CAR) T-cell therapy targeting fibroblast activation protein (FAP), a marker of CAFs, has gained attention and is being evaluated in both preclinical and clinical studies. Cord blood (CB)-derived CAR natural killer (NK) cell therap...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AATRhg1 is a tonoplast protein that alters amino acid, metabolic and defense responses and nematode resistance.",
+      "url": "https://doi.org/10.1093/plphys/kiag706",
+      "source": "PubMed — Plant physiology",
+      "one_liner": "Soybean cyst nematode (SCN, Heterodera glycines) causes significant soybean yield losses. The Rhg1 locus is a major contributor to SCN resistance and contains three genes that mediate this trait including Rhg1-GmAAT (Glyma.18G022400), which encodes the putative amino acid transporter AATRhg1. The molecular function of AATRhg1 in SCN resistance is not unde...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
