@@ -2992,6 +2992,11 @@
       "note": "DD",
       "title": "De novo design of semisynthetic conduction pores.",
       "source": "PubMed — Nature structural & molecular biology"
+    },
+    "https://arxiv.org/abs/2609.26502": {
+      "note": "DD",
+      "title": "Deep Generative Crystal Structure Prediction: A Benchmark Study and a Controlled Test of Prototype Dependence",
+      "source": "arXiv cs.LG (AI/ML)"
     }
   }
 }
