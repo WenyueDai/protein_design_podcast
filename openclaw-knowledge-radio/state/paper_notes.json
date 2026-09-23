@@ -2977,6 +2977,11 @@
       "note": "Dd",
       "title": "Sampling at intermediate temperatures is optimal for training large language models in protein structure prediction",
       "source": "arXiv q-bio.BM"
+    },
+    "https://doi.org/10.1073/pnas.2536559123": {
+      "note": "DD",
+      "title": "Programmed inhibition of an innate immune receptor via de novo designed transmembrane proteins.",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America"
     }
   }
 }
