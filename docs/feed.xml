@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 07:37:21 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 07:38:35 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-09-23</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-23/podcast_2026-09-23.mp3</guid>
+      <pubDate>Wed, 23 Sep 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-23/podcast_2026-09-23.mp3" length="9776925" type="audio/mpeg" />
+      <description>We need to write section 1/6: &quot;What actually mattered today&quot;. | We have five papers. | We must not repeat later sections; but we haven&#x27;t written any yet, so fine.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>We need to write section 1/6: &quot;What actually mattered today&quot;. | We have five papers. | We must not repeat later sections; but we haven&#x27;t written any yet, so fine.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-09-22</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-22/podcast_2026-09-22.mp3</guid>
       <pubDate>Tue, 22 Sep 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-22/podcast_2026-09-22.mp3" length="9373605" type="audio/mpeg" />
-      <description>We need to write section 1/6: &quot;What actually mattered today&quot;. | Paper 1: Adapting Boltz-2 with limited experimental activity data improves early enrichment in virtual screening. | Paper 2: AlloPool infers protein allostery from MD simulations.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-22/podcast_2026-09-22.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>We need to write section 1/6: &quot;What actually mattered today&quot;. | Paper 1: Adapting Boltz-2 with limited experimental activity data improves early enrichment in virtual screening. | Paper 2: AlloPool infers protein allostery from MD simulations.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-24/podcast_2026-07-24.mp3</guid>
       <pubDate>Fri, 24 Jul 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-24/podcast_2026-07-24.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-07-23</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-23/podcast_2026-07-23.mp3</guid>
-      <pubDate>Thu, 23 Jul 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-23/podcast_2026-07-23.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

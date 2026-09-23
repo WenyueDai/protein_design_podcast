@@ -1,0 +1,203 @@
+{
+  "timestamps": [
+    0.0,
+    271.87,
+    541.82,
+    784.72,
+    827.86,
+    1081.76
+  ],
+  "items": [
+    {
+      "title": "Sampling at intermediate temperatures is optimal for training large language models in protein structure prediction",
+      "url": "https://arxiv.org/abs/2603.29529",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2603.29529v2 Announce Type: replace-cross \nAbstract: Using a statistical mechanics framework, we investigate the parameter space of transformer models trained on protein sequence data. We sample the loss landscape at varying temperatures using Langevin dynamics to characterize the low-loss manifold, and to understand the mechanisms underlying transf...",
+      "segment": 5,
+      "timestamp": 1081.76,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Programmed inhibition of an innate immune receptor via de novo designed transmembrane proteins.",
+      "url": "https://doi.org/10.1073/pnas.2536559123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Transmembrane domains of immune complexes transmit precise signals across lipid bilayers. Probing their interactions has the potential to yield mechanistic insights relevant to therapeutic design. However, our capability to generate molecules that bind lipid-embedded sites is limited. Here, we created synthetic polypeptides targeting a prominent mediator ...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 10.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Tools to investigate class B1 GPCR conformational landscapes with cryo-EM and beyond.",
+      "url": "https://doi.org/10.1042/BST20260595",
+      "source": "PubMed — Biochemical Society transactions",
+      "one_liner": "G protein-coupled receptors (GPCRs) are membrane proteins that act as signal transducers across cell membranes. Class B1 GPCRs, a subset of 15 receptors activated by peptide hormones, are involved in important physiological processes and diseases, making them a popular target for drug development. GPCRs are dynamic proteins and can adopt a myriad of confo...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 8.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DeepGVS: a bimodal deep learning framework integrating coding-sequence and protein-structural representations for virulence factor prediction.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag698",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Virulence factors (VFs) mediate host adhesion, invasion, immune evasion and toxin-mediated damage, making accurate VF prediction important for understanding bacterial pathogenesis and antimicrobial intervention. Existing predictors mainly use one-dimensional (1D) protein sequences, overlooking complementary coding DNA sequence (CDS)-level info...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 9.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De novo design of semisynthetic conduction pores.",
+      "url": "https://doi.org/10.1038/s41594-026-01881-w",
+      "source": "PubMed — Nature structural & molecular biology",
+      "one_liner": "Protein pores used for molecular sensing are generally assembled from large, multi-subunit natural proteins. Their ion conductance, and thus performance in sensing applications, depends on lumen geometry and chemistry. Here rather than designing a new pore or relying only on mutations to a natural scaffold, we show that installing additional de novo subun...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 6.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Generative Design of New-to-nature Biosynthetic Assembly Lines with Genomic Language Modeling",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.11.750945",
+      "source": "Tanja Kortemme (bioRxiv)",
+      "one_liner": "Reprogramming biosynthetic assembly lines can extend biosynthesis beyond the chemical space explored by nature. However, this remains difficult because assembly-line function depends on coordinated interactions across large multidomain enzymes. Here, we couple gLM2, a genomic language model trained on metagenomic sequences, with discrete diffusion and domain-level conditioning to enable generative",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 3.2,
+      "tags": [
+        "protein-design",
+        "author"
+      ]
+    },
+    {
+      "title": "A Process Selection Framework for Purifying Rat IgG1 Monoclonal Antibodies from Hybridoma Culture Supernatants: CaptureSelect IgG-Fc for Speed and POROS 50 HS-Capto Q for Scale.",
+      "url": "https://doi.org/10.1016/j.pep.2026.107007",
+      "source": "PubMed — Protein expression and purification",
+      "one_liner": "Efficient purification of rat-derived antibodies is an ongoing challenge in biologics development, particularly for isotypes that are difficult to capture using conventional affinity methods. Traditional Protein A/G affinity resins often exhibit limited efficiency and scalability for rat antibodies, particularly rat IgG1, which binds poorly to these ligan...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Correction: Study of Protein-Protein Interactions in Septin Assembly: Multiple amphipathic helix domains cooperate in binding to the lipid membrane.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014812",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "[This corrects the article DOI: 10.1371/journal.pcbi.1014230.].",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Peptide-RNA photocrosslinks with tunable RNA chain map RNA interfaces proteome-wide",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.09.05.674461",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Photocrosslinking mass spectrometry (MS) can map protein-RNA interfaces in living cells, but current isolation procedures for peptide-RNA crosslinks eliminate most RNA and therefore cannot identify the crosslinked RNA sequence. We introduce pepR-MS, a method that enriches peptide-RNA crosslinks with RNA chains of tunable length. To maximize proteomic dept...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.6,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "UFMylation of SHBs increases protein stability by antagonizing ubiquitination and promotes virion production.",
+      "url": "https://doi.org/10.1128/jvi.01034-26",
+      "source": "PubMed — Journal of virology",
+      "one_liner": "UNLABELLED: Post-translational modifications orchestrate virus-host interactions, yet their roles in the hepatitis B virus (HBV) life cycle remain incompletely defined. The small hepatitis B surface antigen (SHBs)-the most abundant HBV protein-drives immune evasion, pathogenesis, and virion/subviral particle (SVP) production. Here, we identify UFL1, the E...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deep Generative Crystal Structure Prediction: A Benchmark Study and a Controlled Test of Prototype Dependence",
+      "url": "https://arxiv.org/abs/2609.26502",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.26502v1 Announce Type: cross \nAbstract: Deep generative models are widely reported to enable de novo crystal structure prediction (CSP), but their capability has not been measured consistently against template-based methods. We evaluate 12 representative generative CSP models, spanning latent-variable, diffusion, flow-matching, autoregressive, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 9.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "MT-ProtBERT: Multi-task Learning ProtBERT for Intrinsically Disordered Proteins Classification with Scarce Data",
+      "url": "https://arxiv.org/abs/2609.25334",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.25334v1 Announce Type: new \nAbstract: Intrinsically disordered proteins (IDPs) differ from folded proteins in that they are dynamic, lack a stable three-dimensional conformation, and have low sequence similarity between similar proteins. The conformational heterogeneity of IDPs - while beneficial for their diverse functions - limits the use of ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 11.2,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "When Riemann flows with Wasserstein: Generative Modeling of Probability Distributions on Manifolds",
+      "url": "https://arxiv.org/abs/2609.25659",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.25659v1 Announce Type: new \nAbstract: Many scientific datasets, such as molecular conformational ensembles or single-cell tissue measurements, are naturally modeled as meta-distributions: distributions over probability measures on non-Euclidean domains. Existing generative methods largely assume Euclidean geometry and fail to capture this struc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
