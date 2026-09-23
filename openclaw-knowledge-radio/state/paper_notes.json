@@ -2997,6 +2997,11 @@
       "note": "DD",
       "title": "Deep Generative Crystal Structure Prediction: A Benchmark Study and a Controlled Test of Prototype Dependence",
       "source": "arXiv cs.LG (AI/ML)"
+    },
+    "https://arxiv.org/abs/2609.25334": {
+      "note": "DD",
+      "title": "MT-ProtBERT: Multi-task Learning ProtBERT for Intrinsically Disordered Proteins Classification with Scarce Data",
+      "source": "arXiv cs.LG (AI/ML)"
     }
   }
 }
