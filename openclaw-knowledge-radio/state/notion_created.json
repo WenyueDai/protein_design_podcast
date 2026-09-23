@@ -2190,5 +2190,13 @@
   "2026-09-22|https://www.biorxiv.org/content/10.1101/2025.11.21.689808": {
     "page_id": "3e35f58e-a8c2-8104-8e6d-db50b1f5a31c",
     "note": "DD"
+  },
+  "2026-09-22|https://arxiv.org/abs/2609.24842": {
+    "page_id": "3e35f58e-a8c2-8161-a948-e0ce6c355ccc",
+    "note": "DD"
+  },
+  "2026-09-23|https://arxiv.org/abs/2603.29529": {
+    "page_id": "3e45f58e-a8c2-815a-9782-d40eab19fe46",
+    "note": "Dd"
   }
 }
