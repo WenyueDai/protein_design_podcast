@@ -1,0 +1,235 @@
+{
+  "timestamps": [
+    0.0,
+    255.24,
+    499.34,
+    549.25,
+    798.51,
+    820.08
+  ],
+  "items": [
+    {
+      "title": "ProteinJEPA: Latent prediction improves protein language model pretraining",
+      "url": "https://arxiv.org/abs/2605.07554",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2605.07554v2 Announce Type: replace-cross \nAbstract: Protein language models are trained primarily with masked language modeling (MLM), which predicts masked amino-acid identities. Joint-embedding predictive architectures (JEPA) instead predict latent representations, but have not been applied to proteins.\n  ProteinJEPA supplements MLM with a cosine...",
+      "segment": 3,
+      "timestamp": 549.25,
+      "highlighted": true,
+      "relevance": 14.2,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "PLM-ArgMe: Protein language model for arginine methylation prediction for different species.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.154391",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "Protein methylation is a crucial post-translational modification (PTM) responsible for many diseases and accurate prediction of the methylation site is important for understanding the molecular mechanism of the disease. The models have been successful in capturing contextual dependencies in protein sequences, with deep learning models, specifically those ...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "NRB-FusePS: A Protein Language Model-Based Multimodal Framework for Predicting Ligand-Binding Residues in Nuclear Receptors.",
+      "url": "https://doi.org/10.1007/s10930-026-10354-4",
+      "source": "PubMed — The protein journal",
+      "one_liner": "Nuclear receptors (NRs) are ligand-dependent transcriptional regulators whose ligand-binding residues are crucial for receptor activation and drug-target analysis. In this study, we developed NRB-FusePS, a protein language model-based multimodal framework for predicting BioLiP-defined ligand-binding residues in NRs. Nuclear receptor ligand-binding informa...",
+      "segment": 3,
+      "timestamp": 549.25,
+      "highlighted": true,
+      "relevance": 15.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Selection for Folding Stability Predicts Observed Covariation Between Protein Positions in the PDB.",
+      "url": "https://doi.org/10.1007/s00239-026-10348-x",
+      "source": "PubMed — Journal of molecular evolution",
+      "one_liner": "Statistical couplings between protein sites have been enormously useful for protein structure prediction, but there is still debate on the selective forces that generate them. Here we explicitly predict the couplings considering selection for protein folding stability, both against unfolding and misfolding, which we model through the Stability constrained...",
+      "segment": 3,
+      "timestamp": 549.25,
+      "highlighted": true,
+      "relevance": 10.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Quantum-Classical Analysis of Variability in Peptide Energies and Conformations.",
+      "url": "https://doi.org/10.1007/s10930-026-10352-6",
+      "source": "PubMed — The protein journal",
+      "one_liner": "The exploration of protein structure and folding mechanisms is a cornerstone of molecular biology, with significant implications for understanding biological functions and advancing drug discovery. Traditional computational methods, such as AlphaFold, RoseTTAFold and I-TASSER, have been instrumental in this field. However, these methods are often constrai...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 9.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Generative AI designs functional thiolation domains for reprogramming non-ribosomal peptide synthetases.",
+      "url": "https://doi.org/10.1038/s41467-026-77963-6",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Large language models and generative protein design promise to accelerate biotechnology, but it remains unclear whether they can engineer dynamic megasynth(et)ases whose activity depends on transient, context-specific domain interfaces. Non-ribosomal peptide synthetases (NRPSs) exemplify this challenge and produce many clinically used therapeutics. Here w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 11.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Novel human neutralizing monoclonal antibodies against Pregnancy-Associated Plasma Protein A for the treatment of Autosomal Dominant Polycystic Kidney Disease.",
+      "url": "https://doi.org/10.1016/j.kint.2026.08.020",
+      "source": "PubMed — Kidney international",
+      "one_liner": "INTRODUCTION: Pregnancy-associated plasma protein A (PAPPA) cleaves insulin-like growth factor (IGF) binding proteins (IGFBP) 2, 4, 5, releasing IGF1. PAPPA is overexpressed in polycystic kidneys and its genetic elimination or suppression by mouse Ansh Labs PAPPA-mAb, which blocks IGFBP4 but not IGFBP5 cleavage, ameliorates polycystic kidney disease (PKD)...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Sculpting semisynthetic conducting protein pores by de novo design.",
+      "url": "https://doi.org/10.1038/s41594-026-01880-x",
+      "source": "PubMed — Nature structural & molecular biology",
+      "one_liner": "The researchers created semisynthetic conducting protein pores by integrating a de novo‑designed component into the bacterial CsgG nanopore scaffold, yielding pores with programmable architecture and distinct ion‑conduction properties, including rectifying behavior.\n\nMETHOD / APPROACH:\nThey started from the CsgG nanopore scaffold (a known bacterial pore) and added an integral de novo‑designed transmembrane element (likely a β‑barrel or α‑helical barrel) to form hybrid, semisynthetic pores.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Colloidal protein stability and surface coverage by trehalose: bridging molecular dynamics and experimental work.",
+      "url": "https://doi.org/10.1016/j.ejpb.2026.115242",
+      "source": "PubMed — European journal of pharmaceutics and biopharmaceutics : official journal of Arbeitsgemeinschaft fur Pharmazeutische Verfahrenstechnik e.V",
+      "one_liner": "The aim of this study was to assess to what extent a simulated trehalose monolayer can predict the minimum molar trehalose to protein ratios required to preserve the colloidal stability of lyophilized lactate dehydrogenase, catalase, and β-galactosidase. We employed an iterative molecular dynamics (MD) approach to quantify the number of trehalose molecule...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design of a high-affinity IL-21 decoy receptor as a novel therapeutic strategy for autoimmune disorders.",
+      "url": "https://doi.org/10.1080/07391102.2026.2733932",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "Elevated levels of the pro-inflammatory cytokine Interleukin 21 (IL-21) contribute to the progression of autoimmune and inflammatory diseases by binding to its receptor (IL-21R) and activating detrimental signaling pathways in immune cells. Consequently, we developed a recombinant decoy receptor protein designed to competitively inhibit IL-21 binding to i...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational Design Of A Peptide Candidate Targeting NOTCH1 And PI3K/AKT Signaling Pathways In Cancer: A Coarse-Grained Molecular Dynamics Simulation Study.",
+      "url": "https://doi.org/10.1007/s12013-026-02160-7",
+      "source": "PubMed — Cell biochemistry and biophysics",
+      "one_liner": "The PI3K/AKT and NOTCH1 signaling pathways are key regulators of tumor progression, proliferation, survival, and metastasis in numerous cancers, making them attractive targets for peptide-based anticancer therapies. Dermaseptin-B2 is a well-characterized anticancer peptide known to modulate the PI3K/AKT signaling pathway; however, its therapeutic applicat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The effect of carrageenan oligosaccharides on the muscle quality and myofibrillar protein stability of sea bass (Lateolabrax japonicus) during freezing storage under different freezing methods.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154600",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Frozen storage is widely used for the preservation of seafood quality, but protein denaturation and oxidative damage often lead to a decline in fish meat quality. This study investigated the effects of carrageenan oligosaccharides combined with different freezing treatments on the muscle quality and myofibrillar protein stability of sea bass (Lateolabrax ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Near pan-alphavirus neutralization by an antibody-nanobody bispecific.",
+      "url": "https://doi.org/10.1080/19420862.2026.2731281",
+      "source": "PubMed — mAbs",
+      "one_liner": "Alphaviruses represent a global concern, with some such as chikungunya virus currently infecting thousands in China and others such as Venezuelan equine encephalitis virus inducing neurological symptoms in 4-14% of infected individuals. A single antibody capable of protecting from all human-infecting alphaviruses, by achieving sufficient potency against e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Support-Compiled Feature Folding: More Evidence at Lower Memory Across Tabular Foundation Models",
+      "url": "https://arxiv.org/abs/2609.28208",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.28208v1 Announce Type: new \nAbstract: Tabular foundation models face a feature-side scaling dilemma: full-width pairwise mixing grows quadratically with the number of columns, whereas feature selection saves memory by discarding evidence. We introduce Support-Compiled Feature Folding (SCFF), a training-free inference framework that resolves thi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Biology Might Not Be Quantum, but Its Math Is Quantumlike",
+      "url": "https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/",
+      "source": "Quanta Magazine",
+      "one_liner": "Scientists have a history of trying — and failing — to link biology and quantum mechanics. The real connection between them may be in the math. The post Biology Might Not Be Quantum, but Its Math Is Quantumlike firs...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
