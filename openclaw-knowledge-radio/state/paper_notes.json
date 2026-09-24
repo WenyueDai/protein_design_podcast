@@ -3009,6 +3009,11 @@
       "note": "DD",
       "title": "Selection for Folding Stability Predicts Observed Covariation Between Protein Positions in the PDB.",
       "source": "PubMed — Journal of molecular evolution"
+    },
+    "https://doi.org/10.1007/s10930-026-10352-6": {
+      "note": "DD",
+      "title": "A Quantum-Classical Analysis of Variability in Peptide Energies and Conformations.",
+      "source": "PubMed — The protein journal"
     }
   }
 }
