@@ -3003,5 +3003,12 @@
       "title": "MT-ProtBERT: Multi-task Learning ProtBERT for Intrinsically Disordered Proteins Classification with Scarce Data",
       "source": "arXiv cs.LG (AI/ML)"
     }
+  },
+  "2026-09-24": {
+    "https://doi.org/10.1007/s00239-026-10348-x": {
+      "note": "DD",
+      "title": "Selection for Folding Stability Predicts Observed Covariation Between Protein Positions in the PDB.",
+      "source": "PubMed — Journal of molecular evolution"
+    }
   }
 }
