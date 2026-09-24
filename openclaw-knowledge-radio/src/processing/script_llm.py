@@ -46,6 +46,35 @@ def _record_model(m: str) -> None:
 DISCOVERY_FALLBACK_LIMIT = 5
 
 
+# Reasoning models (nemotron, gpt-oss, etc.) sometimes narrate their own planning
+# instead of answering — echoing our prompt scaffolding back verbatim ("ALREADY
+# COVERED", "writing SECTION 2/6", "Must not repeat any specific number...").
+# `reasoning: {exclude: true}` (below) stops most of this, but isn't honored by
+# every model/provider combo on OpenRouter, so this is a second line of defense:
+# phrases that could never appear in genuine spoken narration but reliably show
+# up when a model is narrating its plan instead of writing the actual answer.
+_LEAK_MARKER_RE = re.compile(
+    r"already covered\b"
+    r"|writing section\s*\d"
+    r"|section\s*\d+\s*/\s*\d+\b"
+    r"|must not repeat\b"
+    r"|we need to write section\b"
+    r"|thus we need to\b",
+    re.IGNORECASE,
+)
+
+
+def _looks_like_leaked_reasoning(text: str) -> bool:
+    """True if `text` looks like leaked planning monologue rather than a final answer."""
+    return bool(_LEAK_MARKER_RE.search((text or "")[:400]))
+
+
+class _ReasoningLeakError(Exception):
+    """A model returned leaked planning text. Structural, not transient — retrying the
+    same model won't help, so this skips straight to the next fallback model instead of
+    burning the retry budget."""
+
+
 # =========================
 # Client (OpenRouter / OpenAI-compatible)
 # =========================
@@ -111,13 +140,32 @@ def _chat_complete_one(
                 ],
                 temperature=temperature,
                 max_tokens=max_tokens,
+                # Several models in the fallback chain (nemotron, gpt-oss) are reasoning
+                # models that think before answering. Without this, OpenRouter can return
+                # the raw chain-of-thought as message.content, and the small per-section
+                # max_tokens budget gets burned entirely on that thinking, truncating
+                # before any actual script text is written. `exclude` keeps the model
+                # reasoning internally but drops it from the returned content.
+                extra_body={"reasoning": {"exclude": True}},
             )
             if not resp.choices:
                 raise ValueError(f"Model {model!r} returned empty choices (null response)")
-            return (resp.choices[0].message.content or "").strip()
+            content = (resp.choices[0].message.content or "").strip()
+            if not content:
+                raise ValueError(f"Model {model!r} returned empty content")
+            if _looks_like_leaked_reasoning(content):
+                raise _ReasoningLeakError(
+                    f"Model {model!r} leaked planning/reasoning text instead of the final answer: "
+                    f"{content[:120]!r}..."
+                )
+            return content
         except _NotFoundError:
             # 404 — model removed from OpenRouter, no point retrying
             print(f"[llm] 404 model not found: {model!r} — skipping", flush=True)
+            raise
+        except _ReasoningLeakError as e:
+            # Structural failure mode for this model on this prompt — no point retrying it.
+            print(f"[llm] {e} — skipping to next model", flush=True)
             raise
         except _InternalServerError:
             # 503 "no healthy upstream" — provider down, no point retrying
@@ -560,6 +608,9 @@ HARD RULES:
 - If information is genuinely missing, say it naturally: "The paper doesn't specify how they handled..."
 - TTS-friendly — will be read aloud by a text-to-speech system.
 - Go straight into the ideas. No catchphrases, no "Welcome back", no "In this section we will cover".
+- Your entire response IS the podcast narration — not a plan for it. Never think out loud about
+  the task, restate these instructions, mention "ALREADY COVERED", word counts, or which section
+  number you're writing. The first word you output must be the first word the host says.
 
 LENGTH:
 - Write 450–600 words per section — dense, no filler, no redundancy with other sections.

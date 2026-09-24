@@ -14,6 +14,8 @@ except ImportError:
     _NotFoundError = Exception  # type: ignore
     _InternalServerError = Exception  # type: ignore
 
+from src.processing.script_llm import _looks_like_leaked_reasoning, _ReasoningLeakError
+
 # Cap on how many auto-discovered (unvetted) free models to try once the
 # static config.yaml fallback chain is exhausted, so a bad run can't loop
 # through dozens of models and blow past the job timeout.
@@ -96,13 +98,29 @@ def _try_one_model(client: OpenAI, model: str, url: str, text: str, max_attempts
                 ],
                 temperature=0.1,
                 max_tokens=900,
+                # See script_llm.py's _chat_complete_one: reasoning models in the fallback
+                # chain (nemotron, gpt-oss) will otherwise burn the whole max_tokens budget
+                # on chain-of-thought and return that instead of the actual analysis.
+                extra_body={"reasoning": {"exclude": True}},
             )
             if not response.choices:
                 raise ValueError(f"Model {model!r} returned empty choices (null response)")
-            return (response.choices[0].message.content or "").strip()
+            content = (response.choices[0].message.content or "").strip()
+            if not content:
+                raise ValueError(f"Model {model!r} returned empty content")
+            if _looks_like_leaked_reasoning(content):
+                raise _ReasoningLeakError(
+                    f"Model {model!r} leaked planning/reasoning text instead of the final answer: "
+                    f"{content[:120]!r}..."
+                )
+            return content
         except _NotFoundError:
             # 404 — model removed from OpenRouter, no point retrying
             print(f"[analysis] 404 model not found: {model!r} — skipping", flush=True)
+            raise
+        except _ReasoningLeakError as e:
+            # Structural failure mode for this model on this prompt — no point retrying it.
+            print(f"[analysis] {e} — skipping to next model", flush=True)
             raise
         except _InternalServerError:
             # 503 "no healthy upstream" — provider down, no point retrying

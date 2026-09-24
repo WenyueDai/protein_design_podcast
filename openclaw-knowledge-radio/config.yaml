@@ -759,16 +759,18 @@ llm:
   # third-party aggregators below). Fallbacks deliberately span distinct
   # upstream providers (OpenInference, Google AI Studio/Darkbloom, Venice)
   # so one provider's rate limit/outage doesn't take out the whole chain.
-  # google/gemini-2.0-flash-exp:free and google/gemma-3-27b-it:free were
-  # removed from OpenRouter's free tier (404) — do not re-add them.
+  # google/gemini-2.0-flash-exp:free, google/gemma-3-27b-it:free,
+  # openai/gpt-oss-120b:free and meta-llama/llama-3.3-70b-instruct:free were
+  # removed from OpenRouter's free tier (404) — do not re-add them. Checked live
+  # via src.processing.model_discovery.get_live_free_models() on 2026-09-22.
   model: "nvidia/nemotron-3-super-120b-a12b:free"
   model_fallbacks:
-    - "openai/gpt-oss-120b:free"
+    - "google/gemma-4-31b-it:free"
     - "google/gemma-4-26b-a4b-it:free"
-    - "meta-llama/llama-3.3-70b-instruct:free"
+    - "z-ai/glm-5.2:free"
   analysis_model: "nvidia/nemotron-3-super-120b-a12b:free"
   analysis_model_fallbacks:
-    - "openai/gpt-oss-120b:free"
+    - "google/gemma-4-31b-it:free"
     - "google/gemma-4-26b-a4b-it:free"
   api_key_env: "OPENROUTER_API_KEY"
   temperature: 0.25
