@@ -913,6 +913,7 @@ audio {{ width:100%; margin:0; }}
               <a class="nav-link" href="https://www.notion.so/Openclaw_weekly_summary-3235f58ea8c280e4bbcbe4edac796ca6" target="_blank">Weekly Summary</a>
               <a class="nav-link" href="https://clear-squid-8e3.notion.site/Openclaw_monthly_summary-3235f58ea8c28044a8e9f479ef65993d" target="_blank">Monthly Summary</a>
               <a class="nav-link" href="https://clear-squid-8e3.notion.site/Speculative-bio-x-protein-design-3965f58ea8c280219e06e816780f885f" target="_blank">🧬 Speculative Ideas</a>
+              <a class="nav-link" href="https://clear-squid-8e3.notion.site/Podcast-3155f58ea8c280019d0cda2066df9ae8?pvs=73" target="_blank">Podcast Notes</a>
             </nav>
           </div>
         </div>
