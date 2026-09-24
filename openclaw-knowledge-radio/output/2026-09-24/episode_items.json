@@ -1,11 +1,11 @@
 {
   "timestamps": [
     0.0,
-    255.24,
-    499.34,
-    549.25,
-    798.51,
-    820.08
+    171.55,
+    343.41,
+    449.12,
+    612.06,
+    757.83
   ],
   "items": [
     {
@@ -13,8 +13,8 @@
       "url": "https://arxiv.org/abs/2605.07554",
       "source": "arXiv q-bio.BM",
       "one_liner": "arXiv:2605.07554v2 Announce Type: replace-cross \nAbstract: Protein language models are trained primarily with masked language modeling (MLM), which predicts masked amino-acid identities. Joint-embedding predictive architectures (JEPA) instead predict latent representations, but have not been applied to proteins.\n  ProteinJEPA supplements MLM with a cosine...",
-      "segment": 3,
-      "timestamp": 549.25,
+      "segment": 0,
+      "timestamp": 0.0,
       "highlighted": true,
       "relevance": 14.2,
       "tags": [
@@ -43,8 +43,8 @@
       "url": "https://doi.org/10.1007/s10930-026-10354-4",
       "source": "PubMed — The protein journal",
       "one_liner": "Nuclear receptors (NRs) are ligand-dependent transcriptional regulators whose ligand-binding residues are crucial for receptor activation and drug-target analysis. In this study, we developed NRB-FusePS, a protein language model-based multimodal framework for predicting BioLiP-defined ligand-binding residues in NRs. Nuclear receptor ligand-binding informa...",
-      "segment": 3,
-      "timestamp": 549.25,
+      "segment": 0,
+      "timestamp": 0.0,
       "highlighted": true,
       "relevance": 15.0,
       "tags": [
@@ -58,8 +58,8 @@
       "url": "https://doi.org/10.1007/s00239-026-10348-x",
       "source": "PubMed — Journal of molecular evolution",
       "one_liner": "Statistical couplings between protein sites have been enormously useful for protein structure prediction, but there is still debate on the selective forces that generate them. Here we explicitly predict the couplings considering selection for protein folding stability, both against unfolding and misfolding, which we model through the Stability constrained...",
-      "segment": 3,
-      "timestamp": 549.25,
+      "segment": 0,
+      "timestamp": 0.0,
       "highlighted": true,
       "relevance": 10.8,
       "tags": [
@@ -73,8 +73,8 @@
       "url": "https://doi.org/10.1007/s10930-026-10352-6",
       "source": "PubMed — The protein journal",
       "one_liner": "The exploration of protein structure and folding mechanisms is a cornerstone of molecular biology, with significant implications for understanding biological functions and advancing drug discovery. Traditional computational methods, such as AlphaFold, RoseTTAFold and I-TASSER, have been instrumental in this field. However, these methods are often constrai...",
-      "segment": 0,
-      "timestamp": 0.0,
+      "segment": 1,
+      "timestamp": 171.55,
       "highlighted": true,
       "relevance": 9.4,
       "tags": [

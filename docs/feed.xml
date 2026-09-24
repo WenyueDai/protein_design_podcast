@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 07:31:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 08:31:02 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -22,10 +22,10 @@
       <title>Daily Podcast 2026-09-24</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-24/podcast_2026-09-24.mp3</guid>
       <pubDate>Thu, 24 Sep 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-24/podcast_2026-09-24.mp3" length="7680333" type="audio/mpeg" />
-      <description>We need to write section 1/6: &quot;What actually mattered today&quot;. | We have five papers. | Thus we should focus mainly on Paper 1, which we have details.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-24/podcast_2026-09-24.mp3" length="6385581" type="audio/mpeg" />
+      <description>The big idea that hit me today is that we might be leaving performance on the table by treating protein language models as pure sequence-prediction machines. | The second shift is more theoretical but equally provocative. | On the applied side, NRB-FusePS points to where multimodal protein modeling is heading for functional site prediction.</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>We need to write section 1/6: &quot;What actually mattered today&quot;. | We have five papers. | Thus we should focus mainly on Paper 1, which we have details.</itunes:summary>
+      <itunes:summary>The big idea that hit me today is that we might be leaving performance on the table by treating protein language models as pure sequence-prediction machines. | The second shift is more theoretical but equally provocative. | On the applied side, NRB-FusePS points to where multimodal protein modeling is heading for functional site prediction.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
