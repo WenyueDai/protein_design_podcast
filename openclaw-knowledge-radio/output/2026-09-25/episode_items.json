@@ -1,0 +1,161 @@
+{
+  "timestamps": [
+    0.0,
+    47.44,
+    51.62,
+    109.09,
+    174.34,
+    264.22
+  ],
+  "items": [
+    {
+      "title": "PFArena: Benchmarking Language Models for Protein Modification",
+      "url": "https://arxiv.org/abs/2609.28921",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2609.28921v1 Announce Type: cross \nAbstract: Protein modification requires navigating an immense sequence space, yet wet-lab validation remains low-throughput and costly. Although computational paradigms including protein language models (PLMs), large language models (LLMs), and LLM-based agents have shown promise in protein modification, their rela...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction identification.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154380",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Protein-protein interactions (PPIs) are molecular lego which define the physical states of cells. Accurately identifying PPIs remains challenging due to the interplay of several factors ranging from electrostatic to molecular geometry, topology, and physics. Existing computational approaches capture only fragments of this orchestra, limiting their general...",
+      "segment": 5,
+      "timestamp": 264.22,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Simplifying in silico protein evolution with minimal screening by unZipro.",
+      "url": "https://doi.org/10.1016/j.molcel.2026.08.028",
+      "source": "PubMed — Molecular cell",
+      "one_liner": "Despite the significant progress made in recent years, current AI-driven protein engineering methods often suffer from iterative experimental validation, limited success rates, modest improvements, and/or high computational costs. Moreover, their utility for evolving plant proteins remains unexplored. Here we present unZipro, an efficient, scalable, and g...",
+      "segment": 5,
+      "timestamp": 264.22,
+      "highlighted": true,
+      "relevance": 7.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Antibody-drug conjugate engineering: from design to efficacy and safety.",
+      "url": "https://doi.org/10.1038/s41392-026-03057-w",
+      "source": "PubMed — Signal transduction and targeted therapy",
+      "one_liner": "Antibody-drug conjugates (ADCs) represent a rapidly expanding class of targeted cancer therapeutics that combine the high selectivity of monoclonal antibodies with the potent cytotoxic activity of small-molecule drugs. Their clinical success relies on the simultaneous optimization of multiple interdependent parameters, including antigen selection, antibod...",
+      "segment": 5,
+      "timestamp": 264.22,
+      "highlighted": true,
+      "relevance": 5.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PAX6ΔPD modulates the balance between proliferation and differentiation programs in corneal epithelial cells through protein-protein interactions.",
+      "url": "https://doi.org/10.1016/j.exer.2026.111244",
+      "source": "PubMed — Experimental eye research",
+      "one_liner": "PAX6 is a key regulator of corneal epithelial differentiation, expressed as multiple variants that result either from alternative splicing or by the use of an alternative internal promoter. These variants include the canonical PAX6, PAX6(5a), and the paired-less PAX6ΔPD variant. This study evaluated the functional roles of these variants in rabbit RCE1(5T...",
+      "segment": 5,
+      "timestamp": 264.22,
+      "highlighted": true,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProteoEM: probabilistic protein abundance estimation from iterative affinity traces",
+      "url": "https://arxiv.org/abs/2609.29155",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2609.29155v1 Announce Type: cross \nAbstract: Single-molecule affinity mapping enables molecular-level measurement of proteins and proteoforms, but imperfect and nonspecific probe binding makes individual affinity traces compatible with multiple molecular identities. Accurate abundance estimation therefore requires apportionment of ambiguous traces b...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Characterizing two nanobodies for SMAD4.",
+      "url": "https://doi.org/10.1002/1873-3468.70466",
+      "source": "PubMed — FEBS letters",
+      "one_liner": "In metazoans, TGF-β signaling regulates essential cellular processes via the SMAD proteins. Many biophysical and cellular assays of SMAD-driven signaling require molecular tools that can recognize them in their native folded state. In this context, we report two nanobodies (Nbs), NbS4A1 and NbS4A7, which target the 3D structure of the human SMAD4-MH2 doma...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Regulation of protein kinase pathways in primary neuron model of anti-NMDA receptor encephalitis.",
+      "url": "https://doi.org/10.1523/JNEUROSCI.0708-25.2026",
+      "source": "PubMed — The Journal of neuroscience : the official journal of the Society for Neuroscience",
+      "one_liner": "The most common form of autoimmune encephalitis is associated with antibodies that target N-methyl-D-aspartic acid receptors (NMDARs). NMDARs play a pivotal role in neurotransmission and synaptic plasticity. Mounting evidence has shown that antibody targeting of the NMDAR GluN1 subunit, as in anti-NMDAR encephalitis, leads to NMDAR cross-linking and recep...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "[Advances and applications of microbial genome evolution engineering].",
+      "url": "https://doi.org/10.13345/j.cjb.260147",
+      "source": "PubMed — Sheng wu gong cheng xue bao = Chinese journal of biotechnology",
+      "one_liner": "The construction of microbial cell factories frequently encounters bottlenecks due to the complexity of metabolic pathways, insufficient enzyme functionality, and poor environmental tolerance. Directed evolution, as a pivotal technology for overcoming these engineering constraints, can significantly enhance the titer, productivity, and overall robustness ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CaliPPer: quantifying, predicting and improving AI model performance for binding prediction",
+      "url": "https://arxiv.org/abs/2606.07258",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.07258v1 Announce Type: cross \nAbstract: Binding prediction models accelerate therapeutic antibody and TCR discovery, but their performance on new datasets is unpredictable, often leading to low discovery rates. Density-ratio methods (PAPE, M-CBPE) provide label-free performance estimation for binary classification, but their assumptions and agg...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
