@@ -738,18 +738,20 @@ publish:
 llm:
   enabled: true
   provider: "openrouter"
-  # Primary on Nvidia's own free endpoint (less congested than the
-  # third-party aggregators below). Fallbacks deliberately span distinct
-  # upstream providers (OpenInference, Google AI Studio/Darkbloom, Venice)
-  # so one provider's rate limit/outage doesn't take out the whole chain.
-  # google/gemini-2.0-flash-exp:free and google/gemma-3-27b-it:free were
-  # removed from OpenRouter's free tier (404) — do not re-add them.
-  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  # Fallbacks span distinct upstream providers so one provider's rate limit
+  # or outage doesn't take out the whole chain.
+  # nvidia/nemotron-3-super-120b-a12b:free removed as primary — it
+  # consistently leaks chain-of-thought planning text instead of returning
+  # the final answer, causing every section to fail and fall through to
+  # the next model. google/gemini-2.0-flash-exp:free and
+  # google/gemma-3-27b-it:free were removed from OpenRouter's free tier
+  # (404) — do not re-add them.
+  model: "meta-llama/llama-3.3-70b-instruct:free"
   model_fallbacks:
     - "openai/gpt-oss-120b:free"
     - "google/gemma-4-26b-a4b-it:free"
-    - "meta-llama/llama-3.3-70b-instruct:free"
-  analysis_model: "nvidia/nemotron-3-super-120b-a12b:free"
+    - "qwen/qwen3-30b-a3b:free"
+  analysis_model: "meta-llama/llama-3.3-70b-instruct:free"
   analysis_model_fallbacks:
     - "openai/gpt-oss-120b:free"
     - "google/gemma-4-26b-a4b-it:free"
