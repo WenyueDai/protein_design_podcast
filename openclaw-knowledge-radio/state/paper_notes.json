@@ -3021,6 +3021,11 @@
       "note": "DD",
       "title": "ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction ide",
       "source": "PubMed — International journal of biological macromolecules"
+    },
+    "https://doi.org/10.1016/j.molcel.2026.08.028": {
+      "note": "DD",
+      "title": "Simplifying in silico protein evolution with minimal screening by unZipro.",
+      "source": "PubMed — Molecular cell"
     }
   }
 }
