@@ -3015,5 +3015,12 @@
       "title": "A Quantum-Classical Analysis of Variability in Peptide Energies and Conformations.",
       "source": "PubMed — The protein journal"
     }
+  },
+  "2026-09-25": {
+    "https://doi.org/10.1016/j.ijbiomac.2026.154380": {
+      "note": "DD",
+      "title": "ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction ide",
+      "source": "PubMed — International journal of biological macromolecules"
+    }
   }
 }
