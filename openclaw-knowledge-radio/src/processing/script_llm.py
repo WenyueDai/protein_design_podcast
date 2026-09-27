@@ -43,7 +43,31 @@ def _record_model(m: str) -> None:
 # Cap on how many auto-discovered (unvetted) free models to try once the
 # static config.yaml fallback chain is exhausted, so a bad run can't loop
 # through dozens of models and blow past the job timeout.
-DISCOVERY_FALLBACK_LIMIT = 5
+DISCOVERY_FALLBACK_LIMIT = 10
+
+# Substrings in a model id that disqualify it from auto-discovery.
+# These are either wrong-purpose models (code, safety, finance classifiers),
+# models known to leak chain-of-thought, or models too small to write a
+# multi-hundred-word synthesis section.
+_DISCOVERY_EXCLUDE = (
+    "code",            # e.g. cohere/north-mini-code — wrong task
+    "content-safety",  # e.g. nvidia/nemotron-3.5-content-safety — classifier
+    "safety",          # any safety classifier
+    "reasoning",       # CoT models that leak planning text
+    "note",            # e.g. dots-studio/dots-3-note-preview — note-taking
+    "preview",         # unvetted preview models
+    "finance",         # domain-specific
+    "fin:",            # finance suffix (e.g. ling-3.0-flash-fin)
+    "sante",           # health-specific (French: santé) — ling-3.0-flash-sante
+    "2.6b",            # < 7B — too small to write synthesis prose
+    "1b:",             # < 7B
+    "0b:",             # < 7B
+)
+
+
+def _is_good_discovery_candidate(model_id: str) -> bool:
+    lower = model_id.lower()
+    return not any(pat in lower for pat in _DISCOVERY_EXCLUDE)
 
 
 # Reasoning models (nemotron, gpt-oss, etc.) sometimes narrate their own planning
@@ -237,7 +261,7 @@ def _chat_complete(
 
     from src.processing.model_discovery import get_live_free_models
     tried = set(all_models)
-    live = [m for m in get_live_free_models() if m not in tried]
+    live = [m for m in get_live_free_models() if m not in tried and _is_good_discovery_candidate(m)]
     discovered, skipped = live[:DISCOVERY_FALLBACK_LIMIT], live[DISCOVERY_FALLBACK_LIMIT:]
     if discovered:
         print(f"[llm] Static fallback chain exhausted — trying {len(discovered)} auto-discovered free model(s)", flush=True)
