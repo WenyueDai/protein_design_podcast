@@ -3027,5 +3027,12 @@
       "title": "Simplifying in silico protein evolution with minimal screening by unZipro.",
       "source": "PubMed — Molecular cell"
     }
+  },
+  "2026-09-28": {
+    "https://www.biorxiv.org/content/10.1101/2024.02.02.578551": {
+      "note": "DD",
+      "title": "Cerebra: a computationally efficient framework for accurate protein structure prediction",
+      "source": "bioRxiv — bioinformatics"
+    }
   }
 }
