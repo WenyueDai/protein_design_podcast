@@ -3034,5 +3034,12 @@
       "title": "Cerebra: a computationally efficient framework for accurate protein structure prediction",
       "source": "bioRxiv — bioinformatics"
     }
+  },
+  "2026-09-29": {
+    "https://www.biorxiv.org/content/10.64898/2026.09.25.751968": {
+      "note": "DD",
+      "title": "Accessing Enzyme Kinetic Data and Prediction Methods at Scale",
+      "source": "bioRxiv — systems biology"
+    }
   }
 }
