@@ -3040,6 +3040,11 @@
       "note": "DD",
       "title": "Accessing Enzyme Kinetic Data and Prediction Methods at Scale",
       "source": "bioRxiv — systems biology"
+    },
+    "https://doi.org/10.1016/j.bbapap.2026.141182": {
+      "note": "DD",
+      "title": "Affinity purification: From interactome analysis to targeted protein enrichment.",
+      "source": "PubMed — Biochimica et biophysica acta. Proteins and proteomics"
     }
   }
 }
