@@ -1,0 +1,159 @@
+{
+  "timestamps": [
+    0.0,
+    214.15,
+    455.03,
+    681.9,
+    834.13,
+    1070.09
+  ],
+  "items": [
+    {
+      "title": "Genome-wide-scale prediction of compound-protein interactions using foundation and language models based on three-dimensional structures of compounds and proteins.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag710",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: The identification of compound-protein interactions (CPIs) is crucial in the early stages of drug discovery. However, machine-learning (ML)-based methods based on one- and two-dimensional representations cannot capture important geometric information on the binding sites of CPIs, which limits their predictive accuracy. RESULTS: We propose DEST...",
+      "segment": 4,
+      "timestamp": 834.13,
+      "highlighted": true,
+      "relevance": 5.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Accessing Enzyme Kinetic Data and Prediction Methods at Scale",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.751968",
+      "source": "bioRxiv — systems biology",
+      "one_liner": "Enzyme kinetic parameters inform metabolic models, yet experimental measurements are sparse. A growing body of work predicts them from protein and substrate features, but software fragmentation hinders adoption, so downstream tools lock into the most accessible method. We present OpenKinetics Predictor (at predictor.openkinetics.org), an open-source platf...",
+      "segment": 1,
+      "timestamp": 214.15,
+      "highlighted": true,
+      "relevance": 5.2,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhanced thermostability and structural integrity of dextransucrase via oxidized dextran-mediated modification.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154666",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Dextransucrase DsrD5 synthesizes low-molecular-weight dextran (~5 kDa) but has limited industrial utility because of poor thermal and pH stability. Here, DsrD5 was modified with oxidized dextran (ODX) to improve enzyme robustness while retaining the principal low-molecular-weight product profile. Ammonium sulfate enrichment was assessed by specific activi...",
+      "segment": 4,
+      "timestamp": 834.13,
+      "highlighted": true,
+      "relevance": 5.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GyroNovo: Error-Guided Fragment Imputation with Mass-Aware Attention for \\textit{De Novo} Peptide Sequencing",
+      "url": "https://arxiv.org/abs/2609.30542",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.30542v1 Announce Type: new \nAbstract: De novo peptide sequencing from tandem mass spectra is essential for identifying peptides without relying on reference databases. Despite advances in deep learning, accurate sequencing remains challenging because experimental spectra are often sparse, noisy, and incomplete, leaving informative b- and y-ion ...",
+      "segment": 2,
+      "timestamp": 455.03,
+      "highlighted": true,
+      "relevance": 6.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Mathematicians Harness Randomness To Crack a 55-Year-Old Conjecture",
+      "url": "https://www.quantamagazine.org/mathematicians-harness-randomness-to-crack-a-55-year-old-conjecture-20260928/",
+      "source": "Quanta Magazine",
+      "one_liner": "After a long hiatus, the problem, which was likely inspired by juggling, has finally been resolved by a group of young mathematicians. The post Mathematicians Harness Randomness To Crack a 55-Year-Old Conject...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    },
+    {
+      "title": "Integrated computational and experimental identification of a novel ML-IAP-targeting peptide with antiproliferative activity in leukaemia cells.",
+      "url": "https://doi.org/10.1080/14756366.2026.2724128",
+      "source": "PubMed — Journal of enzyme inhibition and medicinal chemistry",
+      "one_liner": "Melanoma inhibitor of apoptosis protein (ML-IAP) is an IAP family member involved in tumour cell survival and a potential target in ML-IAP-expressing leukaemia. Here, 59 319 tetrapeptides were screened against ML-IAP by molecular docking, and four top-ranked peptides were selected. Microscale thermophoresis confirmed binding of peptides 1-4 to ML-IAP, wit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Affinity purification: From interactome analysis to targeted protein enrichment.",
+      "url": "https://doi.org/10.1016/j.bbapap.2026.141182",
+      "source": "PubMed — Biochimica et biophysica acta. Proteins and proteomics",
+      "one_liner": "Extracellular chaperones engage in extensive protein-protein interactions, complicating their selective enrichment and characterisation in complex biological fluids such as human plasma. Consequently, affinity purification workflows are often employed for their analysis. However, the extensive interaction networks of chaperones make purification condition...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Adjustment and validation of convolutional neural network for indirect immunofluorescence interpretation of antinuclear and anti-neutrophil cytoplasmic antibodies: A multicenter study.",
+      "url": "https://doi.org/10.1016/j.cca.2026.122856",
+      "source": "PubMed — Clinica chimica acta; international journal of clinical chemistry",
+      "one_liner": "OBJECTIVES: Indirect immunofluorescence (IIF) is the gold standard for autoantibody detection in autoimmune diseases but remains limited by subjective interpretation. We aimed to adjust and validate a standardized convolutional neural network (CNN)-based interpretation system for antinuclear antibody (ANA) and anti-neutrophil cytoplasmic antibody (ANCA) I...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting Enzyme Turnover Numbers and Enabling Rational Enzyme Evolution.",
+      "url": "https://doi.org/10.1002/advs.77789",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Differentiable RNA Secondary Structure Extraction for Deep Learning",
+      "url": "https://arxiv.org/abs/2609.30752",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.30752v1 Announce Type: new \nAbstract: Many deep learning approaches to RNA secondary structure prediction have recently been proposed. They typically output a weight matrix $W$ where $W_{ij}$ is an arbitrary weight for base $i$ pairing with base $j$. Converting this matrix to a predicted secondary structure or base-pairing probability matrix ty...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
