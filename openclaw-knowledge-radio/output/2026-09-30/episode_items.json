@@ -1,0 +1,250 @@
+{
+  "timestamps": [
+    0.0,
+    194.76,
+    417.38,
+    623.48,
+    838.09,
+    1075.04
+  ],
+  "items": [
+    {
+      "title": "Leveraging secondary-structure information for accurate nucleic acid structure prediction with OFoldNA",
+      "url": "https://arxiv.org/abs/2609.37414",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2609.37414v1 Announce Type: new \nAbstract: Recent advances in biomolecular structure prediction have enabled accurate modelling of increasingly complex molecular systems. However, nucleic acid structure prediction remains challenging because of conformational flexibility and the limited availability of high-quality 3D structural data. Secondary stru...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 6.2,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "LEMON-ZEST: Evolution-Informed Tokenization for Efficient Protein Language Modeling",
+      "url": "https://arxiv.org/abs/2609.37675",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2609.37675v1 Announce Type: cross \nAbstract: Protein Language Models (PLMs) have made remarkable progress following scaling laws established in natural language processing across sequence- and structure-based tasks, yet the potential of tokenization remains underexploited. Unlike human language, proteins preserve structure despite extensive sequence...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 12.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Mirror-Score: Calibrated, Inference-only Scoring Exposes the Limits of Sequence-compatibility Ranking in D-peptide Design",
+      "url": "https://arxiv.org/abs/2609.36057",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2609.36057v1 Announce Type: cross \nAbstract: D-peptides combine protease resistance with high target specificity, but computational design of D-peptide binders remains immature. Mirror-Peptidizer introduced an in silico mirror-image screening pipeline using target reflection, backbone generation, and ProteinMPNN sequence design, but its raw ProteinM...",
+      "segment": 4,
+      "timestamp": 838.09,
+      "highlighted": true,
+      "relevance": 15.0,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Toward a minimal amino acid alphabet for protein design.",
+      "url": "https://doi.org/10.1111/febs.70751",
+      "source": "PubMed — The FEBS journal",
+      "one_liner": "While proteins are built from 20 canonical amino acids, it is interesting to explore whether proteins can be formed from significantly reduced amino acid alphabets. Our bioinformatics survey of UniProt (more than 250 m sequences) revealed that proteins composed of reduced amino acid alphabets are extremely rare among existing proteins. Next, we used compu...",
+      "segment": 4,
+      "timestamp": 838.09,
+      "highlighted": true,
+      "relevance": 10.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "\"EXPERT\" A Practical and Forward-Looking Guide to Capturing Protein Expression and Purification Metadata to develop Machine Learning Models.",
+      "url": "https://doi.org/10.1016/j.jbc.2026.113610",
+      "source": "PubMed — The Journal of biological chemistry",
+      "one_liner": "As machine learning (ML) becomes increasingly important in protein engineering, synthetic biology, and bioprocess optimisation, the lack of consistent, complete, and standardised experimental reporting remains a major barrier to building effective models. EXPERT (EXpression and Purification Experimental Reporting Template) defines a structured framework f...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 7.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Explainability from Training with Applications to TCR-Epitope Prediction",
+      "url": "https://arxiv.org/abs/2609.36354",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2609.36354v1 Announce Type: cross \nAbstract: Deep learning models have achieved strong performance in artificial intelligence for science, yet their black-box nature limits our understanding of how they learn scientific tasks. Existing methods for interpretability provide limited insight into how models organize evidence and evolve during learning. ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Where Should Physics Enter a Molecular Crystal Generator?",
+      "url": "https://arxiv.org/abs/2609.36398",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2609.36398v1 Announce Type: new \nAbstract: Generative models make molecular crystal structure prediction fast, but their samples still exhibit geometric and packing violations. Physics can be introduced during training, post-training, or inference, yet these choices are rarely compared with the generator and physical signal held fixed. We introduce ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.8,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Unnatural amino acids program thermoresponsive protein-polymer diblocks into shape-shifting nanostructures.",
+      "url": "https://doi.org/10.1016/j.tibtech.2026.09.008",
+      "source": "PubMed — Trends in biotechnology",
+      "one_liner": "Control over the morphology and function of self-assembling polymers remains a central challenge in engineering adaptive biomaterials and synthetic biological systems. Here, we establish that recombinant elastin-like polypeptide-resilin-like polypeptide diblocks can be programmed through incorporation of unnatural amino acids (uAAs) to undergo multistep, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Post-translational acylation of proteins in colorectal cancer.",
+      "url": "https://doi.org/10.1016/j.ctarc.2026.101457",
+      "source": "PubMed — Cancer treatment and research communications",
+      "one_liner": "Accumulating preclinical evidence indicates that protein acylation, a functionally diverse class of post-translational modifications, is implicated in the regulation of protein stability, enzymatic activity, subcellular localization, molecular interactions, and gene transcription. In colorectal cancer (CRC), this modification family has been linked to pro...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Reconstructing hidden GPCR conformations and ligand binding modes through integrative DEER modeling.",
+      "url": "https://doi.org/10.1016/j.str.2026.09.003",
+      "source": "PubMed — Structure (London, England : 1993)",
+      "one_liner": "Binding of biased ligands to a G protein-coupled receptor (GPCR) stabilizes specific receptor conformations, leading to distinct physiological responses. Recently, intra-transducer bias has emerged as an additional mechanism that fine-tunes receptor function by stabilizing specific architectures of the receptor-transducer complex. This mechanism was demon...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Combining molecular simulations and bitter receptor modelling reveals the bitter-taste mechanism of walnut protease hydrolysates.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.151342",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Walnut protein hydrolysates (WPHs) have attracted considerable attention owing to their functional properties. However, the enzymatic hydrolysis process frequently leads to the formation of bitter peptides, which impart an undesirable taste to the hydrolysates, consequently limiting their applications. To elucidate the mechanisms underlying bitterness per...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Deciphering Transporter-Mediated Drug Interactions Affecting Marbofloxacin Residues in Sheep Milk: From In Silico Predictions to In Vivo Validation.",
+      "url": "https://doi.org/10.1111/jvp.70113",
+      "source": "PubMed — Journal of veterinary pharmacology and therapeutics",
+      "one_liner": "Veterinary drug residues in milk represent an important food safety concern, particularly under conditions of co-administration where transporter-mediated drug-drug interactions may alter residue profiles. Marbofloxacin, a fluoroquinolone antimicrobial, is actively secreted into milk through the ATP-binding cassette transporter ABCG2 (BCRP), whereas iverm...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "In Silico Design of Amino Acid-Functionalized Materials for the Capture of Neonicotinoids.",
+      "url": "https://doi.org/10.1002/jcc.70502",
+      "source": "PubMed — Journal of computational chemistry",
+      "one_liner": "We used a computational methodology to guide the design of bio-inspired materials for the adsorption of neonicotinoids. The study resorts to a multi-stage protocol, previously proposed for imidacloprid, to select key amino acids for incorporation into chitosan to enhance the adsorption of thiacloprid, acetamiprid, clothianidin, and S- and R-dinotefuran en...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational framework-guided engineering of microbial transglutaminase enables site-specific conjugation of Trastuzumab.",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.110591",
+      "source": "PubMed — Bioorganic chemistry",
+      "one_liner": "Microbial transglutaminase (MTGase) specifically catalyzes the conjugation between primary amine-containing molecules and glutamine residues, making it a promising enzymatic approach for producing homogeneous antibody-drug conjugates (ADCs). However, this strategy faces challenges associated with glycan-induced steric hindrance, insufficient enzyme activi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Accelerator Choice Is Not Enough: AlphaFold2 Inference on Cloud TPUs",
+      "url": "https://arxiv.org/abs/2609.34818",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.34818v2 Announce Type: replace-cross \nAbstract: AlphaFold2 is written in JAX, so the same inference code compiles and runs unchanged on CPUs, GPUs and Google Cloud TPUs. That portability makes the accelerator look like the main decision a user has to make. We show that it is not. Running one AlphaFold2 inference workload across a Colab CPU runt...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Feedback-Calibrated Protein Optimization with Batch-Aligned Tail Arbitration",
+      "url": "https://arxiv.org/abs/2609.37808",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.37808v1 Announce Type: new \nAbstract: Protein optimization aims to discover high-fitness sequences under a limited experimental budget. Existing machine-learning methods use task-specific predictors, biological priors, or ranking-aware objectives to guide which variants are tested in the next experimental round. However, these methods cannot ad...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 9.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
