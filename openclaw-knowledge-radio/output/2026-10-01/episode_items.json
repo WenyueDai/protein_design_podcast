@@ -1,0 +1,292 @@
+{
+  "timestamps": [
+    0.0,
+    159.33,
+    398.63,
+    628.52,
+    782.14,
+    996.39
+  ],
+  "items": [
+    {
+      "title": "DeepStruct: Multi-modal deep learning integrating omics and energy scoring for protein structure prediction in plants.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109076",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Reliable prediction of the structural and functional characteristics of plant proteins remains a formidable challenge, largely due to a lack of appropriate template structures and the complex effects of environmental stressors on protein stability and function. Existing deep learning techniques, such as AlphaFold2, have shown promising geometric accuracy;...",
+      "segment": 2,
+      "timestamp": 398.63,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ESpma: A method for assessing biological/non-biological interfaces using point-clouds-based structural features and protein language models.",
+      "url": "https://doi.org/10.1002/pro.70790",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Distinguishing biological protein-protein interfaces from non-biological contacts remains an important task in structural biology, particularly as protein complex structures continue to accumulate. Recent advances in protein language models (pLMs) have expanded their use across diverse protein prediction tasks, including sequence-based protein-protein int...",
+      "segment": 1,
+      "timestamp": 159.33,
+      "highlighted": true,
+      "relevance": 13.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SPLiNet: Lightweight prediction of protein-RNA interaction sites by integrating a structure-aware protein language model with a dual-branch network.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109130",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Protein-RNA interactions are central to post-transcriptional regulation, yet residue-level identification of RNA-binding sites remains challenging. Sequence-based predictors often have limited ability to capture long-range dependencies, whereas structure-based pipelines commonly depend on explicit geometric modeling and additional structural preprocessing...",
+      "segment": 5,
+      "timestamp": 996.39,
+      "highlighted": true,
+      "relevance": 14.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Corrigendum to \"SPLiNet: Lightweight prediction of protein-RNA interaction sites by integrating a structure-aware protein language model with a dual-branch network\" [Comput. Biol. Chem. 124 (2026) 109130].",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109152",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Not stated in source text.\n\nMETHOD / APPROACH:\nNot stated in source text.",
+      "segment": 5,
+      "timestamp": 996.39,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PAC-Net: A physics-guided multimodal hybrid network for antibody-antigen interaction prediction.",
+      "url": "https://doi.org/10.1016/j.jbi.2026.105097",
+      "source": "PubMed — Journal of biomedical informatics",
+      "one_liner": "The precise prediction of Antibody-Antigen Interaction (AAI) is a pivotal task for accelerating antibody drug discovery and virtual screening. To address the challenges of suboptimal multimodal fusion and the paucity of physical interpretability in existing approaches, this paper proposes PAC-Net, a physical prior-guided end-to-end deep learning framework...",
+      "segment": 5,
+      "timestamp": 996.39,
+      "highlighted": true,
+      "relevance": 15.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A curated structural dataset of peptide-protein complexes reveals biases in existing datasets and principles of peptide binding.",
+      "url": "https://doi.org/10.1002/pro.70779",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Peptide-protein interactions are fundamental to many biological processes, and peptide design is gaining interest due to its therapeutic potential. This has led to the emergence of various structural databases, such as PepBDB and Peptipedia, that classify peptides as polypeptides with fewer than 50 amino acids. These databases provide valuable starting po...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 12.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "BindRNAgen: Protein-binding RNA Sequence Generation Using Latent Diffusion Models.",
+      "url": "https://doi.org/10.1016/j.jmb.2026.169939",
+      "source": "PubMed — Journal of molecular biology",
+      "one_liner": "RNA-binding proteins (RBPs) are pivotal regulators of gene expression, and their dysregulation is implicated in a wide range of human diseases. Designing synthetic RNA molecules to modulate RBP activity represents a promising therapeutic strategy, being constrained by the inefficiency of experimental screening and the limited generalization of existing co...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Global analysis of thermal and chemical denaturation using CheMelt: Thermodynamic dissection of highly thermostable de novo designed proteins",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70800?af=R",
+      "source": "Protein Science",
+      "one_liner": "Protein Science, Volume 35, Issue 11, November 2026.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.0,
+      "tags": [
+        "protein"
+      ]
+    },
+    {
+      "title": "DreamFold: A World Model to efficiently generate protein folding pathways in the latent space",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70794?af=R",
+      "source": "Protein Science",
+      "one_liner": "Protein Science, Volume 35, Issue 11, November 2026.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.0,
+      "tags": [
+        "protein"
+      ]
+    },
+    {
+      "title": "Generative AI-driven enzyme engineering unlocks sustainable valorization of broccoli waste into sulforaphane.",
+      "url": "https://doi.org/10.1016/j.biortech.2026.134988",
+      "source": "PubMed — Bioresource technology",
+      "one_liner": "Current production of sulforaphane (SFN), a health-promoting isothiocyanate, relies mainly on energy-intensive plant extraction or chemical synthesis, limiting sustainable large-scale manufacture. Here, a waste-to-value framework integrating generative artificial intelligence (AI), multi-scale modeling, and life-cycle assessment (LCA) was established to e...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 9.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DHG-EPI: A dual-stream hypergraph learning framework with multi-level gating for essential protein identification.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109171",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Identifying essential proteins is fundamental to understanding cellular survival mechanisms and facilitating drug target discovery. Despite the significant progress made by deep learning in this domain, existing methods face two primary challenges: they typically treat Protein-Protein Interaction (PPI) networks as simple pairwise connections, thereby negl...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 9.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "StrucNS reveals interaction-weighted network topology as the driving predictor of absolute stability of natural and de novo proteins.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag718",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Folded protein function requires stability, yet mapping structure and sequence to a fitness landscape remains difficult. The protein fold is the physical realization of complex, spatially-sensitive physicochemical interactions; quantitatively elucidating how these subtle relationships dictate thermodynamic stability remains challenging. We pre...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 10.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProtScape: A molecular structure and energy-aware representation for protein conformation generation",
+      "url": "https://arxiv.org/abs/2410.20317",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2410.20317v2 Announce Type: replace-cross \nAbstract: Molecular dynamics (MD) simulations are a principled but computationally expensive approach for studying protein conformational variability, making it challenging to generate large ensembles of structures or characterize transitions between metastable conformations. AI methods for upsampling MD si...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 9.8,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Identification of Endonuclease G binding protein using a method which specifically isolates binding partners within subcellular compartments.",
+      "url": "https://doi.org/10.1016/j.mcpro.2026.101671",
+      "source": "PubMed — Molecular & cellular proteomics : MCP",
+      "one_liner": "The elucidation of protein-protein interaction networks is crucial for understanding the regulatory mechanisms and functional roles of proteins. A commonly used technique is to express an epitope-tagged protein (bait) and perform co-immunoprecipitation with the tag antibody to identify proteins bound to the tagged protein. However, when bait proteins that...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "What deep learning can and cannot (yet) do for enzyme design.",
+      "url": "https://doi.org/10.1016/j.cbpa.2026.102770",
+      "source": "PubMed — Current opinion in chemical biology",
+      "one_liner": "Deep learning has substantially advanced structure-based enzyme design, yet reliably creating highly efficient enzymes remains out of reach. One emerging enzyme design strategy combines diffusion-based scaffold generation around active-site models with sequence design. Such structure-based approaches have expanded the accessible reaction space and enabled...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 11.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "EvoMut: A computational framework for engineering oxidative stability in proteins.",
+      "url": "https://doi.org/10.1002/pro.70774",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "Amino acid oxidation is a major cause of protein instability and loss of function in therapeutic and industrial settings. Although methionine, cysteine, tryptophan, tyrosine, histidine, lysine, and arginine residues are widely recognized as oxidation-prone, only a subset of such residues is dominant functional hotspots, and not all are suitable targets fo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 11.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AMP-distillation: A knowledge distillation framework for accurate and efficient antimicrobial peptide prediction.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109129",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Antimicrobial peptides (AMPs) are pivotal component of the innate immune system, showing broad activity to bacteria, fungi, viruses, and parasites. Despite their therapeutic potential, accurate identification and prediction of AMPs still remain challenge because of sequence diversity, nonlinear feature relationships, and severe class imbalance Here, we pr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GeoEPred: A multimodal structure-aware geometric deep learning framework for Gram-negative bacterial secreted effector prediction with sequence semantics.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014344",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Accurate prediction of effector proteins secreted by Gram-negative bacteria is important for elucidating bacterial pathogenic mechanisms and developing precise anti-infective strategies. Although existing methods have benefited from the strong sequence feature extraction capacity of pretrained protein language models, reliance on linear sequence informati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Surprisingly Complex Waves Reveal the Brain’s Inner Workings",
+      "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+      "source": "Quanta Magazine",
+      "one_liner": "Unexpected patterns traveling across the human brain may be reorganizing its activity in real time. The post Surprisingly Complex Waves Reveal the Brain’s Inner Workings first appeared on",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 08:34:33 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 08:53:54 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-10-01</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-01/podcast_2026-10-01.mp3</guid>
+      <pubDate>Thu, 01 Oct 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-01/podcast_2026-10-01.mp3" length="9833013" type="audio/mpeg" />
+      <description>The field is moving past the point where you could treat protein structure prediction as a solved problem once you had a good template, and that assumption is cracking open in some interesting ways today. | What&#x27;s equally striking is how the interface classification problem is getting reframed through the lens of point clouds and protein language models. | The RNA-binding site prediction space is getting lighter and smarter at the same time.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field is moving past the point where you could treat protein structure prediction as a solved problem once you had a good template, and that assumption is cracking open in some interesting ways today. | What&#x27;s equally striking is how the interface classification problem is getting reframed through the lens of point clouds and protein language models. | The RNA-binding site prediction space is getting lighter and smarter at the same time.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-09-30</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-30/podcast_2026-09-30.mp3</guid>
       <pubDate>Wed, 30 Sep 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-30/podcast_2026-09-30.mp3" length="10086021" type="audio/mpeg" />
-      <description>The biggest shift today is that secondary structure information, long treated as a mere intermediate step, is now being fed directly into all-atom diffusion models as a first-class input. | The second major shift is that tokenization, not just parameter count, is becoming the lever for efficiency in protein language models. | The third insight is a cautionary one about D-peptide design.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-09-30/podcast_2026-09-30.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The biggest shift today is that secondary structure information, long treated as a mere intermediate step, is now being fed directly into all-atom diffusion models as a first-class input. | The second major shift is that tokenization, not just parameter count, is becoming the lever for efficiency in protein language models. | The third insight is a cautionary one about D-peptide design.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-30/podcast_2026-07-30.mp3</guid>
       <pubDate>Thu, 30 Jul 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-30/podcast_2026-07-30.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-07-29</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-29/podcast_2026-07-29.mp3</guid>
-      <pubDate>Wed, 29 Jul 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-29/podcast_2026-07-29.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
