@@ -3046,5 +3046,12 @@
       "title": "Affinity purification: From interactome analysis to targeted protein enrichment.",
       "source": "PubMed — Biochimica et biophysica acta. Proteins and proteomics"
     }
+  },
+  "2026-10-02": {
+    "https://arxiv.org/abs/2610.00191": {
+      "note": "dd",
+      "title": "Improving scoring functions for protein-protein docking with LambdaLoss",
+      "source": "arXiv q-bio.BM"
+    }
   }
 }
