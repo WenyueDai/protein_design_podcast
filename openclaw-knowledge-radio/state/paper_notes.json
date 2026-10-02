@@ -3077,6 +3077,11 @@
       "note": "dd",
       "title": "Protein modification: convergence of artificial intelligence, synthetic biology, and nano-assembly.",
       "source": "PubMed — Food chemistry"
+    },
+    "https://arxiv.org/abs/2503.08838": {
+      "note": "dd",
+      "title": "PUMA: Learning a Mutation-Aware Vocabulary of Protein Units",
+      "source": "arXiv q-bio.QM"
     }
   }
 }
