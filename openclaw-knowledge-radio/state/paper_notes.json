@@ -3082,6 +3082,11 @@
       "note": "dd",
       "title": "PUMA: Learning a Mutation-Aware Vocabulary of Protein Units",
       "source": "arXiv q-bio.QM"
+    },
+    "https://arxiv.org/abs/2609.39048": {
+      "note": "dd",
+      "title": "Structure-aware Reinforcement Learning for Protein Directed Evolution",
+      "source": "arXiv cs.LG (AI/ML)"
     }
   }
 }
