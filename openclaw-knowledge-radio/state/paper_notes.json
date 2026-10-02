@@ -3067,6 +3067,11 @@
       "note": "dd",
       "title": "StabilityArc: Decoding Protein Sequence Embeddings into Generalizable Stability Landscapes",
       "source": "arXiv q-bio.BM"
+    },
+    "https://doi.org/10.1007/s00239-026-10353-0": {
+      "note": "dd",
+      "title": "Hierarchical Organization of Evolutionary Constraint in Duplicated EF-Hand Motifs.",
+      "source": "PubMed — Journal of molecular evolution"
     }
   }
 }
