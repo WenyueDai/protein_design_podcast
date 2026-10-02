@@ -3057,6 +3057,11 @@
       "note": "dd",
       "title": "Fast and accurate construction of multiple sequence alignments from protein language embeddings with ARIES.",
       "source": "PubMed — Genome research"
+    },
+    "https://doi.org/10.1038/s41586-026-10849-1": {
+      "note": "dd",
+      "title": "Rational design of disordered proteins for sequence-function investigation.",
+      "source": "PubMed — Nature"
     }
   }
 }
