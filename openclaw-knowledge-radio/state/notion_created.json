@@ -2242,5 +2242,13 @@
   "2026-09-29|https://www.biorxiv.org/content/10.64898/2026.09.25.751968": {
     "page_id": "3ea5f58e-a8c2-818e-bbb9-eb2a4bd63f82",
     "note": "DD"
+  },
+  "2026-09-29|https://doi.org/10.1016/j.bbapap.2026.141182": {
+    "page_id": "3ea5f58e-a8c2-81e4-b03f-ed055001655e",
+    "note": "DD"
+  },
+  "2026-10-02|https://arxiv.org/abs/2610.00191": {
+    "page_id": "3ed5f58e-a8c2-81a6-92d6-d048c543a96a",
+    "note": "dd"
   }
 }
