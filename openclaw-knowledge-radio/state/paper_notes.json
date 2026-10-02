@@ -3062,6 +3062,11 @@
       "note": "dd",
       "title": "Rational design of disordered proteins for sequence-function investigation.",
       "source": "PubMed — Nature"
+    },
+    "https://arxiv.org/abs/2610.00742": {
+      "note": "dd",
+      "title": "StabilityArc: Decoding Protein Sequence Embeddings into Generalizable Stability Landscapes",
+      "source": "arXiv q-bio.BM"
     }
   }
 }
