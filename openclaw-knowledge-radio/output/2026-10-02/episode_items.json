@@ -1,0 +1,310 @@
+{
+  "timestamps": [
+    0.0,
+    236.2,
+    459.21,
+    706.69,
+    907.23,
+    1120.97
+  ],
+  "items": [
+    {
+      "title": "Function-preserving watermarking of AI-generated proteins.",
+      "url": "https://doi.org/10.1038/s41586-026-10965-y",
+      "source": "PubMed — Nature",
+      "one_liner": "Generative artificial intelligence (AI) models are revolutionizing biology, with tools such as AlphaFold 3 and protein design models accelerating breakthroughs in protein structure prediction and the creation of new functional proteins",
+      "segment": 5,
+      "timestamp": 1120.97,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Improving scoring functions for protein-protein docking with LambdaLoss",
+      "url": "https://arxiv.org/abs/2610.00191",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.00191v1 Announce Type: cross \nAbstract: Modeling protein-protein interactions requires accurate scoring functions that can rank potential poses (conformations) of a protein-protein complex to differentiate near-native poses from incorrect ones. Here, we propose a general framework for improving protein-protein pose ranking and other biomolecula...",
+      "segment": 3,
+      "timestamp": 706.69,
+      "highlighted": true,
+      "relevance": 13.2,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Fast and accurate construction of multiple sequence alignments from protein language embeddings with ARIES.",
+      "url": "https://doi.org/10.1101/gr.282254.126",
+      "source": "PubMed — Genome research",
+      "one_liner": "Multiple sequence alignment (MSA) is a foundational task in computational biology, underpinning protein structure prediction, evolutionary analysis, and domain annotation. Traditional MSA algorithms rely on pairwise amino acid substitution matrices derived from conserved protein families. While effective for aligning closely related sequences, these scori...",
+      "segment": 3,
+      "timestamp": 706.69,
+      "highlighted": true,
+      "relevance": 11.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Analysis of Quantized and Efficiently Adapted Protein Language Models",
+      "url": "https://arxiv.org/abs/2610.00665",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.00665v1 Announce Type: cross \nAbstract: Background: Protein language models (PLMs) are increasingly used for sequence generation and property prediction, but their size makes fine-tuning and deployment expensive. The effects of quantization and parameter efficient fine-tuning on performance, representations and generation remain insufficiently ...",
+      "segment": 3,
+      "timestamp": 706.69,
+      "highlighted": true,
+      "relevance": 11.0,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Keep AI-augmented science contestable.",
+      "url": "https://doi.org/10.1126/science.aek7949",
+      "source": "PubMed — Science (New York, N.Y.)",
+      "one_liner": "Artificial intelligence (AI) is moving upstream in science. Systems such as AlphaFold have already transformed protein-structure prediction, while newer agentic systems can search literatures, generate hypotheses, write and execute code, interpret results, and automate much of the path from idea to paper. Recent debates have asked how such systems may cha...",
+      "segment": 1,
+      "timestamp": 236.2,
+      "highlighted": true,
+      "relevance": 10.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Synonymous sequence design controls the folding, processing, and activity of the therapeutic protein ADAMTS13.",
+      "url": "https://doi.org/10.1016/j.tibtech.2026.09.003",
+      "source": "PubMed — Trends in biotechnology",
+      "one_liner": "Synonymous recoding is widely used to enhance therapeutic protein expression, yet its broader effects on biogenesis and function remain unclear. We systematically examined how synonymous recoding shapes protein structure, processing, and activity using plasma protease ADAMTS13 (a disintegrin and metalloprotease with thrombospondin type 1 repeats, member 1...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 10.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ORBIT-FMIB: Tracking Order-Resolved Epistatic Information Through ESM-2",
+      "url": "https://arxiv.org/abs/2610.00672",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.00672v1 Announce Type: cross \nAbstract: Protein foundation models support mutation-effect and structural prediction, but predictive performance alone does not reveal which forms of biological interaction information remain accessible through model depth. We ask whether ESM-2 retains higher-order epistatic information as strongly as first- and s...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 10.4,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "RipplePLM: Structural and Property Decoupling for Protein Mutation Effect Generation",
+      "url": "https://arxiv.org/abs/2610.01891",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.01891v1 Announce Type: cross \nAbstract: Protein mutation effect generation asks a model to describe the functional consequence of a point mutation in natural language. Existing protein-to-text systems typically encode mutation information into undifferentiated representations, overlooking the organization of mutation-induced evidence across str...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 10.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Rational design of disordered proteins for sequence-function investigation.",
+      "url": "https://doi.org/10.1038/s41586-026-10849-1",
+      "source": "PubMed — Nature",
+      "one_liner": "Despite lacking a stable three-dimensional structure, intrinsically disordered protein regions (IDRs) are ubiquitous across all kingdoms of life and have essential cellular roles",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 10.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "StabilityArc: Decoding Protein Sequence Embeddings into Generalizable Stability Landscapes",
+      "url": "https://arxiv.org/abs/2610.00742",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.00742v1 Announce Type: new \nAbstract: Every protein has a unique stability landscape, but the physical consequences of mutation are governed by recurring biochemical constraints. We test whether a shared decoder, trained on measurements from diverse proteins, can interpret these constraints in an unseen target, enabling cross-protein transfer f...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Investigating cross-organism prediction of prokaryotic essential proteins using unsupervised language model and ensemble strategy.",
+      "url": "https://doi.org/10.1016/j.mimet.2026.107653",
+      "source": "PubMed — Journal of microbiological methods",
+      "one_liner": "Cross-organism prediction of essential proteins is a critical task for drug discovery and microbial engineering, yet the generalizability of existing machine learning models across diverse species remains a significant challenge. In this study, we propose DeepPEP, a large language model-based framework designed to reliably transfer essential protein annot...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hierarchical Organization of Evolutionary Constraint in Duplicated EF-Hand Motifs.",
+      "url": "https://doi.org/10.1007/s00239-026-10353-0",
+      "source": "PubMed — Journal of molecular evolution",
+      "one_liner": "Calmodulin is a conserved [Formula: see text]-binding protein composed of four EF-hand motifs that retain structural symmetry despite functional differences. How evolutionary constraint is organized across these repeated EF-hands remains unclear. Here, we analyzed calmodulin using a protein language model (PLM) to determine whether divergence is distribut...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Loop-Centric Engineering of Terminal Deoxynucleotidyl Transferase for Enhanced Catalysis of 3'-Modified Nucleotides.",
+      "url": "https://doi.org/10.1002/bit.70397",
+      "source": "PubMed — Biotechnology and bioengineering",
+      "one_liner": "Efficient enzymatic DNA synthesis requires terminal deoxynucleotidyl transferases (TdTs) that can accept reversibly blocked nucleotides, but improving wild-type enzymes has traditionally depended on labor-intensive screening. Here, we combine deep learning-based structure prediction with molecular dynamics simulations to guide loop-centric engineering of ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Protein modification: convergence of artificial intelligence, synthetic biology, and nano-assembly.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.150606",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "The extensive application of biosynthetically produced proteins in advanced food systems remains limited because of functional deficiencies, including poor solubility, inadequate emulsifying activity, and low in vitro digestibility. To address this gap, this study aimed to critically examine recent advances in the functional enhancement of biosyntheticall...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial intelligence-driven magnetic property prediction and materials discovery for next-generation spintronics.",
+      "url": "https://doi.org/10.1039/d6ra02308h",
+      "source": "PubMed — RSC advances",
+      "one_liner": "The rapid advancement of spintronic technologies has intensified the demand for magnetic materials with precisely engineered properties, including high spin polarization, large magnetic moments, tunable exchange interactions, and robust thermal stability. However, the simultaneous optimization of these properties remains challenging due to the vast compos...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicting biomolecular interactions via a dual-stream graph neural network with motif constraint and diffusion-based regularization.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109056",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Biomolecular interactions, such as RNA-Protein Interactions (RPIs) and Protein-Protein Interactions (PPIs), are fundamental to life; however, accurately predicting them remains a central challenge in computational biology. Current deep learning methods, despite their promise, often suffer from limited interpretability, poor generalization to novel biomole...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular architecture of TE-seeded chromosome-naive initiation networks of protein-protein interactions delineates the Human Protein Map of the assembly of multiprotein complexes",
+      "url": "https://arxiv.org/abs/2610.01078",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.01078v1 Announce Type: new \nAbstract: Upon binding to transposable elements seeded DNA, initiator transcription factors are poised to activate the hybrid assembly pathways (HAP) of endogenous multiprotein complexes (EMC) by iteratively engaging protein-protein interaction (PPI) cascade and creating cell type-specific pools of protein dimers. He...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "PUMA: Learning a Mutation-Aware Vocabulary of Protein Units",
+      "url": "https://arxiv.org/abs/2503.08838",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2503.08838v3 Announce Type: replace-cross \nAbstract: Modeling protein sequences as a language has made language models a powerful tool in computational biology, yet the language itself remains poorly understood. A key step toward understanding it is identifying its constituent units. In natural languages, morphemes can occur in multiple forms; simil...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.2,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Riemannian Flow Models with Reinforcement Learning for Molecular Crystal Structure Prediction",
+      "url": "https://arxiv.org/abs/2609.39773",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.39773v1 Announce Type: new \nAbstract: Crystal structure governs material properties, making crystal structure prediction (CSP) a fundamental problem in materials science. Generative models are a promising approach for solving this problem, but the prevalence of polymorphism, coupled with large unit cells and complex packing geometry, makes the ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Structure-aware Reinforcement Learning for Protein Directed Evolution",
+      "url": "https://arxiv.org/abs/2609.39048",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.39048v1 Announce Type: new \nAbstract: Protein optimization remains a longstanding goal in life sciences. Existing machine learning-assisted directed evolution (MLDE) methods primarily rely on sequence-only features, overlooking the critical spatial constraints and co-evolutionary interactions encoded in protein structures. However, directly int...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 9.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
