@@ -2250,5 +2250,13 @@
   "2026-10-02|https://arxiv.org/abs/2610.00191": {
     "page_id": "3ed5f58e-a8c2-81a6-92d6-d048c543a96a",
     "note": "dd"
+  },
+  "2026-10-02|https://doi.org/10.1101/gr.282254.126": {
+    "page_id": "3ed5f58e-a8c2-81ec-800b-f4199c6f0cff",
+    "note": "dd"
+  },
+  "2026-10-02|https://doi.org/10.1038/s41586-026-10849-1": {
+    "page_id": "3ed5f58e-a8c2-813d-ac73-ed0f3c84569a",
+    "note": "dd"
   }
 }
