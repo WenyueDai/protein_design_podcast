@@ -3052,6 +3052,11 @@
       "note": "dd",
       "title": "Improving scoring functions for protein-protein docking with LambdaLoss",
       "source": "arXiv q-bio.BM"
+    },
+    "https://doi.org/10.1101/gr.282254.126": {
+      "note": "dd",
+      "title": "Fast and accurate construction of multiple sequence alignments from protein language embeddings with ARIES.",
+      "source": "PubMed — Genome research"
     }
   }
 }
