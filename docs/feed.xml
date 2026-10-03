@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 08:32:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 07:59:56 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-10-03</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-03/podcast_2026-10-03.mp3</guid>
+      <pubDate>Sat, 03 Oct 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-03/podcast_2026-10-03.mp3" length="9774477" type="audio/mpeg" />
+      <description>The field is moving past the idea that raw sequence statistics alone can carry you through protein design, and today&#x27;s papers make that shift feel urgent rather than theoretical. | The antibody world is undergoing a parallel reckoning, but this time around developability rather than affinity. | On the experimental side, a Cell Systems paper called FLIGHTED is tackling a problem that has been hiding in plain sight: the noise in high-throughput fitness data.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field is moving past the idea that raw sequence statistics alone can carry you through protein design, and today&#x27;s papers make that shift feel urgent rather than theoretical. | The antibody world is undergoing a parallel reckoning, but this time around developability rather than affinity. | On the experimental side, a Cell Systems paper called FLIGHTED is tackling a problem that has been hiding in plain sight: the noise in high-throughput fitness data.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-10-02</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-02/podcast_2026-10-02.mp3</guid>
       <pubDate>Fri, 02 Oct 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-02/podcast_2026-10-02.mp3" length="10369605" type="audio/mpeg" />
-      <description>The field is quietly pivoting on three axes today, and each one reshapes how you should think about building proteins tomorrow. | First, provenance is becoming a design constraint, not an afterthought. | Second, scoring functions are finally learning to rank, not just score.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-02/podcast_2026-10-02.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The field is quietly pivoting on three axes today, and each one reshapes how you should think about building proteins tomorrow. | First, provenance is becoming a design constraint, not an afterthought. | Second, scoring functions are finally learning to rank, not just score.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-01/podcast_2026-08-01.mp3</guid>
       <pubDate>Sat, 01 Aug 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-01/podcast_2026-08-01.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-07-31</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-31/podcast_2026-07-31.mp3</guid>
-      <pubDate>Fri, 31 Jul 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-07-31/podcast_2026-07-31.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
