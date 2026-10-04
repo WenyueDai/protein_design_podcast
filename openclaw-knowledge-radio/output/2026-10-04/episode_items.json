@@ -1,0 +1,81 @@
+{
+  "quiet_day": true,
+  "timestamps": [],
+  "items": [
+    {
+      "title": "The Geometry of Allostery: Quantifying Pathway Organization in Protein Networks.",
+      "url": "https://doi.org/10.1002/prot.70188",
+      "source": "PubMed — Proteins",
+      "one_liner": "A central challenge in dynamic allostery is understanding how local ligand-binding events selectively route and couple distant communication pathways. Here, we develop the Laplacian minor hierarchy, a parameter-free mathematical framework that extracts higher-order geometric invariants directly from protein contact networks. To incorporate explicit ligand...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Efficient production of recombinant human serum albumin in Escherichia coli via oxidative folding mediated by the a domain of protein disulfide isomerase.",
+      "url": "https://doi.org/10.1016/j.jbiosc.2026.09.005",
+      "source": "PubMed — Journal of bioscience and bioengineering",
+      "one_liner": "Efficient production of properly folded, disulfide-rich proteins in the cytosol of Escherichia coli remains challenging because the cytosol is highly reducing. Here, we developed an expression system for recombinant human serum albumin (rHSA) by fusing the a domain of human protein disulfide isomerase (PDI) to the N-terminus of HSA. PDI(a)-mediated cis-fu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Correspondence on 'Progression from symptom onset to rheumatoid arthritis: is the trajectory similar in anticitrullinated protein antibody-positive and -negative disease? A comparative longitudinal study' by Malekroudi et al.",
+      "url": "https://doi.org/10.1016/j.ard.2026.06.005",
+      "source": "PubMed — Annals of the rheumatic diseases",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational systems immunology and multi-scale modeling for the design of a Multi-Epitope Vaccine (MEV) against emerging multidrug-resistant Klebsiella michiganensis.",
+      "url": "https://doi.org/10.1007/s10123-026-00903-3",
+      "source": "PubMed — International microbiology : the official journal of the Spanish Society for Microbiology",
+      "one_liner": "Klebsiella michiganensis, an emerging multidrug-resistant member of the Klebsiella oxytoca complex, has become an important opportunistic pathogen responsible for nosocomial infections, including bacteremia and ventilator-associated pneumonia. Owing to its rapidly evolving resistance to carbapenems, new preventive strategies are urgently needed. This stud...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Bispecific antibodies that engage pIgR enrich in mucosa in cynomolgus monkeys.",
+      "url": "https://doi.org/10.1080/19420862.2026.2743413",
+      "source": "PubMed — mAbs",
+      "one_liner": "Therapeutic antibodies have limited access to barrier‑protected compartments such as the brain, lung and gastric mucosa, and kidney lumen, constraining their effectiveness in many diseases. Approaches using a bispecific antibody that targets a transcytosing receptor such as the polymeric Ig receptor (pIgR) can result in significant enrichment of IgG-based...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "relevance": 5.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
