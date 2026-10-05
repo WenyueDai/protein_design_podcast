@@ -1,0 +1,50 @@
+{
+  "quiet_day": true,
+  "timestamps": [],
+  "items": [
+    {
+      "title": "RNADyn: A Benchmark for Generating and Understanding RNA Dynamics",
+      "url": "https://arxiv.org/abs/2610.03712",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.03712v1 Announce Type: cross \nAbstract: Ribonucleic acid (RNA) functions through conformational changes that are not fully captured by static structures. However, large-scale standardized RNA dynamics data remain limited, and existing approaches typically treat trajectory generation and dynamics understanding as separate objectives. Here, we in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Multimodal reasoning for broadly neutralizing antibody discovery from label-free human B cell repertoires across virus families",
+      "url": "https://arxiv.org/abs/2610.03160",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.03160v1 Announce Type: new \nAbstract: Discovering broadly neutralizing antibodies (bnAbs) from human natural immune repertoires remains a fundamental challenge in immunology, hindered by: the extreme rarity of bnAb, incomplete understanding of their cellular origins across pathogens, and the inability of existing computational tools to generali...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "relevance": 6.6,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Predictor-Guided Latent Space Codon Optimization for Maximizing Protein Expression",
+      "url": "https://arxiv.org/abs/2610.03098",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.03098v1 Announce Type: cross \nAbstract: Codon optimization, the process of selecting synonymous codons to improve mRNA translation efficiency and protein expression, is central to therapeutic protein production and mRNA vaccines, yet it remains a hard problem. The design space is discrete and combinatorially large, precluding gradient-based met...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": true,
+      "relevance": 7.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
