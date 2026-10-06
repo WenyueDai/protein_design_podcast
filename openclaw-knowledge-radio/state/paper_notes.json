@@ -3088,5 +3088,12 @@
       "title": "Structure-aware Reinforcement Learning for Protein Directed Evolution",
       "source": "arXiv cs.LG (AI/ML)"
     }
+  },
+  "2026-10-06": {
+    "https://doi.org/10.1016/j.jmb.2026.170052": {
+      "note": "DD",
+      "title": "MutTMP Stab-pred: Predicting thermodynamic stability changes upon mutations in α-helical and β-barrel membrane proteins.",
+      "source": "PubMed — Journal of molecular biology"
+    }
   }
 }
