@@ -785,7 +785,7 @@ relevance:
   enabled: true
   min_score: 4                    # below this a candidate is dropped before the LLM analysis step
   featured_min_score: 5           # a paper needs at least this to be one of the featured (deep-dive) picks
-  min_featured_for_episode: 3     # fewer featured papers than this => "quiet day" digest, no podcast episode
+  min_featured_for_episode: 2     # fewer featured papers than this => "quiet day" digest, no podcast episode
   max_candidates_to_analyze: 60   # cap on LLM analysis calls per day (best-scoring first)
   # Optional vocabulary overrides (lists replace the built-in defaults when set):
   # strong_terms: []
