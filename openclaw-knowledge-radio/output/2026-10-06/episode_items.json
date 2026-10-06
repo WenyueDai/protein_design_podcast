@@ -1,0 +1,146 @@
+{
+  "timestamps": [
+    0.0,
+    157.2,
+    385.48,
+    567.59,
+    761.5,
+    1002.77
+  ],
+  "items": [
+    {
+      "title": "PlantPTM: A deep-learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.",
+      "url": "https://doi.org/10.1016/j.molp.2026.08.002",
+      "source": "PubMed — Molecular plant",
+      "one_liner": "Post-translational modifications (PTMs) play crucial regulatory roles in plants, orchestrating protein functions to maintain metabolic homeostasis, enable adaptation to dynamic environments, and regulate diverse cellular processes. Thus, identifying PTM sites is essential for elucidating the mechanisms underlying plant growth, development, and stress resp...",
+      "segment": 1,
+      "timestamp": 157.2,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DeepRAGIL-2: a retrieval-augmented protein language model framework for sensitive and accurate prediction of IL-2-inducing peptides.",
+      "url": "https://doi.org/10.1080/07391102.2026.2741122",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "Interleukin-2 (IL-2) is a pleiotropic cytokine central to T-cell activation, proliferation, and immunological tolerance, yet existing computational tools for predicting IL-2-inducing peptides suffer from near-zero sensitivity under realistic class-imbalanced conditions, rendering them impractical for positive-class discovery. Here we present DeepRAGIL-2, ...",
+      "segment": 1,
+      "timestamp": 157.2,
+      "highlighted": true,
+      "relevance": 15.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MutTMP Stab-pred: Predicting thermodynamic stability changes upon mutations in α-helical and β-barrel membrane proteins.",
+      "url": "https://doi.org/10.1016/j.jmb.2026.170052",
+      "source": "PubMed — Journal of molecular biology",
+      "one_liner": "Membrane proteins (TMPs) are integral components of cell membranes that adopt two principal structural folds, transmembrane α-helical proteins (TMHs) and transmembrane β-barrel proteins (TMBs). Mutations in these proteins can substantially alter their native structure, folding, and function, and are often implicated in human diseases. Although several com...",
+      "segment": 1,
+      "timestamp": 157.2,
+      "highlighted": true,
+      "relevance": 5.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The serine-rich C-terminal tail of the Listeria monocytogenes secretion chaperone PrsA2 is critical for bacterial virulence and resistance to cell-wall active antibiotics.",
+      "url": "https://doi.org/10.1371/journal.ppat.1014676",
+      "source": "PubMed — PLoS pathogens",
+      "one_liner": "Protein intrinsically disordered regions (IDRs) are characterized by their lack of defined stable tertiary structure and are capable of adopting multiple conformations for functional activity. In chaperone proteins, these flexible regions are often sites of condition specific protein-protein interactions. In Listeria monocytogenes (Lm), PrsA2 is a peptidy...",
+      "segment": 2,
+      "timestamp": 385.48,
+      "highlighted": true,
+      "relevance": 7.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Intramembrane proteolysis: principles of substrate recognition and membrane protein fate.",
+      "url": "https://doi.org/10.1016/j.tibs.2026.09.005",
+      "source": "PubMed — Trends in biochemical sciences",
+      "one_liner": "Intramembrane proteases catalyze peptide bond hydrolysis within cellular membranes, regulating processes including signaling, protein quality control, and membrane protein turnover. Recent advances in cryo-electron microscopy, biochemistry, and molecular dynamics simulations have transformed our understanding of how these enzymes recognize and process sub...",
+      "segment": 1,
+      "timestamp": 157.2,
+      "highlighted": true,
+      "relevance": 5.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Nanopore sensing with machine learning-assisted analysis for real-time single-molecule detection of MDM2-p53TAD interactions.",
+      "url": "https://doi.org/10.1016/j.bios.2026.119295",
+      "source": "PubMed — Biosensors & bioelectronics",
+      "one_liner": "Protein-protein interactions (PPIs) play pivotal roles in physiological processes but remain challenging drug targets. Conventional PPI detection methods often suffer from limited sensitivity and require time- and labor-intensive procedures, such as fluorophore labeling, restricting their utility in drug discovery. Here, we present a YaxAB nanopore sensin...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Staged structural changes of fermented chicken breast myofibrillar protein: Conformational unfolding and aggregation.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154750",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Fermented chicken breast is promoted as a healthier alternative to traditional high-fat fermented meat products, yet its quality depends critically on the structural state of myofibrillar protein (MP). To clarify how MP deteriorates during extended natural fermentation, this study established a 150-day fermentation model and systematically monitored MP de...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Selective suppression and biasing of chemokine receptors CCR9 and ACKR4 through targeting CCL25 with de novo miniproteins",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.23.701245",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Chemokines and their receptors mediate cell migration and coordinate immune responses, while dysregulation can lead to inflammation. Therapeutic modulation of the chemokine signaling axis has proven difficult. Most drug discovery efforts target the receptors, whereas natural regulatory mechanisms modulate immune responses by directly binding to or modifyi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Is AI the End of Math As We Know It?",
+      "url": "https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005/",
+      "source": "Quanta Magazine",
+      "one_liner": "Mathematicians are facing the sudden shift with grief, anger, and a desperate search for fresh ideas: “If we don’t adapt, there’s just no more math in 50 years.” The post Is AI the End of Math As We Know It? first appeared on",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
