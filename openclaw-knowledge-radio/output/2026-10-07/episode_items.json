@@ -1,0 +1,248 @@
+{
+  "timestamps": [
+    0.0,
+    213.64,
+    443.73,
+    675.04,
+    845.41,
+    1064.86
+  ],
+  "items": [
+    {
+      "title": "ParaEM: Antigen-aware sequence-based paratope prediction with Expectation-Maximization.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag739",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Accurate identification of antibody paratopes-the residues contacting the antigen-is vital for understanding antibody-antigen recognition, antibody engineering, and vaccine design. However, structure-based predictors require antibody structural inputs, which are often obtained from experimentally determined antibody-antigen complexes in benchm...",
+      "segment": 4,
+      "timestamp": 845.41,
+      "highlighted": true,
+      "relevance": 15.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Linear Fitness Subspace in Protein Language Models Enables Sample-Efficient Directed Evolution",
+      "url": "https://arxiv.org/abs/2610.07607",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.07607v1 Announce Type: new \nAbstract: Model-guided directed evolution seeks to identify high-fitness protein variants under limited oracle budgets. Protein language models (PLMs) provide rich representations for this task, but task-agnostic zero-shot scores can be misaligned with a target assay, while supervised search in high-dimensional embed...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 12.0,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Integrating deep learning model for precision design of MERS antibodies with augmented affinity against SARS-CoV-2.",
+      "url": "https://doi.org/10.1080/07391102.2026.2741688",
+      "source": "PubMed — Journal of biomolecular structure & dynamics",
+      "one_liner": "The rapid emergence of SARS-CoV-2 has renewed interest in cross-reactive antibody therapeutics targeting conserved epitopes across divergent coronaviruses. Building on our deep-learning driven protein engineering pipeline, we sought to redirect experimentally validated MERS-CoV antibodies toward the SARS-CoV-2 receptor-binding domain. A structural compari...",
+      "segment": 2,
+      "timestamp": 443.73,
+      "highlighted": true,
+      "relevance": 11.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AntiLipo: A Comprehensive Database, Deep Learning-Based Prediction Model, and Computational Study of Anti-Hyperlipidemic Peptides.",
+      "url": "https://doi.org/10.1007/s12539-026-00876-x",
+      "source": "PubMed — Interdisciplinary sciences, computational life sciences",
+      "one_liner": "Anti-hyperlipidemic peptides (ALPs) play important roles in regulating lipid metabolism and preventing atherosclerosis, yet conventional experimental identification methods remain time-consuming. In this study, we curated 201 experimentally validated ALPs with their sequences, sources, activity data, and metabolic pathways. Network pharmacology analysis r...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 9.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Graph-based representations in modern protein science.",
+      "url": "https://doi.org/10.1042/BCJ20260179",
+      "source": "PubMed — The Biochemical journal",
+      "one_liner": "For more than 50 years, the linear sequence and the multiple sequence alignment have been the foundational data structures of protein science, and they remain central to homology search, phylogenetic inference, covariance-based contact prediction, and modern protein language models. However, relational and graph-based representations are increasingly bein...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 5.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The development of BioID: A tool for proximity proteomics in living cells.",
+      "url": "https://doi.org/10.1016/j.bbapap.2026.141188",
+      "source": "PubMed — Biochimica et biophysica acta. Proteins and proteomics",
+      "one_liner": "Mapping and identification of proteins and protein complexes in cells is of fundamental importance when studying protein functions and biological mechanisms. Conventional methods, such as affinity purification coupled with mass spectrometry (AP-MS) and yeast two-hybrid screening, have commonly been employed to study protein-protein interactions. The limit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Complex folding kinetics of multi-domain proteins disentangled with periodic forces by magnetic tweezers",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.749805",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Force spectroscopy enables direct investigation of the interplay between free energy and transition kinetics in proteins and nucleic acids. However, multi-domain proteins often display multiple intermediate structures with diverse stabilities and kinetics, making equilibrium conditions difficult to achieve and out-of-equilibrium experiments challenging to...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "In vitro digestion and molecular dynamics reveal mechanisms of digestion resistance in type V resistant starch: Binary versus ternary complexes with lipids and/or proteins.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154769",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "To elucidate the resistance of type V resistant starch to enzymatic digestion, this study investigated the relationship between the crystalline structure and digestibility of complexes formed with lipids or proteins. The incorporation of octadecanoic acid (OA) and rice protein (RP) facilitated the formation of type V crystalline structures in native rice ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Effect of subcritical water-mediated dual-protein conformational reconstruction on texture, digestibility, and release kinetics of curcumin-based meat floss analogue.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.151469",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "The poor stability and bioavailability of curcumin (Cur) limit its application in functional foods. This study employed green subcritical water treatment (SWT) to reconstruct the wheat bran-textured soy protein matrix into an efficient delivery system for Cur. SWT transformed the proteins into a homogeneous porous network that, when applied to a Cur-loade...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Epitope-Imprinted Polymer Nanoparticles Enable Selective Recognition of Filamentous Vimentin for Tumor Imaging In Vivo.",
+      "url": "https://doi.org/10.1002/adhm.71813",
+      "source": "PubMed — Advanced healthcare materials",
+      "one_liner": "Vimentin is a cytoskeletal protein upregulated during epithelial-mesenchymal transition that can also be aberrantly displayed on the surface of multiple tumor cell types, making it a promising target for tumor imaging. Here, we develop epitope-imprinted polymer nanoparticles (nanoMIPs) for vimentin recognition through a two-step strategy comprising screen...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SmartVax-Bp: An Immunoinformatic guided Multi-Epitope Vaccine Blueprint Against Burkholderia pseudomallei.",
+      "url": "https://doi.org/10.1007/s12602-026-11241-1",
+      "source": "PubMed — Probiotics and antimicrobial proteins",
+      "one_liner": "Burkholderia pseudomallei (B. pseudomallei) is the causative agent of melioidosis, a potentially serious and life-threatening infectious disease in humans. This pathogen invades the bloodstream and infects multiple organs, including the lungs, skin, liver, spleen, bones, and brain. The enzymes polyphosphate kinase 1 (Ppk1), type III secretion system clust...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Insights into Natural Dietary Components as Indirect Modulators of Glucagon-like Peptide-1 Receptor Signaling in Weight Management.",
+      "url": "https://doi.org/10.1016/j.clnesp.2026.105166",
+      "source": "PubMed — Clinical nutrition ESPEN",
+      "one_liner": "BACKGROUND: The glucagon-like peptide-1 receptor (GLP-1R) has emerged as a major therapeutic target in obesity and metabolic disease due to its roles in appetite regulation, gastric emptying, insulin secretion, and energy homeostasis. Although pharmacological GLP-1R agonists produce substantial weight reduction and glycemic improvement, growing interest h...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Inference-Time Projection for Physically Valid Biomolecular Diffusion Models",
+      "url": "https://arxiv.org/abs/2610.07037",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.07037v1 Announce Type: cross \nAbstract: AlphaFold 3-style cofolding models predict biomolecular complexes with high structural accuracy, yet a large fraction of their outputs are physically invalid: chains overlap at interfaces, ligand bond lengths and angles are distorted, rings are non-planar, and stereocentres are inverted. Current approache...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.8,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.04875",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.04875v2 Announce Type: replace-cross \nAbstract: Diffusion large language models (DLLMs) generate text through iterative block denoising, and multi-branch speculative decoding accelerates this process by verifying a main branch together with multiple draft branches in a single forward pass. While prior DLLM acceleration methods primarily exploit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 9.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "CausalBind: Causal Modeling and Learning for Protein-Molecule Virtual Screening",
+      "url": "https://arxiv.org/abs/2610.07340",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.07340v1 Announce Type: new \nAbstract: Protein-molecule virtual screening is increasingly cast as a problem of representation learning in a shared embedding space. Existing methods rely on dense holistic alignment, entangling invariant binding determinants with nuisance correlations and limiting transfer to new targets. It has been noted that bi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "ReFold: Training-Free Reversible Inter-Turn Context Folding for Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2610.07863",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.07863v1 Announce Type: cross \nAbstract: Long-horizon LLM agents act on an append-only interaction history that is re-sent to the model at every step, so the context and its cost grow with steps until the sessions exceed the context window. Existing methods manage the context through context requirement prediction, relying on additional model ca...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
