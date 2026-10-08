@@ -3095,5 +3095,12 @@
       "title": "MutTMP Stab-pred: Predicting thermodynamic stability changes upon mutations in α-helical and β-barrel membrane proteins.",
       "source": "PubMed — Journal of molecular biology"
     }
+  },
+  "2026-10-07": {
+    "https://doi.org/10.1093/bioinformatics/btag739": {
+      "note": "dd",
+      "title": "ParaEM: Antigen-aware sequence-based paratope prediction with Expectation-Maximization.",
+      "source": "PubMed — Bioinformatics (Oxford, England)"
+    }
   }
 }
