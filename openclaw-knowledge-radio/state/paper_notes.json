@@ -3101,6 +3101,11 @@
       "note": "dd",
       "title": "ParaEM: Antigen-aware sequence-based paratope prediction with Expectation-Maximization.",
       "source": "PubMed — Bioinformatics (Oxford, England)"
+    },
+    "https://doi.org/10.1042/BCJ20260179": {
+      "note": "dd",
+      "title": "Graph-based representations in modern protein science.",
+      "source": "PubMed — The Biochemical journal"
     }
   }
 }
