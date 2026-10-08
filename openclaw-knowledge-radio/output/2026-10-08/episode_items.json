@@ -1,0 +1,175 @@
+{
+  "timestamps": [
+    0.0,
+    204.74,
+    444.11,
+    662.32,
+    838.04,
+    1019.12
+  ],
+  "items": [
+    {
+      "title": "A Shortcut to Structure in AlphaFold 3",
+      "url": "https://arxiv.org/abs/2610.08937",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.08937v1 Announce Type: new \nAbstract: AlphaFold 3 predicts protein structures with remarkable accuracy, yet how structural information emerges within the model remains poorly understood. Here, through causal interventions on internal representations and direct probing of every Pairformer block, we trace the formation of global protein geometry ...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 5.8,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "De novo design of monoclonal and bispecific antibodies with OFAntibody",
+      "url": "https://arxiv.org/abs/2610.09548",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.09548v1 Announce Type: new \nAbstract: Recent advances in generative protein design have enabled de novo antibody generation with explicit target and epitope conditioning. However, most existing approaches remain formulated around a single antigen-antibody interface, whereas bispecific antibody design requires modeling multi-component complexes ...",
+      "segment": 1,
+      "timestamp": 204.74,
+      "highlighted": true,
+      "relevance": 14.6,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "DyME: An MD-based engine exploiting HTP mutagenesis for protein engineering and recognition mimicry.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014221",
+      "source": "PubMed — PLoS computational biology",
+      "one_liner": "Protein recognition mimicry is of great interest in the field of molecular bioengineering and rational design, with mutagenesis frequently employed to analyze the effects of altering amino acids involved in molecular recognition. The conformational and energetic effects of such alterations can be investigated in detail with the help of molecular dynamics ...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 15.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "VAEBAC: A representation-learning framework for proteome-scale prediction of amyloidogenic proteins and functional stratification of nucleic-acid-binding proteins.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag745",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Nucleic-acid-binding proteins (NABPs) govern transcription, replication and genome organization, yet the distribution of aggregation susceptibility within regulatory proteomes remains unresolved. Here, we systematically examine amyloidogenic potential across the nucleic-acid-binding proteomes of four phylogenetically diverse organisms-Escheric...",
+      "segment": 1,
+      "timestamp": 204.74,
+      "highlighted": true,
+      "relevance": 8.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AraVirusPPI: A protein language model-powered method for predicting Arabidopsis thaliana-virus protein-protein interactions.",
+      "url": "https://doi.org/10.1093/plphys/kiag755",
+      "source": "PubMed — Plant physiology",
+      "one_liner": "Plant-virus protein-protein interactions (PPIs) play crucial roles in viral infection and host immune responses. However, large-scale experimental characterization of plant-virus PPIs is costly and labor-intensive, suggesting the need to develop computational methods. Recent advances in biological sequence language models are offering unprecedented opport...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 8.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The First OpenBind Blind Challenge",
+      "url": "https://www.blopig.com/blog/2026/10/the-first-openbind-blind-challenge/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "At OpenBind, we’re working to generate large-scale, open experimental datasets of protein-ligand structures and binding measurements to support the development and evaluation of computational methods for drug discovery. One thing I’m particularly excited about is using these data not just for retrospective benchmarking, but for prospective, blind evaluati...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.8,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "Machine learning-assisted directed evolution of plant Rubisco.",
+      "url": "https://doi.org/10.1126/sciadv.aeh3246",
+      "source": "PubMed — Science advances",
+      "one_liner": "Ribulose-1,5-bisphosphate carboxylase/oxygenase (Rubisco) is foundational to life on Earth, catalyzing carbon dioxide (CO",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Bifunctional Protein G-Streptavidin Fusion Protein for Antibody Detection and Circulating Tumor Cell Enrichment.",
+      "url": "https://doi.org/10.1016/j.pep.2026.107021",
+      "source": "PubMed — Protein expression and purification",
+      "one_liner": "Circulating tumor cells (CTCs) are important biomarkers of cancer metastasis; however, their extremely low abundance in the bloodstream poses significant challenges for sensitive and specific detection. Bifunctional fusion proteins that combine an IgG-binding domain with a signal-amplifying module offer a promising strategy to address this challenge. In t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PIT-GCL: Protein Interaction using Topological Graph Contrastive Learning",
+      "url": "https://arxiv.org/abs/2610.04850",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.04850v2 Announce Type: replace \nAbstract: Protein binding prediction is central to target identification, therapeutic binder design, and large scale screening, yet remains challenging because binding depends on sequence, three dimensional geometry, and global structural organization. Recent folding models such as AlphaFold3 and Boltz-2 have sub...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 13.2,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Shared Geometry As A Rosetta Stone: Cross-Modal Alignment Without Paired Data",
+      "url": "https://arxiv.org/abs/2610.09411",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.09411v1 Announce Type: new \nAbstract: Multimodal representations enable zero-shot classification and retrieval, but aligning independently trained models usually requires large amounts of paired data. Yet, the Platonic Representation Hypothesis suggests that models trained on different modalities may converge spontaneously toward a shared repre...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines",
+      "url": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
+      "source": "Quanta Magazine",
+      "one_liner": "In the shadow of a rumored AI proof of one of the biggest problems in their field, three computer scientists rushed to publish their own milestone result. The post As AI Closed In on ‘Unique Games’ P...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 08:29:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 08:42:04 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-10-08</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-08/podcast_2026-10-08.mp3</guid>
+      <pubDate>Thu, 08 Oct 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-08/podcast_2026-10-08.mp3" length="9643605" type="audio/mpeg" />
+      <description>The biggest revelation today is that AlphaFold 3 doesn&#x27;t actually read your protein&#x27;s evolutionary history the way we thought it did. | That insight reframes how we think about the model&#x27;s accuracy and its blind spots. | On the antibody front, OFAntibody is pushing de novo design beyond the simple antigen-antibody handshake into genuinely multi-component territory.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The biggest revelation today is that AlphaFold 3 doesn&#x27;t actually read your protein&#x27;s evolutionary history the way we thought it did. | That insight reframes how we think about the model&#x27;s accuracy and its blind spots. | On the antibody front, OFAntibody is pushing de novo design beyond the simple antigen-antibody handshake into genuinely multi-component territory.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-10-07</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-07/podcast_2026-10-07.mp3</guid>
       <pubDate>Wed, 07 Oct 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-07/podcast_2026-10-07.mp3" length="10255125" type="audio/mpeg" />
-      <description>The biggest shift today is that protein design is moving from global, one-size-fits-all models to local, task-specific subspaces — and that changes everything about how we think about sample efficiency. | This echoes what the AlphaFold2 paper showed about structure prediction being solvable when you focus on the right representation, but here the insight is about fitness landscapes rather than structures. | The second major shift is in antibody engineering: we&#x27;re moving from structure-dependent paratope prediction to sequence-aware, antigen-conditioned methods.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-07/podcast_2026-10-07.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The biggest shift today is that protein design is moving from global, one-size-fits-all models to local, task-specific subspaces — and that changes everything about how we think about sample efficiency. | This echoes what the AlphaFold2 paper showed about structure prediction being solvable when you focus on the right representation, but here the insight is about fitness landscapes rather than structures. | The second major shift is in antibody engineering: we&#x27;re moving from structure-dependent paratope prediction to sequence-aware, antigen-conditioned methods.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-04/podcast_2026-08-04.mp3</guid>
       <pubDate>Tue, 04 Aug 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-04/podcast_2026-08-04.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-08-03</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-03/podcast_2026-08-03.mp3</guid>
-      <pubDate>Mon, 03 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-03/podcast_2026-08-03.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
