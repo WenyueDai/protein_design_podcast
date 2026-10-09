@@ -1,0 +1,189 @@
+{
+  "timestamps": [
+    0.0,
+    199.29,
+    438.71,
+    642.2,
+    856.21,
+    1088.02
+  ],
+  "items": [
+    {
+      "title": "PNBind: Prediction of Nucleic Acid-Binding Sites Using Protein Structure and Protein Language Models.",
+      "url": "https://doi.org/10.1002/prot.70190",
+      "source": "PubMed — Proteins",
+      "one_liner": "Accurate prediction of nucleic acid-binding sites is essential for understanding protein function and facilitating drug discovery. However, current computational methods are limited by single-layer language model representations, Cα point clouds that discard local-frame geometry, and feature fusion in which high-dimensional sequence embeddings overshadow ...",
+      "segment": 1,
+      "timestamp": 199.29,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "UNAAGI: Atom-Level Diffusion for Generating Non-Canonical Amino Acid Substitutions",
+      "url": "https://arxiv.org/abs/2512.10515",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2512.10515v2 Announce Type: replace \nAbstract: A central challenge in structural biology is identifying beneficial amino acid substitutions, a problem that underpins both mutational effect prediction and protein engineering. Recent inverse-folding models, trained to reconstruct sequences from structure, have shown considerable promise for identifyin...",
+      "segment": 2,
+      "timestamp": 438.71,
+      "highlighted": true,
+      "relevance": 15.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "LoRA-N-Gly: Sequence-based Prediction of N-Linked Glycosylation Sites by Tuning Protein Language Models with Low-rank Adaptation.",
+      "url": "https://doi.org/10.1016/j.jmb.2026.170056",
+      "source": "PubMed — Journal of molecular biology",
+      "one_liner": "Glycosylation is implicated in many diseases, from cancer to neurodegeneration. Elucidating these disease mechanisms requires precise identification of glycosylation sites. Computational prediction provides an efficient complement to labor-intensive experiments, yet further accuracy improvements are needed for practical use. Here, we present LoRA-N-Gly, a...",
+      "segment": 1,
+      "timestamp": 199.29,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "KPTM-MCHR: A multichannel hypergraph regression model for predicting the frequencies of lysine post-translational modification types in proteins.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154783",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Lysine post-translational modifications (K-PTMs) are important forms of protein post-translational modification. Identifying K-PTMs in protein sequences is an important topic in bioinformatics. Existing computational models mainly focus on predicting specific K-PTM types at lysine residues in protein sequences. Few studies have investigated the number of ...",
+      "segment": 1,
+      "timestamp": 199.29,
+      "highlighted": true,
+      "relevance": 9.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hydroxamate formation in Thermochelin Biosynthesis.",
+      "url": "https://doi.org/10.1016/j.abb.2026.111021",
+      "source": "PubMed — Archives of biochemistry and biophysics",
+      "one_liner": "Nitrogen-hydroxylating monooxygenases (NMOs) are key enzymes in siderophore biosynthesis that rely on coordinated protein and cofactor conformational changes for catalysis. Here, we characterize TheA, an NMO from Thermocrispumagreste. Steady-state kinetics of TheA reveal a substrate preference for L-ornithine over L-lysine, with L-lysine primarily support...",
+      "segment": 1,
+      "timestamp": 199.29,
+      "highlighted": true,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "MD-LLM-2: A Transferable Language Model of Molecular Dynamics with Physical Conditioning and Explicit Path Probabilities",
+      "url": "https://arxiv.org/abs/2610.10879",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.10879v1 Announce Type: new \nAbstract: Molecular dynamics (MD) simulations model the motion of proteins between conformational states, but crossing free energy barriers and sampling multiple thermodynamic conditions remain computationally costly. We recently introduced MD-LLM-1, which showed that language models can generate conformational traje...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "A dual-glycoprotein-targeting bispecific nanoantibody confers potent neutralization against Nipah virus.",
+      "url": "https://doi.org/10.1016/j.virs.2026.09.014",
+      "source": "PubMed — Virologica Sinica",
+      "one_liner": "Nipah virus (NiV) is a biosafety level 4 pathogen that has consistently posed a significant threat to public health. The two envelope proteins on the viral surface, the receptor-binding protein (RBP) and the fusion (F) protein, are the primary targets of neutralizing antibodies. However, the use of antibodies targeting a single viral antigen often leads t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Three-dimensional imaging of isolated membrane-protein complexes in vacuo with an X-ray laser",
+      "url": "https://arxiv.org/abs/2610.11729",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.11729v1 Announce Type: cross \nAbstract: The prospect of imaging single biomolecules, viruses and cells with intense, ultrashort X-ray pulses has driven the development of X-ray free-electron lasers (XFELs). However, the weak scattering from small particles is easily swamped by background from residual gas, which has so far limited applications ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "How native metal-binding sites accommodate uranyl: a comparative study of human serum transferrin, human serum albumin, and an engineered uranyl-binding protein.",
+      "url": "https://doi.org/10.1039/d6dt01933a",
+      "source": "PubMed — Dalton transactions (Cambridge, England : 2003)",
+      "one_liner": "Understanding how the uranyl ion (UO",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Learning from Hetero Density for Cryo-EM Protein Reconstruction",
+      "url": "https://arxiv.org/abs/2610.11403",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.11403v1 Announce Type: new \nAbstract: Reconstructing protein structures from cryo-electron microscopy (cryo-EM) maps is essential for understanding macromolecular assemblies. Although learning-based methods have improved protein reconstruction, information from hetero components remains underused. Our analysis finds both false predictions and r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Learning Implicit Bias in Generative Spaces for Accelerating Protein Dynamics Emulation",
+      "url": "https://arxiv.org/abs/2606.01833",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2606.01833v2 Announce Type: replace \nAbstract: Generative emulators of protein dynamics produce plausible trajectories at a fraction of the cost of molecular dynamics, but they inherit their training distribution and tend to revisit known states rather than reach rare ones under long-horizon extrapolation. Inspired by classical enhanced sampling, we...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "PXtal: Learning to Align Powder X-Ray Diffraction and Crystal Structures under Information Asymmetry across Modalities",
+      "url": "https://arxiv.org/abs/2610.10653",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.10653v1 Announce Type: new \nAbstract: Scientific multimodal learning commonly assumes that paired views are comparably informative. Powder X-ray diffraction (PXRD) makes this mismatch explicit: compressing a three-dimensional crystal structure into a one-dimensional diffraction pattern loses information and makes the pattern harder to connect t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
