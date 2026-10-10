@@ -1,0 +1,191 @@
+{
+  "timestamps": [
+    0.0,
+    190.53,
+    427.5,
+    653.27,
+    871.9,
+    1078.88
+  ],
+  "items": [
+    {
+      "title": "StructAMP: A Residual Multi-Modal Framework for Leakage-Controlled Antimicrobial Peptide Prediction.",
+      "url": "https://doi.org/10.1109/TCBBIO.2026.3741949",
+      "source": "PubMed — IEEE transactions on computational biology and bioinformatics",
+      "one_liner": "Reliable evaluation of antimicrobial peptide (AMP) predictors is complicated by train-test sequence-similarity leakage and mismatched comparisons with strong protein language model baselines. We present a leakage-controlled framework that quantifies auxiliary-modality value through zero-initialized residual corrections to a frozen, fold-matched ESM2-650 M...",
+      "segment": 2,
+      "timestamp": 427.5,
+      "highlighted": true,
+      "relevance": 13.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "CryoFAST: A Fab-Aided Cryo-EM Workflow for High-Resolution Structure Determination of Sub-50-kDa Protein Targets",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757472",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "Single-particle cryo-electron microscopy (cryo-EM) plays an increasingly important role in structure-based drug discovery (SBDD) by revealing target protein-ligand interactions at the molecular level, but its application has largely focused on large- and medium-sized protein complexes. Many therapeutically important targets are smaller than 50 kDa and rem...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 12.0,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Design of Orthogonal Far-Red, Orange and Green Fluorophore-binding Proteins for Multiplex Imaging",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.08.03.668343",
+      "source": "bioRxiv — biochemistry",
+      "one_liner": "Fluorescent proteins have transformed biological imaging, yet their limited photostability and brightness restrict their applications. We used deep learning-based de novo protein design methods to design binders to three bright, stable and cell-permeable dyes spanning the imaging spectrum: JF657 (far red), JF596 (orange-red) and JF494 (green). We obtain h...",
+      "segment": 4,
+      "timestamp": 871.9,
+      "highlighted": true,
+      "relevance": 10.6,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Integrative Approaches in Protein Structure/Function Analysis, Design, and Engineering.",
+      "url": "https://doi.org/10.1007/10_2026_369",
+      "source": "PubMed — Advances in biochemical engineering/biotechnology",
+      "one_liner": "Over the past decade, protein design has drawn considerable attention and emerged as a promising tool for sustainable and efficient biocatalytic processes, driven by breakthroughs in DNA sequencing, gene synthesis, bioinformatics, and artificial intelligence. Enabled by strategies such as directed evolution, structure/function analysis, and (semi-)rationa...",
+      "segment": 1,
+      "timestamp": 190.53,
+      "highlighted": true,
+      "relevance": 9.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Corrigendum to \"AVP-GPT2: Prompt-conditioned fine-tuning of a GPT-2 protein language model for antiviral peptide identification\" [Eur. J. Med. Chem. 320 (2026) 119352].",
+      "url": "https://doi.org/10.1016/j.ejmech.2026.119409",
+      "source": "PubMed — European journal of medicinal chemistry",
+      "one_liner": "Not stated in source text (article content not provided; only a redirect URL was given).\n\nMETHOD / APPROACH:\nNot stated in source text.",
+      "segment": 2,
+      "timestamp": 427.5,
+      "highlighted": true,
+      "relevance": 10.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "3D CNN-CVAE and LSTM-guided de novo design of rotigotine derivatives targeting dopamine D1 and D3 receptors in restless legs syndrome.",
+      "url": "https://doi.org/10.1371/journal.pone.0356614",
+      "source": "PubMed — PloS one",
+      "one_liner": "Restless legs syndrome (RLS) is a chronic neurological disorder associated with altered dopaminergic signaling, while long-term dopamine agonist therapy may be limited by augmentation and reduced clinical benefit. This study applied a three-dimensional convolutional neural network conditional variational autoencoder integrated with long short-term memory ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "STSC-GNN: A sequence-derived topology-aware graph neural network for solvent-conditioned prediction of peptide structural composition.",
+      "url": "https://doi.org/10.1016/j.jmgm.2026.109606",
+      "source": "PubMed — Journal of molecular graphics & modelling",
+      "one_liner": "Peptide structural composition is strongly influenced by the surrounding solvent environment, making environment-dependent structural prediction important for understanding peptide conformational behavior and structural plasticity. However, many existing computational approaches primarily rely on sequence representations or static structural information a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 10.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural basis of serine protease inhibition by antibodies from biased Fab phage-display libraries.",
+      "url": "https://doi.org/10.1515/hsz-2026-0121",
+      "source": "PubMed — Biological chemistry",
+      "one_liner": "Biased Fab phage-display libraries were designed to determine whether inhibitory CDR H3 motifs from potent anti-matriptase antibodies could be transferred to target homologous serine proteases. Using reverse-binding and substrate-like H3 motifs from parental clones A11 and E2 as templates, six synthetic libraries with 10",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational modeling and expression of recombinant interleukin 15-R-Tf-D-LP4 peptide fusion protein: a potent candidate for hepatocellular carcinoma.",
+      "url": "https://doi.org/10.1007/s10529-026-03798-2",
+      "source": "PubMed — Biotechnology letters",
+      "one_liner": "Development of therapies that selectively inhibit cancer cells but leave normal cells untouched is an important impediment to progress in cancer therapy. This paper reports the novel strategy employing the R-Tf-D-LP4 peptide, an unconventional cell penetrating peptide selectively targeting liver cancer cells, combined with the potent antitumor cytokine in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The structural context of mutations in proteins predicts their effect on antibiotic resistance.",
+      "url": "https://doi.org/10.7554/eLife.109450",
+      "source": "PubMed — eLife",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Metabolic enzymes moonlighting as protein kinases and phosphatases.",
+      "url": "https://doi.org/10.1016/j.tibs.2026.09.006",
+      "source": "PubMed — Trends in biochemical sciences",
+      "one_liner": "Protein phosphorylation is a central and reversible mechanism regulating virtually all cellular processes and is classically mediated by the canonical protein kinome and phosphatome. However, beyond their traditional roles as metabolic catalysts, a subset of metabolic enzymes also exhibits noncanonical 'moonlighting' activities as protein kinases or phosp...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "How Does Life Unfold? A Landscape Metaphor Comes Into Its Own.",
+      "url": "https://www.quantamagazine.org/how-does-life-unfold-a-landscape-metaphor-comes-into-its-own-20261009/",
+      "source": "Quanta Magazine",
+      "one_liner": "C.H. Waddington’s powerful image of embryonic stem cells specializing on a rolling landscape has captivated biologists since the 1950s. Experimental data is finally confirming, and complicating, his visionary ideas. The post",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
