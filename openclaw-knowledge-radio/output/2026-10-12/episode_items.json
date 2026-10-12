@@ -1,0 +1,116 @@
+{
+  "timestamps": [
+    0.0,
+    282.72,
+    521.17,
+    745.89,
+    983.99,
+    1278.6
+  ],
+  "items": [
+    {
+      "title": "FunFOLD5: Combining Localised Templates and Structural Homology for Accurate Predictions of Biologically Relevant Protein-Ligand Interactions.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag762",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: A central challenge in protein-ligand modelling is to predict not only the presence of an interaction, but also the correct ligand identity, binding-site location, and biologically relevant bound conformation. While recent deep learning approaches such as AlphaFold3 and Boltz-2 have demonstrated impressive accuracy in modelling protein-ligand ...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 13.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Catching enhanced flexibility in antibody-antigen recognition: critical evaluation of physics-based and AI-driven methods.",
+      "url": "https://doi.org/10.1080/19420862.2026.2743404",
+      "source": "PubMed — mAbs",
+      "one_liner": "Protein conformational dynamics often govern protein-protein interaction mechanisms and function, as flexibility enables adaptation to different environments. Yet, the extent to which current physics‑based and emerging AI‑driven methods can predict flexibility‑dependent physicochemical properties remains to be determined. Here, we studied the HyHEL10 (Hy1...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Designing Protein Structures from Natural Language",
+      "url": "https://arxiv.org/abs/2610.13917",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.13917v1 Announce Type: cross \nAbstract: A central challenge in de novo protein design is generating proteins with desired structural and functional properties. Existing design models typically require a dedicated input representation for each property, limiting the design objectives they support. We develop Prompteina, the first all-atom struct...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 8.8,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "AI-Driven Design of Next-Generation Immunoinformatics Multi-Epitope Subunit Vaccine Targeting the Most Virulent Mpox Proteome: A Structural and Kinetic Validation Framework",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756542",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "The resurgence of the Mpox virus (MPXV) highlights the urgent need for scalable, mutation-resistant countermeasures. Slow development timelines hinder traditional empirical vaccine discovery, while conventional vaccinology often yields high false-positive rates because it relies on static, linear sequence-based screening. These classical informatics filte...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 6.0,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Inference-Time Steering Across Scaffolds and Epitopes for Sample-Efficient De Novo Nanobody Design",
+      "url": "https://arxiv.org/abs/2610.13844",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.13844v1 Announce Type: new \nAbstract: Generative molecular design typically relies on over-generation and post-hoc filtering. Inference-time steering methods like Feynman-Kac (FK) steering improve efficiency by biasing trajectories toward high-reward candidates, yet they optimize within a single fixed configuration. In de novo nanobody design, ...",
+      "segment": 3,
+      "timestamp": 745.89,
+      "highlighted": true,
+      "relevance": 9.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Stable isotope-derived measurements of protein synthesis detect amino acid-induced anabolism in skeletal muscle microtissues not captured by puromycin labelling.",
+      "url": "https://doi.org/10.1113/EP094100",
+      "source": "PubMed — Experimental physiology",
+      "one_liner": "Skeletal muscle microtissues are valuable in vitro models for studying the stimuli regulating muscle protein synthesis (MPS), the key determinant of changes in muscle mass. Differentiated between opposing posts, microtissues contain aligned, contractile myotubes, providing a controlled system for investigating the responses of skeletal muscle to nutrient ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "An IscS Persulfide Donates the Sulfur for Ribosomal Protein uL16 Thioamidation.",
+      "url": "https://doi.org/10.1002/anie.2523475",
+      "source": "PubMed — Angewandte Chemie (International ed. in English)",
+      "one_liner": "Posttranslational sulfur incorporation into peptide backbones is increasingly reported. These efforts broaden our understanding of thioamides, which have distinct conformational and hydrogen-bonding properties compared with amides. YcaO-catalyzed thioamidation of the ribosomal protein uL16 reportedly occurs across thousands of Pseudomonadota. Here, we ide...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
