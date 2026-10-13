@@ -1,0 +1,143 @@
+{
+  "timestamps": [
+    0.0,
+    252.06,
+    472.59,
+    636.51,
+    885.41,
+    1171.22
+  ],
+  "items": [
+    {
+      "title": "Transforming the Landscape of Drug Innovation in AI Era: AlphaFold 3 and Beyond.",
+      "url": "https://doi.org/10.1002/exp2.70236",
+      "source": "PubMed — Exploration (Beijing, China)",
+      "one_liner": "The traditional drug discovery and development (DDD) pipeline has long been characterized by inefficiency and high costs. The rapid evolution of artificial intelligence (AI), especially AI-based toolkits for protein structure and interaction prediction, exemplified by AlphaFold 3 (AF3), promises to reshape the landscape of drug innovation. AF3 advances st...",
+      "segment": 3,
+      "timestamp": 636.51,
+      "highlighted": true,
+      "relevance": 7.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AmyloCore-ML: AI/Machine Learning Enabled Identification of Amyloid Fibril Core Regions Using Protein Language Models",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754455",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Identification of amyloid forming regions in proteins remains central to understanding of their aggregation behaviour, which are central to various neurodegenerative and systemic disorders. Many predictors have been designed to identify amyloid forming regions, however they may not necessarily identify total residues found in actual disease associated fib...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 14.2,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Large-scale prospective evaluation of co-folding across hundreds of Mac1-ligand complexes and three virtual screens.",
+      "url": "https://doi.org/10.7554/eLife.110475",
+      "source": "PubMed — eLife",
+      "one_liner": "Accurate prediction of ligand-bound protein complexes and ranking them by affinity are central problems in drug discovery. While deep-learning co-folding methods can help address these challenges, their evaluation has been hampered by the difficulties in assessing independence from training data and insufficiently large test sets. Here, we test the abilit...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 10.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Chemoenzymatic Proline Isotope Labeling for Solution and Magic-Angle Spinning Protein Nuclear Magnetic Resonance.",
+      "url": "https://doi.org/10.1021/acschembio.6c00587",
+      "source": "PubMed — ACS chemical biology",
+      "one_liner": "The prevalence of proline residues in intrinsically disordered proteins, functional hinges of enzymes, and protein interaction sites highlights the importance of studying their local dynamics and interactions at atomic resolution. While nuclear magnetic resonance (NMR) spectroscopy is, in principle, ideally suited for such investigations, the absence of a...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 8.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Sequence‐encoded dynamics diversify allostery within a conserved protein scaffold",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70821?af=R",
+      "source": "Protein Science",
+      "one_liner": "Protein Science, Volume 35, Issue 11, November 2026.",
+      "segment": 3,
+      "timestamp": 636.51,
+      "highlighted": true,
+      "relevance": 6.0,
+      "tags": [
+        "protein"
+      ]
+    },
+    {
+      "title": "'broadSeq', a benchmarking tool to contrast differential gene expression methods and identify when genomic neighbourhood matters",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756406",
+      "source": "Rhiju Das (bioRxiv)",
+      "one_liner": "Several tools are available to detect differential gene expression. The predominant approach of different statistical methods is to consider changes in gene expression independent from their genomic context. Previously, DELocal was introduced that takes into consideration gene expression dynamics in the genomic neighbourhood. Whereas DELocal was shown to identify developmentally regulated genes in",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 1.0,
+      "tags": [
+        "protein-design",
+        "author"
+      ]
+    },
+    {
+      "title": "Immunoinformatics-based design and in silico evaluation of a multi-epitope vaccine candidate against Naegleria fowleri.",
+      "url": "https://doi.org/10.1016/j.humimm.2026.112108",
+      "source": "PubMed — Human immunology",
+      "one_liner": "Primary amoebic meningoencephalitis (PAM) is caused by Naegleria fowleri, a free-living amoeba. It is a fatal infection with more than 95% mortality rate. Even though several combinations of antimicrobial agents were used to treat the condition, the overall survival remains poor and no effective vaccine is currently available. In this study, an immunoinfo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Interactions between immunoglobulin evasion systems in",
+      "url": "https://doi.org/10.1128/iai.00373-26",
+      "source": "PubMed — Infection and immunity",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Is ‘Attention’ the Essence of Intelligence?",
+      "url": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+      "source": "Quanta Magazine",
+      "one_liner": "A mathematical mechanism enables AI models to process language at scale, undergirding the current AI revolution. Our columnist asks: Why is attention the key? The post Is ‘Attention’ the Essence of Intelligence? first appeared on <...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}

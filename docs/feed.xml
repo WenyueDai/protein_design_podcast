@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 08:58:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 09:15:19 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-10-13</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-13/podcast_2026-10-13.mp3</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-13/podcast_2026-10-13.mp3" length="10789005" type="audio/mpeg" />
+      <description>The biggest shift today is that AI is no longer just predicting static structures — it&#x27;s starting to predict the messy, dynamic reality of how proteins actually behave in disease and in drug discovery. | But structure alone still misses the real action in many diseases. | Meanwhile, the field&#x27;s obsession with retrospective benchmarks is finally getting called out.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The biggest shift today is that AI is no longer just predicting static structures — it&#x27;s starting to predict the messy, dynamic reality of how proteins actually behave in disease and in drug discovery. | But structure alone still misses the real action in many diseases. | Meanwhile, the field&#x27;s obsession with retrospective benchmarks is finally getting called out.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-10-12</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-12/podcast_2026-10-12.mp3</guid>
       <pubDate>Mon, 12 Oct 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-12/podcast_2026-10-12.mp3" length="11475525" type="audio/mpeg" />
-      <description>The biggest shift today is that natural language is becoming a first-class input for protein design, not just a documentation afterthought. | The second shift is that inference-time compute is being treated as a budget to allocate, not a fixed cost to burn. | The third shift is that flexibility is no longer a bug to be averaged out — it&#x27;s the signal.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-12/podcast_2026-10-12.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The biggest shift today is that natural language is becoming a first-class input for protein design, not just a documentation afterthought. | The second shift is that inference-time compute is being treated as a budget to allocate, not a fixed cost to burn. | The third shift is that flexibility is no longer a bug to be averaged out — it&#x27;s the signal.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-09/podcast_2026-08-09.mp3</guid>
       <pubDate>Sun, 09 Aug 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-09/podcast_2026-08-09.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-08-08</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-08/podcast_2026-08-08.mp3</guid>
-      <pubDate>Sat, 08 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-08/podcast_2026-08-08.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
