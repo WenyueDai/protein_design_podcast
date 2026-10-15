@@ -1,0 +1,204 @@
+{
+  "timestamps": [
+    0.0,
+    300.02,
+    577.59,
+    839.89,
+    1119.23,
+    1393.48
+  ],
+  "items": [
+    {
+      "title": "RNADaemon: Reinforcement Learning-Guided Molecular Dynamics for RNA Tertiary Structure Prediction.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c02247",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Accurate prediction of RNA tertiary structure remains a central challenge in structural biology, yet existing computational approaches face fundamental limitations arising from the ruggedness of the RNA free-energy landscape and the scarcity of experimentally resolved structures. Here we present RNADaemon, a framework that formulates RNA tertiary structur...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 7.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProtModernBERT: Compute-Efficient Protein Language Modeling",
+      "url": "https://arxiv.org/abs/2610.19738",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.19738v1 Announce Type: cross \nAbstract: Large protein language models provide a powerful framework for learning sequence-function relationships and guiding experimental design. However, architectural improvements are underexplored, especially in low-compute regimes of relevance for resource-constrained research laboratories. We show that the tr...",
+      "segment": 3,
+      "timestamp": 839.89,
+      "highlighted": true,
+      "relevance": 12.6,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "CryoTriplane: Triplane-based Neural Radiance Field Representation for High-resolution Cryo-EM 3D Homogeneous Reconstruction.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag754",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Determining the three-dimensional (3D) structure of proteins is a cornerstone of structural biology, providing essential insights into their underlying biological mechanisms and functional roles. Cryogenic electron microscopy (cryo-EM) single-particle analysis allows researchers to investigate biomolecules at near-atomic resolutions, unravelin...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 8.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Programming Targeted Immune Cell Migration Using Orthogonal Chemokine-Receptor Pairs",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758398",
+      "source": "bioRxiv — synthetic biology",
+      "one_liner": "Chemokines orchestrate the migration of immune cells throughout the body, but harnessing chemokine signaling to engineer targeted cell trafficking is challenging because of their overlapping interactions and broad expression patterns. Here we used structure-guided protein design to engineer orthogonal chemokine-receptor pairs with minimal crosstalk to nat...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 6.8,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Expanding the capabilities of capillary electrophoresis for determining protein-DNA binding affinities: physiological conditions and mPEG-silane coating for sticky proteins.",
+      "url": "https://doi.org/10.1016/j.ab.2026.116271",
+      "source": "PubMed — Analytical biochemistry",
+      "one_liner": "Measuring binding affinities of proteins to their specific sites in double-stranded (ds) DNA yields one of the fundamental parameters for characterizing protein-DNA interactions. Although many methods for determining binding affinities exist, all methods have limitations. Adding new approaches will enhance cross-validations and expand the range of targets...",
+      "segment": 5,
+      "timestamp": 1393.48,
+      "highlighted": true,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Engineering acid-sensing ion channel 1a with disrupted desensitization: A computer-guided approach.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.154826",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Human Acid-Sensing Ion Channel 1a (hASIC1a) is a complex, multi-state membrane macromolecule whose rapid desensitization limits its application as a natural biosensor. To manipulate these structural dynamics, we designed and applied an integrative computational approach, combining protein residue network analysis and a machine learning-based functional si...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Do Vision CIL Methods Transfer to Protein? A Diagnostic Benchmark of Frozen Protein Encoders",
+      "url": "https://arxiv.org/abs/2610.18879",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.18879v1 Announce Type: cross \nAbstract: Protein function annotation operates over an expanding label space, making class-incremental learning (CIL) a natural framework for incorporating newly discovered functions without full retraining. Yet existing CIL methods have been developed largely in vision and have not been systematically evaluated ov...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Primer: Functions and evolution of viral proteins.",
+      "url": "https://doi.org/10.1128/jvi.01202-26",
+      "source": "PubMed — Journal of virology",
+      "one_liner": "Viruses encode an enormous variety of proteins that jointly comprise the largest pool of protein diversity on Earth. At coarse grain, the viral pan-proteome can be partitioned into four classes of proteins that differ in their evolutionary conservation, spread across the virosphere, and broadly defined functionality: (i) viral hallmark proteins (VHPs) tha...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Musical Peptide: Fragmentation of Musical Protein for AI-driven Bioactive Peptide Discovery Based on a New DeepPepQSAR Pipeline.",
+      "url": "https://doi.org/10.1007/s12539-026-00882-z",
+      "source": "PubMed — Interdisciplinary sciences, computational life sciences",
+      "one_liner": "Musical protein (MPro), the protein defined by music (namely biologization of music), is a reverse operation of the traditional life music that addresses the sonification of biomolecule to musical audio. We previously described a computational strategy for MPro facilitation, which maps the time sequence of music onto the spatial architecture of protein. H...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Orthogonal Fc engineering enables multiplexed delivery of mRNA-encoded bispecific antibodies that constrain viral escape.",
+      "url": "https://doi.org/10.1126/scitranslmed.aeh1292",
+      "source": "PubMed — Science translational medicine",
+      "one_liner": "The continuous antigenic evolution of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has repeatedly undermined the effectiveness of monoclonal antibody (mAb) therapies, underscoring the need for innovative approaches that improve therapeutic mAb breadth and durability of protection. Here, we engineered messenger ribonucleic acid (mRNA)-encod...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Refined Topology-Pass Scheduling: Damped Trust-Region Compensation for Dynamic k-NN Graphs in SE(3)-Equivariant Structure Prediction",
+      "url": "https://arxiv.org/abs/2610.19246",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.19246v1 Announce Type: new \nAbstract: Equivariant structure-prediction pipelines alternate coordinate updates with the construction of a k-nearest-neighbour (kNN) graph whose membership is a discrete, piecewise-constant function of the coordinates. Rebuilding that graph at every block boundary (PB) is the expensive part of an epoch, whereas reu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "InstructPro2: Natural Language and Biological Grounding Guided De Novo Protein Design",
+      "url": "https://arxiv.org/abs/2610.19592",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.19592v1 Announce Type: new \nAbstract: The ability to generate proteins with desired functions is a central goal of computational biology. Although natural language can express diverse design objectives, existing protein generation methods often support only narrow tasks or make limited use of biological constraints. We develop InstructPro2 to t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 12.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Triplet of ‘Ghostly’ Galaxies Hints at What Dark Matter Is — and Isn’t",
+      "url": "https://www.quantamagazine.org/triplet-of-ghostly-galaxies-hints-at-what-dark-matter-is-and-isnt-20261014/",
+      "source": "Quanta Magazine",
+      "one_liner": "A collision may have left these galaxies without dark matter. That spells trouble for alternative gravity theories. The post Triplet of ‘Ghostly’ Galaxies Hints at What Dark Matter Is — and Isn’t first appe...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 07:26:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 07:21:46 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-10-15</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-15/podcast_2026-10-15.mp3</guid>
+      <pubDate>Thu, 15 Oct 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-15/podcast_2026-10-15.mp3" length="12320109" type="audio/mpeg" />
+      <description>The biggest shift today is that compute efficiency in protein language modeling is no longer a trade-off you accept — it&#x27;s a design choice you can optimize. | The second major shift is in immune cell engineering: we&#x27;re moving from broad, systemic immune modulation to precise, programmable cell migration. | The third shift is in structural biology itself: we&#x27;re finally getting tools that can handle the ruggedness of the RNA free-energy landscape without relying on massive experimental datasets.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The biggest shift today is that compute efficiency in protein language modeling is no longer a trade-off you accept — it&#x27;s a design choice you can optimize. | The second major shift is in immune cell engineering: we&#x27;re moving from broad, systemic immune modulation to precise, programmable cell migration. | The third shift is in structural biology itself: we&#x27;re finally getting tools that can handle the ruggedness of the RNA free-energy landscape without relying on massive experimental datasets.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-10-14</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-14/podcast_2026-10-14.mp3</guid>
       <pubDate>Wed, 14 Oct 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-14/podcast_2026-10-14.mp3" length="11321805" type="audio/mpeg" />
-      <description>The field&#x27;s confidence in structure prediction for disordered proteins just got a serious reality check. | Meanwhile, Boltz-2 is showing us that generative structure prediction can rank kinase inhibitors with surprising accuracy, hitting Pearson correlations of 0.81 to 0.82 against experimental IC50 values across diverse wild-type kinase pairs. | The peptide optimization world is getting a dose of interpretability with PepOpt, which combines position-specific ECFP4 fingerprints with a Bayesian Ridge linear model and dynamic programming to navigate design spaces exceeding 10^14 sequences.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-14/podcast_2026-10-14.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The field&#x27;s confidence in structure prediction for disordered proteins just got a serious reality check. | Meanwhile, Boltz-2 is showing us that generative structure prediction can rank kinase inhibitors with surprising accuracy, hitting Pearson correlations of 0.81 to 0.82 against experimental IC50 values across diverse wild-type kinase pairs. | The peptide optimization world is getting a dose of interpretability with PepOpt, which combines position-specific ECFP4 fingerprints with a Bayesian Ridge linear model and dynamic programming to navigate design spaces exceeding 10^14 sequences.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-11/podcast_2026-08-11.mp3</guid>
       <pubDate>Tue, 11 Aug 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-11/podcast_2026-08-11.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-08-10</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-10/podcast_2026-08-10.mp3</guid>
-      <pubDate>Mon, 10 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-10/podcast_2026-08-10.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
