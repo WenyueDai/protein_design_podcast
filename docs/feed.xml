@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 07:21:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 07:02:48 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-10-16</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-16/podcast_2026-10-16.mp3</guid>
+      <pubDate>Fri, 16 Oct 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-16/podcast_2026-10-16.mp3" length="12108261" type="audio/mpeg" />
+      <description>The field has been moving toward treating protein design as a systems-level engineering problem rather than a collection of isolated molecular puzzles, and today&#x27;s papers make that shift feel almost tangible. | For years, antibody developability was assessed with tools built for conventional IgGs — bulky, two-chain molecules with long hinge regions and glycosylation sites. | Meanwhile, structure prediction for large protein assemblies has been stuck in a paradox.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field has been moving toward treating protein design as a systems-level engineering problem rather than a collection of isolated molecular puzzles, and today&#x27;s papers make that shift feel almost tangible. | For years, antibody developability was assessed with tools built for conventional IgGs — bulky, two-chain molecules with long hinge regions and glycosylation sites. | Meanwhile, structure prediction for large protein assemblies has been stuck in a paradox.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-10-15</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-15/podcast_2026-10-15.mp3</guid>
       <pubDate>Thu, 15 Oct 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-15/podcast_2026-10-15.mp3" length="12320109" type="audio/mpeg" />
-      <description>The biggest shift today is that compute efficiency in protein language modeling is no longer a trade-off you accept — it&#x27;s a design choice you can optimize. | The second major shift is in immune cell engineering: we&#x27;re moving from broad, systemic immune modulation to precise, programmable cell migration. | The third shift is in structural biology itself: we&#x27;re finally getting tools that can handle the ruggedness of the RNA free-energy landscape without relying on massive experimental datasets.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-15/podcast_2026-10-15.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The biggest shift today is that compute efficiency in protein language modeling is no longer a trade-off you accept — it&#x27;s a design choice you can optimize. | The second major shift is in immune cell engineering: we&#x27;re moving from broad, systemic immune modulation to precise, programmable cell migration. | The third shift is in structural biology itself: we&#x27;re finally getting tools that can handle the ruggedness of the RNA free-energy landscape without relying on massive experimental datasets.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-12/podcast_2026-08-12.mp3</guid>
       <pubDate>Wed, 12 Aug 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-12/podcast_2026-08-12.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-08-11</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-11/podcast_2026-08-11.mp3</guid>
-      <pubDate>Tue, 11 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-11/podcast_2026-08-11.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
