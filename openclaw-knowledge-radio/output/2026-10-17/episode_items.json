@@ -1,0 +1,131 @@
+{
+  "timestamps": [
+    0.0,
+    260.28,
+    541.09,
+    809.03,
+    1051.97,
+    1312.58
+  ],
+  "items": [
+    {
+      "title": "Seq2Pocket: Augmenting protein language models for spatially consistent binding site prediction.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag778",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Protein-ligand binding site prediction (LBS) is important for many areas of structural biology and molecular modeling, where, as in other tasks, protein language models (pLMs) have shown great promise. In their application to LBS, the pLM classifies each amino acid as binding or not, but translating these predictions into three-dimensional bin...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 15.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Fluorogenic Cysteine-Tetrapeptide Tagging Strategy for Nonperturbative Protein Labeling and Protein-Ligand Interaction Tracking.",
+      "url": "https://doi.org/10.1002/advs.78324",
+      "source": "PubMed — Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "one_liner": "Fluorescent labeling approaches are essential for visualizing protein dynamics and dissecting biological processes in living systems. However, existing strategies may cause structural perturbations or require extensive protein engineering. Here, we report a fast, site-selective, and fluorogenic labeling strategy based on a compact four-residue peptide tag...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 11.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-informed characterization of a nanobody-based tandem-NanoBiT probe for homogeneous immunoassay to detect parathion in food.",
+      "url": "https://doi.org/10.1016/j.bios.2026.119342",
+      "source": "PubMed — Biosensors & bioelectronics",
+      "one_liner": "Functionalizing nanobodies (Nbs) is a crucial step in developing Nbs-based immunoassays. However, this process often requires empirical optimization of numerous parameters through iterative experiments. Herein, we show that combining structural modeling of AlphaFold2 with molecular dynamics (MD) simulations is capable of predicting the conformational chan...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 9.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural analysis of de novo-designed binders targeting the closed state of HSP90.",
+      "url": "https://doi.org/10.1016/j.str.2026.09.007",
+      "source": "PubMed — Structure (London, England : 1993)",
+      "one_liner": "Heat shock protein 90 (HSP90) assists the folding and maturation of numerous signaling proteins and is an important therapeutic target. Most HSP90 inhibitors target the ATP-binding pocket and disrupt ATP-induced closure, whereas inhibitors targeting the closed state have not been developed. Here, we report de novo-designed protein binders that selectively...",
+      "segment": 1,
+      "timestamp": 260.28,
+      "highlighted": true,
+      "relevance": 10.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "He Wants AI Benchmarking To Be a Science, Not a Dark Art",
+      "url": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/",
+      "source": "Quanta Magazine",
+      "one_liner": "Moritz Hardt, author of a new book on benchmarks, believes these “standardized tests” for artificial intelligence are fundamentally broken — but not unfixable. The post He Wants AI Benchmarking To Be a Science, Not a Dar...",
+      "segment": 4,
+      "timestamp": 1051.97,
+      "highlighted": true,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    },
+    {
+      "title": "Degradation-coupled antibody conjugates for precision cancer therapy.",
+      "url": "https://doi.org/10.1016/j.molmed.2026.09.014",
+      "source": "PubMed — Trends in molecular medicine",
+      "one_liner": "Antibody-drug conjugates (ADCs) are an important class of targeted cancer therapeutics that selectively deliver potent cytotoxic payloads to tumor cells through antibody-mediated targeting. However, the efficacy of some ADCs can be limited by inefficient target protein (e.g., membrane receptor) internalization and lysosomal trafficking, which determine in...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Small proteins CrgA and Rv0207c modulate the essential mycolic acid transporter MmpL3.",
+      "url": "https://doi.org/10.1016/j.jbc.2026.113658",
+      "source": "PubMed — The Journal of biological chemistry",
+      "one_liner": "MmpL protein complexes are major contributors to lipid/metabolite and drug transport in Mycobacterium tuberculosis and related mycobacteria and are important targets in current drug discovery efforts. At the core of these complexes are proton-motive force driven transporters belonging to the Resistance-Nodulation-cell Division superfamily of proteins that...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Yeast Surface Display for Efficient Generation of Nanobody-Based Human IgG Targeting the 11S Globulin From Hazelnut, Cor a 9.",
+      "url": "https://doi.org/10.1111/cea.70454",
+      "source": "PubMed — Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
+      "one_liner": "",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
