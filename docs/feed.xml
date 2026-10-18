@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 06:52:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 07:12:26 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-10-18</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-18/podcast_2026-10-18.mp3</guid>
+      <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-18/podcast_2026-10-18.mp3" length="11107677" type="audio/mpeg" />
+      <description>The field of protein-ligand interaction prediction has been stuck between two camps for years: the physics purists who write down fixed equations for electrostatic and van der Waals forces, and the data-driven crowd who throw neural networks at everything and hope the training data covers the physics. | PATHNet, from a bioRxiv preprint this week, doesn&#x27;t just add a neural network on top of a physics equation. | Meanwhile, a companion bioRxiv paper on distance-based binding affinity prediction is doing something almost heretical: it throws out the fixed power exponents that have been baked into scoring functions since the 1980s.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field of protein-ligand interaction prediction has been stuck between two camps for years: the physics purists who write down fixed equations for electrostatic and van der Waals forces, and the data-driven crowd who throw neural networks at everything and hope the training data covers the physics. | PATHNet, from a bioRxiv preprint this week, doesn&#x27;t just add a neural network on top of a physics equation. | Meanwhile, a companion bioRxiv paper on distance-based binding affinity prediction is doing something almost heretical: it throws out the fixed power exponents that have been baked into scoring functions since the 1980s.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-10-17</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-17/podcast_2026-10-17.mp3</guid>
       <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-17/podcast_2026-10-17.mp3" length="11812413" type="audio/mpeg" />
-      <description>The field is moving away from treating protein language models as pure sequence-to-function predictors and toward architectures that bake in three-dimensional spatial consistency from the start. | At the same time, a fluorogenic cysteine-tetrapeptide tagging strategy published in Advanced Science is quietly solving a problem that has haunted live-cell protein labeling for years. | The nanobody-based tandem-NanoBiT probe work in Biosensors &amp; Bioelectronics represents a different kind of shift — one where structural modeling stops being a hypothesis generator and starts being a design engine.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-17/podcast_2026-10-17.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The field is moving away from treating protein language models as pure sequence-to-function predictors and toward architectures that bake in three-dimensional spatial consistency from the start. | At the same time, a fluorogenic cysteine-tetrapeptide tagging strategy published in Advanced Science is quietly solving a problem that has haunted live-cell protein labeling for years. | The nanobody-based tandem-NanoBiT probe work in Biosensors &amp; Bioelectronics represents a different kind of shift — one where structural modeling stops being a hypothesis generator and starts being a design engine.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-14/podcast_2026-08-14.mp3</guid>
       <pubDate>Fri, 14 Aug 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-14/podcast_2026-08-14.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-08-13</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-13/podcast_2026-08-13.mp3</guid>
-      <pubDate>Thu, 13 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-13/podcast_2026-08-13.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

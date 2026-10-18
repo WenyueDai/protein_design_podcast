@@ -1,0 +1,147 @@
+{
+  "timestamps": [
+    0.0,
+    233.84,
+    487.11,
+    770.29,
+    984.45,
+    1244.6
+  ],
+  "items": [
+    {
+      "title": "PATHNet: A Thermodynamic Path-Integral-Inspired Neural Network for Protein-Ligand Interaction Prediction",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758399",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein-ligand scoring functions must capture strongly nonlinear, target-dependent binding physics while remaining generalizable beyond their training data, a balance that purely analytic and purely data-driven models each struggle to achieve on their own. We present PATHNet, a physics-informed framework that learns this unknown functional relationship fr...",
+      "segment": 1,
+      "timestamp": 233.84,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Exploring the Upper Boundaries of Distance-Based Protein-Ligand Binding Affinity Prediction: Accuracy Improvements via Linear Regression and Artificial Neural Networks",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680851",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "The traditional scoring functions for protein-ligand binding affinity prediction usually adopt fixed mathematical formulas to characterize atomic interaction energies, where electrostatic interactions are described by the a/r function and van der Waals interactions by the b/r^6 -c/r^12 function. These fixed power exponents of distance-based variables seve...",
+      "segment": 3,
+      "timestamp": 770.29,
+      "highlighted": true,
+      "relevance": 9.0,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computational Design of a TCR-like Human V",
+      "url": "https://doi.org/10.34133/csbj.0236",
+      "source": "PubMed — Computational and structural biotechnology journal",
+      "one_liner": "T cell receptor (TCR)-like antibodies that recognize a peptide-major histocompatibility complex (pMHC) can enable precise targeting of cancer cells, but developing single-domain binders with high specificity and affinity is challenging. Here, we report the computational design and experimental validation of a TCR-like human heavy chain variable (V",
+      "segment": 4,
+      "timestamp": 984.45,
+      "highlighted": true,
+      "relevance": 8.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Deep Learning Framework for Accurate lncRNA-Protein Interaction Prediction via Multi-Kernel Graph Embeddings and Self-Attention.",
+      "url": "https://doi.org/10.1007/s12539-026-00872-1",
+      "source": "PubMed — Interdisciplinary sciences, computational life sciences",
+      "one_liner": "Long non-coding RNAs (lncRNAs) play a pivotal role in regulating biological processes, primarily through lncRNA-Protein Interactions (LPI), which are crucial for understanding disease mechanisms and cellular functions. While computational methods exist for predicting LPI, they suffer from suboptimal feature integration, limited generalizability, and inade...",
+      "segment": 1,
+      "timestamp": 233.84,
+      "highlighted": true,
+      "relevance": 5.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-based development of Glypican-3-targeting peptide candidates for hepatocellular carcinoma.",
+      "url": "https://doi.org/10.1007/s13205-026-05092-4",
+      "source": "PubMed — 3 Biotech",
+      "one_liner": "UNLABELLED: Hepatocellular carcinoma remains highly lethal, and extracellular GPC3 provides a tumor-associated surface target for structure-guided peptide design. This study established an entirely in silico workflow for de novo discovery and prioritization of GPC3-targeting peptide candidates using the human GPC3 structure from Protein Data Bank entry 7Z...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 6.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Solution structure of a peptide-conjugated aggregation-induced-emission (AIE) fluorophore bound to a protein.",
+      "url": "https://doi.org/10.1039/d6cb00109b",
+      "source": "PubMed — RSC chemical biology",
+      "one_liner": "Here, we present a class of peptide-conjugated fluorophores based on aromatic thioethers with aggregation-induced emission (AIE) properties for specific recognition of small proteins and also the first solution NMR structure of an AIE ligand specifically bound to a protein. Binding of the hPin1-WW domain as a model protein resulted in a significant fluore...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cryo-EM Reveals VP1/VP2 N-Terminal Conformations in Adeno-Associated Virus 2 Capsids.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759763",
+      "source": "bioRxiv — biophysics",
+      "one_liner": "The AAV2 capsid assembles from three viral proteins, VP1, VP2, and VP3, expressed from a single cap gene. In the assembled T=1 60-subunit icosahedral capsid, they have a canonical stoichiometry of 1:1:10. Relative to VP3, VP1 and VP2 have N-terminal extensions that are required for endosomal escape and nuclear trafficking; however, these regions remain po...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Directed evolution of L-DOPA sensing and production enables efficient incorporation of an expanded genetic code into proteins",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.06.26.661824",
+      "source": "bioRxiv — synthetic biology",
+      "one_liner": "L-3,4-dihydroxyphenylalanine (L-DOPA), is a versatile catechol-containing amino acid derived from L-tyrosine that is both a key metabolite for the production of many valuable natural products and a naturally occurring post-translational modification in proteins. While advances in microbial natural product biosynthesis and site-specific incorporation of L-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.2,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Lipid-based mRNA chimeric antigen receptor T cells for enhanced",
+      "url": "https://doi.org/10.1016/j.isci.2026.117390",
+      "source": "PubMed — iScience",
+      "one_liner": "Chimeric antigen receptor (CAR) T cell therapy provides substantial clinical benefits in hematologic malignancies. However, cell engineering using conventional viral vectors is costly, labor intensive, and prone to safety risks, while electroporation-induced cellular damage limits manufacturing scalability. This study reports a safe, high-efficiency, nonv...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}

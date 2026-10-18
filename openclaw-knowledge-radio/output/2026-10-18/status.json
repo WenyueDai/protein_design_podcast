@@ -1,0 +1,304 @@
+{
+  "date": "2026-10-18",
+  "time": "2026-10-18T08:12:26+01:00",
+  "n_items_raw": 9,
+  "n_items_used": 9,
+  "lookback_hours": 24,
+  "run_anchor": "2026-10-18T08:04:34+01:00",
+  "pubmed_matches": 122,
+  "biorxiv_keyword_matches": 13,
+  "biorxiv_author_matches": 0,
+  "collector_counts": {
+    "rss": 1,
+    "pubmed": 122,
+    "biorxiv_keywords": 13,
+    "biorxiv_authors": 0,
+    "s2_authors": 0,
+    "daily_knowledge": 0,
+    "wiki_context": 0
+  },
+  "collected_by_source_type": {
+    "pubmed": 122,
+    "biorxiv": 13,
+    "rss": 1
+  },
+  "collected_by_source": {
+    "PubMed \u2014 3 Biotech": 5,
+    "bioRxiv \u2014 biophysics": 5,
+    "PubMed \u2014 Molecular cell": 4,
+    "PubMed \u2014 iScience": 4,
+    "PubMed \u2014 Science advances": 4,
+    "PubMed \u2014 Proceedings of the National Academy of Sciences of the United States of America": 4,
+    "PubMed \u2014 Molecular biology reports": 3,
+    "PubMed \u2014 Bioorganic chemistry": 3,
+    "PubMed \u2014 Beijing da xue xue bao. Yi xue ban = Journal of Peking University. Health sciences": 3,
+    "bioRxiv \u2014 biochemistry": 3,
+    "PubMed \u2014 Nanoscale": 2,
+    "PubMed \u2014 Journal of computer-aided molecular design": 2,
+    "PubMed \u2014 Physiological measurement": 2,
+    "PubMed \u2014 Journal of visualized experiments : JoVE": 2,
+    "PubMed \u2014 RSC chemical biology": 2,
+    "PubMed \u2014 Plant direct": 2,
+    "PubMed \u2014 Plastic and reconstructive surgery. Global open": 2,
+    "PubMed \u2014 Advanced science (Weinheim, Baden-Wurttemberg, Germany)": 2,
+    "PubMed \u2014 Nature chemical biology": 2,
+    "PubMed \u2014 International journal of biological macromolecules": 2,
+    "bioRxiv \u2014 systems biology": 2,
+    "bioRxiv \u2014 bioinformatics": 2,
+    "Endpoints News": 1,
+    "PubMed \u2014 Structure (London, England : 1993)": 1,
+    "PubMed \u2014 Science (New York, N.Y.)": 1,
+    "PubMed \u2014 Clinical cancer research : an official journal of the American Association for Cancer Research": 1,
+    "PubMed \u2014 Computational and structural biotechnology journal": 1,
+    "PubMed \u2014 Journal of controlled release : official journal of the Controlled Release Society": 1,
+    "PubMed \u2014 Human immunology": 1,
+    "PubMed \u2014 Journal of environmental management": 1,
+    "PubMed \u2014 Journal of pharmaceutical and biomedical analysis": 1,
+    "PubMed \u2014 Small methods": 1,
+    "PubMed \u2014 RNA (New York, N.Y.)": 1,
+    "PubMed \u2014 Bioinformatics (Oxford, England)": 1,
+    "PubMed \u2014 Nucleic acids research": 1,
+    "PubMed \u2014 Journal of hematology & oncology": 1,
+    "PubMed \u2014 Science bulletin": 1,
+    "PubMed \u2014 Journal of experimental botany": 1,
+    "PubMed \u2014 Interdisciplinary sciences, computational life sciences": 1,
+    "PubMed \u2014 IEEE transactions on computational biology and bioinformatics": 1,
+    "PubMed \u2014 Neuroscience": 1,
+    "PubMed \u2014 Behavioural brain research": 1,
+    "PubMed \u2014 Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery": 1,
+    "PubMed \u2014 Chronobiology international": 1,
+    "PubMed \u2014 Mitochondrial DNA. Part B, Resources": 1,
+    "PubMed \u2014 International journal of microbiology": 1,
+    "PubMed \u2014 Case reports in perinatal medicine": 1,
+    "PubMed \u2014 Conservation physiology": 1,
+    "PubMed \u2014 JCEM case reports": 1,
+    "PubMed \u2014 Case reports in hematology": 1,
+    "PubMed \u2014 IJU case reports": 1,
+    "PubMed \u2014 Alzheimer's & dementia (New York, N. Y.)": 1,
+    "PubMed \u2014 Ecology and evolution": 1,
+    "PubMed \u2014 JPGN reports": 1,
+    "PubMed \u2014 Journal of ophthalmology": 1,
+    "PubMed \u2014 Cureus": 1,
+    "PubMed \u2014 Journal of extracellular biology": 1,
+    "PubMed \u2014 NAR genomics and bioinformatics": 1,
+    "PubMed \u2014 RSC advances": 1,
+    "PubMed \u2014 Cancer science": 1,
+    "PubMed \u2014 Brain structure & function": 1,
+    "PubMed \u2014 Journal of imaging informatics in medicine": 1,
+    "PubMed \u2014 Digestive and liver disease : official journal of the Italian Society of Gastroenterology and the Italian Association for the Study of the Liver": 1,
+    "PubMed \u2014 F&S science": 1,
+    "PubMed \u2014 Environmental research": 1,
+    "PubMed \u2014 Journal of neuroscience methods": 1,
+    "PubMed \u2014 Physics in medicine and biology": 1,
+    "PubMed \u2014 Biomedical physics & engineering express": 1,
+    "PubMed \u2014 Research in developmental disabilities": 1,
+    "PubMed \u2014 Acta psychologica": 1,
+    "PubMed \u2014 PloS one": 1,
+    "PubMed \u2014 IEEE transactions on medical imaging": 1,
+    "PubMed \u2014 Traffic injury prevention": 1,
+    "PubMed \u2014 Journal of gastroenterology and hepatology": 1,
+    "PubMed \u2014 Technology and health care : official journal of the European Society for Engineering and Medicine": 1,
+    "PubMed \u2014 Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG": 1,
+    "PubMed \u2014 Computers in biology and medicine": 1,
+    "PubMed \u2014 The Journal of neuroscience : the official journal of the Society for Neuroscience": 1,
+    "PubMed \u2014 IEEE transactions on pattern analysis and machine intelligence": 1,
+    "PubMed \u2014 Small (Weinheim an der Bergstrasse, Germany)": 1,
+    "PubMed \u2014 NeuroImage": 1,
+    "PubMed \u2014 Biosensors & bioelectronics": 1,
+    "PubMed \u2014 Handbook of experimental pharmacology": 1,
+    "PubMed \u2014 Nature plants": 1,
+    "PubMed \u2014 The Journal of biological chemistry": 1,
+    "PubMed \u2014 American journal of obstetrics and gynecology": 1,
+    "PubMed \u2014 International journal of pharmaceutics": 1,
+    "PubMed \u2014 Food chemistry": 1,
+    "PubMed \u2014 Annals of biomedical engineering": 1,
+    "PubMed \u2014 The Journal of cell biology": 1,
+    "PubMed \u2014 The Analyst": 1,
+    "PubMed \u2014 Journal of animal science": 1,
+    "PubMed \u2014 Journal of enzyme inhibition and medicinal chemistry": 1,
+    "PubMed \u2014 Molecular medicine reports": 1,
+    "PubMed \u2014 The ocular surface": 1,
+    "bioRxiv \u2014 synthetic biology": 1
+  },
+  "rss_diagnostics": {
+    "Nature Chemical Biology": {
+      "http_status": 200,
+      "raw_entries": 8,
+      "kept": 0,
+      "newest_entry": "2026-10-16T00:00:00",
+      "error": null
+    },
+    "Nature Structural & Molecular Biology": {
+      "http_status": 200,
+      "raw_entries": 8,
+      "kept": 0,
+      "newest_entry": "2026-10-14T00:00:00",
+      "error": null
+    },
+    "Nature - Protein Engineering": {
+      "http_status": 200,
+      "raw_entries": 30,
+      "kept": 0,
+      "newest_entry": "2026-10-12T00:00:00+00:00",
+      "error": null
+    },
+    "Nature (main journal)": {
+      "http_status": 200,
+      "raw_entries": 75,
+      "kept": 0,
+      "newest_entry": "2026-10-16T00:00:00",
+      "error": null
+    },
+    "Structure": {
+      "http_status": 200,
+      "raw_entries": 15,
+      "kept": 0,
+      "newest_entry": "2026-10-16T00:00:00",
+      "error": null
+    },
+    "Quanta Magazine": {
+      "http_status": 200,
+      "raw_entries": 5,
+      "kept": 0,
+      "newest_entry": "2026-10-16T13:25:08+00:00",
+      "error": null
+    },
+    "Protein Science": {
+      "http_status": 200,
+      "raw_entries": 20,
+      "kept": 0,
+      "newest_entry": "2026-10-15T23:02:52-07:00",
+      "error": null
+    },
+    "PNAS": {
+      "http_status": 200,
+      "raw_entries": 97,
+      "kept": 0,
+      "newest_entry": "2026-10-13T07:00:00+00:00",
+      "error": null
+    },
+    "Nature - Protein Design": {
+      "http_status": 200,
+      "raw_entries": 30,
+      "kept": 0,
+      "newest_entry": "2026-10-16T00:00:00+00:00",
+      "error": null
+    },
+    "Nature Methods": {
+      "http_status": 200,
+      "raw_entries": 8,
+      "kept": 0,
+      "newest_entry": "2026-10-16T00:00:00",
+      "error": null
+    },
+    "Nature - Antibodies": {
+      "http_status": 200,
+      "raw_entries": 30,
+      "kept": 0,
+      "newest_entry": "2026-10-17T00:00:00+00:00",
+      "error": null
+    },
+    "A-Alpha Bio (To Affinity And Beyond)": {
+      "http_status": 403,
+      "raw_entries": 0,
+      "kept": 0,
+      "newest_entry": null,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://aalphabio.substack.com/feed"
+    },
+    "Endpoints News": {
+      "http_status": 200,
+      "raw_entries": 24,
+      "kept": 1,
+      "newest_entry": "2026-10-17T10:00:16+00:00",
+      "error": null
+    },
+    "Some Thoughts on a Mysterious Universe (Mohammed AlQuraishi)": {
+      "http_status": 200,
+      "raw_entries": 10,
+      "kept": 0,
+      "newest_entry": "2026-08-10T16:50:30+00:00",
+      "error": null
+    },
+    "BLOPIG (Oxford Protein Informatics Group)": {
+      "http_status": 200,
+      "raw_entries": 10,
+      "kept": 0,
+      "newest_entry": "2026-10-15T10:40:06+00:00",
+      "error": null
+    },
+    "Owl Posting (Abhishaike Mahajan)": {
+      "http_status": 200,
+      "raw_entries": 20,
+      "kept": 0,
+      "newest_entry": "2026-09-21T17:01:03+00:00",
+      "error": null
+    },
+    "Asimov Press": {
+      "http_status": 200,
+      "raw_entries": 20,
+      "kept": 0,
+      "newest_entry": "2026-10-15T14:33:39+00:00",
+      "error": null
+    },
+    "Nature Biotechnology": {
+      "http_status": 200,
+      "raw_entries": 8,
+      "kept": 0,
+      "newest_entry": "2026-10-15T00:00:00",
+      "error": null
+    },
+    "In the Pipeline (Derek Lowe)": {
+      "http_status": 200,
+      "raw_entries": 20,
+      "kept": 0,
+      "newest_entry": "2026-10-14T14:07:14-07:00",
+      "error": null
+    },
+    "arXiv q-bio.BM": {
+      "http_status": 200,
+      "raw_entries": 0,
+      "kept": 0,
+      "newest_entry": null,
+      "error": null
+    },
+    "arXiv q-bio.QM": {
+      "http_status": 200,
+      "raw_entries": 0,
+      "kept": 0,
+      "newest_entry": null,
+      "error": null
+    },
+    "arXiv cs.LG (AI/ML)": {
+      "http_status": 200,
+      "raw_entries": 0,
+      "kept": 0,
+      "newest_entry": null,
+      "error": null
+    }
+  },
+  "quiet_day": false,
+  "n_featured": 5,
+  "n_excluded_terms": 4,
+  "n_relevance_dropped": 108,
+  "n_over_analysis_cap": 0,
+  "llm_models_used": [
+    "poolside/laguna-s-2.1:free"
+  ],
+  "analysis_models_used": [
+    "poolside/laguna-s-2.1:free"
+  ],
+  "tts_backend": "gtts",
+  "tts_fallback_reason": "Edge failed (12 attempts): en-US-AriaNeural#3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=c8b87573aab84af0b9d388e4ff79063b&S. Kokoro unavailable, fell back to gTTS.",
+  "tts_stats": {
+    "configured_backend": "edge",
+    "last_backend": "gtts",
+    "counts": {
+      "edge": 0,
+      "kokoro": 0,
+      "gtts": 6
+    },
+    "fallback_happened": true,
+    "fallback_reason": "Edge failed (12 attempts): en-US-AriaNeural#3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=c8b87573aab84af0b9d388e4ff79063b&S. Kokoro unavailable, fell back to gTTS."
+  },
+  "output_dir": "/home/runner/work/protein_design_podcast/protein_design_podcast/openclaw-knowledge-radio/output/2026-10-18"
+}
