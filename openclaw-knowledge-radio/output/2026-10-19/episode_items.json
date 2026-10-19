@@ -1,0 +1,101 @@
+{
+  "timestamps": [
+    0.0,
+    213.92,
+    452.95,
+    681.63,
+    896.63,
+    1112.5
+  ],
+  "items": [
+    {
+      "title": "An inverse-protein-folding pre-trained model for predicting the mutational effects in protein-protein interactions.",
+      "url": "https://doi.org/10.1016/j.isci.2026.117693",
+      "source": "PubMed — iScience",
+      "one_liner": "Protein-protein interactions (PPIs) are fundamental to vast biological processes. Accurate prediction of mutation-induced changes in PPIs is crucial for protein engineering and drug discovery. Most existing PPI prediction approaches rely on refined physicochemical features or computationally intensive structural sampling. Here, we present delta-G message-...",
+      "segment": 3,
+      "timestamp": 681.63,
+      "highlighted": true,
+      "relevance": 13.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rapid assessment of chemical complementarity of ligands for protein design",
+      "url": "https://www.nature.com/articles/s41467-026-78764-7",
+      "source": "Nature - Protein Design",
+      "one_liner": "Not stated in source text.\n\nMETHOD / APPROACH:\nNot stated in source text.",
+      "segment": 5,
+      "timestamp": 1112.5,
+      "highlighted": true,
+      "relevance": 8.0,
+      "tags": [
+        "protein-design",
+        "nature",
+        "topic"
+      ]
+    },
+    {
+      "title": "Generative molecule evolution using 3D pharmacophore for efficient Structure-Based Drug Design",
+      "url": "https://arxiv.org/abs/2507.20130",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2507.20130v2 Announce Type: replace-cross \nAbstract: Recent breakthroughs in generative models have shown great promise for drug discovery, yet Structure-Based Drug Design (SBDD) faces two critical challenges: the scarcity of high-quality protein-ligand complex data and the practical synthesizability of generated molecules. While ligand-based approa...",
+      "segment": 5,
+      "timestamp": 1112.5,
+      "highlighted": true,
+      "relevance": 5.6,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Multiscale Quantum-Classical Simulation of Protein Autoproteolysis in a Million-Atom Membrane Environment",
+      "url": "https://arxiv.org/abs/2610.23108",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.23108v1 Announce Type: new \nAbstract: Predicting chemical reactions in biomolecules is challenging because reactive centers are embedded within complex environments that strongly influence their energetics and mechanisms. Here, we present a hybrid quantum-classical workflow that combines molecular dynamics, density functional theory, and correl...",
+      "segment": 3,
+      "timestamp": 681.63,
+      "highlighted": true,
+      "relevance": 5.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Blitz: Accelerating the Diffusion Modules of AlphaFold3 and Boltz-2",
+      "url": "https://arxiv.org/abs/2610.23703",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.23703v1 Announce Type: new \nAbstract: Diffusion-based protein structure prediction models produce all-atom structures in about 200 denoising steps, and that cost has driven a number of few-step samplers. We present Blitz, a few-step distillation framework that uses a geometric noise schedule to distribute steps more evenly across noise scales, ...",
+      "segment": 1,
+      "timestamp": 213.92,
+      "highlighted": true,
+      "relevance": 10.8,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "PlasmoRhythm: A comprehensive database for malaria-associated rhythmic transcripts, proteins, and metabolites",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758397",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Abstract: Motivation: The malaria transmission cycle is temporally organized across three interacting biological systems: the parasite, vertebrate host, and mosquito vector. Rhythms in parasite development, host physiology, and vector behavior govern infection dynamics, transmission, and the efficacy of stage-specific antimalarial interventions. However, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.2,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    }
+  ]
+}
