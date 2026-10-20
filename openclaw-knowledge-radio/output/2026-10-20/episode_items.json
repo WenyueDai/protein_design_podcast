@@ -1,0 +1,116 @@
+{
+  "timestamps": [
+    0.0,
+    264.88,
+    512.01,
+    739.15,
+    1019.01,
+    1303.46
+  ],
+  "items": [
+    {
+      "title": "ConforFlux: Particle-Guided Trunk Repulsion for Diverse Protein Conformations",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.16.725138",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Deep learning models for protein structure prediction achieve near-experimental accuracy on individual folds, yet their default inference samples concentrate around a single dominant conformation. We introduce ConforFlux, an inference-time procedure for Boltz-2 that couples parallel structure-prediction trajectories through a pairwise C-RMSD repulsion gra...",
+      "segment": 3,
+      "timestamp": 739.15,
+      "highlighted": true,
+      "relevance": 13.2,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "An alphabet of allostery: A transferable transfer entropy contact pattern predicts allosteric-site character and conformational rewiring.",
+      "url": "https://doi.org/10.1088/1478-3975/aeb63a",
+      "source": "PubMed — Physical biology",
+      "one_liner": "Allostery is increasingly understood as the propagation of dynamic information through a protein, yet the computational descriptors of that flow are computed one structure at a time and carry no transferable, sequence-level prior. Here we build an alphabet of allostery: a dictionary of local contact words, short sequence windows anchored by three- to four...",
+      "segment": 5,
+      "timestamp": 1303.46,
+      "highlighted": true,
+      "relevance": 13.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "RNAffinityDB: a curated database of experimental RNA-protein binding affinities.",
+      "url": "https://doi.org/10.1093/nar/gkag984",
+      "source": "PubMed — Nucleic acids research",
+      "one_liner": "RNA-protein interactions modulate RNA function and direct RNA fate in cells. Over the past several decades, experimental studies have yielded a substantial but fragmented record of binding affinity measurements for defined RNA-protein pairs, obscuring a unified view of how sequence determinants shape binding strength. Here, we present RNAffinityDB, a cura...",
+      "segment": 4,
+      "timestamp": 1019.01,
+      "highlighted": true,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "APR-Score: Identification and Scoring of Aggregation-prone Regions in Protein Sequences.",
+      "url": "https://doi.org/10.1093/gpbjnl/qzag104",
+      "source": "PubMed — Genomics, proteomics & bioinformatics",
+      "one_liner": "Protein aggregation is a critical phenomenon associated with numerous neurodegenerative and systemic diseases. Understanding the propensity of proteins to aggregate is essential for unraveling the molecular basis of these disorders and for the design and engineering of novel proteins, as well as for modulating the activity/stability of enzymatic proteins....",
+      "segment": 4,
+      "timestamp": 1019.01,
+      "highlighted": true,
+      "relevance": 7.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Nanobody-Based Lateral Flow Assays: Applications, Innovations, Challenges, and Future Directions.",
+      "url": "https://doi.org/10.1021/acssensors.6c02118",
+      "source": "PubMed — ACS sensors",
+      "one_liner": "Nanobody-based lateral flow assays (LFAs) are an emerging class of point-of-care diagnostics that combine enhanced thermal stability, target affinity comparable to or in some cases exceeding that of conventional antibodies, and low-cost recombinant production of nanobodies with the versatility of conventional antibody-based detection formats. This review ...",
+      "segment": 1,
+      "timestamp": 264.88,
+      "highlighted": true,
+      "relevance": 7.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PAZy: an expanded and actively maintained database of experimentally validated plastic-active enzymes.",
+      "url": "https://doi.org/10.1093/nar/gkag1026",
+      "source": "PubMed — Nucleic acids research",
+      "one_liner": "The Plastics-Active Enzyme Database (PAZy) is a manually curated resource for enzymes experimentally shown to act on synthetic or bio-based plastics. It was developed to distinguish experimentally verified plastics-active enzymes from computationally predicted or insufficiently supported candidates. Here, we present an expanded version of PAZy, implemente...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+      "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+      "source": "Quanta Magazine",
+      "one_liner": "Unlike other recent AI proofs, this one has been unpacked by human experts. The implications, one mathematician said, are “staggering.” The post AI Proved the Quasi-Riemann Hypothesis. What Happens Now? first appeare...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
