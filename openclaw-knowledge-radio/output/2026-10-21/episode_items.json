@@ -1,0 +1,218 @@
+{
+  "timestamps": [
+    0.0,
+    228.36,
+    508.11,
+    684.51,
+    896.97,
+    1175.92
+  ],
+  "items": [
+    {
+      "title": "Cross-linking mass spectrometry guided structure prediction of disordered",
+      "url": "https://doi.org/10.1128/mbio.02261-26",
+      "source": "PubMed — mBio",
+      "one_liner": "UNLABELLED: Microsporidia such as IMPORTANCE: In this article, we demonstrate an improved method for the prediction of the structure of protein complexes with no clear homologs and a considerable number of disordered regions. This is significant because these types of proteins are critical to understanding the biology of organisms, yet model generation of...",
+      "segment": 1,
+      "timestamp": 228.36,
+      "highlighted": true,
+      "relevance": 8.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Preparation of steam explosion modified pea protein peptides and its antibacterial mechanism against Staphylococcus aureus.",
+      "url": "https://doi.org/10.1016/j.micpath.2026.108882",
+      "source": "PubMed — Microbial pathogenesis",
+      "one_liner": "In this study, the enzymatic hydrolysis process of steam explosion modified pea proteins was optimized through single-factor experiments and a Box-Behnken experimental design. The maximum degree of hydrolysis of 23.13% was achieved at 7.38% substrate concentration (w/v), 5% enzyme-to-substrate ratio (w/w), pH 9.5, and 55 °C for 3 h. Steam explosion modifi...",
+      "segment": 1,
+      "timestamp": 228.36,
+      "highlighted": true,
+      "relevance": 8.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "EMBER: Predicting TCR--pMHC Binding Without a Docked Complex",
+      "url": "https://arxiv.org/abs/2610.27334",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.27334v1 Announce Type: new \nAbstract: We propose EMBER, a structure-based framework for TCR--pMHC binding prediction that eliminates the need for a predicted docked complex, and with it the placement error that dominates such predictions. Traditional structure-based predictors utilize the co-folded complex structure of the receptor and the anti...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 10.2,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "BiHC: Protein domain segmentation by bidirectional hierarchical clustering using Voronoi tessellation and physical self-containment",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.18.759833",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Protein domains are commonly regarded as structurally separated, functionally relevant, and evolutionarily separable units. Although classification systems may assign different domain boundaries to the same structure, structural separation remains a shared criterion, and many domain parsers assess it through inter-residue distances, contact numbers, or co...",
+      "segment": 1,
+      "timestamp": 228.36,
+      "highlighted": true,
+      "relevance": 7.2,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Permeability-Based Measurement of Nanobody Binding to Nuclear Pore Complexes by Transient Scanning Electrochemical Microscopy.",
+      "url": "https://doi.org/10.1021/acs.analchem.6c04319",
+      "source": "PubMed — Analytical chemistry",
+      "one_liner": "Nucleocytoplasmic macromolecular transport through the nuclear pore complex (NPC) is mediated selectively and efficiently by protein-protein interactions, thereby regulating gene expression and the cell cycle. The NPC transport barrier is formed by biomolecular condensates of nucleoporins (nups) rich in hydrophobic phenylalanine-glycine (FG) repeats. Here...",
+      "segment": 4,
+      "timestamp": 896.97,
+      "highlighted": true,
+      "relevance": 7.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Systematic optimization and characterization of the MidTAC platform for targeted protein degradation.",
+      "url": "https://doi.org/10.1038/s41401-026-01959-7",
+      "source": "PubMed — Acta pharmacologica Sinica",
+      "one_liner": "Biological proteolysis-targeting chimeras (BioPROTACs), which employ peptide or protein-based targeting ligands to recruit endogenous degradation machinery, offer a promising strategy to expand the scope of targeted protein degradation. The recently discovered Midnolin employs a distinct, ubiquitin-independent \"capture-degradation\" mechanism that engages ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "NR4A2: a next-generation drug target orchestrating dynamic gene regulation and protein interactions.",
+      "url": "https://doi.org/10.1016/j.drudis.2026.104837",
+      "source": "PubMed — Drug discovery today",
+      "one_liner": "Nuclear receptor (NR) subfamily 4 group A member 2 (NR4A2) is an orphan NR essential for the survival of midbrain dopaminergic neurons. Featuring a unique, dynamic collapsed ligand-binding domain (LBD), NR4A2 resides in the nucleus under basal conditions but undergoes nucleocytoplasmic shuttling under pathological triggers such as oxidative stress. Small ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Data storage with amino acid sequences.",
+      "url": "https://doi.org/10.1016/j.tibtech.2026.09.021",
+      "source": "PubMed — Trends in biotechnology",
+      "one_liner": "Amino acid sequences in peptides and proteins can be used to store data with the advantages of high capacity and stability, offering a solution for storing ever-increasing amounts of data. Compared with peptides, proteins have longer sequences and can be produced at a much lower cost, enabling more efficient data storage and allowing specific functions to...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular Mechanism of Amino Acids for Stabilizing Protein Dispersions.",
+      "url": "https://doi.org/10.1021/acs.langmuir.6c04544",
+      "source": "PubMed — Langmuir : the ACS journal of surfaces and colloids",
+      "one_liner": "In living cells, numerous biomolecules coexist in highly crowded environments while maintaining their biological functions. Under such conditions, biomolecules are constantly exposed to the risk of aggregation, leading to the loss of their biological function. To mitigate these risks, cells employ various strategies, such as the accumulation of small mole...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "G-protein-coupled receptor sensing of farnesol controls fungal dormancy and is susceptible to bacterial interference.",
+      "url": "https://doi.org/10.1038/s41564-026-02509-x",
+      "source": "PubMed — Nature microbiology",
+      "one_liner": "Conidial dormancy is a critical survival strategy for fungi under stress, yet the mechanisms governing the switch between dormancy and germination remain unclear. Here we identify the G-protein-coupled receptor, Rsd1, as a farnesol-responsive sensor controlling this dormancy switch in the plant pathogen Fusarium pseudograminearum, which causes Fusarium cr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Ensemble-Aware Structural Encoding (EASE): Conditioning Protein Encoders on Peptide Conformational Ensembles",
+      "url": "https://arxiv.org/abs/2610.27638",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.27638v1 Announce Type: new \nAbstract: Protein foundation models provide transferable representations for downstream peptide prediction tasks. However, existing representations typically reduce a peptide to a single sequence or structure, which may miss conformational variability relevant to key peptide properties, including antibacterial activi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 11.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "KGOT: Unified Knowledge Graph and Optimal Transport Pseudo-Labeling for Molecule-Protein Interaction Prediction",
+      "url": "https://arxiv.org/abs/2512.09365",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2512.09365v2 Announce Type: replace \nAbstract: Predicting molecule-protein interactions (MPIs) is a fundamental task in computational biology, with crucial applications in drug discovery and molecular function annotation. However, existing MPI models face two major challenges. First, the scarcity of labeled molecule-protein pairs significantly limit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Curriculum Learning for Generative Flexible Docking",
+      "url": "https://arxiv.org/abs/2610.28145",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.28145v1 Announce Type: new \nAbstract: Flexible docking is a highly practical task, aiming to predict the joint configuration of a protein-ligand complex from a protein apo structure and a ligand SMILES string. Diffusion and flow-based generative models have made this task tractable by modeling the posterior distribution over the ligand pose and...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Exclusive: Astellas partners with Boston ‘miniproteins’ startup",
+      "url": "https://endpoints.news/exclusive-astellas-partners-with-boston-miniproteins-startup/",
+      "source": "Endpoints News",
+      "one_liner": "Chris Bahl believes AI can help make tiny proteins capable of doing things that bigger and more traditional proteins like antibodies struggle to do. And now the Japanese drugmaker Astellas is buying into his vision ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.0,
+      "tags": [
+        "biotech",
+        "industry"
+      ]
+    }
+  ]
+}
