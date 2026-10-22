@@ -3113,6 +3113,11 @@
       "note": "dd",
       "title": "Learning Protein-Protein Interaction Interfaces from Multimodal Representations",
       "source": "bioRxiv — bioinformatics"
+    },
+    "https://arxiv.org/abs/2608.15900": {
+      "note": "dd",
+      "title": "Crystal-structure design by agentic AI in a language of motifs",
+      "source": "arXiv cs.LG (AI/ML)"
     }
   }
 }
