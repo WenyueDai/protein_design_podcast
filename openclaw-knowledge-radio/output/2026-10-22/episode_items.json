@@ -1,0 +1,84 @@
+{
+  "timestamps": [
+    0.0,
+    245.6,
+    460.77,
+    709.43,
+    933.75,
+    1152.38
+  ],
+  "items": [
+    {
+      "title": "Learning Protein-Protein Interaction Interfaces from Multimodal Representations",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728739",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Background: Protein-protein interactions govern essential cellular processes, making the identification of interface residues critical for protein engineering and molecular design. Although complex deep learning algorithms like AlphaFold3 generate full atom resolution assemblies, they are not optimized for residue-level interface identification. Existing ...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "NeoGen-BC: A synergistic framework combining generative protein language models and multi-window deep learning for designing shared neoantigens in breast cancer.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.154567",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "Breast cancer, particularly hormone receptor-positive (HR",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 14.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multi-Objective Protein Optimization via Modular Diffusion Steering",
+      "url": "https://arxiv.org/abs/2610.28943",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.28943v1 Announce Type: new \nAbstract: Protein engineering often requires improving several properties simultaneously, motivating the search for high-performing sequences that represent useful fitness tradeoffs. Discovering these sequences is challenging because the design space is combinatorially large and experimental campaigns often permit on...",
+      "segment": 5,
+      "timestamp": 1152.38,
+      "highlighted": true,
+      "relevance": 11.4,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Crystal-structure design by agentic AI in a language of motifs",
+      "url": "https://arxiv.org/abs/2608.15900",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2608.15900v2 Announce Type: replace-cross \nAbstract: Data-driven materials discovery interpolates more reliably than it extrapolates and seldom reveals new structure types. We present MatEvolve, an agentic-AI framework that designs crystals in an interpretable \\emph{language of motifs}, in which each crystal is written as a \\emph{motif profile} that...",
+      "segment": 5,
+      "timestamp": 1152.38,
+      "highlighted": true,
+      "relevance": 5.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "See Inside Cells Like Never Before in These Vivid Microscopic Images",
+      "url": "https://www.quantamagazine.org/see-inside-cells-like-never-before-in-these-vivid-microscopic-images-20261021/",
+      "source": "Quanta Magazine",
+      "one_liner": "Winning entries in the 2026 Nikon Small World competitions reveal the hidden interactions that govern everyday life. The post See Inside Cells Like Never Before in These Vivid Microscopic Images first ap...",
+      "segment": 5,
+      "timestamp": 1152.38,
+      "highlighted": true,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
