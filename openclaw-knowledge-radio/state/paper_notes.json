@@ -3107,5 +3107,12 @@
       "title": "Graph-based representations in modern protein science.",
       "source": "PubMed — The Biochemical journal"
     }
+  },
+  "2026-10-22": {
+    "https://www.biorxiv.org/content/10.64898/2026.05.29.728739": {
+      "note": "dd",
+      "title": "Learning Protein-Protein Interaction Interfaces from Multimodal Representations",
+      "source": "bioRxiv — bioinformatics"
+    }
   }
 }
