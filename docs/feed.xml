@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 07:25:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 07:20:26 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-10-23</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-23/podcast_2026-10-23.mp3</guid>
+      <pubDate>Fri, 23 Oct 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-23/podcast_2026-10-23.mp3" length="10700133" type="audio/mpeg" />
+      <description>The field is shifting from treating protein language models as static feature extractors to thinking of them as dynamic, query-responsive engines — and that change is reshaping how we approach everything from function prediction to therapeutic design. | For years, the default was to take the final hidden layer of a protein language model and call it a day. | This connects to a broader pattern emerging across today&#x27;s papers: the move from single-model thinking to ensemble-aware, multi-modal reasoning.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field is shifting from treating protein language models as static feature extractors to thinking of them as dynamic, query-responsive engines — and that change is reshaping how we approach everything from function prediction to therapeutic design. | For years, the default was to take the final hidden layer of a protein language model and call it a day. | This connects to a broader pattern emerging across today&#x27;s papers: the move from single-model thinking to ensemble-aware, multi-modal reasoning.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-10-22</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-22/podcast_2026-10-22.mp3</guid>
       <pubDate>Thu, 22 Oct 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-22/podcast_2026-10-22.mp3" length="10593861" type="audio/mpeg" />
-      <description>The biggest shift today is that protein language models are finally being pushed past their comfort zone of predicting single structures and into the messy, collaborative world of protein-protein interactions, and the results are reshaping how we think about interface design. | The second story is about escaping the single-objective trap that has dominated protein optimization for so long. | The third shift is perhaps the most philosophically interesting: moving from pattern matching to genuine extrapolation in materials discovery.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-22/podcast_2026-10-22.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The biggest shift today is that protein language models are finally being pushed past their comfort zone of predicting single structures and into the messy, collaborative world of protein-protein interactions, and the results are reshaping how we think about interface design. | The second story is about escaping the single-objective trap that has dominated protein optimization for so long. | The third shift is perhaps the most philosophically interesting: moving from pattern matching to genuine extrapolation in materials discovery.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-20/podcast_2026-08-20.mp3</guid>
       <pubDate>Thu, 20 Aug 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-20/podcast_2026-08-20.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-08-18</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-18/podcast_2026-08-18.mp3</guid>
-      <pubDate>Tue, 18 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-18/podcast_2026-08-18.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

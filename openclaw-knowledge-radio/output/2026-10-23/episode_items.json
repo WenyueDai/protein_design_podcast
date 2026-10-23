@@ -1,0 +1,237 @@
+{
+  "timestamps": [
+    0.0,
+    211.46,
+    448.41,
+    705.91,
+    923.33,
+    1174.74
+  ],
+  "items": [
+    {
+      "title": "Sampling protein language models for functional protein design.",
+      "url": "https://doi.org/10.1016/j.cels.2026.101714",
+      "source": "PubMed — Cell systems",
+      "one_liner": "Protein language models have emerged as powerful tools for learning rich protein representations, improving tasks like structure prediction, mutation effect estimation, and homology detection. Their ability to model complex sequence distributions also holds promise for designing novel, functional proteins with applications in therapeutics, materials, and ...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Hierarchically Gated Multiplex Heterogeneous Graph Neural Network with Self-Distillation for Protein Stability Prediction.",
+      "url": "https://doi.org/10.1109/JBHI.2026.3745526",
+      "source": "PubMed — IEEE journal of biomedical and health informatics",
+      "one_liner": "Predicting the impact of protein residue mutations on thermal stability is critical for protein engineering and for understanding how mutations contribute to cancer development. Recent advances in deep learning demonstrate great promise in the prediction of mutation-induced protein stability changes; however, current approaches face several drawbacks to b...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 14.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo Design of a TROP-2-Targeting Peptide PET Tracer via AI-Guided Binding Interface Mimicry.",
+      "url": "https://doi.org/10.1021/acs.bioconjchem.6c00394",
+      "source": "PubMed — Bioconjugate chemistry",
+      "one_liner": "Trophoblast cell surface antigen 2 (TROP-2) is a transmembrane glycoprotein overexpressed across a range of epithelial malignancies, yet its clinical assessment still relies largely on invasive immunohistochemical analysis of biopsied tissues. In this study, we employed the PepMimic artificial intelligence platform to de novo design a TROP-2-targeting pep...",
+      "segment": 5,
+      "timestamp": 1174.74,
+      "highlighted": true,
+      "relevance": 14.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing simulations of disordered protein ensembles with chemical shift restraints in coarse-grained models.",
+      "url": "https://doi.org/10.1073/pnas.2605643123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "With more than one third of the human proteome being structurally disordered, intrinsically disordered proteins (IDPs) are key contributors to complex cellular functions, despite their highly dynamic conformational ensembles remaining elusive to conventional techniques in structural biology. Coarse-grained (CG) simulation methods thus serve as a gold stan...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 14.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "QProtFuse: Query-Guided Layer Fusion for Retrieval-Augmented Protein Function Prediction",
+      "url": "https://arxiv.org/abs/2610.30180",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.30180v1 Announce Type: cross \nAbstract: Predicting protein functions from amino acid sequences is essential to understanding biological processes. Large language models (LLMs) offer flexible function descriptions to natural-language queries, yet their limited protein understanding motivates retrieval-augmented generation (RAG). Existing protein...",
+      "segment": 5,
+      "timestamp": 1174.74,
+      "highlighted": true,
+      "relevance": 9.8,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "RiboBridge: protein-conditioned de novo RNA binder structure design",
+      "url": "https://arxiv.org/abs/2610.30668",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.30668v1 Announce Type: cross \nAbstract: Designing RNA molecules that bind to target protein structures requires generating both an RNA conformation and its bound complex geometry, without assuming a predefined binding site. Existing approaches generally model these coupled processes within a unified representation, entangling RNA conformation g...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 10.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "De novo design of enantioselective artificial metalloenzyme photocatalysts.",
+      "url": "https://doi.org/10.1038/s41586-026-11317-6",
+      "source": "PubMed — Nature",
+      "one_liner": "The ability to create protein scaffolds that impart enantioselectivity to simple, readily available metal catalysts could redefine the landscape of asymmetric catalysis. Artificial metalloenzymes (ArMs), hybrid catalysts that combine a synthetic metal cofactor with a protein scaffold, offer a potential means to achieve this goal, but scaffold discovery ha...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 10.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Pose: a pure-NumPy, chirality-aware, structural engine for building and manipulating the molecular structures of proteins, nucleic acids, and small organic molecules",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760100",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Molecular modelling protocols often cross several programs, each with its own formats, conventions, and installation, and few treat D-amino acids and other non-canonical residues consistently. This work presents Pose, a Python library whose only run-time dependency is NumPy. Pose builds polypeptides, including six non-canonical amino acids, and nucleic-ac...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.0,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing the Thermostability of Sweet Protein Thaumatin II by Integrated Rational Design.",
+      "url": "https://doi.org/10.1021/acs.jafc.6c06037",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "Thaumatin II is a high-intensity sweet protein whose limited thermostability restricts its industrial application. Using the previously evolved high-yield Thaumatin variant M-882 as the parental scaffold, we used an integrated rational design strategy combining HotSpot Wizard, FoldX, and PyRosetta. Candidate variants were evaluated by sfGFP-based fluoresc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence-Driven Multiscale Design of Protein-Based Materials.",
+      "url": "https://doi.org/10.1021/acs.bioconjchem.6c00309",
+      "source": "PubMed — Bioconjugate chemistry",
+      "one_liner": "Protein filaments, including silk, collagen, and amyloids, are natural building blocks whose hierarchical self-assembly produces adaptive mechanics and diverse functions. Conventional protein engineering has had limited success in resolving sequence-structure-function relationships across length scales. Recent advances in artificial intelligence (AI) now ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Programmable design of functional proteins from natural language.",
+      "url": "https://doi.org/10.1038/s41586-026-11205-z",
+      "source": "PubMed — Nature",
+      "one_liner": "Programming biological function-designing bespoke proteins to perform specified molecular tasks-is a foundational goal of molecular engineering. However, current design models remain fundamentally limited",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Challenges in AI-based structural modeling of host-pathogen protein interactions.",
+      "url": "https://doi.org/10.1016/j.coviro.2026.101587",
+      "source": "PubMed — Current opinion in virology",
+      "one_liner": "Pathogens depend heavily on their hosts, a relationship driven by molecular interactions. Among the diverse molecular classes involved, proteins and protein-protein interactions (PPIs) serve as the pillars of these infectious processes. Driven by opposing natural selection pressures, with one protein adapting to escape the interaction and the other adapti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Signal peptides for engineered protein secretion by free and hydrogel-encapsulated cyanobacteria.",
+      "url": "https://doi.org/10.1073/pnas.2624792123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Cyanobacteria provide a promising platform for light-driven heterologous protein production. In heterologous production systems, cells are typically lysed for product purification or to facilitate interaction with external substrates, unless the product is secreted. Fusion to molecular \"shipping labels\" known as signal peptides can target chimeric protein...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "LiverHomo: An Integrated and Interactive Human Liver Single-Cell Atlas with Protein Interaction and Cell-Cell Communication Networks",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.755227",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "LiverHomo is an integrated cell atlas developed from publicly available human liver single-cell RNA sequencing (scRNA-seq) datasets spanning healthy and diverse liver disease contexts. While several single-cell resources for the human liver are available, LiverHomo provides broad disease coverage and extends transcriptomic exploration through the integrat...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beyond Glycolysis: Multifaceted Roles of Triosephosphate Isomerase 1 (TPI1) in Malignant Tumor Progression.",
+      "url": "https://doi.org/10.1016/j.ppl.2026.10.003",
+      "source": "PubMed — Protein and peptide letters",
+      "one_liner": "Triosephosphate isomerase 1 (TPI1) is a key glycolytic enzyme that catalyzes the reversible interconversion of dihydroxyacetone phosphate and glyceraldehyde-3-phosphate. Emerging evidence suggests that TPI1 also participates in cancer-associated non-canonical functions involving altered subcellular localization, protein-protein interactions, signaling reg...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
