@@ -1,0 +1,176 @@
+{
+  "timestamps": [
+    0.0,
+    236.04,
+    520.65,
+    778.63,
+    1020.17,
+    1299.4
+  ],
+  "items": [
+    {
+      "title": "Revealing protein structural transitions in the era of generative artificial intelligence.",
+      "url": "https://doi.org/10.1016/j.sbi.2026.103421",
+      "source": "PubMed — Current opinion in structural biology",
+      "one_liner": "Recent advances in artificial intelligence and deep generative models have greatly accelerated the generation of protein conformational ensembles. Moving beyond isolated structural states to reconstruct continuous, physically realistic transition pathways further provides mechanistic understanding to guide molecular design but remains a significant challe...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 8.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Aziridination-Based Crosslinking Enables Site-Resolved Elucidation of Lipid Binding and Protein Conformational Changes.",
+      "url": "https://doi.org/10.1021/jacs.6c08027",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "Lipid-protein interactions play critical roles in cellular function, yet their site-resolved characterization remains challenging due to the dynamic nature of lipid binding and the limited availability of chemoselective strategies for covalently capturing native lipid-protein contacts. Here, we introduce aziridination-based lipid-protein crosslinking coup...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 8.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "In silico multi-epitope vaccine design against Irkut virus using immunoinformatic and reverse vaccinology.",
+      "url": "https://doi.org/10.1007/s11262-026-02288-x",
+      "source": "PubMed — Virus genes",
+      "one_liner": "Irkut virus (IRKV) is a member of genus Lyssavirus, which leads to fatal encephalitis in humans and is primarily found in bats and dogs that transmit the virus to humans via bites/saliva. Most cases have been reported in Russia and in Siberia and recently in China. Whole genome sequencing has shown a number of codon changes in antigenic sites common to th...",
+      "segment": 4,
+      "timestamp": 1020.17,
+      "highlighted": true,
+      "relevance": 8.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Chaperonopathies as Disorders of Disorder: The Role of Intrinsically Disordered Regions in Proteostasis Dysfunction.",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c05122",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "Molecular chaperones are central regulators of the proteostasis network, ensuring proteome integrity through protein folding, the prevention of aggregation, and targeted degradation. These mechanisms are essential for limiting proteotoxic stress and preventing the accumulation of pathogenic proteins. Consequently, chaperone dysfunction is linked to variou...",
+      "segment": 1,
+      "timestamp": 236.04,
+      "highlighted": true,
+      "relevance": 6.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Designing rigid protein fiducials to visualize GPCR conformational states",
+      "url": "https://www.nature.com/articles/s41467-026-78942-7",
+      "source": "Nature - Protein Design",
+      "one_liner": "Not stated in source text.\n\nMETHOD / APPROACH:\nNot stated in source text.",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 6.0,
+      "tags": [
+        "protein-design",
+        "nature",
+        "topic"
+      ]
+    },
+    {
+      "title": "Design and Structure of Protein Cages Based on Helical Fusion and Machine Learning.",
+      "url": "https://doi.org/10.1021/jacs.6c11491",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "Self-assembling protein cages are versatile nanoscale architectures with broad applications in drug delivery, vaccine development, and structural biology. Historically, two main strategies have been used to construct such cages: genetic fusion of oligomeric domains connected by helical linkers, and computational interface design using either physics-based...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Teaching diffusion models physics: reinforcement learning for physically valid diffusion-based docking.",
+      "url": "https://doi.org/10.1039/d6sc02655a",
+      "source": "PubMed — Chemical science",
+      "one_liner": "Molecular docking aims to predict the binding conformation of a small molecule to its protein target. Recent work has proposed diffusion models for this task, from rigid-body docking that diffuses over ligand degrees of freedom to co-folding approaches that jointly generate protein structure and ligand pose. However, diffusion-based docking models have be...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Binding-Interface optimization improves the antiviral activity of 8Y32D against divergent influenza viruses.",
+      "url": "https://doi.org/10.1016/j.intimp.2026.117574",
+      "source": "PubMed — International immunopharmacology",
+      "one_liner": "Broadly neutralizing antibodies (bnAbs) hold considerable therapeutic promise against influenza, yet enhancing their binding activity remains a critical bottleneck. Here, we report a structure-guided rational design strategy to optimize the binding interface of the MEDI8852 (8WT) antibody against influenza hemagglutinins (HAs). Three interface-engineered ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "In silico and in vitro immunogenicity risk assessment of process- and product-related protein impurities reported in adenoviral-vectored COVID-19 vaccines.",
+      "url": "https://doi.org/10.1016/j.xphs.2026.104562",
+      "source": "PubMed — Journal of pharmaceutical sciences",
+      "one_liner": "Process-related protein impurities (PRPIs) such as host cell proteins (HCPs) in biologic products have been associated with unexpected immune responses, adverse events, and the discontinuation of clinical programs. While an HCP threshold of 100 ng/mg (PPM) is considered to be 'acceptable', that threshold may be too high if individual impurities have stron...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The AML-Associated A338V Mutation Rewires GPR183 Signaling through C-Terminal Ensemble Redistribution.",
+      "url": "https://doi.org/10.1021/jacs.6c10287",
+      "source": "PubMed — Journal of the American Chemical Society",
+      "one_liner": "G protein-coupled receptors (GPCRs) rely on dynamic conformational ensembles to coordinate G protein activation and recruitment of regulatory transducers such as GPCR kinases and β-arrestins. The oxysterol receptor GPR183 has been implicated in hematological malignancies, including acute myeloid leukemia (AML), where a rare A338V substitution occurs withi...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
+      "url": "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/",
+      "source": "Quanta Magazine",
+      "one_liner": "To invade red blood cells, the deadly protist creates a temporary molecular portal that disappears behind it — a door we can now see in fine detail. The post Malaria Parasite Caught in the Act of Breaking and Enteri...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
