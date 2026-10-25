@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 07:08:16 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 07:31:37 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-10-25</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-25/podcast_2026-10-25.mp3</guid>
+      <pubDate>Sun, 25 Oct 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-25/podcast_2026-10-25.mp3" length="10498533" type="audio/mpeg" />
+      <description>The field has spent years treating AlphaFold3 as a structure prediction tool, but a paper on the Francisella halioticida Type VI secretion system shows it&#x27;s becoming something more like a functional annotation engine for systems where no experimental structure exists. | The second shift is in how we think about P450 peroxygenases and oxidative damage. | The third insight is that both papers demonstrate a move away from single-protein thinking toward system-level annotation.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The field has spent years treating AlphaFold3 as a structure prediction tool, but a paper on the Francisella halioticida Type VI secretion system shows it&#x27;s becoming something more like a functional annotation engine for systems where no experimental structure exists. | The second shift is in how we think about P450 peroxygenases and oxidative damage. | The third insight is that both papers demonstrate a move away from single-protein thinking toward system-level annotation.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-10-24</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-24/podcast_2026-10-24.mp3</guid>
       <pubDate>Sat, 24 Oct 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-24/podcast_2026-10-24.mp3" length="11716653" type="audio/mpeg" />
-      <description>The field is finally moving past the idea that protein structures are static snapshots, and today&#x27;s papers make that shift feel urgent and practical. | A perspective piece on protein structural transitions in the AI era argues that generative models have accelerated ensemble generation, but the real prize is reconstructing continuous, physically realistic pathways between states. | That shift gets concrete in a JACS paper on aziridination-based lipid-protein crosslinking.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-24/podcast_2026-10-24.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The field is finally moving past the idea that protein structures are static snapshots, and today&#x27;s papers make that shift feel urgent and practical. | A perspective piece on protein structural transitions in the AI era argues that generative models have accelerated ensemble generation, but the real prize is reconstructing continuous, physically realistic pathways between states. | That shift gets concrete in a JACS paper on aziridination-based lipid-protein crosslinking.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-22/podcast_2026-08-22.mp3</guid>
       <pubDate>Sat, 22 Aug 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-22/podcast_2026-08-22.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-08-21</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-21/podcast_2026-08-21.mp3</guid>
-      <pubDate>Fri, 21 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-21/podcast_2026-08-21.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>

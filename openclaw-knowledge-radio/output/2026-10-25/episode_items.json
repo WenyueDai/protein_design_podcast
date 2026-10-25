@@ -1,0 +1,57 @@
+{
+  "timestamps": [
+    0.0,
+    195.3,
+    414.63,
+    658.99,
+    905.11,
+    1172.04
+  ],
+  "items": [
+    {
+      "title": "Structure-Based Annotation by AlphaFold3 Predictions of the Francisella halioticida T6SS Encoded in the Francisella Pathogenicity Island.",
+      "url": "https://doi.org/10.1111/jfd.70311",
+      "source": "PubMed — Journal of fish diseases",
+      "one_liner": "Francisella halioticida has emerged as a significant pathogen of cultured molluscs, causing substantial economic losses due to mass mortalities. The Francisella Pathogenicity Island encodes a Type VI secretion system essential for virulence and intracellular persistence. However, the F. halioticida pathogenicity island shows marked sequence divergence fro...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 5.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Engineering of Redox-Active Residues Enhances P450 Peroxygenase Performance.",
+      "url": "https://doi.org/10.1002/anie.3845288",
+      "source": "PubMed — Angewandte Chemie (International ed. in English)",
+      "one_liner": "Cytochrome P450 peroxygenases depend on the high-valent iron-oxo intermediate Compound I (Cpd I) to activate C-H bonds. However, the nonproductive oxidative damage caused by Cpd I compromises enzyme stability and limits catalytic efficiency. Here, we report a rational protein engineering strategy to address this bottleneck by constructing additional \"hole...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 8.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "[pMHCBind: predicting major histocompatibility complex class I-peptide interactions",
+      "url": "https://doi.org/10.13345/j.cjb.260422",
+      "source": "PubMed — Sheng wu gong cheng xue bao = Chinese journal of biotechnology",
+      "one_liner": "Major histocompatibility complex class I (MHC I) molecules initiate CD8 主要组织相容性复合体I类分子(major histocompatibility complex class I, MHC I)通过呈递抗原肽激活CD8",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    }
+  ]
+}
