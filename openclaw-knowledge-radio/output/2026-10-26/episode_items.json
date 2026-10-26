@@ -1,0 +1,147 @@
+{
+  "timestamps": [
+    0.0,
+    229.28,
+    506.35,
+    780.37,
+    1021.67,
+    1289.92
+  ],
+  "items": [
+    {
+      "title": "Computational De Novo Design of Miniprotein Candidate Neutralizers Targeting the IL-23 Cytokine Subunit p19",
+      "url": "https://arxiv.org/abs/2610.32779",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.32779v1 Announce Type: new \nAbstract: Interleukin-23 (IL-23) drives T-helper-17 inflammation underlying inflammatory bowel disease and psoriasis; anti-p19 antibodies are clinically effective but large, costly, and injectable. De novo miniproteins are an attractive alternative, yet published designs target the IL-23 receptor; the IL-23 cytokine ...",
+      "segment": 4,
+      "timestamp": 1021.67,
+      "highlighted": true,
+      "relevance": 12.4,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Sense codon reassignment: from global proteome profiling to precision protein engineering.",
+      "url": "https://doi.org/10.1631/jzus.B2600331",
+      "source": "PubMed — Journal of Zhejiang University. Science. B",
+      "one_liner": "The incorporation of non-canonical amino acids (ncAAs) has expanded the chemical diversity and functional repertoire of proteins beyond the 20 canonical amino acids (cAAs). While stop codon suppression introduces a single orthogonal decoding event, sense codon reassignment actively manipulates endogenous translational competition within the ribosomal deco...",
+      "segment": 3,
+      "timestamp": 780.37,
+      "highlighted": true,
+      "relevance": 10.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "What Transfers Across Protein Pockets? Experience Reuse in Molecular Optimization for Agentic Structure-Based Drug Design",
+      "url": "https://arxiv.org/abs/2610.32620",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.32620v1 Announce Type: cross \nAbstract: LLM agents optimize a ligand in a protein pocket by editing it step by step and docking each edit. Recent agents first spend extra dockings probing the complex with controlled edits; guidance induced from these probes is reported to help more than the chemical knowledge the model already carries. The prob...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 5.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Mechanistic insights into lipid-driven structural evolution of cod protein soft gels: From interfacial reconstruction to protein conformational migration.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.151723",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Lipids can modify the texture of protein-based foods, but how the type of lipid added regulates protein conformation and gel-network formation through interfacial reconstruction remains unclear. Therefore, this study compared the effects of incorporating egg white microgel-stabilized high internal phase emulsions (HIPEs) or soybean oil into cod protein so...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cellulose nanofibers enhance the binding of pea protein amyloid fibrils with 2,5-dimethylpyrazine via regulating protein conformation and microstructure.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.151743",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "In this study, the effects of cellulose nanofibers (CNF) on the structural characteristics, physicochemical properties, and aroma-binding performance of pea protein amyloid fibrils (PAFs) toward 2,5-dimethylpyrazine were investigated. Compared with pea protein isolate (PPI), acid-heat fibrillation markedly altered the surface charge, secondary structure, ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Predicted Molecular Interactions of Selected Trifolium Pratense L. Phytochemicals with H-Ras p21 Protein.",
+      "url": "https://doi.org/10.1007/s12013-026-02195-w",
+      "source": "PubMed — Cell biochemistry and biophysics",
+      "one_liner": "Members of the Fabaceae (Leguminosae) family are widely distributed flowering plants with considerable agricultural and pharmacological importance. Among them, Trifolium pratense L. is recognized as a rich source of bioactive phytochemicals, particularly isoflavones such as biochanin A and formononetin, as well as phenolic acids including caffeic, rosmari...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Novel variant in KARS1 in a consanguineous family with Intellectual Disability and hearing impairment: WES and in silico protein analysis.",
+      "url": "https://doi.org/10.1016/j.gene.2026.150444",
+      "source": "PubMed — Gene",
+      "one_liner": "Intellectual Disability (ID) is a genetically heterogeneous neurodevelopmental disorder that imposes a substantial burden on families, with huge demands on healthcare services. Autosomal recessive forms are particularly prevalent in inbred populations, where rare homozygous variants often remain undiagnosed. Trio-based whole-exome sequencing (WES) has eme...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Corrigendum to \"Design of metastable peanut protein-polyphenol complex particles for tunable flow, interfacial, and gelation properties\" [Food Chem. 525 (2026) 150611].",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.151385",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Not stated in source text\n\nMETHOD / APPROACH:\nNot stated in source text.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Kinetic Proofreading Activation Times Beyond the Weibull Limit",
+      "url": "https://arxiv.org/abs/2610.31788",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.31788v1 Announce Type: new \nAbstract: T cells can detect a few foreign peptide-major histocompatibility complexes (pMHCs) among a far larger number of self pMHCs. Kinetic proofreading explains this discrimination: a receptor that has bound its ligand must complete nKP signaling steps, each at rate kp, before it activates, and dissociation at an...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.8,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-26",
+  "time": "2026-10-26T07:42:37+00:00",
+  "n_items_raw": 9,
+  "n_items_used": 9,
+  "lookback_hours": 24,
+  "run_anchor": "2026-10-26T07:33:36+00:00",
+  "pubmed_matches": 95,
+  "biorxiv_keyword_matches": 3,
+  "biorxiv_author_matches": 0,
+  "collector_counts": {
+    "rss": 13,
+    "pubmed": 95,
+    "biorxiv_keywords": 3,
+    "biorxiv_authors": 0,
+    "s2_authors": 0,
+    "daily_knowledge": 0,
+    "wiki_context": 0
+  },
+  "collected_by_source_type": {
+    "pubmed": 95,
+    "rss": 13,
+    "biorxiv": 3
+  },
+  "collected_by_source": {
+    "Endpoints News": 5,
+    "arXiv q-bio.QM": 5,
+    "PubMed \u2014 International journal of biological macromolecules": 5,
+    "PubMed \u2014 Food chemistry": 4,
+    "arXiv q-bio.BM": 3,
+    "PubMed \u2014 Journal of visualized experiments : JoVE": 3,
+    "PubMed \u2014 Bioresource technology": 3,
+    "PubMed \u2014 mBio": 3,
+    "PubMed \u2014 Plant science : an international journal of experimental plant biology": 2,
+    "PubMed \u2014 NeuroImage": 2,
+    "PubMed \u2014 Journal of Zhejiang University. Science. B": 2,
+    "PubMed \u2014 Virus research": 2,
+    "PubMed \u2014 Mitochondrion": 2,
+    "PubMed \u2014 International journal of pharmaceutics": 2,
+    "PubMed \u2014 Neural regeneration research": 2,
+    "PubMed \u2014 Technology and health care : official journal of the European Society for Engineering and Medicine": 2,
+    "PubMed \u2014 Biological chemistry": 1,
+    "PubMed \u2014 Current opinion in structural biology": 1,
+    "PubMed \u2014 In silico pharmacology": 1,
+    "PubMed \u2014 Sheng wu gong cheng xue bao = Chinese journal of biotechnology": 1,
+    "PubMed \u2014 Current opinion in microbiology": 1,
+    "PubMed \u2014 Journal of enzyme inhibition and medicinal chemistry": 1,
+    "PubMed \u2014 Oncology reports": 1,
+    "PubMed \u2014 Functional & integrative genomics": 1,
+    "PubMed \u2014 IEEE transactions on computational biology and bioinformatics": 1,
+    "PubMed \u2014 Neuroinformatics": 1,
+    "PubMed \u2014 Critical reviews in biotechnology": 1,
+    "PubMed \u2014 Zhonghua zhong liu za zhi [Chinese journal of oncology]": 1,
+    "PubMed \u2014 Rinsho shinkeigaku = Clinical neurology": 1,
+    "PubMed \u2014 The Journal of reproduction and development": 1,
+    "PubMed \u2014 Journal of applied toxicology : JAT": 1,
+    "PubMed \u2014 Journal of ethnopharmacology": 1,
+    "PubMed \u2014 Biochimica et biophysica acta. Molecular basis of disease": 1,
+    "PubMed \u2014 Toxicology and applied pharmacology": 1,
+    "PubMed \u2014 Biochemical pharmacology": 1,
+    "PubMed \u2014 General and comparative endocrinology": 1,
+    "PubMed \u2014 Cellular signalling": 1,
+    "PubMed \u2014 Pharmacological research": 1,
+    "PubMed \u2014 Dental materials journal": 1,
+    "PubMed \u2014 Biological psychology": 1,
+    "PubMed \u2014 Epilepsy & behavior : E&B": 1,
+    "PubMed \u2014 GPS solutions": 1,
+    "PubMed \u2014 Journal of microbiological methods": 1,
+    "PubMed \u2014 Behavioural brain research": 1,
+    "PubMed \u2014 Magnetic resonance imaging": 1,
+    "PubMed \u2014 Journal of environmental management": 1,
+    "PubMed \u2014 Annals of nuclear medicine": 1,
+    "PubMed \u2014 Environmental monitoring and assessment": 1,
+    "PubMed \u2014 Glycobiology": 1,
+    "PubMed \u2014 eLife": 1,
+    "PubMed \u2014 Journal of microscopy": 1,
+    "PubMed \u2014 Dento maxillo facial radiology": 1,
+    "PubMed \u2014 Magnetic resonance in medicine": 1,
+    "PubMed \u2014 ACS applied materials & interfaces": 1,
+    "PubMed \u2014 BMC biomedical engineering": 1,
+    "PubMed \u2014 Cerebellum (London, England)": 1,
+    "PubMed \u2014 Neuroscience and biobehavioral reviews": 1,
+    "PubMed \u2014 Mass spectrometry reviews": 1,
+    "PubMed \u2014 Molecular biology reports": 1,
+    "PubMed \u2014 Human reproduction (Oxford, England)": 1,
+    "PubMed \u2014 Journal of cell communication and signaling": 1,
+    "PubMed \u2014 Open medicine (Warsaw, Poland)": 1,
+    "PubMed \u2014 Gene": 1,
+    "PubMed \u2014 European journal of pharmaceutics and biopharmaceutics : official journal of Arbeitsgemeinschaft fur Pharmazeutische Verfahrenstechnik e.V": 1,
+    "PubMed \u2014 Mathematical biosciences": 1,
+    "PubMed \u2014 Ecotoxicology and environmental safety": 1,
+    "PubMed \u2014 Cell biochemistry and biophysics": 1,
+    "PubMed \u2014 Environmental technology": 1,
+    "PubMed \u2014 Angewandte Chemie (International ed. in English)": 1,
+    "PubMed \u2014 Journal of biological engineering": 1,
+    "PubMed \u2014 Neuroscience bulletin": 1,
+    "PubMed \u2014 Archives of virology": 1,
+    "PubMed \u2014 The EMBO journal": 1,
+    "PubMed \u2014 Naunyn-Schmiedeberg's archives of pharmacology": 1,
+    "PubMed \u2014 Archives of toxicology": 1,
+    "PubMed \u2014 Genome biology and evolution": 1,
+    "PubMed \u2014 Chemico-biological interactions": 1,
+    "bioRxiv \u2014 biochemistry": 1,
+    "bioRxiv \u2014 bioinformatics": 1,
+    "bioRxiv \u2014 biophysics": 1
+  },
+  "rss_diagnostics": {
+    "Nature Chemical Biology": {
+      "http_status": 200,
+      "raw_entries": 8,
+      "kept": 0,
+      "newest_entry": "2026-10-22T00:00:00",
+      "error": null
+    },
+    "Nature Methods": {
+      "http_status": 200,
+      "raw_entries": 8,
+      "kept": 0,
+      "newest_entry": "2026-10-23T00:00:00",
+      "error": null
+    },
+    "Protein Science": {
+      "http_status": 200,
+      "raw_entries": 22,
+      "kept": 0,
+      "newest_entry": "2026-10-23T05:47:18-07:00",
+      "error": null
+    },
+    "Structure": {
+      "http_status": 200,
+      "raw_entries": 15,
+      "kept": 0,
+      "newest_entry": "2026-10-16T00:00:00",
+      "error": null
+    },
+    "Nature (main journal)": {
+      "http_status": 200,
+      "raw_entries": 75,
+      "kept": 0,
+      "newest_entry": "2026-10-25T00:00:00",
+      "error": null
+    },
+    "Nature - Protein Design": {
+      "http_status": 200,
+      "raw_entries": 30,
+      "kept": 0,
+      "newest_entry": "2026-10-24T00:00:00+00:00",
+      "error": null
+    },
+    "Nature - Protein Engineering": {
+      "http_status": 200,
+      "raw_entries": 30,
+      "kept": 0,
+      "newest_entry": "2026-10-12T00:00:00+00:00",
+      "error": null
+    },
+    "Nature - Antibodies": {
+      "http_status": 200,
+      "raw_entries": 30,
+      "kept": 0,
+      "newest_entry": "2026-10-17T00:00:00+00:00",
+      "error": null
+    },
+    "PNAS": {
+      "http_status": 200,
+      "raw_entries": 109,
+      "kept": 0,
+      "newest_entry": "2026-10-20T07:00:00+00:00",
+      "error": null
+    },
+    "Quanta Magazine": {
+      "http_status": 200,
+      "raw_entries": 5,
+      "kept": 0,
+      "newest_entry": "2026-10-23T14:54:10+00:00",
+      "error": null
+    },
+    "A-Alpha Bio (To Affinity And Beyond)": {
+      "http_status": 403,
+      "raw_entries": 0,
+      "kept": 0,
+      "newest_entry": null,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://aalphabio.substack.com/feed"
+    },
+    "Some Thoughts on a Mysterious Universe (Mohammed AlQuraishi)": {
+      "http_status": 200,
+      "raw_entries": 10,
+      "kept": 0,
+      "newest_entry": "2026-08-10T16:50:30+00:00",
+      "error": null
+    },
+    "Owl Posting (Abhishaike Mahajan)": {
+      "http_status": 200,
+      "raw_entries": 20,
+      "kept": 0,
+      "newest_entry": "2026-09-21T17:01:03+00:00",
+      "error": null
+    },
+    "Asimov Press": {
+      "http_status": 200,
+      "raw_entries": 20,
+      "kept": 0,
+      "newest_entry": "2026-10-19T14:21:32+00:00",
+      "error": null
+    },
+    "Nature Structural & Molecular Biology": {
+      "http_status": 200,
+      "raw_entries": 8,
+      "kept": 0,
+      "newest_entry": "2026-10-21T00:00:00",
+      "error": null
+    },
+    "BLOPIG (Oxford Protein Informatics Group)": {
+      "http_status": 200,
+      "raw_entries": 10,
+      "kept": 0,
+      "newest_entry": "2026-10-21T09:56:09+00:00",
+      "error": null
+    },
+    "Endpoints News": {
+      "http_status": 200,
+      "raw_entries": 24,
+      "kept": 5,
+      "newest_entry": "2026-10-25T21:43:13+00:00",
+      "error": null
+    },
+    "Nature Biotechnology": {
+      "http_status": 200,
+      "raw_entries": 8,
+      "kept": 0,
+      "newest_entry": "2026-10-22T00:00:00",
+      "error": null
+    },
+    "In the Pipeline (Derek Lowe)": {
+      "http_status": 200,
+      "raw_entries": 20,
+      "kept": 0,
+      "newest_entry": "2026-10-23T11:12:46-07:00",
+      "error": null
+    },
+    "arXiv q-bio.BM": {
+      "http_status": 200,
+      "raw_entries": 3,
+      "kept": 3,
+      "newest_entry": "2026-10-26T00:00:00-04:00",
+      "error": null
+    },
+    "arXiv q-bio.QM": {
+      "http_status": 200,
+      "raw_entries": 5,
+      "kept": 5,
+      "newest_entry": "2026-10-26T00:00:00-04:00",
+      "error": null
+    },
+    "arXiv cs.LG (AI/ML)": {
+      "http_status": 200,
+      "raw_entries": 0,
+      "kept": 0,
+      "newest_entry": null,
+      "error": null
+    }
+  },
+  "quiet_day": false,
+  "n_featured": 3,
+  "n_excluded_terms": 7,
+  "n_relevance_dropped": 91,
+  "n_over_analysis_cap": 0,
+  "llm_models_used": [
+    "poolside/laguna-s-2.1:free"
+  ],
+  "analysis_models_used": [
+    "poolside/laguna-s-2.1:free"
+  ],
+  "tts_backend": "gtts",
+  "tts_fallback_reason": "Edge failed (12 attempts): en-US-AriaNeural#3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=18888488f90e402cbe2161743bbf4297&S. Kokoro unavailable, fell back to gTTS.",
+  "tts_stats": {
+    "configured_backend": "edge",
+    "last_backend": "gtts",
+    "counts": {
+      "edge": 0,
+      "kokoro": 0,
+      "gtts": 6
+    },
+    "fallback_happened": true,
+    "fallback_reason": "Edge failed (12 attempts): en-US-AriaNeural#3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=18888488f90e402cbe2161743bbf4297&S. Kokoro unavailable, fell back to gTTS."
+  },
+  "output_dir": "/home/runner/work/protein_design_podcast/protein_design_podcast/openclaw-knowledge-radio/output/2026-10-26"
+}
