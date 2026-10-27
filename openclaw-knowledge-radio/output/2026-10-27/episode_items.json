@@ -1,0 +1,266 @@
+{
+  "timestamps": [
+    0.0,
+    245.04,
+    521.75,
+    778.65,
+    1053.81,
+    1336.54
+  ],
+  "items": [
+    {
+      "title": "Predicting Protein Thermostability with Equivariant Graph Neural Networks and Contrastive Learning.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01926",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Accurately predicting the thermostability changes induced by single-point mutations is a core challenge in protein engineering and industrial enzyme modification. However, current computational methods often struggle to jointly integrate evolutionary information, structural context, and the interactions between mutation sites and their local microenvironm...",
+      "segment": 3,
+      "timestamp": 778.65,
+      "highlighted": true,
+      "relevance": 12.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "GroScore: Automated Scoring of Protein-Protein Interactions Using Bidirectional Steered Molecular Dynamics.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01771",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "GroScore is an open-source Python toolkit that automates the scoring of protein-protein structures using bidirectional steered molecular dynamics (SMD) simulations with explicit solvent. Building on a previously published unidirectional pulling approach, the current version introduces bidirectional pulling (unbinding and rebinding), interface cutout for r...",
+      "segment": 3,
+      "timestamp": 778.65,
+      "highlighted": true,
+      "relevance": 12.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SAEKP: A Site Attention Enzyme Kinetics Prediction Method to Facilitate Enzyme Engineering.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01516",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "While the determination of enzyme kinetic parameters traditionally relies on prolonged and costly experimental methods, machine learning models have recently demonstrated promise as predictive tools. These models still have limitations, such as limited training data and insufficient sensitivity to mutations at important sites. Here, we introduce SAEKP (Si...",
+      "segment": 1,
+      "timestamp": 245.04,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Agent-guided epitope excision enables economical de novo binder design",
+      "url": "https://arxiv.org/abs/2610.33195",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.33195v1 Announce Type: new \nAbstract: De novo protein design campaigns remain bottlenecked by the inference compute time required to generate and rank candidates, limiting wider functional exploration. Here, we introduce and evaluate an epitope excision approach that truncates targets to local interface windows to accelerate both backbone diffu...",
+      "segment": 1,
+      "timestamp": 245.04,
+      "highlighted": true,
+      "relevance": 13.2,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "mdRNAcat: A Molecular Dynamics RNA Catalog of REST2 Conformational Ensembles",
+      "url": "https://arxiv.org/abs/2610.35204",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.35204v1 Announce Type: new \nAbstract: Learning molecular models of RNA requires simulation data that capture conformational variability and provide consistent physical training signals. Here, we introduce mdRNAcat, a curated dataset of all-atom molecular dynamics (MD) simulations of 48 RNA systems selected to promote sequence diversity. Each sy...",
+      "segment": 5,
+      "timestamp": 1336.54,
+      "highlighted": true,
+      "relevance": 12.6,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "PDI-Spot: A Robust Representation Learning Framework for Identifying Energetic Hotspots in Protein-DNA Complexes.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01579",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "The binding affinity of protein-DNA complexes is concentrated within a subset of interface residues, called \"hotspots\", which are critical for maintaining stable interactions. Therefore, identifying these energetic anchors is essential for elaborating on how mutations disrupt transcriptional regulation and for identifying druggable regions within disease-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 11.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Evaluation of Physics-Based Pose Prediction and the Role of Receptor Flexibility in a Community Antiviral Blind Challenge.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c02582",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Prediction of protein-ligand binding modes is a key step in computer-aided drug design, since incorrect pose prediction inevitably limits the achievable accuracy of downstream physics-based affinity predictions. The ASAP-Polaris-OpenADMET antiviral competition was launched in 2025 as a means to prospectively test computational methods across a range of me...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SSAlign: Fast and Sensitive Protein Structure Search at Scale.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag789",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: Predicted protein structure resources now contain hundreds of millions of models, turning structural comparison from a pairwise alignment task into a database-scale retrieval problem. Exhaustive structural aligners are computationally impractical at this scale, whereas fast structural-alphabet searches may discard remote or low-complexity homo...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning-based stability optimization design and virtual screening of the anti-pulmonary fibrosis peptide DR3penA.",
+      "url": "https://doi.org/10.1016/j.xphs.2026.104564",
+      "source": "PubMed — Journal of pharmaceutical sciences",
+      "one_liner": "The novel anti-fibrotic peptide DR3penA, previously developed by our research group, demonstrates substantial therapeutic potential; however, its inherent limited metabolic stability in vivo, attributable to its linear structure, hinders clinical translation. Although cyclization represents a key strategy for enhancing peptide structural rigidity, exhaust...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Diversity-Seeking Docking-Guided Molecular Design Discovers Broader Predicted Interaction Profiles across Protein Families.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01658",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Structure-based discovery pipelines commonly prioritize a scalar docking score, concentrating candidates into narrow chemotypes and contact patterns. We formulate docking-guided de novo molecular design as a diversity-seeking exploration problem and compare goal-directed, quality-diversity, Pareto-optimization, affinity-focused, novelty-based, and random ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AcepKa: Thermodynamics-Informed pKa Prediction and Protonation-State Generation in PlayMolecule AI.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c03037",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "The acid dissociation constants (pKa) and the protonation states that they determine govern solubility, permeability, and protein-ligand binding, making their accurate prediction essential in drug discovery. We present AcepKa, an application on the PlayMolecule AI platform that implements the Uni-pKa framework, which couples statistical mechanics with rep...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Benchmarking TAS2R Subtype-Selectivity Prediction under Scaffold-Aware Evaluation: A Controlled Analysis of Receptor Representations.",
+      "url": "https://doi.org/10.1021/acs.jcim.6c02473",
+      "source": "PubMed — Journal of chemical information and modeling",
+      "one_liner": "Bitter taste perception is mediated by 25 human G protein-coupled receptors (TAS2Rs) whose ligand selectivity profiles range from receptors recognizing hundreds of chemically diverse compounds to receptors with fewer than 10 known agonists. Predicting which specific TAS2R subtype a compound activates─rather than simply whether it tastes bitter─is essentia...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProtAgent: Post-Training Compact Protein Tool Agents with Interaction-Level Credit Assignment",
+      "url": "https://arxiv.org/abs/2610.33746",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.33746v1 Announce Type: new \nAbstract: Protein annotation agents must choose suitable bioinformatics tools, interpret their outputs, and use the resulting evidence in the final answer. Most existing systems rely on frontier-scale models. We ask whether a compact model can instead learn this behavior through post-training with real tool interacti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "High-throughput protein interactome identifies LSD1 as a regulator of SARS-CoV-2 production through lysine demethylation of viral nucleocapsid protein.",
+      "url": "https://doi.org/10.1016/j.mcpro.2026.101695",
+      "source": "PubMed — Molecular & cellular proteomics : MCP",
+      "one_liner": "High-throughput identification and imaging of protein-protein interactions (PPIs) under physiological conditions remains a significant challenge. Concurrently, the SARS-CoV-2 nucleocapsid (N) protein, the most abundant viral protein, plays an essential role in viral production. To advance the understanding of viral mechanisms and support antiviral develop...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Genotypic Triggers: Exposing Pharmacogenomic Blind Spots via Host-Specific Backdoors in Generative Antimicrobial Peptide Models",
+      "url": "https://arxiv.org/abs/2608.06779",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2608.06779v2 Announce Type: replace \nAbstract: Large Language Models (LLMs) have accelerated drug discovery, particularly in the automated design of antimicrobial peptides (AMPs). However, current validation pipelines for peptide generation models overlook historical precedents showing that certain drugs carry health risks predominantly for individu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.0,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Cysteine-rich sperm protamines arose independently at least twice on a deeply conserved, intrinsically disordered scaffold in amniotes.",
+      "url": "https://doi.org/10.1093/gbe/evag272",
+      "source": "PubMed — Genome biology and evolution",
+      "one_liner": "Every amniote must compact and shield the paternal genome, but the chemistry differs. In placental mammals, sperm chromatin is locked by protamine disulfide bridges, and the cysteine-rich form is considered the \"mammalian\" protamine. Analyzing 46 tetrapod protamine-1 orthologs on a time-calibrated phylogeny, we find it neither confined to eutherians nor o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "How Voting Is Like a Klein Bottle",
+      "url": "https://www.quantamagazine.org/how-voting-is-like-a-klein-bottle-20261026/",
+      "source": "Quanta Magazine",
+      "one_liner": "A new topological model connects a centuries-old voting paradox to a surface with no distinct inside or outside. The post How Voting Is Like a Klein Bottle first appeared on Quanta ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}

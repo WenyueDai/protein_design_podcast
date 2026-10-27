@@ -8,7 +8,7 @@
     <atom:link href="https://wenyuedai.github.io/protein_design_podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 07:42:37 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 07:39:47 GMT</lastBuildDate>
     <itunes:author>Eva Dai</itunes:author>
     <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
     <itunes:owner>
@@ -19,13 +19,24 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
+      <title>Daily Podcast 2026-10-27</title>
+      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-27/podcast_2026-10-27.mp3</guid>
+      <pubDate>Tue, 27 Oct 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-27/podcast_2026-10-27.mp3" length="11992677" type="audio/mpeg" />
+      <description>The biggest shift today is that computational shortcuts in protein design are no longer just approximations — they&#x27;re becoming precision instruments that actually outperform brute force. | The second major pivot is that automation isn&#x27;t replacing human intuition so much as it&#x27;s amplifying it. | Third, the field is finally getting serious about data infrastructure for RNA.</description>
+      <itunes:author>Eva Dai</itunes:author>
+      <itunes:summary>The biggest shift today is that computational shortcuts in protein design are no longer just approximations — they&#x27;re becoming precision instruments that actually outperform brute force. | The second major pivot is that automation isn&#x27;t replacing human intuition so much as it&#x27;s amplifying it. | Third, the field is finally getting serious about data infrastructure for RNA.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
+    </item>
+    <item>
       <title>Daily Podcast 2026-10-26</title>
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-26/podcast_2026-10-26.mp3</guid>
       <pubDate>Mon, 26 Oct 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-26/podcast_2026-10-26.mp3" length="11484549" type="audio/mpeg" />
-      <description>The field has been treating confidence scores as gospel for years, but a new computational study on IL-23 p19 binders just exposed a fundamental flaw that&#x27;s been hiding in plain sight. | The real breakthrough came when they switched to BindCraft, the interface-optimized hallucination method. | Meanwhile, in the world of agentic drug design, a completely different kind of confidence problem is emerging.</description>
+      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-10-26/podcast_2026-10-26.mp3" length="0" type="audio/mpeg" />
+      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>The field has been treating confidence scores as gospel for years, but a new computational study on IL-23 p19 binders just exposed a fundamental flaw that&#x27;s been hiding in plain sight. | The real breakthrough came when they switched to BindCraft, the interface-optimized hallucination method. | Meanwhile, in the world of agentic drug design, a completely different kind of confidence problem is emerging.</itunes:summary>
+      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
     </item>
@@ -661,17 +672,6 @@
       <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-24/podcast_2026-08-24.mp3</guid>
       <pubDate>Mon, 24 Aug 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-24/podcast_2026-08-24.mp3" length="0" type="audio/mpeg" />
-      <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
-      <itunes:author>Eva Dai</itunes:author>
-      <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://wenyuedai.github.io/protein_design_podcast/cover.svg" />
-    </item>
-    <item>
-      <title>Daily Podcast 2026-08-23</title>
-      <guid isPermaLink="false">https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-23/podcast_2026-08-23.mp3</guid>
-      <pubDate>Sun, 23 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/WenyueDai/protein_design_podcast/releases/download/episode-2026-08-23/podcast_2026-08-23.mp3" length="0" type="audio/mpeg" />
       <description>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</description>
       <itunes:author>Eva Dai</itunes:author>
       <itunes:summary>Daily automated digest of protein design, antibody engineering &amp; enzyme design research</itunes:summary>
