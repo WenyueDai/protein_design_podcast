@@ -1,0 +1,292 @@
+{
+  "timestamps": [
+    0.0,
+    200.26,
+    403.13,
+    700.23,
+    939.19,
+    1222.72
+  ],
+  "items": [
+    {
+      "title": "Structure, Not Sequence: Tracking and Validating Folding Mechanisms in ESMFold's Trunk with Sparse Autoencoders",
+      "url": "https://arxiv.org/abs/2610.36226",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.36226v1 Announce Type: new \nAbstract: Structure predictors like ESMFold fold proteins using neural network computation and have transformed structural biology. However, the driving mechanism from amino-acid (AA) sequence to 3D structure is insufficiently understood, and biological meaning remains locked in the dense network. Sparse autoencoders...",
+      "segment": 2,
+      "timestamp": 403.13,
+      "highlighted": true,
+      "relevance": 11.0,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Generalizable Protein Folding Pathway Exploration with DA2-GRASP: Extending Beyond Miniproteins.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00480",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Elucidating protein dynamics is crucial for deciphering fundamental biological processes, from enzyme catalysis to cellular signaling, as its dysregulation directly causes protein misfolding diseases such as Alzheimer's and Parkinson's. While artificial intelligence has revolutionized static protein structure prediction, capturing the high-dimensional dyn...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 13.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "JustEvo: A Prior-Guided Adaptive Mixture-of-Experts Framework for Multifunctional Protein Directed Evolution.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c01288",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Machine-learning-guided directed evolution can reduce the experimental burden of protein engineering by prioritizing variants before they are tested. In practice, however, many campaigns begin with few or no target-specific measurements, face choices about how to use heterogeneous protein-model priors, and require functional improvement to be balanced wit...",
+      "segment": 5,
+      "timestamp": 1222.72,
+      "highlighted": true,
+      "relevance": 11.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multiproperty optimization of therapeutic antibodies through sequence editing via large language model and reinforcement learning.",
+      "url": "https://doi.org/10.1038/s41467-026-78533-6",
+      "source": "PubMed — Nature communications",
+      "one_liner": "Discovering antibodies with multiple beneficial properties is essential for therapeutic drug development, but experimentally identified antibodies require further optimization. Joint optimization remains challenging because sequence space is vast, annotations are sparse and property tradeoffs are common. Herein, we propose AbOptimizer, a reinforcement lea...",
+      "segment": 2,
+      "timestamp": 403.13,
+      "highlighted": true,
+      "relevance": 9.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structure-aware graph learning links peptide geometry to pathogen-specific antimicrobial potency.",
+      "url": "https://doi.org/10.1039/d6cc03538h",
+      "source": "PubMed — Chemical communications (Cambridge, England)",
+      "one_liner": "Antimicrobial peptide screening requires both activity classification and pathogen-specific potency estimation. Here we present GeoMIC, a two-stage framework combining protein language model embeddings with predicted peptide geometry. GeoMIC achieved an AUROC of 0.844 on XUAMP and minimum inhibitory concentration (MIC) prediction correlations of 0.794 for",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 5.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Technology solutions for immune loci: integrated high-resolution KIR genotyping reveals allelic, structural, and KIR-HLA diversity across 24 human populations",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761185",
+      "source": "Yun Song (bioRxiv)",
+      "one_liner": "High-resolution genotyping of killer cell immunoglobulin-like receptor (KIR) genes remains challenging because of extensive sequence homology, copy-number variation, and complex haplotype structures. Although KIR allelic variation influences receptor expression and function, routine typing has largely been limited to gene presence or absence. Here, we evaluated an integrated short-read sequencing",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 3.6,
+      "tags": [
+        "protein-design",
+        "author"
+      ]
+    },
+    {
+      "title": "Pretrained graph transformer-driven de novo design and machine learning prioritization of computationally predicted ENR-InhA (InhA) inhibitors with potential relevance to drug-resistant",
+      "url": "https://doi.org/10.1080/1062936X.2026.2751659",
+      "source": "PubMed — SAR and QSAR in environmental research",
+      "one_liner": "Multidrug-resistant tuberculosis (MDR-TB) undermines frontline therapy, and conventional drug discovery is slow and resource intensive. We present an integrated computational pipeline for the de novo design of inhibitors of a single clinically validated target, the NADH-dependent enoyl-[acyl-carrier-protein] reductase of",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Machine learning dataset and benchmark for accurate T cell receptor-pHLA binding prediction.",
+      "url": "https://doi.org/10.1038/s43588-026-01073-y",
+      "source": "PubMed — Nature computational science",
+      "one_liner": "A central challenge in immunology and therapeutic design is accurately predicting the diverse interactions between T cell receptors and peptide-human leukocyte antigen (pHLA) complexes. Existing machine learning tools are hindered by incomplete sequence data and biased nonbinding examples. Here we present Hi-TPH, a large-scale hierarchical dataset featuri...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ΔNAzyme: A Foundational QM/MM Δ-Machine Learning Potential for Nucleic Acid Enzyme Catalysis.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c01635",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Nucleic acid enzymes (NAzymes), including ribozymes, DNAzymes, and XNAzymes, are programmable biocatalysts that catalyze diverse chemical reactions and provide unique platforms for investigating catalysis and engineering molecular function. Their central roles in biology and evolution, together with emerging applications in biotechnology, synthetic biolog...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The X‐ray crystallographic structure of a designed, self‐assembling, and heme‐binding protein",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70829?af=R",
+      "source": "Protein Science",
+      "one_liner": "Protein Science, Volume 35, Issue 11, November 2026.",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "protein"
+      ]
+    },
+    {
+      "title": "PCB-118 increases PDE4D abundance and thermal stability in bladder cancer cells: An integrative toxicogenomic and cellular study.",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.154810",
+      "source": "PubMed — Biochemical and biophysical research communications",
+      "one_liner": "Polychlorinated biphenyls (PCBs) are persistent environmental contaminants with potential carcinogenic effects, but their molecular associations with bladder cancer remain poorly understood. Here, we integrated toxicogenomic, transcriptomic, single-cell, structural, and cellular analyses to identify candidate proteins responsive to PCB-118 in bladder canc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ArthroVerse: mapping protein family diversity across arthropod-associated microbiomes.",
+      "url": "https://doi.org/10.1093/nar/gkag1067",
+      "source": "PubMed — Nucleic acids research",
+      "one_liner": "Metagenomic studies of arthropod-associated microbiomes have generated vast amounts of sequence data, yet the functional and structural organization of these proteins remains largely unexplored. Here, we present ArthroVerse, the first comprehensive database of protein families derived from arthropod-associated metagenomes. Non-redundant protein families w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Contribution of disordered regions of the essential protein GEMIN5 to RNA binding.",
+      "url": "https://doi.org/10.26508/lsa.202603860",
+      "source": "PubMed — Life science alliance",
+      "one_liner": "GEMIN5 is emerging as a multifunctional RNA-binding protein (RBP) linked to human disease. This RBP comprises a WD40 repeat domain at the N terminus. The C-terminal region (G5C) includes a tetratricopeptide repeat (TPR)-like dimerization module, a non-canonical RNA-binding site (RBS), and an intrinsically disordered region (IDR). Understanding the molecul...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular and Cellular TCR-Mimic Therapeutic Platforms for Cancer Therapy: A Comparative Review toward a Context-Driven Selection Framework.",
+      "url": "https://doi.org/10.1016/j.critrevonc.2026.105673",
+      "source": "PubMed — Critical reviews in oncology/hematology",
+      "one_liner": "T-cell receptor-mimic antibodies (TCRm-Abs) have enabled the specific targeting of peptide-major histocompatibility complexes (p-MHCs), thereby granting access to intracellular tumor antigens that are typically inaccessible to conventional antibody therapeutics. Nevertheless, the extremely low density of these complexes on the surface of tumor cells has r...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Adjuvant selection and optimization in the design of an epstein-barr virus-based multi-epitope vaccine against Burkitt lymphoma.",
+      "url": "https://doi.org/10.1186/s43046-026-00423-1",
+      "source": "PubMed — Journal of the Egyptian National Cancer Institute",
+      "one_liner": "BACKGROUND: This study aimed to identify and optimize a multi-epitope vaccine construct against Epstein-Barr virus (EBV)-associated Burkitt lymphoma, with particular emphasis on adjuvant selection, using an immunoinformatics approach. METHODS: CTL, HTL, and B-cell epitopes derived from gp350, EBNA1, LMP2A, and BZLF1 were screened based on their predicted ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A unified coarse-grained neural network potential for the dynamics of biomolecular complexes",
+      "url": "https://arxiv.org/abs/2610.37606",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.37606v1 Announce Type: new \nAbstract: The behavior of biomolecular complexes is governed by chemically specific interactions and often involves rare events that atomistic molecular dynamics struggle to capture within accessible timescales. Here we introduce AMARO v2.0, a coarse-grained neural network potential that retains all heavy atoms and t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.6,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Enerzyme: An Efficient Reactive Neural Network Potential Training Framework for Enzyme Cluster Models with Application to Methyltransferases.",
+      "url": "https://doi.org/10.1021/acs.jctc.6c01330",
+      "source": "PubMed — Journal of chemical theory and computation",
+      "one_liner": "Quantum mechanical (QM) cluster models provide an effective framework for mechanistic studies of enzymatic reactions but QM calculations remain computationally demanding. Neural network potentials (NNPs) offer a promising route to reduce their cost, but enzymes introduce new challenges not faced by NNPs for small molecules, including large system sizes, t...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "TCSP3.0: Template-Based Crystal Structure Prediction with Coefficient-Preserving Element Substitution and Structural Diversity",
+      "url": "https://arxiv.org/abs/2610.34029",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.34029v1 Announce Type: cross \nAbstract: Template-based crystal structure prediction (CSP) transfers a known crystal structure to a new composition by element substitution, so its accuracy depends on retrieving suitable templates, mapping elements and ranking the resulting candidates correctly. Auditing the original TCSP2.0 implementation on the...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 12.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Matcha: Multi-Stage Riemannian Flow Matching for Accurate and Physically Valid Molecular Docking",
+      "url": "https://arxiv.org/abs/2510.14586",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2510.14586v4 Announce Type: replace \nAbstract: Predicting a protein--ligand binding pose is central to structure-based drug design, yet current docking methods still struggle to combine speed, accuracy and physical plausibility. We introduce Matcha, which refines a ligand pose by three flow-matching stages in translation, rotation and torsion space,...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
