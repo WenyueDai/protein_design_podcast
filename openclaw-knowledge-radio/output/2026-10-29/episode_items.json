@@ -1,0 +1,146 @@
+{
+  "timestamps": [
+    0.0,
+    195.16,
+    427.99,
+    624.27,
+    830.07,
+    1114.58
+  ],
+  "items": [
+    {
+      "title": "Atom14 and Atom37: how protein design models write down atoms",
+      "url": "https://www.blopig.com/blog/2026/10/atom14-and-atom37-how-protein-design-models-write-down-atoms/",
+      "source": "BLOPIG (Oxford Protein Informatics Group)",
+      "one_liner": "AKA why a protein does not naturally fit neatly into a tensor, and how RFdiffusion3, BoltzGen and La-Proteina cope when the amino-acid sequence is not known yet The problem: proteins are not rectangles Neural networks like fixed-shape arrays. Proteins are not fixed-shape: the 20 standard amino acids contain between 4 and 14 heavy atoms (hydrogens […]",
+      "segment": 4,
+      "timestamp": 830.07,
+      "highlighted": true,
+      "relevance": 12.2,
+      "tags": [
+        "protein-design",
+        "antibody-design",
+        "structural-biology",
+        "author"
+      ]
+    },
+    {
+      "title": "Targeting mitogen-activated protein kinase 6-driven oncogenic signaling in lung adenocarcinoma: Insights from protein-ligand dynamics, conformational landscapes, and MM/PBSA binding energetics.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.155070",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "The atypical mitogen-activated protein kinase 6 (MAPK6), commonly referred to as ERK3, is a member of the MAP kinase family, plays a vital role in both the initiation and progression of cancer promotes the growth of tumors. Here, we used a multi-faceted in silico approach to identify potential phytochemical inhibitors of MAPK6. Using a curated collection ...",
+      "segment": 3,
+      "timestamp": 624.27,
+      "highlighted": true,
+      "relevance": 10.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cooperative nature of residue interactions in biomolecular condensates.",
+      "url": "https://doi.org/10.1073/pnas.2618489123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Cooperativity of residue interactions is prevalent in proteins and plays an essential role in protein folding. However, whether cooperativity exists in intrinsically disordered proteins (IDPs) and their assembled biomolecular condensates remains elusive. Here, we reveal the presence of residue interaction cooperativity in various IDP condensates using ato...",
+      "segment": 1,
+      "timestamp": 195.16,
+      "highlighted": true,
+      "relevance": 8.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Fabrication of a monoclonal antibody-based electro-immunosensor to detect SARS-CoV-2 nucleocapsid antigen.",
+      "url": "https://doi.org/10.1016/j.pep.2026.107030",
+      "source": "PubMed — Protein expression and purification",
+      "one_liner": "The nucleocapsid protein is one of the major structural proteins of the SARS-CoV-2 virus, which has caused the COVID-19 pandemic. Due to their high abundance in the host circulation system, post-early infection, and their participation in other cyclic events that support viral survival, they exert control over the viral life cycle within the host. Thus, a...",
+      "segment": 4,
+      "timestamp": 830.07,
+      "highlighted": true,
+      "relevance": 6.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beijing-based BioGeometry gets $100M+ for AI drug R&D",
+      "url": "https://endpoints.news/beijing-based-biogeometry-gets-100m-for-ai-drug-rd/",
+      "source": "Endpoints News",
+      "one_liner": "A Chinese biotech startup has raised more than $100 million in Series A funding for its AI-driven protein design.\n\n BioGeometry, a 4-year-old company headquartered in Beijing, said in a statement Wednesday ...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 5.2,
+      "tags": [
+        "biotech",
+        "industry"
+      ]
+    },
+    {
+      "title": "The relationship between local frustration and protein function.",
+      "url": "https://doi.org/10.1016/j.sbi.2026.103420",
+      "source": "PubMed — Current opinion in structural biology",
+      "one_liner": "Energy landscape theory is the accepted theoretical framework for understanding protein folding based on minimizing frustration. The theory provides an algorithm to learn the energy of amino acid interactions within a folded protein structure that also allows evaluation of localized regions of frustration. Most amino acid contacts are minimally frustrated...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Structural mechanisms governing protein-electrode electron transfer: accessibility, redox relays, conformational gating, and quaternary shielding.",
+      "url": "https://doi.org/10.1016/j.bioelechem.2026.109491",
+      "source": "PubMed — Bioelectrochemistry (Amsterdam, Netherlands)",
+      "one_liner": "Direct electron transfer (DET) between redox proteins and electrodes depends on the interplay between molecular architecture and interfacial physicochemical properties. Here, we developed a computationally inexpensive structural framework integrating planar electrode accessibility, internal redox relays, conformational gating, quaternary shielding, and pr...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Reader protein recognition of histone post-translational modifications: Role of aromatic interactions and cooperativity.",
+      "url": "https://doi.org/10.1016/j.cbpa.2026.102799",
+      "source": "PubMed — Current opinion in chemical biology",
+      "one_liner": "Histone post-translational modifications (PTMs) mediate protein-protein interactions (PPIs) with reader proteins. These PPIs are key elements to epigenetic regulation of gene expression and have been linked to a wide range of cancers. However, inhibition of these interactions has proven challenging. Many of these PPIs are mediated by aromatic interactions...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "How Spiders Spin ‘Silk Dope’ Into Nature’s Toughest Material",
+      "url": "https://www.quantamagazine.org/how-spiders-spin-silk-dope-into-natures-toughest-material-20261028/",
+      "source": "Quanta Magazine",
+      "one_liner": "By probing its molecular structure, biologists are uncovering how a tangle of unstructured proteins turns into a tough, flexible thread. The post How Spiders Spin ‘Silk Dope’ Into Nature’s Toughest Material first ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
