@@ -1,0 +1,176 @@
+{
+  "timestamps": [
+    0.0,
+    263.08,
+    552.65,
+    801.85,
+    1004.61,
+    1292.9
+  ],
+  "items": [
+    {
+      "title": "Decoding structure-function synergies in plant proteins using AlphaFold and deep learning tools.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.150801",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "The transition to sustainable plant-based proteins requires a molecular-level understanding of structure-function relationships that traditional analytical techniques struggle to fully characterize. This comprehensive review explores the potential of artificial intelligence in elucidating the structure-function relationship of plant proteins, particularly...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 8.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PRIDA: Cross-domain protein-RNA interaction prediction based on biological language models and conditional domain-adversarial learning.",
+      "url": "https://doi.org/10.1093/bioinformatics/btag802",
+      "source": "PubMed — Bioinformatics (Oxford, England)",
+      "one_liner": "MOTIVATION: The interaction between RNA and proteins is a complex process that involves atom-level details and dynamic changes. Accurate prediction of protein-RNA interactions helps researchers to develop protein-targeted small nucleic acid drugs. However, the scarcity of protein-RNA complexes and experimental data limits the ability of existing data-driv...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "OpenAntigens: a structure-aware database for antigen construct design across the human cell-surface and secreted proteome.",
+      "url": "https://doi.org/10.1093/nar/gkag1051",
+      "source": "PubMed — Nucleic acids research",
+      "one_liner": "Choosing which region of a protein to express remains poorly standardized in antibody discovery, recombinant reagent generation, structural biology, and computational binder design. For human cell-surface and secreted proteins, this requires reconciling topology, processing, predicted, and experimental structure, modifications, interaction partners, ortho...",
+      "segment": 1,
+      "timestamp": 263.08,
+      "highlighted": true,
+      "relevance": 15.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "PNPShift: an NMR chemical shift predictor for purine-nucleotide-bound and unliganded proteins.",
+      "url": "https://doi.org/10.1007/s10858-026-00499-w",
+      "source": "PubMed — Journal of biomolecular NMR",
+      "one_liner": "Accurate prediction of protein chemical shifts is important for NMR-based structural and ensemble modeling. However, most existing predictors are designed for unliganded proteins and cannot quantitatively calculate the chemical shifts of purine nucleotide-bound proteins, which are encoded by approximately 10% of the human genome and play critical roles in...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 8.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Harnessing artificial intelligence to understand enzyme catalysis and discover new enzymes.",
+      "url": "https://doi.org/10.1016/j.sbi.2026.103422",
+      "source": "PubMed — Current opinion in structural biology",
+      "one_liner": "Molecular simulations have been central to our understanding of how enzymes work, and the ongoing explosion of artificial intelligence/ML (AI/ML) approaches is greatly expanding the scope of problems that can be addressed using simulations. The speed of development of the field is tremendous, with the near-constant development of new approaches and succes...",
+      "segment": 1,
+      "timestamp": 263.08,
+      "highlighted": true,
+      "relevance": 5.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Metalloprotein-inspired design of synthetic polymers.",
+      "url": "https://doi.org/10.1016/j.cbpa.2026.102796",
+      "source": "PubMed — Current opinion in chemical biology",
+      "one_liner": "Metal ion recognition in proteins emerges from coordinated effects of sequence patterning, hierarchical structure, and dynamic plasticity that promote high-affinity, ion-selective binding. Synthetic polymers, by contrast, offer broad chemical tunability but lack unified frameworks linking copolymer sequence and organization to function. Here, we position ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular Mechanisms of the Cytotoxicity of an Anti-Cancer Peptide.",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c05478",
+      "source": "PubMed — The journal of physical chemistry. B",
+      "one_liner": "The molecular mechanisms of anticancer peptides (ACPs) are largely unknown, which makes their rational design challenging. Here, we investigate the action of an ACP, the peptide NAF-144-67, to elucidate a detailed reaction sequence with cancer cells. NAF-144-67 is a 24-amino-acid ACP derived from the human transmembrane protein NAF-1, which resides in mit...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Enhancing tumor T-cell antigen prediction using cross-attention-based multimodal representations with hybrid CNN-GLU model.",
+      "url": "https://doi.org/10.1016/j.compbiolchem.2026.109519",
+      "source": "PubMed — Computational biology and chemistry",
+      "one_liner": "Tumor T-cell antigens play a significant role in cancer immunotherapy by enabling the immune system to recognize and eliminate malignant cells. However, existing experimental methods for identifying these antigens are costly, time-consuming, and labor-intensive, highlighting the need for an accurate computational prediction model. In this study, we propos...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Computer-assisted hapten design enables aptamer and hybrid aptamer-antibody rapid assays for detection of citrinin in red yeast rice.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.150914",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Citrinin (CTN), a nephrotoxic and hepatotoxic mycotoxin frequently found in red yeast rice, requires rapid and reliable detection. Here, six CTN haptens were rationally designed using computational chemistry, and two optimal structures were selected for generating CTN-specific aptamers via systematic evolution of ligands by exponential enrichment (SELEX)....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A fluorescence-based high-throughput assay enabling engineering of BsPPS, a unique phenolic compound-phosphorylating enzyme from Bacillus subtilis.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.150937",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "To date, enzymatic systems capable of phosphorylating phenolic compounds are rare, and phenolic phosphate synthetase from Bacillus subtilis (BsPPS) is distinguished by its ability to regioselectively phosphorylate a broad range of structurally diverse natural polyphenols, a transformation valuable for improving the aqueous solubility and bioavailability o...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "How Do You Take a Picture of a Black Hole?",
+      "url": "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/",
+      "source": "Quanta Magazine",
+      "one_liner": "Astrophysicist Shep Doeleman explains how capturing the first image of a black hole required a telescope the size of the world, and why the next goal is to create a movie. The post How Do You Take a Picture of a Black Hole? first ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
