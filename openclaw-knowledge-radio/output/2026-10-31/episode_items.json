@@ -1,0 +1,146 @@
+{
+  "timestamps": [
+    0.0,
+    279.34,
+    571.85,
+    858.67,
+    1085.83,
+    1371.86
+  ],
+  "items": [
+    {
+      "title": "ERIS2: A deep-learning platform for predicting mutation-induced protein stability changes.",
+      "url": "https://doi.org/10.1016/j.str.2026.10.003",
+      "source": "PubMed — Structure (London, England : 1993)",
+      "one_liner": "Accurately predicting changes in protein thermodynamic stability upon mutation is a fundamental challenge in protein engineering and therapeutics. Deep learning has improved prediction, but many models remain limited by small, imbalanced training data and poor generalization across mutation types. Here, we present ERIS2, an attention-convolutional deep le...",
+      "segment": 3,
+      "timestamp": 858.67,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A Two-Stage ESM-Based Machine Learning Pipeline for Robust Hierarchically Evaluated Enzyme Function Prediction.",
+      "url": "https://doi.org/10.34133/csbj.0246",
+      "source": "PubMed — Computational and structural biotechnology journal",
+      "one_liner": "Accurate enzyme annotation remains a major bottleneck in translating rapidly growing protein sequence data into biological knowledge. Enzyme Commission (EC) prediction is particularly challenging because enzyme functions are organized hierarchically, annotations are often imbalanced across classes, and sequence similarity alone may be insufficient to reso...",
+      "segment": 1,
+      "timestamp": 279.34,
+      "highlighted": true,
+      "relevance": 10.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Multiscale Brownian dynamics simulations reveal effects of macromolecular crowding on protein-ligand association.",
+      "url": "https://doi.org/10.1073/pnas.2617950123",
+      "source": "PubMed — Proceedings of the National Academy of Sciences of the United States of America",
+      "one_liner": "Macromolecular crowding is known to influence the diffusive, binding, kinetic, and equilibrium properties of proteins in a range of environments such as occur inside biological cells or in highly concentrated solutions of protein therapeutics. However a quantitative understanding of the effects of macromolecular crowding on the rates of protein-small mole...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 8.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The pathological roles of intrinsically disordered proteins in lysosomal acidification dysfunction in neurodegenerative diseases.",
+      "url": "https://doi.org/10.1186/s40035-026-00591-z",
+      "source": "PubMed — Translational neurodegeneration",
+      "one_liner": "Neurodegenerative diseases such as Alzheimer's disease (AD), frontotemporal dementia (FTD), and Parkinson's disease (PD) are characterized by the accumulation of intrinsically disordered proteins (IDPs), including amyloid-β (Aβ), tau, and α-synuclein (αSyn). These proteins disrupt neuronal homeostasis through toxic aggregation, impaired proteostasis, and ...",
+      "segment": 5,
+      "timestamp": 1371.86,
+      "highlighted": true,
+      "relevance": 10.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Engineering FAST-PETase with enhanced catalytic efficiency and acidic adaptability for sustainable PET waste recycling.",
+      "url": "https://doi.org/10.1016/j.jhazmat.2026.144073",
+      "source": "PubMed — Journal of hazardous materials",
+      "one_liner": "This study presented a comprehensive protein engineering strategy to enhance the catalytic efficiency and environmental adaptability of FAST-PETase for PET plastic degradation. Through systematic site-directed mutagenesis of key basic residues (Arg84, Arg117, and Lys227) surrounding the active site, we identified R84D as the optimal single mutant, exhibit...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 5.8,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Cryo-EM structure of a protein nanopore reveals lipid acyl chains as integral components.",
+      "url": "https://doi.org/10.1126/sciadv.aeg9162",
+      "source": "PubMed — Science advances",
+      "one_liner": "Nanopore-based technologies are revolutionizing nucleic acid sequencing and molecular sensing, yet the structural basis by which pore-forming proteins interact with lipid membranes remains poorly defined. The mycobacterial porin MspA is a benchmark biological nanopore owing to its exceptional stability and uniquely narrow constriction, but accurate struct...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Solvent dependency of the free energy landscape of a protein translocating graphene nanopores.",
+      "url": "https://doi.org/10.1063/5.0353740",
+      "source": "PubMed — The Journal of chemical physics",
+      "one_liner": "The translocation of (bio)polymers through nanometer-sized openings in solid-state materials is a key process that allows us to identify the identity, length, and sequence of the biopolymer. The efficiency and speed of this process, however, are influenced by the local environment and the interatomic interactions among all components: the biopolymer, pore...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Molecular-size-dependent cryoprotection of thaw exudate fractions in frozen pork batter: Effects on myofibrillar protein stability and gelation.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.151813",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Frozen storage impairs pork myofibrillar protein (MP) re-gelation by disrupting protein conformation, redox stability and protein-water interactions. This study evaluated whether thaw exudate fractions with different molecular sizes could protect freeze-damaged MP during subsequent heating. Two ultrafiltration fractions, UF1 (>10 kDa) and UF2 (<10 kDa), w...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "A New Map of ‘Empty’ Space Challenges a Tranquil Picture of the Galaxy",
+      "url": "https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/",
+      "source": "Quanta Magazine",
+      "one_liner": "For decades, astronomers treated the interstellar medium as a static backdrop to the goings-on of the universe. Now, a wave of 3D mapping is bringing the interstellar medium’s dynamic nature into focus. The post",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": null,
+      "tags": [
+        "math",
+        "science"
+      ]
+    }
+  ]
+}
