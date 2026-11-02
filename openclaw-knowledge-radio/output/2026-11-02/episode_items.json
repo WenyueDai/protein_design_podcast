@@ -1,0 +1,310 @@
+{
+  "timestamps": [
+    0.0,
+    127.22,
+    197.35,
+    201.93,
+    382.19,
+    581.14
+  ],
+  "items": [
+    {
+      "title": "Protein Complex Structure Prediction With AlphaFold-Enhanced HDOCK in CAPRI Rounds 47-55.",
+      "url": "https://doi.org/10.1002/prot.26823",
+      "source": "PubMed — Proteins",
+      "one_liner": "Protein-protein interactions play a critical role in numerous biological processes, and understanding these interactions is essential for deciphering cellular mechanisms and designing therapeutic interventions. Predicting protein-protein complex structures by computational methods is an important approach to studying protein-protein interactions. The CAPR...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 13.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Performance of pyDock in 8th CAPRI: Energy-Based Scoring Applied to Docking and AlphaFold Models.",
+      "url": "https://doi.org/10.1002/prot.70038",
+      "source": "PubMed — Proteins",
+      "one_liner": "The 8th CAPRI edition has shown a significant evolution in the field of protein-protein complex structure prediction. We have participated in all 11 targets proposed in this edition, involving domain-domain, protein-protein, protein-peptide, and protein-DNA interactions, including homo- and hetero-meric interfaces. Our prediction strategy has significantl...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 12.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Modeling CAPRI Targets of Round 55 by Combining AlphaFold and Docking.",
+      "url": "https://doi.org/10.1002/prot.26853",
+      "source": "PubMed — Proteins",
+      "one_liner": "In recent years, the field of structural biology has seen remarkable advancements, particularly in modeling of protein tertiary and quaternary structures. The AlphaFold deep learning approach revolutionized protein structure prediction by achieving near-experimental accuracy on many targets. This paper presents a detailed account of structural modeling of...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 12.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Biomolecular Interaction Prediction in the Pre- and Post-AlphaFold Era: The 8th CAPRI Evaluation.",
+      "url": "https://doi.org/10.1002/prot.70018",
+      "source": "PubMed — Proteins",
+      "one_liner": "We report on the 8th CAPRI Evaluation period, capturing the assessment of CAPRI Rounds 47 to 55 (excluding the CASP and COVID-related Rounds), which have witnessed the transition to AI-driven prediction tools such as AlphaFold and related alternatives. The prediction Rounds in this evaluation are characterized by a high level of difficulty due to various ...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 5.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Navigating the Pre- and Post-AlphaFold Divide: CAPRI 8th Evaluation Meeting, February 12-14, Grenoble, FR.",
+      "url": "https://doi.org/10.1002/prot.70058",
+      "source": "PubMed — Proteins",
+      "one_liner": "",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Massive Sampling Strategy for Antibody-Antigen Targets in CAPRI Round 55 With MassiveFold.",
+      "url": "https://doi.org/10.1002/prot.26802",
+      "source": "PubMed — Proteins",
+      "one_liner": "Massive sampling with AlphaFold2 improves protein-protein complex predictions. This has been shown during the last CASP15-CAPRI blind prediction round by the AFsample tool. However, more difficult targets including antibody-antigen binding remain challenging. CAPRI Round 55 consisted of three antibody-antigen targets and one heterotrimer. We used our Alph...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 14.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Docking With Rosetta and Deep Learning Approaches in CAPRI Rounds 47-55.",
+      "url": "https://doi.org/10.1002/prot.70016",
+      "source": "PubMed — Proteins",
+      "one_liner": "Critical Assessment of PRediction of Interactions (CAPRI) rounds 47 through 55 introduced 49 targets comprising multistage assemblies, antibody-antigen complexes, and flexible interfaces. For these rounds, we combined various Rosetta docking approaches (RosettaDock, ReplicaDock, and SymDock) with deep learning approaches (AlphaFold2, IgFold, and AlphaRED)...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 12.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Global analysis of thermal and chemical denaturation using CheMelt: Thermodynamic dissection of highly thermostable de novo designed proteins.",
+      "url": "https://doi.org/10.1002/pro.70800",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "De novo protein design often produces thermostable proteins that denature above 100°C, which complicates the analysis of their stability. Thermostable proteins can be unfolded by combined chemical and thermal denaturation followed by global analysis of multiple melting curves. Here, we have developed CheMelt, a new online tool for global analysis of unfol...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 12.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Recycle only when you have to!",
+      "url": "https://arxiv.org/abs/2610.40665",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.40665v1 Announce Type: new \nAbstract: AlphaFold 3-like models (e.g., Boltz, Protenix, etc.) have pushed the frontier of protein binder design. This architecture is used both for the generation of binder candidates (e.g., by hallucination or converting these models into backbone or full atom generative models) as well as for the screening of the...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 11.6,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "GraphTFactor: A graph-based approach for proteins transcription factor prediction",
+      "url": "https://arxiv.org/abs/2610.40867",
+      "source": "arXiv q-bio.QM",
+      "one_liner": "arXiv:2610.40867v1 Announce Type: new \nAbstract: Transcription factors (TFs) play an important role in regulating gene expression, making their identification a fundamental task in computational biology. In this work, we propose GraphTFactor, a novel end-to-end framework that models protein sequences as graphs and directly classifies transcription factors...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.6,
+      "tags": [
+        "quantitative-biology",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Preparation and characterization of a monoclonal antibody against American eel (Anguilla rostrata) Igκ.",
+      "url": "https://doi.org/10.1016/j.fsi.2026.111803",
+      "source": "PubMed — Fish & shellfish immunology",
+      "one_liner": "Immunoglobulin light chains are essential components of antibodies and contribute to antigen recognition and structural stability. Although immunoglobulin heavy chains have been extensively characterized in teleost fish, the molecular features and biological functions of light chains remain poorly understood. In this study, we molecularly characterized th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 9.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "DBAASP V4: condition-resolved bioactivity and chemical structures for data-driven peptide and peptidomimetic discovery.",
+      "url": "https://doi.org/10.1093/nar/gkag1050",
+      "source": "PubMed — Nucleic acids research",
+      "one_liner": "The current peptide renaissance-driven by metagenomic and proteomic mining, molecular de-extinction, protein language models, and generative or evolutionary design-is producing millions of candidates, but useful machine learning depends on experimentally anchored, context-rich labels. The Database of Antimicrobial Activity and Structure of Peptides (DBAAS...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Improving Molecular Docking Pose Recovery through Targeted Side-Chain Monte Carlo Sampling of an Apo Structure",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762659",
+      "source": "bioRxiv — bioinformatics",
+      "one_liner": "Receptor flexibility complicates molecular docking when only an unbound (apo) protein structure is available. Local side-chain rearrangements can alter binding-pocket accessibility and ligand complementarity, motivating approaches that sample these motions efficiently. Here, we evaluate a targeted Markov Chain Monte Carlo (MCMC) protocol that combines loc...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "Beyond Antibodies: Glypican-3-Targeting Peptides for Precision Hepatocellular Carcinoma Theranostics.",
+      "url": "https://doi.org/10.1002/psc.70134",
+      "source": "PubMed — Journal of peptide science : an official publication of the European Peptide Society",
+      "one_liner": "Glypican-3 (GPC-3) is a cell-surface glycoprotein, highly expressed in hepatocellular carcinoma (HCC) but largely absent in normal adult liver tissues, making it a clinically compelling biomarker and therapeutic target. Although monoclonal antibodies and antibody-drug conjugates have proven to be GPC-3-targeted therapies, their large molecular size, slow ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Context-Dependent Dynamic Coupling in Residue Contact Networks Underlies Thermodynamic Non-Additivity in Protein Double Mutants.",
+      "url": "https://doi.org/10.1002/bip.70128",
+      "source": "PubMed — Biopolymers",
+      "one_liner": "Protein engineering often combines multiple mutations, yet predicting how these combinations affect stability remains a fundamental challenge. The double-mutant effect often departs from the sum of its constituent single-mutant contributions, a phenomenon known as mutation epistasis or non-additivity. Anticipating this is critical, as the number of candid...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "The X-ray crystallographic structure of a designed, self-assembling, and heme-binding protein.",
+      "url": "https://doi.org/10.1002/pro.70829",
+      "source": "PubMed — Protein science : a publication of the Protein Society",
+      "one_liner": "De novo heme-binding proteins offer powerful minimal scaffolds for elucidating how sequence, oligomerization, and environment rule cofactor coordination, yet high-resolution structural data for these systems remain scarce. Here, we report the high-resolution crystal structure of a designed, self-assembling α-helical and heme-binding protein determined at ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.2,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Integrative Protein Assembly With LZerD and Deep Learning in CAPRI 47-55.",
+      "url": "https://doi.org/10.1002/prot.26818",
+      "source": "PubMed — Proteins",
+      "one_liner": "We report the performance of the protein complex prediction approaches of our group and their results in CAPRI Rounds 47-55, excluding the joint CASP Rounds 50 and 54, as well as the special COVID-19 Round 51. Our approaches integrated classical pipelines developed in our group as well as more recently developed deep learning pipelines. In the cases of hu...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Contribution of chromosome-na\\\"ive transposon-seeded network of DNA templates to intracellular pools of protein dimers of liquid-liquid phase-separated condensate-forming proteins",
+      "url": "https://arxiv.org/abs/2610.41029",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.41029v1 Announce Type: new \nAbstract: Molecular mechanisms governing protein-protein interactions (PPI) contributing to the biogenesis of membraneless condensates remain poorly understood. Observations reported in this contribution demonstrate that liquid-liquid phase-separated (LLPS) condensate-forming proteins and their variants harboring con...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.4,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Locality-Controlled Out-of-Distribution Guidance for Robust Regulatory DNA Sequence Design",
+      "url": "https://arxiv.org/abs/2610.41736",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.41736v1 Announce Type: new \nAbstract: Designing regulatory DNA sequences for targeted gene-expression control is an important challenge. Recent approaches frame this task as property-conditioned generation, where diffusion models trained on natural sequences are guided toward high predicted activity through reward-based fine-tuning or sampling-...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Localizing predictive concepts encoded in neural representations via hierarchical testing",
+      "url": "https://arxiv.org/abs/2610.41046",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.41046v1 Announce Type: new \nAbstract: Understanding which regulatory sequence motifs a genomic deep learning model has learned, with statistical error guarantees, is essential for trusting its use in downstream tasks such as variant effect prediction. Existing approaches to identifying which units in a trained network encode human- understandab...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
