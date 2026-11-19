@@ -1,0 +1,308 @@
+{
+  "timestamps": [
+    0.0,
+    227.74,
+    445.91,
+    653.97,
+    864.47,
+    1070.64
+  ],
+  "items": [
+    {
+      "title": "Biases and Limits of AlphaFold Predictions for Non-Globular Proteins",
+      "url": "https://arxiv.org/abs/2611.24546",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2611.24546v1 Announce Type: new \nAbstract: AlphaFold has transformed protein structure prediction, making structural models accessible across the life sciences. We explore experimentally validated cases of non-globular proteins to uncover where predictions diverge from biologically relevant structural states and how molecular context shapes these di...",
+      "segment": 3,
+      "timestamp": 653.97,
+      "highlighted": true,
+      "relevance": 12.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "From static structures to conformational ensembles: Artificial intelligence for protein sampling and dynamics.",
+      "url": "https://doi.org/10.1016/j.sbi.2026.103438",
+      "source": "PubMed — Current opinion in structural biology",
+      "one_liner": "After sparking a revolution in protein structure prediction, machine learning (ML), and artificial intelligence (AI) are now reshaping the modeling of protein conformational ensembles and dynamics. A fast, scalable, and accurate representation of protein conformational ensembles could enable genome-scale studies of protein function, with broad application...",
+      "segment": 3,
+      "timestamp": 653.97,
+      "highlighted": true,
+      "relevance": 15.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "SynAb: Interpretable heavy-light chain synergy modeling for generalizable antibody-antigen interaction prediction.",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2026.155300",
+      "source": "PubMed — International journal of biological macromolecules",
+      "one_liner": "Accurate prediction of antibody-antigen interactions (AAIs) is essential for therapeutic antibody discovery and high-throughput antibody screening. However, existing sequence-based methods often model antibody heavy and light chains independently, overlooking their cooperative contribution to antigen recognition. In this study, we propose SynAb, a synergy...",
+      "segment": 4,
+      "timestamp": 864.47,
+      "highlighted": true,
+      "relevance": 15.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "De Novo Design Peptide Probe Enables Super-Resolution Imaging of MFGE8-Integrin Nanoscale Signaling Platforms in Triple-Negative Breast Cancer.",
+      "url": "https://doi.org/10.1021/acs.analchem.6c03531",
+      "source": "PubMed — Analytical chemistry",
+      "one_liner": "Super-resolution imaging based on conventional antibody labeling can introduce linkage amplification effects, while the resulting antibody complexes may also cause substantial steric hindrance. Therefore, nanoscale imaging of ligand proteins on the cell membrane under low-perturbation conditions remains challenging. In this study, we developed a structure...",
+      "segment": 1,
+      "timestamp": 227.74,
+      "highlighted": true,
+      "relevance": 10.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "ProteinGeoBench: Frontier Structural-Biology Agents Are Fluent at Lookup but Lost in Geometry",
+      "url": "https://arxiv.org/abs/2610.26829",
+      "source": "arXiv q-bio.BM",
+      "one_liner": "arXiv:2610.26829v2 Announce Type: replace-cross \nAbstract: ProteinGeoBench is a set of 131 tasks that give an agent protein structure files and ask it to look up recorded facts, check sequences, calculate geometry from atom coordinates or reason about structures. We ran four frontier models on every task several times (4,249 runs) and 26 models on a subse...",
+      "segment": 0,
+      "timestamp": 0.0,
+      "highlighted": true,
+      "relevance": 8.0,
+      "tags": [
+        "protein-design",
+        "preprint",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Protein language model-assisted screening of bitter peptides from",
+      "url": "https://doi.org/10.1039/d6fo02313d",
+      "source": "PubMed — Food & function",
+      "one_liner": "Bitterness is a major limitation in the utilization of plant-derived proteins in food systems, while conventional identification of bitter peptides is labor-intensive and inefficient. Advances in food informatics, particularly protein language models, provide new opportunities for predicting the properties of food chemicals. In this study, we developed a ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 10.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Mutation and ACE2-induced allosteric network rewiring in Delta and Omicron SARS-CoV-2 spike proteins.",
+      "url": "https://doi.org/10.1016/j.bpj.2026.01.017",
+      "source": "PubMed — Biophysical journal",
+      "one_liner": "The spike protein of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) mediates viral entry by binding its receptor-binding domain (RBD) to the host receptor ACE2. Spike mutations in different variants have been experimentally shown to influence the rate of conformational transitions and alter viral infectivity. In parallel, both experimental a...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 8.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Reprogramming Protein Function by Expanding Chemical and Combinatorial Space: Integrating Chemical and Computational Strategies.",
+      "url": "https://doi.org/10.1002/bit.70445",
+      "source": "PubMed — Biotechnology and bioengineering",
+      "one_liner": "Proteins are biological macromolecules that perform critical functions, including catalysis, molecular recognition, and cellular regulation. Natural evolution has generated remarkable protein diversity, leaving vast opportunities for engineered molecular innovation. Protein engineering has evolved from the rational design of proteins over the last few dec...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 7.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Interactions of charge-diverse polysaccharides and the major royal jelly protein: Mechanisms and food system design.",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.152175",
+      "source": "PubMed — Food chemistry",
+      "one_liner": "Edible insect proteins have gained significant interest as a promising ingredient in food industry. Major royal jelly proteins (MRJPs) are a unique and functional insect-based protein, which have been widely incorporated into food systems. In present work, the interaction mechanisms between MRJP and six polysaccharides possessing different charge properti...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Generative continuous time model reveals epistatic signatures in protein evolution.",
+      "url": "https://doi.org/10.1093/gbe/evag281",
+      "source": "PubMed — Genome biology and evolution",
+      "one_liner": "Protein evolution is fundamentally shaped by epistasis, where the effect of a mutation depends on the sequence context. As standard phylogenetic methods assume independently evolving sites, there is a need for more complex models based on accurate estimations of the fitness landscape. Good candidates are modern generative models - such as the Potts model ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.4,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Docking and SPR identify candidate interactions between Apolipoprotein A-I and chemokine receptors",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766677",
+      "source": "bioRxiv — molecular biology",
+      "one_liner": "Background: Apolipoprotein A1 (ApoA1), the main protein component of high-density lipoprotein, suppresses chemokine-driven leukocyte migration. This effect is usually attributed to indirect mechanisms such as cholesterol efflux, changes in lipid rafts, and altered receptor expression. Whether ApoA1 interacts with chemokine receptors directly is not known....",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.2,
+      "tags": [
+        "biorxiv",
+        "preprint",
+        "biology"
+      ]
+    },
+    {
+      "title": "CSF and serum protein patterns can distinguish fibromyalgia subjects from controls and are associated with anti-satellite glia cell antibody levels.",
+      "url": "https://doi.org/10.1016/j.bbi.2026.107282",
+      "source": "PubMed — Brain, behavior, and immunity",
+      "one_liner": "Although fibromyalgia (FM) is not classified as an autoimmune disease, the discovery of anti-satellite glia cell IgG (anti-SGC IgG) autoantibodies in a subgroup of subjects has reignited the debate regarding the role of autoimmune mechanisms in FM pathophysiology. This open question further extends to the association between antibody and immune status. He...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Sulfo‑DIBMA encapsulation uniquely preserves signalling‑competent active states of Class B1 GPCRs, CGRP and PTH1 receptors in native‑like nanodiscs.",
+      "url": "https://doi.org/10.1042/BSR20260500",
+      "source": "PubMed — Bioscience reports",
+      "one_liner": "Class B1 G‑protein‑coupled receptors (GPCRs), such as the calcitonin gene‑related peptide (CGRP) receptor and parathyroid hormone 1 (PTH1) receptor, require native lipid interactions to maintain signalling‑competent conformations. However, conventional detergents disrupt these environments. Amphipathic copolymers offer a detergent‑free alternative, yet th...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Bile Acid Sequestration by Soy Peptide Condensates Modulates the Digestion Fate of Soy 7S Protein Aggregates.",
+      "url": "https://doi.org/10.1021/acs.jafc.6c09265",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "The physiological functions of soy protein are commonly attributed to bioactive peptides released during digestion, whereas the roles of digestion-derived protein assemblies remain poorly understood. Here, we investigated two assemblies generated from soy 7S globulin, digestion-resistant core region (CR) aggregates and extension region (ER) peptide conden...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Rational Engineering of α-CGTase from Paenibacillus macerans for Enhanced Thermostability and Product Specificity.",
+      "url": "https://doi.org/10.1021/acs.jafc.6c11181",
+      "source": "PubMed — Journal of agricultural and food chemistry",
+      "one_liner": "Cyclodextrin glycosyltransferases are key biocatalysts for α-cyclodextrin (α-CD) production but are limited by insufficient thermostability and suboptimal product selectivity. Here, an α-CGTase from Paenibacillus macerans was modified via PROSS-aided design, Gibbs free-energy prediction and iterative combinatorial mutagenesis. M6 (G339D/I186L/N205P/E299 K...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.0,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "Recombinant Production and Refolding of an Aggregation-Prone Engineered Human Leptin Variant.",
+      "url": "https://doi.org/10.1016/j.pep.2026.107038",
+      "source": "PubMed — Protein expression and purification",
+      "one_liner": "Here we describe the production, purification, refolding and biophysical characterization of W100E-3C, a human leptin variant derived from the W100E construct by introducing one cysteine at a solvent-exposed site outside the currently defined receptor-binding interfaces. Mature leptin carries only the two cysteines of its native disulfide bond, so W100E-3...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 4.6,
+      "tags": [
+        "pubmed",
+        "journal",
+        "biology"
+      ]
+    },
+    {
+      "title": "AI bio startup Boltz raises $110M Series A",
+      "url": "https://endpoints.news/ai-bio-startup-boltz-raises-110m-series-a/",
+      "source": "Endpoints News",
+      "one_liner": "LONDON — Less than a year after launching from stealth with $28 million, the AI bio startup Boltz has raised a $110 million Series A round, its leaders exclusively told Endpoints News.\n\n The ...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 5.0,
+      "tags": [
+        "biotech",
+        "industry"
+      ]
+    },
+    {
+      "title": "The Effectiveness and Durability of Pretraining Data Filtering in Protein Language Models",
+      "url": "https://arxiv.org/abs/2610.26651",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2610.26651v2 Announce Type: replace \nAbstract: Pretraining filtering is one of the most common safeguards for open-weight language models. Here we study its effectiveness, durability and scalability using the ESM-2 family of protein language models. We find that filtering viral proteins from the pretraining data meaningfully degrades masked language...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 12.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Uneven gains in protein-RNA affinity and mutation-effect prediction",
+      "url": "https://arxiv.org/abs/2611.24739",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2611.24739v1 Announce Type: new \nAbstract: Accurate matched affinities determine mutation effects, but gains in aggregate affinity prediction may transfer unevenly to average effects, ordering and local accuracy. We evaluated eleven method families using method-specific matched populations. Controlled CoPRA reduced absolute-affinity mean absolute er...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 12.0,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    },
+    {
+      "title": "Are You Learning Biological Signal or Shortcuts? Auditing and Mitigating Bias in Protein-Protein Interaction Datasets",
+      "url": "https://arxiv.org/abs/2609.10193",
+      "source": "arXiv cs.LG (AI/ML)",
+      "one_liner": "arXiv:2609.10193v2 Announce Type: replace-cross \nAbstract: Protein-protein interaction (PPI) databases do not faithfully reflect biological realities. Instead, they are influenced by study and technical biases that distort certain protein and interaction attributes. Machine learning models can exploit these as learning shortcuts if the negative dataset is...",
+      "segment": -1,
+      "timestamp": -1,
+      "highlighted": false,
+      "relevance": 6.6,
+      "tags": [
+        "machine-learning",
+        "arxiv"
+      ]
+    }
+  ]
+}
