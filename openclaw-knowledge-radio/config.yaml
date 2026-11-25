@@ -757,7 +757,7 @@ llm:
   provider: "openrouter"
   # Fallbacks span distinct upstream providers so one provider's rate-limit
   # doesn't take out the whole chain.
-  # Removed (404 / leaks CoT / rate-limited):
+  # Removed (404 / leaks CoT / rate-limited / empty content):
   #   nvidia/nemotron-3-super-120b-a12b:free — leaks CoT on every synthesis section
   #   meta-llama/llama-3.3-70b-instruct:free — 404 as of 2026-09-27
   #   qwen/qwen3-30b-a3b:free              — 404 as of 2026-09-27
@@ -765,14 +765,16 @@ llm:
   #   openai/gpt-oss-120b:free             — 404 as of 2026-09-22
   #   google/gemini-2.0-flash-exp:free     — 404 (removed earlier)
   #   google/gemma-3-27b-it:free           — 404 (removed earlier)
-  model: "qwen/qwen3.8-27b:free"
+  #   qwen/qwen3.8-27b:free               — 404 as of 2026-11-20 (moved to paid-only)
+  #   poolside/laguna-s-2.1:free          — 404 as of 2026-11-20 (dropped by OpenRouter)
+  model: "baidu/ernie-5.5-flash-preview:free"
   model_fallbacks:
-    - "poolside/laguna-s-2.1:free"
-    - "google/gemma-4-26b-a4b-it:free"
     - "google/gemma-4-31b-it:free"
-  analysis_model: "qwen/qwen3.8-27b:free"
+    - "google/gemma-4-26b-a4b-it:free"
+    - "inclusionai/ling-3.2-flash:free"
+  analysis_model: "baidu/ernie-5.5-flash-preview:free"
   analysis_model_fallbacks:
-    - "poolside/laguna-s-2.1:free"
+    - "google/gemma-4-31b-it:free"
     - "google/gemma-4-26b-a4b-it:free"
   api_key_env: "OPENROUTER_API_KEY"
   temperature: 0.25

@@ -62,6 +62,10 @@ _DISCOVERY_EXCLUDE = (
     "2.6b",            # < 7B — too small to write synthesis prose
     "1b:",             # < 7B
     "0b:",             # < 7B
+    # Models confirmed to return empty content on synthesis tasks (2026-11-25):
+    "nemotron-3",      # nvidia/nemotron-3-ultra-550b and nemotron-3.5-* all silent
+    "particle-ai/",    # particle-ai/particle-1 returns empty content
+    "recursive/",      # recursive/flint-v1.0 returns empty content
 )
 
 
